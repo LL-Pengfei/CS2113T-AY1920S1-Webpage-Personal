@@ -59,45 +59,47 @@
 
 {% macro show_unit(id_prefix, location) %}
 {% set full_path = location.join("/") %}
-<panel type="danger" expanded no-close >
+<panel type="danger" no-close >
 <span slot="header" class="panel-title"><md>`{{ id_prefix }}{{ "a" }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
 </panel>
 
 {% endmacro %}
 
-{% macro show_outcome(entries, params={}) %} 
+{% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", heading: "n/a"}) %} 
 <panel no-close expanded >
-<span slot="header" class="panel-title"><md>`{{ params.prefix }}` **{{ params.heading }}**</md> </span>
+{% set  prefix = "W" + params.week_num + "." + params.starting_index%} 
+<span slot="header" class="panel-title"><md>`{{ prefix }}` **{{ params.heading }}**</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
-{{ show_unit(params.prefix, entry.location) }}
+{{ show_unit(prefix, entry.location) }}
   {% endif %}
 {% endfor %}
 </panel>
 {% endmacro %}
 
 
-{% macro show_outcome_group(entries, params={}) %} 
+{% macro show_outcome_group(entries, params={name: "n/a", week_num: "n/a", starting_index: "n/a"}) %} 
 <span class="activity-desc">{{ params.name }}</span>
 <div class="indented">
+{% set  outcome_number = params.starting_index | int %} 
 {% for entry in entries  %} 
   {% if entry.heading %} 
-{{ apply_to("heading", entry.heading, entries, show_outcome, {prefix: params.prefix, heading: entry.heading}) }}
+{{ apply_to("heading", entry.heading, entries, show_outcome, {week_num: params.week_num, starting_index: outcome_number , heading: entry.heading}) }}
+{% set  outcome_number = outcome_number + 1 %}
   {% endif %}
 {% endfor %}
 </div>
+<p/>
 {% endmacro %}
 
 
-{% macro show_week(entries, params={}) %}
-{% set i = 0 %} 
+{% macro show_week(entries, params={week_num: "n/a"}) %}
+{% set i = 1 %} 
 {% for entry in entries  %} 
   {% if entry.name %}
-  {% set i = i + 1 %} 
-{{ apply_to("name", entry.name, entries, show_outcome_group, {name: entry.name, prefix: "W" + params.week_num + "." + i}) }}
-<p/>
-
+{{ apply_to("name", entry.name, entries, show_outcome_group, {name: entry.name, week_num: params.week_num, starting_index: i}) }}
+  {% set i = i + 2 %} 
   {% endif %}
 {% endfor %}
 {% endmacro %}

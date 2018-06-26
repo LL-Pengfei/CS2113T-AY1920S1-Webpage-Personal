@@ -60,7 +60,7 @@
 {% macro show_unit(id_prefix, location) %}
 {% set full_path = location.join("/") %}
 <panel type="danger" no-close >
-<span slot="header" class="panel-title"><md>`{{ id_prefix }}{{ "a" }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
+<span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
 </panel>
 
@@ -68,11 +68,14 @@
 
 {% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", heading: "n/a"}) %} 
 <panel no-close expanded >
-{% set  prefix = "W" + params.week_num + "." + params.starting_index%} 
+{% set  prefix = "W" + params.week_num + "." + params.starting_index%}
+{% set letters = "abcdefghijklmnop" | list %} 
+{% set letter_index = 0 %} 
 <span slot="header" class="panel-title"><md>`{{ prefix }}` **{{ params.heading }}**</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
-{{ show_unit(prefix, entry.location) }}
+{{ show_unit(prefix + letters[letter_index], entry.location) }}
+{% set letter_index = letter_index + 1 %}
   {% endif %}
 {% endfor %}
 </panel>

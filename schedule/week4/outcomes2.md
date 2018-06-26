@@ -114,11 +114,25 @@
 {% endmacro %}
 
 
+{% macro get_unit_priority(unit)%}
+{% if unit.priority %} 
+  {{unit.priority}}
+{% elseif unit.location %}
+  {% set chapter = unit.location[0] %}
+  {% set path_as_array = unit.location.slice(1,4) %}
+  {{ config.get_priority(chapter, path_as_array) }}
+{% else %}
+  {{ 5 }}
+{% endif %}
+{% endmacro %}
+
 {% macro get_collective_priority(entries)%} 
 {% set priority = 4 %} 
 {% for entry in entries %} 
-
-
+  {% set entry_priority = get_unit_priority(entry) | trim | int %} 
+  {% if (entry_priority) < priority %} 
+    {% set priority = entry_priority %}
+  {% endif %}
 {% endfor %}
 {{ priority }}
 {% endmacro %}
@@ -213,30 +227,30 @@
     {heading: "Can explain models"}, 
       {location: ["modeling", "introduction", "what"], omit_evidence: true},
       {location: ["modeling", "introduction", "how"]},
-    {heading: "Can explain OOP", priority: "1"}, 
+    {heading: "Can explain OOP"}, 
       {location: ["oopDesign", "introduction", "what"], omit_evidence: true},
       {location: ["oopDesign", "objects", "basic"]},
       {location: ["oopDesign", "classes", "basic"]},
       {location: ["oopDesign", "objects", "abstraction"], omit_evidence: true},
       {location: ["oopDesign", "objects", "encapsulation"], omit_evidence: true},
-    {heading: "Can explain basic object/class structures", priority: "1"}, 
+    {heading: "Can explain basic object/class structures"}, 
       {location: ["modeling", "modelingStructures", "ooStructures"], omit_evidence: true},
       {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
       {location: ["uml", "miscellaneous", "objectVsClassDiagrams"], omit_evidence: true},
   {name: "Implementation"},
-    {heading: "Can implement classes", priority: "1"},
+    {heading: "Can implement classes"},
       {location: ["oopImplementation", "classes"]},
       {location: ["oopImplementation", "associations"]},
-    {heading: "Can do exception handling in code", priority: "2"}, 
+    {heading: "Can do exception handling in code"}, 
       {location: ["errorHandling", "introduction", "what"], omit_evidence: true},
       {location: ["errorHandling", "exceptions", "what"], omit_evidence: true},
       {location: ["errorHandling", "exceptions", "how"]},
       {location: ["errorHandling", "exceptions", "when"], omit_evidence: true},
-    {heading: "Can use Java enumerations", priority: "3"},
+    {heading: "Can use Java enumerations"},
       {location: ["oopDesign", "classes", "enumerations"]},
       {location: ["javaTools", "enums"]},
   {name: "Project Management"}, 
-    {heading: "Can create PRs on GitHub", priority: "1"}, 
+    {heading: "Can create PRs on GitHub"}, 
       {location: ["revisionControl", "branching"]},
       {location: ["gitAndGithub", "branch"]},
       {location: ["gitAndGithub", "createPRs"]},

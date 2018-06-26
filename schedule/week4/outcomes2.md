@@ -63,7 +63,6 @@
 <span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
 </panel>
-
 {% endmacro %}
 
 {% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", heading: "n/a"}) %} 
@@ -102,9 +101,20 @@
 {% for entry in entries  %} 
   {% if entry.name %}
 {{ apply_to("name", entry.name, entries, show_outcome_group, {name: entry.name, week_num: params.week_num, starting_index: i}) }}
-  {% set i = i + 2 %} 
+  {% set i = i + apply_to("name", entry.name, entries, count_outcomes) | trim | int %} 
   {% endif %}
 {% endfor %}
+{% endmacro %}
+
+
+{% macro count_outcomes(entries, params={})%} 
+{% set count = 0 %} 
+{% for entry in entries %} 
+  {% if entry.heading %} 
+    {% set count = count + 1 %}
+  {% endif %}
+{% endfor %} 
+{{ count }}
 {% endmacro %}
 
 

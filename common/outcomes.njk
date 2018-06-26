@@ -1,31 +1,5 @@
 {% import "se-book-adapted/config.njk" as config with context %}
-
-{% macro show_priority_style_untrimmed(level) %}
-{% set label_style = {"1": "danger", "2": "warning", "3": "info", "4": "success"} %}
-{{ label_style[level] }}
-{% endmacro %}
-
-
-{% macro show_priority_style(level) %}{{ show_priority_style_untrimmed(level) | trim }}{% endmacro %}
-
-{% macro show_stars_untrimmed(level) %}
-{% if level == "1" %}
-  {{ one_star }}
-{% elseif level == "2" %}
-  {{ two_stars }}
-{% elseif level == "3" %}
-  {{ three_stars }}
-{% elseif level == "4" %}
-  {{ four_stars }}
-{% else %}
-  Unknown level !!! {{ level }}
-{% endif %}
-{% endmacro %}
-
-
-{% macro show_stars(level) %}{{ show_stars_untrimmed(level) | trim }}{% endmacro %}
-
-{# -------------- from macros.njk --------------------------- #}
+{% from "common/macros.njk" import  show_stars, show_priority_style with context %}
 
 
 {% macro get_start_index_untrimmed(filter_property, filter_value, entries) -%}

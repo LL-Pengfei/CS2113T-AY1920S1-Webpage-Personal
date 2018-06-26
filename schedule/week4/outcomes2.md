@@ -1,3 +1,14 @@
+{% import "se-book-adapted/config.njk" as config with context %}
+
+{% macro priority_style(level) %}
+{% set label_style = {"1": "danger", "2": "warning", "3": "info", "4": "success"} %}
+{{ label_style[level] }}
+{% endmacro %}
+
+
+{% macro show_priority_style(level) %}{{ priority_style(level) | trim }}{% endmacro %}
+
+{# -------------- from macros.njk --------------------------- #}
 
 {% macro print_list(entries) %} 
 {% for entry in entries %}
@@ -58,8 +69,12 @@
 
 
 {% macro show_unit(id_prefix, location) %}
+{% set chapter = location[0] %}
+{% set path_as_array = location.slice(1,4) %}
+{% set path = path_as_array.join("/") %}
 {% set full_path = location.join("/") %}
-<panel type="danger" no-close >
+{% set priority = config.get_priority(chapter, path_as_array) %}
+<panel type="{{ show_priority_style(priority) }}" no-close >
 <span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
 </panel>

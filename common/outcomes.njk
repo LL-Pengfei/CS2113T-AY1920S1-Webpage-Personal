@@ -200,6 +200,22 @@
 {% endmacro %}
 
 
+{% macro show_week_schedule(week_num, entries) %}
+<link rel="stylesheet" href="{{baseUrl}}/css/main.css">
+<link rel="stylesheet" href="{{baseUrl}}/css/schedule.css">
+
+<div class="website-content">
+
+## Week {{ week_num }} - Outcomes
+
+<div id="main">
+
+{{ apply_to("week", week_num, entries, show_week, {week_num: week_num}) }}
+
+</div>
+</div>
+
+{% endmacro %}
 
 
 {% set all_outcomes = [
@@ -229,24 +245,105 @@
       {location: ["gitAndGithub", "init"]},
       {location: ["revisionControl", "savingHistory"]},
       {location: ["gitAndGithub", "commit"], priority: "1", omit_evidence: true},
-      {location: ["gitAndGithub", "ignore"]}
+      {location: ["gitAndGithub", "ignore"]},
+{week: "3"},
+  {name: "Refactoring"},
+    {heading: "Can refactor code at a basic level"},
+      {location: ["refactoring", "what"]},
+      {location: ["intellij", "refactoring"]},
+      {location: ["refactoring", "how"]},
+      {location: ["refactoring", "when"]},
+  {name: "Code Quality"},
+    {heading: "Can follow a simple style guide"},
+      {location: ["codeQuality", "introduction", "basic"], omit_evidence: true},
+      {location: ["codeQuality", "followStandard", "introduction"]},
+      {location: ["codeQuality", "followStandard", "basic"]},
+      {location: ["codeQuality", "followStandard", "intermediate"]},
+    {heading: "Can improve code readability"},
+      {location: ["codeQuality", "maximiseReadability", "introduction"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "basic", "avoidLongMethods"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "basic", "avoidDeepNesting"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "basic", "avoidComplicatedExpressions"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "basic", "avoidMagicNumbers"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "basic", "makeCodeObvious"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "intermediate", "structureCodeLogically"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "intermediate", "dontTripReader"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "intermediate", "practiceKISSing"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "intermediate", "avoidPrematureOptimizations"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "intermediate", "slapHard"], omit_evidence: true},
+      {location: ["codeQuality", "maximiseReadability", "advanced", "makeHappyPathProminent"], omit_evidence: true},
+    {heading: "Can use good naming"},
+      {location: ["codeQuality", "nameWell", "introduction"], omit_evidence: true},
+      {location: ["codeQuality", "nameWell", "basic", "nounsAndVerbsAsNames"], omit_evidence: true},
+      {location: ["codeQuality", "nameWell", "basic", "useStandardWords"], omit_evidence: true},
+      {location: ["codeQuality", "nameWell", "intermediate", "useNameExplain"], omit_evidence: true},
+      {location: ["codeQuality", "nameWell", "intermediate", "notTooLongNorShort"], omit_evidence: true},
+      {location: ["codeQuality", "nameWell", "intermediate", "avoidMisleadingNames"], omit_evidence: true},
+    {heading: "Can avoid unsafe coding practices"},
+      {location: ["codeQuality", "avoidShortcuts", "introduction"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "basic", "useDefaultBranch"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "basic", "dontRecycleVarsOrParams"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "basic", "avoidEmptyCatchBlocks"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "basic", "deleteDeadCode"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "intermediate", "minimiseVariableScope"], omit_evidence: true},
+      {location: ["codeQuality", "avoidShortcuts", "intermediate", "minimiseCodeDuplication"], omit_evidence: true},
+    {heading: "Can write good code comments"},
+      {location: ["codeQuality", "commentMinimally", "introduction"], omit_evidence: true},
+      {location: ["codeQuality", "commentMinimally", "basic", "dontRepeatObvious"], omit_evidence: true},
+      {location: ["codeQuality", "commentMinimally", "basic", "writeToReader"], omit_evidence: true},
+      {location: ["codeQuality", "commentMinimally", "intermediate", "explainWhatWhyNotHow"], omit_evidence: true},
+  {name: "IDEs"},
+    {heading: "Can use intermediate level features of an IDE"},
+      {location: ["ides", "debugging", "what"], omit_evidence: true},
+      {location: ["intellij", "debuggingBasic"]},
+      {location: ["intellij", "productivityShortcuts"]},
+  {name: "Revision Control"},
+    {heading: "Can communicate with a remote repo"},
+      {location: ["revisionControl", "remoteRepositories"], omit_evidence: true},
+      {location: ["gitAndGithub", "clone"]},
+      {location: ["gitAndGithub", "pull"]},
+      {location: ["gitAndGithub", "push"]},
+    {heading: "Can traverse Git history"},
+      {location: ["revisionControl", "usingHistory"], omit_evidence: true},
+      {location: ["gitAndGithub", "checkout"]},
+      {location: ["gitAndGithub", "tag"]},
+      {location: ["gitAndGithub", "stash"]},
+  {name: "Other"},
+    {heading: "Can work with a 1KLoC code base ==[Compulsory]==", priority: "1", file: "outcome-1kloc.md"},
+{week: "4"},
+  {name: "Design"},
+    {heading: "Can explain models"},
+      {location: ["modeling", "introduction", "what"], omit_evidence: true},
+      {location: ["modeling", "introduction", "how"]},
+    {heading: "Can explain OOP"},
+      {location: ["oopDesign", "introduction", "what"], omit_evidence: true},
+      {location: ["oopDesign", "objects", "basic"]},
+      {location: ["oopDesign", "classes", "basic"]},
+      {location: ["oopDesign", "objects", "abstraction"], omit_evidence: true},
+      {location: ["oopDesign", "objects", "encapsulation"], omit_evidence: true},
+    {heading: "Can explain basic object/class structures"},
+      {location: ["modeling", "modelingStructures", "ooStructures"], omit_evidence: true},
+      {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
+      {location: ["uml", "miscellaneous", "objectVsClassDiagrams"], omit_evidence: true},
+  {name: "Implementation"},
+    {heading: "Can implement classes"},
+      {location: ["oopImplementation", "classes"]},
+      {location: ["oopImplementation", "associations"]},
+    {heading: "Can do exception handling in code"},
+      {location: ["errorHandling", "introduction", "what"], omit_evidence: true},
+      {location: ["errorHandling", "exceptions", "what"], omit_evidence: true},
+      {location: ["errorHandling", "exceptions", "how"]},
+      {location: ["errorHandling", "exceptions", "when"], omit_evidence: true},
+    {heading: "Can use Java enumerations"},
+      {location: ["oopDesign", "classes", "enumerations"]},
+      {location: ["javaTools", "enums"]},
+  {name: "Project Management"},
+    {heading: "Can create PRs on GitHub"},
+      {location: ["revisionControl", "branching"]},
+      {location: ["gitAndGithub", "branch"]},
+      {location: ["gitAndGithub", "createPRs"]},
+      {location: ["gitAndGithub", "mergeConflicts"]},
+      {location: ["gitAndGithub", "managePRs"]}
 ]%}
 
 
-
-{% macro show_week_schedule(week_num) %}
-<link rel="stylesheet" href="{{baseUrl}}/css/main.css">
-<link rel="stylesheet" href="{{baseUrl}}/css/schedule.css">
-
-<div class="website-content">
-
-## Week {{ week_num }} - Outcomes
-
-<div id="main">
-
-{{ apply_to("week", week_num, all_outcomes, show_week, {week_num: week_num}) }}
-
-</div>
-</div>
-
-{% endmacro %}

@@ -101,12 +101,12 @@
 </panel>
 {% endmacro %}
 
-{% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", heading: "n/a"}) %} 
+{% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", outcome: "n/a"}) %} 
 {% set  prefix = "W" + params.week_num + "." + params.starting_index%}
 {% set letters = "abcdefghijklmnop" | list %} 
 {% set letter_index = 0 %} 
 <panel no-close expanded >
-<span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.heading }}**</md> </span>
+<span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.outcome.heading }}** {{ show_stars(params.outcome.priority) }}</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
 {{ show_unit(prefix + letters[letter_index], entry) }}
@@ -123,7 +123,7 @@
 {% set  outcome_number = params.starting_index | int %} 
 {% for entry in entries  %} 
   {% if entry.heading %} 
-{{ apply_to("heading", entry.heading, entries, show_outcome, {week_num: params.week_num, starting_index: outcome_number , heading: entry.heading}) }}
+{{ apply_to("heading", entry.heading, entries, show_outcome, {week_num: params.week_num, starting_index: outcome_number , outcome: entry}) }}
 {% set  outcome_number = outcome_number + 1 %}
   {% endif %}
 {% endfor %}

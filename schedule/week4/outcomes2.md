@@ -8,6 +8,23 @@
 
 {% macro show_priority_style(level) %}{{ priority_style(level) | trim }}{% endmacro %}
 
+{% macro show_priority(level) %}
+{% if level == "1" %}
+  {{ one_star }}
+{% elseif level == "2" %}
+  {{ two_stars }}
+{% elseif level == "3" %}
+  {{ three_stars }}
+{% elseif level == "4" %}
+  {{ four_stars }}
+{% else %}
+  Unknown level !!! {{ level }}
+{% endif %}
+{% endmacro %}
+
+
+{% macro show_stars(level) %}{{ show_priority(level) | trim }}{% endmacro %}
+
 {# -------------- from macros.njk --------------------------- #}
 
 {% macro print_list(entries) %} 
@@ -68,14 +85,18 @@
 {% endmacro %}
 
 
-{% macro show_unit(id_prefix, location) %}
-{% set chapter = location[0] %}
-{% set path_as_array = location.slice(1,4) %}
+{% macro show_unit(id_prefix, unit) %}
+{% set chapter = unit.location[0] %}
+{% set path_as_array = unit.location.slice(1,4) %}
 {% set path = path_as_array.join("/") %}
-{% set full_path = location.join("/") %}
-{% set priority = config.get_priority(chapter, path_as_array) %}
+{% set full_path = unit.location.join("/") %}
+{% if not unit.priority %}
+  {% set priority = config.get_priority(chapter, path_as_array) %}
+{% else %}
+  {% set priority = unit.priority %}
+{% endif %}
 <panel type="{{ show_priority_style(priority) }}" no-close >
-<span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/></md></span>
+<span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/> {{ show_stars(priority) }}</md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
 </panel>
 {% endmacro %}
@@ -88,7 +109,7 @@
 <span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.heading }}**</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
-{{ show_unit(prefix + letters[letter_index], entry.location) }}
+{{ show_unit(prefix + letters[letter_index], entry) }}
 {% set letter_index = letter_index + 1 %}
   {% endif %}
 {% endfor %}

@@ -84,6 +84,15 @@
 {{ op(entries.slice(start, end), params) }}
 {% endmacro %}
 
+{% macro show_evidence(chapter, unit_location) %}
+{{ dashed_line | safe}}
+
+{{evidence}}
+
+<include src="../evidence/{{ chapter }}.md#{{ unit_location | replace("/", "_")}}" />
+
+{% endmacro %}
+
 
 {% macro show_unit(id_prefix, unit) %}
 {% set chapter = unit.location[0] %}
@@ -98,6 +107,9 @@
 <panel type="{{ show_priority_style(priority) }}" no-close >
 <span slot="header" class="panel-title"><md>`{{ id_prefix }}` <include src="../../book/{{  full_path }}/text.md#outcomes" inline/> {{ show_stars(priority) }}</md></span>
   <include src="../../book/{{ full_path }}/unit-inElsewhere-asFlat.md" boilerplate />
+  {% if not unit.omit_evidence %}
+  {{ show_evidence(chapter, path) }}
+  {% endif %}
 </panel>
 {% endmacro %}
 

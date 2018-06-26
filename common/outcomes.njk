@@ -27,12 +27,6 @@
 
 {# -------------- from macros.njk --------------------------- #}
 
-{% macro print_list(entries) %}
-{% for entry in entries %}
-{{ loop.index }} {{ entry.week | default("-") + "/" + entry.day | default("-") + "/" + entry.session | default("-") }}
-{% endfor %}
-{% endmacro %}
-
 
 {% macro get_start_index_untrimmed(filter_property, filter_value, entries) -%}
 {% set start = "-1" %}

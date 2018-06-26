@@ -66,11 +66,11 @@
 {% endmacro %}
 
 {% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", heading: "n/a"}) %} 
-<panel no-close expanded >
 {% set  prefix = "W" + params.week_num + "." + params.starting_index%}
 {% set letters = "abcdefghijklmnop" | list %} 
 {% set letter_index = 0 %} 
-<span slot="header" class="panel-title"><md>`{{ prefix }}` **{{ params.heading }}**</md> </span>
+<panel no-close expanded >
+<span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.heading }}**</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
 {{ show_unit(prefix + letters[letter_index], entry.location) }}

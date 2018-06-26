@@ -113,12 +113,28 @@
 </panel>
 {% endmacro %}
 
-{% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", outcome: "n/a"}) %} 
+
+{% macro get_collective_priority(entries)%} 
+{% set priority = 4 %} 
+{% for entry in entries %} 
+
+
+{% endfor %}
+{{ priority }}
+{% endmacro %}
+
+
+{% macro show_outcome(entries, params={week_num: "n/a", starting_index: "n/a", outcome: "n/a"}) %}
+{% if not params.outcome.priority %}
+  {% set priority = get_collective_priority(entries) | trim %}
+{% else %}
+  {% set priority = params.outcome.priority %}
+{% endif %} 
 {% set  prefix = "W" + params.week_num + "." + params.starting_index%}
 {% set letters = "abcdefghijklmnop" | list %} 
 {% set letter_index = 0 %} 
 <panel no-close expanded >
-<span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.outcome.heading }}** {{ show_stars(params.outcome.priority) }}</md> </span>
+<span slot="header" class="panel-title"><md>`{{ prefix | trim }}` **{{ params.outcome.heading }}** {{ show_stars(priority) }}</md> </span>
 {% for entry in entries  %} 
   {% if entry.location %} 
 {{ show_unit(prefix + letters[letter_index], entry) }}
@@ -187,14 +203,14 @@
 {% set all_outcomes = [
 {week: "3"},
   {name: "Design"}, 
-    {heading: "Can explain models", priority: "3"}, 
+    {heading: "Can explain models"}, 
       {location: ["modeling", "introduction", "what"], omit_evidence: true},
       {location: ["modeling", "introduction", "how"]},
     {heading: "Can explain OOP", priority: "1"}, 
       {location: ["oopDesign", "introduction", "what"], omit_evidence: true},
 {week: "4"},
   {name: "Design"}, 
-    {heading: "Can explain models", priority: "3"}, 
+    {heading: "Can explain models"}, 
       {location: ["modeling", "introduction", "what"], omit_evidence: true},
       {location: ["modeling", "introduction", "how"]},
     {heading: "Can explain OOP", priority: "1"}, 

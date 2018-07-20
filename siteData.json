@@ -108,7 +108,7 @@
         "using-milestones": "Using Milestones:",
         "workflow": "Workflow"
       },
-      "title": "Admin: E: Using GitHub Project Hosting",
+      "title": "Admin: E: Using GitHub",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "src": "admin/appendixE-gitHub.md"

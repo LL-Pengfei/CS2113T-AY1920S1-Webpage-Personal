@@ -1,0 +1,25 @@
+2018-07-23T02:35:24.721Z - info: Deployed!
+2018-07-23T03:03:23.157Z - info: Deployed!
+2018-07-23T03:23:12.974Z - info: Pages built
+2018-07-23T03:23:13.078Z - info: Site data built
+2018-07-23T03:23:13.084Z - info: Generate Site durationMs=33628
+2018-07-23T03:23:13.310Z - info: Serving "E:\Teaching\CS2113\website-base\_site" at http://127.0.0.1:8080
+2018-07-23T03:23:13.310Z - info: Press CTRL+C to stop ...
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week10\tutorial.md
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week13\tutorial.md
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week12\tutorial.md
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week11\tutorial.md
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week2\tutorial.md
+2018-07-23T03:23:15.287Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week6\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week4\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week5\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week3\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week7\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week8\tutorial.md
+2018-07-23T03:23:15.288Z - info: Reload for file change: E:\Teaching\CS2113\website-base\schedule\week9\tutorial.md
+2018-07-23T03:23:15.556Z - info: Reload for file add: E:\Teaching\CS2113\website-base\common\tutorial.njk
+2018-07-23T03:23:16.306Z - verbose: Rebuild affected paths: E:\Teaching\CS2113\website-base\schedule\week10\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week13\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week12\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week11\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week2\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week6\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week4\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week5\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week3\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week7\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week8\tutorial.md,E:\Teaching\CS2113\website-base\schedule\week9\tutorial.md
+2018-07-23T03:23:16.307Z - info: Rebuilding 2 pages
+2018-07-23T03:23:17.405Z - info: Assets built
+2018-07-23T03:23:26.641Z - info: Pages rebuilt
+2018-07-23T03:23:26.652Z - info: Site data built

@@ -12,34 +12,44 @@
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
     <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
+</script>
+
+<link rel="stylesheet" href="/website-base/css/main.css">
+<link rel="stylesheet" href="/website-base/css/schedule.css">
     <link rel="icon" href="/website-base/favicon.ico">
 </head>
 <body>
 <div id="app" class="container-fluid">
-    <link rel="stylesheet" href="/website-base/css/main.css">
-<link rel="stylesheet" href="/website-base/css/schedule.css">
-<div>
+    <div>
   <navbar placement="top" type="inverse">
-    <a slot="brand" href="/website-base/index-flat.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '18 <span class="badge badge-primary"><span class="fas fa-bars"></span> flat</span></small></a>
+    <a slot="brand" href="/website-base/index-flat.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-primary"><span class="fas fa-bars"></span> flat</span></small></a>
     <li><a href="/website-base/index.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-clone"></span> nested</span></a></li>
     <li><a href="/website-base/index-flat.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
     <li><a href="/website-base/se-book-adapted/index-flat.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
     <li><a href="/website-base/admin/index-flat.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
     <dropdown text="Links" class="nav-link">
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-      <li><a href="https://nus-cs2103-ay1718s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+      <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
       <li><a href="https://docs.google.com/document/d/e/2PACX-1vQNqBNRmqyfJO2NtmbJiunrHcWMf_N_9JxbPKMi1Q3UZY2RZt9EKeoowZn79CKfhFf0vMKeQNy3jEv5/pub?embed=true" target="_blank" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
       <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
       <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
       <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
       <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
       <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
       <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
     </dropdown>
   </navbar>
@@ -266,7 +276,7 @@
                   <h3 id="v11-product">v1.1 Product</h3>
                   <ul>
                     <li>Each member should try to add some enhancements that are in line with the vision for v2.0. Preferably, these <mark>should be <tooltip content="should go beyond the component you are in charge of"><em>global-impact</em></tooltip> enhancements</mark>,
-                      touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
+                      touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2113-base.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
                   </ul>
                 </div>
               </div>
@@ -1366,7 +1376,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
               <div>
                 <ol>
                   <li>Your code (can be toy examples) that use some Java 8 features.</li>
-                  <li>Explain some parts of [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/">AddressBook - Level 4</a>] code that use Java 8 features. e.g. <code>AddressBook#syncMasterTagListWith(Person)</code></li>
+                  <li>Explain some parts of [<a href="https://nus-cs2113-base.github.io/addressbook-level4/">AddressBook - Level 4</a>] code that use Java 8 features. e.g. <code>AddressBook#syncMasterTagListWith(Person)</code></li>
                 </ol>
               </div>
           </panel>
@@ -2075,9 +2085,9 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                 <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
                 <div>
                   <p><strong>Acceptable</strong>: Using JavaFX in any past project.</p>
-                  <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-java-fx-for-gui-programming-lo-javafx">Addressbook-Level3: LO-JavaFX</a>]</p>
+                  <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2113-BASE/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-java-fx-for-gui-programming-lo-javafx">Addressbook-Level3: LO-JavaFX</a>]</p>
                   <div>
-                    <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
+                    <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2113-BASE/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
                     <p>
                       <panel src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
                         fragment="tutorial-pr-instructions"></panel>
@@ -2196,7 +2206,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
             <div>
               <ol>
                 <li>Explain what Gradle is and how it helps in the AddressBook project.</li>
-                <li>Run various project tasks using Gradle as described in [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingGradle.html">AddressBook - Level 4: Using Gradle</a>] e.g. run tests in headless mode</li>
+                <li>Run various project tasks using Gradle as described in [<a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingGradle.html">AddressBook - Level 4: Using Gradle</a>] e.g. run tests in headless mode</li>
               </ol>
             </div>
           </panel>
@@ -2249,7 +2259,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
               <div>
                 <ol>
                   <li>Explain what Travis is and how it helps in the AddressBook project.</li>
-                  <li>One member: Set up Travis for your team repo by following [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingTravis.html">AddressBook - Level 4: Using Travis</a>]</li>
+                  <li>One member: Set up Travis for your team repo by following [<a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingTravis.html">AddressBook - Level 4: Using Travis</a>]</li>
                 </ol>
               </div>
           </panel>
@@ -2403,7 +2413,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                       <h3 id="v11-product-2">v1.1 Product</h3>
                       <ul>
                         <li>Each member should try to add some enhancements that are in line with the vision for v2.0. Preferably, these <mark>should be <tooltip content="should go beyond the component you are in charge of"><em>global-impact</em></tooltip> enhancements</mark>,
-                          touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
+                          touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2113-base.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
                       </ul>
                     </div>
                   </div>
@@ -2890,7 +2900,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                   <div>
                     <ol>
                       <li>Your code (can be toy examples) that use some Java 8 features.</li>
-                      <li>Explain some parts of [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/">AddressBook - Level 4</a>] code that use Java 8 features. e.g. <code>AddressBook#syncMasterTagListWith(Person)</code></li>
+                      <li>Explain some parts of [<a href="https://nus-cs2113-base.github.io/addressbook-level4/">AddressBook - Level 4</a>] code that use Java 8 features. e.g. <code>AddressBook#syncMasterTagListWith(Person)</code></li>
                     </ol>
                   </div>
                 </div>
@@ -3595,9 +3605,9 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
               <div class="indented">
                 <div>
                   <p><strong>Acceptable</strong>: Using JavaFX in any past project.</p>
-                  <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-java-fx-for-gui-programming-lo-javafx">Addressbook-Level3: LO-JavaFX</a>]</p>
+                  <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2113-BASE/addressbook-level3/blob/master/doc/LearningOutcomes.md#use-java-fx-for-gui-programming-lo-javafx">Addressbook-Level3: LO-JavaFX</a>]</p>
                   <div>
-                    <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
+                    <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2113-BASE/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>W09-2</em>) in your PR name.</p>
                     <p>
                       <panel src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
                         fragment="tutorial-pr-instructions"></panel>
@@ -3691,7 +3701,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                 <div>
                   <ol>
                     <li>Explain what Gradle is and how it helps in the AddressBook project.</li>
-                    <li>Run various project tasks using Gradle as described in [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingGradle.html">AddressBook - Level 4: Using Gradle</a>] e.g. run tests in headless mode</li>
+                    <li>Run various project tasks using Gradle as described in [<a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingGradle.html">AddressBook - Level 4: Using Gradle</a>] e.g. run tests in headless mode</li>
                   </ol>
                 </div>
               </div>
@@ -3750,7 +3760,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                 <div>
                   <ol>
                     <li>Explain what Travis is and how it helps in the AddressBook project.</li>
-                    <li>One member: Set up Travis for your team repo by following [<a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingTravis.html">AddressBook - Level 4: Using Travis</a>]</li>
+                    <li>One member: Set up Travis for your team repo by following [<a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingTravis.html">AddressBook - Level 4: Using Travis</a>]</li>
                   </ol>
                 </div>
               </div>
@@ -3780,7 +3790,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
           <question has-input="true">
             <p>Imagine you are building an online system called TeamFormer. A brief description of it is given below.</p>
             <tip-box>
-              <p>TeamFormer is a system for helping CS2103 students during team forming period. It lets students record who is in which team. Students can use the system to find teams short of members and students looking for teams, easing the team forming
+              <p>TeamFormer is a system for helping CS2113 students during team forming period. It lets students record who is in which team. Students can use the system to find teams short of members and students looking for teams, easing the team forming
                 process. Note that the system is not meant as a platform for students to communicate with each other to find team members. Students are supposed to talk to each other and form teams outside the system, as they do now. TeamFormer simply
                 helps students to see the team forming status of the class (e.g., who has teams and who doesn’t) and record their own team after forming a team. It is also meant to ease the team-forming-related workload of instructors.</p>
             </tip-box>
@@ -3795,7 +3805,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
               <img src="/website-base/book/modeling/modelingBehaviors/sequenceDiagramsBasic/images/notationMistakes.png" width="700"></question>
           </panel>
         </div>
-        <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L6.pptx">slides</a>]</p>
+        <p>[<a href="http://www.comp.nus.edu.sg/~cs2113/BASE/slides/L6.pptx">slides</a>]</p>
       </div>
     </div>
   </div>
@@ -3803,7 +3813,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.1</a> at Mon, 23 Jul 2018 03:56:39 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Thu, 26 Jul 2018 05:00:13 GMT</small></div>
 </footer>
 </div>
 </body>

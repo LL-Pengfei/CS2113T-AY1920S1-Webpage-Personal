@@ -12,35 +12,45 @@
     <link rel="stylesheet" href="..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\markbind\css\markbind.css">
     <link rel="stylesheet" href="..\markbind\css\site-nav.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
+</script>
+
+<link rel="stylesheet" href="/website-base/css/main.css">
+<link rel="stylesheet" href="/website-base/css/schedule.css">
     <link rel="icon" href="/website-base/favicon.ico">
 </head>
 <body>
 <div id="app" class="container-fluid">
     <!-- ============================= page content ============================================ -->
-<link rel="stylesheet" href="/website-base/css/main.css">
-<link rel="stylesheet" href="/website-base/css/schedule.css">
 <div>
   <navbar placement="top" type="inverse">
-    <a slot="brand" href="/website-base/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '18 <span class="badge badge-success"><span class="fas fa-clone"></span> nested</span></small></a>
+    <a slot="brand" href="/website-base/index.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-success"><span class="fas fa-clone"></span> nested</span></small></a>
     <li><a href="/website-base/index-flat.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-bars"></span> flat</span></a></li>
     <li><a href="/website-base/index.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
     <li><a href="/website-base/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
     <li><a href="/website-base/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
     <dropdown text="Links" class="nav-link">
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-      <li><a href="https://nus-cs2103-ay1718s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+      <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
       <li><a href="/website-base/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
       <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
       <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
       <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
       <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
       <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-      <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+      <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
       <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
     </dropdown>
     <li slot="right" class="nav-link">
@@ -129,9 +139,9 @@
                     <p><strong>Communication</strong>: Keeping a record of communications among your team can help you, and us, in many ways. We encourage you to do at least some of the project communication in written medium (e.g., GitHub Issue Tracker)
                       to practice how to communicate technical things in written form.</p>
                     <ul>
-                      <li>Instead of the IVLE forum, we encourage you to <mark>post your questions/suggestions in this <a href="https://github.com/nus-cs2103-AY1718S2/forum/issues">github/nus-cs2103-AY1718S2/forum</a></mark>.</li>
-                      <li>Alternatively, you can post in our slack channel <a href="https://nus-cs2103-ay1718s2.slack.com">https://nus-cs2103-ay1718s2.slack.com</a>. We encourage you all to <mark>join the slack channel</mark> (you'll need to use an email
-                        address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
+                      <li>Instead of the IVLE forum, we encourage you to <mark>post your questions/suggestions in this <a href="https://github.com/nus-cs2113-BASE/forum/issues">github/nus-cs2113-BASE/forum</a></mark>.</li>
+                      <li>Alternatively, you can post in our slack channel <a href="https://nus-cs2113-base.slack.com">https://nus-cs2113-base.slack.com</a>. We encourage you all to <mark>join the slack channel</mark> (you'll need to use an email address
+                        ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
                       <li>Note that slack is useful for quick chats while issue tracker is useful for longer-running conversations.</li>
                       <li>You are encouraged to use channels with a wider audience (common channel in slack, GitHub issue tracker) for module-related communication as much as possible, rather than private channels such as private slack/FB messages or direct
                         emails. <span class="dimmed">Rationale: more classmates can benefit from the discussions</span>.</li>
@@ -278,7 +288,7 @@
       <div class="indented">
         <div>
           <p><mark>This lecture is compulsory</mark> to attend.</p>
-          <p><strong>Slides</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L1P1.%20Module%20Intro.pptx">Part 1</a>][<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L1P2.%20RCS,%20IDEs,%20CLI%20testing.pptx">Part 2</a>]</p>
+          <p><strong>Slides</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2113/BASE/slides/L1P1.%20Module%20Intro.pptx">Part 1</a>][<a href="http://www.comp.nus.edu.sg/~cs2113/BASE/slides/L1P2.%20RCS,%20IDEs,%20CLI%20testing.pptx">Part 2</a>]</p>
         </div>
       </div>
     </panel>
@@ -754,7 +764,7 @@
               <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
               <div>
                 <p><strong>Acceptable</strong>: Any Java project set up in Intellij.</p>
-                <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#set-up-a-project-in-an-ide-lo-idesetup">AddressBook - Level1 : LO-IdeSetup</a></p>
+                <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#set-up-a-project-in-an-ide-lo-idesetup">AddressBook - Level1 : LO-IdeSetup</a></p>
                 <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
               </div>
             </panel>
@@ -802,7 +812,7 @@
                 <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
                 <div>
                   <p><strong>Acceptable</strong>: Use Intellij basic code navigation features to navigate the code of any java project.</p>
-                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#navigate-code-efficiently-lo-codenavigation">AddressBook - Level1 : LO-CodeNavigation</a></p>
+                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#navigate-code-efficiently-lo-codenavigation">AddressBook - Level1 : LO-CodeNavigation</a></p>
                   <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
                 </div>
             </panel>
@@ -845,7 +855,7 @@
                 <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
                 <div>
                   <p><strong>Acceptable</strong>: Some code that you have written that uses some Java Collection classes.</p>
-                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#use-collections-lo-collections">AddressBook - Level1 : LO-Collections</a></p>
+                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#use-collections-lo-collections">AddressBook - Level1 : LO-Collections</a></p>
                   <p><strong>Submission</strong>: Show your code to the tutor during the tutorial.</p>
                 </div>
             </panel>
@@ -888,7 +898,7 @@
                 <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
                 <div>
                   <p><strong>Acceptable</strong>: Some code that you have written that uses the varargs feature.</p>
-                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#use-varargs-lo-varargss">AddressBook - Level1 : LO-Varargs</a></p>
+                  <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#use-varargs-lo-varargss">AddressBook - Level1 : LO-Varargs</a></p>
                   <p><strong>Submission</strong>: Show your code to the tutor during the tutorial.</p>
                 </div>
             </panel>
@@ -1237,7 +1247,7 @@ Invalid command format: add
                   <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
                   <div>
                     <p><strong>Acceptable</strong>: Any project where you use the I/O redirection method to test a CLI.</p>
-                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#automate-cli-testing-lo-automatedclitesting">AddressBook - Level1 : LO-AutomatedCliTesting</a></p>
+                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#automate-cli-testing-lo-automatedclitesting">AddressBook - Level1 : LO-AutomatedCliTesting</a></p>
                     <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
                   </div>
               </panel>
@@ -1793,9 +1803,9 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
         <div>
           <p><big><strong>Tutorial selection and seating arrangement</strong></big></p>
           <ul>
-            <li><strong>CS2103</strong> students: As you don't have a confirmed tutorial yet, attend the slot you chose in the 'Temporary Tutorial Registration' on IVLE. Team forming will be done in the following week. You are free to sit with anyone this
+            <li><strong>CS2113</strong> students: As you don't have a confirmed tutorial yet, attend the slot you chose in the 'Temporary Tutorial Registration' on IVLE. Team forming will be done in the following week. You are free to sit with anyone this
               week.</li>
-            <li><strong>CS2103T</strong> students: Attend the tutorial pre-allocated to you. Sit together with your team members.</li>
+            <li><strong>CS2113T</strong> students: Attend the tutorial pre-allocated to you. Sit together with your team members.</li>
           </ul>
           <br>
           <p><big><strong><strong>Show evidence of weekly learning outcomes</strong></strong></big></p>
@@ -2172,7 +2182,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                   <div class="indented">
                     <div>
                       <p><strong>Acceptable</strong>: Any Java project set up in Intellij.</p>
-                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#set-up-a-project-in-an-ide-lo-idesetup">AddressBook - Level1 : LO-IdeSetup</a></p>
+                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#set-up-a-project-in-an-ide-lo-idesetup">AddressBook - Level1 : LO-IdeSetup</a></p>
                       <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
                     </div>
                   </div>
@@ -2225,7 +2235,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                 <div class="indented">
                   <div>
                     <p><strong>Acceptable</strong>: Use Intellij basic code navigation features to navigate the code of any java project.</p>
-                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#navigate-code-efficiently-lo-codenavigation">AddressBook - Level1 : LO-CodeNavigation</a></p>
+                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#navigate-code-efficiently-lo-codenavigation">AddressBook - Level1 : LO-CodeNavigation</a></p>
                     <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
                   </div>
                 </div>
@@ -2270,7 +2280,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                   <div class="indented">
                     <div>
                       <p><strong>Acceptable</strong>: Some code that you have written that uses some Java Collection classes.</p>
-                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#use-collections-lo-collections">AddressBook - Level1 : LO-Collections</a></p>
+                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#use-collections-lo-collections">AddressBook - Level1 : LO-Collections</a></p>
                       <p><strong>Submission</strong>: Show your code to the tutor during the tutorial.</p>
                     </div>
                   </div>
@@ -2315,7 +2325,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                   <div class="indented">
                     <div>
                       <p><strong>Acceptable</strong>: Some code that you have written that uses the varargs feature.</p>
-                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#use-varargs-lo-varargss">AddressBook - Level1 : LO-Varargs</a></p>
+                      <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#use-varargs-lo-varargss">AddressBook - Level1 : LO-Varargs</a></p>
                       <p><strong>Submission</strong>: Show your code to the tutor during the tutorial.</p>
                     </div>
                   </div>
@@ -2614,7 +2624,7 @@ Invalid command format: add
                 <div class="indented">
                   <div>
                     <p><strong>Acceptable</strong>: Any project where you use the I/O redirection method to test a CLI.</p>
-                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1#automate-cli-testing-lo-automatedclitesting">AddressBook - Level1 : LO-AutomatedCliTesting</a></p>
+                    <p><strong>Suggested</strong>: Do the exercise given in <a href="https://github.com/nus-cs2113-BASE/addressbook-level1#automate-cli-testing-lo-automatedclitesting">AddressBook - Level1 : LO-AutomatedCliTesting</a></p>
                     <p><strong>Submission</strong>: Demo the test during the tutorial.</p>
                   </div>
                 </div>
@@ -3047,7 +3057,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
       <span slot="header" class="card-title activity-type"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Lecture 2</span>
       <div class="indented">
         <div>
-          <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2.pptx">slides</a>]</p>
+          <p>[<a href="http://www.comp.nus.edu.sg/~cs2113/BASE/slides/L2.pptx">slides</a>]</p>
         </div>
       </div>
     </panel>
@@ -3078,7 +3088,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.1</a> at Mon, 23 Jul 2018 03:56:39 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Thu, 26 Jul 2018 05:00:13 GMT</small></div>
 </footer>
 </div>
 </body>

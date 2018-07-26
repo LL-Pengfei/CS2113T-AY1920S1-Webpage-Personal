@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\markbind\css\markbind.css">
     <link rel="stylesheet" href="..\markbind\css\site-nav.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
+</script>
+
+<link rel="stylesheet" href="/website-base/css/main.css">
+<link rel="stylesheet" href="/website-base/css/admin.css">
     <link rel="icon" href="/website-base/favicon.ico">
 </head>
 <body>
@@ -19,79 +31,90 @@
     <div id="flex-body">
   <div id="site-nav">
     <ul style="list-style-type: none; margin-left:-1em">
-      <li style="margin-top: 10px"><a href="#admin-moduleOverview-anchor">Module Overview</a> <span class="badge badge-pill badge-danger">1<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-moduleOverview-anchor">Module Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-usingThisWebsite-anchor"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-danger">1<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-usingThisWebsite-anchor"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-moduleExpectations-anchor">Module Expectations</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-moduleExpectations-anchor">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn">Module Structure
  <i class="dropdown-btn-icon">
 <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><small><a href="#admin-weeklySchedule-anchor">Weekly Schedule</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-learningOutcomes-anchor">Learning Outcomes</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-lectures-anchor">Lectures</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-tutorials-anchor">Tutorials</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-weeklySchedule-anchor">Weekly Schedule</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-learningOutcomes-anchor">Learning Outcomes</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-lectures-anchor">Lectures</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-tutorials-anchor">Tutorials</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
           </ul>
         </div>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-instructors-anchor">Instructors</a> <span class="badge badge-pill badge-success">4<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-instructors-anchor">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-textbooks-anchor">Text Books</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-textbooks-anchor">Text Books</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-programmingLanguages-anchor">Programming Language</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-programmingLanguages-anchor">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn">Project
  <i class="dropdown-btn-icon">
 <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><small><a href="#admin-project-overview-anchor">Project: Overview</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-product-anchor">Project: The product</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-scope-anchor">Project: Scope</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-constraints-anchor">Project: Constraints</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-teams-anchor">Forming Teams</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-timeline-anchor">Project: Timeline</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w03-inception-anchor">Project: inception [week 3]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w04-mid-v10-anchor">Project: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w05-v10-anchor">Project: v1.0 [week 5]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w06-mid-v11-anchor">Project: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w07-v11-anchor">Project: v1.1 [week 7]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w08-mid-v12-anchor">Project: mid-v1.2 [week 8]</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w09-v12-anchor">Project: v1.2 [week 9]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w10-mid-v13-anchor">Project: mid-v1.3 [week 10]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w11-v13-anchor">Project: v1.3 [week 11]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w12-mid-v14-anchor">Project: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-w13-v14-anchor">Project: v1.4 [week 13]</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-deliverables-anchor">Project: Deliverables</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-assessment-anchor">Project: Assessment</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-project-supervision-anchor">Project: Supervision</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-overview-anchor">Project: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-product-anchor">Project: The product</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-scope-anchor">Project: Scope</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-constraints-anchor">Project: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-teams-anchor">Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-timeline-anchor">Project: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w03-inception-anchor">Project: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w04-mid-v10-anchor">Project: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w05-v10-anchor">Project: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w06-mid-v11-anchor">Project: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w07-v11-anchor">Project: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w08-mid-v12-anchor">Project: mid-v1.2 [week 8]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w09-v12-anchor">Project: v1.2 [week 9]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w10-mid-v13-anchor">Project: mid-v1.3 [week 10]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w11-v13-anchor">Project: v1.3 [week 11]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w12-mid-v14-anchor">Project: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-w13-v14-anchor">Project: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-deliverables-anchor">Project: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-assessment-anchor">Project: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-project-supervision-anchor">Project: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
           </ul>
         </div>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-peerEvaluations-anchor">Peer Evaluations</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-peerEvaluations-anchor">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-tools-anchor">Tools</a> <span class="badge badge-pill badge-info">3<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-tools-anchor">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-gradeBreakdown-anchor">Grade Breakdown</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-gradeBreakdown-anchor">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-exams-anchor">Exams</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-exams-anchor">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
-      <li style="margin-top: 10px"><a href="#admin-participation-anchor">Participation Marks</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span>
+      <li style="margin-top: 10px"><a href="#admin-participation-anchor">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span>
+        </span>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn">Appendices
  <i class="dropdown-btn-icon">
 <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><small><a href="#admin-appendixA-principles-anchor">A: Module Principles</a> <span class="badge badge-pill badge-success">4<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-appendixB-policies-anchor">B: Module Policies</a> <span class="badge badge-pill badge-danger">1<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-appendixC-faq-anchor">C: Frequently Asked Questions</a> <span class="badge badge-pill badge-danger">1<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-appendixD-help-anchor">D: Getting help in this module</a> <span class="badge badge-pill badge-warning">2<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-appendixE-gitHub-anchor">E: Using GitHub</a> <span class="badge badge-pill badge-danger">1<span class="fas fa-star"></span></span></small></li>
-            <li style="margin-top: 10px"><small><a href="#admin-appendixF-teamworkIssues-anchor">F: Handling teamwork issues</a> <span class="badge badge-pill badge-success">4<span class="fas fa-star"></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixA-principles-anchor">A: Module Principles</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixB-policies-anchor">B: Module Policies</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixC-faq-anchor">C: Frequently Asked Questions</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixD-help-anchor">D: Getting help in this module</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixE-gitHub-anchor">E: Using GitHub</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span class="fas fa-star"></span></span></span></small></li>
+            <li style="margin-top: 10px"><small><a href="#admin-appendixF-teamworkIssues-anchor">F: Handling teamwork issues</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span class="fas fa-star"></span></span></span></small></li>
           </ul>
         </div>
       </li>
@@ -105,31 +128,29 @@
     </div>
   </div>
   <div id="page-content">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/admin.css">
     <div class="website-content">
       <div>
         <navbar placement="top" type="inverse">
-          <a slot="brand" href="/website-base/index-flat.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '18 <span class="badge badge-primary"><span class="fas fa-bars"></span> flat</span></small></a>
+          <a slot="brand" href="/website-base/index-flat.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-primary"><span class="fas fa-bars"></span> flat</span></small></a>
           <li><a href="/website-base/index.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-clone"></span> nested</span></a></li>
           <li><a href="/website-base/index-flat.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
           <li><a href="/website-base/se-book-adapted/index-flat.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
           <li><a href="/website-base/admin/index-flat.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
           <dropdown text="Links" class="nav-link">
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-            <li><a href="https://nus-cs2103-ay1718s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+            <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
             <li><a href="https://docs.google.com/document/d/e/2PACX-1vQNqBNRmqyfJO2NtmbJiunrHcWMf_N_9JxbPKMi1Q3UZY2RZt9EKeoowZn79CKfhFf0vMKeQNy3jEv5/pub?embed=true" target="_blank" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
             <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
             <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
             <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
             <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
             <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-            <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
             <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
           </dropdown>
         </navbar>
@@ -137,84 +158,89 @@
       <div id="admin-moduleOverview-anchor"></div>
       <div id="admin-moduleOverview">
         <div>
-          <h1 id="cs2103t-software-engineering">CS2103/T Software Engineering</h1>
+          <h1 id="cs2113t-software-engineering">CS2113/T Software Engineering</h1>
           <p><big><p class="lead text-secondary">A balanced, iterative, and brown-field introduction to Software Engineering...</p></big></p>
           <img src="/website-base/images/growingPlant.png" width="700">
-          <box border-color="white">
-            <p>CS2103/T is an introductory Software Engineering module. It covers roughly <strong>a 50-50 balance of basic SE theory and practice</strong> that a student needs to know before going for SE internships in the industry or taking
-              <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an
-              <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially"><strong>iterative approach</strong></tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. The module is notable as one of the rare SE modules that takes a
-              <tooltip content="getting students to learn SE by workin on existing software, as opposed to the green-field approach of getting students to build something from scratch"><strong>brown-field approach</strong> to teaching SE</tooltip>.</p>
-          </box>
+          <p class="lead"><span>CS2113/T is an introductory Software Engineering module. It covers roughly <strong>a 50-50 balance of basic SE theory and practice</strong> that a student needs to know before going for SE internships in the industry or taking <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially"><strong>iterative approach</strong></tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. The module is notable as one of the rare SE modules that takes a <tooltip content="getting students to learn SE by workin on existing software, as opposed to the green-field approach of getting students to build something from scratch"><strong>brown-field approach</strong> to teaching SE</tooltip>.</span></p>
           <p>On the theory side, this module is supported by a customized online text book <a href="/website-base/se-book-adapted/index.html"><em>Software Engineering for Self-Directed Learners</em></a>, integrated into this module website.</p>
           <p><a href="images/timeline.png"><img src="/website-base/admin/images/timeline.png" width="100%"></a></p>
           <p>The practice side of this module is mainly covered by a team project. Students are expected to take over an existing project <a href="https://se-edu.github.io/addressbook-level4/">AddressBook-Level4 (AB4)</a> -- a relatively small yet non-trivial
             (10 KLoC) generic product -- and enhance it into a better product or evolve it into a different product. To help students to tackle the learning curve of working with 10 KLoC of code, the module takes them through a series of projects of increasing
             size, from AddressBook-Level1(1 KLoC) to AddressBook-Level3(4 KLoC).</p>
           <p>Given below is a summary of what the module covers and does not cover <span class="dimmed">(i.e., unticked items)</span>.</p>
-          <div class="indented-level2">
-            <p><strong>Java:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> Used heavily, but not taught</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> syntax <span class="dimmed">(reason: expected prerequisite knowledge)</span></li>
-            </ul>
-            <p><strong>OOP:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> Used in a non-trivial project,
-                <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
-              </li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> basics <span class="dimmed">(reason: expected prerequisite knowledge)</span></li>
-            </ul>
-            <p><strong>SE tools/practices:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox">
-                <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip>
-              </li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> those specific to start-ups</li>
-            </ul>
-            <p><strong>Modeling:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox">
-                <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level4/DeveloperGuide.html#design">this Developer Guide of AB4</a>)</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> intensive
-                <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
-              </li>
-            </ul>
-            <p><strong>Requirements:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox">
-                <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> rapid prototyping, heavy UI design, designing a product from scratch</li>
-            </ul>
-            <p><strong>Documentation</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> Documentation targeting end users (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html">example</a>) as well as those targeting developers (<a href="https://se-edu.github.io/addressbook-level4/DeveloperGuide.html">example</a>)</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Marketing materials</li>
-            </ul>
-            <p><strong>Project Management</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> Iterative delivery of a product, Working collaboratively with team members, on-site as well as remotely</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Setting up project infrastructure from scratch</li>
-            </ul>
-            <p><strong>Testing</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox">
-                <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and
-                <tooltip content="e.g., acceptance testing">user testing</tooltip>
-              </li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox">
-                <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
-              </li>
-            </ul>
-            <p><strong>Applications domains:</strong></p>
-            <ul class="task-list">
-              <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> Cross-platform desktop applications</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Web programming, Mobile programming, Database programming</li>
-            </ul>
-          </div>
-          <br>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Topic</th>
+                  <th><span style="color:green"><span class="fas fa-check"></span></span> Covered</th>
+                  <th><span style="color:red"><span class="fas fa-times"></span></span> Not covered</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Java</td>
+                  <td>Used heavily, but not taught</td>
+                  <td>syntax <span class="dimmed">(reason: expected prerequisite knowledge)</span></td>
+                </tr>
+                <tr>
+                  <td>OOP</td>
+                  <td>Used in a non-trivial project,
+                    <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
+                  </td>
+                  <td>basics <span class="dimmed">(reason: expected prerequisite knowledge)</span></td>
+                </tr>
+                <tr>
+                  <td>SE tools/practices</td>
+                  <td>
+                    <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip>
+                  </td>
+                  <td>those specific to start-ups</td>
+                </tr>
+                <tr>
+                  <td>Modeling</td>
+                  <td>
+                    <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level4/DeveloperGuide.html#design">this Developer Guide of AB4</a>)</td>
+                  <td>intensive
+                    <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Requirements</td>
+                  <td>
+                    <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements</td>
+                  <td>rapid prototyping, heavy UI design, designing a product from scratch</td>
+                </tr>
+                <tr>
+                  <td>Documentation</td>
+                  <td>Documentation targeting end users (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html">example</a>) as well as those targeting developers (<a href="https://se-edu.github.io/addressbook-level4/DeveloperGuide.html">example</a>)</td>
+                  <td>Marketing materials</td>
+                </tr>
+                <tr>
+                  <td>Project Management</td>
+                  <td>Iterative delivery of a product, Working collaboratively with team members, on-site as well as remotely</td>
+                  <td>Setting up project infrastructure from scratch</td>
+                </tr>
+                <tr>
+                  <td>Testing</td>
+                  <td>
+                    <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and
+                    <tooltip content="e.g., acceptance testing">user testing</tooltip>
+                  </td>
+                  <td>
+                    <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Applications domains</td>
+                  <td>Cross-platform desktop applications</td>
+                  <td>Web programming, Mobile programming, Database programming</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><br>
           <p>
-            <panel src="/website-base\admin\appendixC-faq._include_.html#admin-faq-tVsNonT" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> **FAQ: What are the differences between CS2103 and CS2103T?**" minimized="" fragment="admin-faq-tVsNonT"></panel>
+            <panel src="/website-base\admin\appendixC-faq._include_.html#admin-faq-tVsNonT" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> **FAQ: What are the differences between CS2113 and CS2113T?**" minimized="" fragment="admin-faq-tVsNonT"></panel>
           </p>
         </div>
       </div>
@@ -226,7 +252,7 @@
           <div id="essential">
             <h1 id="using-this-website">Using this Website</h1>
             <p>
-              <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> This <em>Schedule Page</em> is your main source of information for CS2103/T. You will need to refer to it weekly.</p>
+              <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> This <em>Schedule Page</em> is your main source of information for CS2113/T. You will need to refer to it weekly.</p>
             <p><span class="fas fa-info-circle"></span> More details for the upcoming weeks (and upcoming sections of the textbook) will be added as the weeks progress. In general, <mark>information given for more than 1 week into the future should be treated as <em>tentative</em></mark>.</p>
             <p>💡 <strong>For those who don't like the nested-info style used by this website</strong>, we have also provided flat all-in-one versions of the textbook and the admin info.</p>
             <div>
@@ -361,7 +387,7 @@
                 <span class="fas fa-briefcase"></span> : evidence you can use to prove you have achieved a learning outcome<br> ⏰ : deadline<br></p>
             </div>
             <h3 id="searching-for-keywords">Searching for keywords</h3>
-            <p>Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting <a href="https://github.com/nus-cs2103-AY1718S2/website/issues">in the website issue tracker</a>              so that we can add the missing keyword to our search index.</p>
+            <p>Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting <a href="https://github.com/nus-cs2113-BASE/website/issues">in the website issue tracker</a>              so that we can add the missing keyword to our search index.</p>
             <div>
               <h3 id="saving-as-pdf-files">Saving as PDF Files</h3>
               <ol>
@@ -381,7 +407,7 @@
             <p>Printer-friendly version <span class="dimmed">(indicated by <span class="glyphicon glyphicon-print" aria-hidden="true"></span> icon)</span> have been provided for each chapter and the whole book. You can use them for saving as pdf files or
               printing.</p>
             <h3 id="making-this-website-better">Making this Website Better</h3>
-            <p>This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nus-cs2103-AY1718S2/website/issues">at the website issue tracker</a>.</p>
+            <p>This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nus-cs2113-BASE/website/issues">at the website issue tracker</a>.</p>
           </div>
         </div>
       </div>
@@ -533,8 +559,8 @@
             </table>
           </div>
           <p>Lectures start on time sharp and end around 15 minutes before official end time.</p>
-          <panel header="**Clarification: CS2103T Lecture Timinig** :exclamation: %%(not applicable to CS2103)%%">
-            <p>CS2103T lectures are same as that for CS2103. Please ignore the CS2101 session scheduled at the same slot. That is a dummy slot used to work around a limitation on the CORS IT system. <span class="dimmed">The system doesn't allow lectures of two modules to be scheduled in the same venue at the same time.</span></p>
+          <panel header="**Clarification: CS2113T Lecture Timinig** :exclamation: %%(not applicable to CS2113)%%">
+            <p>CS2113T lectures are same as that for CS2113. Please ignore the CS2101 session scheduled at the same slot. That is a dummy slot used to work around a limitation on the CORS IT system. <span class="dimmed">The system doesn't allow lectures of two modules to be scheduled in the same venue at the same time.</span></p>
             <p></p>
           </panel>
           <p></p>
@@ -556,7 +582,7 @@
             <div id="tutorialTimetable">
               <tip-box>
                 <p>
-                  <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> <mark>Our tutorials start on week 2</mark> (even before CORS tutorial bidding is over), not in week 3 as other modules do. CS2103 (not CS2103T)
+                  <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> <mark>Our tutorials start on week 2</mark> (even before CORS tutorial bidding is over), not in week 3 as other modules do. CS2113 (not CS2113T)
                   students need to choose a temporary tutorial slot for week 2 tutorial. We'll inform you the procedure to do so in due course.</p>
                 <p>
                   <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code> <code>0900</code> and so on.</p>
@@ -724,7 +750,7 @@
                 <li><strong>No direct tech help</strong>: Tutors are prohibited from giving technical help. <span class="dimmed">Rationale: We want you to learn the vital survival skill of troubleshooting technical problems.</span></li>
               </ul>
               <div class="indented-level2">
-                <panel src="/website-base\admin\appendixD-help._include_.html#main" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix D: How to get Help in CS2103/T" minimized="" fragment="main"></panel>
+                <panel src="/website-base\admin\appendixD-help._include_.html#main" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix D: How to get Help in CS2113/T" minimized="" fragment="main"></panel>
               </div>
               <br>
               <ul>
@@ -820,7 +846,7 @@
         <div>
           <h2 id="project-the-product">Project → The Product</h2>
           <p>In this semester, we are going to enhance <a href="https://se-edu.github.io/addressbook-level4/">an AddressBook application</a>.</p>
-          <img src="https://github.com/nus-cs2103-AY1718S2/addressbook-level4/raw/master/docs/images/Ui.png" width="600">
+          <img src="https://github.com/nus-cs2113-BASE/addressbook-level4/raw/master/docs/images/Ui.png" width="600">
           <p></p>
           <p>This product is meant for users who can type fast, and prefer typing over mouse/voice commands. Therefore, <mark>Command Line Interface (CLI) is the primary mode of input.</mark></p>
           <p>
@@ -875,8 +901,8 @@
             <p>For either direction, you need to define a target user profile and a value proposition:</p>
             <ul>
               <li>
-                <p><strong>Target user profile</strong>: Define a very specific target user profile. <br> 💡 We require you narrow down the target user profile <span class="dimmed"> as opposed to trying to make it as general as possible. Here is an example direction of narrowing down target user: anybody → teachers → university teachers → tech savvy university teachers → CS2103 instructors.</span><br><br>                  ❗️ Be careful not to contradict given project constraints when defining the user profile <span class="dimmed"> e.g. the target user should still prefer typing over mouse actions</span>.<br><br>
-                  <strong>It is expected that your product will be optimized for the chosen target users</strong> <span class="dimmed">i.e., add features that are especially/only applicable for target users (to make the app especially attractive to them). w.r.t. the example above, there can be features that are applicable to CS2103 instructors only, such as the ability to navigate to a student's project on GitHub</span>                  💡 Your project will be graded based on how well the features match the target user profile and how well the features fit-together.</p>
+                <p><strong>Target user profile</strong>: Define a very specific target user profile. <br> 💡 We require you narrow down the target user profile <span class="dimmed"> as opposed to trying to make it as general as possible. Here is an example direction of narrowing down target user: anybody → teachers → university teachers → tech savvy university teachers → CS2113 instructors.</span><br><br>                  ❗️ Be careful not to contradict given project constraints when defining the user profile <span class="dimmed"> e.g. the target user should still prefer typing over mouse actions</span>.<br><br>
+                  <strong>It is expected that your product will be optimized for the chosen target users</strong> <span class="dimmed">i.e., add features that are especially/only applicable for target users (to make the app especially attractive to them). w.r.t. the example above, there can be features that are applicable to CS2113 instructors only, such as the ability to navigate to a student's project on GitHub</span>                  💡 Your project will be graded based on how well the features match the target user profile and how well the features fit-together.</p>
                 <panel header="Why the need to narrow down the user profile?" minimized="">
                   <ul>
                     <li>It is an opportunity to exercise your product design skills because optimizing the product to a very specific target user requires good product design skills.</li>
@@ -1060,7 +1086,7 @@
             <li>
               <p><strong>Constraint-No-DBSM</strong>: Do not use a
                 <tooltip content="Database Management System e.g., MySQL">DBMS</tooltip> to store data.<br>
-                <span class="dimmed"><strong>Reason:</strong> Using a DBMS to store data will reduce the room to apply OOP techniques to manage data. It is true that most real world systems use a DBMS, but given the small size of this project, we need to optimize it for CS2103 module learning outcomes; learning DBMS-related LOs will have to be left to database modules or level 3 project modules.</span></p>
+                <span class="dimmed"><strong>Reason:</strong> Using a DBMS to store data will reduce the room to apply OOP techniques to manage data. It is true that most real world systems use a DBMS, but given the small size of this project, we need to optimize it for CS2113 module learning outcomes; learning DBMS-related LOs will have to be left to database modules or level 3 project modules.</span></p>
             </li>
             <li>
               <p><strong>Constraint-Platform-Independent</strong>: The software should work on the Windows, Linux, and OS-X platforms. Even if you are unable to manually test the app on all three platforms, consciously avoid using OS-dependent libraries
@@ -1080,8 +1106,8 @@
               </ul>
               <p>and is subjected to prior approval by the teaching team.<br>
                 <span class="dimmed"><strong>Reason:</strong> We will not allow third-party software that can interfere with the learning objectives of the module.</span></p>
-              <p>Please <mark>post in the <a href="https://github.com/nus-cs2103-AY1718S2/forum/issues">forum</a> your request to use a third-party libraries</mark> <em>before</em> you start using the library. Once a specific library has been approved for
-                one team, other teams may use it without requesting permission again.<br>
+              <p>Please <mark>post in the <a href="https://github.com/nus-cs2113-BASE/forum/issues">forum</a> your request to use a third-party libraries</mark> <em>before</em> you start using the library. Once a specific library has been approved for one
+                team, other teams may use it without requesting permission again.<br>
                 <span class="dimmed"><strong>Reason:</strong> The whole class should know which external software are used by others so that they can do the same if they wish to.</span></p>
             </li>
           </ul>
@@ -1098,8 +1124,8 @@
           <p></p>
           <p><strong>When to form teams</strong></p>
           <ul>
-            <li>CS2103T: Your team will be formed by CS2101 side in week 1.</li>
-            <li>CS2103: Your team will be formed in week 3 tutorial.</li>
+            <li>CS2113T: Your team will be formed by CS2101 side in week 1.</li>
+            <li>CS2113: Your team will be formed in week 3 tutorial.</li>
           </ul>
           <p><strong>Team size</strong>: The default <mark>team size is five</mark>.</p>
           <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>W14-2</code> means you are in tutorial W14 (i.e., Wed 1400-1500), team 2.</p>
@@ -1284,8 +1310,8 @@
                 <p>For either direction, you need to define a target user profile and a value proposition:</p>
                 <ul>
                   <li>
-                    <p><strong>Target user profile</strong>: Define a very specific target user profile. <br> 💡 We require you narrow down the target user profile <span class="dimmed"> as opposed to trying to make it as general as possible. Here is an example direction of narrowing down target user: anybody → teachers → university teachers → tech savvy university teachers → CS2103 instructors.</span><br><br>                      ❗️ Be careful not to contradict given project constraints when defining the user profile <span class="dimmed"> e.g. the target user should still prefer typing over mouse actions</span>.<br><br>
-                      <strong>It is expected that your product will be optimized for the chosen target users</strong> <span class="dimmed">i.e., add features that are especially/only applicable for target users (to make the app especially attractive to them). w.r.t. the example above, there can be features that are applicable to CS2103 instructors only, such as the ability to navigate to a student's project on GitHub</span>                      💡 Your project will be graded based on how well the features match the target user profile and how well the features fit-together.</p>
+                    <p><strong>Target user profile</strong>: Define a very specific target user profile. <br> 💡 We require you narrow down the target user profile <span class="dimmed"> as opposed to trying to make it as general as possible. Here is an example direction of narrowing down target user: anybody → teachers → university teachers → tech savvy university teachers → CS2113 instructors.</span><br><br>                      ❗️ Be careful not to contradict given project constraints when defining the user profile <span class="dimmed"> e.g. the target user should still prefer typing over mouse actions</span>.<br><br>
+                      <strong>It is expected that your product will be optimized for the chosen target users</strong> <span class="dimmed">i.e., add features that are especially/only applicable for target users (to make the app especially attractive to them). w.r.t. the example above, there can be features that are applicable to CS2113 instructors only, such as the ability to navigate to a student's project on GitHub</span>                      💡 Your project will be graded based on how well the features match the target user profile and how well the features fit-together.</p>
                     <panel header="Why the need to narrow down the user profile?" minimized="">
                       <ul>
                         <li>It is an opportunity to exercise your product design skills because optimizing the product to a very specific target user requires good product design skills.</li>
@@ -1941,7 +1967,7 @@
                   <trigger trigger="click" for="modal:v10-setuporg">Set up the team org</trigger> and
                   <trigger trigger="click" for="modal:v10-setuprepo">team repo</trigger> for your team if you haven't done that already.
                   <ul>
-                    <li>Set up <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of docs</a></li>
+                    <li>Set up <a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of docs</a></li>
                   </ul>
                 </li>
               </ul>
@@ -1953,7 +1979,7 @@
                   <p>You can create your GitHub account after receiving your team ID. Here are the instructions (<mark>please follow the organization/repo name format closely because we use scripts to download your code. If the names are not as expected, our scripts will not work</mark>):</p>
                   <ul>
                     <li>One team member (e.g. team leader) should create an organization with the following details:</li>
-                    <li><mark>Organization name : <code>AY1718S2JAN2018-TEAM_ID</code></mark>. e.g.  <code>AY1718S2JAN2018-W09-B3</code></li>
+                    <li><mark>Organization name : <code>BASEJAN2018-TEAM_ID</code></mark>. e.g.  <code>BASEJAN2018-W09-B3</code></li>
                     <li>Plan:  Open Source ($0/month)</li>
                     <li>After that, the same person can add members to the organization:</li>
                     <li>Create a team called <code>developers</code> to your organization.</li>
@@ -1967,7 +1993,7 @@
                   <h2 id="repo-setup">Repo setup</h2>
                   <p>Only one team member:</p>
                   <ol>
-                    <li>Fork <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4">Address Book Level 4</a> to your team org.</li>
+                    <li>Fork <a href="https://github.com/nus-cs2113-BASE/addressbook-level4">Address Book Level 4</a> to your team org.</li>
                     <li>Rename the forked repo as <code>main</code>. This repo is to be used as the repo for your project.</li>
                     <li>Ensure your team members have the desired level of access to your team repo</li>
                   </ol>
@@ -2003,8 +2029,7 @@
                   <li>Divide among yourselves who will update which parts of the document(s).</li>
                   <li>Update the team repo by following the
                     <trigger trigger="click" for="modal:v10-forkingworkflow">forking workflow</trigger>.</li>
-                  <li>One member: create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4">nus-cs2103-AY1718S2/addressbook-level4</a>] <code>master</code> branch. PR name:
-                    <code>[v1.x][Team ID] Product Name</code> e.g., <code>[v1.x][T09-B2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed (that's why we use <code>v1.x</code> instead of <code>v1.0</code> in the PR title).</span>                    In the PR description
+                  <li>One member: create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2113-BASE/addressbook-level4">nus-cs2113-BASE/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[v1.x][Team ID] Product Name</code>                    e.g., <code>[v1.x][T09-B2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed (that's why we use <code>v1.x</code> instead of <code>v1.0</code> in the PR title).</span>                    In the PR description
                     <tooltip content="use @githubUserName">mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
                 </ol>
                 <modal large="" title="TextBook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:v10-forkingworkflow">
@@ -2110,7 +2135,7 @@
                     <tooltip content="a change impacting only one component">local-impact</tooltip> change to the code base.</p>
                   <p><strong>Objective</strong>: To familiarize yourself with at least one component the code.</p>
                   <p><strong>Description</strong>: Divide the
-                    <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the <a href="https://nus-cs2103-AY1718S2.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component">AddressBook-Level4 developer guide</a>.</p>
+                    <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the <a href="https://nus-cs2113-BASE.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component">AddressBook-Level4 developer guide</a>.</p>
                   <p><strong>Submission</strong>: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.</p>
                   <p>❗️ Before you start coding, please read our reuse policy given below, in particular, <mark>how to give credit when you reuse code from Internet or classmates</mark>:</p>
                 </li>
@@ -2193,7 +2218,7 @@
               <h3 id="v11-product">v1.1 Product</h3>
               <ul>
                 <li>Each member should try to add some enhancements that are in line with the vision for v2.0. Preferably, these <mark>should be <tooltip content="should go beyond the component you are in charge of"><em>global-impact</em></tooltip> enhancements</mark>,
-                  touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
+                  touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2113-base.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
               </ul>
             </div>
           </div>
@@ -2218,7 +2243,7 @@
                   <p><strong>Complete the repo set up.</strong></p>
                   <ul>
                     <li>Fix any errors in org/repo set up <span class="dimmed"> (e.g. wrong repo name)</span>.</li>
-                    <li>Set up <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of docs</a> if you haven't done so already</li>
+                    <li>Set up <a href="https://nus-cs2113-base.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of docs</a> if you haven't done so already</li>
                   </ul>
                 </li>
                 <li>
@@ -2699,7 +2724,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                   </li>
                   <li>The stated objective is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately.
                     To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).</li>
-                  <li>For an example, see <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/DeveloperGuide.html#undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level4 developer guide</a>.</li>
+                  <li>For an example, see <a href="https://nus-cs2113-base.github.io/addressbook-level4/DeveloperGuide.html#undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level4 developer guide</a>.</li>
                 </ul>
               </li>
             </ul>
@@ -3109,9 +3134,9 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                           </table>
                         </div>
                       </li>
-                      <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
+                      <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
                       <li>💡 You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow
-                        the example in the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
+                        the example in the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
                       <li><mark>❗️ It is assumed that all contents in the PPP were written primarily by you.</mark> If any section is written by someone else <span class="dimmed"> e.g. someone else wrote described the feature in the User Guide but you implemented the feature</span>,
                         clearly state that the section was written by someone else <span class="dimmed"> (e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed"> Reason: Your writing skills will be evaluated based on the PPP</span></li>
                     </ul>
@@ -3532,9 +3557,9 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                   </table>
                 </div>
               </li>
-              <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
+              <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
               <li>💡 You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow the example
-                in the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
+                in the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
               <li><mark>❗️ It is assumed that all contents in the PPP were written primarily by you.</mark> If any section is written by someone else <span class="dimmed"> e.g. someone else wrote described the feature in the User Guide but you implemented the feature</span>,
                 clearly state that the section was written by someone else <span class="dimmed"> (e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed"> Reason: Your writing skills will be evaluated based on the PPP</span></li>
             </ul>
@@ -3635,7 +3660,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                   to have bugs.</li>
                 <li>You can do <em>acceptance</em> testing as well as <em>system</em> testing.</li>
                 <li>Omit feature that existed in AB4. Instead, test features added by the team.</li>
-                <li>Report bugs in the <a href="https://github.com/nus-cs2103-AY1718S2/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
+                <li>Report bugs in the <a href="https://github.com/nus-cs2113-BASE/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
                   <ul>
                     <li>Issue title format: <code>[Tester ID] Issue description</code> <span class="dimmed"> e.g. <code>[26] Empty name crashes app</code></span></li>
                     <li>Do not use team ID in bug reports <span class="dimmed"> Reason: to prevent others copying your bug reports</span></li>
@@ -3755,7 +3780,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
             </li>
           </ol>
           <p><strong>Bug Review Period</strong>:</p>
-          <p>There will be a review period for you to respond to the <a href="https://github.com/nus-cs2103-AY1718S2/pe-results/issues">bug reports</a> you received.</p>
+          <p>There will be a review period for you to respond to the <a href="https://github.com/nus-cs2113-BASE/pe-results/issues">bug reports</a> you received.</p>
           <p>Duration: The review period will start around 1 day after the PE (exact time to be announced) and will last until the following <strong>Wednesday midnight</strong>.</p>
           <p>Bug reviewing is recommended to be done as a team as some of the decisions need team consensus.</p>
           <tip-box>
@@ -3829,7 +3854,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
       <div id="admin-project-assessment">
         <div>
           <h2 id="project-assessment">Project → Assessment</h2>
-          <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
+          <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2113T projects will be assessed separately from CS2113 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
           <p><strong>Total</strong>: 50 marks (<span class="fas fa-user"></span> 40 individual marks + <span class="fas fa-users"></span> 10 team marks)</p>
           <panel header="1. **Product features** %%[<span class='fas fa-users'></span> 5 marks]%%" expanded="">
             <p>Evaluates: How well do your features fit together to form a cohesive product (not how many features or how big the features are)?</p>
@@ -5641,7 +5666,7 @@ compact(input);
                         to have bugs.</li>
                       <li>You can do <em>acceptance</em> testing as well as <em>system</em> testing.</li>
                       <li>Omit feature that existed in AB4. Instead, test features added by the team.</li>
-                      <li>Report bugs in the <a href="https://github.com/nus-cs2103-AY1718S2/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
+                      <li>Report bugs in the <a href="https://github.com/nus-cs2113-BASE/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
                         <ul>
                           <li>Issue title format: <code>[Tester ID] Issue description</code> <span class="dimmed"> e.g. <code>[26] Empty name crashes app</code></span></li>
                           <li>Do not use team ID in bug reports <span class="dimmed"> Reason: to prevent others copying your bug reports</span></li>
@@ -5761,7 +5786,7 @@ compact(input);
                   </li>
                 </ol>
                 <p><strong>Bug Review Period</strong>:</p>
-                <p>There will be a review period for you to respond to the <a href="https://github.com/nus-cs2103-AY1718S2/pe-results/issues">bug reports</a> you received.</p>
+                <p>There will be a review period for you to respond to the <a href="https://github.com/nus-cs2113-BASE/pe-results/issues">bug reports</a> you received.</p>
                 <p>Duration: The review period will start around 1 day after the PE (exact time to be announced) and will last until the following <strong>Wednesday midnight</strong>.</p>
                 <p>Bug reviewing is recommended to be done as a team as some of the decisions need team consensus.</p>
                 <tip-box>
@@ -5903,7 +5928,7 @@ compact(input);
 <p><strong>Extra Requirements:</strong> [considered for participation marks]</p>
 <ul>
 <li>❗️ Submitting peer evaluations is compulsory. <mark>If you routinely miss submitting peer evaluations, you can lose participation marks.</mark></li>
-<li>💡 TEAMMATES normally allows students to access it without using Google login. In this module, we encourage (but not require) you to login to TEAMMATES using your Google account and complete your profile with a <trigger trigger="click" for="modal:peerEvaluations-suitablePhoto">suitable profile photo</trigger>. <span class="dimmed">Reason: CS2103 is a big class. This profile helps us to remember you better, even after the module is over.</span></li>
+<li>💡 TEAMMATES normally allows students to access it without using Google login. In this module, we encourage (but not require) you to login to TEAMMATES using your Google account and complete your profile with a <trigger trigger="click" for="modal:peerEvaluations-suitablePhoto">suitable profile photo</trigger>. <span class="dimmed">Reason: CS2113 is a big class. This profile helps us to remember you better, even after the module is over.</span></li>
           </ul>
           <modal title="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Project → Deliverables → Website (extract)%%" id="modal:peerEvaluations-suitablePhoto">
           
@@ -5973,9 +5998,9 @@ compact(input);
             <p><strong>Communication</strong>: Keeping a record of communications among your team can help you, and us, in many ways. We encourage you to do at least some of the project communication in written medium (e.g., GitHub Issue Tracker) to practice
               how to communicate technical things in written form.</p>
             <ul>
-              <li>Instead of the IVLE forum, we encourage you to <mark>post your questions/suggestions in this <a href="https://github.com/nus-cs2103-AY1718S2/forum/issues">github/nus-cs2103-AY1718S2/forum</a></mark>.</li>
-              <li>Alternatively, you can post in our slack channel <a href="https://nus-cs2103-ay1718s2.slack.com">https://nus-cs2103-ay1718s2.slack.com</a>. We encourage you all to <mark>join the slack channel</mark> (you'll need to use an email address
-                ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
+              <li>Instead of the IVLE forum, we encourage you to <mark>post your questions/suggestions in this <a href="https://github.com/nus-cs2113-BASE/forum/issues">github/nus-cs2113-BASE/forum</a></mark>.</li>
+              <li>Alternatively, you can post in our slack channel <a href="https://nus-cs2113-base.slack.com">https://nus-cs2113-base.slack.com</a>. We encourage you all to <mark>join the slack channel</mark> (you'll need to use an email address ending in
+                <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
               <li>Note that slack is useful for quick chats while issue tracker is useful for longer-running conversations.</li>
               <li>You are encouraged to use channels with a wider audience (common channel in slack, GitHub issue tracker) for module-related communication as much as possible, rather than private channels such as private slack/FB messages or direct emails.
                 <span class="dimmed">Rationale: more classmates can benefit from the discussions</span>.</li>
@@ -6238,8 +6263,8 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
           <h2 id="final-exam-part-2-essay">Final Exam: Part 2 (Essay)</h2>
           <p>Unlike in part 1, <strong>you can ask invigilators for clarifications</strong> if you found a question to be unclear in part 2.</p>
           <p>Yes, <strong>you may use pencils</strong> when answering part 2.</p>
-          <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S1/files/Practice%20Exam%20Paper%20-%20Part%202.pdf">Sample paper</a>] [
-            <a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S1/files/Practice%20Exam%20Paper%20-%20Part%202%20(answers).pdf">Answers to the sample paper</a>]</p>
+          <p>[<a href="http://www.comp.nus.edu.sg/~cs2113/AY1718S1/files/Practice%20Exam%20Paper%20-%20Part%202.pdf">Sample paper</a>] [
+            <a href="http://www.comp.nus.edu.sg/~cs2113/AY1718S1/files/Practice%20Exam%20Paper%20-%20Part%202%20(answers).pdf">Answers to the sample paper</a>]</p>
         </div>
       </div>
       <br>
@@ -6443,7 +6468,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
             </h3>
             <div class="indented">
               <div>
-                <p>When working with others, especially in a large class such as CS2103,  it is very important that you adhere to standards, policies, and instructions imposed on everyone. Not doing so creates unnecessary headaches for everyone and puts
+                <p>When working with others, especially in a large class such as CS2113,  it is very important that you adhere to standards, policies, and instructions imposed on everyone. Not doing so creates unnecessary headaches for everyone and puts
                   your work attitude in a negative light. That is why we penalize repeated violations of instructions. On the other hand we do understand that humans are liable to make mistakes. That is why we only penalize repeated or frequent mistakes.</p>
               </div>
             </div>
@@ -6507,7 +6532,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                   it.</p>
                 <p><strong>We encourage you to give tech help to each other</strong>, but do it in a way that the other person learns from it.</p>
                 <p>
-                  <panel src="/website-base\admin\appendixD-help._include_.html#main" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix D: How to get Help in CS2103/T" minimized="" fragment="main"></panel>
+                  <panel src="/website-base\admin\appendixD-help._include_.html#main" header="Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix D: How to get Help in CS2113/T" minimized="" fragment="main"></panel>
                 </p>
               </div>
             </div>
@@ -6856,9 +6881,9 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
                               </table>
                             </div>
                           </li>
-                          <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
+                          <li><span class="fas fa-cube"></span> Follow the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a>.</li>
                           <li>💡 You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow
-                            the example in the <a href="https://nus-cs2103-ay1718s2.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
+                            the example in the <a href="https://nus-cs2113-base.github.io/addressbook-level4/team/johndoe.html">sample</a>.</li>
                           <li><mark>❗️ It is assumed that all contents in the PPP were written primarily by you.</mark> If any section is written by someone else <span class="dimmed"> e.g. someone else wrote described the feature in the User Guide but you implemented the feature</span>,
                             clearly state that the section was written by someone else <span class="dimmed"> (e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed"> Reason: Your writing skills will be evaluated based on the PPP</span></li>
                         </ul>
@@ -7010,7 +7035,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
             <div class="indented">
               <div>
                 <img src="/website-base/admin/images/Why workload heavy.png" width="250">
-                <p>CS2103/T prepares you for many higher-level project modules (CS3216/7, CS3203, CS3281/2, etc.), each requiring a slightly different skill set. It is also the only SE course some of you do before going for industry internships. Therefore,
+                <p>CS2113/T prepares you for many higher-level project modules (CS3216/7, CS3203, CS3281/2, etc.), each requiring a slightly different skill set. It is also the only SE course some of you do before going for industry internships. Therefore,
                   we have to cover many essential SE concepts/skills and also provide enough exercises for you to practice those skills. This is also why we don't have time to go very deep into any of the topics.</p>
                 <p>Remember, everything you learn here is going to be useful in a SE-related career.</p>
                 <p>Also, consider this a gradual introduction to 'heavy' modules; most project modules you do after this are going to be much heavier 😛</p>
@@ -7025,14 +7050,14 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
             </h3>
             <div class="indented">
               <div>
-                <p>In CS2103/T, A+ is not given simply based on the final score. To get an A+ you should,</p>
+                <p>In CS2113/T, A+ is not given simply based on the final score. To get an A+ you should,</p>
                 <ul>
                   <li>score enough to get an A</li>
                   <li>be considered technically competent by peers and tutor (based on peer evaluations and tutor observations)</li>
                   <li>be considered helpful by peers (based on peer evaluations and tutor observations)
                     <ul>
-                      <li>In particular, you are encouraged to be active on the slack channel and our <a href="https://github.com/nus-cs2103-AY1718S2/forum/issues">forum</a> and give your inputs to ongoing discussions so that other students can benefit from
-                        your relatively higher expertise that makes you deserve an A+.</li>
+                      <li>In particular, you are encouraged to be active on the slack channel and our <a href="https://github.com/nus-cs2113-BASE/forum/issues">forum</a> and give your inputs to ongoing discussions so that other students can benefit from your
+                        relatively higher expertise that makes you deserve an A+.</li>
                       <li>Whenever you can, go out of your way to review PRs created by other team members.</li>
                     </ul>
                   </li>
@@ -7172,7 +7197,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
             <div class="indented">
               <div>
                 <p>There are many reasons. One of them is that most of you will be working with existing software in your first few years of the career while hardly any school projects train you to work with existing code bases. We decided to bite the bullet
-                  and use CS2103/T to train you to work in existing code bases.</p>
+                  and use CS2113/T to train you to work in existing code bases.</p>
               </div>
             </div>
           </div>
@@ -7183,7 +7208,7 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
               <div>
                 <img src="/website-base/admin/images/Submission requirements differ.png" width="300">
                 <p>They do, and they should.</p>
-                <p>CS2103T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse
+                <p>CS2113T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse
                   some of the stuff across the two modules, submissions are not intended to be exactly the same.</p>
               </div>
             </div>
@@ -7343,7 +7368,7 @@ What kind of questions are suitable to discuss with the tutor? Consider these tw
               </li>
               <li>
                 <p>Create a Pull Request against the master branch of the repo<br>
-                  <code>https://github.com/nus-cs2103-AY1718S2/{repo_name}</code><br> e.g. <code>https://github.com/nus-cs2103-AY1718S2/addressbook-level1</code><br>
+                  <code>https://github.com/nus-cs2113-BASE/{repo_name}</code><br> e.g. <code>https://github.com/nus-cs2113-BASE/addressbook-level1</code><br>
                   <mark>(do not create PRs against the upstream repo at <code>se-edu</code> org)</mark> <br>
                   <img src="/website-base/admin/images/PrDetails.png" width="700"><br> PR name should be: <code>[LO_ID][TEAM_ID]Your Name</code><br> e.g. If you are in team 1 of tutorial W09 (i.e. Wednesday 9am), <code>[W2.2b][W09-A1]James Yong</code>.
                   Your Team ID can be found in <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTSnp6t_MzmNDS2Jg5GPWkHoJmX0ISL_XBz86Z2n_CxvEkwHw4yZCWxaDZbRFb6PBotFQRPZXfreJwI/pubhtml?gid=0&amp;single=true">this page</a>. Note that our tutorial
@@ -7377,7 +7402,7 @@ What kind of questions are suitable to discuss with the tutor? Consider these tw
             <p>You can create your GitHub account after receiving your team ID. Here are the instructions (<mark>please follow the organization/repo name format closely because we use scripts to download your code. If the names are not as expected, our scripts will not work</mark>):</p>
             <ul>
               <li>One team member (e.g. team leader) should create an organization with the following details:</li>
-              <li><mark>Organization name : <code>AY1718S2JAN2018-TEAM_ID</code></mark>. e.g.  <code>AY1718S2JAN2018-W09-B3</code></li>
+              <li><mark>Organization name : <code>BASEJAN2018-TEAM_ID</code></mark>. e.g.  <code>BASEJAN2018-W09-B3</code></li>
               <li>Plan:  Open Source ($0/month)</li>
               <li>After that, the same person can add members to the organization:</li>
               <li>Create a team called <code>developers</code> to your organization.</li>
@@ -7388,7 +7413,7 @@ What kind of questions are suitable to discuss with the tutor? Consider these tw
             <h2 id="repo-setup-2">Repo setup</h2>
             <p>Only one team member:</p>
             <ol>
-              <li>Fork <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4">Address Book Level 4</a> to your team org.</li>
+              <li>Fork <a href="https://github.com/nus-cs2113-BASE/addressbook-level4">Address Book Level 4</a> to your team org.</li>
               <li>Rename the forked repo as <code>main</code>. This repo is to be used as the repo for your project.</li>
               <li>Ensure your team members have the desired level of access to your team repo</li>
             </ol>
@@ -7602,7 +7627,7 @@ What kind of questions are suitable to discuss with the tutor? Consider these tw
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.1</a> at Mon, 23 Jul 2018 03:56:39 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Thu, 26 Jul 2018 05:00:13 GMT</small></div>
 </footer>
 </div>
 </body>

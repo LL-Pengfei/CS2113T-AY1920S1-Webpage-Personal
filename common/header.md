@@ -1,4 +1,4 @@
-<navbar placement="top" type="inverse">
+<navbar placement="top" type="default">
   <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">{{ module }}/T <small>{{ period }} <span class="badge badge-success">{{ fas_clone }} nested</span></small></a>
   <li><a href="{{baseUrl}}/index-flat.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light">{{ fas_bars }} flat</span></a></li>
   <li><a href="{{baseUrl}}/index.html" class="nav-link"><md>**Schedule**</md></a></li>

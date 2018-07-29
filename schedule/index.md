@@ -1,7 +1,6 @@
 <frontmatter>
 title: "Full Schedule of Module Activities"
 footer: footer.md
-head: scheduleHead.md
 </frontmatter>
 
 {% import "common/outcomes.njk" as outcomes with context %}
@@ -31,6 +30,25 @@ head: scheduleHead.md
   {name: "SE Intro"},
     {heading: "Can explain pros and cons of software engineering"},
       {location: ["softwareEngineering", "introduction", "prosAndCons"]},
+  {name: "Revision Control"},
+    {heading: "Can use Git to save history"},
+      {location: ["revisionControl", "what"]},
+      {location: ["revisionControl", "repositories"]},
+      {location: ["gitAndGithub", "init"]},
+      {location: ["revisionControl", "savingHistory"]},
+      {location: ["gitAndGithub", "commit"], omit_evidence: true},
+      {location: ["gitAndGithub", "ignore"]},
+  {name: "Revision Control"},
+    {heading: "Can communicate with a remote repo"},
+      {location: ["revisionControl", "remoteRepositories"], omit_evidence: true},
+      {location: ["gitAndGithub", "clone"]},
+      {location: ["gitAndGithub", "pull"]},
+      {location: ["gitAndGithub", "push"]},
+    {heading: "Can traverse Git history"},
+      {location: ["revisionControl", "usingHistory"], omit_evidence: true},
+      {location: ["gitAndGithub", "checkout"]},
+      {location: ["gitAndGithub", "tag"]},
+      {location: ["gitAndGithub", "stash"]},
   {name: "Implementation"},
     {heading: "Can use basic features of an IDE"},
       {location: ["ides", "introduction", "what"]},
@@ -40,20 +58,20 @@ head: scheduleHead.md
       {location: ["javaTools", "collections"]},
     {heading: "Can use Java varargs feature"},
       {location: ["javaTools", "varargs"]},
-  {name: "Testing"},
-    {heading: "Can automate simple regression testing of text UIs"},
-      {location: ["testing", "introduction", "what"]},
-      {location: ["testing", "testingTypes", "regressionTesting", "what"]},
-      {location: ["testing", "testAutomation", "what"], omit_evidence: true},
-      {location: ["testing", "testAutomation", "testingTextUis"]},
-  {name: "Revision Control"},
-    {heading: "Can use Git to save history"},
-      {location: ["revisionControl", "what"]},
-      {location: ["revisionControl", "repositories"]},
-      {location: ["gitAndGithub", "init"]},
-      {location: ["revisionControl", "savingHistory"]},
-      {location: ["gitAndGithub", "commit"], omit_evidence: true},
-      {location: ["gitAndGithub", "ignore"]},
+  {name: "Design"},
+    {heading: "Can explain models"},
+      {location: ["modeling", "introduction", "what"], omit_evidence: true},
+      {location: ["modeling", "introduction", "how"]},
+    {heading: "Can explain OOP"},
+      {location: ["oop", "introduction", "what"], omit_evidence: true},
+      {location: ["oop", "objects", "what"]},
+      {location: ["oop", "classes", "what"]},
+      {location: ["oop", "objects", "abstraction"], omit_evidence: true},
+      {location: ["oop", "objects", "encapsulation"], omit_evidence: true},
+    {heading: "Can explain basic object/class structures"},
+      {location: ["modeling", "modelingStructures", "ooStructures"], omit_evidence: true},
+      {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
+      {location: ["uml", "miscellaneous", "objectVsClassDiagrams"], omit_evidence: true},
 {week: "3"},
   {name: "Refactoring"},
     {heading: "Can refactor code at a basic level"},
@@ -66,17 +84,7 @@ head: scheduleHead.md
       {location: ["ides", "debugging", "what"], omit_evidence: true},
       {location: ["intellij", "debuggingBasic"]},
       {location: ["intellij", "productivityShortcuts"]},
-  {name: "Revision Control"},
-    {heading: "Can communicate with a remote repo"},
-      {location: ["revisionControl", "remoteRepositories"], omit_evidence: true},
-      {location: ["gitAndGithub", "clone"]},
-      {location: ["gitAndGithub", "pull"]},
-      {location: ["gitAndGithub", "push"]},
-    {heading: "Can traverse Git history"},
-      {location: ["revisionControl", "usingHistory"], omit_evidence: true},
-      {location: ["gitAndGithub", "checkout"]},
-      {location: ["gitAndGithub", "tag"]},
-      {location: ["gitAndGithub", "stash"]},
+  
   {name: "Documentation"},
     {heading: "Can use some common documentation tools"},
       {subheading: "Javadoc"},
@@ -124,19 +132,6 @@ head: scheduleHead.md
       {subheading: "Supplementary Requirements"},
         {location: ["specifyingRequirements", "supplementaryRequirements", "what"], omit_evidence: true},
   {name: "Design"},
-    {heading: "Can explain models"},
-      {location: ["modeling", "introduction", "what"], omit_evidence: true},
-      {location: ["modeling", "introduction", "how"]},
-    {heading: "Can explain OOP"},
-      {location: ["oop", "introduction", "what"], omit_evidence: true},
-      {location: ["oop", "objects", "what"]},
-      {location: ["oop", "classes", "what"]},
-      {location: ["oop", "objects", "abstraction"], omit_evidence: true},
-      {location: ["oop", "objects", "encapsulation"], omit_evidence: true},
-    {heading: "Can explain basic object/class structures"},
-      {location: ["modeling", "modelingStructures", "ooStructures"], omit_evidence: true},
-      {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
-      {location: ["uml", "miscellaneous", "objectVsClassDiagrams"], omit_evidence: true},
     {heading: "Can explain single responsibility principle"},
       {location: ["principles", "singleResponsibilityPrinciple"]},
   {name: "Implementation"},
@@ -602,6 +597,9 @@ head: scheduleHead.md
 {% endmacro %}
 
 <!-- ============================= page content ============================================ -->
+
+<link rel="stylesheet" href="{{baseUrl}}/css/main.css">
+<link rel="stylesheet" href="{{baseUrl}}/css/schedule.css">
 
 <include src="../common/header.md" />
 

@@ -31,18 +31,71 @@
     <div class="website-content">
   <h2 id="week-5-outcomes">Week 5 - Outcomes</h2>
   <div id="main">
-    <p><span class="activity-desc">Requirements</span></p>
+    <p><span class="activity-desc">Design</span></p>
     <div class="indented">
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.1</code> <strong>Can apply basic product design guidelines</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+        <span slot="header" class="card-title"><span><code>W5.1</code> <strong>Can explain single responsibility principle</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
           aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
-        <div>
-          <p>No textbook section. To be covered during the lecture.</p>
-          <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
-          <p>Apply the discussed guidelines when designing the product (covered by v1.1 deliverables).</p>
-        </div>
+        <panel type="info" expanded="" no-close="" epxandable="true">
+          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.1a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain single responsibility principle</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span
+            class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </span>
+            </span>
+            <div>
+              <div></div>
+              <p></p>
+              <p><span class="dimmed"><strong><span>Supplmentary → Principles →
+</span></strong>
+                </span>
+              </p>
+              <div id="title-and-body">
+                <div>
+                  <h4 id="single-responsibility-principle">Single Responsibility Principle</h4>
+                </div>
+                <div id="main">
+                  <div>
+                    <tip-box type="primary">
+                      <div>
+                        <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
+                      </div>
+                    </tip-box>
+                    <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
+                    <tip-box>
+                      <p><span class="fas fa-cube"></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when
+                        the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<span class='fas fa-paperclip'></span>  Resources" expanded="">
+                        <ul>
+                          <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
+                          <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
+                          <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="border-top: dashed 1px; border-color:grey">
+            <p><big><span class="fas fa-briefcase"></span> Evidence:</big></p>
+            <div>
+              <p><strong>Acceptable</strong>: Evidence of having used SRP in some project.</p>
+              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2113-BASE/addressbook-level2/blob/master/doc/LearningOutcomes.md#follow-the-single-responsibility-principle-lo-srp">Addressbook-Level2: LO-SRP</a>]</p>
+              <div>
+                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2113-BASE/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
+                <p>
+                  <panel src="/website-base\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%"
+                    fragment="tutorial-pr-instructions"></panel>
+                </p>
+              </div>
+            </div>
+        </panel>
       </panel>
     </div>
     <p></p>
@@ -167,230 +220,20 @@
         </panel>
       </panel>
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.3</code> <strong>Can implement class-level members</strong> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
-          aria-hidden="true"></span></span>
-        </span>
-        </span>
-        <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.3a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain class-level members</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div></div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Design → Object Oriented Programming → Classes →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="class-level-members">Class Level Members</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <p>While all objects of a class has the same attributes, each object has its own copy of the attribute value.</p>
-                    <tip-box>
-                      <p><span class="fas fa-cube"></span> All <code>Person</code> objects have the <code>Name</code> attribute but the value of that attribute varies between <code>Person</code> objects.</p>
-                    </tip-box>
-                    <p>However, some attributes are not suitable to be maintained by individual objects. Instead, they should be maintained centrally, shared by all objects of the class. They are like ‘global variables’ but attached to a specific class.
-                      Such <strong>variables whose value is shared by all instances of a class are called <mark><em>class level attributes</em></mark></strong>.</p>
-                    <tip-box>
-                      <p><span class="fas fa-cube"></span> The attribute <code>totalPersons</code> should be maintained centrally and shared by all <code>Person</code> objects rather than copied at each <code>Person</code> object.</p>
-                    </tip-box>
-                    <p>Similarly, when a normal method is being called, a message is being sent to the receiving object and the result may depend on the receiving object.</p>
-                    <tip-box>
-                      <p><span class="fas fa-cube"></span> Sending the <code>getName()</code> message to <code>Adam</code> object results in the response <code>&quot;Adam&quot;</code> while sending the same message to the <code>Beth</code> object gets the
-                        response <code>&quot;Beth&quot;</code>.</p>
-                    </tip-box>
-                    <p>However, there can be methods related to a specific class but not suitable for sending message to a specific object of that class. Such <strong>methods that are called using the class instead of a specific instance are called <mark><em>class-level methods</em></mark></strong>.</p>
-                    <tip-box>
-                      <p><span class="fas fa-cube"></span> The method <code>getTotalPersons()</code> is not suitable to send to a specific <code>Person</code> object <span class="dimmed">because a specific object of the <code>Person</code> class should not know about the total number of <code>Person</code> objects</span>.</p>
-                    </tip-box>
-                    <p><strong>Class-level attributes and methods are collectively called <mark><em>class-level members</em></mark></strong> (also called <em>static members</em> sometimes because some programming languages use the keyword <code>static</code>                      to identify class-level members). <strong>They are to be accessed using the class name rather than an instance of the class</strong>.</p>
-                    <h5 id="implementing-class-level-members"><big>Implementing class-level members</big></h5>
-                    <p>Some resources to learn how to implement class-level members:</p>
-                    <tabs>
-                    
-                      <tab header="Java">
-                        <ul>
-                          <li>
-                            <p><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html">Oracle’s official Java tutorial on class-level members</a></p>
-                          </li>
-                        </ul>
-                      </tab>
-                    
-                      <tab header="Python">
-
-                        <li>
-                          <p><a href="https://nus-te3201.github.io/website/programming/toc/oop.html#class-level-members">Python Programming Basics: OOP: Class-Level Members</a></p>
-                        </li>
-
-                        <p></p>
-                      </tab>
-                    </tabs>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<span class='fas fa-dumbbell'></span> Exercises" expandable="">
-                        <div>
-                          <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span><span class='glyphicon glyphicon-ok-sign' aria-hidden='true'></span> Suitable as a class-level variables">
-                            <question>
-                              <p>Which of these are suitable as class-level variables?</p>
-                              <ul class="task-list">
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. system: multi-player Pac Man game, Class: <code>Player</code>, variable: <code>totalScore</code></li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. system: eLearning system, class: <code>Course</code>, variable: <code>totalStudents</code></li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. system: ToDo manager, class: <code>Task</code>, variable: <code>totalPendingTasks</code></li>
-                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. system: any, class: <code>ArrayList</code>, variable: <code>total</code> (i.e., total items in a given <code>ArrayList</code> object)</li>
-                              </ul>
-                              <div slot="answer">
-                                <p>(c)</p>
-                                <p>Explanation: <code>totalPendingTasks</code> should not be managed by individual <code>Task</code> objects and therefore suitable to be maintained as a class-level variable. The other variables should be managed at instance
-                                  level as their value varies from instance to instance. e.g., <code>totalStudents</code> for one <code>Course</code> object will differ from <code>totalStudents</code> of another.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </panel>
-        <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.3b</code></span></big> <span><span class="fas fa-trophy"></span> Can explain method overloading</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <div>
-              <div></div>
-              <p></p>
-              <p><span class="dimmed"><strong><span>Design → Object Oriented Programming → Inheritance →
-</span></strong>
-                </span>
-              </p>
-              <div id="title-and-body">
-                <div>
-                  <h4 id="overloading">Overloading</h4>
-                </div>
-                <div id="main">
-                  <div>
-                    <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                    <tip-box type="primary">
-                      <div>
-                        <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                        <panel type="seamless" header="%%Examples%%">
-                          <div class="table-responsive">
-                            <table class="markbind-table table table-bordered table-striped">
-                              <thead>
-                                <tr>
-                                  <th style="text-align:center">Method</th>
-                                  <th style="text-align:center">Type Signature</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td style="text-align:center"><code>int add(int X, int Y)</code></td>
-                                  <td style="text-align:center"><code>(int, int)</code></td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center"><code>void add(int A, int B)</code></td>
-                                  <td style="text-align:center"><code>(int, int)</code></td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center"><code>void m(int X, double Y)</code></td>
-                                  <td style="text-align:center"><code>(int, double)</code></td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center"><code>void m(double X, int Y)</code></td>
-                                  <td style="text-align:center"><code>(double, int)</code></td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </panel>
-                      </div>
-                    </tip-box>
-                    <tip-box>
-                      <p><span class="fas fa-cube"></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
-                      <ul>
-                        <li><code>calculate(String): void</code></li>
-                        <li><code>calculate(int): void</code></li>
-                      </ul>
-                    </tip-box>
-                    <h5 id="implementing-overloading"><big>Implementing overloading</big></h5>
-                    <p>An operation can be overloaded inside the same class or in sub/super classes.</p>
-                    <tabs>
-                    
-                      <tab header="Java">
-                        <div>
-                          <tip-box>
-                            <p><span class="fas fa-cube"></span> The constructor of the <code>Account</code> class below is <em>overloaded</em> because there are two constructors with different signatures: <code>()</code> and <code>(String, String, double)</code>.
-                              Furthermore, the <code>save</code> method in the <code>Account</code> class is overloaded in the child class <code>SavingAccount</code>.</p>
-                            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
-    Account () {
-        ...
-    }
-    
-    Account (String name, String number, <span class="hljs-keyword">double</span> balance) {
-        ...
-    }
-    
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">save</span><span class="hljs-params">(<span class="hljs-keyword">int</span> amount)</span></span>{
-        ...
-    }
-}
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SavingAccount</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Account</span></span>{
-    
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">save</span><span class="hljs-params">(Double amount)</span></span>{
-        ...
-    }
-}
-</code></pre>
-                          </tip-box>
-                          <p><span class="fas fa-paperclip"></span> Resources:</p>
-                          <ul>
-                            <li>
-                              <p><a href="https://www.javatpoint.com/method-overloading-in-java"><strong>Method Overloading in Java</strong></a> a tutorial from <a href="http://javapoint.com">javapoint.com</a>. Also mentions the topic of a related topic
-                                <mark><em>type promotion</em></mark>.</p>
-                            </li>
-                          </ul>
-                        </div>
-                      </tab>
-
-
-                      <p>
-                        <tab header="Python"></tab>
-                      </p>
-                      <div><span>❗️ Python does not have direct support for method overloading.</span></div>
-                    </tabs>
-                    <p></p>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-        </panel>
-      </panel>
-      <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.4</code> <strong>Can implement overloading</strong> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
+        <span slot="header" class="card-title"><span><code>W5.3</code> <strong>Can implement overloading</strong> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
           aria-hidden="true"></span></span>
         </span>
         </span>
       </panel>
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.5</code> <strong>Can implement polymorphism</strong> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
+        <span slot="header" class="card-title"><span><code>W5.4</code> <strong>Can implement polymorphism</strong> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education"
           aria-hidden="true"></span></span>
         </span>
         </span>
         <br>
         <p><span class="dimmed"><strong>Method Overriding</strong></span></p>
         <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain method overriding</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.4a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain method overriding</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -430,7 +273,7 @@
                           </p>
                           <div id="title-and-body">
                             <div>
-                              <h4 id="overloading-2">Overloading</h4>
+                              <h4 id="overloading">Overloading</h4>
                             </div>
                             <div id="main">
                               <div>
@@ -478,7 +321,7 @@
                                     <li><code>calculate(int): void</code></li>
                                   </ul>
                                 </tip-box>
-                                <h5 id="implementing-overloading-2"><big>Implementing overloading</big></h5>
+                                <h5 id="implementing-overloading"><big>Implementing overloading</big></h5>
                                 <p>An operation can be overloaded inside the same class or in sub/super classes.</p>
                                 <tabs>
                                 
@@ -674,7 +517,7 @@ Ben is a student
         <br>
         <p><span class="dimmed"><strong>Polymorphism</strong></span></p>
         <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5b</code></span></big> <span><span class="fas fa-trophy"></span> Can explain OOP polymorphism</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.4b</code></span></big> <span><span class="fas fa-trophy"></span> Can explain OOP polymorphism</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -757,7 +600,7 @@ Ben is a student
         <br>
         <p><span class="dimmed"><strong>Abstract Classes</strong></span></p>
         <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5c</code></span></big> <span><span class="fas fa-trophy"></span> Can implement abstract classes</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.4c</code></span></big> <span><span class="fas fa-trophy"></span> Can implement abstract classes</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -850,7 +693,7 @@ Ben is a student
         <br>
         <p><span class="dimmed"><strong>Interfaces</strong></span></p>
         <panel type="default" expanded="" no-close="" epxandable="true">
-          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain interfaces</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.4d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain interfaces</span> <span class="badge badge-pill badge-secondary"><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <span
             class="glyphicon glyphicon-education" aria-hidden="true"></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
             </span>
@@ -961,7 +804,7 @@ Ben is a student
     <p><span class="activity-desc">Quality Assurance</span></p>
     <div class="indented">
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.6</code> <strong>Can use simple JUnit tests</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span slot="header" class="card-title"><span><code>W5.5</code> <strong>Can use simple JUnit tests</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         <span
           class="glyphicon glyphicon-star" aria-hidden="true"></span>
           </span>
@@ -969,7 +812,7 @@ Ben is a student
           </span>
           </span>
           <panel type="warning" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain developer testing</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain developer testing</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span>
               </span>
@@ -997,7 +840,7 @@ Ben is a student
               </div>
           </panel>
           <panel type="info" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6b</code></span></big> <span><span class="fas fa-trophy"></span> Can explain the need for early developer testing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5b</code></span></big> <span><span class="fas fa-trophy"></span> Can explain the need for early developer testing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1097,7 +940,7 @@ Ben is a student
               </div>
           </panel>
           <panel type="info" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6c</code></span></big> <span><span class="fas fa-trophy"></span> Can explain test drivers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5c</code></span></big> <span><span class="fas fa-trophy"></span> Can explain test drivers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1151,7 +994,7 @@ Ben is a student
               </div>
           </panel>
           <panel type="info" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain test automation tools</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain test automation tools</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1201,7 +1044,7 @@ Ben is a student
               </div>
           </panel>
           <panel type="warning" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6e</code></span></big> <span><span class="fas fa-trophy"></span> Can use simple JUnit tests</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.5e</code></span></big> <span><span class="fas fa-trophy"></span> Can use simple JUnit tests</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span>
               </span>
@@ -1260,7 +1103,7 @@ Ben is a student
     <p><span class="activity-desc">Project Management</span></p>
     <div class="indented">
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.7</code> <strong>Can use GitHub PRs in a workflow</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span slot="header" class="card-title"><span><code>W5.6</code> <strong>Can use GitHub PRs in a workflow</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         <span
           class="glyphicon glyphicon-star" aria-hidden="true"></span>
           </span>
@@ -1268,7 +1111,7 @@ Ben is a student
           </span>
           </span>
           <panel type="warning" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7a</code></span></big> <span><span class="fas fa-trophy"></span> Can use Git to resolve merge conflicts</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6a</code></span></big> <span><span class="fas fa-trophy"></span> Can use Git to resolve merge conflicts</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span>
               </span>
@@ -1349,7 +1192,7 @@ white
               </div>
           </panel>
           <panel type="warning" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7b</code></span></big> <span><span class="fas fa-trophy"></span> Can review and merge PRs on GitHub</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.6b</code></span></big> <span><span class="fas fa-trophy"></span> Can review and merge PRs on GitHub</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span>
               </span>
@@ -1494,7 +1337,7 @@ git pull origin master
           </panel>
       </panel>
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.8</code> <strong>Can follow Forking Workflow</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span slot="header" class="card-title"><span><code>W5.7</code> <strong>Can follow Forking Workflow</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         <span
           class="glyphicon glyphicon-star" aria-hidden="true"></span>
           </span>
@@ -1502,7 +1345,7 @@ git pull origin master
           </span>
           </span>
           <panel type="warning" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.8a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain forking workflow</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7a</code></span></big> <span><span class="fas fa-trophy"></span> Can explain forking workflow</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span>
               </span>
@@ -1551,7 +1394,7 @@ git pull origin master
               </div>
           </panel>
           <panel type="info" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.8b</code></span></big> <span><span class="fas fa-trophy"></span> Can follow Forking Workflow</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7b</code></span></big> <span><span class="fas fa-trophy"></span> Can follow Forking Workflow</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1632,7 +1475,7 @@ git pull origin master
               </div>
           </panel>
           <panel type="info" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.8c</code></span></big> <span><span class="fas fa-trophy"></span> Can explain DRCS vs CRCS</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7c</code></span></big> <span><span class="fas fa-trophy"></span> Can explain DRCS vs CRCS</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1666,7 +1509,7 @@ git pull origin master
               </div>
           </panel>
           <panel type="success" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.8d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain feature branch flow</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7d</code></span></big> <span><span class="fas fa-trophy"></span> Can explain feature branch flow</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1707,7 +1550,7 @@ git pull origin master
               </div>
           </panel>
           <panel type="success" expanded="" no-close="" epxandable="true">
-            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.8e</code></span></big> <span><span class="fas fa-trophy"></span> Can explain centralized flow</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span slot="header" class="card-title"><span><big><span class="badge badge-pill badge-light"><code>W5.7e</code></span></big> <span><span class="fas fa-trophy"></span> Can explain centralized flow</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
             <span
               class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
               </span>
@@ -1750,7 +1593,7 @@ git pull origin master
     <p><span class="activity-desc">🅿️ Project</span></p>
     <div class="indented">
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.9</code> <strong>Can work with a 2KLoC code base</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+        <span slot="header" class="card-title"><span><code>W5.8</code> <strong>Can work with a 2KLoC code base</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
         <div>
@@ -1809,7 +1652,7 @@ git pull origin master
         </div>
       </panel>
       <panel no-close="" expandable="true">
-        <span slot="header" class="card-title"><span><code>W5.10</code> <strong>Can conceptualize a product</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+        <span slot="header" class="card-title"><span><code>W5.9</code> <strong>Can conceptualize a product</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
         </span>
         </span>
         <div>
@@ -1826,7 +1669,7 @@ git pull origin master
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Fri, 27 Jul 2018 10:40:39 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Mon, 30 Jul 2018 02:05:52 GMT</small></div>
 </footer>
 </div>
 </body>

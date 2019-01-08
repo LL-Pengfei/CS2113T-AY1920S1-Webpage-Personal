@@ -1,18 +1,18 @@
-<span id="module">CS2103</span>
+<span id="module">CS2113</span>
 
-<span id="module_pair">CS2103/T</span>
+<span id="module_pair">CS2113/T</span>
 
-<span id="module_name">Software Engineering</span>
+<span id="module_name">Software Engineering and Object-oriented Programming</span>
 
 <span id="semester">AY1819S2</span>
 
 <span id="period">Jan '19</span>
 
-<span id="module_org">https://github.com/nus-{{ module | lower }}-{{ semester }}</span>
+<span id="module_org">https://github.com/nus{{ module }}-{{ semester }}</span>
 
-<span id="module_website">https://nus-{{ module | lower }}-{{ semester }}.github.io/{{ module | lower }}-website</span>
+<span id="module_website">https://nus{{ module | lower }}-{{ semester }}.github.io/website</span>
 
-<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vSMEFXr-yL298GPeuNxkC7m87bYqi4KTWo7zZRtDXLCIIhb0osxn5aM3gVk6DCOC6pEu5nMw7Gf1YwJ/pub?embed=true</span>
+<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vS5f_f59o-YeY_QpMoAs92bxPDPOQS_QL3GcMIkh85bSoILhh7iSwRUZdJrMhbfo_uekc8OntAd-ubC/pub?embedded=true</span>
 
 <span id="team_IDs_page">https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true</span>
 

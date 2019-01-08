@@ -5,7 +5,7 @@ Note that project grading is ==not competitive (not bell curved)==. {{ module }}
 
 **Total**: 50 marks ({{ icon_individual }} 40 individual marks + {{ icon_team }} 10 team marks)
 
-<panel header="1. **Product features** %%[{{ icon_team }} 5 marks]%%" expanded>
+<panel header="1. **Product design** %%[{{ icon_team }} 5 marks]%%" expanded>
 
 Evaluates: How well do your features fit together to form a cohesive product (not how many features or how big the features are)?
 
@@ -53,7 +53,7 @@ Based on: an inspection of the parts of the code you claim as written by you.
 </panel><p>
 
 
-**B. Depth and completeness of your feature**
+**B. Quality of your feature(s)**
 
 </panel>
 
@@ -61,23 +61,28 @@ Based on: an inspection of the parts of the code you claim as written by you.
 
 Evaluates: How good is your Quality Assurance? 
 
-Based on: 1. your test code 2. our own manual testing 3. your performance in the v1.4 [Practical Exam]({{baseUrl}}/admin/index-flat.html#deliverable-practical-exam), 4. bugs found during PE.
+Based on:
+1. **bugs you found** in the v1.4 [Practical Exam]({{baseUrl}}/admin/project-deliverables.html#deliverable%3A-practical-exam)
+1. **bugs in your work** found by others during the PE
+1. **testability of your feature** %%(you will lose marks if testers feel that your feature is hard to test manually)%%
+1. **your test code** %%(you will lose marks if you don't meet <trigger trigger="click" for="modal:projectAssessmentQA-testingExpectations">our expectations for automated testing</trigger>)%%
+1. our own manual testing (when necessary)
 
-{{ embed_topic("project-deliverables.md#project-deliverables-practicalexam", "Admin " + icon_embedding + " Deliverables → Practical Exam", "projectAssessment-Pe", "3") }}
-<panel type="seamless" header="Expectations for writing automated tests:" expanded>
-  <include src="project-testing.fr#expectations"/>
 </panel>
-  
-</panel>
+
+<modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations">
+  <include src="project-scope.md#testing-expectations"/>
+</modal>
 
 <panel header="4. **Documentation** %%[{{ icon_individual }} 10 marks]%%" expanded>
 
-Evaluates: How well does your user guide achieves its objectives? 
+Evaluates: How good are the sections you wrote for the user guide and the developer guide?
 
 Based on: the relevant sections of your project portfolio. Criteria considered:
 * Explanation should be clear and written to match the audience.
 * Good use of visuals to complement text.
-    
+* Use of correct UML notations (where applicable)
+
 </panel>
   
 <panel header="5. **Project management** %%[{{ icon_team }} 5 + {{ icon_individual }} 5 = 10 marks]%%" expanded>
@@ -89,7 +94,7 @@ Evaluates: How well you did in project management related aspects of the project
 
 Based on: Supervisor observations of project milestones and GitHub data. 
  
-Milestones ==need to be reached the midnight before of the tutorial== for it to be counted as achieved. To get a good grade for this aspect, achieve recommended weekly progress in at least 6/10 weeks.
+Milestones ==need to be reached the midnight before of the tutorial== for it to be counted as achieved. To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.
   
 Other criteria:
 * Good use of GitHub milestones
@@ -100,13 +105,13 @@ Other criteria:
 * Good use of buffers %%(opposite: everything at the last minute)%%
 * Project done iteratively and incrementally %%(opposite: doing most of the work in one big burst)%% 
 
-**B. Team-based tasks**: 
+**B. Team-tasks**:
 
-  Evaluates: how much you contributed to common <span class="embedding">team-based tasks</span><span class="flat">[team-based tasks]({{baseUrl}}/admin/index-flat.html#scope-example-team-tasks)</span>
+Evaluates: How much did you contribute to team-tasks?
 
 Based on: peer evaluations and tutor observations
 
-{{ embed_topic("project-scope.md#example-team-tasks", "Admin " + icon_embedding + " Project Scope → Examples of team tasks", "projectAssessment-exmapleTeamTasks", "3") }}
+{{ embed_topic("project-scope.md#example-team-tasks", "Admin " + icon_embedding + " Project Scope → Examples of team-tasks", "projectAssessment-exmapleTeamTasks", "3") }}
 
 </div>
 </panel>

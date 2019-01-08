@@ -13,28 +13,24 @@
 
 </tip-box>
 
-| Module | Tutorial ID %%(ID in CORS)%% | Time      | Venue            | Tutors ([contact details](https://docs.google.com/document/d/126YRkm4bWW1rai3u0Szc-4mLqhIyQUVL6EC54jM5f2g/pub?embed=true)) 
-|---------------|----------------|------------------|------------------|----
-| CS2103T (CS)  | W09  %%(T1)%%  | **W**ed **09**00 | COM1-B103 (ALL<sup>*</sup>)  | TBD            
-| CS2103T (CS)  | W10  %%(T2)%%  | **W**ed **10**00 | COM1-B103 (ALL)  | TBD            
-| CS2103T (CS)  | W11  %%(T3)%%  | **W**ed **11**00 | COM1-B103 (ALL)  | TBD            
-| CS2103T (CS)  | W13  %%(T4)%%  | **W**ed **13**00 | COM1-0201 (SR5)  | TBD       
-| CS2103T (CS)  | W14  %%(T5)%%  | **W**ed **14**00 | COM1-0201 (SR5)  | TBD       
-| CS2103T (CS)  | W15  %%(T6)%%  | **W**ed **15**00 | COM1-0201 (SR5)  | TBD       
-| CS2103T (CEG) | T09  %%(C01)%% | **T**hu **09**00 | COM1-B103 (ALL)  | TBD            
-| CS2103T (CEG) | T10  %%(C04)%% | **T**hu **10**00 | COM1-B103 (ALL)  | TBD            
-| CS2103T (CEG) | T11  %%(C03)%% | **T**hu **11**00 | COM1-B103 (ALL)  | TBD            
-| CS2103        | T12  %%(5)%%   | **T**hu **12**00 | COM1-B103 (ALL)  | TBD            
-| CS2103        | T13  %%(6)%%   | **T**hu **13**00 | COM1-B103 (ALL)  | TBD            
-| CS2103        | T14  %%(4)%%   | **T**hu **14**00 | COM1-B103 (ALL)  | TBD            
-| CS2103T (CEG) | T15  %%(C02)%% | **T**hu **15**00 | COM1-0210 (SR10) | TBD 
-| CS2103T (CEG) | T16  %%(C06)%% | **T**hu **16**00 | COM1-0201 (SR5)  | TBD 
-| CS2103T (CEG) | T17  %%(C05)%% | **T**hu **17**00 | COM1-0210 (SR10) | TBD 
-| CS2103        | F09  %%(1)%%   | **F**ri **09**00 | COM1-B103 (ALL)  | TBD      
-| CS2103        | F10  %%(2)%%   | **F**ri **10**00 | COM1-B103 (ALL)  | TBD      
-| CS2103        | F11  %%(3)%%   | **F**ri **11**00 | COM1-B103 (ALL)  | TBD      
+| Module   | Tutorial ID %%(ID in CORS)%%| Time | Venue             | Tutors (<a href="{{ baseUrl }}/admin/instructors.html">contact details</a>)
+|----------|-----------------|------------------|-------------------|----
+| CS2103   | W10  %%(T01)%%  | **W**ed **10**00 | COM1-B103 (ALL)<sup>*</sup>   | TBD
+| CS2103T  | W12  %%(T01)%%  | **W**ed **12**00 | COM1-0210 (SR10)  | TBD
+| CS2103   | W13  %%(T02)%%  | **W**ed **13**00 | COM1-0210 (SR10)  | TBD
+| CS2103T  | W14  %%(T02)%%  | **W**ed **14**00 | COM1-0210 (SR10)  | TBD
+| CS2103T  | W16  %%(T03)%%  | **W**ed **16**00 | COM1-B103 (ALL)   | TBD
+| CS2103T  | W17  %%(T04)%%  | **W**ed **17**00 | COM1-B103 (ALL)   | TBD
+| CS2103T  | T09  %%(T06)%%  | **T**hu **09**00 | COM1-0210 (SR10)  | TBD
+| CS2103   | T10  %%(T04)%%  | **T**hu **10**00 | COM1-0210 (SR10)  | TBD
+| CS2103T  | T12  %%(T07)%%  | **T**hu **12**00 | COM1-0210 (SR10)  | TBD            
+| CS2103   | T13  %%(T06)%%  | **T**hu **13**00 | COM1-0210 (SR10)  | TBD
+| CS2103T  | T16  %%(T08)%%  | **T**hu **16**00 | COM1-0210 (SR10)  | TBD
+| CS2103T  | F10  %%(T10)%%  | **F**ri **10**00 | COM1-0210 (SR10)  | TBD
+| CS2103   | F11  %%(T09)%%  | **F**ri **11**00 | COM1-0210 (SR10)  | TBD
 
 %%*ALL: Active Learning Room%%
+
 </div>
 </panel>
 
@@ -44,10 +40,10 @@
 **What happens during the tutorial**:
 
 * A tutorial group is handled by two tutors. Each tutor will work with two teams.
-* The tutor will direct students to share/discuss evidence of achieving the weekly learning outcomes (LO). 
-* If some students have met with difficulties while achieving an LO, the tutor can direct those students to get help from those who have achieved the LO. **The number of LOs that can be covered in the tutorial session depends on how well-prepared you are.**
-* The tutor will observe, and give feedback on how well you are achieving required LOs.
-* Please ==bring your laptop to tutorials.== You often need it to show evidence of LOs you achieved. At other times, we ask you to work on project related things with your team members, which too may require the laptop.
+* The tutor will direct students to share/discuss evidence of learning the weekly topics.
+* If some students have met with difficulties while learning a topic, the tutor can direct those students to get help from those who have learned the topic. **The number of topics that can be covered in the tutorial session depends on how well-prepared you are.**
+* The tutor will observe, and give feedback on how well you are learning required topics.
+* Please ==bring your laptop to tutorials.== You often need it to show evidence of learning the topics. At other times, we ask you to work on project related things with your team members, which too may require the laptop.
 
 <div class="indented-level2">
 {{ embed_topic("appendixC-faq.md#admin-faq-noLaptop", "Admin " + icon_embedding + " Appendix C(FAQ): What if I don't carry around a laptop?", "tutorials-faqLaptop", "4") }}
@@ -57,7 +53,7 @@
 
 **The role of our tutors** is different from tutors in other modules.
 
-* **No direct tech help**: Tutors are prohibited from giving technical help. %%Rationale: We want you to learn the vital survival skill of troubleshooting technical problems.%%
+* **No direct tech help**: Tutors are prohibited from giving direct technical help. %%Rationale: We want you to learn the vital survival skill of troubleshooting technical problems.%%
 
 <div class="indented-level2">
 {{ embed_topic("appendixD-help.md#main", "Admin " + icon_embedding + " Appendix D: How to get Help in " + module_pair, "tutorials-apdxD", "2") }}
@@ -81,7 +77,7 @@
 * You are expected to arrive on time. ==Punctuality is considered for participation marks.==
 * You may leave the class 15 minutes before the hour if you have another class right after. There is no need to wait till the tutor dismisses you. However, inform the tutor (as a courtesy) before leaving if you leave before the class is dismissed.
 * Please make sure you ==vacate the table 5 minutes before the hour== so that the next group can start on time.
-* In the past many students have suggested to increase the tutorial duration because 1 hour is barely enough to get through all weekly LOs. Increasing the tutorial time is not possible due to lack of venues and tutors. Instead, let's try to make the best of the one hour available by coming well prepared and starting on time.
+* In the past many students have suggested to increase the tutorial duration because 1 hour is barely enough to get through all weekly topics. Increasing the tutorial time is not possible due to lack of venues and tutors. Instead, let's try to make the best of the one hour available by coming well prepared and starting on time.
 
 **Grading:**
 

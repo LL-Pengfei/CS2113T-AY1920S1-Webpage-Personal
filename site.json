@@ -1,5 +1,5 @@
 {
-  "baseUrl": "/website-base",
+  "baseUrl": "/cs2103-website",
   "titlePrefix": "CS2103/T Website",
   "ignore": [
     "_site/*",
@@ -14,25 +14,17 @@
   ],
   "pages": [
     {"glob": "index.md"},
-    {"glob": "index-flat.md",
-      "searchable": "no"},
-    {"src": "admin/index-flat.md",
-      "searchable": "no"
-    },
     {"glob": "admin/*.md"},
     {"glob": "admin/gradeBreakdown.md"},
     {"glob": "schedule/index.md",
       "searchable": "no"},
     {"glob": "schedule/summary.md",
       "searchable": "no"},
-    {"glob": "schedule/**/index-flat.md",
+    {"glob": "schedule/**/index.md",
       "searchable": "no"},
-    {"glob": "schedule/**/outcomes.md",
-      "searchable": "no"},
+    {"glob": "coding-standards/**/*.mbd"},
     {"glob": "book/about/acknowledgements.md"},
     {"glob": "se-book-adapted/index.md"},
-    {"glob": "se-book-adapted/index-flat.md",
-      "searchable": "no"},
     {"glob": "se-book-adapted/chapters/*.md"},
     {"glob": "se-book-adapted/chapters-printable/*.md",
       "searchable": "no"
@@ -40,6 +32,9 @@
     {"glob": "se-book-adapted/common/*.md"},
     {"glob": "book/combined/exercises.md"},
     {"src": "se-book-adapted/print.md",
+      "searchable": "no"
+    },
+    {"glob": "book/**/index.md",
       "searchable": "no"
     }
   ],

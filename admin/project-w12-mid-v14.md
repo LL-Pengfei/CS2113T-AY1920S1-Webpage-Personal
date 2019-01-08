@@ -5,7 +5,12 @@
 
 **<big>Project Management:</big>**
 
-* **Freeze features** around this time. Ensure the current product have all the features you intend to release at v1.4. Adding major changes after this point is risky. The remaining time is better spent fixing problems discovered late or on fine-tuning the product.  
+* **Freeze features** around this time. Ensure the current product have all the features you intend to release at v1.4. Adding major changes after this point is risky. The remaining time is better spent fixing problems discovered late or on fine-tuning the product.
+* {{ icon_important_big_red }} Ensure the code attributed to you by RepoSense is correct, as reported in the [Project Activity Dashboard](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard)
+
+<div class="indented-level2">
+{{ embed_topic("reposenseCompatibility.md#main", "Admin " + icon_embedding + " Tools → Using RepoSense", "midv14_repoSenseCompatibility", "1") }}
+</div>
 
 **<big>Product:</big>**
 
@@ -13,7 +18,7 @@
 * After you have sufficient code coverage, fix remaining code quality problems and bring up the quality to your target level.
 
 <modal title="Admin {{ icon_embedding }} Project Asessement → Expectation on testing" id="modal:mid-v14-testingExpectations">
-  <include src="project-testing.fr#expectations"/>
+  <include src="project-scope.md#testing-expectations"/>
 </modal>
 
 <div class="indented-level2">

@@ -6,49 +6,54 @@
 </div>
 <div id="body">
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#mid-v12-overview" inline /></md></p>
-
-<div id="product">
+<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#mid-v12-overview" inline /></md><p/>
 
 **<big>Project Management:</big>**
 
-* **Complete the repo set up.**
-  * Fix any errors in org/repo set up %%&nbsp;(e.g. wrong repo name)%%.
-  * Set up [auto-publishing of docs](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation) if you haven't done so already
+<box>
 
-* **Adjust project rigor to suit your team's pace**, as explained below. Note that you are free to do similar adjustments at any future time in the project.
+:bulb: **You are free to adjust _process rigor_ and _project plan_ at any future time in the project**, starting from v1.2. If you are not sure if a certain adjustment is allowed, you can check with the teaching team first.
+</box>
 
-  * Automated tests have benefits, but they can be a pain to write/maintain; GUI tests are especially hard to maintain because their behavior can sometimes depend on things such as the OS, resolution etc.
-  
-    It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated test coverage you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much. There is no direct penalty for removing GUI tests.
-  
-    Also note <trigger trigger="click" for="modal:v12-testingExpectations">our expectation on test code</trigger>. 
-    
-  * You can also reduce the rigor of checkstyle checks to expedite PR processing.
-  * Another thing you can do is to switch to a simpler workflow if the forking workflow is slowing you down. 
+* **Switch to AB-3 or AB-2 if AB-4 is not working out for you**.
 
-<modal title="Admin {{ icon_embedding }} Project Asessement → Expectation on testing" id="modal:v12-testingExpectations">
-  <include src="project-testing.fr#expectations"/>
-</modal>
+<div class="indented-level2">
+
+{{ embed_topic("project-deliverables.md#notes-for-ab23", "Admin " + icon_embedding + " Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project", "midv12-notesForAb23", "3") }}
+</div>
 
 
-* **Adjust project plan if necessary**, as explained below. Note that you are free to do similar adjustments at any future time in the project.
-  * Now that you have a some idea about the code base, revisit the feature release plan and adjust it if necessary. The adjustment can be done using GitHub issue tracker. 
+* **Adjust process rigor to suit your team's pace**, as explained in the panel below.
 
-* **Start proper milestone management**
+<div class="indented-level2">
 
-  * {{ icon_important_big_red }} Starting from the upcoming milestone, ==there are additional requirements to follow== regarding how you **use GitHub to manage your milestones**, as described in <trigger trigger="click" for="modal:v12-projectTracking">[Admin {{ icon_embedding }} Appendix E: GitHub: Project Schedule Tracking]</trigger>.
+{{ embed_topic("appendixE-gitHub.md#workflow-after-v11", "Admin " + icon_embedding + " Appendix E(extract): **Workflow (after v1.1)**", "midv12-workflowAfterV11", "3") }}
+</div>
 
-* As before, you are _recommended_ (but not required) to **follow the forking workflow** when evolving the product.
 
-<modal large title="Admin {{ icon_embedding }} Appendix E: Github: Project Schedule Tracking" id="modal:v12-projectTracking">
-  <include src="appendixE-gitHub.md#project-schedule-tracking"/>
-</modal>
+* **Adjust project plan if necessary**. Now that you have a some idea about the code base, revisit the feature release plan and adjust it if necessary.
+
+* **Set up the issue tracker** as described in the panel below, if you haven't done so already.
+
+<div class="indented-level2">
+
+{{ embed_topic("appendixE-gitHub.md#issue-tracker-setup", "Admin " + icon_embedding + " Appendix E(extract): **Setting up the issue tracker**", "midv12-issueTrackerSetup", "1") }}
+</div>
+
+
+* **Start proper schedule tracking and milestone management** as explained in the panel below.
+
+<div class="indented-level2">
+
+{{ embed_topic("appendixE-gitHub.md#project-schedule-tracking", "Admin " + icon_embedding + " Appendix E(extract): **Project schedule tracking**", "midv12-projectScheduleTracking", "1") }}
+</div>
+
+<div id="product">
 
 **<big>Product:</big>**
 
-* **From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.3, v1.4"> milestone</tooltip>, preferably each week; only merged code is considered as contributions** %%<popover content="The ability to deliver code incrementally is an important LO of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover>%%. <br>
- If an enhancement is too big to complete in one milestone, try to deliver it in smaller incremental steps e.g. deliver a basic version of the enhancement first. 
+* **From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.3, v1.4"> milestone</tooltip>, preferably each week; only merged code is considered as contributions** %%<popover content="The ability to deliver code incrementally is an important learning outcome of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover>%%. <br>
+ If an enhancement is too big to complete in one milestone, try to deliver it in smaller incremental steps e.g. deliver a basic version of the enhancement first.
 
 
 </div>
@@ -58,5 +63,6 @@
 </div>
 {% endmacro %}
 
+{% from "common/macros.njk" import embed_topic with context %}
 {% from "common/admin.njk" import show_admin_page with context %}
 {{ show_admin_page("project-w08-mid-v12", show_main_text) }}

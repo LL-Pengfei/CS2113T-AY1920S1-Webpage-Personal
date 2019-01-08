@@ -1,6 +1,6 @@
 <div id="1kloc">
 
-{{ icon_important_big_red }} This LO can earn you <trigger trigger="click" for="modal:project1kloc-participation">1 participation mark</trigger>. 
+{{ icon_important_big_red }} This task can earn you <trigger trigger="click" for="modal:project1kloc-participation">2 participation marks</trigger>.
  
 <modal large title="%%Admin {{ icon_embedding }} Participation Marks%%" id="modal:project1kloc-participation">
   <include src="../../admin/participation.md#main"/>
@@ -19,11 +19,7 @@ Do an enhancement to [[AddressBook - Level1]({{module_org}}/addressbook-level1)]
   * [Optional] Try to follow [our coding standard]({{baseUrl}}/admin/programmingLanguages.html#java-coding-standard) in your new code.
 * Step 3: push the updated AB1 code to your fork
 
-  <tip-box type="tip">
-  
-  Note that you can reuse the code you write here in your final project, if applicable.
- 
-  </tip-box>
+:bulb: Note that you can reuse the code you write here in your final project, if applicable.
 
 **Submission**: No special submission required. Our scripts will check your fork automatically.
 
@@ -32,11 +28,11 @@ Do an enhancement to [[AddressBook - Level1]({{module_org}}/addressbook-level1)]
 
 <div id="2kloc">
 
-<tip-box type="important"> 
-  This LO requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
+<tip-box type="important">
+  This task requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
 </tip-box>
 
-This LO can earn you 2 participation marks, 1 mark for the individual component and 1 for the team component. You can omit either one of them.
+==This task can earn you 3 participation marks==, 2 mark for the individual component and 1 bonus mark for the team component. You can omit either one of them.
 
 :bulb: When working with existing code, a safe approach is to **change the code in very small steps, each resulting in a verifiable change** without breaking the app. For example, when adding a new `sort` command, the first few steps can be,
 1. Teach the app to accept a `sort` command but ignore it.
@@ -45,11 +41,11 @@ This LO can earn you 2 participation marks, 1 mark for the individual component 
 4. ...
 
 :bulb: Note that you can reuse the code you write here in your final project, if applicable.
- 
+
 
 #### Individual component:
 
-**Requirements**: Do an enhancement to [[AddressBook - Level2]({{module_org}}/addressbook-level2)]  %%e.g. add a new command%%. It can be the same enhancement you did to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but you must,
+**Requirements**: Do an enhancement to [[AddressBook - Level2]({{module_org}}/addressbook-level2)]  %%e.g. add a new command%%. It can be the same enhancement you did to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but try to limit to one enhancement (rather than mix many enhancements). In addition,
 * update the User Guide
 * update existing tests and add new tests if necessary, for both JUnit tests and I/O tests
 * follow the coding standard
@@ -58,7 +54,7 @@ This LO can earn you 2 participation marks, 1 mark for the individual component 
 Optional but encouraged:
 * Update the Developer Guide
 
-<include src="project.md#submission_PR_optional" />
+<include src="project.md#PR_to_AB2" />
 
 #### Team component:
 
@@ -72,23 +68,21 @@ The team component is ==to be done by all members==, including those who didn't 
 
 </div>
 
+<div id="3kloc">
 
-<div id="submission_PR_optional">
+==[Optional, but recommended]== If you are not comfortable jumping from AB-2 (~2KLoc) straight to AB-4 (~10KLoc), we recommend that you play around with [[AddressBook - Level3]({{module_org}}/addressbook-level3)] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.
 
-**Submission**: 
-* Options 1 (discouraged): Show the relevant code during the tutorial.
-* Options 2 (preferred): Create a pull request by following the instructions below.
-
-<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
-
-If you choose option 2, we recommend that you complete this week's _Project Management_ LOs first; there are many ways to create PRs but we expect you to create PRs in a specific way, as specified in the LOs. 
+How AB-3 differs from AB-2:
+* A simple GUI has been added to replace the Text UI.
+* No more I/O tests
+* A `Logic` class has been added together with a `LogicTest` class.
 
 </div>
 
 
 <div id="PR_to_AB2">
 
-**Submission**: Create a PR against [Addressbook-Level2]({{module_org}}/addressbook-level2).  ==Only clean PRs== (i.e. free of unrelated code modifications) will be accepted. 
+**Submission**: Create a PR against [Addressbook-Level2]({{module_org}}/addressbook-level2).  ==Try to make a _clean_ PR== (i.e. free of unrelated code modifications).
 
 <panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
 
@@ -114,7 +108,7 @@ Covered by:
 
 <div id="mid-v10">
 
-Covered by:
+Covered by the below. Try to ==do at least **step 1**== before coming to the tutorial.
 
 <panel src="../../admin/project-w04-mid-v10.md#main" header="%%Admin {{ icon_embedding }} Project → mid-v1.0%%" no-close />
 

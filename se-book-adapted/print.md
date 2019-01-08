@@ -4,6 +4,7 @@ footer: footer.md
 </frontmatter>
 
 <link rel="stylesheet" href="{{baseUrl}}/book/css/textbook.css">
+<link rel="stylesheet" href="{{baseUrl}}/book/css/print.css">
 
 <div class="website-content">
 
@@ -19,12 +20,14 @@ footer: footer.md
 # **SECTION: {{ section.heading | upper }}**
 {% set is_first_chapter = true %}
 {% for chapter in section.chapters %}
-  {% if is_first_chapter %}
-    {% set is_first_chapter = false %}
-  {% else %}
-{{ pagebreak }}
+  {% if not chapter.priority in ["0", "4", "-1"] %}
+    {% if is_first_chapter %}
+      {% set is_first_chapter = false %}
+    {% else %}
+  {{ pagebreak }}
+    {% endif %}
+    {{ chapter_template.embed_chapter("../book/", chapter) }}
   {% endif %}
-  {{ chapter_template.embed_chapter("../book/", chapter) }}
 {% endfor %}
 {% endmacro %}
 

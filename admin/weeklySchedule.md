@@ -1,7 +1,7 @@
 {% macro show_main_text() %}
 <div id="main">
 
-{{ icon_calendar }} **[Friday (previous week)]**<br>
+{{ icon_calendar }} **[Wednesday (previous week)]**<br>
 
 Attend the lecture for, 
 * a recap of the preceding week's topics
@@ -11,7 +11,7 @@ Attend the lecture for,
 
 <p/>
 
-{{ icon_calendar }} **[Saturday (previous week) - Tuesday]**<br>
+{{ icon_calendar }} **[Thursday (previous week) onwards]**<br>
  
  * Use the relevant learning resources to learn the topics.
  * Self-test your knowledge using exercises given in the learning resources. 
@@ -19,7 +19,7 @@ Attend the lecture for,
 
 <p/>
 
-{{ icon_calendar }} **[Wednesday - Friday]**<br>
+{{ icon_calendar }} **[Monday - Tuesday]**<br>
  
 Attend the tutorial to,
 

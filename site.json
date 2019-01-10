@@ -1,6 +1,6 @@
 {
-  "baseUrl": "/cs2103-website",
-  "titlePrefix": "CS2103/T Website",
+  "baseUrl": "/cs2113-website",
+  "titlePrefix": "CS2113/T Website",
   "ignore": [
     "_site/*",
     ".idea/*",

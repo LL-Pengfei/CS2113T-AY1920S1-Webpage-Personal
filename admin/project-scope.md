@@ -109,7 +109,7 @@ In particular, ==you are required to divide work based on features rather than c
 
 ##### [Individual] Expectations on Code
 
-* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of code** to earn full marks== provided the feature do well in all grading criteria.
+* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of code** to earn full marks== provided the feature does well in all grading criteria.
 
 ##### [Individual] Expectations on Documentation
 

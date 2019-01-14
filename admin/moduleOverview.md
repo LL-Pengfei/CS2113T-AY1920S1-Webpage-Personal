@@ -11,7 +11,7 @@ On the theory side, this module is supported by a customized online textbook [_S
 
 [<img src="{{baseUrl}}/admin/images/timeline.png" width="100%">](images/timeline.png)
 
-The practice side of this module is mainly covered by a team project. Students are expected to take over an existing project [AddressBook-Level4 (AB4)](https://se-edu.github.io/addressbook-level4/) -- a relatively small yet non-trivial (10 KLoC) generic product -- and enhance it into a better product or evolve it into a different product. To help students tackle the learning curve of working with 10 KLoC of code, the module takes them through a series of projects of increasing size, from AddressBook-Level1(1 KLoC) to AddressBook-Level3(4 KLoC).
+The practice side of this module is mainly covered by a team project. Students are expected to take over an existing project [AddressBook-Level3 (AB3)](https://se-edu.github.io/addressbook-level3/) or [AddressBook-Level4 (AB4)](https://se-edu.github.io/addressbook-level4/) -- a relatively small yet non-trivial (10 KLoC) generic product -- and enhance it into a better product or evolve it into a different product. To help students tackle the learning curve of working with 10 KLoC of code, the module takes them through a series of projects of increasing size, from AddressBook-Level1(1 KLoC) to AddressBook-Level3(4 KLoC).
 
 Given below is a summary of what the module covers and does not cover.
 

@@ -9,7 +9,11 @@ The <span class="font-weight-bold">{{ schedule_link }}</span> is ==_the_ one pag
 
 <div id="admin-faq-tVsNonT">
 
-Same lectures, same exam. Separate tutorials, separate project grading. Unless specified otherwise, whatever is stated for one module applies to the other.
+* Same lectures, same exam. 
+* Separate tutorials.
+* The **T** version reuses (to some extent) the documentation in CS2101.
+
+**Unless specified otherwise, whatever is stated for one module applies to the other.**
 
 </div>
 

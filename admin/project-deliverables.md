@@ -249,15 +249,15 @@ At the end of the project each student is required to submit a _Project Portfoli
     * As before, do both ==system testing and acceptance testing== but give priority to system testing as system testing bugs can earn you more credit.
 
 * **These are considered _bugs_**:
-  * Behavior differs from the User Guide
+  * Behavior differs from the User Guide (or Developer Guide)
   * A legitimate user behavior is not handled %%e.g. incorrect commands, extra parameters%%
   * Behavior is not specified and differs from normal expectations %%e.g. error message does not match the error%%
   * The feature does not solve the stated problem of the intended user i.e., the feature is 'incomplete'
   * Problems in the User Guide e.g., missing/incorrect info
 
 * **Where to report bugs**: Post bug in the following issue trackers (==not in the team's repo==):
-  * PE Dry Run (at **v1.3**): [nus-{{ module | lower }}-{{ semester }}/**pe-dry-run**]({{module_org}}/pe-dry-run/issues).
-  * PE (at **v1.4**): [nus-{{ module | lower }}-{{ semester }}/**pe**]({{module_org}}/pe/issues).
+  * PE Dry Run (at **v1.3**): [nus{{ module }}-{{ semester }}/**pe-dry-run**]({{module_org}}/pe-dry-run/issues).
+  * PE (at **v1.4**): [nus{{ module }}-{{ semester }}/**pe**]({{module_org}}/pe/issues).
 
 * **Bug report format**:
   * {{ icon_important_big_red }} Post bugs as you find them %%(i.e., do not wait to post all bugs at the end)%% because the issue tracker will close exactly at the end of the allocated time.

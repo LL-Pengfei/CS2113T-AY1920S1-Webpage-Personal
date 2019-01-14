@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="..\markbind\layouts\default\styles.css">
     
     
-    <link rel="icon" href="/cs2113-website/favicon.ico">
+    <link rel="icon" href="/website/favicon.ico">
 </head>
 <body>
 <div id="app">
@@ -47,7 +47,7 @@
           <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a> to provide additional data to the authorship analysis to make it more accurate.</li>
           <li>If you add a <code>config.json</code> file to your repo (as specified by one of the two methods),
             <ul>
-              <li><strong>Please use the <a href="/cs2113-website/admin/reposenseConfigTemplates.html">template json file given in the module website</a></strong> so that your display name matches the name we expect it to be.</li>
+              <li><strong>Please use the <a href="/website/admin/reposenseConfigTemplates.html">template json file given in the module website</a></strong> so that your display name matches the name we expect it to be.</li>
               <li>If your commits have multiple author names, specify all of them e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;theGary&quot;]</code></li>
               <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
             </ul>
@@ -184,7 +184,7 @@ method 2 ...
 <script src="..\markbind\js\polyfill.min.js"></script>
 <script src="..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/cs2113-website'
+    const baseUrl = '/website'
 </script>
 <script src="..\markbind\js\setup.js"></script>
 <script src="..\markbind\layouts\default\scripts.js"></script>

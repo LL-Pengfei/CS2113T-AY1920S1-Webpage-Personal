@@ -1,5 +1,5 @@
 {
-  "baseUrl": "/cs2113-website",
+  "baseUrl": "/website",
   "titlePrefix": "CS2113/T Website",
   "ignore": [
     "_site/*",

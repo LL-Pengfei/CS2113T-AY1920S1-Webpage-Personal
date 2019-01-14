@@ -90,14 +90,14 @@ Here are some examples of different enhancements and the grade the student is li
 
 Here is a non-exhaustive list of minor enhancements:
 
-1. Support different themes for the Look & Feel %%&nbsp;dark, light, etc.%%
 1. Support more fields %%&nbsp;e.g. Birthday%%
 1. Load a different page instead of the default Google search page %%&nbsp;e.g. Google Maps page or Twitter page%%
-1. Sort items
 1. Multiple panels %%&nbsp;e.g. an additional panel to show recently accessed items%%
 1. Marking some items as favorites
 1. Ability to search by labels
 1. Ability to specify colors for labels
+1. %%&nbsp;Support different themes for the Look & Feel dark, light, etc.%%
+1. %%&nbsp;Sort items%%
 
 </panel><p/>
 

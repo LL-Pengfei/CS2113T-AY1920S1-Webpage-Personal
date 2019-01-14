@@ -266,7 +266,7 @@ At the end of the project each student is required to submit a _Project Portfoli
   * Write good quality bug reports; ==poor quality or incorrect bug reports will not earn credit==.
   * Use a descriptive title.
   * Give a good description of the bug with ==steps to reproduce and screenshots==.
-  * Assign a severity to the bug report. Bug report without a priority label are considered `severity.Low` (lower severity bugs earn lower credit):
+  * Assign a severity to the bug report. Bug report without a severity label are considered `severity.Low` (lower severity bugs earn lower credit).
 
 <div class="indented-level4">
 <include src="appendixE-gitHub.md#bug-severity" />

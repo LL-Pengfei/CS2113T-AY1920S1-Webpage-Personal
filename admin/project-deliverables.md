@@ -233,7 +233,7 @@ At the end of the project each student is required to submit a _Project Portfoli
 **During the session**:
 1. **Take note of your team to test**. Distributed via LumiNUS gradebook.
 1. Download the latest jar file from the team's GitHub page. ==Copy it to an empty folder==.
-1. Confirm you are testing the allocated product by comparing the product UI with the UI screenshot sent via email.
+1. Confirm you are testing the allocated product by comparing the product UI with the UI screenshot seen in the project dashboard.
 
 <div id="project-deliverables-pe-testing-intructions">
 <box>

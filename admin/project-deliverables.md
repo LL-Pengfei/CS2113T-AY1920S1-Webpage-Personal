@@ -311,8 +311,8 @@ At the end of the project each student is required to submit a _Project Portfoli
 
 **During:** 
 
-1. **Take note of your team to test**. It will be given to you by the teaching team (distributed via IVLE gradebook).
-1. **Download from IVLE all files** submitted by the team %%(i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)%% ==into an empty folder==.
+1. **Take note of your team to test**. It will be given to you by the teaching team (distributed via LumiNUS gradebook).
+1. **Download from LumiNUS all files** submitted by the team %%(i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)%% ==into an empty folder==.
 1. **[60 minutes] Test the product and report bugs** as described below:
 
 <div class="indented-level2">

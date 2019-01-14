@@ -1,27 +1,24 @@
 <div></div>
 <p></p>
 <p><span class="dimmed"><strong><span>Tools → UML → Class Diagrams → Classes →
-</span></strong>
-  </span>
-</p>
+      </span></strong></span></p>
 <div id="title-and-body">
   <div>
-    <h4 id="what">What</h4>
+    <h4 id="what"><span>What</span></h4>
   </div>
   <div id="main">
     <div>
       <p>The basic UML notations used to represent a <em>class</em>:<br></p>
-      <img src="/website-base/book/uml/classDiagrams/classes/what/images/basicNotation.png" height="130">
+      <img src="/cs2113-website/book/uml/classDiagrams/classes/what/images/basicNotation.png" height="130">
       <p></p>
       <tip-box>
         <p><span class="fas fa-cube"></span> A <code>Table</code> class shown in UML notation:</p>
-        <img src="/website-base/book/uml/classDiagrams/classes/what/images/operations.png" height="150">
+        <img src="/cs2113-website/book/uml/classDiagrams/classes/what/images/operations.png" height="150">
         <p></p>
         <panel type="seamless" header="The equivalent code">
           <table>
             <tr>
-            
-              <td>
+                <td>
                 <p>Java <span class="fas fa-arrow-down"></span></p>
                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
     
@@ -39,10 +36,8 @@
 </code></pre>
                 <p></p>
               </td>
-            
-              <td valign="bottom">  <br><br></td>
-            
-              <td valign="bottom">
+                <td valign="bottom">  <br><br></td>
+                <td valign="bottom">
                 <p>Python <span class="fas fa-arrow-down"></span></p>
                 <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
     
@@ -64,12 +59,10 @@
           </table>
         </panel>
       </tip-box>
-      <p><strong>The 'Operations' compartment and/or the 'Attributes' compartment may be omitted</strong> if such details are not important for the task at hand. 'Attributes' always appear above the 'Operations' compartment. All operations should be in one
-        compartment rather than each operation in a separate compartment. Same goes for attributes.</p>
+      <p><strong>The 'Operations' compartment and/or the 'Attributes' compartment may be omitted</strong> if such details are not important for the task at hand. 'Attributes' always appear above the 'Operations' compartment. All operations should be in one compartment rather than each operation in a separate compartment. Same goes for attributes.</p>
       <tip-box>
-        <img src="/website-base/book/uml/classDiagrams/classes/what/images/classes.png" height="100"></tip-box>
-      <p><strong>The <em>visibility</em> of attributes and operations is used to indicate the level of access allowed for each attribute or operation.</strong> The types of visibility and their exact meanings depend on the programming language used. Here
-        are some common visibilities and how they are indicated in a class diagram:</p>
+        <img src="/cs2113-website/book/uml/classDiagrams/classes/what/images/classes.png" height="100"></tip-box>
+      <p><strong>The <em>visibility</em> of attributes and operations is used to indicate the level of access allowed for each attribute or operation.</strong> The types of visibility and their exact meanings depend on the programming language used. Here are some common visibilities and how they are indicated in a class diagram:</p>
       <ul>
         <li><code>+</code> : public</li>
         <li><code>-</code> : private</li>
@@ -115,7 +108,7 @@
       <p></p>
       <tip-box>
         <p><span class="fas fa-cube"></span> <code>Table</code> class with visibilities shown:</p>
-        <img src="/website-base/book/uml/classDiagrams/classes/what/images/operationsVisibility.png" height="150">
+        <img src="/cs2113-website/book/uml/classDiagrams/classes/what/images/operationsVisibility.png" height="150">
         <p></p>
       </tip-box>
     </div>
@@ -126,7 +119,7 @@
             <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span><span class='glyphicon glyphicon-ok-sign' aria-hidden='true'></span> Which classes are correct?">
               <question>
                 <p>Which of these follow the correct UML notation?</p>
-                <img src="/website-base/book/uml/classDiagrams/classes/what/images/chooseNotation.jpg" height="130">
+                <img src="/cs2113-website/book/uml/classDiagrams/classes/what/images/chooseNotation.jpg" height="130">
                 <p></p>
                 <ul class="task-list">
                   <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> 1</li>
@@ -151,43 +144,39 @@
             <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Draw Car class">
               <question>
                 <p>Draw a UML diagram to represent the <code>Car</code> class as given below. Include visibilities.</p>
-                <tabs>
-                
-                  <tab header="Java">
-                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span></span>{
-    
+                <div class="alt-java">
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span></span>{
+
     Engine engine;
-    <span class="hljs-keyword">private</span> List&lt;Wheel&gt;[] wheels = <span class="hljs-keyword">null</span>;
+    <span class="hljs-keyword">private</span> List&lt;Wheel&gt; wheels = <span class="hljs-keyword">null</span>;
     <span class="hljs-keyword">public</span> String model;
-    
+
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">drive</span><span class="hljs-params">(<span class="hljs-keyword">int</span> speed)</span></span>{
         move(speed);
     }
-    
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-title">move</span><span class="hljs-params">(<span class="hljs-keyword">int</span> speed)</span></span>{
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">move</span><span class="hljs-params">(<span class="hljs-keyword">int</span> speed)</span></span>{
         ...
     }
 }
 </code></pre>
-                  </tab>
-                
-                  <tab header="Python">
-                    <p>💡 You may omit <code>self</code> from method signatures in the class diagram.</p>
-                    <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span>:</span>
-    
+                </div>
+                <div class="alt-python">
+                  <p>💡 You may omit <code>self</code> from method signatures in the class diagram.</p>
+                  <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span>:</span>
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, model)</span>:</span>
     self._engine = <span class="hljs-keyword">None</span> <span class="hljs-comment"># type: Engine</span>
     self.__wheels = []  <span class="hljs-comment"># type: a list of Wheel objects</span>
     self.model = model  <span class="hljs-comment"># type: string</span>
-    
+
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">drive</span><span class="hljs-params">(self, speed)</span>:</span> <span class="hljs-comment"># speed is an int</span>
       self.move(speed)
-    
+
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__move</span><span class="hljs-params">(self, speed)</span>:</span>
       <span class="hljs-keyword">pass</span>
 </code></pre>
-                  </tab>
-                </tabs>
+                </div>
               </question>
             </panel>
           </div>

@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-122519234-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS2113/T Website - Text Book Chapter : Intellij IDEA</title>
+    <title>CS2113/T Website - Textbook Chapter : Intellij IDEA</title>
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-vue.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\font-awesome.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-glyphicons.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
+    <link rel="stylesheet" href="..\..\markbind\layouts\default\styles.css">
     <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
-    
-    <link rel="icon" href="/website-base/favicon.ico">
+    <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+    <link rel="icon" href="/cs2113-website/favicon.ico">
 </head>
 <body>
-<div id="app" class="container-fluid">
+<div id="app">
     <div id="flex-body">
   <div id="site-nav">
     <ul style="list-style-type: none; margin-left:-1em">
-      <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
+      <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Software Engineering</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Programming Paradigms</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Requirements</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/requirements.html">Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/requirements.html">Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Design</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/design.html">Software Design</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/modeling.html">Modeling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/design.html">Software Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/modeling.html">Modeling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Implementation</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/ides.html">IDEs</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/documentation.html">Documentation</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/integration.html">Integration</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/reuse.html">Reuse</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/ides.html">IDEs</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/documentation.html">Documentation</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/integration.html">Integration</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/reuse.html">Reuse</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Quality Assurance</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testing.html">Testing</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testing.html">Testing</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Project Management</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
-          </ul>
-        </div>
-      </li>
-      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-        <div class="dropdown-container">
-          <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/uml.html">UML</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/javaTools.html">Java</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/junit.html">JUnit</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Principles</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/principles.html">Principles</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/principles.html">Principles</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/uml.html">UML</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/javaTools.html">Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/junit.html">JUnit</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn">Supplementary
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/cppToJava.html">C++ to Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/exercises.html">Combined Exercises</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/definitions.html">List of Definitions</a></li>
           </ul>
         </div>
       </li>
@@ -134,66 +154,74 @@
     </div>
   </div>
   <div id="page-content">
-    <link rel="stylesheet" href="/website-base/book/css/textbook.css">
-    <div class="website-content">
-      <div>
-        <navbar placement="top" type="default">
-          <a slot="brand" href="/website-base/index.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-success"><span class="fas fa-clone"></span> nested</span></small></a>
-          <li><a href="/website-base/index-flat.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-bars"></span> flat</span></a></li>
-          <li><a href="/website-base/index.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
-          <li><a href="/website-base/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-          <li><a href="/website-base/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-          <dropdown text="Links" class="nav-link">
-            <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-            <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
-            <li><a href="/website-base/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
-            <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
-            <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
-            <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
-          </dropdown>
-          <li slot="right" class="nav-link">
-            <form class="navbar-form">
-              <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-            </form>
-          </li>
-        </navbar>
-      </div>
-      <p><span class="dimmed"><strong><span></span></strong>
-        </span>
-      </p>
-      <div id="title">
+    <div id="content-wrapper">
+      <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+      <div class="website-content">
         <div>
-          <h1 id="intellij-idea">Intellij IDEA</h1>
+          <navbar placement="top" type="default">
+            <a slot="brand" href="/cs2113-website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Jan '19</small></a>
+            <dropdown text="Schedule" class="nav-link">
+              <li><a href="/cs2113-website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span class="fas fa-arrow-circle-left"></span></span></a></li>
+              <li><a href="/cs2113-website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+            </dropdown>
+            <li><a href="/cs2113-website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+            <li><a href="/cs2113-website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+            <dropdown text="Links" class="nav-link">
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+              <li><a href="/cs2113-website/admin/project-overview.html" class="dropdown-item"><span class="fas fa-drafting-compass"></span> Project Info</a></li>
+              <li><a href="/cs2113-website/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Announcements</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> File Submissions</a></li>
+              <li><a href="/cs2113-website/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
+              <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
+              <li><a href="/cs2113-website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+              <li><a href="/cs2113-website/admin/projectList.html" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
+              <li><a href="/cs2113-website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span class="fas fa-th-list"></span> config.json templates for Reposense</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.github.io/cs2113-dashboard" target="_blank" class="dropdown-item"><span class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</a></li>
+            </dropdown>
+            <li slot="right" class="nav-link">
+              <form class="navbar-form">
+                <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
+              </form>
+            </li>
+          </navbar>
         </div>
-      </div>
-      <panel type="seamless" header="#### Project Setup" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can setup a project in an IDE</span>
-            </span>
-            </span>
-            </span>
+        <p><span class="dimmed"><strong><span></span></strong></span></p>
+        <div id="title">
+          <div>
+            <h1 id="intellij-idea"><span>Intellij IDEA</span><a class="fa fa-anchor" href="#intellij-idea"></a></h1>
+          </div>
+        </div>
+        <panel type="seamless" header="#### Project Setup<a class='fa fa-anchor' href='#project-setup'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can setup a project in an IDE</span></span></span></span>
             <p></p>
             <div>
-              <h5 id="running-intellij-idea-for-the-first-time">Running Intellij IDEA for the First Time</h5>
+              <h5 id="running-intellij-idea-for-the-first-time">Running Intellij IDEA for the First Time<a class="fa fa-anchor" href="#running-intellij-idea-for-the-first-time"></a></h5>
               <tabs>
-              
-                <tab header="<span class='far fa-file-alt'></span>">
+                  <tab header="<span class='far fa-file-alt'></span>">
                   <ul>
                     <li><a href="https://www.jetbrains.com/help/idea/creating-running-and-packaging-your-first-java-application.html">[Intellij Official Tutorial] <strong>Creating, Running and Packaging Your First Java Application</strong></a></li>
                   </ul>
@@ -201,8 +229,7 @@
                     <hr>
                   </p>
                 </tab>
-              
-                <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
+                  <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
                   <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/c0efB_CKOYo" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                   <p>A little bit more detailed explanation <span class="dimmed">(from CodeLaunch)</span> with some additional info at the end.</p>
                   <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/S764o0mAXhg" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
@@ -211,25 +238,19 @@
                   </p>
                 </tab>
               </tabs>
-              <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA</h5>
+              <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA<a class="fa fa-anchor" href="#importing-a-project-to-intellij-idea"></a></h5>
               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/WIYTktB1bT4" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Code Navigation" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can navigate code effectively using IDE features</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Code Navigation<a class='fa fa-anchor' href='#code-navigation'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can navigate code effectively using IDE features</span></span></span></span>
             <p></p>
             <div>
               <p>Some useful navigation shortcuts:</p>
@@ -248,21 +269,15 @@
               </panel>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Productivity Shortcuts" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use some useful IDE productivity shortcuts</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Productivity Shortcuts<a class='fa fa-anchor' href='#productivity-shortcuts'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use some useful IDE productivity shortcuts</span></span></span></span>
             <p></p>
             <div>
               <div v-closeable="" alt="video: Intellij shortcuts">
@@ -271,21 +286,15 @@
               </div>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Debugging: Basic" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can step through a program using a debugger</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Debugging: Basic<a class='fa fa-anchor' href='#debugging%3A-basic'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can step through a program using a debugger</span></span></span></span>
             <p></p>
             <div>
               <div v-closeable="" alt="video: debugging in Intellij">
@@ -297,25 +306,19 @@
               </ul>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Refactoring" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use automated refactoring features of the IDE</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Refactoring<a class='fa fa-anchor' href='#refactoring'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use automated refactoring features of the IDE</span></span></span></span>
             <p></p>
             <div>
               <div v-closeable="" alt="Videos: Automated refactoring using IDE">
-                <p>This video explains how to automate the 'Extract parameter' refactoring using Intellij IDEA. Most other refactorings available works similarly. i.e. <code>select the code to refactor</code> → <code>find the refactoring in the context menu</code>                  or <code>use the keyboard shortcut</code>.</p>
+                <p>This video explains how to automate the 'Extract parameter' refactoring using Intellij IDEA. Most other refactorings available works similarly. i.e. <code>select the code to refactor</code> → <code>find the refactoring in the context menu</code> or <code>use the keyboard shortcut</code>.</p>
                 <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/fg3Q5pt4E80" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                 <p>Here's another video explaining how to change a method signature as part of refactoring.</p>
                 <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/p6Tsw_3cXow" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
@@ -326,15 +329,16 @@
               </ul>
             </div>
             <div></div>
-        </div>
-      </panel>
+          </div>
+        </panel>
+      </div>
     </div>
   </div>
 </div>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Mon, 30 Jul 2018 02:05:52 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Mon, 14 Jan 2019 11:02:36 GMT</small></div>
 </footer>
 </div>
 </body>
@@ -343,7 +347,8 @@
 <script src="..\..\markbind\js\polyfill.min.js"></script>
 <script src="..\..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base'
+    const baseUrl = '/cs2113-website'
 </script>
 <script src="..\..\markbind\js\setup.js"></script>
+<script src="..\..\markbind\layouts\default\scripts.js"></script>
 </html>

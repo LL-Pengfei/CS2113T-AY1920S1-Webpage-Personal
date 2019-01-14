@@ -1,6 +1,6 @@
 <div id="policy-followingInstructions">
 
-When working with others, especially in a large class such as {{ module }},  it is very important that you adhere to standards, policies, and instructions imposed on everyone. Not doing so creates unnecessary headaches for everyone and puts your work attitude in a negative light. That is why we penalize repeated violations of instructions. On the other hand we do understand that humans are liable to make mistakes. That is why we only penalize repeated or frequent mistakes. 
+When working with others, especially in a large class such as {{ module_pair }},  it is very important that you adhere to standards, policies, and instructions imposed on everyone. Not doing so creates unnecessary headaches for everyone and puts your work attitude in a negative light. That is why we penalize repeated violations of instructions. On the other hand we do understand that humans are liable to make mistakes. That is why we only penalize repeated or frequent mistakes. 
 
 </div>
 
@@ -14,7 +14,8 @@ As most of the work is graded individually, team sizes of 3, 4, or 5 is not expe
 
 As most of the work is graded individually, it is OK to do less or more than equal share in your project team.
 
-<panel src="project-scope.md#individual-expectations" header="Admin {{ icon_embedding }} Project → Scope: Expectations from each student" minimized />
+<span class="flat">%%Related: [[Admin: Project: Scope](#individual-expectations)]%%</span>
+<panel src="project-scope.md#individual-expectations" header="Admin {{ icon_embedding }} Project → Scope: Expectations from each student" class="embedding" minimized />
 
 </div>
 
@@ -49,7 +50,8 @@ The promptness of a reply is even more important when the email is requesting yo
 
 **We encourage you to give tech help to each other**, but do it in a way that the other person learns from it.
 
-<panel src="appendixD-help.md#main" header="Admin {{ icon_embedding }} Appendix D: How to get Help in {{ module }}/T" minimized  />
+<span class="flat">%%Related: [[Admin: Appendix D: Getting Help](#admin-appendixD-help-anchor)]%%</span>
+<panel src="appendixD-help.md#main" header="Admin {{ icon_embedding }} Appendix D: How to get Help in {{ module_pair }}" class="embedding" minimized  />
 
 </div>
 
@@ -94,7 +96,8 @@ Penalties:
   * The work comes from a source of 'good standing' (such as an established open source project). This means you cannot reuse code written by an outside 'friend'.
   * You clearly give credit to the original author. Acknowledge use of third party resources clearly e.g. in the welcome message, splash screen (if any) or under the 'about' menu. If you are open about reuse, you are less likely to get into trouble if you unintentionally reused something copyrighted.
   * You do not violate the license under which the work has been released. Please  **do not use 3rd-party images/audio** in your software unless they have been specifically released to be used freely. Just because you found it in the Internet does not mean it is free for reuse.
-  * ==Always get permission from us before you reuse== third-party libraries. Please post your 'request to use 3rd party library' in our GitHub forum. That way, the whole class get to see what libraries are being used by others.
+  * ==Always get permission from us before you reuse== third-party libraries. Please post your 'request to use 3rd party library' in our [forum]({{ forum_link }}). That way, the whole class get to see what libraries are being used by others.
+  * ==This also ensures you learn the ethics to attribute credits to the correct stake holders/owners.==
 
 <tip-box> 
 
@@ -117,7 +120,7 @@ If you **reused code snippets found on the Internet** %%&nbsp;e.g. from StackOve
   //Solution below adapted from https://stackoverflow.com/a/16252290
   {Your implmentation of the reused solution here ...}
   ```
-* If you copy-pasted a non-trivial code block (possibly with minor modifications %%&nbsp;renaming, layout changes, changes to comments, etc.%%), also mark the code block as reused code (using <trigger trigger="click" for="modal:reusePolicy-collateSyntax">Collate Tool Syntax</trigger>)<br>
+* If you copy-pasted a non-trivial code block (possibly with minor modifications %%&nbsp;renaming, layout changes, changes to comments, etc.%%), also mark the code block as reused code (using <trigger trigger="click" for="modal:reusePolicy-authorTags">`@@author` tags</trigger>)<br>
   Format:
   ```java
   //@@author {yourGithubUsername}-reused
@@ -144,8 +147,8 @@ If you **reused code snippets found on the Internet** %%&nbsp;e.g. from StackOve
 
 </tip-box>
 
-<modal large title="Admin {{ icon_embedding }} Project mid-v1.3 → Colalte Tool" id="modal:reusePolicy-collateSyntax">
-  <include src="collate.fr"/>
+<modal large title="Admin {{ icon_embedding }} Project mid-v1.3 (extract) →" id="modal:reusePolicy-authorTags">
+  <include src="reposenseAuthorAnnotation.md"/>
 </modal>
 
 <modal large title="Admin {{ icon_embedding }} Project → Deliverables → Project Portfolio Page" id="modal:reusePolicy-ppp">

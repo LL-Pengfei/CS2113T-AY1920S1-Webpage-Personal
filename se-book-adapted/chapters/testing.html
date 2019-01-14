@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-122519234-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS2113/T Website - Text Book Chapter : Testing</title>
+    <title>CS2113/T Website - Textbook Chapter : Testing</title>
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-vue.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\font-awesome.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-glyphicons.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
+    <link rel="stylesheet" href="..\..\markbind\layouts\default\styles.css">
     <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
-    
-    <link rel="icon" href="/website-base/favicon.ico">
+    <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+    <link rel="icon" href="/cs2113-website/favicon.ico">
 </head>
 <body>
-<div id="app" class="container-fluid">
+<div id="app">
     <div id="flex-body">
   <div id="site-nav">
     <ul style="list-style-type: none; margin-left:-1em">
-      <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
+      <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Software Engineering</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Programming Paradigms</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Requirements</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/requirements.html">Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/requirements.html">Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Design</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/design.html">Software Design</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/modeling.html">Modeling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/design.html">Software Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/modeling.html">Modeling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Implementation</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/ides.html">IDEs</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/documentation.html">Documentation</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/integration.html">Integration</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/reuse.html">Reuse</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/ides.html">IDEs</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/documentation.html">Documentation</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/integration.html">Integration</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/reuse.html">Reuse</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Quality Assurance</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testing.html">Testing</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testing.html">Testing</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Project Management</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
-          </ul>
-        </div>
-      </li>
-      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-        <div class="dropdown-container">
-          <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/uml.html">UML</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/javaTools.html">Java</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/junit.html">JUnit</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Principles</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/principles.html">Principles</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/principles.html">Principles</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/uml.html">UML</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/javaTools.html">Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/junit.html">JUnit</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn">Supplementary
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/cppToJava.html">C++ to Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/exercises.html">Combined Exercises</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/definitions.html">List of Definitions</a></li>
           </ul>
         </div>
       </li>
@@ -134,63 +154,75 @@
     </div>
   </div>
   <div id="page-content">
-    <link rel="stylesheet" href="/website-base/book/css/textbook.css">
-    <div class="website-content">
-      <div>
-        <navbar placement="top" type="default">
-          <a slot="brand" href="/website-base/index.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-success"><span class="fas fa-clone"></span> nested</span></small></a>
-          <li><a href="/website-base/index-flat.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-bars"></span> flat</span></a></li>
-          <li><a href="/website-base/index.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
-          <li><a href="/website-base/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-          <li><a href="/website-base/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-          <dropdown text="Links" class="nav-link">
-            <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-            <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
-            <li><a href="/website-base/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
-            <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
-            <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
-            <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
-          </dropdown>
-          <li slot="right" class="nav-link">
-            <form class="navbar-form">
-              <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-            </form>
-          </li>
-        </navbar>
-      </div>
-      <p><span class="dimmed"><strong><span></span></strong>
-        </span>
-      </p>
-      <div id="title">
+    <div id="content-wrapper">
+      <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+      <div class="website-content">
         <div>
-          <h1 id="testing">Testing</h1>
+          <navbar placement="top" type="default">
+            <a slot="brand" href="/cs2113-website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Jan '19</small></a>
+            <dropdown text="Schedule" class="nav-link">
+              <li><a href="/cs2113-website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span class="fas fa-arrow-circle-left"></span></span></a></li>
+              <li><a href="/cs2113-website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+            </dropdown>
+            <li><a href="/cs2113-website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+            <li><a href="/cs2113-website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+            <dropdown text="Links" class="nav-link">
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+              <li><a href="/cs2113-website/admin/project-overview.html" class="dropdown-item"><span class="fas fa-drafting-compass"></span> Project Info</a></li>
+              <li><a href="/cs2113-website/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Announcements</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> File Submissions</a></li>
+              <li><a href="/cs2113-website/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
+              <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
+              <li><a href="/cs2113-website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+              <li><a href="/cs2113-website/admin/projectList.html" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
+              <li><a href="/cs2113-website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span class="fas fa-th-list"></span> config.json templates for Reposense</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.github.io/cs2113-dashboard" target="_blank" class="dropdown-item"><span class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</a></li>
+            </dropdown>
+            <li slot="right" class="nav-link">
+              <form class="navbar-form">
+                <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
+              </form>
+            </li>
+          </navbar>
         </div>
-      </div>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="introduction">Introduction</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain testing</span>
-              </span>
-              </span>
-              </span>
+        <p><span class="dimmed"><strong><span></span></strong></span></p>
+        <div id="title">
+          <div>
+            <h1 id="testing"><span>Testing</span><a class="fa fa-anchor" href="#testing"></a></h1>
+          </div>
+        </div>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="introduction"><span>Introduction</span><a class="fa fa-anchor" href="#introduction"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain testing</span></span></span></span>
               <p></p>
               <div>
                 <tip-box type="definition">
@@ -198,7 +230,7 @@
                     <p><strong>Testing</strong>: Testing is operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
                   </div>
                 </tip-box>
-                <img src="/website-base/book/testing/introduction/what/images/diagram.png" height="220">
+                <img src="/cs2113-website/book/testing/introduction/what/images/diagram.png" height="220">
                 <p></p>
                 <p><strong>When testing, we execute a set of <em>test cases</em>.</strong> A test case specifies how to perform a test. At a minimum, it specifies the input to the <em>software under test (SUT)</em> and the expected behavior.</p>
                 <tip-box>
@@ -229,8 +261,7 @@
                 </ol>
                 <p><strong>A test case <em>failure</em> is a mismatch between the expected behavior and the actual behavior. A failure is caused by a <em>defect</em> (or a bug).</strong></p>
                 <tip-box>
-                  <p><span class="fas fa-cube"></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized
-                    variable.</p>
+                  <p><span class="fas fa-cube"></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized variable.</p>
                 </tip-box>
                 <panel header="%%A deeper look at the definition of testing%%" type="seamless">
                   <p>Here is another definition of testing:</p>
@@ -261,56 +292,49 @@
                   </panel>
                 </div>
               </div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### Testability" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain testability</span>
-              </span>
-              </span>
-              </span>
-              <p></p>
-              <div>
-                <p><strong><em>Testability</em> is an indication of how easy it is to test an SUT.</strong> As testability depends a lot on the design and implementation. You should try to increase the testability when you design and implement a software.
-                  The higher the testability, the easier it is to achieve a better quality software.</p>
-              </div>
-              <div></div>
-          </div>
-        </panel>
-      </panel>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="testing-types">Testing Types</h2></div></span>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="unit-testing">Unit Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
+            </div>
+          </panel>
+          <panel type="seamless" header="#### Testability<a class='fa fa-anchor' href='#testability'></a>" expanded="">
             <div class="indented">
               <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty"
-                aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain unit testing</span>
-              </span>
-              </span>
-              </span>
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain testability</span></span></span></span>
               <p></p>
               <div>
-                <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
-                <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
-                <tip-box>
-                  <p><span class="fas fa-cube"></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
-                  <tabs>
-                  
-                    <tab header="Java">
+                <p><strong><em>Testability</em> is an indication of how easy it is to test an SUT.</strong> As testability depends a lot on the design and implementation. You should try to increase the testability when you design and implement a software. The higher the testability, the easier it is to achieve a better quality software.</p>
+              </div>
+              <div></div>
+            </div>
+          </panel>
+        </panel>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="testing-types"><span>Testing Types</span><a class="fa fa-anchor" href="#testing-types"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="unit-testing"><span>Unit Testing</span><a class="fa fa-anchor" href="#unit-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain unit testing</span></span></span></span>
+                <p></p>
+                <div>
+                  <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
+                  <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
+                  <tip-box>
+                    <p><span class="fas fa-cube"></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
+                    <div class="alt-java">
                       <div>
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     <span class="hljs-function">String <span class="hljs-title">read</span><span class="hljs-params">()</span></span>{
@@ -342,9 +366,8 @@
 }
 </code></pre>
                       </div>
-                    </tab>
-                  
-                    <tab header="Python">
+                    </div>
+                    <div class="alt-python">
                       <div>
                         <pre><code class="hljs python"><span class="hljs-keyword">import</span> unittest
 
@@ -368,48 +391,41 @@
       <span class="hljs-comment"># another unit tests for write(string) method</span>
 </code></pre>
                       </div>
-                    </tab>
-                  </tabs>
-                </tip-box>
-              </div>
-              <div>
+                    </div>
+                  </tip-box>
+                </div>
                 <div>
-                  <panel header="<span class='fas fa-paperclip'></span> Resources">
-                    <p><strong>Side readings:</strong></p>
-                    <ul>
-                      <li>[Web article] <a href="http://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests">The three pillars of unit testing</a> - A short article about what makes a good unit test.</li>
-                      <li><a href="http://avandeursen.com/2014/02/22/gotofail-security/">Learning from Apple’s #gotofail Security Bug</a> - How unit testing (and other good coding practices) could have prevented a major security bug.</li>
-                    </ul>
-                  </panel>
+                  <div>
+                    <panel header="<span class='fas fa-paperclip'></span> Resources">
+                      <p><strong>Side readings:</strong></p>
+                      <ul>
+                        <li>[Web article] <a href="http://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests">The three pillars of unit testing</a> -
+                          A short article about what makes a good unit test.</li>
+                        <li><a href="http://avandeursen.com/2014/02/22/gotofail-security/">Learning from Apple’s #gotofail Security Bug</a> -
+                          How unit testing (and other good coding practices) could have prevented a major security bug.</li>
+                      </ul>
+                    </panel>
+                  </div>
                 </div>
               </div>
-            </div>
-          </panel>
-          <panel type="seamless" header="#### Stubs" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use stubs to isolate an SUT from its dependencies</span>
-                </span>
-                </span>
-                </span>
+            </panel>
+            <panel type="seamless" header="#### Stubs<a class='fa fa-anchor' href='#stubs'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use stubs to isolate an SUT from its dependencies</span></span></span></span>
                 <p></p>
                 <div>
-                  <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the
-                    <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
+                  <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
                   <tip-box>
                     <p><span class="fas fa-cube"></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
                   </tip-box>
                   <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
                   <tip-box type="definition">
                     <div>
-                      <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set
-                        of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
+                      <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                     </div>
                   </tip-box>
                   <tip-box>
@@ -453,7 +469,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                    <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code>                      <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+                    <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code> <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
                     <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
                     <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -467,7 +483,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                    <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code>                      is expected to return for the given test input.</p>
+                    <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                     <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                     <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -505,94 +521,79 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="integration-testing">Integration Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain integration testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="integration-testing"><span>Integration Testing</span><a class="fa fa-anchor" href="#integration-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain integration testing</span></span></span></span>
                 <p></p>
                 <div>
-                  <p><strong><em>Integration testing</em> : testing whether different parts of the software <em>work together</em> (i.e. integrates) as expected.</strong> Integration tests aim to discover bugs in the 'glue code' related to how components
-                    interact with each other. These bugs are often the result of misunderstanding of what the parts are supposed to do vs what the parts are actually doing.</p>
+                  <p><strong><em>Integration testing</em> : testing whether different parts of the software <em>work together</em> (i.e. integrates) as expected.</strong> Integration tests aim to discover bugs in the 'glue code' related to how components interact with each other. These bugs are often the result of misunderstanding of what the parts are supposed to do vs what the parts are actually doing.</p>
                   <tip-box>
-                    <p><span class="fas fa-cube"></span> Suppose a class <code>Car</code> users classes <code>Engine</code> and <code>Wheel</code>. If the <code>Car</code> class assumed a <code>Wheel</code> can support 200 mph speed but the actual <code>Wheel</code>                      can only support 150 mph, it is the integration test that is supposed to uncover this discrepancy.</p>
+                    <p><span class="fas fa-cube"></span> Suppose a class <code>Car</code> users classes <code>Engine</code> and <code>Wheel</code>. If the <code>Car</code> class assumed a <code>Wheel</code> can support 200 mph speed but the actual <code>Wheel</code> can only support 150 mph, it is the integration test that is supposed to uncover this discrepancy.</p>
                   </tip-box>
                 </div>
                 <div></div>
-            </div>
-          </panel>
-          <panel type="seamless" header="#### How" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain integration testing</span>
-                </span>
-                </span>
-                </span>
+              </div>
+            </panel>
+            <panel type="seamless" header="#### How<a class='fa fa-anchor' href='#how'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use integration testing</span></span></span></span>
                 <p></p>
                 <div>
-                  <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus
-                    on the interactions between the parts.</p>
+                  <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
                   <tip-box>
                     <p><span class="fas fa-cube"></span> Suppose a class <code>Car</code> uses classes <code>Engine</code> and <code>Wheel</code>. Here is how you would go about doing pure integration tests:</p>
-                    <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br> b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, <mark>using stubs for <code>Engine</code> and <code>Wheel</code></mark>.<br>                      c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>.</p>
+                    <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
+                      b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, <mark>using stubs for <code>Engine</code> and <code>Wheel</code></mark>.<br>
+                      c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>.</p>
                   </tip-box>
                   <p><strong>In practice, developers often use a hybrid of unit+integration tests to minimize the need for stubs.</strong></p>
                   <tip-box>
                     <p><span class="fas fa-cube"></span> Here's how a hybrid unit+integration approach could be applied to the same example used above:</p>
                     <p>(a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
-                      <s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br> (c) After that, do an integration test for <code>Car</code> using
-                      it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark>                      (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of
-                      the step (c) in the example above).</p>
-                    <p>💡 Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the
-                      risk of bugs in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
+                      <s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br>
+                      (c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark> (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of the step (c) in the example above).</p>
+                    <p>💡 Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the risk of bugs in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
                   </tip-box>
                 </div>
                 <div></div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="system-testing">System Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain system testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="system-testing"><span>System Testing</span><a class="fa fa-anchor" href="#system-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain system testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
                   <p>System testing is typically done by a testing team (also called a QA team).</p>
-                  <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully'
-                    having pushed beyond its limits.</p>
+                  <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully' having pushed beyond its limits.</p>
                   <tip-box>
                     <p><span class="fas fa-cube"></span> Suppose the SUT is a browser supposedly capable of handling web pages containing up to 5000 characters. Given below is a test case to test if the SUT fails gracefully if pushed beyond its limits.</p>
                     <pre class="hljs"><code>Test case: load a web page that is too big
@@ -612,25 +613,22 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </ul>
                 </div>
                 <div></div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="alpha-and-beta-testing">Alpha and Beta Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain alpha and beta testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="alpha-and-beta-testing"><span>Alpha and Beta Testing</span><a class="fa fa-anchor" href="#alpha-and-beta-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain alpha and beta testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Alpha testing</em> is performed by the users, under controlled conditions set by the software development team.</strong></p>
@@ -638,25 +636,22 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p>An <em>open beta release</em> is the release of not-yet-production-quality-but-almost-there software to the general population. For example, Google’s Gmail was in 'beta' for many years before the label was finally removed.</p>
                 </div>
                 <div></div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="dogfooding">Dogfooding</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dogfooding</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="dogfooding"><span>Dogfooding</span><a class="fa fa-anchor" href="#dogfooding"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dogfooding</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Eating your own dog food</em> (aka dogfooding), is a creators of a product use their own product to test the product.</strong></p>
@@ -681,51 +676,41 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="developer-testing">Developer Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain developer testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="developer-testing"><span>Developer Testing</span><a class="fa fa-anchor" href="#developer-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain developer testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Developer testing</em> is the testing done by the developers themselves</strong> as opposed to professional testers or end-users.</p>
                 </div>
                 <div></div>
-            </div>
-          </panel>
-          <panel type="seamless" header="#### Why" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the need for early developer testing</span>
-                </span>
-                </span>
-                </span>
+              </div>
+            </panel>
+            <panel type="seamless" header="#### Why<a class='fa fa-anchor' href='#why'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the need for early developer testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Delaying testing until the full product is complete has a number of disadvantages:</strong></p>
                   <ul>
-                    <li><strong>Locating the cause of such a test case failure is difficult due to a large search space;</strong> in a large system, the search space could be millions of lines of code, written by hundreds of developers! The failure may also
-                      be due to multiple inter-related bugs.</li>
+                    <li><strong>Locating the cause of such a test case failure is difficult due to a large search space;</strong> in a large system, the search space could be millions of lines of code, written by hundreds of developers! The failure may also be due to multiple inter-related bugs.</li>
                     <li><strong>Fixing a bug found during such testing could result in major rework</strong>, especially if the bug originated during the design or during requirements specification <span class="dimmed">i.e. a faulty design or faulty requirements</span>.</li>
                     <li><strong>One bug might 'hide' other bugs</strong>, which could emerge only after the first bug is fixed.</li>
                     <li><strong>The delivery may have to be delayed</strong> if too many bugs were found during testing.</li>
@@ -734,7 +719,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <blockquote>
                     <p>The earlier a bug is found, the easier and cheaper to have it fixed.</p>
                   </blockquote>
-                  <img src="/website-base/book/testing/testingTypes/developerTesting/why/images/diagram.png" height="180">
+                  <img src="/cs2113-website/book/testing/testingTypes/developerTesting/why/images/diagram.png" height="180">
                   <p></p>
                   <p>Such early testing of partially developed software is usually, and by necessity, done by the developers themselves i.e. developer testing.</p>
                 </div>
@@ -755,7 +740,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                               </ul>
                               <p>Cons:</p>
                               <ul>
-                                <li>A developer may unconsciously test only situations that he knows to work (i.e. test it too 'gently').</li>
+                                <li>A developer may subconsciously test only situations that he knows to work (i.e. test it too 'gently').</li>
                                 <li>A developer may be blind to his own mistakes (if he did not consider a certain combination of input while writing code, it is possible for him to miss it again during testing).</li>
                                 <li>A developer may have misunderstood what the SUT is supposed to do in the first place.</li>
                                 <li>A developer may lack the testing expertise.</li>
@@ -788,25 +773,22 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="exploratory-vs-scripted-testing">Exploratory vs Scripted Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain exploratory testing and scripted testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="exploratory-vs-scripted-testing"><span>Exploratory vs Scripted Testing</span><a class="fa fa-anchor" href="#exploratory-vs-scripted-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain exploratory testing and scripted testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Here are two alternative approaches to testing a software: <em>Scripted</em> testing and <em>Exploratory</em> testing</strong></p>
@@ -818,14 +800,12 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <p><strong>Exploratory testing:</strong> Devise test cases on-the-fly, creating new test cases based on the results of the past test cases.</p>
                     </li>
                   </ol>
-                  <p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’
-                    <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em>                    because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those
-                    operations where more faults are found.</p>
+                  <p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’ <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em> because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those operations where more faults are found.</p>
                   <tip-box>
                     <p><span class="fas fa-cube"></span> Here is an example thought process behind a segment of an exploratory testing session:</p>
                     <blockquote>
-                      <p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; we need to look at them soon. But before that, let us give a good test run to feature y because users can still use the product if feature
-                        y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, we have a major problem and this has to be made known to the development team sooner rather than later...”</p>
+                      <p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; we need to look at them soon.
+                        But before that, let us give a good test run to feature y because users can still use the product if feature y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, we have a major problem and this has to be made known to the development team sooner rather than later...”</p>
                     </blockquote>
                   </tip-box>
                   <tip-box>
@@ -833,8 +813,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </tip-box>
                   <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <span class='glyphicon glyphicon-eye-open' aria-hidden='true'></span>">
                     <div>
-                      <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought
-                        leader in software testing).</p>
+                      <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
                     </div>
                   </modal>
                 </div>
@@ -886,38 +865,28 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
-          </panel>
-          <panel type="seamless" header="#### When" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the choice between exploratory testing and scripted testing</span>
-                </span>
-                </span>
-                </span>
+              </div>
+            </panel>
+            <panel type="seamless" header="#### When<a class='fa fa-anchor' href='#when'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the choice between exploratory testing and scripted testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Which approach is better – <strong>scripted or exploratory? A mix is better.</strong></p>
-                  <p><strong>The success of exploratory testing depends on the tester’s prior experience and intuition.</strong> Exploratory testing should be done by experienced testers, using a clear strategy/plan/framework. Ad-hoc exploratory testing
-                    by unskilled or inexperienced testers without a clear strategy is not recommended for real-world non-trivial systems. While <strong>exploratory testing may allow us to detect some problems in a relatively short time, it is not prudent to use exploratory testing as the sole means of testing a critical system</strong>.</p>
-                  <p><strong>Scripted testing is more systematic, and hence, likely to discover more bugs given sufficient time</strong>, while exploratory testing would aid in quick error discovery, especially if the tester has a lot of experience in testing
-                    similar systems.</p>
+                  <p><strong>The success of exploratory testing depends on the tester’s prior experience and intuition.</strong> Exploratory testing should be done by experienced testers, using a clear strategy/plan/framework. Ad-hoc exploratory testing by unskilled or inexperienced testers without a clear strategy is not recommended for real-world non-trivial systems. While <strong>exploratory testing may allow us to detect some problems in a relatively short time, it is not prudent to use exploratory testing as the sole means of testing a critical system</strong>.</p>
+                  <p><strong>Scripted testing is more systematic, and hence, likely to discover more bugs given sufficient time</strong>, while exploratory testing would aid in quick error discovery, especially if the tester has a lot of experience in testing similar systems.</p>
                   <blockquote>
-                    <p>In some contexts, you will achieve your testing mission better through a more scripted approach; in other contexts, your mission will benefit more from the ability to create and improve tests as you execute them. I find that most situations
-                      benefit from a mix of scripted and exploratory approaches. --
-                      <trigger trigger="click" for="modal:ExploratoryWhen-bach-et-explained">[source: bach-et-explained]</trigger>
+                    <p>In some contexts, you will achieve your testing mission better through a more scripted approach; in other contexts, your mission will benefit more from the ability to create and improve tests as you execute them. I find that most situations benefit from a mix of scripted and exploratory approaches.
+                      --<trigger trigger="click" for="modal:ExploratoryWhen-bach-et-explained">[source: bach-et-explained]</trigger>
                     </p>
                   </blockquote>
                   <modal id="modal:ExploratoryWhen-bach-et-explained" title="bach-et-explained <span class='glyphicon glyphicon-eye-open' aria-hidden='true'></span>">
                     <div>
-                      <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought
-                        leader in software testing).</p>
+                      <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
                     </div>
                   </modal>
                 </div>
@@ -942,47 +911,37 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="acceptance-testing">Acceptance Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain acceptance testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="acceptance-testing"><span>Acceptance Testing</span><a class="fa fa-anchor" href="#acceptance-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain acceptance testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
-                  <p>Acceptance tests give an assurance to the customer that the system does what it is intended to do. Acceptance test cases are often defined at the beginning of the project, usually based on the use case specification. Successful completion
-                    of UAT is often a prerequisite to the project sign-off.</p>
+                  <p>Acceptance tests give an assurance to the customer that the system does what it is intended to do. Acceptance test cases are often defined at the beginning of the project, usually based on the use case specification. Successful completion of UAT is often a prerequisite to the project sign-off.</p>
                 </div>
                 <div></div>
-            </div>
-          </panel>
-          <panel type="seamless" header="#### Acceptance vs System Testing" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the differences between system testing and acceptance testing</span>
-                </span>
-                </span>
-                </span>
+              </div>
+            </panel>
+            <panel type="seamless" header="#### Acceptance vs System Testing<a class='fa fa-anchor' href='#acceptance-vs-system-testing'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the differences between system testing and acceptance testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Acceptance testing comes after system testing. Similar to system testing, acceptance testing involves testing the whole system.</p>
@@ -1078,25 +1037,22 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
-        </panel>
-        <panel type="seamless" expanded="">
-          <span slot="header" class="card-title"><div>
-<h3 id="regression-testing">Regression Testing</h3></div></span>
-          <panel type="seamless" header="#### What" expanded="">
-            <div class="indented">
-              <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              <span
-                class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                </span>
-                </span>
-                </span>
-                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain regression testing</span>
-                </span>
-                </span>
-                </span>
+          <panel type="seamless" expanded="">
+            <span slot="header" class="card-title">
+              <div>
+                <h3 id="regression-testing"><span>Regression Testing</span><a class="fa fa-anchor" href="#regression-testing"></a></h3>
+              </div>
+            </span>
+            <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+              <div class="indented">
+                <span class="badge badge-light">
+                  <span><span class="dimmed">
+                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    </span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain regression testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>When we modify a system, the modification may result in some unintended and undesirable effects on the system. Such an effect is called a <em>regression</em>.</strong></p>
@@ -1132,39 +1088,33 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </panel>
                   </div>
                 </div>
-            </div>
+              </div>
+            </panel>
           </panel>
         </panel>
-      </panel>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="test-automation">Test Automation</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test automation</span>
-              </span>
-              </span>
-              </span>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="test-automation"><span>Test Automation</span><a class="fa fa-anchor" href="#test-automation"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test automation</span></span></span></span>
               <p></p>
               <div>
                 <tabs>
-                
-                  <tab header="<span class='far fa-file-alt'></span>">
-                    <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests
-                      repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
+                    <tab header="<span class='far fa-file-alt'></span>">
+                    <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
                     <p>
                       <hr>
                     </p>
                   </tab>
-                
-                  <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
+                    <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe>
                     <p>
                       <hr>
@@ -1183,21 +1133,15 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </panel>
                 </div>
               </div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### Automated Testing of CLI Apps" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can semi-automate testing of CLIs</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### Automated Testing of CLI Apps<a class='fa fa-anchor' href='#automated-testing-of-cli-apps'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can semi-automate testing of CLIs</span></span></span></span>
               <p></p>
               <div>
                 <p><strong>A simple way to semi-automate testing of a CLI(Command Line Interface) app is by using input/output re-direction.</strong></p>
@@ -1232,7 +1176,8 @@ Invalid command format: add
 </code></pre>
                     <ul>
                       <li>
-                        <p>💡 The way to run a CLI program differs based on the language.<br> e.g., In Python, assuming the code is in <code>AddressBook.py</code> file, use the command<br>
+                        <p>💡 The way to run a CLI program differs based on the language.<br>
+                          e.g., In Python, assuming the code is in <code>AddressBook.py</code> file, use the command<br>
                           <code>python AddressBook.py &lt; input.txt &gt; output.txt</code></p>
                       </li>
                       <li>
@@ -1240,13 +1185,11 @@ Invalid command format: add
                       </li>
                     </ul>
                     <panel header="" minimized="">
-                      <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span>
-                      </span>
-                      <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code>                        operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
+                      <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
+                      <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                       <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
-                      <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other
-                        filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
+                      <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
                       <tip-box>
                         <p><span class="fas fa-paperclip"></span> Resources:</p>
                         <ul>
@@ -1275,21 +1218,15 @@ Invalid command format: add
                 </div>
               </div>
               <div></div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### Test Automation Using Test Drivers" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test drivers</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### Test Automation Using Test Drivers<a class='fa fa-anchor' href='#test-automation-using-test-drivers'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test drivers</span></span></span></span>
               <p></p>
               <div>
                 <p><strong>A test driver is the code that ‘drives’ the <tooltip content="Software Under Test">SUT</tooltip> for the purpose of testing</strong> i.e. invoking the SUT with test inputs and verifying the behavior is as expected.</p>
@@ -1323,80 +1260,61 @@ Invalid command format: add
                 </tip-box>
               </div>
               <div></div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### Test Automation Tools" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test automation tools</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### Test Automation Tools<a class='fa fa-anchor' href='#test-automation-tools'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test automation tools</span></span></span></span>
               <p></p>
               <div>
-                <p><strong>JUnit is a tool for automated testing of Java programs.</strong> Similar tools are available for other languages.</p>
+                <p><strong>JUnit is a tool for automated testing of Java programs.</strong> Similar tools are available for other languages and for automating different types of testing.</p>
                 <tip-box>
                   <p><span class="fas fa-cube"></span> This an automated test for a <code>Payroll</code> class, written using JUnit libraries.</p>
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PayrollTestJUnit</span> </span>{
+                  <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testTotalSalary</span><span class="hljs-params">()</span></span>{
+    Payroll p = <span class="hljs-keyword">new</span> Payroll();
 
-    <span class="hljs-meta">@Test</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testTotalSalary</span><span class="hljs-params">()</span></span>{
-        Payroll p = <span class="hljs-keyword">new</span> Payroll();
+    <span class="hljs-comment">//test case 1</span>
+    p.setEmployees(<span class="hljs-keyword">new</span> String[]{<span class="hljs-string">"E001"</span>, <span class="hljs-string">"E002"</span>});
+    assertEquals(<span class="hljs-number">6400</span>, p.totalSalary());
 
-        <span class="hljs-comment">//test case 1</span>
-        p.setEmployees(<span class="hljs-keyword">new</span> String[]{<span class="hljs-string">"E001"</span>, <span class="hljs-string">"E002"</span>});
-        assertEquals(p.totalSalary(), <span class="hljs-number">6400</span>);
+    <span class="hljs-comment">//test case 2</span>
+    p.setEmployees(<span class="hljs-keyword">new</span> String[]{<span class="hljs-string">"E001"</span>});
+    assertEquals(<span class="hljs-number">2300</span>, p.totalSalary());
 
-        <span class="hljs-comment">//test case 2</span>
-        p.setEmployees(<span class="hljs-keyword">new</span> String[]{<span class="hljs-string">"E001"</span>});
-        assertEquals(p.totalSalary(), <span class="hljs-number">2300</span>);
-
-        <span class="hljs-comment">//more tests...</span>
-    }
+    <span class="hljs-comment">//more tests...</span>
 }
 </code></pre>
                 </tip-box>
                 <p>Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.</p>
-                <img src="/website-base/book/testing/testAutomation/tools/images/junit.png" height="190">
+                <img src="/cs2113-website/book/testing/testAutomation/tools/images/junit.png" height="190">
                 <p></p>
               </div>
               <div></div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### Automated Testing of GUIs" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain automated GUI testing</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### Automated Testing of GUIs<a class='fa fa-anchor' href='#automated-testing-of-guis'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain automated GUI testing</span></span></span></span>
               <p></p>
               <div>
-                <p>If a software product has a GUI component, all product-level testing (i.e. the types of testing mentioned above) need to be done using the GUI. However, <strong>testing the GUI is much harder than testing the CLI (command line interface) or API</strong>,
-                  for the following reasons:</p>
+                <p>If a software product has a GUI component, all product-level testing (i.e. the types of testing mentioned above) need to be done using the GUI. However, <strong>testing the GUI is much harder than testing the CLI (command line interface) or API</strong>, for the following reasons:</p>
                 <ul>
                   <li>Most GUIs can support a large number of different operations, many of which can be performed in any arbitrary order.</li>
-                  <li>GUI operations are more difficult to automate than API testing. Reliably automating GUI operations and automatically verifying whether the GUI behaves as expected is harder than calling an operation and comparing its return value with
-                    an expected value. Therefore, automated regression testing of GUIs is rather difficult.</li>
-                  <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in
-                    a high resolution display or a low resolution display.</li>
+                  <li>GUI operations are more difficult to automate than API testing. Reliably automating GUI operations and automatically verifying whether the GUI behaves as expected is harder than calling an operation and comparing its return value with an expected value. Therefore, automated regression testing of GUIs is rather difficult.</li>
+                  <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high resolution display or a low resolution display.</li>
                 </ul>
-                <img src="/website-base/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
+                <img src="/cs2113-website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
                 <p></p>
-                <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be
-                  tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
+                <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
                 <p><strong>There are testing tools that can automate GUI testing.</strong></p>
                 <tip-box>
                   <p><span class="fas fa-cube"></span> Some tools used for automated GUI testing:</p>
@@ -1409,7 +1327,7 @@ Invalid command format: add
                     </li>
                     <li>
                       <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                      <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of autoamted testing of a Web application">
+                      <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of automated testing of a Web application" class="non-printable">
                         <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                       </panel>
@@ -1437,25 +1355,22 @@ Invalid command format: add
                   </panel>
                 </div>
               </div>
-          </div>
+            </div>
+          </panel>
         </panel>
-      </panel>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="test-coverage">Test Coverage</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test coverage</span>
-              </span>
-              </span>
-              </span>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="test-coverage"><span>Test Coverage</span><a class="fa fa-anchor" href="#test-coverage"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain test coverage</span></span></span></span>
               <p></p>
               <div>
                 <p><strong><em>Test coverage</em> is a metric used to measure the extent to which testing exercises the code</strong> i.e., how much of the code is 'covered' by the tests.</p>
@@ -1481,8 +1396,7 @@ Invalid command format: add
                   </ul>
                 </tip-box>
                 <ul>
-                  <li><strong>Path coverage</strong> measures coverage in terms of possible paths through a given part of the code executed. 100% path coverage means all possible paths have been executed. A commonly used notation for path analysis is called
-                    the <em>Control Flow Graph (CFG)</em>.</li>
+                  <li><strong>Path coverage</strong> measures coverage in terms of possible paths through a given part of the code executed. 100% path coverage means all possible paths have been executed. A commonly used notation for path analysis is called the <em>Control Flow Graph (CFG)</em>.</li>
                   <li><strong>Entry/exit coverage</strong> measures coverage in terms of possible <em>calls to</em> and <em>exits</em> from the operations in the SUT.</li>
                 </ul>
               </div>
@@ -1501,9 +1415,7 @@ Invalid command format: add
                           </ul>
                           <div slot="answer">
                             <p>(b)</p>
-                            <p>Explanation: 100% path coverage implies all possible execution paths through the SUT have been tested. This is essentially ‘exhaustive testing’. While this is very hard to achieve for a non-trivial SUT, it technically gives
-                              us the highest intensity of testing. If all tests pass at 100% path coverage, the SUT code can be considered ‘bug free’. However, note that path coverage does not include paths that are missing from the code altogether because
-                              the programmer left them out by mistake.</p>
+                            <p>Explanation: 100% path coverage implies all possible execution paths through the SUT have been tested. This is essentially ‘exhaustive testing’. While this is very hard to achieve for a non-trivial SUT, it technically gives us the highest intensity of testing. If all tests pass at 100% path coverage, the SUT code can be considered ‘bug free’. However, note that path coverage does not include paths that are missing from the code altogether because the programmer left them out by mistake.</p>
                           </div>
                         </question>
                       </panel>
@@ -1511,86 +1423,69 @@ Invalid command format: add
                   </panel>
                 </div>
               </div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### How" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain how test coverage works</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### How<a class='fa fa-anchor' href='#how'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain how test coverage works</span></span></span></span>
               <p></p>
               <div>
                 <p><strong>Measuring coverage is often done using <em>coverage analysis tools</em>.</strong> Most IDEs have inbuilt support for measuring test coverage, or at least have plugins that can measure test coverage.</p>
                 <p><strong>Coverage analysis can be useful in improving the quality of testing</strong> <span class="dimmed"> e.g., if a set of test cases does not achieve 100% branch coverage, more test cases can be added to cover missed branches</span>.</p>
 
-                <div v-closeable="" alt="Test Coverage in Intellij">
+                <div v-closeable="" alt="Test Coverage in Intellij" class="non-printable">
                   <p><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Measuring code coverage in Intellij IDEA</p>
                   <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/yNYzZvyA2ik" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                 </div>
               </div>
               <div></div>
-          </div>
+            </div>
+          </panel>
         </panel>
-      </panel>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="dependency-injection">Dependency Injection</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-            <span
-              class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dependency injection</span>
-              </span>
-              </span>
-              </span>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="dependency-injection"><span>Dependency Injection</span><a class="fa fa-anchor" href="#dependency-injection"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dependency injection</span></span></span></span>
               <p></p>
               <div>
-                <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject
-                  <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the
-                  <tooltip content="Software Under Test">SUT</tooltip> from its
-                  <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
+                <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the <tooltip content="Software Under Test">SUT</tooltip> from its <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
                 <modal large="" title="" id="modal:explainDi-stub">
-                
-                  <div>
+                    <div>
                     <div>
                       <p>
-                        <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                        <panel src="/cs2113-website\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/cs2113-website/book/testing/testingTypes/unitTesting/what"></panel>
                       </p>
                     </div>
                     <p></p>
                     <p><span class="dimmed"><strong><span>Quality Assurance → Testing → Unit Testing →
-</span></strong>
-                      </span>
-                    </p>
+                          </span></strong></span></p>
                     <div id="title-and-body">
                       <div>
-                        <h4 id="stubs">Stubs</h4>
+                        <h4 id="stubs"><span>Stubs</span><a class="fa fa-anchor" href="#stubs"></a></h4>
                       </div>
                       <div id="main">
                         <div>
-                          <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the
-                            <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
+                          <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
                           <tip-box>
-                            <p><span class="fas fa-cube"></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code>                              class.</p>
+                            <p><span class="fas fa-cube"></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
                           </tip-box>
                           <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
                           <tip-box type="definition">
                             <div>
-                              <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited
-                                set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
+                              <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                             </div>
                           </tip-box>
                           <tip-box>
@@ -1634,8 +1529,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                            <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing
-                              <code>Logic</code> <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+                            <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code> <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
                             <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
                             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -1649,7 +1543,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                            <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code>                              is expected to return for the given test input.</p>
+                            <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                             <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                             <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -1692,60 +1586,47 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </div>
                 </modal>
                 <tip-box>
-                  <p><span class="fas fa-cube"></span> A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object.
-                    Now we can test the <code>Foo</code> object in isolation from the <code>Bar</code> object.</p>
-                  <img src="/website-base/book/testing/dependencyInjection/what/images/diagram.png" height="150"></tip-box>
+                  <p><span class="fas fa-cube"></span> A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object. Now we can test the <code>Foo</code> object in isolation from the <code>Bar</code> object.</p>
+                  <img src="/cs2113-website/book/testing/dependencyInjection/what/images/diagram.png" height="150">
+                </tip-box>
               </div>
               <div></div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### How" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star" aria-hidden="true"></span>
-              </font>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use dependency injection</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### How<a class='fa fa-anchor' href='#how'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can use dependency injection</span></span></span></span>
               <p></p>
               <div>
-                <p><strong>Polymorphism can be used to implement dependency injection</strong>, as can be seen in the example given in
-                  <trigger trigger="click" for="modal:useDi-stub">[Quality Assurance → Testing → Unit Testing → Stubs]</trigger> where a stub is injected to replace a dependency.</p>
+                <p><strong>Polymorphism can be used to implement dependency injection</strong>, as can be seen in the example given in <trigger trigger="click" for="modal:useDi-stub">[Quality Assurance → Testing → Unit Testing → Stubs]</trigger> where a stub is injected to replace a dependency.</p>
                 <modal large="" title="" id="modal:useDi-stub">
-                
-                  <div>
+                    <div>
                     <div>
                       <p>
-                        <panel src="/website-base\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"></panel>
+                        <panel src="/cs2113-website\book\testing\testingTypes\unitTesting\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/cs2113-website/book/testing/testingTypes/unitTesting/what"></panel>
                       </p>
                     </div>
                     <p></p>
                     <p><span class="dimmed"><strong><span>Quality Assurance → Testing → Unit Testing →
-</span></strong>
-                      </span>
-                    </p>
+                          </span></strong></span></p>
                     <div id="title-and-body">
                       <div>
-                        <h4 id="stubs-2">Stubs</h4>
+                        <h4 id="stubs"><span>Stubs</span><a class="fa fa-anchor" href="#stubs"></a></h4>
                       </div>
                       <div id="main">
                         <div>
-                          <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the
-                            <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
+                          <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed"> i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
                           <tip-box>
-                            <p><span class="fas fa-cube"></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code>                              class.</p>
+                            <p><span class="fas fa-cube"></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
                           </tip-box>
                           <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
                           <tip-box type="definition">
                             <div>
-                              <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited
-                                set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
+                              <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                             </div>
                           </tip-box>
                           <tip-box>
@@ -1789,8 +1670,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                            <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing
-                              <code>Logic</code> <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+                            <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code> <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
                             <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
                             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -1804,7 +1684,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                            <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code>                              is expected to return for the given test input.</p>
+                            <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                             <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                             <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -1848,8 +1728,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                 </modal>
                 <tip-box>
                   <p><span class="fas fa-cube"></span> Here is another example of using polymorphism to implement dependency injection:</p>
-                  <p>Suppose we want to unit test the <code>Payroll#totalSalary()</code> given below. The method depends on the <code>SalaryManager</code> object to calculate the return value. Note how the <code>setSalaryManager(SalaryManager)</code> can
-                    be used to inject a <code>SalaryManager</code> object to replace the current <code>SalaryManager</code> object.</p>
+                  <p>Suppose we want to unit test the <code>Payroll#totalSalary()</code> given below. The method depends on the <code>SalaryManager</code> object to calculate the return value. Note how the <code>setSalaryManager(SalaryManager)</code> can be used to inject a <code>SalaryManager</code> object to replace the current <code>SalaryManager</code> object.</p>
                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll</span> </span>{
     <span class="hljs-keyword">private</span> SalaryManager manager = <span class="hljs-keyword">new</span> SalaryManager();
     <span class="hljs-keyword">private</span> String[] employees;
@@ -1926,8 +1805,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                           </ul>
                           <div slot="answer">
                             <p><s>(a)</s>(b)(c)(d)</p>
-                            <p>Explanation: It is a technique we can use to substitute an existing dependency with another, not increase dependencies. It is useful when you want to test a component in isolation but the SUT depends on other components. Using
-                              dependency injection, we can substitute those other components with test-friendly stubs. This is often done using polymorphism.</p>
+                            <p>Explanation: It is a technique we can use to substitute an existing dependency with another, not increase dependencies. It is useful when you want to test a component in isolation but the SUT depends on other components. Using dependency injection, we can substitute those other components with test-friendly stubs. This is often done using polymorphism.</p>
                           </div>
                         </question>
                       </panel>
@@ -1935,30 +1813,25 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </panel>
                 </div>
               </div>
-          </div>
+            </div>
+          </panel>
         </panel>
-      </panel>
-      <panel type="seamless" expanded="">
-        <span slot="header" class="card-title"><div>
-<h2 id="tdd">TDD</h2></div></span>
-        <panel type="seamless" header="#### What" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star" aria-hidden="true"></span>
-              </font>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain TDD</span>
-              </span>
-              </span>
-              </span>
+        <panel type="seamless" expanded="">
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="tdd"><span>TDD</span><a class="fa fa-anchor" href="#tdd"></a></h2>
+            </div>
+          </span>
+          <panel type="seamless" header="#### What<a class='fa fa-anchor' href='#what'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain TDD</span></span></span></span>
               <p></p>
               <div>
-                <p><strong>Test-Driven Development(TDD)_ advocates writing the tests before writing the SUT, while evolving functionality and tests in small increments</strong>. In TDD you first define the precise behavior of the SUT using test cases, and
-                  then write the SUT to match the specified behavior. While TDD has its fair share of detractors, there are many who consider it a good way to reduce defects. One big advantage of TDD is that it guarantees the code is testable.</p>
+                <p><strong>Test-Driven Development(TDD)_ advocates writing the tests before writing the SUT, while evolving functionality and tests in small increments</strong>. In TDD you first define the precise behavior of the SUT using test cases, and then write the SUT to match the specified behavior. While TDD has its fair share of detractors, there are many who consider it a good way to reduce defects. One big advantage of TDD is that it guarantees the code is testable.</p>
               </div>
               <div>
                 <div>
@@ -1988,22 +1861,15 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   </panel>
                 </div>
               </div>
-          </div>
-        </panel>
-        <panel type="seamless" header="#### How" expanded="">
-          <div class="indented">
-            <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            <span
-              class="glyphicon glyphicon-star" aria-hidden="true"></span>
-              </font>
-              </span>
-              </span>
-              </span>
-              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can follow TDD</span>
-              </span>
-              </span>
-              </span>
+            </div>
+          </panel>
+          <panel type="seamless" header="#### How<a class='fa fa-anchor' href='#how'></a>" expanded="">
+            <div class="indented">
+              <span class="badge badge-light">
+                <span><span class="dimmed">
+                    <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                  </span></span></span>
+              <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can follow TDD</span></span></span></span>
               <p></p>
               <div>
                 <p>Note that TDD does not imply writing all the test cases first before writing functional code. Rather, proceed in small steps:</p>
@@ -2019,16 +1885,17 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                 </ol>
               </div>
               <div></div>
-          </div>
+            </div>
+          </panel>
         </panel>
-      </panel>
+      </div>
     </div>
   </div>
 </div>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Mon, 30 Jul 2018 02:05:52 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Mon, 14 Jan 2019 11:02:36 GMT</small></div>
 </footer>
 </div>
 </body>
@@ -2037,7 +1904,8 @@ String name = logic.getName(<span class="hljs-number">23</span>);
 <script src="..\..\markbind\js\polyfill.min.js"></script>
 <script src="..\..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base'
+    const baseUrl = '/cs2113-website'
 </script>
 <script src="..\..\markbind\js\setup.js"></script>
+<script src="..\..\markbind\layouts\default\scripts.js"></script>
 </html>

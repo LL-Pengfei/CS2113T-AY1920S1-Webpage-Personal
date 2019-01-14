@@ -4,8 +4,39 @@ Vue.use(VueStrap);
 
 function scrollToUrlAnchorHeading() {
   if (window.location.hash) {
-    jQuery(window.location.hash)[0].scrollIntoView();
+    // remove leading hash to get element ID
+    const headingElement = document.getElementById(window.location.hash.slice(1));
+    if (headingElement) {
+      headingElement.scrollIntoView();
+      window.scrollBy(0, -document.body.style.paddingTop.replace('px', ''));
+    }
   }
+}
+
+function flattenModals() {
+  jQuery('.modal').each((index, modal) => {
+    jQuery(modal).detach().appendTo(jQuery('#app'));
+  });
+}
+
+function setupAnchors() {
+  jQuery('h1, h2, h3, h4, h5, h6, .header-wrapper').each((index, heading) => {
+    jQuery(heading).on('mouseenter',
+                       () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'visible'));
+    jQuery(heading).on('mouseleave',
+                       () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'hidden'));
+  });
+  jQuery('.fa-anchor').each((index, anchor) => {
+    jQuery(anchor).on('click', function () {
+      window.location.href = jQuery(this).attr('href');
+    });
+  });
+}
+
+function executeAfterMountedRoutines() {
+  flattenModals();
+  scrollToUrlAnchorHeading();
+  setupAnchors();
 }
 
 function setupSiteNav() {
@@ -36,7 +67,7 @@ function setup() {
   const vm = new Vue({
     el: '#app',
     mounted() {
-      scrollToUrlAnchorHeading();
+      executeAfterMountedRoutines();
     },
   });
   setupSiteNav();
@@ -57,13 +88,13 @@ function setupWithSearch(siteData) {
     },
     methods: {
       searchCallback(match) {
-        const page = `${baseUrl}/${match.src.replace('.md', '.html')}`;
+        const page = `${baseUrl}/${match.src.replace(/.(md|mbd)$/, '.html')}`;
         const anchor = match.heading ? `#${match.heading.id}` : '';
         window.location = `${page}${anchor}`;
       },
     },
     mounted() {
-      scrollToUrlAnchorHeading();
+      executeAfterMountedRoutines();
     },
   });
   setupSiteNav();

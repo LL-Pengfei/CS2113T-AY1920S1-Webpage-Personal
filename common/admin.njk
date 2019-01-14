@@ -1,3 +1,5 @@
+{% from "common/macros.njk" import show_stars with context %}
+
 {% macro show_admin_pagetop_for_topic(topics, topic) %}
 <frontmatter>
 title: "Admin: {{ topic.title }}"
@@ -72,16 +74,15 @@ head: adminHead.md
 {% endmacro %}
 
 {% set topics = [
-  {level: 1, id: "moduleOverview", title: "Module Overview", link: "moduleOverview.html", priority: 1},
+  {level: 1, id: "moduleOverview", title: module_pair + " " + module_name, link: "moduleOverview.html", priority: 4},
   {level: 1, id: "usingThisWebsite", title: "Using this Website", link: "usingThisWebsite.html", highlight: "true", priority: 1},
   {level: 1, id: "moduleExpectations", title: "Module Expectations", link: "moduleExpectations.html", priority: 2},
   {level: 0, id: "moduleStructure", title: "Module Structure"},
     {level: 2, id: "weeklySchedule", title: "Weekly Schedule", link: "weeklySchedule.html", priority: 3},
-    {level: 2, id: "learningOutcomes", title: "Learning Outcomes", link: "learningOutcomes.html", priority: 2},
     {level: 2, id: "lectures", title: "Lectures", link: "lectures.html", priority: 3},
-    {level: 2, id: "tutorials", title: "Tutorials", link: "tutorials.html", priority: 2},
+    {level: 2, id: "tutorials", title: "Tutorials", link: "tutorials.html", priority: 2, tags: ["tutor role", "times", "venue"]},
   {level: 1, id: "instructors", title: "Instructors", link: "instructors.html", priority: 4},
-  {level: 1, id: "textbooks", title: "Text Books", link: "textbooks.html", priority: 2},
+  {level: 1, id: "textbooks", title: "Textbooks", link: "textbooks.html", priority: 2},
   {level: 1, id: "programmingLanguages", title: "Programming Language", link: "programmingLanguages.html", priority: 2},
   {level: 0, id: "project", title: "Project"},
     {level: 2, id: "project-overview", title: "Project: Overview", link: "project-overview.html", priority: 2},
@@ -133,7 +134,7 @@ head: adminHead.md
   {id: "admin-faq-favoriteTool", title: "Why I’m not allowed to use my favorite tool/framework/language etc.?", priority: 4},
   {id: "admin-faq-manySubmissions", title: "Why so many submissions?", priority: 4},
   {id: "admin-faq-fromScratch", title: "Why aren't we allowed to build a new product from scratch?", priority: 4},
-  {id: "admin-faq-cs2101Differences", title: "Why submission requirements differ between {{ module }}T and CS2101?", priority: 4}
+  {id: "admin-faq-cs2101Differences", title: "Why submission requirements differ between " + module_pair + " and CS2101?", priority: 4}
 ]%}
 
 {% set policies = [
@@ -153,8 +154,13 @@ head: adminHead.md
 {% set admin_topics_to_read = {
 week1: [
   {faq_id: "admin-faq-whereIsEverything"},
+  {topic_id: "moduleExpectations"},
+  {topic_id: "appendixE-gitHub", div: "githubAccount", div_title: "Creating a GitHub Account"},
+  {topic_id: "tools", div: "communication", div_title: "Communication"},
+  {topic_id: "project-teams"},
   {topic_id: "programmingLanguages"},
   {topic_id: "textbooks"},
+  {topic_id: "tutorials", div: "exchangeStudentTutorialSignup", div_title: "Exchange Students: Tutorial Registration"},
   {faq_id: "admin-faq-tVsNonT"},
   {faq_id: "admin-faq-highWorkload"},
   {faq_id: "admin-faq-aPlus"}],
@@ -215,8 +221,18 @@ week13: [
   {topic_id: "project-w13-v14"}]
 }%}
 
+{% macro show_title(current_topic_id, topics) -%}
+{% for topic in topics  %}
+{% if topic.id == current_topic_id %}
+{% set hashes = "#" if topic.level == 1 else "##" %}
+<markdown>{{ hashes }} {{ topic.title }} <span style="font-size:15px" class="text-muted text-light">{{ show_stars(topic.priority) }} {% for tag in topic.tags %}<span class="badge badge-pill badge-light ">#{{ tag }}</span> {% endfor %}</span></markdown>
+{% endif %}
+{% endfor %}
+{%- endmacro %}
+
 {% macro show_admin_page(current_topic_id, main_text_macro)%}
 {{ show_admin_pagetop(topics, current_topic_id) }}
+{{ show_title(current_topic_id, topics) | trim }}
 {{ main_text_macro() }}
 {{ show_admin_pagebottom(topics, current_topic_id) }}
 {% endmacro %}

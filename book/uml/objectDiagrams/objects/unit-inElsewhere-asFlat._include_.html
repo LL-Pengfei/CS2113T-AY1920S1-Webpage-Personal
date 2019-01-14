@@ -1,17 +1,15 @@
 <div></div>
 <p></p>
 <p><span class="dimmed"><strong><span>Tools → UML → Object Diagrams →
-</span></strong>
-  </span>
-</p>
+      </span></strong></span></p>
 <div id="title-and-body">
   <div>
-    <h4 id="objects">Objects</h4>
+    <h4 id="objects"><span>Objects</span></h4>
   </div>
   <div id="main">
     <div>
       <p>Notation:</p>
-      <img src="/website-base/book/uml/objectDiagrams/objects/images/notation.png" height="85">
+      <img src="/cs2113-website/book/uml/objectDiagrams/objects/images/notation.png" height="85">
       <p></p>
       <p>Notes:</p>
       <ul>
@@ -23,7 +21,7 @@
       </ul>
       <tip-box>
         <p><span class="fas fa-cube"></span> Some example objects:</p>
-        <img src="/website-base/book/uml/objectDiagrams/objects/images/professorStudent.png" height="65">
+        <img src="/cs2113-website/book/uml/objectDiagrams/objects/images/professorStudent.png" height="65">
         <p></p>
       </tip-box>
     </div>
@@ -34,14 +32,12 @@
             <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Draw Car object">
               <question>
                 <p>Draw a UML diagram to represent the <code>Car</code> object created by the following code.</p>
-                <tabs>
-                
-                  <tab header="Java">
-                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span></span>{
-    
+                <div class="alt-java">
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span></span>{
+
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">double</span> price;
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> speed;
-    
+
     Car(<span class="hljs-keyword">double</span> price, <span class="hljs-keyword">int</span> speed){
         <span class="hljs-comment">//...</span>
     }
@@ -51,21 +47,19 @@
 
 Car myCar = <span class="hljs-keyword">new</span> Car(<span class="hljs-number">13.5</span>, <span class="hljs-number">200</span>);
 </code></pre>
-                  </tab>
-                
-                  <tab header="Python">
-                    <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span>:</span>
-  
+                </div>
+                <div class="alt-python">
+                  <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span>:</span>
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, price, speed)</span>:</span>
     self.__price = price <span class="hljs-comment"># type: float</span>
     self.__speed = speed <span class="hljs-comment"># type: int</span>
-    
+
 
 <span class="hljs-comment"># somewhere else in the code</span>
-my_car = Car(<span class="hljs-number">13.5</span>, <span class="hljs-number">200</span>);  
+my_car = Car(<span class="hljs-number">13.5</span>, <span class="hljs-number">200</span>);
 </code></pre>
-                  </tab>
-                </tabs>
+                </div>
               </question>
             </panel>
           </div>

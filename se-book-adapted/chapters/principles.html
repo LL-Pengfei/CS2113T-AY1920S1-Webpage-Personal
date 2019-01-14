@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-122519234-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS2113/T Website - Text Book Chapter : Principles</title>
+    <title>CS2113/T Website - Textbook Chapter : Principles</title>
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-vue.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\font-awesome.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\bootstrap-glyphicons.min.css" >
     <link rel="stylesheet" href="..\..\markbind\css\github.min.css">
     <link rel="stylesheet" href="..\..\markbind\css\markbind.css">
+    <link rel="stylesheet" href="..\..\markbind\layouts\default\styles.css">
     <link rel="stylesheet" href="..\..\markbind\css\site-nav.css">
-    
-    <link rel="icon" href="/website-base/favicon.ico">
+    <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+    <link rel="icon" href="/cs2113-website/favicon.ico">
 </head>
 <body>
-<div id="app" class="container-fluid">
+<div id="app">
     <div id="flex-body">
   <div id="site-nav">
     <ul style="list-style-type: none; margin-left:-1em">
-      <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
+      <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span>, printable versions <span class="glyphicon glyphicon-print" aria-hidden="true"></span></a></li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Software Engineering</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Programming Paradigms</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Requirements</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/requirements.html">Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/requirements.html">Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Design</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/design.html">Software Design</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/modeling.html">Modeling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/design.html">Software Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/modeling.html">Modeling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/architecture.html">Software Architecture</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/designApproaches.html">Design Approaches</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Implementation</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/ides.html">IDEs</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/documentation.html">Documentation</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/integration.html">Integration</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/reuse.html">Reuse</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/ides.html">IDEs</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/codeQuality.html">Code Quality</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/refactoring.html">Refactoring</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/documentation.html">Documentation</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/errorHandling.html">Error Handling</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/integration.html">Integration</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/reuse.html">Reuse</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Quality Assurance</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testing.html">Testing</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testing.html">Testing</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Project Management</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
-          </ul>
-        </div>
-      </li>
-      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-        <div class="dropdown-container">
-          <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/uml.html">UML</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/javaTools.html">Java</a></li>
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/junit.html">JUnit</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/revisionControl.html">Revision Control</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/projectPlanning.html">Project Planning</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/teamwork.html">Teamwork</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/processModels.html">SDLC Process Models</a></li>
           </ul>
         </div>
       </li>
       <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Principles</strong>
- <i class="dropdown-btn-icon">
-<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
         <div class="dropdown-container">
           <ul style="list-style-type: none; margin-left:-1em">
-            <li style="margin-top: 10px"><a href="/website-base/se-book-adapted/chapters/principles.html">Principles</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/principles.html">Principles</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn"><strong>Tools</strong>
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/uml.html">UML</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/intellij.html">Intellij IDEA</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/javaTools.html">Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/junit.html">JUnit</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="margin-top: 10px"><button class="dropdown-btn">Supplementary
+          <i class="dropdown-btn-icon">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+        <div class="dropdown-container">
+          <ul style="list-style-type: none; margin-left:-1em">
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/chapters/cppToJava.html">C++ to Java</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/exercises.html">Combined Exercises</a></li>
+            <li style="margin-top: 10px"><a href="/cs2113-website/se-book-adapted/common/definitions.html">List of Definitions</a></li>
           </ul>
         </div>
       </li>
@@ -134,60 +154,69 @@
     </div>
   </div>
   <div id="page-content">
-    <link rel="stylesheet" href="/website-base/book/css/textbook.css">
-    <div class="website-content">
-      <div>
-        <navbar placement="top" type="default">
-          <a slot="brand" href="/website-base/index.html" title="Home" class="navbar-brand">CS2113/T <small>2018 <span class="badge badge-success"><span class="fas fa-clone"></span> nested</span></small></a>
-          <li><a href="/website-base/index-flat.html" class="nav-link">&nbsp;&nbsp;→<span class="badge badge-light"><span class="fas fa-bars"></span> flat</span></a></li>
-          <li><a href="/website-base/index.html" class="nav-link"><span><strong>Schedule</strong></span></a></li>
-          <li><a href="/website-base/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-          <li><a href="/website-base/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-          <dropdown text="Links" class="nav-link">
-            <li><a href="https://github.com/nus-cs2113-BASE/website/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-            <li><a href="https://nus-cs2113-base.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
-            <li><a href="/website-base/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> IVLE Announcements</a></li>
-            <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> IVLE File Submissions</a></li>
-            <li><a href="/website-base/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
-            <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-            <li><a href="https://github.com/nus-cs2113-BASE/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
-            <li><a href="/website-base/admin/projectList.html" target="_blank" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
-          </dropdown>
-          <li slot="right" class="nav-link">
-            <form class="navbar-form">
-              <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-            </form>
-          </li>
-        </navbar>
-      </div>
-      <p><span class="dimmed"><strong><span></span></strong>
-        </span>
-      </p>
-      <div id="title">
+    <div id="content-wrapper">
+      <link rel="stylesheet" href="/cs2113-website/book/css/textbook.css">
+      <div class="website-content">
         <div>
-          <h1 id="principles">Principles</h1>
+          <navbar placement="top" type="default">
+            <a slot="brand" href="/cs2113-website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Jan '19</small></a>
+            <dropdown text="Schedule" class="nav-link">
+              <li><a href="/cs2113-website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span class="fas fa-arrow-circle-left"></span></span></a></li>
+              <li><a href="/cs2113-website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+              <li><a href="/cs2113-website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+            </dropdown>
+            <li><a href="/cs2113-website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+            <li><a href="/cs2113-website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+            <dropdown text="Links" class="nav-link">
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
+              <li><a href="/cs2113-website/admin/project-overview.html" class="dropdown-item"><span class="fas fa-drafting-compass"></span> Project Info</a></li>
+              <li><a href="/cs2113-website/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Announcements</a></li>
+              <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> File Submissions</a></li>
+              <li><a href="/cs2113-website/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
+              <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
+              <li><a href="/cs2113-website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
+              <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
+              <li><a href="/cs2113-website/admin/projectList.html" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
+              <li><a href="/cs2113-website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span class="fas fa-th-list"></span> config.json templates for Reposense</a></li>
+              <li><a href="https://nus-cs2113-ay1819s2.github.io/cs2113-dashboard" target="_blank" class="dropdown-item"><span class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</a></li>
+            </dropdown>
+            <li slot="right" class="nav-link">
+              <form class="navbar-form">
+                <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
+              </form>
+            </li>
+          </navbar>
         </div>
-      </div>
-      <panel type="seamless" header="#### Single Responsibility Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain single responsibility principle</span>
-            </span>
-            </span>
-            </span>
+        <p><span class="dimmed"><strong><span></span></strong></span></p>
+        <div id="title">
+          <div>
+            <h1 id="principles"><span>Principles</span><a class="fa fa-anchor" href="#principles"></a></h1>
+          </div>
+        </div>
+        <panel type="seamless" header="#### Single Responsibility Principle<a class='fa fa-anchor' href='#single-responsibility-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain single responsibility principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="primary">
@@ -197,57 +226,49 @@
               </tip-box>
               <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
               <tip-box>
-                <p><span class="fas fa-cube"></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax
-                  of the user command changes. Hence, such a class does not follow the SRP.</p>
+                <p><span class="fas fa-cube"></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
               </tip-box>
+              <blockquote>
+                <p><span class="fas fa-quote-left"></span> Gather together the things that change for the same reasons. Separate those things that change for different reasons. <sub>―<em>Agile Software Development, Principles, Patterns, and Practices</em> by Robert C. Martin</sub></p>
+              </blockquote>
             </div>
             <div>
               <div>
                 <panel header="<span class='fas fa-paperclip'></span>  Resources" expanded="">
                   <ul>
                     <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
-                    <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
+                    <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a>
+                      by Patkos Csaba</li>
                     <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
                   </ul>
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Open-Closed Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain open-closed principle (OCP)</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Open-Closed Principle<a class='fa fa-anchor' href='#open-closed-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain open-closed principle (OCP)</span></span></span></span>
             <p></p>
             <div>
-              <p>While it is possible to isolate the functionalities of a software system into modules, there is no way to remove interaction between modules. When modules interact with each other, coupling naturally increases. Consequently, it is harder
-                to localize any changes to the software system. The Open-Close Principle aims to alleviate this problem.</p>
+              <p><strong>The Open-Close Principle aims to make a code entity easy to adapt and reuse without needing to modify the code entity itself.</strong></p>
               <tip-box type="definition">
                 <div>
-                  <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be modified.
-                    <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
+                  <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be modified. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
                 </div>
               </tip-box>
               <p>In object-oriented programming, OCP can be achieved in various ways. This often requires separating the <em>specification (i.e. interface)</em> of a module from its <em>implementation</em>.</p>
               <tip-box>
-                <p><span class="fas fa-cube"></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code> class
-                  alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having to modify its
-                  code. Hence, it was open to extensions, but closed to modification.</p>
-                <img src="/website-base/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
+                <p><span class="fas fa-cube"></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code> class alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having to modify its code. Hence, it was open to extensions, but closed to modification.</p>
+                <img src="/cs2113-website/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
                 <p></p>
               </tip-box>
               <tip-box>
-                <p><span class="fas fa-cube"></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in
-                  one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
+                <p><span class="fas fa-cube"></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
                 <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
 ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
 </code></pre>
@@ -276,20 +297,15 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Liskov Substitution Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Black"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education" aria-hidden="true"></span></font> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain Liskov Substitution Principle</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Liskov Substitution Principle<a class='fa fa-anchor' href='#liskov-substitution-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="Black"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><span class="glyphicon glyphicon-education" aria-hidden="true"></span></font> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain Liskov Substitution Principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -297,42 +313,35 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <p><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes must be substitutable for their base classes. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></sub></p>
                 </div>
               </tip-box>
-              <p>LSP sounds same as
-                <trigger large="" trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability.
-                However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
+              <p>LSP sounds same as <trigger large="" trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
               <modal large="" title="Textbook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:lsp-substitutability">
-              
-                <div>
+                  <div>
                   <div>
                     <p>
-                      <panel src="/website-base\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
+                      <panel src="/cs2113-website\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/cs2113-website/book/oop/inheritance/what"></panel>
                     </p>
                   </div>
                   <p></p>
-                  <p><span class="dimmed"><strong><span>Design → Object Oriented Programming → Inheritance →
-</span></strong>
-                    </span>
-                  </p>
+                  <p><span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="substitutability">Substitutability</h4>
+                      <h4 id="substitutability"><span>Substitutability</span><a class="fa fa-anchor" href="#substitutability"></a></h4>
                     </div>
                     <div id="main">
                       <div>
-                        <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class
-                          object is expected.</p>
+                        <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
                         <tip-box>
-                          <img src="/website-base/book/oop/inheritance/substitutability/images/staff.png" height="80">
+                          <img src="/cs2113-website/book/oop/inheritance/substitutability/images/staff.png" height="80">
                           <p></p>
-                          <p><span class="fas fa-cube"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass
-                            is expected, it can be substituted by an object of any of its subclasses.</p>
+                          <p><span class="fas fa-cube"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
                           <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                           <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
-                          <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of  type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
-                          <pre class="hljs"><code>Staff staff;
+                          <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                          <pre><code class="hljs java">Staff staff;
 ...
-AcademicStaff academicStaff = staff; // Not OK
+AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 </code></pre>
                         </tip-box>
                       </div>
@@ -342,8 +351,8 @@ AcademicStaff academicStaff = staff; // Not OK
                 </div>
               </modal>
               <tip-box>
-                <p><span class="fas fa-cube"></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code>                  method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
-                <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
+                <p><span class="fas fa-cube"></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
+                <img src="/cs2113-website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
                 <p></p>
                 <p>Now consider the following:</p>
                 <ul>
@@ -352,15 +361,12 @@ AcademicStaff academicStaff = staff; // Not OK
                 </ul>
                 <p>In the above scenario,</p>
                 <ul>
-                  <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break
-                    the <code>Payroll</code> class functionality.</li>
-                  <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially
-                    break the <code>Payroll</code> class functionality.</li>
+                  <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break the <code>Payroll</code> class functionality.</li>
+                  <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially break the <code>Payroll</code> class functionality.</li>
                 </ul>
                 <panel type="seamless" header="%%Another example%%">
-                  <p><span class="fas fa-cube"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept
-                    a <code>height</code> that is different from the <code>width</code>.</p>
-                  <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
+                  <p><span class="fas fa-cube"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
+                  <img src="/cs2113-website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
                   <p></p>
                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
     ...
@@ -411,22 +417,15 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Interface Segregation Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain interface segregation principle</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Interface Segregation Principle<a class='fa fa-anchor' href='#interface-segregation-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain interface segregation principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -435,7 +434,7 @@ AcademicStaff academicStaff = staff; // Not OK
                 </div>
               </tip-box>
               <tip-box>
-                <p><span class="fas fa-cube"></span> The <code>Payroll</code> class should not depend on the <code>AdminStaff</code> class because it does not use the <code>arrangeMeeting()</code> method. Instead, it should depend on the <code>SalariedStaff</code>                  interface.</p>
+                <p><span class="fas fa-cube"></span> The <code>Payroll</code> class should not depend on the <code>AdminStaff</code> class because it does not use the <code>arrangeMeeting()</code> method. Instead, it should depend on the <code>SalariedStaff</code> interface.</p>
                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll</span> </span>{
     <span class="hljs-comment">//...    </span>
     <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalaries</span><span class="hljs-params">(AdminStaff adminStaff)</span></span>{ <span class="hljs-comment">//violates ISP</span>
@@ -451,27 +450,20 @@ AcademicStaff academicStaff = staff; // Not OK
     }
 }
 </code></pre>
-                <img src="/website-base/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
+                <img src="/cs2113-website/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
                 <p></p>
               </tip-box>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Dependency Inversion Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dependency inversion principle (DIP)</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Dependency Inversion Principle<a class='fa fa-anchor' href='#dependency-inversion-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain dependency inversion principle (DIP)</span></span></span></span>
             <p></p>
             <div>
               <p>The <em>Dependency Inversion Principle</em> states that,</p>
@@ -481,10 +473,9 @@ AcademicStaff academicStaff = staff; // Not OK
               </ol>
               <tip-box>
                 <p>Example:</p>
-                <img src="/website-base/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
+                <img src="/cs2113-website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
                 <p></p>
-                <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface (note
-                  that inheritance is a dependency).</p>
+                <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface (note that inheritance is a dependency).</p>
                 <p>Design (b) is more flexible (and less coupled) because now the <code>Payroll</code> class need not change when the <code>Employee</code> class changes.</p>
               </tip-box>
             </div>
@@ -508,8 +499,7 @@ AcademicStaff academicStaff = staff; // Not OK
                             <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. It reduces dependencies in a design.</li>
                             <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. It advocates making higher level classes to depend on lower level classes.</li>
                           </ul>
-                          <p>Explanation: Replacing dependencies with mocks is Dependency Injection, not DIP. DIP does not reduce dependencies, rather, it changes the direction of dependencies. Yes, it can introduce extra abstractions but often the benefit
-                            can outweigh the extra complications.</p>
+                          <p>Explanation: Replacing dependencies with mocks is Dependency Injection, not DIP. DIP does not reduce dependencies, rather, it changes the direction of dependencies. Yes, it can introduce extra abstractions but often the benefit can outweigh the extra complications.</p>
                         </div>
                       </question>
                     </panel>
@@ -517,22 +507,15 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### SOLID Principles" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain SOLID Principles</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### SOLID Principles<a class='fa fa-anchor' href='#solid-principles'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain SOLID Principles</span></span></span></span>
             <p></p>
             <div>
               <p>The five OOP principles given below are known as <em>SOLID Principles</em> (an acronym made up of the first letter of each principle):</p>
@@ -541,12 +524,10 @@ AcademicStaff academicStaff = staff; // Not OK
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="single-responsibility-principle">Single Responsibility Principle</h4>
+                      <h4 id="single-responsibility-principle"><span>Single Responsibility Principle</span><a class="fa fa-anchor" href="#single-responsibility-principle"></a></h4>
                     </div>
                     <div id="main">
                       <div>
@@ -557,16 +538,19 @@ AcademicStaff academicStaff = staff; // Not OK
                         </tip-box>
                         <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
                         <tip-box>
-                          <p><span class="fas fa-cube"></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when
-                            the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
+                          <p><span class="fas fa-cube"></span> Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</p>
                         </tip-box>
+                        <blockquote>
+                          <p><span class="fas fa-quote-left"></span> Gather together the things that change for the same reasons. Separate those things that change for different reasons. <sub>―<em>Agile Software Development, Principles, Patterns, and Practices</em> by Robert C. Martin</sub></p>
+                        </blockquote>
                       </div>
                       <div>
                         <div>
                           <panel header="<span class='fas fa-paperclip'></span>  Resources" expanded="">
                             <ul>
                               <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
-                              <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
+                              <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a>
+                                by Patkos Csaba</li>
                               <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
                             </ul>
                           </panel>
@@ -581,32 +565,27 @@ AcademicStaff academicStaff = staff; // Not OK
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="open-closed-principle">Open-Closed Principle</h4>
+                      <h4 id="open-closed-principle"><span>Open-Closed Principle</span><a class="fa fa-anchor" href="#open-closed-principle"></a></h4>
                     </div>
                     <div id="main">
                       <div>
-                        <p>While it is possible to isolate the functionalities of a software system into modules, there is no way to remove interaction between modules. When modules interact with each other, coupling naturally increases. Consequently, it
-                          is harder to localize any changes to the software system. The Open-Close Principle aims to alleviate this problem.</p>
+                        <p><strong>The Open-Close Principle aims to make a code entity easy to adapt and reuse without needing to modify the code entity itself.</strong></p>
                         <tip-box type="definition">
                           <div>
-                            <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be
-                              modified. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
+                            <p><strong>Open-Closed Principle (OCP)</strong>: A module should be <em>open</em> for extension but <em>closed</em> for modification. That is, modules should be written so that they can be extended, without requiring them to be modified. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Bertrand_Meyer">Bertrand Meyer</a></sub></p>
                           </div>
                         </tip-box>
                         <p>In object-oriented programming, OCP can be achieved in various ways. This often requires separating the <em>specification (i.e. interface)</em> of a module from its <em>implementation</em>.</p>
                         <tip-box>
-                          <p><span class="fas fa-cube"></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code>                            class alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having
-                            to modify its code. Hence, it was open to extensions, but closed to modification.</p>
-                          <img src="/website-base/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
+                          <p><span class="fas fa-cube"></span> In the design given below, the behavior of the <code>CommandQueue</code> class can be altered by adding more concrete <code>Command</code> subclasses. For example, by including a <code>Delete</code> class alongside <code>List</code>, <code>Sort</code>, and <code>Reset</code>, the <code>CommandQueue</code> can now perform delete commands without modifying its code at all. That is, its behavior was extended without having to modify its code. Hence, it was open to extensions, but closed to modification.</p>
+                          <img src="/cs2113-website/book/principles/openClosedPrinciple/images/commandQueue.png" height="170">
                           <p></p>
                         </tip-box>
                         <tip-box>
-                          <p><span class="fas fa-cube"></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code>                            in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
+                          <p><span class="fas fa-cube"></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
                           <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
 ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
 </code></pre>
@@ -644,12 +623,10 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="liskov-substitution-principle">Liskov Substitution Principle</h4>
+                      <h4 id="liskov-substitution-principle"><span>Liskov Substitution Principle</span><a class="fa fa-anchor" href="#liskov-substitution-principle"></a></h4>
                     </div>
                     <div id="main">
                       <div>
@@ -658,42 +635,35 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                             <p><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes must be substitutable for their base classes. <sub>-- proposed by <a href="https://en.wikipedia.org/wiki/Barbara_Liskov">Barbara Liskov</a></sub></p>
                           </div>
                         </tip-box>
-                        <p>LSP sounds same as
-                          <trigger large="" trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support
-                          for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
+                        <p>LSP sounds same as <trigger large="" trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
                         <modal large="" title="Textbook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:lsp-substitutability">
-                        
-                          <div>
+                            <div>
                             <div>
                               <p>
-                                <panel src="/website-base\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Design → Object Oriented Programming → Inheritance → What%%"></panel>
+                                <panel src="/cs2113-website\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/cs2113-website/book/oop/inheritance/what"></panel>
                               </p>
                             </div>
                             <p></p>
-                            <p><span class="dimmed"><strong><span>Design → Object Oriented Programming → Inheritance →
-</span></strong>
-                              </span>
-                            </p>
+                            <p><span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
+                                  </span></strong></span></p>
                             <div id="title-and-body">
                               <div>
-                                <h4 id="substitutability-2">Substitutability</h4>
+                                <h4 id="substitutability"><span>Substitutability</span><a class="fa fa-anchor" href="#substitutability"></a></h4>
                               </div>
                               <div id="main">
                                 <div>
-                                  <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent
-                                    class object is expected.</p>
+                                  <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
                                   <tip-box>
-                                    <img src="/website-base/book/oop/inheritance/substitutability/images/staff.png" height="80">
+                                    <img src="/cs2113-website/book/oop/inheritance/substitutability/images/staff.png" height="80">
                                     <p></p>
-                                    <p><span class="fas fa-cube"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the
-                                      superclass is expected, it can be substituted by an object of any of its subclasses.</p>
+                                    <p><span class="fas fa-cube"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
                                     <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                                     <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
-                                    <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of  type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
-                                    <pre class="hljs"><code>Staff staff;
+                                    <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                                    <pre><code class="hljs java">Staff staff;
 ...
-AcademicStaff academicStaff = staff; // Not OK
+AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 </code></pre>
                                   </tip-box>
                                 </div>
@@ -703,9 +673,8 @@ AcademicStaff academicStaff = staff; // Not OK
                           </div>
                         </modal>
                         <tip-box>
-                          <p><span class="fas fa-cube"></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the
-                            <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
-                          <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
+                          <p><span class="fas fa-cube"></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
+                          <img src="/cs2113-website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
                           <p></p>
                           <p>Now consider the following:</p>
                           <ul>
@@ -714,15 +683,12 @@ AcademicStaff academicStaff = staff; // Not OK
                           </ul>
                           <p>In the above scenario,</p>
                           <ul>
-                            <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will
-                              not break the <code>Payroll</code> class functionality.</li>
-                            <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects
-                              can potentially break the <code>Payroll</code> class functionality.</li>
+                            <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break the <code>Payroll</code> class functionality.</li>
+                            <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially break the <code>Payroll</code> class functionality.</li>
                           </ul>
                           <panel type="seamless" header="%%Another example%%">
-                            <p><span class="fas fa-cube"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does
-                              not accept a <code>height</code> that is different from the <code>width</code>.</p>
-                            <img src="/website-base/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
+                            <p><span class="fas fa-cube"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
+                            <img src="/cs2113-website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
                             <p></p>
                             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
     ...
@@ -782,12 +748,10 @@ AcademicStaff academicStaff = staff; // Not OK
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="interface-segregation-principle">Interface Segregation Principle</h4>
+                      <h4 id="interface-segregation-principle"><span>Interface Segregation Principle</span><a class="fa fa-anchor" href="#interface-segregation-principle"></a></h4>
                     </div>
                     <div id="main">
                       <div>
@@ -797,7 +761,7 @@ AcademicStaff academicStaff = staff; // Not OK
                           </div>
                         </tip-box>
                         <tip-box>
-                          <p><span class="fas fa-cube"></span> The <code>Payroll</code> class should not depend on the <code>AdminStaff</code> class because it does not use the <code>arrangeMeeting()</code> method. Instead, it should depend on the <code>SalariedStaff</code>                            interface.</p>
+                          <p><span class="fas fa-cube"></span> The <code>Payroll</code> class should not depend on the <code>AdminStaff</code> class because it does not use the <code>arrangeMeeting()</code> method. Instead, it should depend on the <code>SalariedStaff</code> interface.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll</span> </span>{
     <span class="hljs-comment">//...    </span>
     <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalaries</span><span class="hljs-params">(AdminStaff adminStaff)</span></span>{ <span class="hljs-comment">//violates ISP</span>
@@ -813,7 +777,7 @@ AcademicStaff academicStaff = staff; // Not OK
     }
 }
 </code></pre>
-                          <img src="/website-base/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
+                          <img src="/cs2113-website/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
                           <p></p>
                         </tip-box>
                       </div>
@@ -827,12 +791,10 @@ AcademicStaff academicStaff = staff; // Not OK
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="dependency-inversion-principle">Dependency Inversion Principle</h4>
+                      <h4 id="dependency-inversion-principle"><span>Dependency Inversion Principle</span><a class="fa fa-anchor" href="#dependency-inversion-principle"></a></h4>
                     </div>
                     <div id="main">
                       <div>
@@ -843,10 +805,9 @@ AcademicStaff academicStaff = staff; // Not OK
                         </ol>
                         <tip-box>
                           <p>Example:</p>
-                          <img src="/website-base/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
+                          <img src="/cs2113-website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
                           <p></p>
-                          <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface
-                            (note that inheritance is a dependency).</p>
+                          <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface (note that inheritance is a dependency).</p>
                           <p>Design (b) is more flexible (and less coupled) because now the <code>Payroll</code> class need not change when the <code>Employee</code> class changes.</p>
                         </tip-box>
                       </div>
@@ -870,8 +831,7 @@ AcademicStaff academicStaff = staff; // Not OK
                                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. It reduces dependencies in a design.</li>
                                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. It advocates making higher level classes to depend on lower level classes.</li>
                                     </ul>
-                                    <p>Explanation: Replacing dependencies with mocks is Dependency Injection, not DIP. DIP does not reduce dependencies, rather, it changes the direction of dependencies. Yes, it can introduce extra abstractions but often
-                                      the benefit can outweigh the extra complications.</p>
+                                    <p>Explanation: Replacing dependencies with mocks is Dependency Injection, not DIP. DIP does not reduce dependencies, rather, it changes the direction of dependencies. Yes, it can introduce extra abstractions but often the benefit can outweigh the extra complications.</p>
                                   </div>
                                 </question>
                               </panel>
@@ -885,21 +845,15 @@ AcademicStaff academicStaff = staff; // Not OK
               </panel>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Separation of Concerns Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain separation of concerns principle</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Separation of Concerns Principle<a class='fa fa-anchor' href='#separation-of-concerns-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain separation of concerns principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="primary">
@@ -922,29 +876,25 @@ AcademicStaff academicStaff = staff; // Not OK
               </tip-box>
               <p><strong>This principle can be applied at the class level, as well as on higher levels.</strong></p>
               <tip-box>
-                <p><span class="fas fa-cube"></span> The
-                  <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
+                <p><span class="fas fa-cube"></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
               </tip-box>
               <modal title="TextBook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="modal:soc-nTier">
-              
-                <div>
+                  <div>
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="what">What</h4>
+                      <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
                     </div>
                     <div id="main">
                       <div>
                         <p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
-                        <img src="/website-base/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
+                        <img src="/cs2113-website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
                         <tip-box>
                           <p><span class="fas fa-cube"></span> Operating systems and network communication software often use n-tier style.
-                            <img src="/website-base/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
+                            <img src="/cs2113-website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
                         </tip-box>
                         <p></p>
                       </div>
@@ -955,21 +905,18 @@ AcademicStaff academicStaff = staff; // Not OK
               </modal>
               <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
               <modal title="TextBook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="soc-coupling">
-              
-                <div>
+                  <div>
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="what-2">What</h4>
+                      <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
                     </div>
                     <div id="main">
                       <div>
-                        <p><strong><em>Coupling</em> is a measure of the degree of <em>dependence</em></strong> between components, classes, methods, etc. Low coupling indicates that a component is less dependent on other components. <strong>High coupling (aka <em>tight</em> coupling or <em>strong</em> coupling) is discouraged</strong>                          due to the following disadvantages:</p>
+                        <p><strong><em>Coupling</em> is a measure of the degree of <em>dependence</em></strong> between components, classes, methods, etc. Low coupling indicates that a component is less dependent on other components. <strong>High coupling (aka <em>tight</em> coupling or <em>strong</em> coupling) is discouraged</strong> due to the following disadvantages:</p>
                         <ul>
                           <li><strong>Maintenance is harder</strong> because a change in one module could cause changes in other modules coupled to it (i.e. a ripple effect).</li>
                           <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
@@ -977,7 +924,7 @@ AcademicStaff academicStaff = staff; // Not OK
                         </ul>
                         <tip-box>
                           <p><span class="fas fa-cube"></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
-                          <img src="/website-base/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
+                          <img src="/cs2113-website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                           <p></p>
                         </tip-box>
                       </div>
@@ -989,13 +936,11 @@ AcademicStaff academicStaff = staff; // Not OK
                                 <question has-input="true">
                                   <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                                   <tip-box>
-                                    <img src="/website-base/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
+                                    <img src="/cs2113-website/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
                                     <p></p>
                                   </tip-box>
                                   <div slot="answer">
-                                    <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling.
-                                      Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone
-                                      (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
+                                    <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling. Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
                                   </div>
                                 </question>
                               </panel>
@@ -1013,11 +958,9 @@ AcademicStaff academicStaff = staff; // Not OK
                             <div>
                               <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span><span class='glyphicon glyphicon-ok-sign' aria-hidden='true'></span> Coupling and testability">
                                 <question has-input="true">
-                                  <p>Discuss the relationship between coupling and
-                                    <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
+                                  <p>Discuss the relationship between coupling and <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
                                   <div slot="answer">
-                                    <p>Coupling decreases testability because if the
-                                      <tooltip content="Software Under Test">SUT</tooltip> is coupled to many other components it becomes difficult to test the SUI in isolation of its dependencies.</p>
+                                    <p>Coupling decreases testability because if the <tooltip content="Software Under Test">SUT</tooltip> is coupled to many other components it becomes difficult to test the SUI in isolation of its dependencies.</p>
                                   </div>
                                 </question>
                               </panel>
@@ -1048,27 +991,22 @@ AcademicStaff academicStaff = staff; // Not OK
                 </div>
               </modal>
               <modal title="TextBook <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>" id="soc-cohesion">
-              
-                <div>
+                  <div>
                   <div></div>
                   <p></p>
                   <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
-</span></strong>
-                    </span>
-                  </p>
+                        </span></strong></span></p>
                   <div id="title-and-body">
                     <div>
-                      <h4 id="what-3">What</h4>
+                      <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
                     </div>
                     <div id="main">
                       <div>
-                        <p><strong><em>Cohesion</em> is a measure of how strongly-related and focused the various responsibilities of a component are.</strong> A highly-cohesive component keeps related functionalities together while keeping out all other
-                          unrelated things.</p>
+                        <p><strong><em>Cohesion</em> is a measure of how strongly-related and focused the various responsibilities of a component are.</strong> A highly-cohesive component keeps related functionalities together while keeping out all other unrelated things.</p>
                         <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
                         <ul>
-                          <li>Impedes the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
-                          <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a
-                            small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                          <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
+                          <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
                           <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
                         </ul>
                       </div>
@@ -1092,8 +1030,7 @@ AcademicStaff academicStaff = staff; // Not OK
                         </ul>
                         <div slot="answer">
                           <p>(a)(b)(c)</p>
-                          <p>Explanation: By making ‘user interaction’ GUI class’ sole responsibility, we increase its cohesion. This is also in line with separation of concerns (i.e., we separated the concern of user interaction) and single responsibility
-                            principle (GUI class has only one responsibility).</p>
+                          <p>Explanation: By making ‘user interaction’ GUI class’ sole responsibility, we increase its cohesion. This is also in line with separation of concerns (i.e., we separated the concern of user interaction) and single responsibility principle (GUI class has only one responsibility).</p>
                         </div>
                       </question>
                     </panel>
@@ -1101,21 +1038,15 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Law of Demeter" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
-          <span
-            class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the Law of Demeter</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Law of Demeter<a class='fa fa-anchor' href='#law-of-demeter'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain the Law of Demeter</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -1136,24 +1067,20 @@ AcademicStaff academicStaff = staff; // Not OK
               <ul>
                 <li>The object <code>O</code> itself</li>
                 <li>Objects passed as parameters of <code>m</code></li>
-                <li>Objects created/instantiated in <code>m</code></li>
-                <li>Objects from the
-                  <tooltip content="objects that are held by instance variables of">direct association of</tooltip> <code>O</code></li>
+                <li>Objects created/instantiated in <code>m</code> (directly or indirectly)</li>
+                <li>Objects from the <tooltip content="objects that are held by instance variables of">direct association of</tooltip> <code>O</code></li>
               </ul>
               <tip-box>
-                <p><span class="fas fa-cube"></span> The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which
-                  should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
+                <p><span class="fas fa-cube"></span> The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
                 <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
     Goo g = b.getGoo();
     g.doSomething();
 }
 </code></pre>
               </tip-box>
-              <p><strong>LoD aims to reduce coupling by limiting the interaction to a closely related group of classes.</strong></p>
+              <p><strong>LoD aims to prevent objects navigating internal structures of other objects.</strong></p>
               <tip-box>
-                <p><span class="fas fa-cube"></span> In the example above, <code>foo</code> is already coupled to <code>Bar</code>. Upholding LoD avoids <code>foo</code> being coupled to <code>Goo</code> as well.</p>
-                <p><span class="fas fa-cube"></span> An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam
-                  is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
+                <p><span class="fas fa-cube"></span> An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
               </tip-box>
             </div>
             <div>
@@ -1218,22 +1145,15 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### YAGNI Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain YAGNI principle</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### YAGNI Principle<a class='fa fa-anchor' href='#yagni-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain YAGNI principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -1241,8 +1161,7 @@ AcademicStaff academicStaff = staff; // Not OK
                   <p><strong>YAGNI (You Aren't Gonna Need It!) Principle</strong>: Do not add code simply because ‘you might need it in the future’.</p>
                 </div>
               </tip-box>
-              <p>The principle says that some capability we presume our software needs in the future should not be built now because the chances are &quot;you aren't gonna need it&quot;. The rationale is that we do not have perfect information about the
-                future and therefore some of the extra work we do to fulfill a potential future need might go to waste when some of our predictions fail to materialize.</p>
+              <p>The principle says that some capability we presume our software needs in the future should not be built now because the chances are &quot;you aren't gonna need it&quot;. The rationale is that we do not have perfect information about the future and therefore some of the extra work we do to fulfill a potential future need might go to waste when some of our predictions fail to materialize.</p>
             </div>
             <div>
               <div>
@@ -1253,22 +1172,15 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### DRY Principle" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain DRY principle</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### DRY Principle<a class='fa fa-anchor' href='#dry-principle'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain DRY principle</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -1283,22 +1195,15 @@ AcademicStaff academicStaff = staff; // Not OK
               </tip-box>
             </div>
             <div></div>
-        </div>
-      </panel>
-      <panel type="seamless" header="#### Brooks' Law" expanded="">
-        <div class="indented">
-          <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-          <span
-            class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            </font>
-            </span>
-            </span>
-            </span>
-            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain Brooks' law</span>
-            </span>
-            </span>
-            </span>
+          </div>
+        </panel>
+        <panel type="seamless" header="#### Brooks' Law<a class='fa fa-anchor' href='#brooks'-law'></a>" expanded="">
+          <div class="indented">
+            <span class="badge badge-light">
+              <span><span class="dimmed">
+                  <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                </span></span></span>
+            <span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain Brooks' law</span></span></span></span>
             <p></p>
             <div>
               <tip-box type="definition">
@@ -1316,8 +1221,7 @@ AcademicStaff academicStaff = staff; // Not OK
                       <question has-input="true">
                         <p>Do the Brook’s Law apply to a school project? Justify.</p>
                         <div slot="answer">
-                          <p>Yes. Adding a new student to a project team can result in a slow-down of the project for a short period. This is because the new member needs time to learn the project and existing members will have to spend time helping the
-                            new guy get up to speed. If the project is already behind schedule and near a deadline, this could delay the delivery even further.</p>
+                          <p>Yes. Adding a new student to a project team can result in a slow-down of the project for a short period. This is because the new member needs time to learn the project and existing members will have to spend time helping the new guy get up to speed. If the project is already behind schedule and near a deadline, this could delay the delivery even further.</p>
                         </div>
                       </question>
                     </panel>
@@ -1341,15 +1245,16 @@ AcademicStaff academicStaff = staff; // Not OK
                 </panel>
               </div>
             </div>
-        </div>
-      </panel>
+          </div>
+        </panel>
+      </div>
     </div>
   </div>
 </div>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.9.2</a> at Mon, 30 Jul 2018 02:05:52 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Mon, 14 Jan 2019 11:02:36 GMT</small></div>
 </footer>
 </div>
 </body>
@@ -1358,7 +1263,8 @@ AcademicStaff academicStaff = staff; // Not OK
 <script src="..\..\markbind\js\polyfill.min.js"></script>
 <script src="..\..\markbind\js\bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base'
+    const baseUrl = '/cs2113-website'
 </script>
 <script src="..\..\markbind\js\setup.js"></script>
+<script src="..\..\markbind\layouts\default\scripts.js"></script>
 </html>

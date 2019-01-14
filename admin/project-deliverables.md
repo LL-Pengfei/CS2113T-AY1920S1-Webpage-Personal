@@ -349,12 +349,12 @@ At the end of the project each student is required to submit a _Project Portfoli
      - [ ] `DG/ types of UML diagrams: 3+`: Three or more types of diagrams used
      - [ ] `DG/ UML diagrams suitable`: The diagrams used for the right purpose
      - [ ] `DG/ UML notation correct`: No more than one minor error in the UML notation
-     - [ ] `DG/ diagrams not repetitive`: No evidence of repeating the same diagram with minor differences
+     - [ ] `DG/ diagrams not repetitive`: Same diagram is not repeated with minor differences
      - [ ] `DG/ diagrams not too complicated`: Diagrams don't cram too much information into them
      - [ ] `DG/ diagrams integrates with text`: Diagrams are well integrated into the textual explanations
      - [ ] `DG/ easy to understand`: The document is easy to understand/follow
      - [ ] `DG/ just enough information`: Not too much information. All important information is given.
-     - [ ] `DG/ polished`: The document looks neat, well-formatted, and professional.
+     - [ ] `DG/ polished`: The document looks neat, well-formatted, %%and professional%%.
 
    * **D. Feature Quality** [{{ icon_individual }}]: Evaluate ==the biggest feature done by the student== for difficulty, completeness, and testability. Note: examples given below assume that AB4 did not have the commands `edit`, `undo`, and `redo`.
      - [ ] `Feature/ difficulty: unable to judge`: You are unable to judge this aspect for some reason.

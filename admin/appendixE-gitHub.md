@@ -118,6 +118,8 @@ Note that some of our download scripts depend on the following folder paths. Ple
 * `/src/test`  
 * `/docs`
 
+1. ==Note: If you fork from [Address Book Level 3]({{module_org}}/addressbook-level3), ensure that the folder structure is similar to  the one in [Address Book Level 4]({{module_org}}/addressbook-level4)==
+
 </div>
 
 <div id="workflow">

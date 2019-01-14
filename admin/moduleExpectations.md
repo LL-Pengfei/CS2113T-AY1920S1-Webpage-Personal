@@ -3,11 +3,9 @@
 
 ### Prior Knowledge: Java and OOP
 
-This module requires you to write Java code almost every week, starting from the very first week. If your Java skills are rusty, do brush up your Java programming skills.
+This module requires you to write Java code almost every week, starting from the very first week.  While we introduce some bit of Java programming in this module, it is by no means exhaustive. The module expects that you learn much of Java programming by yourself.
 
-In particular, you may want to **have a look at the new Java 8 features** such as _streams_, _lambdas_, _Optionals_, that may not have been covered in previous Java modules.
-
-CS2103 students: ==This module assumes a reasonable prior knowledge of Java and OOP== because most students taking this module have taken two Java modules before. If you are totally new to Java, you may be better off switching to CS2113 (Software Engineering & Object-Oriented Programming) instead.
+In particular, you may want to **have a look at the new Java 8 features** such as _streams_, _lambdas_, _Optionals_. These are used in the codebase given to you.
 
 ### Workload
 

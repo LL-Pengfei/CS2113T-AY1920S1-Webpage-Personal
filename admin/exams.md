@@ -27,7 +27,10 @@ Unless stated otherwise, the meaning of answer options are<br>
 **B**: Disagree. If the question has multiple statements, ++disagree with at least one of them++<br>
 **C**, **D**, **E**: Not used
 
-Number of questions: 100
+The exam paper has 50 questions. All questions carry equal marks.
+
+==The weightage of the Part 1 of the final exam is 25 marks out of the total score of 100.==
+
 
 <div class="full-mode">
 

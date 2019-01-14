@@ -83,6 +83,12 @@ Unlike in part 1, **you can ask invigilators for clarifications** if you found a
 
 Yes, **you may use pencils** when answering part 2.
 
+==The weightage of the Part 2 of the final exam is 15 marks out of the total score of 100.==
+
+## Resources
+
+Past exam papers will be uploaded on IVLE.
+
 </div>
 
 

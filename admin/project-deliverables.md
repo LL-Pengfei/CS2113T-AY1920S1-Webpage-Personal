@@ -130,13 +130,14 @@ At the end of the project each student is required to submit a _Project Portfoli
 * **Sections to include:**
   * **Overview**: A short overview of your product to provide some context to the reader.
   * **Summary of Contributions**:
-    * **Code contributed**: Give a link to your code on [Project Code Dashboard](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard), which should be `https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard/#=undefined&search=githbub_username_in_lower_case` (==replace `githbub_username_in_lower_case` with your actual username== in lower case e.g., `johndoe`). This link is also available in the [Project List Page]({{baseUrl}}/admin/projectList.html) -- linked to the {{ fas_code }} icon under your photo.
+    * **Code contributed**: Give a link to your code on [Project Code Dashboard](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard), which should be `https://nus{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard/#=undefined&search=github_username_in_lower_case` (==replace `github_username_in_lower_case` with your actual username== in lower case e.g., `johndoe`). This link is also available in the [Project List Page]({{baseUrl}}/admin/projectList.html) -- linked to the {{ fas_code }} icon under your photo.
     * **Features implemented:** A summary of the features you implemented. If you implemented multiple features, you are recommended to indicate which one is the biggest feature.
     * **Other contributions:**
       * Contributions to project management %%e.g., setting up project tools, managing releases, managing issue tracker etc.%%
       * Evidence of helping others %%e.g. responses you posted in our forum, bugs you reported in other team's products%%,
       * Evidence of technical leadership %%e.g. sharing useful information in the forum%%
 
+  * **Relevant descriptions/terms/conventions**: Include all relevant details necessary to understand the document, %%e.g., conventions, symbols or labels introduced by you,%% even if it was not introduced by you.
   * **Contributions to the User Guide**: Reproduce the parts in the User Guide that you wrote. This can include features you implemented as well as features you propose to implement.<br>
     %%The purpose of allowing you to include _proposed_ features is to provide you more flexibility to show your documentation skills. e.g. you can bring in a proposed feature just to give you an opportunity to use a UML diagram type not used by the actual features.%%
   * **Contributions to the Developer Guide**: Reproduce the parts in the Developer Guide that you wrote. Ensure there is enough content to evaluate your technical documentation skills and UML modelling skills. You can include descriptions of your design/implementations, possible alternatives, pros and cons of alternatives, etc.

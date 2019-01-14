@@ -7,7 +7,7 @@ Attend the lecture for,
 * a recap of the preceding week's topics
 * an introduction to the current week's topics
 
-{{ embed_topic("lectures.md#main", "Admin " + icon_embedding + " Lectures", "weeklySchedule-lectures", "3") }}
+{{ embed_topic("lectures.md#main", "Admin " + icon_embedding + " Lectures", "weeklySchedule-lectures", "2") }}
 
 <p/>
 
@@ -23,7 +23,7 @@ Attend the lecture for,
  
 Attend the tutorial to,
 
-* demonstrate evidence of your learning weekly topics to the tutor
+* demonstrate evidence of your learning of the weekly topics to the tutor
 * learn from peer demos of showing evidence of their own learning
 
 {{ embed_topic("tutorials.md#main", "Admin " + icon_embedding + " Tutorials", "weeklySchedule-tutorials", "2") }}

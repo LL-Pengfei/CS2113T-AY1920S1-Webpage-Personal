@@ -403,7 +403,7 @@ Bug reviewing is recommended to be done as a team as some of the decisions need 
 Response Labels:
 * `response.Accepted`: You accept it as a bug.
 * `response.NotInScope`: It is a valid issue but not something the team should be penalized for e.g., it was not related to features delivered in v1.4.
-* `response.Rejected`: What tester treated as a bug is in fact the expected behavior. {{ icon_important_big_red }} The penalty for rejecting a bug using an unjustifiable explanation is higher than the penalty if the same bug was accepted. You can reject bugs that you inherited from AB4.
+* `response.Rejected`: What tester treated as a bug is in fact the expected behavior. {{ icon_important_big_red }} The may lose marks for rejecting a bug without an explanation or using an unjustifiable explanation. This penalty is higher than the penalty if the same bug was accepted. You can reject bugs that you inherited from AB4.
 * `response.CannotReproduce`: You are unable to reproduce the behavior reported in the bug after multiple tries.
 * `response.IssueUnclear`: The issue description is not clear. Don't post comments asked the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymized.
 

@@ -4,8 +4,8 @@
 There is no midterm.
 
 The final exam has two parts: 
-* Part 1: MCQ questions (1 hour, 20 marks) 
-* Part 2: Essay questions (1 hour, 20 marks)
+* Part 1: MCQ questions (30 minutes, 25 marks) 
+* Part 2: Essay questions (1 hour 30 min, 30 marks)
 
 Both papers will be given to you at the start but you need to **answer Part 1 first** (i.e. MCQ paper). It will be **collected 1 hour after the exam start time** (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.
 

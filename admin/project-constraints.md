@@ -45,6 +45,10 @@
 
 **In addition, you are strongly encouraged to follow these recommendations** as they can help increase your project score.
 
+* **Recommendation-Security-Features**: It is OK to use security features like login, provided you think through the solution completely
+  %%e.g., having a login functionality to secure the application, but saving the password in clear text is no good, and can cost you marks in "Quality of feature(s)"%%.
+
+
 * **Recommendation-Minimal-Network**: It is OK to use a reliable public API %%e.g., Google search%% but we recommend that you have a fallback mechanism (e.g., able to load data using a data file if the network is down). %%**Reason:** During the mass peer-testing session the network access can be intermittent due to high load. If your feature cannot be tested due to lack of Internet, that will have to be counted as a major bug, to be fair to those whose app is being tested and bugs found being penalized.%%<br>
   ==If you use NUS data== (e.g., scrape data from an NUS website), please work with [NUS IT](https://nusit.nus.edu.sg/contact-us/) directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (has happened before). The teaching team will not be able to get approval for you as the use of NUS data is not a module requirement.
 

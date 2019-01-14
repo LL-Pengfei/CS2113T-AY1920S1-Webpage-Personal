@@ -424,13 +424,14 @@ Bug Type Labels:
 </box>
 </div>
 
-* **If you disagree with the original severity assigned to the bug**, you may change it to the correct level, in which case add a comment justifying the change. All such changes will be double-checked by the teaching team and unreasonable lowering of severity will be penalized extra.:
+* **If you disagree with the original severity assigned to the bug**, you may change it to the correct level, in which case add a comment justifying the change. All such changes will be double-checked by the teaching team. You will lose marks for unreasonable lowering of severity.
 
 <div class="indented">
   <include src="appendixE-gitHub.md#bug-severity" />
 </div>
 
 * **Decide who should fix the bug**. Use the `Assignees` field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. **If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.**
+* **Assign owners for the rejected bugs as well**. If the bug is incorrectly rejected, the penalty will apply to only the owner, if no owner is assigned, the penalty will be distributed to the team.
  * We recommend (but not enforce) that the feature owner should be assigned bugs related to the feature, even if the bug was caused indirectly by someone else. Reason: The feature owner should have defended the feature against bugs using automated tests and defensive coding techniques.
 
 * **Add an explanatory comment** explaining your choice of labels and assignees.

@@ -17,11 +17,17 @@ There are 30+ available points to choose from:
 </div>
 
 * In-lecture quizzes (1 each, max 10 points)
-* Module admin tasks done _on time_ and _as instructed_
-  * Peer evaluations (1 points each, max 3)
-  * Pre-module survey (1 points)
 * Enhanced AB1-AB3 (2 points each, max 6 points)
+* Module admin tasks done _on time_ and _as instructed_
+  * Peer evaluations (1 points each)
+  * Pre-module survey (1 points)
 
+<div class="indented">
+  <box type="warning">
+
+  If your response in the pre-module survey is not usable, you will not earn points for this exercise.
+  </box>
+</div>
 
 {{ embed_topic("peerEvaluations.md#peerEvaluation-criteria", "Admin " + icon_embedding + " Peer Evaluations → Criteria", "participation-peerEvals", "3") }}
 

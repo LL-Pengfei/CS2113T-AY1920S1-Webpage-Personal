@@ -7,12 +7,12 @@
 
 **When to form teams**
 
-* {{ module }}T: Your team will be formed by CS2101 side in week 1.
-* {{ module }}: Your team will be formed in week 3 tutorial.
+* Team formation will happen in week 3 tutorial.
+* {{ module }}T: Your team will be the same on CS2101 side as well.
 
 **Team size**: The default ==team size is five==. 
 
-**Team ID**: This will be given to you after forming teams. It has the form `TUTORIAL_ID-TEAM_NUMBER` e.g, `W14-2` means you are in tutorial W14 (i.e., Wed 1400-1500), team 2.
+**Team ID**: This will be given to you after forming teams. It has the form `TUTORIAL_ID-TEAM_NUMBER` e.g, `M11-2` means you are in tutorial M11 (i.e., Mon 1100-1200), team 2.
 
 {{ embed_topic("tutorials.md#tutorialTimetable", "Admin " + icon_embedding + " Tutorials → Tutorial IDs", "projectTeams-tutorialIDs", "3") }}
 

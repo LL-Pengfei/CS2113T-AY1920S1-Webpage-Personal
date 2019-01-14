@@ -200,7 +200,7 @@ At the end of the project each student is required to submit a _Project Portfoli
   * Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.
 
 * **Special circumstances:**
-  * If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.
+  * If a significant feature was not merged on time: inform the evaluator and get permission to show the unmerged feature using your own version of the code. Unmerged features earn much less marks than a merged equivalent but something is better than nothing.
   * If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).
   * If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse %%e.g., MC%% to prof. The demo is part of module assessment and ==absence without a valid reason== will cause you to lose marks.
 

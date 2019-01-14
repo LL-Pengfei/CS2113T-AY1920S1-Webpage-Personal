@@ -56,7 +56,7 @@ More info about setting Git username is [here](https://help.github.com/articles/
    ==(do not create PRs against the upstream repo at `se-edu` org)== <br/> 
    <img src="{{baseUrl}}/admin/images/PrDetails.png" width="700" /><br/>
    PR name should be: `[LO_ID][TEAM_ID]Your Name`  
-   e.g. If you are in tutorial W09 (i.e. Wednesday 9am) and team 1, `[W2.2b][W09-1]James Yong`.
+   e.g. If you are in tutorial M11 (i.e. Monday 11am) and team 1, `[W2.2b][M11-1]John Doe`.
    Your Team ID can be found in [this page]({{ team_IDs_page }}).
    Note that our tutorial IDs are different from those shown in CORS/IVLE. Our tutorial IDs are given in the panel below.
 
@@ -83,7 +83,7 @@ More info about setting Git username is [here](https://help.github.com/articles/
 
 After receiving your team ID, one team member should do the following steps:
 * Create a GitHub organization with the following details:
-  * ==Organization name : `{{ module }}-{{ semester }}-TEAM_ID`==. e.g.  `{{ module }}-{{ semester }}-W12-1`
+  * ==Organization name : `{{ module }}-{{ semester }}-TEAM_ID`==. e.g.  `{{ module }}-{{ semester }}-M11-1`
   * Plan:  Open Source ($0/month) 
 * Add members to the organization:
   * Create a team called `developers` to your organization.

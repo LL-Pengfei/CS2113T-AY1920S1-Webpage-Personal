@@ -371,13 +371,13 @@ At the end of the project each student is required to submit a _Project Portfoli
    * **E. Amount of work** [{{ icon_individual }}]:  Evaluate the amount of work, on a scale of 0 to 30.
      * Consider [this PR (`history` command)](https://github.com/se-edu/addressbook-level4/pull/440/files) as 5 units of effort which means [this PR (`undo/redo` command)](https://github.com/se-edu/addressbook-level4/pull/610/files) is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the `undo/redo` feature (which was given as an example of an `A` grade project), we expect most students to be have efforts lower than 20.
      * Count all implementation/testing/documentation work as mentioned in that person's PPP. Also look at the actual code written by the person.
-     * {{ icon_important_big_red }} Do not give a high value just _to be nice_. If your estimate is wildly inaccurate, it means you are unable to estimate the effort required to implement a feature in a project that you are supposed to know well at this point. ==You will lose marks if that is the case.==
+     * {{ icon_important_big_red }} Do not give a high value just _to be nice_. If your estimate is wildly inaccurate, it means you are unable to estimate the effort required to implement a feature in a project that you are supposed to know well at this point. ==You may lose marks if that is the case.==
 
 #### Processing PE Bug Reports:
 
 There will be a review period for you to respond to the [bug reports]({{module_org}}/pe-results/issues) you received.
 
-Duration: The review period will start around 1 day after the PE (exact time to be announced) and will last until the following **Wednesday midnight**. However, you are recommended to finish this task ASAP, to minimize cutting into your exam preparation work.
+Duration: The review period will start around 1 day after the PE (exact time to be announced) and will last until the following **Monday midnight**. However, you are recommended to finish this task ASAP, to minimize cutting into your exam preparation work.
 
 Bug reviewing is recommended to be done as a team as some of the decisions need team consensus.
 

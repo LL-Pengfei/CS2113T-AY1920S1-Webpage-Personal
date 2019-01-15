@@ -2,11 +2,14 @@
   "pages": [
     {
       "headings": {
-        "running-intellij-idea-for-the-first-time": "Running Intellij IDEA for the First Time",
-        "importing-a-project-to-intellij-idea": "Importing a Project to Intellij IDEA",
         "tracking-and-ignoring": "Tracking and Ignoring",
         "staging-and-committing": "Staging and Committing",
         "identifying-points-in-history": "Identifying Points in History",
+        "running-intellij-idea-for-the-first-time": "Running Intellij IDEA for the First Time",
+        "importing-a-project-to-intellij-idea": "Importing a Project to Intellij IDEA",
+        "constructos": "Constructos",
+        "this-keyword": "this keyword",
+        "instance-methods": "Instance methods",
         "week-1-%5Bjan-14%5D": "Week 1 [Jan 14]",
         "week-2-%5Bjan-21%5D": "Week 2 [Jan 21]",
         "what-to-and-what-not-to-annotate": "undefined | project expectations"
@@ -59,7 +62,7 @@
         "why-the-workload-is-so-high%3F": "Why the workload is so high? ",
         "what-are-the-extra-requirements-to-get-an-a%2B%3F": "What are the extra requirements to get an A+? ",
         "why-so-much-bean-counting%3F": "Why so much bean counting? ",
-        "why-you-force-me-to-visit-a-separate-website-instead-of-using-ivle%3F": "Why you force me to visit a separate website instead of using IVLE? ",
+        "why-you-force-me-to-visit-a-separate-website-instead-of-using-luminus%3F": "Why you force me to visit a separate website instead of using LumiNUS? ",
         "why-slides-are-not-detailed%3F": "Why slides are not detailed? ",
         "why-so-much-self-study%3F": "Why so much self-study? ",
         "what-if-i-don%E2%80%99t-carry-around-a-laptop%3F": "What if I don’t carry around a laptop? ",

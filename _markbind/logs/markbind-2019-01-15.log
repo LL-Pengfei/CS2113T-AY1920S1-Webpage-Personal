@@ -1,0 +1,30 @@
+2019-01-15T14:47:27.384Z - info: Website generation started at 22:47:18
+2019-01-15T14:47:29.781Z - info: Building assets...
+2019-01-15T14:47:32.341Z - info: Assets built
+2019-01-15T14:47:32.342Z - info: Generating pages...
+2019-01-15T14:49:25.336Z - info: Pages built
+2019-01-15T14:49:25.441Z - info: Site data built
+2019-01-15T14:49:25.442Z - info: Website generation complete! Total build time: 126.629s
+2019-01-15T14:49:25.468Z - info: Generate Site durationMs=126656
+2019-01-15T14:49:25.495Z - info: Serving "D:\Teaching\CS2113-AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-01-15T14:49:25.496Z - info: Press CTRL+C to stop ...
+2019-01-15T15:09:58.331Z - info: Website generation started at 23:09:53
+2019-01-15T15:10:00.552Z - info: Building assets...
+2019-01-15T15:10:02.945Z - info: Assets built
+2019-01-15T15:10:02.946Z - info: Generating pages...
+2019-01-15T15:12:15.433Z - info: Pages built
+2019-01-15T15:12:15.549Z - info: Site data built
+2019-01-15T15:12:15.550Z - info: Website generation complete! Total build time: 142.316s
+2019-01-15T15:12:15.551Z - info: Build success!
+2019-01-15T15:12:15.552Z - info: Generate Site durationMs=142318
+2019-01-15T15:16:26.094Z - info: Website generation started at 23:16:20
+2019-01-15T15:16:29.541Z - info: Building assets...
+2019-01-15T15:16:31.942Z - info: Assets built
+2019-01-15T15:16:31.943Z - info: Generating pages...
+2019-01-15T15:19:01.495Z - info: Pages built
+2019-01-15T15:19:01.641Z - info: Site data built
+2019-01-15T15:19:01.641Z - info: Website generation complete! Total build time: 160.803s
+2019-01-15T15:19:01.641Z - info: Build success!
+2019-01-15T15:19:01.642Z - info: Generate Site durationMs=160803
+2019-01-15T15:19:38.279Z - info: Website generation started at 23:19:24
+2019-01-15T15:19:42.480Z - info: Building assets...

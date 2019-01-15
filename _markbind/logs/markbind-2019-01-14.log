@@ -5634,3 +5634,11 @@ Missing reference in D:\Teaching\CS2113-AY1819Sem2\website\book\codeQuality\cont
 2019-01-14T11:06:18.905Z - info: Deployed!
 2019-01-14T11:14:34.245Z - info: Website generation started at 19:14:28
 2019-01-14T11:14:36.264Z - info: Building assets...
+2019-01-14T11:14:38.315Z - info: Assets built
+2019-01-14T11:14:38.316Z - info: Generating pages...
+2019-01-14T11:16:16.610Z - info: Pages built
+2019-01-14T11:16:16.712Z - info: Site data built
+2019-01-14T11:16:16.714Z - info: Website generation complete! Total build time: 107.849s
+2019-01-14T11:16:16.714Z - info: Build success!
+2019-01-14T11:16:16.715Z - info: Generate Site durationMs=107851
+2019-01-14T11:16:56.917Z - info: Deployed!

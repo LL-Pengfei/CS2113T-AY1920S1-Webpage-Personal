@@ -17,7 +17,7 @@ Week  | Stage     | Activities
 **8** |mid-v1.2 | <span id="mid-v12-overview">Adjust project schedule/rigor as needed, start proper milestone management.</span>
 **9** |v1.2     | <span id="v12-overview">Move code towards v2.0 in small steps, start documenting design/implementation details in DG.</span>
 **10**|mid-v1.3 | <span id="mid-v13-overview">Complete a draft of the DG and seek feedback from your tutor. Continue to enhance features. Make code RepoSense-compatible. Try doing a proper release.</span>
-**11**|v1.3     | <span id="v13-overview">Release as a jar file, release updated user guide, peer-test released products, verify code authorship.</span>
+**11**|v1.3     | <span id="v13-overview">Release as a jar file, release updated user guide, peer-test released products, verify code authorship. Seek code quality comments from your tutor</span>
 **12**|mid-v1.4 | <span id="mid-v14-overview">Tweak as per peer-testing results, draft Project Portfolio Page, practice product demo.</span>
 **13**|v1.4     | <span id="v14-overview">Final tweaks to docs/product, release product, demo product, evaluate peer projects.</span>
 

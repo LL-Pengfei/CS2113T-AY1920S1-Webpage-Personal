@@ -4,4 +4,7 @@
     ![image](https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png)
   * You are encouraged to help others in the forum (e.g., share tips, help with technical problems). ==We consider such sharing when giving out `A+` grades and when recruiting tutors.==
 
-* You are encouraged to **ask module-related questions in the [forum]({{ forum_link }}) or in the [slack channel]({{ slack_team }})** so that the discussion can benefit the whole class, instead of asking tutors directly. It is also safer to ask module-related questions here because there are subtle variations between semesters and there is a slight risk that a tutor's answer is outdated.
+* You are encouraged to **ask module-related questions in the [forum]({{ forum_link }})** so that the discussion can benefit the whole class, instead of asking tutors directly. 
+  * It is also safer to ask module-related questions here because there are subtle variations between semesters and there is a slight risk that a tutor's answer is outdated.
+  
+* We have a [Slack channel]({{ slack_team }}), that you can use for your own project related communications or some minor quick clarifications. 

@@ -1,6 +1,6 @@
 {% import "common/macros.njk" as macros with context %}
 
-<big>**Tutorial selection and seating arrangement**</big>
+<big>****Tutorial selection and seating arrangement****</big>
 
 * **{{ module }}** students: As you don't have a confirmed tutorial yet, attend any {{ module }} session that is convenient. 
 * **{{ module }}T** students: Attend the tutorial pre-allocated to you.

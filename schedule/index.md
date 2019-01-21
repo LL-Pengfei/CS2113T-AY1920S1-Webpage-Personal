@@ -77,6 +77,8 @@ head: scheduleHead.md
       {location: ["oop", "inheritance", "overloading"], omit_evidence: true},
       {location: ["oop", "inheritance", "overriding"], omit_evidence: true},
       {location: ["cppToJava", "inheritance", "basic"], omit_evidence: true},
+  {name: "Tools: IDEs"},
+    {heading: "IDEs: Basic refactoring"},
       {location: ["refactoring", "what"]},
       {location: ["intellij", "refactoring"]},
       {location: ["refactoring", "how"]},

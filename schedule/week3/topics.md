@@ -3,7 +3,7 @@
 
 <box type="warning">
 
-****OOP is carried forward from week 2****
+**Additional OOP topics carried forward from week 2**
 
 </box>
 

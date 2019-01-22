@@ -26,6 +26,7 @@
     <li><a href="{{baseUrl}}/admin/projectList.html" class="dropdown-item">{{ fas_th_list }} Projects List</a></li>
     <li><a href="{{baseUrl}}/admin/reposenseConfigTemplates.html" class="dropdown-item">{{ fas_th_list }} config.json templates for Reposense</a></li>
     <li><a href="https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/{{ module | lower }}-dashboard" target="_blank" class="dropdown-item">{{ fas_chart_area }} Project Code Dashboard (BETA)</a></li>
+    <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"> {{ glyphicon_blackboard }} Repl.it classroom</a></li>
   </dropdown>
   <li slot="right" class="nav-link">
     <form class="navbar-form">

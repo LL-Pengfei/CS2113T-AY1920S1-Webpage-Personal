@@ -1,0 +1,52 @@
+2019-01-25T12:31:25.885Z - info: Website generation started at 20:31:23
+2019-01-25T12:31:27.501Z - info: Building assets...
+2019-01-25T12:31:28.954Z - info: Assets built
+2019-01-25T12:31:28.954Z - info: Generating pages...
+2019-01-25T12:32:42.476Z - info: Pages built
+2019-01-25T12:32:42.612Z - info: Site data built
+2019-01-25T12:32:42.613Z - info: Website generation complete! Total build time: 79.527s
+2019-01-25T12:32:42.621Z - info: Generate Site durationMs=79536
+2019-01-25T12:32:42.862Z - info: Serving "E:\Teaching\CS2113-AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-01-25T12:32:42.862Z - info: Press CTRL+C to stop ...
+2019-01-25T12:40:44.159Z - info: [20:40:44] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:40:45.161Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:40:45.163Z - info: Rebuilding 3 pages
+2019-01-25T12:40:51.955Z - info: Pages rebuilt
+2019-01-25T12:40:51.962Z - info: Site data built
+2019-01-25T12:41:21.741Z - info: [20:41:21] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:41:22.742Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:41:22.747Z - info: Rebuilding 3 pages
+2019-01-25T12:41:28.984Z - info: Pages rebuilt
+2019-01-25T12:41:28.993Z - info: Site data built
+2019-01-25T12:41:53.596Z - info: [20:41:53] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:41:54.598Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:41:54.603Z - info: Rebuilding 3 pages
+2019-01-25T12:42:00.951Z - info: Pages rebuilt
+2019-01-25T12:42:00.957Z - info: Site data built
+2019-01-25T12:42:15.384Z - info: [20:42:15] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:42:16.386Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:42:16.387Z - info: Rebuilding 3 pages
+2019-01-25T12:42:22.275Z - info: Pages rebuilt
+2019-01-25T12:42:22.281Z - info: Site data built
+2019-01-25T12:43:08.754Z - info: [20:43:08] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:43:09.755Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:43:09.756Z - info: Rebuilding 3 pages
+2019-01-25T12:43:13.889Z - info: [20:43:13] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:43:16.856Z - info: Pages rebuilt
+2019-01-25T12:43:16.865Z - info: Site data built
+2019-01-25T12:43:16.883Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:43:16.885Z - info: Rebuilding 3 pages
+2019-01-25T12:43:23.491Z - info: Pages rebuilt
+2019-01-25T12:43:23.498Z - info: Site data built
+2019-01-25T12:46:25.701Z - info: [20:46:25] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:46:26.702Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:46:26.704Z - info: Rebuilding 3 pages
+2019-01-25T12:46:32.999Z - info: Pages rebuilt
+2019-01-25T12:46:33.007Z - info: Site data built
+2019-01-25T12:48:00.579Z - info: [20:48:00] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:48:01.579Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week3\tutorial-cs2113.md
+2019-01-25T12:48:01.581Z - info: Rebuilding 3 pages
+2019-01-25T12:48:07.945Z - info: Pages rebuilt
+2019-01-25T12:48:07.951Z - info: Site data built
+2019-01-25T12:49:07.271Z - info: Website generation started at 20:49:04
+2019-01-25T12:49:08.629Z - info: Building assets...

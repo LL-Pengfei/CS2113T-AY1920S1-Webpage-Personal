@@ -16,4 +16,3 @@ However, do continue to make progress on the project front!
   * Try to reach [mid-v1.0]({{ module_website }}/admin/project-w04-mid-v10.html) fully by the end of this week i.e., complete all 3 steps.
   * If you are not familiar with Git and GitHub, complete this week's topics related to Git and GitHub. Next week's topics need that knowledge.<br>
 
-* **One part of this week's lecture is not covered in the textbook** and is relevant for your project work for the upcoming project milestone v1.0. You are encouraged to attend this week's lecture even if you don't normally come to lectures.

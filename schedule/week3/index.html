@@ -33,8 +33,8 @@
       <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Jan '19</small></a>
       <dropdown text="Schedule" class="nav-link">
         <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-        <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] <span class="fas fa-arrow-circle-left"></span></span></a></li>
-        <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+        <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+        <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] <span class="fas fa-arrow-circle-left"></span></span></a></li>
         <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
         <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
         <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
@@ -210,7 +210,33 @@
                     </div>
                   </panel>
                   <panel type="seamless" expanded="">
-                    <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W3.1b]</span></span> <span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
+                    <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W3.1b]</span></span> <span class="dimmed"><strong><span>Tools → UML → Class Diagrams → Inheritance →
+                            </span></strong></span> <strong><big><big><span>Inheritance</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+                    <div>
+                      <div class="indented">
+                        <div></div>
+                        <p></p>
+                        <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can interpret class inheritance in class diagrams</span></span></span></span></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <div>
+                          <p>You can use a triangle and a solid line (not to be confused with an arrow) to indicate class inheritance.</p>
+                          <p>Notation:</p>
+                          <img src="/website/book/uml/classDiagrams/classInheritance/what/images/notation.png" height="120">
+                          <p></p>
+                          <tip-box>
+                            <p><span class="fas fa-cube"></span> Examples: The <code>Car</code> class <em>inherits</em> from the <code>Vehicle</code> class. The <code>Cat</code> and <code>Dog</code> classes <em>inherit</em> from the <code>Pet</code> class.</p>
+                            <img src="/website/book/uml/classDiagrams/classInheritance/what/images/examples.png" height="120">
+                            <p></p>
+                          </tip-box>
+                        </div>
+                        <div></div>
+                      </div>
+                    </div>
+                  </panel>
+                  <panel type="seamless" expanded="">
+                    <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W3.1c]</span></span> <span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
                             </span></strong></span> <strong><big><big><span>Overloading</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
                     <div>
                       <div class="indented">
@@ -266,145 +292,6 @@
                           </tip-box>
                         </div>
                         <div></div>
-                      </div>
-                    </div>
-                  </panel>
-                  <panel type="seamless" expanded="">
-                    <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W3.1c]</span></span> <span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
-                            </span></strong></span> <strong><big><big><span>Overriding</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
-                    <div>
-                      <div class="indented">
-                        <div>
-                          <p>
-                            <panel src="/website\book\oop\inheritance\what\unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
-                          </p>
-                        </div>
-                        <p></p>
-                        <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain method overriding</span></span></span></span></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <div>
-                          <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
-                          <tip-box>
-                            <p><span class="fas fa-cube"></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
-                            <div class="table-responsive">
-                              <table class="markbind-table table table-bordered table-striped">
-                                <thead>
-                                  <tr>
-                                    <th><code>Report</code> methods</th>
-                                    <th><code>EvaluationReport</code> methods</th>
-                                    <th>Overrides?</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td><code>print()</code></td>
-                                    <td><code>print()</code></td>
-                                    <td>Yes</td>
-                                  </tr>
-                                  <tr>
-                                    <td><code>write(String)</code></td>
-                                    <td><code>write(String)</code></td>
-                                    <td>Yes</td>
-                                  </tr>
-                                  <tr>
-                                    <td><code>read():String</code></td>
-                                    <td><code>read(int):String</code></td>
-                                    <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                            <modal title="**Overloading**" id="modal:overriding-overloading">
-                              <div>
-                                <div></div>
-                                <p></p>
-                                <p><span class="dimmed"><strong><span>Paradigms → Object Oriented Programming → Inheritance →
-                                      </span></strong></span></p>
-                                <div id="title-and-body">
-                                  <div>
-                                    <h4 id="overloading"><span>Overloading</span><a class="fa fa-anchor" href="#overloading"></a></h4>
-                                  </div>
-                                  <div id="main">
-                                    <div>
-                                      <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                                      <tip-box type="primary">
-                                        <div>
-                                          <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                          <panel type="seamless" header="%%Examples%%">
-                                            <div class="table-responsive">
-                                              <table class="markbind-table table table-bordered table-striped">
-                                                <thead>
-                                                  <tr>
-                                                    <th style="text-align:center">Method</th>
-                                                    <th style="text-align:center">Type Signature</th>
-                                                  </tr>
-                                                </thead>
-                                                <tbody>
-                                                  <tr>
-                                                    <td style="text-align:center"><code>int add(int X, int Y)</code></td>
-                                                    <td style="text-align:center"><code>(int, int)</code></td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style="text-align:center"><code>void add(int A, int B)</code></td>
-                                                    <td style="text-align:center"><code>(int, int)</code></td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style="text-align:center"><code>void m(int X, double Y)</code></td>
-                                                    <td style="text-align:center"><code>(int, double)</code></td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td style="text-align:center"><code>void m(double X, int Y)</code></td>
-                                                    <td style="text-align:center"><code>(double, int)</code></td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </div>
-                                          </panel>
-                                        </div>
-                                      </tip-box>
-                                      <tip-box>
-                                        <p><span class="fas fa-cube"></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
-                                        <ul>
-                                          <li><code>calculate(String): void</code></li>
-                                          <li><code>calculate(int): void</code></li>
-                                        </ul>
-                                      </tip-box>
-                                    </div>
-                                    <div></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </modal>
-                          </tip-box>
-                        </div>
-                        <div>
-                          <div>
-                            <panel header="<span class='fas fa-dumbbell'></span> Exercises" expandable="">
-                              <div>
-                                <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span><span class='glyphicon glyphicon-ok-sign' aria-hidden='true'></span> Which methods override?">
-                                  <question>
-                                    <p>Which of these methods override another method? <span class="dimmed"><code>A</code> is the parent class. <code>B</code> inherits <code>A</code>.</span></p>
-                                    <img src="/website/book/oop/inheritance/overriding/images/overriding.png" height="220">
-                                    <p></p>
-                                    <ul class="task-list">
-                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
-                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b</li>
-                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c</li>
-                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
-                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e</li>
-                                    </ul>
-                                    <div slot="answer">
-                                      <p>d</p>
-                                      <p>Explanation: Method overriding requires a method in a <em>child class</em> to use the same method name and same parameter sequence used by one of its ancestors</p>
-                                    </div>
-                                  </question>
-                                </panel>
-                              </div>
-                            </panel>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </panel>
@@ -5960,7 +5847,7 @@ compact(input);
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Fri, 25 Jan 2019 12:49:09 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Wed, 30 Jan 2019 02:17:31 GMT</small></div>
 </footer>
 </div>
 </body>

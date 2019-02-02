@@ -1,35 +1,76 @@
-2019-01-28T07:25:33.963Z - info: Website generation started at 15:25:31
-2019-01-28T07:25:35.359Z - info: Building assets...
-2019-01-28T07:25:36.663Z - info: Assets built
-2019-01-28T07:25:36.663Z - info: Generating pages...
-2019-01-28T07:26:58.399Z - info: Pages built
-2019-01-28T07:26:58.508Z - info: Site data built
-2019-01-28T07:26:58.508Z - info: Website generation complete! Total build time: 86.843s
-2019-01-28T07:26:58.515Z - info: Generate Site durationMs=86850
-2019-01-28T07:26:58.753Z - info: Serving "E:\Teaching\CS2113-AY1819Sem2\website\_site" at http://127.0.0.1:8080
-2019-01-28T07:26:58.754Z - info: Press CTRL+C to stop ...
-2019-01-28T10:19:33.185Z - info: [18:19:33] Reload for file add: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:19:34.197Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:19:34.226Z - info: Rebuilding 0 pages
-2019-01-28T10:19:34.226Z - info: Pages rebuilt
-2019-01-28T10:19:34.256Z - info: Site data built
-2019-01-28T10:19:57.219Z - info: [18:19:57] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:19:58.221Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:19:58.222Z - info: Rebuilding 0 pages
-2019-01-28T10:19:58.222Z - info: Pages rebuilt
-2019-01-28T10:19:58.228Z - info: Site data built
-2019-01-28T10:20:08.263Z - info: [18:20:08] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:20:09.263Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:20:09.266Z - info: Rebuilding 0 pages
-2019-01-28T10:20:09.267Z - info: Pages rebuilt
-2019-01-28T10:20:09.277Z - info: Site data built
-2019-01-28T10:20:37.636Z - info: [18:20:37] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:20:38.638Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T10:20:38.638Z - info: Rebuilding 0 pages
-2019-01-28T10:20:38.639Z - info: Pages rebuilt
-2019-01-28T10:20:38.644Z - info: Site data built
-2019-01-28T11:05:55.768Z - info: [19:05:55] Reload for file change: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T11:05:56.770Z - verbose: Rebuild affected paths: E:\Teaching\CS2113-AY1819Sem2\website\schedule\week4\notices-cs2113.md
-2019-01-28T11:05:56.770Z - info: Rebuilding 0 pages
-2019-01-28T11:05:56.771Z - info: Pages rebuilt
-2019-01-28T11:05:56.777Z - info: Site data built
+2019-01-28T14:48:04.343Z - info: Website generation started at 10:47:57 PM
+2019-01-28T14:48:07.829Z - info: Building assets...
+2019-01-28T14:48:11.139Z - info: Assets built
+2019-01-28T14:48:11.140Z - info: Generating pages...
+2019-01-28T14:50:50.783Z - info: Pages built
+2019-01-28T14:50:51.023Z - info: Site data built
+2019-01-28T14:50:51.024Z - info: Website generation complete! Total build time: 173.778s
+2019-01-28T14:50:51.054Z - info: Generate Site durationMs=173808
+2019-01-28T14:50:51.920Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-01-28T14:50:51.920Z - info: Press CTRL+C to stop ...
+2019-01-28T14:59:16.694Z - info: [10:59:16 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T14:59:17.700Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T14:59:17.707Z - info: Rebuilding 1 pages
+2019-01-28T14:59:21.684Z - info: Pages rebuilt
+2019-01-28T14:59:21.702Z - info: Site data built
+2019-01-28T15:17:43.245Z - info: [11:17:43 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:17:44.249Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:17:44.252Z - info: Rebuilding 1 pages
+2019-01-28T15:17:48.041Z - info: Pages rebuilt
+2019-01-28T15:17:48.057Z - info: Site data built
+2019-01-28T15:19:16.824Z - info: [11:19:16 PM] Reload for file deletion: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:19:17.826Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:19:17.829Z - info: Rebuilding 1 pages
+2019-01-28T15:19:21.832Z - info: Pages rebuilt
+2019-01-28T15:19:21.852Z - info: Site data built
+2019-01-28T15:20:20.141Z - info: [11:20:20 PM] Reload for file add: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:20:21.143Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:20:21.146Z - info: Rebuilding 1 pages
+2019-01-28T15:20:24.408Z - info: Pages rebuilt
+2019-01-28T15:20:24.427Z - info: Site data built
+2019-01-28T15:20:52.341Z - info: [11:20:52 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:20:53.343Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:20:53.345Z - info: Rebuilding 1 pages
+2019-01-28T15:20:56.436Z - info: Pages rebuilt
+2019-01-28T15:20:56.452Z - info: Site data built
+2019-01-28T15:21:41.032Z - info: [11:21:41 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:21:42.037Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:21:42.039Z - info: Rebuilding 1 pages
+2019-01-28T15:21:45.513Z - info: Pages rebuilt
+2019-01-28T15:21:45.531Z - info: Site data built
+2019-01-28T15:25:40.553Z - info: [11:25:40 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:25:41.557Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:25:41.560Z - info: Rebuilding 1 pages
+2019-01-28T15:25:45.395Z - info: Pages rebuilt
+2019-01-28T15:25:45.411Z - info: Site data built
+2019-01-28T15:28:54.388Z - info: [11:28:54 PM] Reload for file deletion: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:28:55.393Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:28:55.399Z - info: Rebuilding 1 pages
+2019-01-28T15:28:58.812Z - info: Pages rebuilt
+2019-01-28T15:28:58.831Z - info: Site data built
+2019-01-28T15:31:21.069Z - info: [11:31:21 PM] Reload for file add: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:31:21.084Z - info: [11:31:21 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:31:22.070Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:31:22.073Z - info: Rebuilding 1 pages
+2019-01-28T15:31:25.654Z - info: Pages rebuilt
+2019-01-28T15:31:25.676Z - info: Site data built
+2019-01-28T15:33:10.178Z - info: [11:33:10 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:33:11.181Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:33:11.187Z - info: Rebuilding 1 pages
+2019-01-28T15:33:14.518Z - info: Pages rebuilt
+2019-01-28T15:33:14.535Z - info: Site data built
+2019-01-28T15:38:16.703Z - info: [11:38:16 PM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:38:17.703Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\notices-cs2113.md
+2019-01-28T15:38:17.706Z - info: Rebuilding 1 pages
+2019-01-28T15:38:21.733Z - info: Pages rebuilt
+2019-01-28T15:38:21.749Z - info: Site data built
+2019-01-28T15:41:03.556Z - info: [11:41:03 PM] Reload for file add: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\tutorial-cs2113.md
+2019-01-28T15:41:04.559Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\tutorial-cs2113.md
+2019-01-28T15:41:04.561Z - info: Rebuilding 0 pages
+2019-01-28T15:41:04.561Z - info: Pages rebuilt
+2019-01-28T15:41:04.576Z - info: Site data built
+2019-01-28T15:58:49.617Z - info: [11:58:49 PM] Reload for file deletion: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\tutorial-cs2113.md
+2019-01-28T15:58:50.619Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week4\tutorial-cs2113.md
+2019-01-28T15:58:50.624Z - info: Rebuilding 0 pages
+2019-01-28T15:58:50.626Z - info: Pages rebuilt
+2019-01-28T15:58:50.657Z - info: Site data built

@@ -34,8 +34,8 @@
       <dropdown text="Schedule" class="nav-link">
         <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
         <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-        <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] <span class="fas fa-arrow-circle-left"></span></span></a></li>
-        <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+        <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+        <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] <span class="fas fa-arrow-circle-left"></span></span></a></li>
         <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
         <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
         <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
@@ -80,7 +80,12 @@
     <h1 id="week-5-%5Bfeb-11%5D">Week 5 <small><small><span class="dimmed">[Feb 11]</span></small></small><a class="fa fa-anchor" href="#week-5-%5Bfeb-11%5D"></a></h1>
     <tabs>
       <tab header="<span class='fas fa-bell'></span> Notices">
-        <div></div>
+        <div>
+          <ul>
+            <li>Complete the graded exercise <code>Project Preparation: 2 KLoC</code></li>
+            <li>Achieve <code>Project Milestone v1.0</code></li>
+          </ul>
+        </div>
       </tab>
       <tab header="<span class='fas fa-trophy'></span> Topics">
         <div>
@@ -1548,10 +1553,11 @@ Invalid command format: add
             <ul>
               <li>Update the Developer Guide</li>
             </ul>
+            <p><strong>Use topic id as <mark>W5</mark> in your PR title. E.g., <code>[W5][M11-1]John Doe</code></strong></p>
             <div>
               <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1819S2/addressbook-level2">Addressbook-Level2</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
               <p>
-                <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" fragment="tutorial-pr-instructions"></panel>
+                <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
               </p>
             </div>
             <h4 id="team-component%3A">Team component:<a class="fa fa-anchor" href="#team-component%3A"></a></h4>
@@ -2392,7 +2398,7 @@ Invalid command format: add
               <p><strong>Suggested length</strong>: Follow the existing user guide and developer guides in terms of the level of details.</p>
               <p><mark>
                   <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> <strong>Submission</strong>
-                </mark>: Save your draft a single pdf file, name it <code>{Your Team ID}.pdf</code> <span class="dimmed">e.g., <code>W09-3.pdf</code></span> and upload to IVLE.</p>
+                </mark>: Save your draft as a single pdf file, name it <code>{Your Team ID}.pdf</code> <span class="dimmed">e.g., <code>M11-3.pdf</code></span> and upload to LumiNUS.</p>
               <h3 id="v1.0-project-management">v1.0 Project Management<a class="fa fa-anchor" href="#v1.0-project-management"></a></h3>
               <ul>
                 <li>
@@ -2414,55 +2420,23 @@ Invalid command format: add
               </ul>
               <p><mark>
                   <font color="red"><big><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span></big></font> <strong>Submission</strong>
-                </mark>: Include in the pdf file you upload to IVLE.</p>
+                </mark>: Include in the pdf file you upload to LumiNUS.</p>
             </div>
           </div>
         </div>
       </tab>
       <tab header="<span class='fas fa-chalkboard-teacher'></span> Tutorial">
         <div>
-          <p><strong>Suggested question to discuss:</strong></p>
-          <div>
-            <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Explain Class Diagram">
-              <question>
-                <p>Explain the associations, navigabilities, and multiplicities in the class diagram below:</p>
-                <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-                <p></p>
-              </question>
-            </panel>
-          </div>
-          <div>
-            <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Object Diagrams for Class Diagram">
-              <question>
-                <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p>
-                <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-                <p></p>
-                <p>Draw object diagrams to represent the object structures after each of these steps below. Assume that we are trying to minimize the number of total objects.</p>
-                <p>i.e. apply step 1 → [diagram 1] → apply step 2 on diagram 1 → [diagram 2] and so on.</p>
-                <ol>
-                  <li>
-                    <p>There are no persons.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> is the Guardian of <code>Bruce</code>.</p>
-                  </li>
-                  <li>
-                    <p><code>Bruce</code>'s contact number is the same as <code>Alfred</code>'s.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> is also the guardian of another person. That person lists <code>Alfred</code>s home address as his home address as well as office address.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> has a an office address at <code>Wayne Industries</code> building which is different from his home address (i.e. <code>Bat Cave</code>).</p>
-                  </li>
-                </ol>
-                <div slot="hint">
-                  <p>After step 2, the diagram should be like this:</p>
-                  <img src="/website/book/uml/classDiagrams/combine/basic/images/objectDiagramsForClassDiagramHint.png" width="600">
-                </div>
-              </question>
-            </panel>
-          </div>
+          <p><strong>Suggested tutorial activities</strong></p>
+          <h2 id="requirements-analysis">Requirements analysis<a class="fa fa-anchor" href="#requirements-analysis"></a></h2>
+          <ul>
+            <li>As a team, discuss user stores, use cases and non-functional requirements for your project.</li>
+            <li>Present to your tutor and the other team some key user stories and use cases.</li>
+          </ul>
+          <h2 id="practice-github-pr-workflow">Practice GitHub PR workflow<a class="fa fa-anchor" href="#practice-github-pr-workflow"></a></h2>
+          <ul>
+            <li>Follow instructions from your tutor to complete this exercise.</li>
+          </ul>
         </div>
       </tab>
       <tab header="<span class='fas fa-info-circle'></span> Admin Info">
@@ -2535,7 +2509,7 @@ Invalid command format: add
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Sat, 02 Feb 2019 11:46:57 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Sat, 09 Feb 2019 09:49:31 GMT</small></div>
 </footer>
 </div>
 </body>

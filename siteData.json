@@ -2,18 +2,6 @@
   "pages": [
     {
       "headings": {
-        "accessing-superclass-members": "Accessing Superclass Members",
-        "subclass-constructors": "Subclass Constructors",
-        "access-modifiers-(simplified)": "Access Modifiers (simplified)",
-        "constructos": "Constructos",
-        "this-keyword": "this keyword",
-        "instance-methods": "Instance methods",
-        "week-3-%5Bjan-28%5D": "Week 3 [Jan 28]",
-        "project-preparation%3A-1-kloc": "Project Preparation: 1 KLoC",
-        "project-milestone%3A-inception": "Project Milestone: Inception",
-        "simple-java-exercises": "Simple Java exercises",
-        "team-forming": "Team forming",
-        "tutorial-activity": "Tutorial activity",
         "week-4-%5Bfeb-4%5D": "Week 4 [Feb 4]",
         "project-milestone%3A-mid-v1.0": "Project Milestone: mid-v1.0",
         "suggested-exercises": "Suggested exercises",
@@ -29,7 +17,16 @@
         "requirements-analysis": "Requirements analysis",
         "%5Bw4.2b%5D-non-functional-requirements": "[W4.2b] Non-functional requirements",
         "%5Bw4.4a%5D-user-stories": "[W4.4a] User stories",
-        "%5Bw4.4d%5D-use-cases": "[W4.4d] Use cases"
+        "%5Bw4.4d%5D-use-cases": "[W4.4d] Use cases",
+        "week-5-%5Bfeb-11%5D": "Week 5 [Feb 11]",
+        "project-preparation%3A-2-kloc": "Project Preparation: 2 KLoC",
+        "individual-component%3A": "Individual component:",
+        "team-component%3A": "Team component:",
+        "project-milestone%3A-v1.0": "Project Milestone: v1.0",
+        "v1.0-documentation": "v1.0 Documentation",
+        "v1.0-project-management": "v1.0 Project Management",
+        "requirements-analysis-2": "Requirements analysis",
+        "practice-github-pr-workflow": "Practice GitHub PR workflow"
       },
       "title": "Home",
       "footer": "footer.md",

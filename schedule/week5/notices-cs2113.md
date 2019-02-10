@@ -1,0 +1,2 @@
+- Complete the graded exercise `Project Preparation: 2 KLoC`
+- Achieve `Project Milestone v1.0`

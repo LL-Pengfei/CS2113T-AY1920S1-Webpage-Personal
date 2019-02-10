@@ -1,0 +1,121 @@
+2019-02-10T22:27:03.863Z - info: Website generation started at 6:27:01 AM
+2019-02-10T22:27:06.359Z - info: Building assets...
+2019-02-10T22:27:08.746Z - info: Assets built
+2019-02-10T22:27:08.748Z - info: Generating pages...
+2019-02-10T22:27:21.721Z - error:  Error: No such segment 'projectGrading-codeQuality-criteria' in file: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-assessment.md
+Missing reference in D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w12-mid-v14.md
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:228:25)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+2019-02-10T22:27:26.248Z - error:  Error: No such segment 'projectGrading-codeQuality-criteria' in file: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-assessment.md
+Missing reference in D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w12-mid-v14.md
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:228:25)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+2019-02-10T22:27:26.319Z - error:  Error: No such segment 'projectGrading-codeQuality-criteria' in file: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-assessment.md
+Missing reference in D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w12-mid-v14.md
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:228:25)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:284:43)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:269:43)
+2019-02-10T22:30:00.809Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:254:19)
+    at Object.$.not.each.each (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:291:16)
+    at initialize.exports.each (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:264:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:234:8)
+    at pages.forEach (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:627:16)
+    at Array.forEach (<anonymous>)
+    at Promise.all.then (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:626:20)
+    at tryCatcher (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:694:18)
+2019-02-10T22:30:02.174Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:254:19)
+    at Object.$.not.each.each (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:291:16)
+    at initialize.exports.each (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:264:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:234:8)
+    at pages.forEach (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:627:16)
+    at Array.forEach (<anonymous>)
+    at Promise.all.then (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:626:20)
+    at tryCatcher (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:694:18)
+2019-02-10T22:30:02.175Z - info: Generate Site durationMs=180229
+2019-02-10T22:30:02.176Z - error: Cannot read property 'parent' of null
+2019-02-10T22:48:49.709Z - info: Website generation started at 6:48:49 AM
+2019-02-10T22:48:51.753Z - info: Building assets...
+2019-02-10T22:48:54.291Z - info: Assets built
+2019-02-10T22:48:54.292Z - info: Generating pages...
+2019-02-10T22:52:43.779Z - info: Pages built
+2019-02-10T22:52:43.951Z - info: Site data built
+2019-02-10T22:52:43.952Z - info: Website generation complete! Total build time: 234.259s
+2019-02-10T22:52:44.001Z - info: Generate Site durationMs=234308
+2019-02-10T22:52:44.060Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-02-10T22:52:44.060Z - info: Press CTRL+C to stop ...
+2019-02-10T23:01:28.311Z - info: [7:01:28 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:01:29.322Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:01:29.335Z - info: Rebuilding 7 pages
+2019-02-10T23:01:54.351Z - info: Pages rebuilt
+2019-02-10T23:01:54.369Z - info: Site data built
+2019-02-10T23:03:26.338Z - info: [7:03:26 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:03:27.349Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:03:27.361Z - info: Rebuilding 7 pages
+2019-02-10T23:03:45.960Z - info: Pages rebuilt
+2019-02-10T23:03:45.980Z - info: Site data built
+2019-02-10T23:04:33.601Z - info: [7:04:33 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:04:34.606Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\admin\project-w06-mid-v11.md
+2019-02-10T23:04:34.614Z - info: Rebuilding 7 pages
+2019-02-10T23:04:51.430Z - info: Pages rebuilt
+2019-02-10T23:04:51.457Z - info: Site data built
+2019-02-10T23:08:01.581Z - info: Website generation started at 7:07:59 AM
+2019-02-10T23:08:03.066Z - info: Building assets...

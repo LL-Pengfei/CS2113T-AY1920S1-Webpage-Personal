@@ -41,7 +41,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 
 * **Developer Guide**:
   * ==Each member should describe the implementation of at least one enhancement she has added== (or planning to add). <br>
-    Expected length: 1+ page per person
+    Expected length: 1+ page of technical content per person
   * The description can contain things such as,
     * How the feature is implemented.
     * Why it is implemented that way.

@@ -54,6 +54,8 @@ Do an enhancement to [[AddressBook - Level1]({{module_org}}/addressbook-level1)]
 Optional but encouraged:
 * Update the Developer Guide
 
+**Use topic id as ==W5== in your PR title. E.g., `[W5][M11-1]John Doe`**
+
 <include src="project.md#PR_to_AB2" />
 
 #### Team component:

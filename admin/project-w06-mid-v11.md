@@ -93,7 +93,7 @@ When updating code in the repo, follow the workflow explained below:
 
   **Objective**: To familiarize yourself with at least one <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> of the product.
 
-  **Description**: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the [AddressBook-Level4 developer guide](https://nus-{{ module | lower }}-{{ semester }}.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component).
+  **Description**: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the [AddressBook-Level4 developer guide](https://nus{{ module | lower }}-{{ semester }}.github.io/addressbook-level4/DeveloperGuide.html#GetStartedProgramming-EachComponent).
 
   **Submission**: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.
 

@@ -86,16 +86,16 @@ How AB-3 differs from AB-2:
 
 **Submission**: Create a PR against [Addressbook-Level2]({{module_org}}/addressbook-level2).  ==Try to make a _clean_ PR== (i.e. free of unrelated code modifications).
 
-<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
+<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" />
 
 </div>
 
 
 <div id="PR_to_AB3">
 
-**Submission**: Create a PR against [Addressbook-Level3]({{module_org}}/addressbook-level3).  ==Remember to use team ID== (e.g. _W09-2_) in your PR name. 
+**Submission**: Create a PR against [Addressbook-Level3]({{module_org}}/addressbook-level3).  ==Remember to use team ID== (e.g. _M11-2_) in your PR name. 
 
-<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
+<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" />
 
 </div>
 

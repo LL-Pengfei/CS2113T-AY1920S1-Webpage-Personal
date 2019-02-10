@@ -52,7 +52,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 
 **Suggested length**: Follow the existing user guide and developer guides in terms of the level of details.
 
-=={{ icon_important_big_red }} **Submission**==: Save your draft a single pdf file, name it `{Your Team ID}.pdf` %%e.g., `W09-3.pdf`%% and upload to IVLE.
+=={{ icon_important_big_red }} **Submission**==: Save your draft as a single pdf file, name it `{Your Team ID}.pdf` %%e.g., `M11-3.pdf`%% and upload to LumiNUS.
 
 ### v1.0 Project Management
 
@@ -70,7 +70,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
   ```
 
 
-=={{ icon_important_big_red }} **Submission**==: Include in the pdf file you upload to IVLE.
+=={{ icon_important_big_red }} **Submission**==: Include in the pdf file you upload to LumiNUS.
 
 </div>
 </div>

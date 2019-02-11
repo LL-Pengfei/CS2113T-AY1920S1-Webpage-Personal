@@ -1,0 +1,74 @@
+2019-02-11T16:06:38.676Z - info: [12:06:38 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:39.686Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:39.697Z - info: Rebuilding 2 pages
+2019-02-11T16:06:43.746Z - info: [12:06:43 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:47.257Z - info: Pages rebuilt
+2019-02-11T16:06:47.273Z - info: Site data built
+2019-02-11T16:06:47.343Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:47.347Z - info: Rebuilding 2 pages
+2019-02-11T16:06:54.324Z - info: Pages rebuilt
+2019-02-11T16:06:54.349Z - info: Site data built
+2019-02-11T16:06:57.494Z - info: [12:06:57 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:58.496Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\index.md
+2019-02-11T16:06:58.507Z - info: Rebuilding 2 pages
+2019-02-11T16:07:06.566Z - info: Pages rebuilt
+2019-02-11T16:07:06.578Z - info: Site data built
+2019-02-11T16:07:56.801Z - info: Website generation started at 12:07:55 AM
+2019-02-11T16:07:58.794Z - info: Building assets...
+2019-02-11T16:08:00.181Z - info: Assets built
+2019-02-11T16:08:00.183Z - info: Generating pages...
+2019-02-11T16:10:16.406Z - info: Pages built
+2019-02-11T16:10:16.469Z - info: Site data built
+2019-02-11T16:10:16.470Z - info: Website generation complete! Total build time: 141.462s
+2019-02-11T16:10:16.513Z - info: Generate Site durationMs=141505
+2019-02-11T16:10:16.534Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-02-11T16:10:16.536Z - info: Press CTRL+C to stop ...
+2019-02-11T16:11:00.848Z - info: [12:11:00 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:11:01.852Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:11:01.863Z - info: Rebuilding 3 pages
+2019-02-11T16:11:09.156Z - info: Pages rebuilt
+2019-02-11T16:11:09.169Z - info: Site data built
+2019-02-11T16:12:08.383Z - info: [12:12:08 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:12:09.387Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:12:09.392Z - info: Rebuilding 3 pages
+2019-02-11T16:12:16.671Z - info: Pages rebuilt
+2019-02-11T16:12:16.703Z - info: Site data built
+2019-02-11T16:13:21.653Z - info: [12:13:21 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:13:22.655Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:13:22.663Z - info: Rebuilding 3 pages
+2019-02-11T16:13:29.201Z - info: Pages rebuilt
+2019-02-11T16:13:29.238Z - info: Site data built
+2019-02-11T16:17:40.225Z - info: [12:17:40 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\se-book-adapted\config.njk
+2019-02-11T16:17:41.265Z - info: Assets built
+2019-02-11T16:17:51.748Z - info: Website generation started at 12:17:50 AM
+2019-02-11T16:17:53.124Z - info: Building assets...
+2019-02-11T16:17:54.512Z - info: Assets built
+2019-02-11T16:17:54.516Z - info: Generating pages...
+2019-02-11T16:20:44.253Z - info: Pages built
+2019-02-11T16:20:44.303Z - info: Site data built
+2019-02-11T16:20:44.304Z - info: Website generation complete! Total build time: 173.998s
+2019-02-11T16:20:44.350Z - info: Generate Site durationMs=174044
+2019-02-11T16:20:44.373Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-02-11T16:20:44.379Z - info: Press CTRL+C to stop ...
+2019-02-11T16:24:25.803Z - info: [12:24:25 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:24:26.809Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\notices-cs2113.md
+2019-02-11T16:24:26.813Z - info: Rebuilding 3 pages
+2019-02-11T16:24:36.747Z - info: Pages rebuilt
+2019-02-11T16:24:36.779Z - info: Site data built
+2019-02-11T16:27:48.026Z - info: [12:27:48 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\tutorial-cs2113.md
+2019-02-11T16:27:48.037Z - info: [12:27:48 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week7\tutorial-cs2113.md
+2019-02-11T16:27:49.033Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week6\tutorial-cs2113.md,D:\Teaching\CS2113\AY1819Sem2\website\schedule\week7\tutorial-cs2113.md
+2019-02-11T16:27:49.044Z - info: Rebuilding 4 pages
+2019-02-11T16:28:00.449Z - info: Pages rebuilt
+2019-02-11T16:28:00.475Z - info: Site data built
+2019-02-11T16:32:49.034Z - info: Website generation started at 12:32:46 AM
+2019-02-11T16:32:50.736Z - info: Building assets...
+2019-02-11T16:32:52.293Z - info: Assets built
+2019-02-11T16:32:52.295Z - info: Generating pages...
+2019-02-11T16:34:57.551Z - info: Pages built
+2019-02-11T16:34:57.585Z - info: Site data built
+2019-02-11T16:34:57.586Z - info: Website generation complete! Total build time: 130.667s
+2019-02-11T16:34:57.587Z - info: Build success!
+2019-02-11T16:34:57.587Z - info: Generate Site durationMs=130668
+2019-02-11T16:36:01.257Z - info: Website generation started at 12:35:59 AM
+2019-02-11T16:36:03.756Z - info: Building assets...

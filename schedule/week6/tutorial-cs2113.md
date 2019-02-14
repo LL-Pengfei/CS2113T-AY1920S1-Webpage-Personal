@@ -9,3 +9,4 @@
 
 <include src="../../book/modeling/modelingStructures/classDiagramsIntermediate/q-drawClassDiagramForItemEtc.md" />
 
+<include src="../../book/combined/exercises/reviewCliAppCode.md" /><p/>

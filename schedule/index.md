@@ -237,7 +237,7 @@ head: scheduleHead.md
     {heading: "Design: Models"},
       {location: ["modeling", "introduction", "what"], omit_evidence: true},
       {location: ["modeling", "introduction", "how"]},
-    {heading: "Class/Ojbect Diagrams: Basics"},
+    {heading: "UML: Class/Ojbect Diagrams - Basics"},
       {location: ["modeling", "modelingStructures", "ooStructures"], omit_evidence: true},
       {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
       {location: ["modeling", "modelingStructures", "objectDiagrams"]},

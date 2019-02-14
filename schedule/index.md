@@ -248,6 +248,8 @@ head: scheduleHead.md
       {location: ["uml", "classDiagrams", "associationsAsAttributes", "what"], omit_evidence: true},
       {location: ["modeling", "modelingStructures", "classDiagramsIntermediate"], omit_evidence: true},
 {week: "7"},
+  {name: "Requirements"},
+    {heading: "Product design guidelines", priority: "3", file: "project.md#product_design"},
   {name: "Design"},
     {heading: "Architecture"},
       {subheading: "Architectural Styles"},

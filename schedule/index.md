@@ -242,7 +242,7 @@ head: scheduleHead.md
       {location: ["modeling", "modelingStructures", "classDiagramsBasic"]},
       {location: ["modeling", "modelingStructures", "objectDiagrams"]},
       {location: ["uml", "miscellaneous", "objectVsClassDiagrams"], omit_evidence: true},
-    {heading: "Class Diagrams: Intermediate-Level"},
+    {heading: "UML: Class Diagrams - Intermediate"},
       {location: ["uml", "notes", "notes"], omit_evidence: true},
       {location: ["uml", "notes", "constraints"], omit_evidence: true},
       {location: ["uml", "classDiagrams", "associationsAsAttributes", "what"], omit_evidence: true},

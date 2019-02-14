@@ -7,5 +7,3 @@
 <include src="../../book/modeling/modelingBehaviors/sequenceDiagramsBasic/q-essay-drawSequenceDiagramForPerson.md" />
 <include src="../../book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/q-essay-expainParserFactory.md" />
 <include src="../../book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/q-drawPrintQuoteSd.md" />
-<include src="../../book/combined/exercises/reviewCliAppCode.md" /><p/>
-

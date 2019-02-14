@@ -72,7 +72,13 @@ The team component is ==to be done by all members==, including those who didn't 
 
 <div id="3kloc">
 
-==[Optional, but recommended]== If you are not comfortable jumping from AB-2 (~2KLoc) straight to AB-4 (~10KLoc), we recommend that you play around with [[AddressBook - Level3]({{module_org}}/addressbook-level3)] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.
+To get up to speed working with AB-4 (~10KLoc), we recommend that you play around with [[AddressBook - Level3]({{module_org}}/addressbook-level3)] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.
+
+**Suggested exercise**
+
+* add a new command to AB-3 or enhance an existing feature in AB-3
+* update the User Guide to reflect your enhancement
+* add new Unit tests for your enhancement and update existing tests if necessary
 
 How AB-3 differs from AB-2:
 * A simple GUI has been added to replace the Text UI.

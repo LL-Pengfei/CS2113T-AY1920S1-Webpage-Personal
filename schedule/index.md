@@ -23,7 +23,7 @@ head: scheduleHead.md
 ] %}
 
 
-{% set current_weeks = ["4", "5"] %}
+{% set current_weeks = ["6", "7"] %}
 
 
 {% set all_outcomes = [

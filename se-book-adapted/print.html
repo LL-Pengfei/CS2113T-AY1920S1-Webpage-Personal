@@ -3092,29 +3092,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
           </div>
         </div>
       </div>
-      <div class="indented-less">
-        <h4 id="object-oriented-domain-models">Object Oriented Domain Models <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#object-oriented-domain-models"></a></h4>
-        <div class="indented-less">
-          <div>
-            <blockquote>
-              <p>The analysis process for identifying objects and object classes is recognized as one of the most difficult areas of object-oriented development. <sub>--<a href="http://www.software-engin.com/">Ian Sommerville, in the book <em>Software Engineering</em></a></sub></p>
-            </blockquote>
-            <p>Class diagrams can also be used to model objects in the <tooltip content="the relevant information that needs to be examined to understand a problem">problem domain</tooltip> (i.e. to model how objects actually interact in the real world, before emulating them in the solution). <strong>Class diagrams are used to model the problem domain are called <em>conceptual class diagrams</em> or <em>OO domain models (OODMs)</em>.</strong></p>
-            <tip-box>
-              <p><span class="fas fa-cube"></span> OO domain model of a snakes and ladders game is given below.</p>
-              <p>Description: Snakes and ladders game is played by two or more players using a board and a die. The board has 100 squares marked 1 to 100. Each player owns one piece. Players take turns to throw the die and advance their piece by the number of squares they earned from the die throw. The board has a number of snakes. If a player’s piece lands on a square with a snake head, the piece is automatically moved to the square containing the snake’s tail. Similarly, a piece can automatically move from a ladder foot to the ladder top. The player whose piece is the first to reach the 100th square wins.</p>
-              <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/diagram.png" height="420">
-              <p></p>
-              <p>The above OO domain model omits the ladder class for simplicity. It can be included in a similar fashion to the Snake class.</p>
-            </tip-box>
-            <p><strong>OODMs do not contain solution-specific classes</strong> (i.e. classes that are used in the solution domain but do not exist in the problem domain). For example, a class called DatabaseConnection could appear in a class diagram but not usually in an OO domain model because DatabaseConnection is something related to a software solution but not an entity in the problem domain.</p>
-            <p><strong>OODMs represents the class <em>structure</em> of the problem domain</strong> and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.</p>
-            <p><strong>OODM notation is similar to class diagram notation but typically omit methods and navigability.</strong></p>
-          </div>
-        </div>
-      </div>
     </div>
     <p>
       <div>
@@ -3514,21 +3491,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
           <h3 id="transaction-processing-architectural-style"><span>Transaction Processing Architectural Style</span><a class="fa fa-anchor" href="#transaction-processing-architectural-style"></a></h3>
         </div>
       </p>
-      <div class="indented-less">
-        <h4 id="what-20">What <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-20"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p><strong>The <em>transaction processing</em> style divides the workload of the system down to a number of <em>transactions</em> which are then given to a <em>dispatcher</em> that controls the execution of each transaction.</strong> Task queuing, ordering, undo etc. are handled by the dispatcher.</p>
-            <img src="/website/book/architecture/architecturalStyles/transactionProcessing/what/images/transactionProcessing.png" height="120">
-            <tip-box>
-              <p><span class="fas fa-cube"></span> In this example from a Banking system, transactions are generated by the terminals used by <tooltip content="employees of a bank who deals directly with customers">tellers</tooltip> which are then sent to a central dispatching unit which in turn dispatches the transactions to various other units to execute.</p>
-              <img src="/website/book/architecture/architecturalStyles/transactionProcessing/what/images/transactionProcessingExamples.png" height="120">
-            </tip-box>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="indented-less">
       <p>
@@ -3536,21 +3498,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
           <h3 id="service-oriented-architectural-style"><span>Service-oriented Architectural Style</span><a class="fa fa-anchor" href="#service-oriented-architectural-style"></a></h3>
         </div>
       </p>
-      <div class="indented-less">
-        <h4 id="what-21">What <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-21"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p><strong>The <em>service-oriented architecture</em> (SOA) style builds applications by combining functionalities packaged as <em>programmatically accessible services</em></strong>. SOA aims to achieve interoperability between distributed services, which may not even be implemented using the same programming language. A common way to implement SOA is through the use of <em>XML web services</em> where the web is used as the medium for the services to interact, and XML is used as the language of communication between service providers and service users.</p>
-            <tip-box>
-              <p><span class="fas fa-cube"></span> Suppose that <a href="http://Amazon.com">Amazon.com</a> provides a web service for customers to browse and buy merchandise, while HSBC provides a web service for merchants to charge HSBC credit cards. Using these web services, an ‘eBookShop’ web application can be developed that allows HSBC customers to buy merchandise from Amazon and pay for them using HSBC credit cards. Because both Amazon and HSBC services follow the SOA architecture, their web services can be reused by the web application, even if all three systems use different programming platforms.</p>
-              <img src="/website/book/architecture/architecturalStyles/serviceOriented/what/images/amazonWebServices.png" height="280">
-              <p></p>
-            </tip-box>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="indented-less">
       <p>
@@ -3559,9 +3506,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-22">What <span class="badge badge-light"><small><small>
+        <h4 id="what-20">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-22"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-20"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Event-driven</em> style controls the flow of the application by detecting <tooltip content="An event is a notable occurrence that happens inside or outside the software, such as the user clicking a button, a timer running out, minimizing a window, etc.">events</tooltip> from event <em>emitters</em> and communicating those events to interested event <em>consumers</em> .</strong> This architectural style is often used in GUIs.</p>
@@ -3607,9 +3554,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-23">What <span class="badge badge-light"><small><small>
+        <h4 id="what-21">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-23"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-21"></a></h4>
         <div class="indented-less">
           <div>
             <tip-box type="definition">
@@ -3671,9 +3618,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-24">What <span class="badge badge-light"><small><small>
+        <h4 id="what-22">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-24"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-22"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Context</strong></p>
@@ -3757,9 +3704,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-25">What <span class="badge badge-light"><small><small>
+        <h4 id="what-23">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-25"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-23"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Context</strong></p>
@@ -3789,9 +3736,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-26">What <span class="badge badge-light"><small><small>
+        <h4 id="what-24">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-26"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-24"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Context</strong></p>
@@ -3821,9 +3768,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-27">What <span class="badge badge-light"><small><small>
+        <h4 id="what-25">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-27"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-25"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Context</strong></p>
@@ -3859,9 +3806,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-28">What <span class="badge badge-light"><small><small>
+        <h4 id="what-26">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-28"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-26"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Context</strong></p>
@@ -3964,9 +3911,9 @@ studentList.addUi(statusUi);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-29">What <span class="badge badge-light"><small><small>
+        <h4 id="what-27">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-29"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-27"></a></h4>
         <div class="indented-less">
           <div>
             <p>In a smaller system, design of the entire system can be shown in one place.</p>
@@ -4015,9 +3962,9 @@ studentList.addUi(statusUi);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-30">What <span class="badge badge-light"><small><small>
+        <h4 id="what-28">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-30"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-28"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Multi-level design can be done in a top-down manner, bottom-up manner, or as a mix.</strong></p>
@@ -4037,9 +3984,9 @@ studentList.addUi(statusUi);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-31">What <span class="badge badge-light"><small><small>
+        <h4 id="what-29">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-31"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-29"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Agile design</em> can be contrasted with <em>full upfront design</em> in the following way</strong>:</p>
@@ -4064,9 +4011,9 @@ studentList.addUi(statusUi);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-32">What <span class="badge badge-light"><small><small>
+        <h4 id="what-30">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-32"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-30"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support all development-related work within the same tool.</strong></p>
@@ -4097,9 +4044,9 @@ studentList.addUi(statusUi);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-33">What <span class="badge badge-light"><small><small>
+        <h4 id="what-31">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-33"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-31"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Debugging</em> is the process of discovering defects in the program.</strong> Here are some approaches to debugging:</p>
@@ -5337,9 +5284,9 @@ compact(input);
     </div>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-34">What <span class="badge badge-light"><small><small>
+        <h4 id="what-32">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-34"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-32"></a></h4>
         <div class="indented-less">
           <div>
             <p>The first version of the code you write may not be of production quality. It is OK to first concentrate on making the code work, rather than worry over the quality of the code, as long as you improve the quality later. This process of <strong>improving a program's internal structure in small steps without modifying its external behavior is called <em>refactoring</em>.</strong></p>
@@ -5529,9 +5476,9 @@ send()
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-35">What <span class="badge badge-light"><small><small>
+        <h4 id="what-33">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-35"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-33"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Developer-to-developer documentation can be in one of two forms:</strong></p>
@@ -5581,9 +5528,9 @@ send()
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-36">What <span class="badge badge-light"><small><small>
+        <h4 id="what-34">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-36"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-34"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>When writing project documents, a top-down breadth-first explanation is easier to understand than a bottom-up one.</strong></p>
@@ -5646,9 +5593,9 @@ send()
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-37">What <span class="badge badge-light"><small><small>
+        <h4 id="what-35">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-37"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-35"></a></h4>
         <div class="indented-less">
           <div>
             <p>Technical documents exist to help others understand technical details. Therefore, <strong>it is not enough for the documentation to be accurate and comprehensive, it should also be comprehensible too</strong>.</p>
@@ -5680,9 +5627,9 @@ send()
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-38">What <span class="badge badge-light"><small><small>
+        <h4 id="what-36">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-38"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-36"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Aim for 'just enough' developer documentation.</strong></p>
@@ -5717,9 +5664,9 @@ send()
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-39">What <span class="badge badge-light"><small><small>
+        <h4 id="what-37">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-39"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-37"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Javadoc is a tool for generating API documentation in HTML format from doc comments in source.</strong> In addition, modern IDEs use JavaDoc comments to generate explanatory tool tips.</p>
@@ -5806,9 +5753,9 @@ send()
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-40">What <span class="badge badge-light"><small><small>
+        <h4 id="what-38">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-40"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-38"></a></h4>
         <div class="indented-less">
           <div>
             <p>AsciiDoc is similar to Markdown but has more powerful (but also more complex) syntax.</p>
@@ -5914,9 +5861,9 @@ send()
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-41">What <span class="badge badge-light"><small><small>
+        <h4 id="what-39">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-41"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-39"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Assertions</em> are used to define assumptions about the program state so that the runtime can verify them.</strong> An assertion failure indicates a possible bug in the code <span class="dimmed">because the code has resulted in a program state that violates an assumption about how the code <em>should</em> behave</span>.</p>
@@ -5990,9 +5937,9 @@ send()
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-42">What <span class="badge badge-light"><small><small>
+        <h4 id="what-40">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-42"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-40"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Logging</em> is the deliberate recording of certain information during a program execution for future reference.</strong> Logs are typically written to a log file but it is also possible to log information in other ways <span class="dimmed"> e.g. into a database or a remote server</span>.</p>
@@ -6048,9 +5995,9 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-43">What <span class="badge badge-light"><small><small>
+        <h4 id="what-41">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-43"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-41"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>A defensive programmer codes under the assumption &quot;if we leave room for things to go wrong, they <em>will</em> go wrong&quot;.</strong> Therefore, a defensive programmer proactively tries to eliminate any room for things to go wrong.</p>
@@ -6153,9 +6100,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-44">What <span class="badge badge-light"><small><small>
+        <h4 id="what-42">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-44"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-42"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Combining parts of a software product to form a whole is called <em>integration</em></strong>. It is also one of the most troublesome tasks and it rarely goes smoothly.</p>
@@ -6219,9 +6166,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-45">What <span class="badge badge-light"><small><small>
+        <h4 id="what-43">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-45"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-43"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Build automation tools automate the steps of the build process, usually by means of build scripts.</strong></p>
@@ -6279,9 +6226,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-46">What <span class="badge badge-light"><small><small>
+        <h4 id="what-44">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-46"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-44"></a></h4>
         <div class="indented-less">
           <div>
             <p>Reuse is a major theme in software engineering practices. <strong>By reusing tried-and-tested components, the robustness of a new software system can be enhanced while reducing the manpower and time requirement.</strong> Reusable components come in many forms; it can be reusing a piece of code, a subsystem, or a whole software.</p>
@@ -6314,9 +6261,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-47">What <span class="badge badge-light"><small><small>
+        <h4 id="what-45">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-47"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-45"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>An <em>Application Programming Interface (API)</em> specifies the interface through which other programs can interact with a software component.</strong> It is a contract between the component and its clients.</p>
@@ -6336,9 +6283,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-48">What <span class="badge badge-light"><small><small>
+        <h4 id="what-46">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-48"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-46"></a></h4>
         <div class="indented-less">
           <div>
             <p>A library is a collection of modular code that is general and can be used by other programs.</p>
@@ -6379,9 +6326,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-49">What <span class="badge badge-light"><small><small>
+        <h4 id="what-47">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-49"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-47"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>The overall structure and execution flow of a specific category of software systems can be very similar. The similarity is an opportunity to reuse at a high scale.</strong></p>
@@ -6446,9 +6393,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-50">What <span class="badge badge-light"><small><small>
+        <h4 id="what-48">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-50"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-48"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>A <em>platform</em> provides a runtime environment for applications.</strong> A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</p>
@@ -6485,9 +6432,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-51">What <span class="badge badge-light"><small><small>
+        <h4 id="what-49">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-51"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-49"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Software <em>Quality Assurance</em> (QA) is the process of ensuring that the software being built has the required levels of quality.</strong></p>
@@ -6519,9 +6466,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-52">What <span class="badge badge-light"><small><small>
+        <h4 id="what-50">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-52"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-50"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Code review is the systematic examination code with the intention of finding where the code can be improved.</strong></p>
@@ -6591,9 +6538,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-53">What <span class="badge badge-light"><small><small>
+        <h4 id="what-51">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-53"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-51"></a></h4>
         <div class="indented-less">
           <div>
             <tip-box type="definition">
@@ -6623,9 +6570,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-54">What <span class="badge badge-light"><small><small>
+        <h4 id="what-52">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-54"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-52"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Formal verification uses mathematical techniques to prove the correctness of a program.</strong></p>
@@ -6661,9 +6608,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-55">What <span class="badge badge-light"><small><small>
+        <h4 id="what-53">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-55"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-53"></a></h4>
         <div class="indented-less">
           <div>
             <tip-box type="definition">
@@ -6745,9 +6692,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-56">What <span class="badge badge-light"><small><small>
+        <h4 id="what-54">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-56"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-54"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
@@ -6908,9 +6855,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-57">What <span class="badge badge-light"><small><small>
+        <h4 id="what-55">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-57"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-55"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Integration testing</em> : testing whether different parts of the software <em>work together</em> (i.e. integrates) as expected.</strong> Integration tests aim to discover bugs in the 'glue code' related to how components interact with each other. These bugs are often the result of misunderstanding of what the parts are supposed to do vs what the parts are actually doing.</p>
@@ -6952,9 +6899,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-58">What <span class="badge badge-light"><small><small>
+        <h4 id="what-56">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-58"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-56"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
@@ -6988,9 +6935,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-59">What <span class="badge badge-light"><small><small>
+        <h4 id="what-57">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-59"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-57"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Alpha testing</em> is performed by the users, under controlled conditions set by the software development team.</strong></p>
@@ -7007,9 +6954,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-60">What <span class="badge badge-light"><small><small>
+        <h4 id="what-58">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-60"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-58"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Eating your own dog food</em> (aka dogfooding), is a creators of a product use their own product to test the product.</strong></p>
@@ -7024,9 +6971,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-61">What <span class="badge badge-light"><small><small>
+        <h4 id="what-59">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-61"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-59"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Developer testing</em> is the testing done by the developers themselves</strong> as opposed to professional testers or end-users.</p>
@@ -7064,9 +7011,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-62">What <span class="badge badge-light"><small><small>
+        <h4 id="what-60">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-62"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-60"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Here are two alternative approaches to testing a software: <em>Scripted</em> testing and <em>Exploratory</em> testing</strong></p>
@@ -7127,9 +7074,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-63">What <span class="badge badge-light"><small><small>
+        <h4 id="what-61">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-63"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-61"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
@@ -7219,9 +7166,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-64">What <span class="badge badge-light"><small><small>
+        <h4 id="what-62">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-64"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-62"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>When we modify a system, the modification may result in some unintended and undesirable effects on the system. Such an effect is called a <em>regression</em>.</strong></p>
@@ -7238,9 +7185,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-65">What <span class="badge badge-light"><small><small>
+        <h4 id="what-63">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-65"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-63"></a></h4>
         <div class="indented-less">
           <div>
             <tabs>
@@ -7410,43 +7357,6 @@ Invalid command format: add
           </div>
         </div>
       </div>
-      <div class="indented-less">
-        <h4 id="automated-testing-of-guis">Automated Testing of GUIs <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#automated-testing-of-guis"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p>If a software product has a GUI component, all product-level testing (i.e. the types of testing mentioned above) need to be done using the GUI. However, <strong>testing the GUI is much harder than testing the CLI (command line interface) or API</strong>, for the following reasons:</p>
-            <ul>
-              <li>Most GUIs can support a large number of different operations, many of which can be performed in any arbitrary order.</li>
-              <li>GUI operations are more difficult to automate than API testing. Reliably automating GUI operations and automatically verifying whether the GUI behaves as expected is harder than calling an operation and comparing its return value with an expected value. Therefore, automated regression testing of GUIs is rather difficult.</li>
-              <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high resolution display or a low resolution display.</li>
-            </ul>
-            <img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
-            <p></p>
-            <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
-            <p><strong>There are testing tools that can automate GUI testing.</strong></p>
-            <tip-box>
-              <p><span class="fas fa-cube"></span> Some tools used for automated GUI testing:</p>
-              <ul>
-                <li>
-                  <p><strong>TestFx</strong> can do automated testing of JavaFX GUIs<br></p>
-                </li>
-                <li>
-                  <p><strong>VisualStudio</strong> supports ‘record replay’ type of GUI test automation.</p>
-                </li>
-                <li>
-                  <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                  <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of automated testing of a Web application" class="non-printable">
-                    <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
-                    <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
-                  </panel>
-                </li>
-              </ul>
-            </tip-box>
-          </div>
-        </div>
-      </div>
     </div>
     <p>
       <div>
@@ -7455,9 +7365,9 @@ Invalid command format: add
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-66">What <span class="badge badge-light"><small><small>
+        <h4 id="what-64">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-66"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-64"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Test coverage</em> is a metric used to measure the extent to which testing exercises the code</strong> i.e., how much of the code is 'covered' by the tests.</p>
@@ -7513,9 +7423,9 @@ Invalid command format: add
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-67">What <span class="badge badge-light"><small><small>
+        <h4 id="what-65">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-67"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-65"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the <tooltip content="Software Under Test">SUT</tooltip> from its <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
@@ -7663,9 +7573,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-68">What <span class="badge badge-light"><small><small>
+        <h4 id="what-66">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-68"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-66"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Except for trivial <tooltip content="Software Under Test">SUTs</tooltip>, <tooltip content="testing all possible cases">exhaustive testing</tooltip> is not practical</strong> because such testing often requires a massive/infinite number of test cases.</p>
@@ -7771,9 +7681,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-69">What <span class="badge badge-light"><small><small>
+        <h4 id="what-67">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-69"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-67"></a></h4>
         <div class="indented-less">
           <div>
             <p>Consider the testing of the following operation.</p>
@@ -7952,9 +7862,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-70">What <span class="badge badge-light"><small><small>
+        <h4 id="what-68">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-70"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-68"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong><em>Boundary Value Analysis (BVA)</em> is test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.</strong> This is not surprising, as the end points of the boundary are often used in branching instructions etc. where the programmer can make mistakes.</p>
@@ -9167,9 +9077,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-71">What <span class="badge badge-light"><small><small>
+        <h4 id="what-69">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-71"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-69"></a></h4>
         <div class="indented-less">
           <div>
             <tabs>
@@ -9642,9 +9552,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </p>
     <div class="indented-less">
       <div class="indented-less">
-        <h4 id="what-72">What <span class="badge badge-light"><small><small>
+        <h4 id="what-70">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-72"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-70"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>Software development goes through different stages such as <em>requirements, analysis, design, implementation</em> and <em>testing</em>. These stages are collectively known as the <em>software development life cycle</em> (SDLC).</strong> There are several approaches, known as <em>software development life cycle models</em> (also called <em>software process models</em>) that describe different ways to go through the SDLC. Each process model prescribes a &quot;roadmap&quot; for the software developers to manage the development effort. The roadmap describes the aims of the development stage(s), the artifacts or outcome of each stage as well as the workflow i.e. the relationship between stages.</p>
@@ -10166,9 +10076,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-73">What <span class="badge badge-light"><small><small>
+        <h4 id="what-71">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-73"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-71"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>UML <em>class diagrams</em> describe the structure (but not the behavior) of an OOP solution.</strong> These are possibly the most often used diagrams in the industry and an indispensable tool for an OO programmer.</p>
@@ -10187,9 +10097,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-74">What <span class="badge badge-light"><small><small>
+        <h4 id="what-72">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-74"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-72"></a></h4>
         <div class="indented-less">
           <div>
             <p>The basic UML notations used to represent a <em>class</em>:<br></p>
@@ -10306,9 +10216,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-75">What <span class="badge badge-light"><small><small>
+        <h4 id="what-73">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-75"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-73"></a></h4>
         <div class="indented-less">
           <div>
             <p>We use a solid line to show an association between two classes.</p>
@@ -10501,9 +10411,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-76">What <span class="badge badge-light"><small><small>
+        <h4 id="what-74">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-76"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-74"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>UML uses a dashed arrow to show dependencies.</strong></p>
@@ -10524,9 +10434,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-77">What <span class="badge badge-light"><small><small>
+        <h4 id="what-75">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-77"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-75"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>An association can be shown as an attribute instead of a line.</strong></p>
@@ -10552,9 +10462,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-78">What <span class="badge badge-light"><small><small>
+        <h4 id="what-76">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-78"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-76"></a></h4>
         <div class="indented-less">
           <div>
             <p>Notation:</p>
@@ -10575,9 +10485,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-79">What <span class="badge badge-light"><small><small>
+        <h4 id="what-77">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-79"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-77"></a></h4>
         <div class="indented-less">
           <div>
             <p>In UML class diagrams, <strong>underlines denote class-level attributes and variables.</strong></p>
@@ -10596,6 +10506,22 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
           <h3 id="association-classes"><span>Association Classes</span><a class="fa fa-anchor" href="#association-classes"></a></h3>
         </div>
       </p>
+      <div class="indented-less">
+        <h4 id="what-78">What <span class="badge badge-light"><small><small>
+                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+              </small></small></span><a class="fa fa-anchor" href="#what-78"></a></h4>
+        <div class="indented-less">
+          <div>
+            <p>Association classes are denoted as a connection to an association link using a dashed line as shown below.</p>
+            <img src="/website/book/uml/classDiagrams/associationClasses/what/images/notation.png" height="100">
+            <tip-box>
+              <p><span class="fas fa-cube"></span> In this example <code>Loan</code> is an association class because it stores information about the <code>borrows</code> association between the <code>User</code> and the <code>Book</code>.</p>
+              <img src="/website/book/uml/classDiagrams/associationClasses/what/images/bookLoan.png" height="150">
+              <p></p>
+            </tip-box>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="indented-less">
       <p>
@@ -10604,9 +10530,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-80">What <span class="badge badge-light"><small><small>
+        <h4 id="what-79">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-80"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-79"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>UML uses a solid diamond symbol to denote composition.</strong></p>
@@ -10629,9 +10555,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-81">What <span class="badge badge-light"><small><small>
+        <h4 id="what-80">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-81"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-80"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>UML uses a hollow diamond is used to indicate an aggregation.</strong></p>
@@ -10657,9 +10583,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-82">What <span class="badge badge-light"><small><small>
+        <h4 id="what-81">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-82"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-81"></a></h4>
         <div class="indented-less">
           <div>
             <p>You can use a triangle and a solid line (not to be confused with an arrow) to indicate class inheritance.</p>
@@ -10682,9 +10608,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-83">What <span class="badge badge-light"><small><small>
+        <h4 id="what-82">What <span class="badge badge-light"><small><small>
                 <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-83"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-82"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>An interface is shown similar to a class with an additional keyword <code>&lt;&lt; interface &gt;&gt;</code>. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.</strong></p>
@@ -10704,9 +10630,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-84">What <span class="badge badge-light"><small><small>
+        <h4 id="what-83">What <span class="badge badge-light"><small><small>
                 <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-84"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-83"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>You can use <em>italics</em> or <code>{abstract}</code> (preferred) keyword to denote abstract classes/methods.</strong></p>
@@ -10996,9 +10922,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
         </div>
       </p>
       <div class="indented-less">
-        <h4 id="what-85">What <span class="badge badge-light"><small><small>
+        <h4 id="what-84">What <span class="badge badge-light"><small><small>
                 <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-85"></a></h4>
+              </small></small></span><a class="fa fa-anchor" href="#what-84"></a></h4>
         <div class="indented-less">
           <div>
             <p><strong>
@@ -12322,7 +12248,7 @@ git pull origin master
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Thu, 14 Feb 2019 05:08:11 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Tue, 19 Feb 2019 15:02:58 GMT</small></div>
 </footer>
 </div>
 </body>

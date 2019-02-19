@@ -787,43 +787,6 @@ Invalid command format: add
           </div>
         </div>
       </div>
-      <div class="indented-less">
-        <h4 id="automated-testing-of-guis">Automated Testing of GUIs <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#automated-testing-of-guis"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p>If a software product has a GUI component, all product-level testing (i.e. the types of testing mentioned above) need to be done using the GUI. However, <strong>testing the GUI is much harder than testing the CLI (command line interface) or API</strong>, for the following reasons:</p>
-            <ul>
-              <li>Most GUIs can support a large number of different operations, many of which can be performed in any arbitrary order.</li>
-              <li>GUI operations are more difficult to automate than API testing. Reliably automating GUI operations and automatically verifying whether the GUI behaves as expected is harder than calling an operation and comparing its return value with an expected value. Therefore, automated regression testing of GUIs is rather difficult.</li>
-              <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high resolution display or a low resolution display.</li>
-            </ul>
-            <img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
-            <p></p>
-            <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
-            <p><strong>There are testing tools that can automate GUI testing.</strong></p>
-            <tip-box>
-              <p><span class="fas fa-cube"></span> Some tools used for automated GUI testing:</p>
-              <ul>
-                <li>
-                  <p><strong>TestFx</strong> can do automated testing of JavaFX GUIs<br></p>
-                </li>
-                <li>
-                  <p><strong>VisualStudio</strong> supports ‘record replay’ type of GUI test automation.</p>
-                </li>
-                <li>
-                  <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                  <panel type="seamless" header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span> demo video of automated testing of a Web application" class="non-printable">
-                    <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
-                    <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
-                  </panel>
-                </li>
-              </ul>
-            </tip-box>
-          </div>
-        </div>
-      </div>
     </div>
     <p>
       <div>
@@ -1032,7 +995,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Thu, 14 Feb 2019 05:08:11 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Tue, 19 Feb 2019 15:02:58 GMT</small></div>
 </footer>
 </div>
 </body>

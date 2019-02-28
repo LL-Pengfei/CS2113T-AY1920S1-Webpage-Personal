@@ -8,7 +8,6 @@
 1. How to measure coverage in Intellij?
 1. How do you ensure some clean up code is run after each JUnit test case?
 1. What’s the difference between _buffers_ and _padding/inflating_ estimates?
-
 **Q2**
 1. What is abstraction? How is it used in the project?
 1. What is coupling?

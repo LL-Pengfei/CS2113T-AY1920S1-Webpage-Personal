@@ -362,7 +362,7 @@ head: scheduleHead.md
         {location: ["principles", "yagniPrinciple"], omit_evidence: true},
         {location: ["principles", "dryPrinciple"], omit_evidence: true},
         {location: ["principles", "brooksLaw"], omit_evidence: true},
-    {heading: "Activity Diagrams"},
+    {heading: "UML: Activity Diagrams"},
         {location: ["modeling", "modelingBehaviors", "activityDiagrams"]},
         {location: ["modeling", "modelingBehaviors", "activityDiagramsIntermediate"], omit_evidence: true},
   {name: "Quality Assurance"},

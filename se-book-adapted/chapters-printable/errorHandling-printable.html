@@ -252,106 +252,13 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
         <h2 id="defensive-programming"><span>Defensive Programming</span><a class="fa fa-anchor" href="#defensive-programming"></a></h2>
       </div>
     </p>
-    <div class="indented-less">
-      <div class="indented-less">
-        <h4 id="what-3">What <span class="badge badge-light"><small><small>
-                <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#what-3"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p><strong>A defensive programmer codes under the assumption &quot;if we leave room for things to go wrong, they <em>will</em> go wrong&quot;.</strong> Therefore, a defensive programmer proactively tries to eliminate any room for things to go wrong.</p>
-            <tip-box>
-              <p><span class="fas fa-cube"></span> Consider a <code>MainApp#getConfig()</code> a method that returns a <code>Config</code> object containing configuration data. A typical implementation is given below:</p>
-              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainApp</span></span>{
-    Config config;
-    
-    <span class="hljs-comment">/** Returns the config object */</span>
-    <span class="hljs-function">Config <span class="hljs-title">getConfig</span><span class="hljs-params">()</span></span>{
-        <span class="hljs-keyword">return</span> config;
-    }
-}
-</code></pre>
-              <p>If the returned Config object is not meant to be modified, a defensive programmer might use a more <em>defensive</em> implementation given below. <span class="dimmed">  This is more defensive because even if the returned <code>Config</code> object is modified (although it is not meant to be) it will not affect the <code>config</code> object inside the <code>MainApp</code> object.</span></p>
-              <pre><code class="hljs java">    <span class="hljs-comment">/** Returns a copy of the config object */</span>
-    <span class="hljs-function">Config <span class="hljs-title">getConfig</span><span class="hljs-params">()</span></span>{
-        <span class="hljs-keyword">return</span> config.copy(); <span class="hljs-comment">//return a defensive copy</span>
-    }
-</code></pre>
-            </tip-box>
-          </div>
-        </div>
-      </div>
-      <div class="indented-less">
-        <h4 id="enforcing-compulsory-associations">Enforcing Compulsory Associations <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#enforcing-compulsory-associations"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p>Consider two classes, <code>Account</code> and <code>Guarantor</code>, with an association as shown in the following diagram:</p>
-            <tip-box>
-              <p>Example:</p>
-              <img src="/website/book/errorHandling/defensiveProgramming/compulsoryAssociations/images/accountGuarantor.png" height="50">
-              <p></p>
-              <p>Here, the association is compulsory i.e. an <code>Account</code> object should always be linked to a <code>Guarantor</code>. One way to implement this is to simply use a reference variable, like this:</p>
-              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
-    Guarantor guarantor;
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setGuarantor</span><span class="hljs-params">(Guarantor g)</span> </span>{
-        guarantor = g;
-    }
-}
-</code></pre>
-              <p>However, what if someone else used the <code>Account</code> class like this?</p>
-              <pre><code class="hljs java">Account a = <span class="hljs-keyword">new</span> Account();
-a.setGuarantor(<span class="hljs-keyword">null</span>);
-</code></pre>
-              <p>This results in an <code>Account</code> without a <code>Guarantor</code>! In a real banking system, this could have serious consequences! The code here did not try to prevent such a thing from happening. We can make the code more defensive by proactively enforcing the multiplicity constraint, like this:</p>
-              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
-    <span class="hljs-keyword">private</span> Guarantor guarantor;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Account</span><span class="hljs-params">(Guarantor g)</span></span>{
-        <span class="hljs-keyword">if</span> (g == <span class="hljs-keyword">null</span>) {
-            stopSystemWithMessage(<span class="hljs-string">"multiplicity violated. Null Guarantor"</span>);
-        }
-        guarantor = g;
-    }
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setGuarantor</span> <span class="hljs-params">(Guarantor g)</span></span>{
-        <span class="hljs-keyword">if</span> (g == <span class="hljs-keyword">null</span>) {
-            stopSystemWithMessage(<span class="hljs-string">"multiplicity violated. Null Guarantor"</span>);
-        }
-        guarantor = g;
-    }
-    …
-}
-</code></pre>
-            </tip-box>
-          </div>
-        </div>
-      </div>
-      <div class="indented-less">
-        <h4 id="when-2">When <span class="badge badge-light"><small><small>
-                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-              </small></small></span><a class="fa fa-anchor" href="#when-2"></a></h4>
-        <div class="indented-less">
-          <div>
-            <p><strong>It is not necessary to be 100% defensive all the time.</strong> While defensive code may be less prone to be misused or abused, such code can also be more complicated and slower to run.</p>
-            <p>The suitable degree of defensiveness depends on many factors such as:</p>
-            <ul>
-              <li>How critical is the system?</li>
-              <li>Will the code be used by programmers other than the author?</li>
-              <li>The level of programming language support for defensive programming</li>
-              <li>The overhead of being defensive</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="indented-less"></div>
   </div>
 </div>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Wed, 20 Feb 2019 03:25:56 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Thu, 28 Feb 2019 11:00:20 GMT</small></div>
 </footer>
 </div>
 </body>

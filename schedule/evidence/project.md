@@ -154,10 +154,6 @@ Covered by the 'Product' component of v1.1:
 
 No textbook section. To be covered during the lecture.
 
-{{ evidence }}
-
-Apply the discussed guidelines when designing the product (covered by v1.1 deliverables).
-
 </div>
 
 

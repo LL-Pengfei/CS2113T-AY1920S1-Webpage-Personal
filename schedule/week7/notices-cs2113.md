@@ -2,10 +2,6 @@
 
 - Complete the coding exercise for 3kLoC enhancement  before the tutorial this week (refer to [Week 6]({{ module_website }}/schedule/week6/index.html) Project tab) for details.
 
-## Lecture this week
-
-* **One part of this week's lecture is not covered in the textbook** and is relevant for your project work for the upcoming project milestone v1.0. You are encouraged to attend this week's lecture even if you don't normally come to lectures.
-
 ## The Project List Page
 
 * The [Project List Page]({{ module_website }}/admin/projectList.html) will be up this week.

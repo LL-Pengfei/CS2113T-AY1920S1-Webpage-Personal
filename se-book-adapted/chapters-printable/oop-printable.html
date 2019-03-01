@@ -650,6 +650,40 @@
           </div>
         </div>
       </div>
+      <div class="indented-less">
+        <h4 id="association-classes">Association Classes <span class="badge badge-light"><small><small>
+                <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+              </small></small></span><a class="fa fa-anchor" href="#association-classes"></a></h4>
+        <div class="indented-less">
+          <div>
+            <p><strong>An <em>association class</em> represents additional information about an association.</strong> It is a normal class but plays a special role from a design point of view.</p>
+            <tip-box>
+              <p><span class="fas fa-cube"></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p>
+            </tip-box>
+            <p>
+              <panel type="seamless" src="/website\book\uml\classDiagrams\associationClasses\what\unit-inElsewhere-asFlat._include_.html#main" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Class Diagrams → Association Classes → What" alt="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> UML/AssociationClasses" fragment="main"></panel>
+            </p>
+            <h5 id="implementing-association-classes">Implementing association classes<a class="fa fa-anchor" href="#implementing-association-classes"></a></h5>
+            <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
+            <tip-box>
+              <p><span class="fas fa-cube"></span> In the code below, the <code>Transaction</code> class is an association class that represent a transaction between a <code>Person</code> who is the seller and another <code>Person</code> who is the buyer.</p>
+              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span></span>{
+    
+    <span class="hljs-comment">//all fields are compulsory</span>
+    Person seller;
+    Person buyer;
+    Date date;
+    String receiptNumber;
+    
+    Transaction (Person seller, Person buyer, Date date, String receiptNumber){
+        <span class="hljs-comment">//set fields</span>
+    }
+}
+</code></pre>
+            </tip-box>
+          </div>
+        </div>
+      </div>
     </div>
     <p>
       <div>
@@ -1261,7 +1295,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Thu, 28 Feb 2019 11:00:20 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Fri, 01 Mar 2019 07:50:57 GMT</small></div>
 </footer>
 </div>
 </body>

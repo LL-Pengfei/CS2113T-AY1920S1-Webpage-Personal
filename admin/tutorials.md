@@ -16,11 +16,11 @@
 
 | Module   | Tutorial ID %%(ID in CORS)%%| Time | Venue             | Tutors (<a href="{{ baseUrl }}/admin/instructors.html">contact details</a>)
 |----------|-----------------|------------------|-------------------|----
-| CS2113T  | M11  %%(T3)%%   | **M**on **11**00 | COM1-0210 (SR10)  | TBD
-| CS2113T  | T08  %%(T1)%%   | **T**ue **08**00 | COM1-0210 (SR10)  | TBD
-| CS2113T  | T09  %%(T2)%%   | **T**ue **09**00 | COM1-0210 (SR10)  | TBD
+| CS2113T  | M11  %%(T3)%%   | **M**on **11**00 | COM1-0210 (SR10)  | Akshay, Devamanyu
+| CS2113T  | T08  %%(T1)%%   | **T**ue **08**00 | COM1-0210 (SR10)  | Stephanie, Tek In, Rrubaa
+| CS2113T  | T09  %%(T2)%%   | **T**ue **09**00 | COM1-0210 (SR10)  | Stephanie, Rrubaa, Sanjukta
 | ~~CS2113~~   | ~~T10  %%(1)%%~~    | ~~**T**ue **10**00~~ | ~~COM1-0210 (SR10)~~  | ~~TBD~~
-| CS2113   | T11  %%(2)%%    | **T**ue **11**00 | COM1-0210 (SR10)  | TBD            
+| CS2113   | T11  %%(2)%%    | **T**ue **11**00 | COM1-0210 (SR10)  | Stephanie, Rachel
 
 </div>
 </panel>

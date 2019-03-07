@@ -2,14 +2,15 @@
   "pages": [
     {
       "headings": {
-        "week-7-%5Bmar-4%5D": "Week 7 [Mar 4]",
-        "coding-exercise": "Coding exercise",
-        "the-project-list-page": "The Project List Page",
-        "mid-semester-feedback-session": "Mid-semester feedback session",
-        "project-milestone%3A-v1.1": "Project Milestone: v1.1",
-        "v1.1-project-management": "v1.1 Project Management",
-        "v1.1-documentation": "v1.1 Documentation",
-        "v1.1-product": "v1.1 Product"
+        "implementing-association-classes": "Implementing association classes",
+        "week-8-%5Bmar-11%5D": "Week 8 [Mar 11]",
+        "lecture-this-week": "Lecture this week",
+        "project": "Project",
+        "project-milestone%3A-mid-v1.2": "Project Milestone: mid-v1.2",
+        "suggested-tutorial-activities": "Suggested tutorial activities",
+        "project-management---issue-tracker": "Project management - Issue tracker",
+        "project-management---scheduling": "Project management - Scheduling",
+        "questions-to-be-discussed-in-the-tutorial": "Questions to be discussed in the tutorial"
       },
       "title": "Home",
       "footer": "footer.md",
@@ -1454,8 +1455,6 @@
         "solid-principles": "SOLID Principles",
         "separation-of-concerns-principle": "Separation of Concerns Principle",
         "law-of-demeter": "Law of Demeter",
-        "yagni-principle": "YAGNI Principle",
-        "dry-principle": "DRY Principle",
         "brooks'-law%3Ca-class%3D'fa-fa-anchor'-href%3D'%23brooks'-law'%3E": "Brooks' Law&lt;a class='fa fa-anchor' href='#brooks'-law'&gt;",
         "principles": "Principles"
       },

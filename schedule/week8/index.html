@@ -38,8 +38,8 @@
         <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
         <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
         <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-        <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] <span class="fas fa-arrow-circle-left"></span></span></a></li>
-        <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+        <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+        <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] <span class="fas fa-arrow-circle-left"></span></span></a></li>
         <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
         <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
         <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
@@ -83,14 +83,9 @@
         <div>
           <h2 id="lecture-this-week">Lecture this week<a class="fa fa-anchor" href="#lecture-this-week"></a></h2>
           <ul>
-            <li><strong>One part of this week's lecture is not covered in the textbook</strong> and is relevant for your project work for the upcoming project milestone v1.0. You are encouraged to attend this week's lecture even if you don't normally come to lectures.</li>
+            <li><strong>One part of this week's lecture is not covered in the textbook</strong> and is relevant for your project. You are encouraged to attend this week's lecture even if you don't normally come to lectures.</li>
           </ul>
-          <h2 id="tutorials">Tutorials<a class="fa fa-anchor" href="#tutorials"></a></h2>
-          <p><strong>Come prepared for the tutorial</strong>:</p>
-          <ul>
-            <li>This week's tutorial involves discussing some theory questions. There are 5 questions (listed under Tutorial 8 in the <a href="https://nus-cs2103-ay1819s1.github.io/cs2103-website/index.html">schedule page</a>). <strong>Please divide the questions among yourselves and come prepared to answer them during the tutorial.</strong> We will not be able to finish all five questions during the tutorial unless you come prepared.</li>
-          </ul>
-          <p><strong>Project</strong></p>
+          <h2 id="project">Project<a class="fa fa-anchor" href="#project"></a></h2>
           <ul>
             <li>
               <p><strong>You are expected to start proper project planning and tracking after v1.1</strong>. See <a href="https://nuscs2113-AY1819S2.github.io/website/admin/project-w08-mid-v12.html">mid-v1.2 instructions</a> and please follow them carefully.</p>
@@ -1711,46 +1706,59 @@ method 2 ...
       </tab>
       <tab header="<span class='fas fa-chalkboard-teacher'></span> Tutorial">
         <div>
-          <p><strong>Questions to discuss during tutorial:</strong> Divide these five questions among team members. Be prepared to answer questions allocated to you.</p>
-          <p><strong>Q1</strong></p>
-          <ol>
-            <li>What is abstraction? How is it used in the project?</li>
-            <li>What is coupling?
-              <ol>
-                <li><code>Foo</code> depends on <code>Bar</code> if …?</li>
-                <li>Give examples of different ways how a class <code>Foo</code> can be coupled to <code>Bar</code></li>
-              </ol>
+          <h1 id="suggested-tutorial-activities">Suggested tutorial activities<a class="fa fa-anchor" href="#suggested-tutorial-activities"></a></h1>
+          <h3 id="project-management---issue-tracker">Project management - Issue tracker<a class="fa fa-anchor" href="#project-management---issue-tracker"></a></h3>
+          <ul>
+            <li>Setup the issue tracker as per the <a href="https://nuscs2113-AY1819S2.github.io/website/admin/appendixE-gitHub.html#issue-tracker-setup">instructions</a>, if you haven't done yet.</li>
+            <li>Record all your user stories as issues.</li>
+            <li>Try to identify <code>type.Epic</code> issues from corresponding <code>type.Story</code>.</li>
+            <li>Assign priority labels to all the issues.</li>
+            <li>Split the <code>type.Story</code> issues to <code>type.Task</code>.</li>
+          </ul>
+          <h3 id="project-management---scheduling">Project management - Scheduling<a class="fa fa-anchor" href="#project-management---scheduling"></a></h3>
+          <ul>
+            <li>Create milestones: <code>v1.1</code>, <code>v1.2</code>, <code>v1.3</code>, <code>v1.4</code>, and set the deadline to be the day before your tutorial in weeks 7, 9, 11 and 13.</li>
+            <li>At minimum, assign some <code>type.Epic</code> or <code>type.Story</code> issues to each milestone.
+              <ul>
+                <li>(Preferred) assign all <code>type.Story</code>, <code>type.Epic</code> and <code>type.Task</code> issues to each milestone.</li>
+              </ul>
             </li>
-            <li>What is cohesion?</li>
-            <li>How does cohesion relates to coupling?</li>
-          </ol>
-          <p><strong>Q2</strong></p>
-          <ol>
-            <li>What is the Principle of SoC?</li>
-            <li>How does SoC relate to coupling and cohesion?</li>
-            <li>What is SRP?</li>
-            <li>How does SRP relate to SoC?</li>
-          </ol>
-          <p><strong>Q3</strong></p>
-          <ol>
-            <li>What is OCP?</li>
-            <li>Explain several different ways of achieving OCP</li>
-            <li>Does the project follow OCP? E.g. Can we add a new command or a new storage type without modifying existing code too much?</li>
-          </ol>
-          <p><strong>Q4</strong></p>
-          <ol>
-            <li>What is <em>unit/integration/system/acceptance</em> testing?</li>
-            <li>How is each one done in AB4?</li>
-            <li>What’s the difference between <em>unit testing</em> and <em>integration testing</em>?</li>
-            <li>What’s the difference between <em>system testing</em> and <em>acceptance testing</em>?</li>
-          </ol>
-          <p><strong>Q5</strong></p>
-          <ol>
-            <li>Explain what Gradle is. How is it used in AB4?</li>
-            <li>Explain what Travis is. How is it used in AB4?</li>
-            <li>Which integration approach is used by the project?</li>
-            <li>What’s the difference between <em>buffers</em> and <em>padding/inflating</em> estimates?</li>
-          </ol>
+            <li>Assign at least one owner to each <code>type.Story</code> and <code>type.Task</code> to all the issues in <code>v1.2</code>.</li>
+          </ul>
+          <h1 id="questions-to-be-discussed-in-the-tutorial">Questions to be discussed in the tutorial<a class="fa fa-anchor" href="#questions-to-be-discussed-in-the-tutorial"></a></h1>
+          <div>
+            <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Model workflow of Burger shop">
+              <question>
+                <p>Draw an activity diagram to represent the following workflow a burger shop uses when processing an order by a customer.</p>
+                <ul>
+                  <li>First, a cashier takes the order.</li>
+                  <li>Then, three workers start preparing the order at the same time; one prepares the drinks, one prepares the burgers, and one prepares the desserts.</li>
+                  <li>In the meantime, the customer pays for the order. If the customer has a voucher, she pays using the voucher; otherwise she pays using cash.</li>
+                  <li>After paying, the customer collects the food after all three parts of the order are ready.</li>
+                </ul>
+                <panel type="seamless" header="Example Activity Diagram" minimized="">
+                  <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg"><br>
+                    <sub>[<a href="https://en.wikipedia.org/wiki/Activity_diagram">source:wikipeida</a>]</sub></p>
+                </panel>
+              </question>
+            </panel>
+          </div>
+          <br>
+          <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Model the relation between the students and tasks">
+            <question>
+              <p><strong>A course in the university can have a number tasks which can be assignments or tests.
+                  Some assignments are compulsory. When a student attempts a task, a grade and an optional feedback is given.</strong></p>
+            </question>
+          </panel>
+          <br>
+          <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Architecture">
+            <question>
+              <ol>
+                <li>Which architecture styles are used by AB-4?</li>
+                <li>What is an API? How is it used in AB-4?</li>
+              </ol>
+            </question>
+          </panel>
         </div>
       </tab>
       <tab header="<span class='fas fa-info-circle'></span> Admin Info">
@@ -2668,7 +2676,7 @@ method 2 ...
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Fri, 01 Mar 2019 09:53:02 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Thu, 07 Mar 2019 06:59:20 GMT</small></div>
 </footer>
 </div>
 </body>

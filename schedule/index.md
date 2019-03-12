@@ -339,8 +339,6 @@ head: scheduleHead.md
         {location: ["principles", "interfaceSegregationPrinciple"], omit_evidence: true},
         {location: ["principles", "dependencyInversionPrinciple"], omit_evidence: true},
         {location: ["principles", "solidPrinciples"], omit_evidence: true},
-        {location: ["principles", "yagniPrinciple"], omit_evidence: true},
-        {location: ["principles", "dryPrinciple"], omit_evidence: true},
         {location: ["principles", "brooksLaw"], omit_evidence: true},
     {name: "Implementation"},
       {heading: "Integration Approaches"},

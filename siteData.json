@@ -2,15 +2,13 @@
   "pages": [
     {
       "headings": {
-        "implementing-association-classes": "Implementing association classes",
-        "week-8-%5Bmar-11%5D": "Week 8 [Mar 11]",
-        "lecture-this-week": "Lecture this week",
-        "project": "Project",
-        "project-milestone%3A-mid-v1.2": "Project Milestone: mid-v1.2",
-        "suggested-tutorial-activities": "Suggested tutorial activities",
-        "project-management---issue-tracker": "Project management - Issue tracker",
-        "project-management---scheduling": "Project management - Scheduling",
-        "questions-to-be-discussed-in-the-tutorial": "Questions to be discussed in the tutorial"
+        "week-9-%5Bmar-18%5D": "Week 9 [Mar 18]",
+        "tutorials": "Tutorials",
+        "project-milestone%3A-v1.2": "Project Milestone: v1.2",
+        "v1.2-project-management": "v1.2 Project Management",
+        "v1.2-product": "v1.2 Product",
+        "v1.2-documentation": "v1.2 Documentation",
+        "v1.2-demo": "v1.2 Demo"
       },
       "title": "Home",
       "footer": "footer.md",

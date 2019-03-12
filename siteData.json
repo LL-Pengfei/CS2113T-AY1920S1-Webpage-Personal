@@ -1455,6 +1455,8 @@
         "solid-principles": "SOLID Principles",
         "separation-of-concerns-principle": "Separation of Concerns Principle",
         "law-of-demeter": "Law of Demeter",
+        "yagni-principle": "YAGNI Principle",
+        "dry-principle": "DRY Principle",
         "brooks'-law%3Ca-class%3D'fa-fa-anchor'-href%3D'%23brooks'-law'%3E": "Brooks' Law&lt;a class='fa fa-anchor' href='#brooks'-law'&gt;",
         "principles": "Principles"
       },

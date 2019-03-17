@@ -17,7 +17,7 @@ There are 30+ available points to choose from:
 </div>
 
 * In-lecture quizzes (1 each, max 10 points)
-* Enhanced AB1-AB3 (2 points each, max 6 points)
+* Enhanced AB1-AB3 (2 points for AB-1, 3 points each for AB-2 and AB-3)
 * Module admin tasks done _on time_ and _as instructed_
   * Peer evaluations (1 points each)
   * Pre-module survey (1 points)

@@ -2,13 +2,10 @@
   "pages": [
     {
       "headings": {
-        "week-9-%5Bmar-18%5D": "Week 9 [Mar 18]",
-        "tutorials": "Tutorials",
-        "project-milestone%3A-v1.2": "Project Milestone: v1.2",
-        "v1.2-project-management": "v1.2 Project Management",
-        "v1.2-product": "v1.2 Product",
-        "v1.2-documentation": "v1.2 Documentation",
-        "v1.2-demo": "v1.2 Demo"
+        "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
+        "week-10-%5Bmar-25%5D": "Week 10 [Mar 25]",
+        "reposense": "RepoSense",
+        "project-milestone%3A-mid-v1.3": "Project Milestone: mid-v1.3"
       },
       "title": "Home",
       "footer": "footer.md",

@@ -1,0 +1,40 @@
+2019-03-22T01:46:34.218Z - info: Website generation started at 9:46:31 AM
+2019-03-22T01:46:37.111Z - info: Building assets...
+2019-03-22T01:46:38.747Z - info: Assets built
+2019-03-22T01:46:38.751Z - info: Generating pages...
+2019-03-22T01:48:56.416Z - info: Pages built
+2019-03-22T01:48:56.526Z - info: Site data built
+2019-03-22T01:48:56.528Z - info: Website generation complete! Total build time: 144.528s
+2019-03-22T01:48:56.561Z - info: Generate Site durationMs=144562
+2019-03-22T01:48:56.596Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-03-22T01:48:56.597Z - info: Press CTRL+C to stop ...
+2019-03-22T01:49:02.682Z - info: [9:49:02 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:49:03.869Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:49:03.872Z - info: Rebuilding 2 pages
+2019-03-22T01:49:19.290Z - info: Pages rebuilt
+2019-03-22T01:49:19.365Z - info: Site data built
+2019-03-22T01:50:41.249Z - info: [9:50:41 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:50:42.252Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:50:42.257Z - info: Rebuilding 2 pages
+2019-03-22T01:50:45.820Z - info: Pages rebuilt
+2019-03-22T01:50:45.843Z - info: Site data built
+2019-03-22T01:52:25.427Z - info: [9:52:25 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:52:26.428Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:52:26.433Z - info: Rebuilding 2 pages
+2019-03-22T01:52:29.062Z - info: Pages rebuilt
+2019-03-22T01:52:29.087Z - info: Site data built
+2019-03-22T01:53:21.011Z - info: [9:53:21 AM] Reload for file change: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:53:22.015Z - verbose: Rebuild affected paths: D:\Teaching\CS2113\AY1819Sem2\website\schedule\week10\tutorial-cs2113.md
+2019-03-22T01:53:22.018Z - info: Rebuilding 2 pages
+2019-03-22T01:53:31.327Z - info: Website generation started at 9:53:29 AM
+2019-03-22T01:53:32.592Z - info: Building assets...
+2019-03-22T01:53:34.141Z - info: Assets built
+2019-03-22T01:53:34.142Z - info: Generating pages...
+2019-03-22T01:55:18.320Z - info: Pages built
+2019-03-22T01:55:18.381Z - info: Site data built
+2019-03-22T01:55:18.382Z - info: Website generation complete! Total build time: 108.503s
+2019-03-22T01:55:18.411Z - info: Generate Site durationMs=108533
+2019-03-22T01:55:18.428Z - info: Serving "D:\Teaching\CS2113\AY1819Sem2\website\_site" at http://127.0.0.1:8080
+2019-03-22T01:55:18.430Z - info: Press CTRL+C to stop ...
+2019-03-22T03:28:48.325Z - info: Website generation started at 11:28:47 AM
+2019-03-22T03:28:49.405Z - info: Building assets...

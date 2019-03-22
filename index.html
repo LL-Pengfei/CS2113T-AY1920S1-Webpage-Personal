@@ -2021,7 +2021,57 @@ method 2 ...
           </div>
         </tab>
         <tab header="<span class='fas fa-chalkboard-teacher'></span> Tutorial">
-          <div></div>
+          <div>
+            <p><strong>Questions to discuss during tutorial:</strong> Divide these questions among team members. Be prepared to answer questions allocated to you.</p>
+            <p><strong>Q1</strong></p>
+            <ol>
+              <li>What is <em>Liskov Substitution Principle</em>?<br>
+                Give an example from the project where LSP is followed and explain how to change the code to break LSP.</li>
+              <li>Explain how <em>Law of Demeter</em> affects coupling<br>
+                a. Add a line to this code that violates LoD
+                <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(P p)</span></span>{
+    <span class="hljs-comment">//...</span>
+}
+</code></pre>
+              </li>
+              <li>Give an example in the project code that violates the <em>Law of Demeter</em>.</li>
+            </ol>
+            <p><strong>Q2</strong></p>
+            <ol>
+              <li>Explain and justify: <em>testing should be efficient and effective</em></li>
+              <li>Explain how <em>exploratory</em> and <em>scripted</em> testing is used in AB4/project</li>
+              <li>Give an example of a <em>negative</em> test case in AB4/project</li>
+              <li>Explain <em>grey-box</em> test case design</li>
+            </ol>
+            <p><strong>Q3</strong></p>
+            <ol>
+              <li>Explain: <em>Equivalence Partition</em> improve E&amp;E of testing</li>
+              <li>What are the EPs for the parameter <code>day</code> of this method
+                <pre><code class="hljs java"><span class="hljs-comment">/**
+ * Returns true if the three values represent a valid day
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">isValidDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year, <span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> day)</span></span>{
+
+} 
+</code></pre>
+              </li>
+            </ol>
+            <p><strong>Q4</strong></p>
+            <ol>
+              <li>Explain: <em>Boundary Value Analysis</em> improves E&amp;E of testing</li>
+              <li>What are the boundary values for the parameter <code>day</code> in the question above?</li>
+              <li>How can EP and BVA heuristics be used in AB4/project? Hint: See [<a href="https://github.com/nusCS2113-AY1819S2/addressbook-level4/blob/master/docs/LearningOutcomes.adoc#apply-test-case-design-heuristics-code-lo-testcasedesignheuristics-code">AB4 Learning Outcomes: LO-TestCaseDesignHeuristics</a>]</li>
+              <li>How do you ensure some clean up code is run after each JUnit test case?</li>
+            </ol>
+            <p><strong>Q5</strong></p>
+            <ol>
+              <li>What is test coverage? How is it used in AB4?</li>
+              <li>How to measure coverage in Intellij?</li>
+              <li>What’s the difference between <em>validation</em> and <em>verification</em>?<br>
+                Acceptance tests are validation tests or verification tests?</li>
+              <li>Give an example of <em>static analysis</em> being used in Intellij</li>
+            </ol>
+          </div>
         </tab>
         <tab header="<span class='fas fa-info-circle'></span> Admin Info">
           <div>
@@ -2222,7 +2272,7 @@ method 2 ...
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Tue, 19 Mar 2019 07:20:12 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Fri, 22 Mar 2019 03:28:50 GMT</small></div>
 </footer>
 </div>
 </body>

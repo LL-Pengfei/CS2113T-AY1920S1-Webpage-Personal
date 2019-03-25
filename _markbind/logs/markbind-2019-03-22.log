@@ -38,3 +38,11 @@
 2019-03-22T01:55:18.430Z - info: Press CTRL+C to stop ...
 2019-03-22T03:28:48.325Z - info: Website generation started at 11:28:47 AM
 2019-03-22T03:28:49.405Z - info: Building assets...
+2019-03-22T03:28:50.289Z - info: Assets built
+2019-03-22T03:28:50.289Z - info: Generating pages...
+2019-03-22T03:29:57.689Z - info: Pages built
+2019-03-22T03:29:57.761Z - info: Site data built
+2019-03-22T03:29:57.762Z - info: Website generation complete! Total build time: 70.307s
+2019-03-22T03:29:57.763Z - info: Build success!
+2019-03-22T03:29:57.763Z - info: Generate Site durationMs=70309
+2019-03-22T03:30:35.629Z - info: Deployed!

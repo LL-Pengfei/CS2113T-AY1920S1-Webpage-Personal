@@ -80,7 +80,112 @@
     <h1 id="week-11-%5Bapr-1%5D">Week 11 <small><small><span class="dimmed">[Apr 1]</span></small></small><a class="fa fa-anchor" href="#week-11-%5Bapr-1%5D"></a></h1>
     <tabs>
       <tab header="<span class='fas fa-bell'></span> Notices">
-        <div></div>
+        <div>
+          <h2 id="project">Project<a class="fa fa-anchor" href="#project"></a></h2>
+          <ul>
+            <li>This week, you need to create a a release for your product, with a JAR.</li>
+            <li>Ensure that the product is user testable.</li>
+            <li>Update the documents to reflect the state the product.
+              <ul>
+                <li>Mark irrelevant sections as <code>coming in v2.0</code>.</li>
+              </ul>
+            </li>
+          </ul>
+          <h2 id="demo-during-tutorial">Demo during tutorial<a class="fa fa-anchor" href="#demo-during-tutorial"></a></h2>
+          <ul>
+            <li>Two members do a timed demo in the tutorial this week. (Come prepared for demo!)</li>
+          </ul>
+          <h2 id="(mock)-submissions-this-week">(Mock) Submissions this week<a class="fa fa-anchor" href="#(mock)-submissions-this-week"></a></h2>
+          <ul>
+            <li>Submit the following documents on LumiNUS.
+              <ul>
+                <li>Ensure that the file names are accurate. While there is no penalty now for non-compliance, you will lose marks for making similar mistakes in the final submission.</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Team/Individual Item</th>
+                  <th>Name format</th>
+                  <th>Upload to</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="fas fa-users"></span> User Guide</td>
+                  <td><code>[TEAM_ID][product Name]UserGuide.pdf</code><br> <span class="dimmed">e.g.[M11-1][Contacts Plus]UserGuide.pdf</span></td>
+                  <td>LumiNUS</td>
+                </tr>
+                <tr>
+                  <td><span class="fas fa-users"></span> Developer Guide</td>
+                  <td><code>[TEAM_ID][product Name]DeveloperGuide.pdf</code><br> <span class="dimmed">e.g. [M11-1][Contacts Plus]DeveloperGuide.pdf</span></td>
+                  <td>LumiNUS</td>
+                </tr>
+                <tr>
+                  <td><span class="fas fa-user"></span> Project Portfolio Page</td>
+                  <td><code>[TEAM_ID][Your Name]Portfolio.pdf</code><br> <span class="dimmed">e.g.[M11-1][John Doe]Portfolio.pdf</span><br>html version of PPP page on the product website</td>
+                  <td>LumiNUS<br><br><a href="http://github.io">github.io</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h2 id="faq-for-reposense">FAQ for Reposense<a class="fa fa-anchor" href="#faq-for-reposense"></a></h2>
+          <p><mark>(Copying over from the announcement last week)</mark></p>
+          <ol>
+            <li>
+              <p>My contributions are not detected in the reposense report, why?</p>
+              <ol>
+                <li>Check:
+                  <ol>
+                    <li>Have you set the <code>user.name</code> to your GitHub user name that you provided in the pre-module survey?</li>
+                    <li>Have you used different git user name while doing the work? Run <code>git log</code> command on the command line/terminal and look for the <code>Author</code> field.</li>
+                  </ol>
+                </li>
+                <li>If the above are correct, you may want to provide a config file to give additional details to reposense (check the reposense documentation mentioned above)
+                  <ol>
+                    <li>You need to commit the config file before running reposense, else the config won't be picked up by the tool.</li>
+                  </ol>
+                </li>
+                <li>Do note: <em>if you include a config file, entries pertaining to all members of the team must be in the config file</em>.</li>
+              </ol>
+            </li>
+            <li>
+              <p>I have done everything given in 1, but I still can't see my contributions. How to resolve?</p>
+              <ol>
+                <li>Use <code>@@author</code> tags to identify your code contribution in the source files.</li>
+                <li>Follow the instructions given in the reposense documentation for this</li>
+              </ol>
+            </li>
+            <li>
+              <p>I did 1 &amp; 2, however, I cannot still see my contributions. Help!!</p>
+              <ol>
+                <li>Usually, most cases will be taken care of by 1 and 2 above.</li>
+                <li>In case your contributions are still not detected, please post the issue on this forum, we will get the reposense team to take a look.</li>
+              </ol>
+            </li>
+            <li>
+              <p>How frequently is the reposense report generated?</p>
+              <ol>
+                <li>Reposense is configured to run the report every Monday. i.e., the report is generated weekly.</li>
+              </ol>
+            </li>
+            <li>
+              <p>My friend and I worked on a piece of code together, but only my friend committed. Now how?</p>
+              <ol>
+                <li>Use <code>@@author</code> tags to indicate chunks of the file that is your contribution. Arrive at a consensus with your friend/teammate before claiming part of the code as yours.</li>
+              </ol>
+            </li>
+            <li>
+              <p>What is considered <strong>good contribution</strong>?</p>
+              <ol>
+                <li>Speaking from code-quality evaluation perspective, you need to have contiguous code chunks in your contribution (e.g., some full classes, some significantly long full methods).</li>
+                <li>If the code is fragmented (e.g., you only added one additional field to a class, and the entire code has fragmented one-two lines that work with the additional field you creates) it becomes hard to grade the code quality.</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
       </tab>
       <tab header="<span class='fas fa-trophy'></span> Topics">
         <div>
@@ -2968,7 +3073,75 @@ method 2 ...
         </div>
       </tab>
       <tab header="<span class='fas fa-chalkboard-teacher'></span> Tutorial">
-        <div></div>
+        <div>
+          <h1 id="suggested-tutorial-activities%3A">Suggested tutorial activities:<a class="fa fa-anchor" href="#suggested-tutorial-activities%3A"></a></h1>
+          <h3 id="demo">Demo<a class="fa fa-anchor" href="#demo"></a></h3>
+          <p><strong>Two members together do a quick demo of your v1.3 using the jar file</strong></p>
+          <h3 id="questions">Questions<a class="fa fa-anchor" href="#questions"></a></h3>
+          <p><strong>Q1.</strong> Whole team: do this question together, using the whiteboard</p>
+          <div class="indented">
+            <div>
+              <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> test cases for `consume` method">
+                <question>
+                  <p>Apply heuristics for combining multiple test inputs to improve the E&amp;E of the following test cases, assuming all 6 values in the table need to be tested. <ins>underlines</ins> indicate invalid values. Point out where the heuristics are contradicted and how to improve the test cases.</p>
+                  <box>
+                    <p>SUT: <code>consume(food, drink)</code></p>
+                    <div class="table-responsive">
+                      <table class="markbind-table table table-bordered table-striped">
+                        <thead>
+                          <tr>
+                            <th>Test case</th>
+                            <th>food</th>
+                            <th>drink</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>TC1</td>
+                            <td>bread</td>
+                            <td>water</td>
+                          </tr>
+                          <tr>
+                            <td>TC2</td>
+                            <td>rice</td>
+                            <td><ins>lava</ins></td>
+                          </tr>
+                          <tr>
+                            <td>TC3</td>
+                            <td><ins>rock</ins></td>
+                            <td><ins>acid</ins></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </box>
+                </question>
+              </panel>
+            </div>
+          </div>
+          <br>
+          <p><strong>Q2.</strong> Divide these questions among team members and get ready to answer them.</p>
+          <ol>
+            <li>Distinguish between <em>sequential</em> and <em>iterative</em> processes. Which one are we using in the project?</li>
+            <li>Distinguish between <em>breadth-first</em> and <em>depth-first</em> iterative processes using your project as an example.</li>
+            <li>Describe how <em>agile process models</em> differ from traditional process models.</li>
+            <li>When do you use <em>MVC</em> pattern? Do we have MVC in AB4?</li>
+            <li>When do you use the <em>Observer</em> pattern? Do we have the Observer pattern in AB4?</li>
+          </ol>
+          <p><strong>Q3.</strong> Divide XP and Scrum between the two teams for the following activity, if there is enough time left.</p>
+          <ul>
+            <li>
+              <p>Each team use the Web to find about 5 distinguishing features of the process model.</p>
+              <ul>
+                <li>Some interesting <a href="https://www.scrum.org/resources/what-is-scrum">SCRUM concepts</a>: Product backlog, scrum board, story points, burndown charts, scrum master, product owner</li>
+                <li>XP rules are described at <a href="http://www.extremeprogramming.org/rules.html">http://www.extremeprogramming.org/rules.html</a></li>
+              </ul>
+            </li>
+            <li>
+              <p>Relate those features to your project. <span class="dimmed">i.e. are they applicable? are you doing something similar?</span></p>
+            </li>
+          </ul>
+        </div>
       </tab>
       <tab header="<span class='fas fa-info-circle'></span> Admin Info">
         <div>
@@ -3807,7 +3980,7 @@ method 2 ...
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Fri, 22 Mar 2019 03:28:50 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Mon, 25 Mar 2019 07:11:12 GMT</small></div>
 </footer>
 </div>
 </body>

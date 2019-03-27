@@ -2,10 +2,20 @@
   "pages": [
     {
       "headings": {
-        "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
-        "week-10-%5Bmar-25%5D": "Week 10 [Mar 25]",
-        "reposense": "RepoSense",
-        "project-milestone%3A-mid-v1.3": "Project Milestone: mid-v1.3"
+        "week-11-%5Bapr-1%5D": "Week 11 [Apr 1]",
+        "project": "Project",
+        "demo-during-tutorial": "Demo during tutorial",
+        "(mock)-submissions-this-week": "(Mock) Submissions this week",
+        "faq-for-reposense": "FAQ for Reposense",
+        "project-milestone%3A-v1.3": "Project Milestone: v1.3",
+        "v1.3-project-management": "v1.3 Project Management",
+        "v1.3-product": "v1.3 Product",
+        "v1.3-documentation": "v1.3 Documentation",
+        "v1.3-demo": "v1.3 Demo",
+        "v1.3-testing-(aka-practical-exam-dry-run)": "v1.3 Testing (aka Practical Exam Dry Run)",
+        "suggested-tutorial-activities%3A": "Suggested tutorial activities:",
+        "demo": "Demo",
+        "questions": "Questions"
       },
       "title": "Home",
       "footer": "footer.md",

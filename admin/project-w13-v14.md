@@ -13,13 +13,13 @@
 Team/Individual Item | Name format | Upload to
 -------------------- | ----------- | ---------
 {{ icon_team }} Source code |  tag as `v1.4` | GitHub
-{{ icon_team }} Jar file |  `[team][product name].jar`<br>%%e.g. [W09-1][ContactsPlus].jar%% | LumiNUS
-{{ icon_team }} User Guide | `[TEAM_ID][product Name]UserGuide.pdf`<br>  %%e.g.[W09-1][Contacts Plus]UserGuide.pdf%% | LumiNUS
-{{ icon_team }} Developer Guide | `[TEAM_ID][product Name]DeveloperGuide.pdf`<br> %%e.g. [W09-1][Contacts Plus]DeveloperGuide.pdf%% | LumiNUS
+{{ icon_team }} Jar file |  `[team][product name].jar`<br>%%e.g. [M11-1][ContactsPlus].jar%% | LumiNUS
+{{ icon_team }} User Guide | `[TEAM_ID][product Name]UserGuide.pdf`<br>  %%e.g.[M11-1][Contacts Plus]UserGuide.pdf%% | LumiNUS
+{{ icon_team }} Developer Guide | `[TEAM_ID][product Name]DeveloperGuide.pdf`<br> %%e.g. [M11-1][Contacts Plus]DeveloperGuide.pdf%% | LumiNUS
 {{ icon_team }} Product Website | `README` page, `Ui.png`, `AboutUs` page | github.io
-{{ icon_individual }} Project Portfolio Page | `[TEAM_ID][Your Name]Portfolio.pdf`<br> %%e.g.[W09-1][John Doe]Portfolio.pdf%%<br>html version of PPP page on the product website | LumiNUS<br><br>github.io
+{{ icon_individual }} Project Portfolio Page | `[TEAM_ID][Your Name]Portfolio.pdf`<br> %%e.g.[M11-1][John Doe]Portfolio.pdf%%<br>html version of PPP page on the product website | LumiNUS<br><br>github.io
 
-* **Deadline** for all v1.4 submissions is Week 13 Monday 23.59 unless stated otherwise.<br>
+* **Deadline** for all v1.4 submissions is Week 13 Sunday 23.59 unless stated otherwise.<br>
 * Submit to LumiNUS folder we have set up, not to your project space.<br>
   {{ module | lower }}T students: documents should be submitted to both modules. It's not enough to submit to CS2101 side only.
 * {{ icon_important_big_red }} **Penalty for late submission:**<br>

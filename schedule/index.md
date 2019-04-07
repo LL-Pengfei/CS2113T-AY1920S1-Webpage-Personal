@@ -19,11 +19,11 @@ head: scheduleHead.md
     {num: "10", day: "Mar 25" },
     {num: "11", day: "Apr 1" },
     {num: "12", day: "Apr 8" },
-    {num: "13", day: "Apr 12" }
+    {num: "13", day: "Apr 15" }
 ] %}
 
 
-{% set current_weeks = ["11", "12"] %}
+{% set current_weeks = ["12"] %}
 
 
 {% set all_outcomes = [

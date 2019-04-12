@@ -366,7 +366,7 @@ At the end of the project each student is required to submit a _Project Portfoli
      - [ ] `Feature/ completeness: medium`: The feature has enough functionality to be useful for some of the users.
      - [ ] `Feature/ completeness: high`: The feature has all functionality to be useful to almost all users.
      - [ ] `Feature/ not hard to test`: The feature was not too hard to test manually.
-     - [ ] `Feature/ polished: high`: The feature looks _polished_ (as if done by a professional programmer).
+     - [ ] `Feature/ polished `: The feature looks _polished_ (as if done by a professional programmer).
 
    * **E. Amount of work** [{{ icon_individual }}]:  Evaluate the amount of work, on a scale of 0 to 30.
      * Consider [this PR (`history` command)](https://github.com/se-edu/addressbook-level4/pull/440/files) as 5 units of effort which means [this PR (`undo/redo` command)](https://github.com/se-edu/addressbook-level4/pull/610/files) is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the `undo/redo` feature (which was given as an example of an `A` grade project), we expect most students to be have efforts lower than 20.

@@ -111,9 +111,9 @@ head: scheduleHead.md
       "authorNames": ["articstranger"]
     },
     {
-      "githubId": "wongyuqi",
-      "displayName": "WON... QI",
-      "authorNames": ["wongyuqi"]
+      "githubId": "swalahlah",
+      "displayName": "LIO...HUI",
+      "authorNames": ["swalahlah"]
     },
     {
       "githubId": "quinnzzzzz",
@@ -136,9 +136,9 @@ head: scheduleHead.md
       "authorNames": ["weizhonglauw"]
     },
     {
-      "githubId": "swalahlah",
-      "displayName": "LIO...HUI",
-      "authorNames": ["swalahlah"]
+      "githubId": "wongyuqi",
+      "displayName": "WON... QI",
+      "authorNames": ["wongyuqi"]
     },
     {
       "githubId": "yongjia96",

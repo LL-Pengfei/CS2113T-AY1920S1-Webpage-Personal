@@ -1,0 +1,4 @@
+2019-04-13T16:23:10.791Z - info: Website generation started at 12:23:09 AM
+2019-04-13T16:23:12.151Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\book\_markbind\variables.md'
+2019-04-13T16:23:12.163Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\_markbind\variables.md'
+2019-04-13T16:23:12.363Z - info: Building assets...

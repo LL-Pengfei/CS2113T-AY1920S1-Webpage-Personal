@@ -2,3 +2,15 @@
 2019-04-13T16:23:12.151Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\book\_markbind\variables.md'
 2019-04-13T16:23:12.163Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\_markbind\variables.md'
 2019-04-13T16:23:12.363Z - info: Building assets...
+2019-04-13T16:23:13.812Z - info: Assets built
+2019-04-13T16:23:13.813Z - info: Generating pages...
+2019-04-13T16:25:24.237Z - info: Pages built
+2019-04-13T16:25:24.342Z - info: Site data built
+2019-04-13T16:25:24.344Z - info: Website generation complete! Total build time: 134.875s
+2019-04-13T16:25:24.344Z - info: Build success!
+2019-04-13T16:25:24.344Z - info: Generate Site durationMs=134876
+2019-04-13T16:26:30.248Z - info: Deployed!
+2019-04-13T16:28:22.087Z - info: Website generation started at 12:28:20 AM
+2019-04-13T16:28:23.566Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\book\_markbind\variables.md'
+2019-04-13T16:28:23.575Z - warn: ENOENT: no such file or directory, open 'D:\Teaching\CS2113\AY1819Sem2\website\admin\_site\_markbind\variables.md'
+2019-04-13T16:28:23.803Z - info: Building assets...

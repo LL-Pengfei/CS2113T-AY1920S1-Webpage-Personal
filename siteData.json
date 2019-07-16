@@ -1,23 +1,24 @@
 {
+  "enableSearch": true,
   "pages": [
     {
       "headings": {
-        "week-12-%5Bapr-8%5D": "Week 12 [Apr 8]",
-        "demo-during-tutorial": "Demo during tutorial",
-        "mock-mcq": "Mock MCQ",
-        "project-milestone%3A-mid-v1.4": "Project Milestone: mid-v1.4"
+        "week-1-aug-12": "Week 1 [Aug 12]"
       },
       "title": "Home",
+      "header": "header.md",
       "footer": "footer.md",
       "head": "scheduleHead.md",
+      "pageNav": 4,
       "src": "index.md",
       "layout": "default"
     },
     {
       "headings": {
-        "a%3A-module-principles": "A: Module Principles "
+        "a-module-principles": "A: Module Principles "
       },
       "title": "Admin: A: Module Principles",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -26,11 +27,11 @@
     },
     {
       "headings": {
-        "b%3A-module-policies": "B: Module Policies ",
+        "b-module-policies": "B: Module Policies ",
         "policy-on-following-instructions": "Policy on following instructions ",
-        "policy-on-grading-smaller%2Flarger-teams": "Policy on grading smaller/larger teams ",
+        "policy-on-grading-smaller-larger-teams": "Policy on grading smaller/larger teams ",
         "policy-on-project-work-distribution": "Policy on project work distribution ",
-        "policy-on-absence-due-to-valid-reasons-(e.g.-mc%2C-loa%2C-university-events)": "Policy on absence due to valid reasons (e.g. MC, LOA, University events) ",
+        "policy-on-absence-due-to-valid-reasons-e-g-mc-loa-university-events": "Policy on absence due to valid reasons (e.g. MC, LOA, University events) ",
         "policy-on-email-response-time": "Policy on email response time ",
         "policy-on-tech-help": "Policy on tech help ",
         "policy-on-publishing-submissions": "Policy on publishing submissions ",
@@ -41,6 +42,7 @@
         "policy-on-suggested-length-for-submissions": "Policy on suggested length for submissions "
       },
       "title": "Admin: B: Module Policies",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -49,24 +51,25 @@
     },
     {
       "headings": {
-        "c%3A-frequently-asked-questions": "C: Frequently Asked Questions ",
-        "where-is-everything%3F": "Where is everything? ",
-        "what-are-the-differences-between-the-t-and-the-non-t-version-of-the-module%3F": "What are the differences between the T and the non-T version of the module? ",
-        "why-the-workload-is-so-high%3F": "Why the workload is so high? ",
-        "what-are-the-extra-requirements-to-get-an-a%2B%3F": "What are the extra requirements to get an A+? ",
-        "why-so-much-bean-counting%3F": "Why so much bean counting? ",
-        "why-you-force-me-to-visit-a-separate-website-instead-of-using-luminus%3F": "Why you force me to visit a separate website instead of using LumiNUS? ",
-        "why-slides-are-not-detailed%3F": "Why slides are not detailed? ",
-        "why-so-much-self-study%3F": "Why so much self-study? ",
-        "what-if-i-don%E2%80%99t-carry-around-a-laptop%3F": "What if I don’t carry around a laptop? ",
-        "why-very-narrow-project-scope%3F": "Why very narrow project scope? ",
-        "why-project-requirements-are-so-vague%3F": "Why project requirements are so vague? ",
-        "why-i%E2%80%99m-not-allowed-to-use-my-favorite-tool%2Fframework%2Flanguage-etc.%3F": "Why I’m not allowed to use my favorite tool/framework/language etc.? ",
-        "why-so-many-submissions%3F": "Why so many submissions? ",
-        "why-aren't-we-allowed-to-build-a-new-product-from-scratch%3F": "Why aren't we allowed to build a new product from scratch? ",
-        "why-submission-requirements-differ-between-cs2113%2Ft-and-cs2101%3F": "Why submission requirements differ between CS2113/T and CS2101? "
+        "c-frequently-asked-questions": "C: Frequently Asked Questions ",
+        "where-is-everything": "Where is everything? ",
+        "what-are-the-differences-between-the-t-and-the-non-t-version-of-the-module": "What are the differences between the T and the non-T version of the module? ",
+        "why-the-workload-is-so-high": "Why the workload is so high? ",
+        "what-are-the-extra-requirements-to-get-an-a": "What are the extra requirements to get an A+? ",
+        "why-so-much-bean-counting": "Why so much bean counting? ",
+        "why-you-force-me-to-visit-a-separate-website-instead-of-using-luminus": "Why you force me to visit a separate website instead of using LumiNUS? ",
+        "why-slides-are-not-detailed": "Why slides are not detailed? ",
+        "why-so-much-self-study": "Why so much self-study? ",
+        "what-if-i-don-t-carry-around-a-laptop": "What if I don’t carry around a laptop? ",
+        "why-very-narrow-project-scope": "Why very narrow project scope? ",
+        "why-project-requirements-are-so-vague": "Why project requirements are so vague? ",
+        "why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc": "Why I’m not allowed to use my favorite tool/framework/language etc.? ",
+        "why-so-many-submissions": "Why so many submissions? ",
+        "why-aren-t-we-allowed-to-build-a-new-product-from-scratch": "Why aren't we allowed to build a new product from scratch? ",
+        "why-submission-requirements-differ-between-cs2113-t-and-cs2101": "Why submission requirements differ between CS2113/T and CS2101? "
       },
       "title": "Admin: C: Frequently Asked Questions",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -75,9 +78,10 @@
     },
     {
       "headings": {
-        "d%3A-getting-help-in-this-module": "D: Getting help in this module "
+        "d-getting-help-in-this-module": "D: Getting help in this module "
       },
       "title": "Admin: D: Getting help in this module",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -86,7 +90,7 @@
     },
     {
       "headings": {
-        "e%3A-using-github": "E: Using GitHub ",
+        "e-using-github": "E: Using GitHub ",
         "creating-a-github-account": "Creating a GitHub account",
         "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
         "submitting-pull-requests-as-evidence-of-learning-a-topic": "Submitting Pull Requests as evidence of learning a topic",
@@ -95,10 +99,11 @@
         "workflow": "Workflow",
         "issue-tracker-setup": "Issue tracker setup",
         "project-schedule-tracking": "Project Schedule Tracking",
-        "using-issues%3A": "Using Issues:",
-        "using-milestones%3A": "Using Milestones:"
+        "using-issues": "Using Issues:",
+        "using-milestones": "Using Milestones:"
       },
       "title": "Admin: E: Using GitHub",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -107,9 +112,10 @@
     },
     {
       "headings": {
-        "f%3A-handling-teamwork-issues": "F: Handling teamwork issues "
+        "f-handling-teamwork-issues": "F: Handling teamwork issues "
       },
       "title": "Admin: F: Handling teamwork issues",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -119,11 +125,12 @@
     {
       "headings": {
         "exams": "Exams ",
-        "final-exam%3A-part-1-(mcq)": "Final Exam: Part 1 (MCQ)",
-        "final-exam%3A-part-2-(essay)": "Final Exam: Part 2 (Essay)",
+        "final-exam-part-1-mcq": "Final Exam: Part 1 (MCQ)",
+        "final-exam-part-2-essay": "Final Exam: Part 2 (Essay)",
         "resources": "Resources"
       },
       "title": "Admin: Exams",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -141,6 +148,7 @@
         "grade-breakdown": "Grade Breakdown "
       },
       "title": "Admin: Grade Breakdown",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -149,9 +157,10 @@
     },
     {
       "headings": {
-        "cs2113%2Ft-software-engineering-and-object-oriented-programming": "CS2113/T Software Engineering and Object-oriented Programming "
+        "cs2113-t-software-engineering-and-object-oriented-programming": "CS2113/T Software Engineering and Object-oriented Programming "
       },
       "title": "Admin: CS2113/T Software Engineering and Object-oriented Programming",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -163,6 +172,7 @@
         "instructors": "Instructors "
       },
       "title": "Admin: Instructors",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -174,6 +184,7 @@
         "lectures": "Lectures "
       },
       "title": "Admin: Lectures",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -183,11 +194,12 @@
     {
       "headings": {
         "module-expectations": "Module Expectations ",
-        "prior-knowledge%3A-java-and-oop": "Prior Knowledge: Java and OOP",
+        "prior-knowledge-java-and-oop": "Prior Knowledge: Java and OOP",
         "workload": "Workload",
         "star-rating-system": "Star rating system"
       },
       "title": "Admin: Module Expectations",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -196,9 +208,10 @@
     },
     {
       "headings": {
-        "cs2113%2Ft-software-engineering-and-object-oriented-programming": "CS2113/T Software Engineering and Object-oriented Programming "
+        "cs2113-t-software-engineering-and-object-oriented-programming": "CS2113/T Software Engineering and Object-oriented Programming "
       },
       "title": "Admin: CS2113/T Software Engineering and Object-oriented Programming",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -210,6 +223,7 @@
         "participation-marks": "Participation Marks "
       },
       "title": "Admin: Participation Marks",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -221,6 +235,7 @@
         "peer-evaluations": "Peer Evaluations "
       },
       "title": "Admin: Peer Evaluations",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -233,6 +248,7 @@
         "java-coding-standard": "Java coding standard"
       },
       "title": "Admin: Programming Language",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -241,9 +257,10 @@
     },
     {
       "headings": {
-        "project%3A-assessment": "Project: Assessment "
+        "project-assessment": "Project: Assessment "
       },
       "title": "Admin: Project: Assessment",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -252,9 +269,10 @@
     },
     {
       "headings": {
-        "project%3A-constraints": "Project: Constraints "
+        "project-constraints": "Project: Constraints "
       },
       "title": "Admin: Project: Constraints",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -263,22 +281,23 @@
     },
     {
       "headings": {
-        "project%3A-deliverables": "Project: Deliverables ",
-        "deliverable%3A-executable": "Deliverable: Executable",
-        "deliverable%3A-source-code": "Deliverable: Source code",
-        "deliverable%3A-user-guide-(ug)": "Deliverable: User Guide (UG)",
-        "deliverable%3A-developer-guide-(dg)": "Deliverable: Developer Guide (DG)",
-        "deliverable%3A-product-website": "Deliverable: Product Website",
-        "deliverable%3A-project-portfolio-page-(ppp)": "Deliverable: Project Portfolio Page (PPP)",
-        "deliverable%3A-demo": "Deliverable: Demo",
-        "deliverable%3A-practical-exam-(dry-run)": "Deliverable: Practical Exam (Dry Run)",
+        "project-deliverables": "Project: Deliverables ",
+        "deliverable-executable": "Deliverable: Executable",
+        "deliverable-source-code": "Deliverable: Source code",
+        "deliverable-user-guide-ug": "Deliverable: User Guide (UG)",
+        "deliverable-developer-guide-dg": "Deliverable: Developer Guide (DG)",
+        "deliverable-product-website": "Deliverable: Product Website",
+        "deliverable-project-portfolio-page-ppp": "Deliverable: Project Portfolio Page (PPP)",
+        "deliverable-demo": "Deliverable: Demo",
+        "deliverable-practical-exam-dry-run": "Deliverable: Practical Exam (Dry Run)",
         "testing-instructions-for-pe-and-pe-dry-run-2": "Testing instructions for PE and PE Dry Run",
-        "deliverable%3A-practical-exam": "Deliverable: Practical Exam",
+        "deliverable-practical-exam": "Deliverable: Practical Exam",
         "testing-instructions-for-pe-and-pe-dry-run-3": "Testing instructions for PE and PE Dry Run",
-        "processing-pe-bug-reports%3A-2": "Processing PE Bug Reports:",
+        "processing-pe-bug-reports-2": "Processing PE Bug Reports:",
         "notes-for-those-using-ab-2-or-ab-3-for-the-project": "Notes for Those Using AB-2 or AB-3 for the Project"
       },
       "title": "Admin: Project: Deliverables",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -287,9 +306,10 @@
     },
     {
       "headings": {
-        "project%3A-overview": "Project: Overview "
+        "project-overview": "Project: Overview "
       },
       "title": "Admin: Project: Overview",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -298,9 +318,10 @@
     },
     {
       "headings": {
-        "project%3A-the-product": "Project: The product "
+        "project-the-product": "Project: The product "
       },
       "title": "Admin: Project: The product",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -309,17 +330,18 @@
     },
     {
       "headings": {
-        "project%3A-scope": "Project: Scope  | project expectations",
+        "project-scope": "Project: Scope  | project expectations",
         "project-direction": "Project Direction",
         "individual-expectations": " Individual Expectations",
-        "%5Bindividual%5D-expectations-on-features": "[Individual] Expectations on Features",
-        "%5Bindividual%5D-expectations-on-code": "[Individual] Expectations on Code",
-        "%5Bindividual%5D-expectations-on-documentation": "[Individual] Expectations on Documentation",
-        "%5Bindividual%5D-expectations-on-testing": "[Individual] Expectations on Testing",
-        "%5Bindividual%5D-expectations-on-teamwork": "[Individual] Expectations on Teamwork",
+        "individual-expectations-on-features": "[Individual] Expectations on Features",
+        "individual-expectations-on-code": "[Individual] Expectations on Code",
+        "individual-expectations-on-documentation": "[Individual] Expectations on Documentation",
+        "individual-expectations-on-testing": "[Individual] Expectations on Testing",
+        "individual-expectations-on-teamwork": "[Individual] Expectations on Teamwork",
         "team-expectations": " Team Expectations"
       },
       "title": "Admin: Project: Scope",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -328,9 +350,10 @@
     },
     {
       "headings": {
-        "project%3A-supervision": "Project: Supervision "
+        "project-supervision": "Project: Supervision "
       },
       "title": "Admin: Project: Supervision",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -342,6 +365,7 @@
         "forming-teams": "Forming Teams "
       },
       "title": "Admin: Forming Teams",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -350,9 +374,10 @@
     },
     {
       "headings": {
-        "project%3A-timeline": "Project: Timeline "
+        "project-timeline": "Project: Timeline "
       },
       "title": "Admin: Project: Timeline",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -361,9 +386,22 @@
     },
     {
       "headings": {
-        "project%3A-inception-%5Bweek-3%5D": "Project: inception [week 3] "
+        "project-warmup-week-2": "Project: warmup [week 2] "
+      },
+      "title": "Admin: Project: warmup [week 2]",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/project-w02.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "project-inception-week-3": "Project: inception [week 3] "
       },
       "title": "Admin: Project: inception [week 3]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -372,9 +410,10 @@
     },
     {
       "headings": {
-        "project%3A-mid-v1.0-%5Bweek-4%5D": "Project: mid-v1.0 [week 4] "
+        "project-mid-v1-0-week-4": "Project: mid-v1.0 [week 4] "
       },
       "title": "Admin: Project: mid-v1.0 [week 4]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -383,11 +422,12 @@
     },
     {
       "headings": {
-        "project%3A-v1.0-%5Bweek-5%5D": "Project: v1.0 [week 5] ",
-        "v1.0-documentation": "v1.0 Documentation",
-        "v1.0-project-management": "v1.0 Project Management"
+        "project-v1-0-week-5": "Project: v1.0 [week 5] ",
+        "v1-0-documentation": "v1.0 Documentation",
+        "v1-0-project-management": "v1.0 Project Management"
       },
       "title": "Admin: Project: v1.0 [week 5]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -396,9 +436,10 @@
     },
     {
       "headings": {
-        "project%3A-mid-v1.1-%5Bweek-6%5D": "Project: mid-v1.1 [week 6] "
+        "project-mid-v1-1-week-6": "Project: mid-v1.1 [week 6] "
       },
       "title": "Admin: Project: mid-v1.1 [week 6]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -407,12 +448,13 @@
     },
     {
       "headings": {
-        "project%3A-v1.1-%5Bweek-7%5D": "Project: v1.1 [week 7] ",
-        "v1.1-project-management": "v1.1 Project Management",
-        "v1.1-documentation": "v1.1 Documentation",
-        "v1.1-product": "v1.1 Product"
+        "project-v1-1-week-7": "Project: v1.1 [week 7] ",
+        "v1-1-project-management": "v1.1 Project Management",
+        "v1-1-documentation": "v1.1 Documentation",
+        "v1-1-product": "v1.1 Product"
       },
       "title": "Admin: Project: v1.1 [week 7]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -421,9 +463,10 @@
     },
     {
       "headings": {
-        "project%3A-mid-v1.2-%5Bweek-8%5D": "Project: mid-v1.2 [week 8] "
+        "project-mid-v1-2-week-8": "Project: mid-v1.2 [week 8] "
       },
       "title": "Admin: Project: mid-v1.2 [week 8]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -432,13 +475,14 @@
     },
     {
       "headings": {
-        "project%3A-v1.2-%5Bweek-9%5D": "Project: v1.2 [week 9] ",
-        "v1.2-project-management": "v1.2 Project Management",
-        "v1.2-product": "v1.2 Product",
-        "v1.2-documentation": "v1.2 Documentation",
-        "v1.2-demo": "v1.2 Demo"
+        "project-v1-2-week-9": "Project: v1.2 [week 9] ",
+        "v1-2-project-management": "v1.2 Project Management",
+        "v1-2-product": "v1.2 Product",
+        "v1-2-documentation": "v1.2 Documentation",
+        "v1-2-demo": "v1.2 Demo"
       },
       "title": "Admin: Project: v1.2 [week 9]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -448,9 +492,10 @@
     {
       "headings": {
         "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
-        "project%3A-mid-v1.3-%5Bweek-10%5D": "Project: mid-v1.3 [week 10] "
+        "project-mid-v1-3-week-10": "Project: mid-v1.3 [week 10] "
       },
       "title": "Admin: Project: mid-v1.3 [week 10]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -459,14 +504,15 @@
     },
     {
       "headings": {
-        "project%3A-v1.3-%5Bweek-11%5D": "Project: v1.3 [week 11] ",
-        "v1.3-project-management": "v1.3 Project Management",
-        "v1.3-product": "v1.3 Product",
-        "v1.3-documentation": "v1.3 Documentation",
-        "v1.3-demo": "v1.3 Demo",
-        "v1.3-testing-(aka-practical-exam-dry-run)": "v1.3 Testing (aka Practical Exam Dry Run)"
+        "project-v1-3-week-11": "Project: v1.3 [week 11] ",
+        "v1-3-project-management": "v1.3 Project Management",
+        "v1-3-product": "v1.3 Product",
+        "v1-3-documentation": "v1.3 Documentation",
+        "v1-3-demo": "v1.3 Demo",
+        "v1-3-testing-aka-practical-exam-dry-run": "v1.3 Testing (aka Practical Exam Dry Run)"
       },
       "title": "Admin: Project: v1.3 [week 11]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -475,9 +521,10 @@
     },
     {
       "headings": {
-        "project%3A-mid-v1.4-%5Bweek-12%5D": "Project: mid-v1.4 [week 12] "
+        "project-mid-v1-4-week-12": "Project: mid-v1.4 [week 12] "
       },
       "title": "Admin: Project: mid-v1.4 [week 12]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -486,17 +533,18 @@
     },
     {
       "headings": {
-        "project%3A-v1.4-%5Bweek-13%5D": "Project: v1.4 [week 13] ",
-        "v1.4-product": "v1.4 Product",
-        "v1.4-source-code": "v1.4 Source Code",
-        "v1.4-user-guide": "v1.4 User Guide",
-        "v1.4-developer-guide": "v1.4 Developer Guide",
-        "v1.4-project-portfolio-page-(ppp)": "v1.4 Project Portfolio Page (PPP)",
-        "v1.4-product-website": "v1.4 Product Website",
-        "v1.4-demo": "v1.4 Demo",
-        "v1.4-practical-exam": "v1.4 Practical Exam"
+        "project-v1-4-week-13": "Project: v1.4 [week 13] ",
+        "v1-4-product": "v1.4 Product",
+        "v1-4-source-code": "v1.4 Source Code",
+        "v1-4-user-guide": "v1.4 User Guide",
+        "v1-4-developer-guide": "v1.4 Developer Guide",
+        "v1-4-project-portfolio-page-ppp": "v1.4 Project Portfolio Page (PPP)",
+        "v1-4-product-website": "v1.4 Product Website",
+        "v1-4-demo": "v1.4 Demo",
+        "v1-4-practical-exam": "v1.4 Practical Exam"
       },
       "title": "Admin: Project: v1.4 [week 13]",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -506,208 +554,208 @@
     {
       "headings": {
         "f11-1": "F11-1",
-        "feature-fit%3A": " Feature fit:",
-        "demo-quality%3A": " Demo quality:",
+        "feature-fit": " Feature fit:",
+        "demo-quality": " Demo quality:",
         "f11-1-2": "F11-1",
         "f11-2": "F11-2",
-        "feature-fit%3A-2": " Feature fit:",
-        "demo-quality%3A-2": " Demo quality:",
+        "feature-fit-2": " Feature fit:",
+        "demo-quality-2": " Demo quality:",
         "f11-2-2": "F11-2",
         "f11-3": "F11-3",
-        "feature-fit%3A-3": " Feature fit:",
-        "demo-quality%3A-3": " Demo quality:",
+        "feature-fit-3": " Feature fit:",
+        "demo-quality-3": " Demo quality:",
         "f11-3-2": "F11-3",
         "f11-4": "F11-4",
-        "feature-fit%3A-4": " Feature fit:",
-        "demo-quality%3A-4": " Demo quality:",
+        "feature-fit-4": " Feature fit:",
+        "demo-quality-4": " Demo quality:",
         "f11-4-2": "F11-4",
         "f10-1": "F10-1",
-        "feature-fit%3A-5": " Feature fit:",
-        "demo-quality%3A-5": " Demo quality:",
+        "feature-fit-5": " Feature fit:",
+        "demo-quality-5": " Demo quality:",
         "f10-1-2": "F10-1",
         "f10-2": "F10-2",
-        "feature-fit%3A-6": " Feature fit:",
-        "demo-quality%3A-6": " Demo quality:",
+        "feature-fit-6": " Feature fit:",
+        "demo-quality-6": " Demo quality:",
         "f10-2-2": "F10-2",
         "f10-3": "F10-3",
-        "feature-fit%3A-7": " Feature fit:",
-        "demo-quality%3A-7": " Demo quality:",
+        "feature-fit-7": " Feature fit:",
+        "demo-quality-7": " Demo quality:",
         "f10-3-2": "F10-3",
         "f10-4": "F10-4",
-        "feature-fit%3A-8": " Feature fit:",
-        "demo-quality%3A-8": " Demo quality:",
+        "feature-fit-8": " Feature fit:",
+        "demo-quality-8": " Demo quality:",
         "f10-4-2": "F10-4",
         "t10-1": "T10-1",
-        "feature-fit%3A-9": " Feature fit:",
-        "demo-quality%3A-9": " Demo quality:",
+        "feature-fit-9": " Feature fit:",
+        "demo-quality-9": " Demo quality:",
         "t10-1-2": "T10-1",
         "t10-2": "T10-2",
-        "feature-fit%3A-10": " Feature fit:",
-        "demo-quality%3A-10": " Demo quality:",
+        "feature-fit-10": " Feature fit:",
+        "demo-quality-10": " Demo quality:",
         "t10-2-2": "T10-2",
         "t10-3": "T10-3",
-        "feature-fit%3A-11": " Feature fit:",
-        "demo-quality%3A-11": " Demo quality:",
+        "feature-fit-11": " Feature fit:",
+        "demo-quality-11": " Demo quality:",
         "t10-3-2": "T10-3",
         "t13-1": "T13-1",
-        "feature-fit%3A-12": " Feature fit:",
-        "demo-quality%3A-12": " Demo quality:",
+        "feature-fit-12": " Feature fit:",
+        "demo-quality-12": " Demo quality:",
         "t13-1-2": "T13-1",
         "t13-2": "T13-2",
-        "feature-fit%3A-13": " Feature fit:",
-        "demo-quality%3A-13": " Demo quality:",
+        "feature-fit-13": " Feature fit:",
+        "demo-quality-13": " Demo quality:",
         "t13-2-2": "T13-2",
         "t13-3": "T13-3",
-        "feature-fit%3A-14": " Feature fit:",
-        "demo-quality%3A-14": " Demo quality:",
+        "feature-fit-14": " Feature fit:",
+        "demo-quality-14": " Demo quality:",
         "t13-3-2": "T13-3",
         "t13-4": "T13-4",
-        "feature-fit%3A-15": " Feature fit:",
-        "demo-quality%3A-15": " Demo quality:",
+        "feature-fit-15": " Feature fit:",
+        "demo-quality-15": " Demo quality:",
         "t13-4-2": "T13-4",
         "t09-1": "T09-1",
-        "feature-fit%3A-16": " Feature fit:",
-        "demo-quality%3A-16": " Demo quality:",
+        "feature-fit-16": " Feature fit:",
+        "demo-quality-16": " Demo quality:",
         "t09-1-2": "T09-1",
         "t09-2": "T09-2",
-        "feature-fit%3A-17": " Feature fit:",
-        "demo-quality%3A-17": " Demo quality:",
+        "feature-fit-17": " Feature fit:",
+        "demo-quality-17": " Demo quality:",
         "t09-2-2": "T09-2",
         "t09-3": "T09-3",
-        "feature-fit%3A-18": " Feature fit:",
-        "demo-quality%3A-18": " Demo quality:",
+        "feature-fit-18": " Feature fit:",
+        "demo-quality-18": " Demo quality:",
         "t09-3-2": "T09-3",
         "t09-4": "T09-4",
-        "feature-fit%3A-19": " Feature fit:",
-        "demo-quality%3A-19": " Demo quality:",
+        "feature-fit-19": " Feature fit:",
+        "demo-quality-19": " Demo quality:",
         "t09-4-2": "T09-4",
         "t12-1": "T12-1",
-        "feature-fit%3A-20": " Feature fit:",
-        "demo-quality%3A-20": " Demo quality:",
+        "feature-fit-20": " Feature fit:",
+        "demo-quality-20": " Demo quality:",
         "t12-1-2": "T12-1",
         "t12-2": "T12-2",
-        "feature-fit%3A-21": " Feature fit:",
-        "demo-quality%3A-21": " Demo quality:",
+        "feature-fit-21": " Feature fit:",
+        "demo-quality-21": " Demo quality:",
         "t12-2-2": "T12-2",
         "t12-3": "T12-3",
-        "feature-fit%3A-22": " Feature fit:",
-        "demo-quality%3A-22": " Demo quality:",
+        "feature-fit-22": " Feature fit:",
+        "demo-quality-22": " Demo quality:",
         "t12-3-2": "T12-3",
         "t12-4": "T12-4",
-        "feature-fit%3A-23": " Feature fit:",
-        "demo-quality%3A-23": " Demo quality:",
+        "feature-fit-23": " Feature fit:",
+        "demo-quality-23": " Demo quality:",
         "t12-4-2": "T12-4",
         "t16-1": "T16-1",
-        "feature-fit%3A-24": " Feature fit:",
-        "demo-quality%3A-24": " Demo quality:",
+        "feature-fit-24": " Feature fit:",
+        "demo-quality-24": " Demo quality:",
         "t16-1-2": "T16-1",
         "t16-2": "T16-2",
-        "feature-fit%3A-25": " Feature fit:",
-        "demo-quality%3A-25": " Demo quality:",
+        "feature-fit-25": " Feature fit:",
+        "demo-quality-25": " Demo quality:",
         "t16-2-2": "T16-2",
         "t16-3": "T16-3",
-        "feature-fit%3A-26": " Feature fit:",
-        "demo-quality%3A-26": " Demo quality:",
+        "feature-fit-26": " Feature fit:",
+        "demo-quality-26": " Demo quality:",
         "t16-3-2": "T16-3",
         "t16-4": "T16-4",
-        "feature-fit%3A-27": " Feature fit:",
-        "demo-quality%3A-27": " Demo quality:",
+        "feature-fit-27": " Feature fit:",
+        "demo-quality-27": " Demo quality:",
         "t16-4-2": "T16-4",
         "w10-1": "W10-1",
-        "feature-fit%3A-28": " Feature fit:",
-        "demo-quality%3A-28": " Demo quality:",
+        "feature-fit-28": " Feature fit:",
+        "demo-quality-28": " Demo quality:",
         "w10-1-2": "W10-1",
         "w10-2": "W10-2",
-        "feature-fit%3A-29": " Feature fit:",
-        "demo-quality%3A-29": " Demo quality:",
+        "feature-fit-29": " Feature fit:",
+        "demo-quality-29": " Demo quality:",
         "w10-2-2": "W10-2",
         "w10-3": "W10-3",
-        "feature-fit%3A-30": " Feature fit:",
-        "demo-quality%3A-30": " Demo quality:",
+        "feature-fit-30": " Feature fit:",
+        "demo-quality-30": " Demo quality:",
         "w10-3-2": "W10-3",
         "w10-4": "W10-4",
-        "feature-fit%3A-31": " Feature fit:",
-        "demo-quality%3A-31": " Demo quality:",
+        "feature-fit-31": " Feature fit:",
+        "demo-quality-31": " Demo quality:",
         "w10-4-2": "W10-4",
         "w13-1": "W13-1",
-        "feature-fit%3A-32": " Feature fit:",
-        "demo-quality%3A-32": " Demo quality:",
+        "feature-fit-32": " Feature fit:",
+        "demo-quality-32": " Demo quality:",
         "w13-1-2": "W13-1",
         "w13-2": "W13-2",
-        "feature-fit%3A-33": " Feature fit:",
-        "demo-quality%3A-33": " Demo quality:",
+        "feature-fit-33": " Feature fit:",
+        "demo-quality-33": " Demo quality:",
         "w13-2-2": "W13-2",
         "w13-3": "W13-3",
-        "feature-fit%3A-34": " Feature fit:",
-        "demo-quality%3A-34": " Demo quality:",
+        "feature-fit-34": " Feature fit:",
+        "demo-quality-34": " Demo quality:",
         "w13-3-2": "W13-3",
         "w13-4": "W13-4",
-        "feature-fit%3A-35": " Feature fit:",
-        "demo-quality%3A-35": " Demo quality:",
+        "feature-fit-35": " Feature fit:",
+        "demo-quality-35": " Demo quality:",
         "w13-4-2": "W13-4",
         "w12-1": "W12-1",
-        "feature-fit%3A-36": " Feature fit:",
-        "demo-quality%3A-36": " Demo quality:",
+        "feature-fit-36": " Feature fit:",
+        "demo-quality-36": " Demo quality:",
         "w12-1-2": "W12-1",
         "w12-2": "W12-2",
-        "feature-fit%3A-37": " Feature fit:",
-        "demo-quality%3A-37": " Demo quality:",
+        "feature-fit-37": " Feature fit:",
+        "demo-quality-37": " Demo quality:",
         "w12-2-2": "W12-2",
         "w12-3": "W12-3",
-        "feature-fit%3A-38": " Feature fit:",
-        "demo-quality%3A-38": " Demo quality:",
+        "feature-fit-38": " Feature fit:",
+        "demo-quality-38": " Demo quality:",
         "w12-3-2": "W12-3",
         "w12-4": "W12-4",
-        "feature-fit%3A-39": " Feature fit:",
-        "demo-quality%3A-39": " Demo quality:",
+        "feature-fit-39": " Feature fit:",
+        "demo-quality-39": " Demo quality:",
         "w12-4-2": "W12-4",
         "w14-1": "W14-1",
-        "feature-fit%3A-40": " Feature fit:",
-        "demo-quality%3A-40": " Demo quality:",
+        "feature-fit-40": " Feature fit:",
+        "demo-quality-40": " Demo quality:",
         "w14-1-2": "W14-1",
         "w14-2": "W14-2",
-        "feature-fit%3A-41": " Feature fit:",
-        "demo-quality%3A-41": " Demo quality:",
+        "feature-fit-41": " Feature fit:",
+        "demo-quality-41": " Demo quality:",
         "w14-2-2": "W14-2",
         "w14-3": "W14-3",
-        "feature-fit%3A-42": " Feature fit:",
-        "demo-quality%3A-42": " Demo quality:",
+        "feature-fit-42": " Feature fit:",
+        "demo-quality-42": " Demo quality:",
         "w14-3-2": "W14-3",
         "w14-4": "W14-4",
-        "feature-fit%3A-43": " Feature fit:",
-        "demo-quality%3A-43": " Demo quality:",
+        "feature-fit-43": " Feature fit:",
+        "demo-quality-43": " Demo quality:",
         "w14-4-2": "W14-4",
         "w16-1": "W16-1",
-        "feature-fit%3A-44": " Feature fit:",
-        "demo-quality%3A-44": " Demo quality:",
+        "feature-fit-44": " Feature fit:",
+        "demo-quality-44": " Demo quality:",
         "w16-1-2": "W16-1",
         "w16-2": "W16-2",
-        "feature-fit%3A-45": " Feature fit:",
-        "demo-quality%3A-45": " Demo quality:",
+        "feature-fit-45": " Feature fit:",
+        "demo-quality-45": " Demo quality:",
         "w16-2-2": "W16-2",
         "w16-3": "W16-3",
-        "feature-fit%3A-46": " Feature fit:",
-        "demo-quality%3A-46": " Demo quality:",
+        "feature-fit-46": " Feature fit:",
+        "demo-quality-46": " Demo quality:",
         "w16-3-2": "W16-3",
         "w16-4": "W16-4",
-        "feature-fit%3A-47": " Feature fit:",
-        "demo-quality%3A-47": " Demo quality:",
+        "feature-fit-47": " Feature fit:",
+        "demo-quality-47": " Demo quality:",
         "w16-4-2": "W16-4",
         "w17-1": "W17-1",
-        "feature-fit%3A-48": " Feature fit:",
-        "demo-quality%3A-48": " Demo quality:",
+        "feature-fit-48": " Feature fit:",
+        "demo-quality-48": " Demo quality:",
         "w17-1-2": "W17-1",
         "w17-2": "W17-2",
-        "feature-fit%3A-49": " Feature fit:",
-        "demo-quality%3A-49": " Demo quality:",
+        "feature-fit-49": " Feature fit:",
+        "demo-quality-49": " Demo quality:",
         "w17-2-2": "W17-2",
         "w17-3": "W17-3",
-        "feature-fit%3A-50": " Feature fit:",
-        "demo-quality%3A-50": " Demo quality:",
+        "feature-fit-50": " Feature fit:",
+        "demo-quality-50": " Demo quality:",
         "w17-3-2": "W17-3",
         "w17-4": "W17-4",
-        "feature-fit%3A-51": " Feature fit:",
-        "demo-quality%3A-51": " Demo quality:",
+        "feature-fit-51": " Feature fit:",
+        "demo-quality-51": " Demo quality:",
         "w17-4-2": "W17-4"
       },
       "src": "admin/projectGrading.md",
@@ -733,9 +781,10 @@
         "t11-1": "T11-1    ",
         "t11-2": "T11-2    ",
         "t11-3": "T11-3    ",
-        "cs2113%2Ft-project-list": "CS2113/T Project List"
+        "cs2113-t-project-list": "CS2113/T Project List"
       },
       "title": "Project List",
+      "header": "header.md",
       "footer": "footer.md",
       "head": "scheduleHead.md",
       "src": "admin/projectList.md",
@@ -743,7 +792,7 @@
     },
     {
       "headings": {
-        "adding-%40%40author-tags-indicate-authorship": "Adding @@author tags indicate authorship",
+        "adding-author-tags-indicate-authorship": "Adding @@author tags indicate authorship",
         "what-to-and-what-not-to-annotate": "What to and what not to annotate"
       },
       "src": "admin/reposenseAuthorAnnotation.md",
@@ -775,6 +824,7 @@
         "t11-3": "T11-3"
       },
       "title": "config.json File Templates for RepoSense",
+      "header": "header.md",
       "footer": "footer.md",
       "head": "scheduleHead.md",
       "src": "admin/reposenseConfigTemplates.md",
@@ -785,6 +835,7 @@
         "textbooks": "Textbooks "
       },
       "title": "Admin: Textbooks",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -797,6 +848,7 @@
         "tools": "Tools "
       },
       "title": "Admin: Tools",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -807,9 +859,10 @@
       "headings": {
         "tutorial-structure": "Tutorial Structure",
         "tutorial-timetable": "Tutorial Timetable",
-        "tutorials-%23tutor-role-%23times-%23venue": "Tutorials  #tutor role #times #venue"
+        "tutorials-tutor-role-times-venue": "Tutorials  #tutor role #times #venue"
       },
       "title": "Admin: Tutorials",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -831,6 +884,7 @@
         "making-this-website-better": "Making this Website Better"
       },
       "title": "Admin: Using this Website",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -842,6 +896,7 @@
         "weekly-schedule": "Weekly Schedule "
       },
       "title": "Admin: Weekly Schedule",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
@@ -850,7 +905,7 @@
     },
     {
       "headings": {
-        "java-coding-standard-(basic)": "Java Coding Standard (Basic)",
+        "java-coding-standard-basic": "Java Coding Standard (Basic)",
         "naming": "Naming",
         "layout": "Layout",
         "statements": "Statements",
@@ -896,7 +951,7 @@
     },
     {
       "headings": {
-        "java-coding-standard-(basic-%2B-intermediate)": "Java Coding Standard (Basic + Intermediate)",
+        "java-coding-standard-basic-intermediate": "Java Coding Standard (Basic + Intermediate)",
         "naming": "Naming",
         "layout": "Layout",
         "statements": "Statements",
@@ -922,15 +977,15 @@
         "acknowledgements": "Acknowledgements"
       },
       "title": "About: Acknowledgements",
-      "footer": "footer.md",
       "src": "book/about/acknowledgements.md",
       "layout": "default"
     },
     {
       "headings": {
-        "software-engineering-for-self-directed-learners-cs2113%2Ft-edition---2018": "Software Engineering for Self-Directed Learners CS2113/T edition - 2018"
+        "software-engineering-for-self-directed-learners-cs2113-t-edition-2018": "Software Engineering for Self-Directed Learners CS2113/T edition - 2018"
       },
       "title": "Textbook",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
       "src": "se-book-adapted/index.md",
@@ -955,8 +1010,10 @@
         "software-architecture": "Software Architecture"
       },
       "title": "Textbook Chapter : Software Architecture",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/architecture.md",
       "layout": "default"
@@ -971,37 +1028,39 @@
         "avoid-magic-numbers": "Avoid Magic Numbers",
         "make-the-code-obvious": "Make the Code Obvious",
         "structure-code-logically": "Structure Code Logically",
-        "do-not-'trip-up'-reader%3Ca-class%3D'fa-fa-anchor'-href%3D'%23do-not-'trip-up'-reader'%3E": "Do Not 'Trip Up' Reader&lt;a class='fa fa-anchor' href='#do-not-'trip-up'-reader'&gt;",
+        "do-not-trip-up-reader": "Do Not 'Trip Up' Reader",
         "practice-kissing": "Practice KISSing",
         "avoid-premature-optimizations": "Avoid Premature Optimizations",
         "slap-hard": "SLAP Hard",
         "intermediate": "Intermediate",
         "make-the-happy-path-prominent": "Make the Happy Path Prominent",
         "advanced": "Advanced",
-        "guideline%3A-maximise-readability": "Guideline: Maximise Readability",
-        "guideline%3A-follow-a-standard": "Guideline: Follow a Standard",
+        "guideline-maximise-readability": "Guideline: Maximise Readability",
+        "guideline-follow-a-standard": "Guideline: Follow a Standard",
         "use-nouns-for-things-and-verbs-for-actions": "Use Nouns for Things and Verbs for Actions",
         "use-standard-words": "Use Standard Words",
         "use-name-to-explain": "Use Name to Explain",
-        "not-too-long%2C-not-too-short": "Not Too Long, Not Too Short",
+        "not-too-long-not-too-short": "Not Too Long, Not Too Short",
         "avoid-misleading-names": "Avoid Misleading Names",
-        "guideline%3A-name-well": "Guideline: Name Well",
+        "guideline-name-well": "Guideline: Name Well",
         "use-the-default-branch": "Use the Default Branch",
-        "don't-recycle-variables-or-parameters%3Ca-class%3D'fa-fa-anchor'-href%3D'%23don't-recycle-variables-or-parameters'%3E": "Don't Recycle Variables or Parameters&lt;a class='fa fa-anchor' href='#don't-recycle-variables-or-parameters'&gt;",
+        "don-t-recycle-variables-or-parameters": "Don't Recycle Variables or Parameters",
         "avoid-empty-catch-blocks": "Avoid Empty Catch Blocks",
         "delete-dead-code": "Delete Dead Code",
         "minimise-scope-of-variables": "Minimise Scope of Variables",
         "minimise-code-duplication": "Minimise Code Duplication",
-        "guideline%3A-avoid-unsafe-shortcuts": "Guideline: Avoid Unsafe Shortcuts",
+        "guideline-avoid-unsafe-shortcuts": "Guideline: Avoid Unsafe Shortcuts",
         "do-not-repeat-the-obvious": "Do Not Repeat the Obvious",
         "write-to-the-reader": "Write to the Reader",
-        "explain-what-and-why%2C-not-how": "Explain WHAT and WHY, not HOW",
-        "guideline%3A-comment-minimally%2C-but-sufficiently": "Guideline: Comment Minimally, but Sufficiently",
+        "explain-what-and-why-not-how": "Explain WHAT and WHY, not HOW",
+        "guideline-comment-minimally-but-sufficiently": "Guideline: Comment Minimally, but Sufficiently",
         "code-quality": "Code Quality"
       },
       "title": "Textbook Chapter : Code Quality",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/codeQuality.md",
       "layout": "default"
@@ -1009,7 +1068,7 @@
     {
       "headings": {
         "about-this-book-chapter": "About this Book Chapter",
-        "what-is-java%3F": "What is Java?",
+        "what-is-java": "What is Java?",
         "how-java-works": "How Java Works",
         "java-editions": "Java Editions",
         "the-java-world": "The Java World",
@@ -1061,29 +1120,29 @@
         "the-arrays-class": "The Arrays Class",
         "the-scanner-class": "The Scanner Class",
         "find-characters-of-a-string": "Find characters of a string",
-        "change-a-string-to-upper%2Flower-case": "Change a string to upper/lower case",
+        "change-a-string-to-upper-lower-case": "Change a string to upper/lower case",
         "replacing-parts-of-a-string": "Replacing parts of a string",
         "accessing-substrings": "Accessing substrings",
         "searching-within-strings": "Searching within strings",
         "comparing-strings": "Comparing Strings",
-        "printing-special-characters-(line-breaks%2C-tabs%2C-...)": "Printing special characters (line breaks, tabs, ...)",
+        "printing-special-characters-line-breaks-tabs": "Printing special characters (line breaks, tabs, ...)",
         "string-formatting": "String formatting",
         "some-useful-classes": "Some Useful Classes",
-        "inheritance-(basic)": "Inheritance (Basic)",
+        "inheritance-basic": "Inheritance (Basic)",
         "the-object-class": "The Object Class",
         "interfaces": "Interfaces",
         "polymorhism": "Polymorhism",
         "abstract-classes-and-methods": "Abstract Classes and Methods",
         "accessing-superclass-members": "Accessing Superclass Members",
         "subclass-constructors": "Subclass Constructors",
-        "access-modifiers-(simplified)": "Access Modifiers (simplified)",
+        "access-modifiers-simplified": "Access Modifiers (simplified)",
         "the-tostring-method": "The toString method",
         "the-equals-method": "The equals method",
         "inheritance": "Inheritance",
-        "what-are-exceptions%3F": "What are Exceptions?",
+        "what-are-exceptions": "What are Exceptions?",
         "how-to-use-exceptions": "How to use Exceptions",
         "exceptions": "Exceptions",
-        "what-are-generics%3F": "What are Generics?",
+        "what-are-generics": "What are Generics?",
         "how-to-use-generics": "How to use Generics",
         "generics": "Generics",
         "the-collections-framework": "The Collections Framework",
@@ -1098,11 +1157,13 @@
         "casting": "Casting",
         "jar-files": "JAR Files",
         "miscellaneous-topics": "Miscellaneous Topics",
-        "c%2B%2B-to-java": "C++ to Java"
+        "c-to-java": "C++ to Java"
       },
       "title": "Textbook Chapter : C++ to Java",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/cppToJava.md",
       "layout": "default"
@@ -1114,8 +1175,10 @@
         "software-design": "Software Design"
       },
       "title": "Textbook Chapter : Software Design",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/design.md",
       "layout": "default"
@@ -1129,8 +1192,10 @@
         "design-approaches": "Design Approaches"
       },
       "title": "Textbook Chapter : Design Approaches",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/designApproaches.md",
       "layout": "default"
@@ -1146,8 +1211,10 @@
         "design-fundamentals": "Design Fundamentals"
       },
       "title": "Textbook Chapter : Design Fundamentals",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/designFundamentals.md",
       "layout": "default"
@@ -1163,7 +1230,7 @@
         "abstraction-occurrence-pattern": "Abstraction Occurrence Pattern",
         "facade-pattern": "Facade Pattern",
         "command-pattern": "Command Pattern",
-        "model-view-controller-(mvc)-pattern": "Model View Controller (MVC) Pattern",
+        "model-view-controller-mvc-pattern": "Model View Controller (MVC) Pattern",
         "observer-pattern": "Observer Pattern",
         "combining-design-patterns": "Combining Design Patterns",
         "other-design-patterns": "Other Design Patterns",
@@ -1174,8 +1241,10 @@
         "software-design-patterns": "Software Design Patterns"
       },
       "title": "Textbook Chapter : Software Design Patterns",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/designPatterns.md",
       "layout": "default"
@@ -1186,9 +1255,9 @@
         "introduction": "Introduction",
         "why": "Why",
         "how": "How",
-        "guideline%3A-go-top-down%2C-not-bottom-up": "Guideline: Go Top-down, Not Bottom-up",
-        "guideline%3A-aim-for-comprehensibility": "Guideline: Aim for Comprehensibility",
-        "guideline%3A-document-minimally%2C-but-sufficiently": "Guideline: Document Minimally, but Sufficiently",
+        "guideline-go-top-down-not-bottom-up": "Guideline: Go Top-down, Not Bottom-up",
+        "guideline-aim-for-comprehensibility": "Guideline: Aim for Comprehensibility",
+        "guideline-document-minimally-but-sufficiently": "Guideline: Document Minimally, but Sufficiently",
         "guidelines": "Guidelines",
         "javadoc": "JavaDoc",
         "markdown": "Markdown",
@@ -1197,8 +1266,10 @@
         "documentation": "Documentation"
       },
       "title": "Textbook Chapter : Documentation",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/documentation.md",
       "layout": "default"
@@ -1221,8 +1292,10 @@
         "error-handling": "Error Handling"
       },
       "title": "Textbook Chapter : Error Handling",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/errorHandling.md",
       "layout": "default"
@@ -1239,8 +1312,10 @@
         "gathering-requirements": "Gathering Requirements"
       },
       "title": "Textbook Chapter : Gathering Requirements",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/gatheringRequirements.md",
       "layout": "default"
@@ -1264,8 +1339,10 @@
         "git-and-github": "Git and Github"
       },
       "title": "Textbook Chapter : Git and Github",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/gitAndGithub.md",
       "layout": "default"
@@ -1278,8 +1355,10 @@
         "ides": "IDEs"
       },
       "title": "Textbook Chapter : IDEs",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/ides.md",
       "layout": "default"
@@ -1288,7 +1367,7 @@
       "headings": {
         "what": "What",
         "introduction": "Introduction",
-        "'late-and-one-time'-vs-'early-and-frequent'%3Ca-class%3D'fa-fa-anchor'-href%3D'%23'late-and-one-time'-vs-'early-and-frequent''%3E": "'Late and One Time' vs 'Early and Frequent'&lt;a class='fa fa-anchor' href='#'late-and-one-time'-vs-'early-and-frequent''&gt;",
+        "late-and-one-time-vs-early-and-frequent": "'Late and One Time' vs 'Early and Frequent'",
         "big-bang-vs-incremental-integration": "Big-Bang vs Incremental Integration",
         "top-down-vs-bottom-up-integration": "Top-Down vs Bottom-Up Integration",
         "approaches": "Approaches",
@@ -1297,8 +1376,10 @@
         "integration": "Integration"
       },
       "title": "Textbook Chapter : Integration",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/integration.md",
       "layout": "default"
@@ -1308,15 +1389,17 @@
         "project-setup": "Project Setup",
         "code-navigation": "Code Navigation",
         "productivity-shortcuts": "Productivity Shortcuts",
-        "debugging%3A-basic": "Debugging: Basic",
+        "debugging-basic": "Debugging: Basic",
         "refactoring": "Refactoring",
         "running-intellij-idea-for-the-first-time": "Running Intellij IDEA for the First Time",
         "importing-a-project-to-intellij-idea": "Importing a Project to Intellij IDEA",
         "intellij-idea": "Intellij IDEA"
       },
       "title": "Textbook Chapter : Intellij IDEA",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/intellij.md",
       "layout": "default"
@@ -1324,26 +1407,30 @@
     {
       "headings": {
         "varargs": "Varargs ",
-        "javafx%3A-basic": "JavaFX: Basic",
-        "streams%3A-basic": "Streams: Basic",
+        "javafx-basic": "JavaFX: Basic",
+        "streams-basic": "Streams: Basic",
         "java": "Java"
       },
       "title": "Textbook Chapter : Java",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/javaTools.md",
       "layout": "default"
     },
     {
       "headings": {
-        "junit%3A-basic": "JUnit: Basic",
-        "junit%3A-intermediate": "JUnit: Intermediate",
+        "junit-basic": "JUnit: Basic",
+        "junit-intermediate": "JUnit: Intermediate",
         "junit": "JUnit"
       },
       "title": "Textbook Chapter : JUnit",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/junit.md",
       "layout": "default"
@@ -1355,10 +1442,10 @@
         "uml-models": "UML Models",
         "introduction": "Introduction",
         "oo-structures": "OO Structures",
-        "class-diagrams-(basics)": "Class Diagrams (Basics)",
+        "class-diagrams-basics": "Class Diagrams (Basics)",
         "adding-more-info-to-uml-models": "Adding More Info to UML Models",
-        "class-diagrams---intermediate": "Class Diagrams - Intermediate",
-        "class-diagrams---advanced": "Class Diagrams - Advanced",
+        "class-diagrams-intermediate": "Class Diagrams - Intermediate",
+        "class-diagrams-advanced": "Class Diagrams - Advanced",
         "object-diagrams": "Object Diagrams",
         "object-oriented-domain-models": "Object Oriented Domain Models",
         "deployment-diagrams": "Deployment Diagrams",
@@ -1374,10 +1461,10 @@
         "modeling-abstract-classes": "Modeling abstract classes",
         "modeling-interfaces": "Modeling interfaces",
         "modeling-structures": "Modeling Structures",
-        "activity-diagrams---basic": "Activity Diagrams - Basic",
-        "activity-diagrams---intermediate": "Activity Diagrams - Intermediate",
-        "sequence-diagrams---basic": "Sequence Diagrams - Basic",
-        "sequence-diagrams---intermediate": "Sequence Diagrams - Intermediate",
+        "activity-diagrams-basic": "Activity Diagrams - Basic",
+        "activity-diagrams-intermediate": "Activity Diagrams - Intermediate",
+        "sequence-diagrams-basic": "Sequence Diagrams - Basic",
+        "sequence-diagrams-intermediate": "Sequence Diagrams - Intermediate",
         "use-case-diagrams": "Use Case Diagrams",
         "timing-diagrams": "Timing Diagrams",
         "interaction-overview-diagrams": "Interaction Overview Diagrams",
@@ -1390,8 +1477,10 @@
         "modeling": "Modeling"
       },
       "title": "Textbook Chapter : Modeling",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/modeling.md",
       "layout": "default"
@@ -1434,8 +1523,10 @@
         "object-oriented-programming": "Object-Oriented Programming"
       },
       "title": "Textbook Chapter : Object-Oriented Programming",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/oop.md",
       "layout": "default"
@@ -1452,12 +1543,14 @@
         "law-of-demeter": "Law of Demeter",
         "yagni-principle": "YAGNI Principle",
         "dry-principle": "DRY Principle",
-        "brooks'-law%3Ca-class%3D'fa-fa-anchor'-href%3D'%23brooks'-law'%3E": "Brooks' Law&lt;a class='fa fa-anchor' href='#brooks'-law'&gt;",
+        "brooks-law": "Brooks' Law",
         "principles": "Principles"
       },
       "title": "Textbook Chapter : Principles",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/principles.md",
       "layout": "default"
@@ -1480,8 +1573,10 @@
         "sdlc-process-models": "SDLC Process Models"
       },
       "title": "Textbook Chapter : SDLC Process Models",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/processModels.md",
       "layout": "default"
@@ -1497,8 +1592,10 @@
         "project-planning": "Project Planning"
       },
       "title": "Textbook Chapter : Project Planning",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/projectPlanning.md",
       "layout": "default"
@@ -1514,8 +1611,10 @@
         "quality-assurance": "Quality Assurance"
       },
       "title": "Textbook Chapter : Quality Assurance",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/qualityAssurance.md",
       "layout": "default"
@@ -1528,8 +1627,10 @@
         "refactoring": "Refactoring"
       },
       "title": "Textbook Chapter : Refactoring",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/refactoring.md",
       "layout": "default"
@@ -1543,8 +1644,10 @@
         "requirements": "Requirements"
       },
       "title": "Textbook Chapter : Requirements",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/requirements.md",
       "layout": "default"
@@ -1561,13 +1664,15 @@
         "frameworks-vs-libraries": "Frameworks vs Libraries",
         "frameworks": "Frameworks",
         "platforms": "Platforms",
-        "iaas%2C-paas%2C-and-saas": "Iaas, PaaS, and SaaS",
+        "iaas-paas-and-saas": "Iaas, PaaS, and SaaS",
         "cloud-computing": "Cloud Computing",
         "reuse": "Reuse"
       },
       "title": "Textbook Chapter : Reuse",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/reuse.md",
       "layout": "default"
@@ -1590,8 +1695,10 @@
         "revision-control": "Revision Control"
       },
       "title": "Textbook Chapter : Revision Control",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/revisionControl.md",
       "layout": "default"
@@ -1603,8 +1710,10 @@
         "software-engineering": "Software Engineering"
       },
       "title": "Textbook Chapter : Software Engineering",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/softwareEngineering.md",
       "layout": "default"
@@ -1625,8 +1734,10 @@
         "specifying-requirements": "Specifying Requirements"
       },
       "title": "Textbook Chapter : Specifying Requirements",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/specifyingRequirements.md",
       "layout": "default"
@@ -1637,8 +1748,10 @@
         "teamwork": "Teamwork"
       },
       "title": "Textbook Chapter : Teamwork",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/teamwork.md",
       "layout": "default"
@@ -1662,8 +1775,8 @@
         "boundary-value-analysis": "Boundary Value Analysis",
         "why": "Why",
         "test-input-combination-strategies": "Test Input Combination Strategies",
-        "heuristic%3A-each-valid-input-at-least-once-in-a-positive-test-case": "Heuristic: Each Valid Input at Least Once in a Positive Test Case",
-        "heuristic%3A-no-more-than-one-invalid-input-in-a-test-case": "Heuristic: No More Than One Invalid Input In A Test Case",
+        "heuristic-each-valid-input-at-least-once-in-a-positive-test-case": "Heuristic: Each Valid Input at Least Once in a Positive Test Case",
+        "heuristic-no-more-than-one-invalid-input-in-a-test-case": "Heuristic: No More Than One Invalid Input In A Test Case",
         "mix": "Mix",
         "combining-test-inputs": "Combining Test Inputs",
         "testing-based-on-use-cases": "Testing Based on Use Cases",
@@ -1673,8 +1786,10 @@
         "test-case-design": "Test Case Design"
       },
       "title": "Textbook Chapter : Test Case Design",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/testCaseDesign.md",
       "layout": "default"
@@ -1710,8 +1825,10 @@
         "testing": "Testing"
       },
       "title": "Textbook Chapter : Testing",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/testing.md",
       "layout": "default"
@@ -1764,8 +1881,10 @@
         "uml": "UML"
       },
       "title": "Textbook Chapter : UML",
+      "header": "header.md",
       "footer": "footer.md",
       "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
       "head": "bookHead.md",
       "src": "se-book-adapted/chapters/uml.md",
       "layout": "default"
@@ -1792,6 +1911,7 @@
         "y": "Y"
       },
       "title": "Definitions",
+      "header": "header.md",
       "siteNav": "se-book-adapted-sitenav.md",
       "src": "se-book-adapted/common/definitions.md",
       "layout": "default"
@@ -1801,8 +1921,92 @@
         "combined-exercises": "Combined Exercises"
       },
       "title": "Combined Exercises",
+      "header": "header.md",
       "siteNav": "se-book-adapted-sitenav.md",
       "src": "se-book-adapted/common/exercises.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "project-duke": "Project Duke",
+        "levels": "\r\n              Levels\r\n            ",
+        "duke-1-greet-echo-exit": "Duke 1. Greet, Echo, Exit",
+        "duke-2-add-list": "Duke 2. Add, List",
+        "duke-3-mark-as-done": "Duke 3. Mark as Done",
+        "duke-4-todos-events-deadlines": "Duke 4. ToDos, Events, Deadlines",
+        "duke-5-handle-errors": "Duke 5. Handle Errors",
+        "duke-6-delete": "Duke 6. Delete",
+        "duke-7-save": "Duke 7. Save",
+        "duke-8-dates-and-times": "Duke 8. Dates and Times",
+        "duke-9-find": "Duke 9. Find",
+        "duke-10-gui": "Duke 10. GUI",
+        "extensions-category-a": "\r\n                Extensions: Category A\r\n              ",
+        "a-classes-2": "A-Classes",
+        "a-inheritance-2": "A-Inheritance",
+        "a-exceptions-2": "A-Exceptions",
+        "a-textuitesting": "A-TextUiTesting",
+        "a-collections-2": "A-Collections",
+        "a-moreoop": "A-MoreOOP",
+        "a-junit": "A-JUnit",
+        "a-packages": "A-Packages",
+        "a-javadoc": "A-JavaDoc",
+        "a-codingstandard": "A-CodingStandard",
+        "a-checkstyle": "A-CheckStyle",
+        "a-codequality": "A-CodeQuality",
+        "a-assertions": "A-Assertions",
+        "a-jar": "A-Jar",
+        "a-gradle": "A-Gradle",
+        "a-travis": "A-Travis",
+        "a-enums": "A-Enums",
+        "a-varargs": "A-Varargs",
+        "a-lambdas": "A-Lambdas",
+        "a-streams": "A-Streams",
+        "a-libraries": "A-Libraries",
+        "a-javafx-2": "A-JavaFx",
+        "a-userguide": "A-UserGuide",
+        "a-devguide": "A-DevGuide",
+        "a-release": "A-Release",
+        "extensions-category-b": "\r\n                Extensions: Category B\r\n              ",
+        "b-tentativescheduling": "B-TentativeScheduling",
+        "b-snooze": "B-Snooze",
+        "b-recurringtasks": "B-RecurringTasks",
+        "b-doaftertasks": "B-DoAfterTasks",
+        "b-dowithinperiodtasks": "B-DoWithinPeriodTasks",
+        "b-fixeddurationtasks": "B-FixedDurationTasks",
+        "b-reminders": "B-Reminders",
+        "b-findfreetimes": "B-FindFreeTimes",
+        "b-viewschedules": "B-ViewSchedules",
+        "b-detectanomalies": "B-DetectAnomalies",
+        "extensions-category-c": "\r\n                Extensions: Category C\r\n              ",
+        "c-detectduplicates": "C-DetectDuplicates",
+        "c-flexibledatasource": "C-FlexibleDataSource",
+        "c-sort": "C-Sort",
+        "c-naturaldates": "C-NaturalDates",
+        "c-bettersearch": "C-BetterSearch",
+        "c-update": "C-Update",
+        "c-tagging": "C-Tagging",
+        "c-priority": "C-Priority",
+        "c-archive": "C-Archive",
+        "c-massops": "C-MassOps",
+        "c-statistics": "C-Statistics",
+        "c-undo": "C-Undo",
+        "c-help": "C-Help",
+        "c-friendliersyntax": "C-FriendlierSyntax",
+        "extensions-category-d": "\r\n                Extensions: Category D\r\n              ",
+        "d-contacts": "D-Contacts",
+        "d-notes": "D-Notes",
+        "d-expenses": "D-Expenses",
+        "d-loans": "D-Loans",
+        "d-places": "D-Places",
+        "d-trivia": "D-Trivia",
+        "d-clients": "D-Clients",
+        "d-merchandise": "D-Merchandise"
+      },
+      "title": "Project Duke",
+      "header": "header.md",
+      "siteNav": "se-book-adapted-sitenav.md",
+      "pageNav": 4,
+      "src": "se-book-adapted/projectDuke/index.md",
       "layout": "default"
     },
     {

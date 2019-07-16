@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS2113/T Website - Code Quality: [Guideline] Follow a Standard: Basic</title>
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\bootstrap.min.css">
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\bootstrap-vue.min.css">
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\font-awesome.min.css" >
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\bootstrap-glyphicons.min.css" >
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\github.min.css">
-    <link rel="stylesheet" href="..\..\..\..\markbind\css\markbind.css">
-    <link rel="stylesheet" href="..\..\..\..\markbind\layouts\default\styles.css">
-    
-    
-    <link rel="icon" href="/website/favicon.ico">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website - Code Quality: [Guideline] Follow a Standard: Basic</title>
+  <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
+
+
+
+  <link rel="icon" href="/website/favicon.ico">
 </head>
+
 <body>
-<div id="app">
-    <div id="content-wrapper">
-  <div>
-    <navbar placement="top" type="inverse">
-      <a slot="brand" href="/" title="Home" class="navbar-brand">Software Engineering for Self-Directed Learners</a>
-      <li slot="right">
-        <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-      </li>
-    </navbar>
-  </div>
-  <div>
-    <link rel="stylesheet" href="/website/book/css/textbook.css">
-    <div class="website-content">
-      <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can follow simple mechanical style rules</span></span></span></span></p>
-      <p></p>
-      <p></p>
-      <div>
-        <div></div>
-        <p></p>
-        <p><span class="dimmed"><strong><span>Implementation → Code Quality → Style →
-              </span></strong></span></p>
-        <div id="title-and-body">
-          <div>
-            <h4 id="basic"><span>Basic</span><a class="fa fa-anchor" href="#basic"></a></h4>
-          </div>
-          <div id="main">
+  <div id="app">
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <div>
+          <link rel="stylesheet" href="/website/book/css/textbook.css">
+          <div class="website-content">
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow simple mechanical style rules</span></span></span></span></p>
+            <p></p>
+            <p></p>
             <div>
-              <div class="alt-java">
-                <p>Learn <em>basic</em> guidelines of the <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html"><strong>Java</strong> coding standard (by OSS-Generic)</a></p>
-              </div>
-              <div class="alt-python">
-                <p>Sample coding standard: <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8 <strong>Python</strong> Style Guide -- by Python.org</a></p>
-              </div>
-            </div>
-            <div>
-              <div>
-                <panel header="<span class='fas fa-dumbbell'></span> Exercises" expandable="">
+              <div></div>
+              <p></p>
+              <p><span class="dimmed"><strong><span>Implementation → Code Quality → Style →
+                    </span></strong></span></p>
+              <div id="title-and-body">
+                <div>
+                  <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
+                </div>
+                <div id="main">
+                  <div>
+                    <div class="alt-java">
+                      <p>Learn <em>basic</em> guidelines of the <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html"><strong>Java</strong> coding standard (by OSS-Generic)</a></p>
+                    </div>
+                    <div class="alt-python">
+                      <p>Sample coding standard: <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8 <strong>Python</strong> Style Guide -- by Python.org</a></p>
+                    </div>
+                  </div>
                   <div>
                     <div>
-                      <panel header="<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> Find basic coding standard violations">
-                        <question>
-                          <p>Consider the code given below:</p>
-                          <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
+                              <question>
+                                <p>Consider the code given below:</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String descriptionPrefix = <span class="hljs-string">"description: "</span>;
@@ -85,21 +82,24 @@
     <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{ <span class="hljs-keyword">return</span> descriptionPrefix + description; }
 }
 </code></pre>
-                          <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
-                          <div slot="hint">
-                            <p>Here are three:</p>
-                            <ul>
-                              <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
-                              <li>method name <code>printingDescription()</code> should be named as <code>printDescription()</code></li>
-                              <li>boolean variable <code>important</code> should be named to sound boolean e.g., <code>isImportant</code></li>
-                            </ul>
-                            <p>There are many more.</p>
+                                <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
+                                <div slot="hint">
+                                  <p>Here are three:</p>
+                                  <ul>
+                                    <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
+                                    <li>method name <code>printingDescription()</code> should be named as <code>printDescription()</code></li>
+                                    <li>boolean variable <code>important</code> should be named to sound boolean e.g., <code>isImportant</code></li>
+                                  </ul>
+                                  <p>There are many more.</p>
+                                </div>
+                              </question>
+                            </panel>
                           </div>
-                        </question>
+                        </div>
                       </panel>
                     </div>
                   </div>
-                </panel>
+                </div>
               </div>
             </div>
           </div>
@@ -107,21 +107,17 @@
       </div>
     </div>
   </div>
-</div>
-<div id="flex-div"></div>
-<footer>
-  <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Sat, 13 Apr 2019 16:28:25 GMT</small></div>
-</footer>
-</div>
 </body>
-<script src="..\..\..\..\markbind\js\vue.min.js"></script>
-<script src="..\..\..\..\markbind\js\vue-strap.min.js"></script>
-<script src="..\..\..\..\markbind\js\polyfill.min.js"></script>
-<script src="..\..\..\..\markbind\js\bootstrap-vue.min.js"></script>
+<script src="../../../../markbind/js/vue.min.js"></script>
+<script src="../../../../markbind/js/vue-strap.min.js"></script>
+<script src="../../../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../../../markbind/js/polyfill.min.js"></script>
+<script src="../../../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website'
+  const baseUrl = '/website'
+  const enableSearch = true
 </script>
-<script src="..\..\..\..\markbind\js\setup.js"></script>
-<script src="..\..\..\..\markbind\layouts\default\scripts.js"></script>
+<script src="../../../../markbind/js/setup.js"></script>
+<script src="../../../../markbind/layouts/default/scripts.js"></script>
+
 </html>

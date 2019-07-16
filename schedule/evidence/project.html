@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+
+
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <div id="1kloc">
+          <p>
+            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> This task can earn you <trigger trigger="click" for="modal:project1kloc-participation">2 participation marks</trigger>.
+          </p>
+          <modal large title="%%Admin <md>:glyphicon-log-in:</md> Participation Marks%%" id="modal:project1kloc-participation">
+              <div>
+              <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
+              <p>There are 30+ available points to choose from:</p>
+              <ul>
+                <li>
+                  <tooltip content="No `Below Average`/`Poor` ratings">Good peer ratings</tooltip>
+                  <ul>
+                    <li>Criteria for professional conduct (1 point for each criterion, max 7)</li>
+                    <li>Competency criteria (2 points for each, max 6)</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="indented">
+                <box type="warning">
+                  <p>Only those who submit peer evaluations can earn participation points from peer evaluations they receive.
+                  </p>
+                </box>
+              </div>
+              <ul>
+                <li>In-lecture quizzes (1 each, max 10 points)</li>
+                <li>Enhanced AB1-AB3 (2 points for AB-1, 3 points each for AB-2 and AB-3)</li>
+                <li>Module admin tasks done <em>on time</em> and <em>as instructed</em>
+                  <ul>
+                    <li>Peer evaluations (1 points each)</li>
+                    <li>Pre-module survey (1 points)</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="indented">
+                <box type="warning">
+                  <p>If your response in the pre-module survey is not usable, you will not earn points for this exercise.
+                  </p>
+                </box>
+              </div>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
+                  <div>
+                  <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
+                  <ul>
+                    <li><strong>Professional Communication</strong> :
+                      <ul>
+                        <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
+                        <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
+                      </ul>
+                    </li>
+                    <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
+                    <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
+                    <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
+                    <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
+                    <li><strong>Meticulousness</strong>:
+                      <ul>
+                        <li>Rarely overlooks submission requirements.</li>
+                        <li>Rarely misses compulsory module activities such as pre-module survey.</li>
+                      </ul>
+                    </li>
+                    <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc.</li>
+                  </ul>
+                  <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
+                  <ul>
+                    <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
+                    <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
+                    <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
+                  </ul>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
+              </p>
+            </div>
+          </modal>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-briefcase"></span></span> Evidence:</span></p>
+          <p>Do an enhancement to [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1">AddressBook - Level1</a>] <span class="dimmed">e.g. add a new command</span></p>
+          <ul>
+            <li>The size of the enhancement does not matter.</li>
+            <li>Step 1: Fork address <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1">AddressBook - Level1</a> to your GitHub account.</li>
+            <li>Step 2: Change the code in small steps and commit after each significant change. You may commit to the <code>master</code> branch.
+              <ul>
+                <li>Try to stay within the procedural (not OOP) style of the code base. <span class="dimmed">Reason: in this LO, we try to stretch ourselves to the limits of the procedural approach</span>.</li>
+                <li>Update all relevant tests. Ensure all tests pass.</li>
+                <li>[Optional] Update all relevant documentation.</li>
+                <li>[Optional] Try to follow <a href="/website/admin/programmingLanguages.html#java-coding-standard">our coding standard</a> in your new code.</li>
+              </ul>
+            </li>
+            <li>Step 3: push the updated AB1 code to your fork</li>
+          </ul>
+          <p>💡 Note that you can reuse the code you write here in your final project, if applicable.</p>
+          <p><strong>Submission</strong>: No special submission required. Our scripts will check your fork automatically.</p>
+        </div>
+        <div id="2kloc">
+          <tip-box type="important">
+              This task requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
+          </tip-box>
+          <p><mark>This task can earn you 3 participation marks</mark>, 2 mark for the individual component and 1 bonus mark for the team component. You can omit either one of them.</p>
+          <p>💡 When working with existing code, a safe approach is to <strong>change the code in very small steps, each resulting in a verifiable change</strong> without breaking the app. For example, when adding a new <code>sort</code> command, the first few steps can be,</p>
+          <ol>
+            <li>Teach the app to accept a <code>sort</code> command but ignore it.</li>
+            <li>Next, teach the app to direct the <code>sort</code> command to an existing command e.g. <code>sort</code> command simply invokes the <code>list</code> command internally.</li>
+            <li>Add a <code>SortCommand</code> class but make it simply a copy of the the existing <code>ListCommand</code>. Direct the <code>sort</code> command to the new <code>SortCommand</code>.</li>
+            <li>...</li>
+          </ol>
+          <p>💡 Note that you can reuse the code you write here in your final project, if applicable.</p>
+          <h4 id="individual-component">Individual component:<a class="fa fa-anchor" href="#individual-component"></a></h4>
+          <p><strong>Requirements</strong>: Do an enhancement to [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">AddressBook - Level2</a>] <span class="dimmed">e.g. add a new command</span>. It can be the same enhancement you did to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but try to limit to one enhancement (rather than mix many enhancements). In addition,</p>
+          <ul>
+            <li>update the User Guide</li>
+            <li>update existing tests and add new tests if necessary, for both JUnit tests and I/O tests</li>
+            <li>follow the coding standard</li>
+            <li>follow the OOP style</li>
+          </ul>
+          <p>Optional but encouraged:</p>
+          <ul>
+            <li>Update the Developer Guide</li>
+          </ul>
+          <p><strong>Use topic id as <mark>W5</mark> in your PR title. E.g., <code>[W5][M11-1]John Doe</code></strong></p>
+          <div>
+            <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">Addressbook-Level2</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
+            <p>
+              <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
+            </p>
+          </div>
+          <h4 id="team-component">Team component:<a class="fa fa-anchor" href="#team-component"></a></h4>
+          <p>The team component is <mark>to be done by all members</mark>, including those who didn't do the individual component.</p>
+          <ul>
+            <li>
+              <p>Review PRs created by team members in the <em>Individual Component</em> above <span class="dimmed">i.e. add review comments in the PR created against module repo</span>. You can either give suggestions to improve, or ask questions to understand, the code written by the team member.</p>
+            </li>
+            <li>
+              <p><strong>Requirements</strong>: Try to ensure that each PR reviewed by <em>at least</em> one team member and each team member's PR is reviewed by at least one other team member.</p>
+            </li>
+            <li>
+              <p><strong>Submission</strong>: Just update PR created in the individual component by adding comments/commits to it.</p>
+            </li>
+          </ul>
+        </div>
+        <div id="3kloc">
+          <p>To get up to speed working with AB-4 (~10KLoc), we recommend that you play around with [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3">AddressBook - Level3</a>] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.</p>
+          <p><strong>Suggested exercise</strong></p>
+          <ul>
+            <li>add a new command to AB-3 or enhance an existing feature in AB-3</li>
+            <li>update the User Guide to reflect your enhancement</li>
+            <li>add new Unit tests for your enhancement and update existing tests if necessary</li>
+          </ul>
+          <p>How AB-3 differs from AB-2:</p>
+          <ul>
+            <li>A simple GUI has been added to replace the Text UI.</li>
+            <li>No more I/O tests</li>
+            <li>A <code>Logic</code> class has been added together with a <code>LogicTest</code> class.</li>
+          </ul>
+        </div>
+        <div id="PR_to_AB2">
+          <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">Addressbook-Level2</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
+          <p>
+            <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
+          </p>
+        </div>
+        <div id="PR_to_AB3">
+          <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3">Addressbook-Level3</a>. <mark>Remember to use team ID</mark> (e.g. <em>M11-2</em>) in your PR name.</p>
+          <p>
+            <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
+          </p>
+        </div>
+        <div id="inception">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w03-inception._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → Inception%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="mid-v10">
+          <p>Covered by the below. Try to <mark>do at least <strong>step 1</strong></mark> before coming to the tutorial.</p>
+          <p>
+            <panel src="/website/admin/project-w04-mid-v10._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → mid-v1.0%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="v10">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w05-v10._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.0%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="mid-v11">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w06-mid-v11._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → mid-v1.1%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="v11">
+          <p>Covered by the 'Product' component of v1.1:</p>
+          <p>
+            <panel src="/website/admin/project-w07-v11._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.1%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="product_design">
+          <p>No textbook section. To be covered during the lecture.</p>
+        </div>
+        <div id="mid-v12">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w08-mid-v12._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → mid-v1.2%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="v12">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w09-v12._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.2%%" fragment="main"></panel>
+          </p>
+        </div>
+        <div id="mid-v13">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w10-mid-v13._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → mid-v1.3%%" fragment="main"></panel>
+          </p>
+        </div>
+        <div id="v13">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w11-v13._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.3%%" no-close fragment="main"></panel>
+          </p>
+        </div>
+        <div id="mid-v14">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w12-mid-v14._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → mid-v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
+        <div id="v14">
+          <p>Covered by:</p>
+          <p>
+            <panel src="/website/admin/project-w13-v14._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
+        <div id="relate_process">
+          <p>Relate this model and some of its practices to the project. <span class="dimmed"> e.g. Are you doing something similar? Will it help if you adopt those practices? If they are not applicable, why?</span></p>
+        </div>
+        <div id="demo">
+          <p>Covered by the 'Demo' component of v1.4:</p>
+          <p>
+            <panel src="/website/admin/project-w13-v14._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project → v1.4%%" fragment="main"></panel>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

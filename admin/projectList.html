@@ -1,433 +1,446 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-122519234-1');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS2113/T Website - Project List</title>
-    <link rel="stylesheet" href="..\markbind\css\bootstrap.min.css">
-    <link rel="stylesheet" href="..\markbind\css\bootstrap-vue.min.css">
-    <link rel="stylesheet" href="..\markbind\css\font-awesome.min.css" >
-    <link rel="stylesheet" href="..\markbind\css\bootstrap-glyphicons.min.css" >
-    <link rel="stylesheet" href="..\markbind\css\github.min.css">
-    <link rel="stylesheet" href="..\markbind\css\markbind.css">
-    <link rel="stylesheet" href="..\markbind\layouts\default\styles.css">
-    
-    <link rel="stylesheet" href="/website/css/main.css">
-    <link rel="stylesheet" href="/website/css/schedule.css">
-    <link rel="icon" href="/website/favicon.ico">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-122519234-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website - Project List</title>
+  <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
+
+
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
 </head>
+
 <body>
-<div id="app">
-    <div id="content-wrapper">
-  <div>
-    <navbar placement="top" type="default">
-      <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Jan '19</small></a>
-      <dropdown text="Schedule" class="nav-link">
-        <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-        <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-        <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-        <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-        <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-        <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-        <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-        <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-        <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-        <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-        <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-        <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] <span class="fas fa-arrow-circle-left"></span></span></a></li>
-        <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 15] </span></a></li>
-      </dropdown>
-      <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-      <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-      <dropdown text="Links" class="nav-link">
-        <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> <span class="fas fa-bug"></span> Report Bugs</a></li>
-        <li><a href="https://nus-cs2113-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span class="fab fa-slack-hash"></span> Slack</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span class="fas fa-comment"></span> Forum</a></li>
-        <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span class="fas fa-drafting-compass"></span> Project Info</a></li>
-        <li><a href="/website/admin/instructors.html" class="dropdown-item"><span class="fas fa-user-tie"></span> Instructors</a></li>
-        <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Announcements</a></li>
-        <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476" target="_blank" class="dropdown-item"><span class="fas fa-file-upload"></span> File Submissions</a></li>
-        <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
-        <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span class="fas fa-code"></span> Java Coding Standard</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> samplerepo-things</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level1</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level2</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level3</a></li>
-        <li><a href="https://github.com/nusCS2113-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span class="fas fa-code-branch"></span> Addressbook-level4</a></li>
-        <li><a href="/website/admin/projectList.html" class="dropdown-item"><span class="fas fa-th-list"></span> Projects List</a></li>
-        <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span class="fas fa-th-list"></span> config.json templates for Reposense</a></li>
-        <li><a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</a></li>
-        <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"> <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Repl.it classroom</a></li>
-      </dropdown>
-      <li slot="right" class="nav-link">
-        <form class="navbar-form">
-          <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-        </form>
-      </li>
-    </navbar>
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span></span> Report Bugs</a></li>
+          <li><a href="https://nus-cs2113-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span></span> Slack</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span></span> Forum</a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span></span> Instructors</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span></span> Announcements</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span></span> File Submissions</a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
+          <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> Repl.it classroom</a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <h1 id="cs2113-t-project-list">CS2113/T Project List<a class="fa fa-anchor" href="#cs2113-t-project-list"></a></h1>
+        <panel header="### M11<a class='fa fa-anchor' href='#m11'></a>" expanded no-close>
+          <h4 id="m11-1">M11-1 <small><a href="https://github.com/CS2113-AY1819S2-M11-1/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-1.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-1"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">HU ...IDI</th>
+                  <th style="text-align:center">LEE...TIN</th>
+                  <th style="text-align:center">LEE...ONG</th>
+                  <th style="text-align:center">WAN...NAN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/huyidi.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/huyidi.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=huyidi"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ahuyidi"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/e0176106.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/e0176106.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=e0176106"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ae0176106"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/yingrong1996.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/yingrong1996.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yingrong1996"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ayingrong1996"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/warheade.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/warheade.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=warheade"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Awarheade"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="m11-2">M11-2 <small><a href="https://github.com/CS2113-AY1819S2-M11-2/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-2.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-2"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">KHA...IRI</th>
+                  <th style="text-align:center">LEE...LAS</th>
+                  <th style="text-align:center">LEW...KOK</th>
+                  <th style="text-align:center">ONG...TIN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/khairulhazril.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/khairulhazril.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=khairulhazril"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Akhairulhazril"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/nicholasleeeee.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/nicholasleeeee.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=nicholasleeeee"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Anicholasleeeee"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/shengkok.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/shengkok.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shengkok"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Ashengkok"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/justin-ong.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/justin-ong.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=justin-ong"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Ajustin-ong"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="m11-3">M11-3 <small><a href="https://github.com/CS2113-AY1819S2-M11-3/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-3.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-3"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">DAN...YUN</th>
+                  <th style="text-align:center">JEM...KAN</th>
+                  <th style="text-align:center">LIM...ING</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/dannong.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/dannong.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=dannong"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Adannong"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/jemine1998.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/jemine1998.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jemine1998"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Ajemine1998"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/wanchinglim.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/wanchinglim.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wanchinglim"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Awanchinglim"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+        </panel>
+        <panel header="### T08<a class='fa fa-anchor' href='#t08'></a>" expanded no-close>
+          <h4 id="t08-1">T08-1 <small><a href="https://github.com/CS2113-AY1819S2-T08-1/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-1.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-1"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">NGU...HUU</th>
+                  <th style="text-align:center">WON...EMY</th>
+                  <th style="text-align:center">LIO...HUI</th>
+                  <th style="text-align:center">ZHA... RU</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/ndhuu.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/ndhuu.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ndhuu"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Andhuu"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/articstranger.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/articstranger.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=articstranger"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aarticstranger"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/swalahlah.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/swalahlah.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=swalahlah"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aswalahlah"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/quinnzzzzz.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/quinnzzzzz.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=quinnzzzzz"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aquinnzzzzz"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t08-2">T08-2 <small><a href="https://github.com/CS2113-AY1819S2-T08-2/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-2.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-2"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">LAU...ONG</th>
+                  <th style="text-align:center">WON... QI</th>
+                  <th style="text-align:center">PAN...JIA</th>
+                  <th style="text-align:center">TAN...OME</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/weizhonglauw.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/weizhonglauw.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=weizhonglauw"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Aweizhonglauw"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/wongyuqi.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/wongyuqi.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wongyuqi"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Awongyuqi"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/yongjia96.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/yongjia96.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yongjia96"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Ayongjia96"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/jayrometan.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/jayrometan.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jayrometan"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Ajayrometan"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t08-3">T08-3 <small><a href="https://github.com/CS2113-AY1819S2-T08-3/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-3.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-3"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">JUL...REN</th>
+                  <th style="text-align:center">LIM...ENG</th>
+                  <th style="text-align:center">MAR...JIE</th>
+                  <th style="text-align:center">SEA...ONG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/macchazuki.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/macchazuki.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=macchazuki"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Amacchazuki"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/dingheng4448.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/dingheng4448.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=dingheng4448"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Adingheng4448"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/marcus-pzj.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/marcus-pzj.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=marcus-pzj"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Amarcus-pzj"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/seanieyap.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/seanieyap.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=seanieyap"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Aseanieyap"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t08-4">T08-4 <small><a href="https://github.com/CS2113-AY1819S2-T08-4/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-4.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-4/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-4/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-4"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">CHA...ANG</th>
+                  <th style="text-align:center">PHA...TAN</th>
+                  <th style="text-align:center">SHA...ING</th>
+                  <th style="text-align:center">SON...NIL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/weizhang05.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/weizhang05.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=weizhang05"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Aweizhang05"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/tantantan277.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/tantantan277.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=tantantan277"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Atantantan277"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/shanseet.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/shanseet.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shanseet"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Ashanseet"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/ssunil3232.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/ssunil3232.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ssunil3232"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Assunil3232"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+        </panel>
+        <panel header="### T09<a class='fa fa-anchor' href='#t09'></a>" expanded no-close>
+          <h4 id="t09-1">T09-1 <small><a href="https://github.com/CS2113-AY1819S2-T09-1/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-1.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-1"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">AHN...GYU</th>
+                  <th style="text-align:center">BAI...WEI</th>
+                  <th style="text-align:center">LEE...HOY</th>
+                  <th style="text-align:center">NGO...LIN</th>
+                  <th style="text-align:center">YEO...ONG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/truegitnovice.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/truegitnovice.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=truegitnovice"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Atruegitnovice"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/wendybaiyunwei.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/wendybaiyunwei.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wendybaiyunwei"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Awendybaiyunwei"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/lycjackie.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/lycjackie.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=lycjackie"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Alycjackie"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/creastery.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/creastery.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=creastery"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Acreastery"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/chyeo.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/chyeo.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=chyeo"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Achyeo"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t09-2">T09-2 <small><a href="https://github.com/CS2113-AY1819S2-T09-2/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-2.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-2"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">CHE...ANG</th>
+                  <th style="text-align:center">JIN...IBO</th>
+                  <th style="text-align:center">LI ...ANG</th>
+                  <th style="text-align:center">WAN...WEI</th>
+                  <th style="text-align:center">ZHA...HEN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/cheahzk.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/cheahzk.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=cheahzk"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Acheahzk"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/brittonalone.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/brittonalone.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=brittonalone"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Abrittonalone"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/zeyang-li.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/zeyang-li.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=zeyang-li"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Azeyang-li"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/wanchunwei.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/wanchunwei.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wanchunwei"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Awanchunwei"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/jingchen-z.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/jingchen-z.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jingchen-z"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Ajingchen-z"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t09-3">T09-3 <small><a href="https://github.com/CS2113-AY1819S2-T09-3/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-3.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-3"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">JOS...ADI</th>
+                  <th style="text-align:center">RAC... YU</th>
+                  <th style="text-align:center">SAN...ULU</th>
+                  <th style="text-align:center">THN...REA</th>
+                  <th style="text-align:center">YOW...JIE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/josephinetanadi.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/josephinetanadi.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=josephinetanadi"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Ajosephinetanadi"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/rachellim10.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/rachellim10.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=rachellim10"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Arachellim10"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/gautamrajulu.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/gautamrajulu.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=gautamrajulu"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Agautamrajulu"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/andreathniah.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/andreathniah.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=andreathniah"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Aandreathniah"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/arhjaye.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/arhjaye.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=arhjaye"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Aarhjaye"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+        </panel>
+        <panel header="### T11<a class='fa fa-anchor' href='#t11'></a>" expanded no-close>
+          <h4 id="t11-1">T11-1 <small><a href="https://github.com/CS2113-AY1819S2-T11-1/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-1.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-1"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">Kup...emi</th>
+                  <th style="text-align:center">SAM...ONG</th>
+                  <th style="text-align:center">WIN...ICH</th>
+                  <th style="text-align:center">YAN...ZHE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/jkupoluyi.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/jkupoluyi.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jkupoluyi"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Ajkupoluyi"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/sameow.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/sameow.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=sameow"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Asameow"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/windrichie.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/windrichie.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=windrichie"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Awindrichie"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/shizhe-nus.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/shizhe-nus.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shizhe-nus"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Ashizhe-nus"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t11-2">T11-2 <small><a href="https://github.com/CS2113-AY1819S2-T11-2/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-2.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-2"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">LI ...ONG</th>
+                  <th style="text-align:center">MAT...IAN</th>
+                  <th style="text-align:center">TEO...WEI</th>
+                  <th style="text-align:center">WU ...UAN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/liguanlong.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/liguanlong.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=liguanlong"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Aliguanlong"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/matthiaslum.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/matthiaslum.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=matthiaslum"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Amatthiaslum"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/shawn-t.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/shawn-t.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shawn-t"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Ashawn-t"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/wupeihsuan.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/wupeihsuan.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wupeihsuan"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Awupeihsuan"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <h4 id="t11-3">T11-3 <small><a href="https://github.com/CS2113-AY1819S2-T11-3/main"><span aria-hidden="true" class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-3.github.io/main/"><span aria-hidden="true" class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/issues/new"><span aria-hidden="true" class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-3"></a></h4>
+          <p><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/Ui.png" width="750"></p>
+          <p></p>
+          <p></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="text-align:center">DOM...HAO</th>
+                  <th style="text-align:center">HAN...WOO</th>
+                  <th style="text-align:center">NG ...ONG</th>
+                  <th style="text-align:center">PAN...HAO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/frankquekch.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/frankquekch.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=frankquekch"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Afrankquekch"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/jacobhan.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/jacobhan.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jacobhan"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Ajacobhan"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/ngkaicong.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/ngkaicong.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ngkaicong"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Angkaicong"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                  <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/yushao2.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/yushao2.html"><span aria-hidden="true" class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yushao2"><span aria-hidden="true" class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Ayushao2"><span aria-hidden="true" class="fas fa-code-branch"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+        </panel>
+      </div>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Tue, 16 Jul 2019 11:12:31 GMT</small></div>
+    </footer>
   </div>
-  <h1 id="cs2113%2Ft-project-list">CS2113/T Project List<a class="fa fa-anchor" href="#cs2113%2Ft-project-list"></a></h1>
-  <panel header="### M11<a class='fa fa-anchor' href='#m11'></a>" expanded="" no-close="">
-    <h4 id="m11-1">M11-1 <small><a href="https://github.com/CS2113-AY1819S2-M11-1/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-1.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-1"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">HU ...IDI</th>
-            <th style="text-align:center">LEE...TIN</th>
-            <th style="text-align:center">LEE...ONG</th>
-            <th style="text-align:center">WAN...NAN</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/huyidi.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/huyidi.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=huyidi"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ahuyidi"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/e0176106.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/e0176106.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=e0176106"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ae0176106"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/yingrong1996.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/yingrong1996.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yingrong1996"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Ayingrong1996"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-1.github.io/main/images/warheade.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-1.github.io/main/team/warheade.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=warheade"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-1/main/pulls?q=is%3Apr+author%3Awarheade"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="m11-2">M11-2 <small><a href="https://github.com/CS2113-AY1819S2-M11-2/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-2.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-2"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">KHA...IRI</th>
-            <th style="text-align:center">LEE...LAS</th>
-            <th style="text-align:center">LEW...KOK</th>
-            <th style="text-align:center">ONG...TIN</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/khairulhazril.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/khairulhazril.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=khairulhazril"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Akhairulhazril"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/nicholasleeeee.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/nicholasleeeee.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=nicholasleeeee"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Anicholasleeeee"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/shengkok.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/shengkok.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shengkok"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Ashengkok"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-2.github.io/main/images/justin-ong.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-2.github.io/main/team/justin-ong.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=justin-ong"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-2/main/pulls?q=is%3Apr+author%3Ajustin-ong"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="m11-3">M11-3 <small><a href="https://github.com/CS2113-AY1819S2-M11-3/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-M11-3.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-M11-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-M11-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#m11-3"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">DAN...YUN</th>
-            <th style="text-align:center">JEM...KAN</th>
-            <th style="text-align:center">LIM...ING</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/dannong.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/dannong.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=dannong"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Adannong"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/jemine1998.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/jemine1998.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jemine1998"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Ajemine1998"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-M11-3.github.io/main/images/wanchinglim.png" width="120"><br><a href="https://CS2113-AY1819S2-M11-3.github.io/main/team/wanchinglim.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wanchinglim"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-M11-3/main/pulls?q=is%3Apr+author%3Awanchinglim"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-  </panel>
-  <panel header="### T08<a class='fa fa-anchor' href='#t08'></a>" expanded="" no-close="">
-    <h4 id="t08-1">T08-1 <small><a href="https://github.com/CS2113-AY1819S2-T08-1/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-1.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-1"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">NGU...HUU</th>
-            <th style="text-align:center">WON...EMY</th>
-            <th style="text-align:center">LIO...HUI</th>
-            <th style="text-align:center">ZHA... RU</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/ndhuu.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/ndhuu.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ndhuu"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Andhuu"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/articstranger.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/articstranger.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=articstranger"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aarticstranger"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/swalahlah.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/swalahlah.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=swalahlah"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aswalahlah"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-1.github.io/main/images/quinnzzzzz.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-1.github.io/main/team/quinnzzzzz.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=quinnzzzzz"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-1/main/pulls?q=is%3Apr+author%3Aquinnzzzzz"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t08-2">T08-2 <small><a href="https://github.com/CS2113-AY1819S2-T08-2/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-2.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-2"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">LAU...ONG</th>
-            <th style="text-align:center">WON... QI</th>
-            <th style="text-align:center">PAN...JIA</th>
-            <th style="text-align:center">TAN...OME</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/weizhonglauw.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/weizhonglauw.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=weizhonglauw"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Aweizhonglauw"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/wongyuqi.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/wongyuqi.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wongyuqi"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Awongyuqi"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/yongjia96.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/yongjia96.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yongjia96"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Ayongjia96"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-2.github.io/main/images/jayrometan.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-2.github.io/main/team/jayrometan.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jayrometan"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-2/main/pulls?q=is%3Apr+author%3Ajayrometan"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t08-3">T08-3 <small><a href="https://github.com/CS2113-AY1819S2-T08-3/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-3.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-3"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">JUL...REN</th>
-            <th style="text-align:center">LIM...ENG</th>
-            <th style="text-align:center">MAR...JIE</th>
-            <th style="text-align:center">SEA...ONG</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/macchazuki.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/macchazuki.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=macchazuki"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Amacchazuki"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/dingheng4448.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/dingheng4448.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=dingheng4448"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Adingheng4448"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/marcus-pzj.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/marcus-pzj.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=marcus-pzj"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Amarcus-pzj"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-3.github.io/main/images/seanieyap.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-3.github.io/main/team/seanieyap.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=seanieyap"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-3/main/pulls?q=is%3Apr+author%3Aseanieyap"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t08-4">T08-4 <small><a href="https://github.com/CS2113-AY1819S2-T08-4/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T08-4.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T08-4/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T08-4/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t08-4"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">CHA...ANG</th>
-            <th style="text-align:center">PHA...TAN</th>
-            <th style="text-align:center">SHA...ING</th>
-            <th style="text-align:center">SON...NIL</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/weizhang05.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/weizhang05.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=weizhang05"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Aweizhang05"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/tantantan277.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/tantantan277.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=tantantan277"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Atantantan277"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/shanseet.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/shanseet.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shanseet"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Ashanseet"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T08-4.github.io/main/images/ssunil3232.png" width="120"><br><a href="https://CS2113-AY1819S2-T08-4.github.io/main/team/ssunil3232.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ssunil3232"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T08-4/main/pulls?q=is%3Apr+author%3Assunil3232"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-  </panel>
-  <panel header="### T09<a class='fa fa-anchor' href='#t09'></a>" expanded="" no-close="">
-    <h4 id="t09-1">T09-1 <small><a href="https://github.com/CS2113-AY1819S2-T09-1/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-1.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-1"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">AHN...GYU</th>
-            <th style="text-align:center">BAI...WEI</th>
-            <th style="text-align:center">LEE...HOY</th>
-            <th style="text-align:center">NGO...LIN</th>
-            <th style="text-align:center">YEO...ONG</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/truegitnovice.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/truegitnovice.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=truegitnovice"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Atruegitnovice"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/wendybaiyunwei.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/wendybaiyunwei.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wendybaiyunwei"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Awendybaiyunwei"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/lycjackie.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/lycjackie.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=lycjackie"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Alycjackie"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/creastery.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/creastery.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=creastery"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Acreastery"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-1.github.io/main/images/chyeo.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-1.github.io/main/team/chyeo.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=chyeo"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-1/main/pulls?q=is%3Apr+author%3Achyeo"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t09-2">T09-2 <small><a href="https://github.com/CS2113-AY1819S2-T09-2/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-2.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-2"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">CHE...ANG</th>
-            <th style="text-align:center">JIN...IBO</th>
-            <th style="text-align:center">LI ...ANG</th>
-            <th style="text-align:center">WAN...WEI</th>
-            <th style="text-align:center">ZHA...HEN</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/cheahzk.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/cheahzk.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=cheahzk"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Acheahzk"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/brittonalone.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/brittonalone.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=brittonalone"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Abrittonalone"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/zeyang-li.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/zeyang-li.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=zeyang-li"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Azeyang-li"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/wanchunwei.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/wanchunwei.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wanchunwei"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Awanchunwei"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-2.github.io/main/images/jingchen-z.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-2.github.io/main/team/jingchen-z.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jingchen-z"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-2/main/pulls?q=is%3Apr+author%3Ajingchen-z"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t09-3">T09-3 <small><a href="https://github.com/CS2113-AY1819S2-T09-3/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T09-3.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T09-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T09-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t09-3"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">JOS...ADI</th>
-            <th style="text-align:center">RAC... YU</th>
-            <th style="text-align:center">SAN...ULU</th>
-            <th style="text-align:center">THN...REA</th>
-            <th style="text-align:center">YOW...JIE</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/josephinetanadi.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/josephinetanadi.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=josephinetanadi"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Ajosephinetanadi"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/rachellim10.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/rachellim10.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=rachellim10"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Arachellim10"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/gautamrajulu.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/gautamrajulu.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=gautamrajulu"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Agautamrajulu"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/andreathniah.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/andreathniah.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=andreathniah"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Aandreathniah"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T09-3.github.io/main/images/arhjaye.png" width="120"><br><a href="https://CS2113-AY1819S2-T09-3.github.io/main/team/arhjaye.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=arhjaye"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T09-3/main/pulls?q=is%3Apr+author%3Aarhjaye"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-  </panel>
-  <panel header="### T11<a class='fa fa-anchor' href='#t11'></a>" expanded="" no-close="">
-    <h4 id="t11-1">T11-1 <small><a href="https://github.com/CS2113-AY1819S2-T11-1/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-1.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-1/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-1/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-1"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">Kup...emi</th>
-            <th style="text-align:center">SAM...ONG</th>
-            <th style="text-align:center">WIN...ICH</th>
-            <th style="text-align:center">YAN...ZHE</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/jkupoluyi.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/jkupoluyi.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jkupoluyi"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Ajkupoluyi"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/sameow.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/sameow.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=sameow"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Asameow"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/windrichie.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/windrichie.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=windrichie"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Awindrichie"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-1.github.io/main/images/shizhe-nus.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-1.github.io/main/team/shizhe-nus.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shizhe-nus"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-1/main/pulls?q=is%3Apr+author%3Ashizhe-nus"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t11-2">T11-2 <small><a href="https://github.com/CS2113-AY1819S2-T11-2/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-2.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-2/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-2/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-2"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">LI ...ONG</th>
-            <th style="text-align:center">MAT...IAN</th>
-            <th style="text-align:center">TEO...WEI</th>
-            <th style="text-align:center">WU ...UAN</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/liguanlong.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/liguanlong.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=liguanlong"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Aliguanlong"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/matthiaslum.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/matthiaslum.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=matthiaslum"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Amatthiaslum"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/shawn-t.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/shawn-t.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=shawn-t"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Ashawn-t"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-2.github.io/main/images/wupeihsuan.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-2.github.io/main/team/wupeihsuan.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=wupeihsuan"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-2/main/pulls?q=is%3Apr+author%3Awupeihsuan"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-    <h4 id="t11-3">T11-3 <small><a href="https://github.com/CS2113-AY1819S2-T11-3/main"><span class="fab fa-github"></span></a> <a href="https://CS2113-AY1819S2-T11-3.github.io/main/"><span class="fas fa-home"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/issues/new"><span class="far fa-comment"></span></a></small> <a href="https://travis-ci.org/CS2113-AY1819S2-T11-3/main"><img src="https://travis-ci.org/CS2113-AY1819S2-T11-3/main.svg?branch=master" alt="Build Status"></a><a class="fa fa-anchor" href="#t11-3"></a></h4>
-    <p><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/Ui.png" width="750"></p>
-    <p></p>
-    <p></p>
-    <div class="table-responsive">
-      <table class="markbind-table table table-bordered table-striped">
-        <thead>
-          <tr>
-            <th style="text-align:center">DOM...HAO</th>
-            <th style="text-align:center">HAN...WOO</th>
-            <th style="text-align:center">NG ...ONG</th>
-            <th style="text-align:center">PAN...HAO</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/frankquekch.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/frankquekch.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=frankquekch"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Afrankquekch"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/jacobhan.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/jacobhan.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=jacobhan"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Ajacobhan"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/ngkaicong.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/ngkaicong.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=ngkaicong"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Angkaicong"><span class="fas fa-code-branch"></span></a></td>
-            <td style="text-align:center"><img src="https://CS2113-AY1819S2-T11-3.github.io/main/images/yushao2.png" width="120"><br><a href="https://CS2113-AY1819S2-T11-3.github.io/main/team/yushao2.html"><span class="fas fa-file-powerpoint"></span></a> <a href="https://nuscs2113-ay1819s2.github.io/dashboard-beta/#=undefined&amp;search=yushao2"><span class="fas fa-code"></span></a> <a href="https://github.com/CS2113-AY1819S2-T11-3/main/pulls?q=is%3Apr+author%3Ayushao2"><span class="fas fa-code-branch"></span></a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <hr>
-  </panel>
-</div>
-<div id="flex-div"></div>
-<footer>
-  <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.16.0</a> at Sat, 13 Apr 2019 16:28:25 GMT</small></div>
-</footer>
-</div>
 </body>
-<script src="..\markbind\js\vue.min.js"></script>
-<script src="..\markbind\js\vue-strap.min.js"></script>
-<script src="..\markbind\js\polyfill.min.js"></script>
-<script src="..\markbind\js\bootstrap-vue.min.js"></script>
+<script src="../markbind/js/vue.min.js"></script>
+<script src="../markbind/js/vue-strap.min.js"></script>
+<script src="../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../markbind/js/polyfill.min.js"></script>
+<script src="../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website'
+  const baseUrl = '/website'
+  const enableSearch = true
 </script>
-<script src="..\markbind\js\setup.js"></script>
-<script src="..\markbind\layouts\default\scripts.js"></script>
+<script src="../markbind/js/setup.js"></script>
+<script src="../markbind/layouts/default/scripts.js"></script>
+
 </html>

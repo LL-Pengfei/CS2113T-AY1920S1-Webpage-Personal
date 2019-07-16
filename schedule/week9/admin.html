@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-122519234-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website - Week 9 - Admin Info</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span></span> Report Bugs</a></li>
+          <li><a href="https://nus-cs2113-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span></span> Slack</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span></span> Forum</a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span></span> Instructors</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span></span> Announcements</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span></span> File Submissions</a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
+          <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> Repl.it classroom</a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><span style="float:left"><span><a href="/website/schedule/week8/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week10/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-9-oct-14">Week 9 <small><small><span class="dimmed">[Oct 14]</span></small></small><a class="fa fa-anchor" href="#week-9-oct-14"></a></h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week9/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week9/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week9/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week9/tutorial-cs2113.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week9/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+        </ul>
+        <p></p>
+        <div id="additional"></div>
+        <panel type="default" no-close expandable="true">
+          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project: v1.2 [week 9] <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+          <div>
+            <div id="title"></div>
+            <div id="body">
+              <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Move code towards v2.0 in small steps, start documenting design/implementation details in DG.</span></span></p>
+              <p><strong>v1.2 Summary of Milestone</strong></p>
+              <div class="table-responsive">
+                <table class="markbind-table table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Milestone</th>
+                      <th>Minimum acceptable performance to consider as 'reached'</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Contributed code to the product as described in mid-v1.2 progress guide</td>
+                      <td>some code merged</td>
+                    </tr>
+                    <tr>
+                      <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Described implementation details in the Developer Guide</td>
+                      <td>some text and some diagrams added to the developer guide (at least in a PR), comprising at least one page worth of content</td>
+                    </tr>
+                    <tr>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Issue tracker set up</td>
+                      <td>As explained in <trigger trigger="click" for="modal:v12-issueTrackerSetup">[Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E: GitHub: Issue Tracker Setup]</trigger>.</td>
+                    </tr>
+                    <tr>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> v1.2 managed using GitHub features (issue tracker, milestones, etc.)</td>
+                      <td>Milestone v1.2 managed as explained in <trigger trigger="click" for="modal:v12-projectTracking">[Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E: GitHub: Project Schedule Tracking]</trigger>.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E: GitHub: Project Issue Tracker Setup" id="modal:v12-issueTrackerSetup">
+                  <div>
+                  <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
+                  <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
+                  <ul>
+                    <li>Delete existing labels and add the following labels.<br>
+                      💡 <strong>Issue type</strong> labels are useful from the beginning of the project. The other labels are needed only when you start implementing the features.</li>
+                  </ul>
+                  <tip-box>
+                    <p><strong>Issue type</strong> labels:</p>
+                    <ul>
+                      <li><code>type.Epic</code> : A big feature which can be broken down into smaller stories e.g. search</li>
+                      <li><code>type.Story</code> : A user story</li>
+                      <li><code>type.Enhancement</code>: An enhancement to an existing story</li>
+                      <li><code>type.Task</code> : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
+                      <li><code>type.Bug</code> : A bug</li>
+                    </ul>
+                  </tip-box>
+                  <tip-box>
+                    <p><strong>Status</strong> labels:</p>
+                    <ul>
+                      <li><code>status.Ongoing</code> : The issue is currently being worked on. note: remove this label before closing an issue.
+                      </li>
+                    </ul>
+                  </tip-box>
+
+                  <tip-box>
+                    <p><strong>Priority</strong> labels:</p>
+                    <ul>
+                      <li><code>priority.High</code> : Must do</li>
+                      <li><code>priority.Medium</code> : Nice to have</li>
+                      <li><code>priority.Low</code> : Unlikely to do</li>
+                    </ul>
+                  </tip-box>
+                  <span id="bug-severity">
+                    <tip-box>
+                      <p><strong>Bug Severity</strong> labels:</p>
+                      <ul>
+                        <li><code>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+                        <li><code>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+                        <li><code>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li>
+                      </ul>
+                    </tip-box>
+                  </span>
+                  <ul>
+                    <li>
+                      <p>Create following milestones : <code>v1.0</code>, <code>v1.1</code>, <code>v1.2</code>, <code>v1.3</code>, <code>v1.4</code>,</p>
+                    </li>
+                    <li>
+                      <p>You may configure other project settings as you wish. e.g. more labels, more milestones</p>
+                    </li>
+                  </ul>
+                </div>
+              </modal>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E: GitHub: Project Schedule Tracking" id="modal:v12-projectTracking">
+                  <div>
+                  <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
+                  <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
+                  <h3 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h3>
+                  <p><big><strong>During the initial stages</strong></big> (latest by the start of v1.2):</p>
+                  <ul>
+                    <li>
+                      <p><strong>Record each of the user stories you plan to deliver as an issue in the issue tracker.</strong>
+                        <span class="dimmed">e.g.</span> <code>Title: As a user I can add a deadline</code><br>
+                        <code>Description: ... so that I can keep track of my deadlines</code></p>
+                    </li>
+                    <li>
+                      <p><strong>Assign the <code>type.*</code> and <code>priority.*</code> labels to those issues.</strong></p>
+                    </li>
+                    <li>
+                      <p><strong>Formalize the project plan</strong> by assigning relevant issues to the corresponding milestone.</p>
+                    </li>
+                  </ul>
+                  <p><big><strong>From milestone v1.2:</strong></big></p>
+                  <ul>
+                    <li>
+                      <p><strong>Define project tasks as issues</strong>. When you start implementing a user story (or a feature), break it down to smaller tasks if necessary. Define reasonable sized, standalone tasks. <mark>Create issues for each</mark> of those tasks so that they can be tracked.<span class="dimmed">e.g.</span></p>
+                      <ul>
+                        <li>
+                          <p>A typical task should be able to done by one person, in a few hours.</p>
+                          <ul>
+                            <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad (reasons: not a one-person task, not small enough): <code>Write the Developer Guide</code></span></li>
+                            <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good: <code>Update class diagram in the Developer Guide for v1.4</code></span></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p>There is no need to break things into VERY small tasks. Keep them as big as possible, but they should be no bigger than what you are going to assign a single person to do within a week. <span class="dimmed">eg.,</span></p>
+                          <ul>
+                            <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad:<code>Implementing parser</code> (reason: too big).</span></li>
+                            <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good:<code>Implementing parser support for adding of floating tasks</code></span></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p>Do not track things taken for granted. <span class="dimmed">e.g., <code>push code to repo</code> should not be a task to track. In the example given under the previous point, it is taken for granted that the owner will also (a) test the code and (b) push to the repo when it is ready. Those two need not be tracked as separate tasks.</span></p>
+                        </li>
+                        <li>
+                          <p>Write a descriptive title for the issue. <span class="dimmed">e.g. <code>Add support for the 'undo' command to the parser</code></span></p>
+                          <ul>
+                            <li>Omit redundant details. In some cases, the issue title is enough to describe the task. In that case, no need to repeat it in the issue description. There is no need for well-crafted and detailed descriptions for tasks. A minimal description is enough. Similarly, labels such as <code>priority</code> can be omitted if you think they don't help you.<br><br></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><strong>Assign tasks (i.e., issues) to the corresponding team members using the <code>assignees</code> field.</strong> <mark>Normally, there should be some ongoing tasks and some pending tasks against each team member at any point</mark>.</p>
+                    </li>
+                    <li>
+                      <p>Optionally, you can use <code>status.ongoing</code> label to indicate issues currently ongoing.</p>
+                    </li>
+                  </ul>
+                  <div id="using-milestones">
+                    <h3 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h3>
+                    <p>We recommend you do proper milestone management starting from v1.2. <mark>Given below are the conditions to satisfy for a milestone to be considered properly managed</mark>:</p>
+                    <p><strong>Planning a Milestone</strong>:<br></p>
+                    <ul>
+                      <li>
+                        <p><strong>Issues assigned to the milestone, team members assigned to issues</strong>: Used <a href="https://help.github.com/articles/about-milestones/">GitHub milestones</a> to indicate which issues are to be handled for which milestone by assigning issues to suitable milestones. Also make sure those issues are assigned to team members. <span class="dimmed">Note that you can change the milestone plan along the way as necessary.</span></p>
+                      </li>
+                      <li>
+                        <p><strong>Deadline set for the milestones</strong> (in the GitHub milestone). <span class="dimmed">Your internal milestones can be set earlier than the deadlines we have set, to give you a buffer.</span></p>
+                      </li>
+                    </ul>
+                    <p><strong>Wrapping up a Milestone</strong>:<br></p>
+                    <ul>
+                      <li>
+                        <p><strong>A working product tagged</strong> with the correct tag (e.g. <code>v1.2</code>) and is pushed to the main repo<br>
+                          or a <strong>product <em>release</em> done on GitHub</strong>. A product release is optional for v1.2 but required from from v1.3. Click <a href="https://github.com/se-edu/addressbook-level4/releases/">here</a> to see an example release.</p>
+                      </li>
+                      <li>
+                        <p><strong>All tests passing</strong> on Travis for the version tagged/released.</p>
+                      </li>
+                      <li>
+                        <p><strong>Milestone updated to match the product</strong> i.e. all issues completed and PRs merged for the milestone should be assigned to the milestone. Incomplete issues/PRs should be moved to a future milestone.<br>
+                          <img src="/website/admin/images/assigningIssuesToMilestones.png" width="700"></p>
+                      </li>
+                      <li>
+                        <p><strong>Milestone closed.</strong><br>
+                          <img src="/website/admin/images/closingMilestones.png" width="700"></p>
+                      </li>
+                      <li>
+                        <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed"> e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
+                      </li>
+                    </ul>
+                    <p></p>
+                  </div>
+                </div>
+              </modal>
+              <h3 id="v1-2-project-management">v1.2 Project Management<a class="fa fa-anchor" href="#v1-2-project-management"></a></h3>
+              <ul>
+                <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Manage the milestone v1.2 as explained in <trigger trigger="click" for="modal:v12-projectTracking">[Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E: GitHub: Project Schedule Tracking]</trigger>.</li>
+              </ul>
+              <h3 id="v1-2-product">v1.2 Product<a class="fa fa-anchor" href="#v1-2-product"></a></h3>
+              <ul>
+                <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Merge some code into the <code>master</code> branch of your team repo. <mark>This is expected to be a user-visible enhancement.</mark></li>
+              </ul>
+              <h3 id="v1-2-documentation">v1.2 Documentation<a class="fa fa-anchor" href="#v1-2-documentation"></a></h3>
+              <ul>
+                <li>
+                  <p><strong>User Guide</strong>: Update as necessary.</p>
+                  <ul>
+                    <li>If a feature has been released in this version, remove the <code>Coming in v2.0</code> annotation from that feature. Also replace UI mock-ups with actual screenshots.</li>
+                    <li>If a feature design has changed, update the descriptions accordingly.</li>
+                  </ul>
+                </li>
+                <li>
+                  <p><strong>Developer Guide</strong>:</p>
+                  <ul>
+                    <li><mark>Each member should describe the implementation of at least one enhancement she has added</mark> (or planning to add). <br>
+                      Expected length: 1+ page of technical content per person</li>
+                    <li>The description can contain things such as,
+                      <ul>
+                        <li>How the feature is implemented.</li>
+                        <li>Why it is implemented that way.</li>
+                        <li>Alternatives considered.</li>
+                      </ul>
+                    </li>
+                    <li>The stated objective is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).</li>
+                    <li>For an example, see <a href="https://nus-cs2113-ay1920s1.github.io/addressbook-level4/DeveloperGuide.html#undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level4 developer guide</a>.</li>
+                  </ul>
+                </li>
+              </ul>
+              <h3 id="v1-2-demo">v1.2 Demo<a class="fa fa-anchor" href="#v1-2-demo"></a></h3>
+              <p>Do an informal demo of the new feature during the tutorial. <mark>To save time, we recommend that one member demos all new features, using the commit tagged as <code>v1.2</code> in the <code>master</code> branch</mark> <span class="dimmed"> i.e. only features included in the current release should be demoed</span>.</p>
+            </div>
+          </div>
+        </panel>
+        <p></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-9-oct-14">Week 9 [Oct 14]&#x200E;</a>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Tue, 16 Jul 2019 11:12:31 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

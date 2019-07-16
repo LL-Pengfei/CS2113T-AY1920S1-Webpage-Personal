@@ -1,11 +1,3 @@
-<div>
-  <navbar placement="top" type="inverse">
-    <a slot="brand" href="/" title="Home" class="navbar-brand">Software Engineering for Self-Directed Learners</a>
-    <li slot="right">
-      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right=""></searchbar>
-    </li>
-  </navbar>
-</div>
 <link rel="stylesheet" href="/website/book/css/textbook.css">
 <div class="website-content">
   <h1 id="using-this-book">Using This Book</h1>
@@ -25,7 +17,7 @@
     <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
     <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
     <tip-box>
-      <panel header="Some less important info in a minimized panel" minimized="">
+      <panel header="Some less important info in a minimized panel" minimized>
         <p>Less important info</p>
         <p></p>
       </panel>
@@ -44,12 +36,12 @@
     <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
     <tip-box>
       <tabs>
-          <tab header="<span class='far fa-file-alt'></span>">
+          <tab header="<md>:far-file-alt:</md>">
            
           Some textual description of X
           <p></p>
         </tab>
-          <tab header="<span class='glyphicon glyphicon-facetime-video' aria-hidden='true'></span>">
+          <tab header="<md>:glyphicon-facetime-video:</md>">
           <p>Video describing X</p>
           <p></p>
         </tab>
@@ -73,25 +65,25 @@
       <li>
         <p><big><strong>What</strong></big> : the <strong>meaning</strong> of the concept in concern</p>
         <p>
-          <panel header="%%Example%%" src="/website\book\refactoring\what\unit-inElsewhere-asFlat._include_.html"></panel>
+          <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><big><strong>Why</strong></big> : the <strong>motivation</strong> behind the concept in concern</p>
         <p>
-          <panel header="%%Example%%" src="/website\book\documentation\guidelines\goTopDown\why\unit-inElsewhere-asFlat._include_.html"></panel>
+          <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><big><strong>How</strong></big> : the <strong>usage</strong> of the concept in concern</p>
         <p>
-          <panel header="%%Example%%" src="/website\book\refactoring\how\unit-inElsewhere-asFlat._include_.html"></panel>
+          <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
       <li>
         <p><big><strong>When</strong></big> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
         <p>
-          <panel header="%%Example%%" src="/website\book\refactoring\when\unit-inElsewhere-asFlat._include_.html"></panel>
+          <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html"></panel>
         </p>
       </li>
     </ul>
@@ -122,21 +114,21 @@
     <h4 id="meaning-of-icons">Meaning of Icons</h4>
     <div class="indented">
       <p><span class="badge badge-pill badge-secondary">tangential</span> : tangential info, can be ignored if not interested<br>
-        <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
-        <span class="fas fa-trophy"></span> : learning outcomes<br>
-        <span class="glyphicon glyphicon-education" aria-hidden="true"></span> : prerequisite learning outcome<br>
-        <span class="fas fa-cube"></span> : examples<br>
-        <span class="fas fa-paperclip"></span> : resources<br>
-        <span class="fas fa-dumbbell"></span> : exercises<br>
-        <span class="glyphicon glyphicon-print" aria-hidden="true"></span> : printable version<br>
-        <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> : preview/more info<br>
-        <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> : video<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
+        <span><span aria-hidden="true" class="fas fa-trophy"></span></span> : learning outcomes<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : prerequisite learning outcome<br>
+        <span><span aria-hidden="true" class="fas fa-cube"></span></span> : examples<br>
+        <span><span aria-hidden="true" class="fas fa-paperclip"></span></span> : resources<br>
+        <span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> : exercises<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> : printable version<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span> : preview/more info<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> : video<br>
         <smal><span class="badge badge-secondary">&gt;_</span></smal> : a command to be run in a terminal<br>
-        <span class="far fa-file-alt"></span> : textual description<br>
-        <span class="far fa-images"></span> : slides<br>
-        <span class="fas fa-arrow-down"></span> : output produced by running code<br>
-        <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> question without answer<br>
-        <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> question with answer<br>
+        <span><span aria-hidden="true" class="far fa-file-alt"></span></span> : textual description<br>
+        <span><span aria-hidden="true" class="far fa-images"></span></span> : slides<br>
+        <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> : output produced by running code<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> question without answer<br>
+        <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> question with answer<br>
       </p>
     </div>
   </div>
@@ -161,6 +153,6 @@
   </div>
   <div id="printing">
     <h3 id="printing">Printing</h3>
-    <p>The <span class="glyphicon glyphicon-print" aria-hidden="true"></span> icon indicates printer-friendly versions of each chapter. A printer-friendly version of the entire book can be found <a href="/website/book/common/print.html">here</a></p>
+    <p>The <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> icon indicates printer-friendly versions of each chapter. A printer-friendly version of the entire book can be found <a href="/website/book/common/print.html">here</a></p>
   </div>
 </div>

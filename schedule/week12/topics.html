@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-122519234-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website - Week 12 - Topics</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span></span> Report Bugs</a></li>
+          <li><a href="https://nus-cs2113-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span></span> Slack</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span></span> Forum</a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span></span> Instructors</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span></span> Announcements</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span></span> File Submissions</a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
+          <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> Repl.it classroom</a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><span style="float:left"><span><a href="/website/schedule/week11/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week13/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-12-nov-4">Week 12 <small><small><span class="dimmed">[Nov 4]</span></small></small><a class="fa fa-anchor" href="#week-12-nov-4"></a></h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week12/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/tutorial-cs2113.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+        </ul>
+        <p></p>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+          <ul>
+            <li>[<a href="#W12-1">W12.1</a>] <strong>Reuse: Frameworks, Libraries, Platforms</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <p>   <strong>Reuse</strong></p>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1a">W12.1a</a>] <span>Implementation → Reuse → Introduction →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1b">W12.1b</a>] <span>Implementation → Reuse → Introduction →
+                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+              <p>   <strong>Libraries</strong></p>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1c">W12.1c</a>] <span>Implementation → Reuse → Libraries →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1d">W12.1d</a>] <span>Implementation → Reuse → Libraries →
+                      </span></span> <span>How</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+              </ul>
+              <p>   <strong>Frameworks</strong></p>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1e">W12.1e</a>] <span>Implementation → Reuse → Frameworks →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-1f">W12.1f</a>] <span>Implementation → Reuse → Frameworks →
+                      </span></span> <span>Frameworks vs Libraries</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+              <p>   <strong>Platforms</strong></p>
+              <ul>
+                <li><span class="dimmed">[<a href="#W12-1g">W12.1g</a>] <span>Implementation → Reuse → Platforms →
+                    </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W12-2">W12.2</a>] <strong>Cloud Computing</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-2a">W12.2a</a>] <span>Implementation → Reuse → Cloud Computing →
+                      </span></span> <span>What</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-2b">W12.2b</a>] <span>Implementation → Reuse → Cloud Computing →
+                      </span></span> <span>Iaas, PaaS, and SaaS</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W12-3">W12.3</a>] <strong>Other UML Models</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3a">W12.3a</a>] <span>Design → Modelling → Modelling Structure →
+                      </span></span> <span>Deployment Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3b">W12.3b</a>] <span>Design → Modelling → Modelling Structure →
+                      </span></span> <span>Component Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3c">W12.3c</a>] <span>Design → Modelling → Modelling Structure →
+                      </span></span> <span>Package Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3d">W12.3d</a>] <span>Design → Modelling → Modelling Structure →
+                      </span></span> <span>Composite Structure Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3e">W12.3e</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Timing Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3f">W12.3f</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Interaction Overview Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3g">W12.3g</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Communication Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W12-3h">W12.3h</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>State Machine Diagrams</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+        </panel>
+        <hr style="border: 1px dotted #cccccc;">
+        <p><span id="W12-1"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w12-1-reuse-frameworks-libraries-platforms"><span class="dimmed">[W12.1]</span> <strong>Reuse: Frameworks, Libraries, Platforms</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-1-reuse-frameworks-libraries-platforms"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <br>
+            <h3 id="reuse"><span class="dimmed"><strong>Reuse</strong></span><a class="fa fa-anchor" href="#reuse"></a></h3>
+            <p><span id="W12-1a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1a</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Introduction →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain software reuse</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Reuse is a major theme in software engineering practices. <strong>By reusing tried-and-tested components, the robustness of a new software system can be enhanced while reducing the manpower and time requirement.</strong> Reusable components come in many forms; it can be reusing a piece of code, a subsystem, or a whole software.</p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-1b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1b</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Introduction →
+                          </span></strong></span></small> <strong><span>When</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the costs and benefits of reuse</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>While you may be tempted to use many libraries/frameworks/platform that seem to crop up on a regular basis and promise to bring great benefits, note that <strong>there are costs associated with reuse</strong>. Here are some:</p>
+                    <ul>
+                      <li>The reused code <strong>may be an overkill</strong> (think <em>using a sledgehammer to crack a nut</em>) increasing the size of, or/and degrading the performance of, your software.</li>
+                      <li>The reused software <strong>may not be mature/stable enough</strong> to be used in an important product. That means the software can change drastically and rapidly, possibly in ways that break your software.</li>
+                      <li>Non-mature software has the <strong>risk of dying off</strong> as fast as they emerged, leaving you with a dependency that is no longer maintained.</li>
+                      <li>The license of the reused software (or its dependencies) <strong>restrict how you can use/develop your software</strong>.</li>
+                      <li>The reused software <strong>might have bugs, missing features, or security vulnerabilities</strong> that are important to your product but not so important to the maintainers of that software, which means those flaws will not get fixed as fast as you need them to.</li>
+                      <li><strong>Malicious code can sneak into your product</strong> via compromised dependencies.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Using a cool UI framework">
+                            <question has-input="true">
+                              <p>One of your teammates is proposing to use a recently-released “cool” UI framework for your class project. List the pros and cons of this idea.</p>
+                              <div slot="answer">
+                                <p>Pros</p>
+                                <ul>
+                                  <li>The potential to create a much better product by reusing the framework.</li>
+                                  <li>Learning a new framework is good for the future job prospects.</li>
+                                </ul>
+                                <p>Cons</p>
+                                <ul>
+                                  <li>Learning curve may be steep.</li>
+                                  <li>May not be stable (it was recently released).</li>
+                                  <li>May not allow us to do exactly what we want. While frameworks allow customization, such customization can be limited.</li>
+                                  <li>Performance penalties.</li>
+                                  <li>Might interfere with learning objectives of the module.</li>
+                                </ul>
+                                <p>Note that having more cons does not mean we should not use this framework. Further investigation is required before we can make a final decision.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <br>
+            <h3 id="libraries"><span class="dimmed"><strong>Libraries</strong></span><a class="fa fa-anchor" href="#libraries"></a></h3>
+            <p><span id="W12-1c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1c</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Libraries →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain libraries</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>A library is a collection of modular code that is general and can be used by other programs.</p>
+                    <tip-box>
+                      <div class="alt-java">
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java classes you get with the JDK (such as <code>String</code>, <code>ArrayList</code>, <code>HashMap</code>, etc.) are library classes that are provided in the default Java distribution.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://github.com/joestelmach/natty">Natty</a> is a Java library that can be used for parsing strings that represent dates e.g. <code>The 31st of April in the year 2008</code></p>
+                      </div>
+                      <div class="alt-python">
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> built-in modules you get with Python (such as <code>csv</code>, <code>random</code>, <code>sys</code>, etc.) are libraries that are provided in the default Python distribution. Classes such as <code>list</code>, <code>str</code>, <code>dict</code> are built-in library classes that you get with Python.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://pypi.python.org/pypi/colorama">Colorama</a> is a Python library that can be used for colorizing text in a CLI.</p>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-1d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1d</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Libraries →
+                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can make use of a library</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>These are the typical steps required to use a library.</p>
+                    <ol>
+                      <li>Read the documentation to confirm that its functionality fits your needs</li>
+                      <li>Check the license to confirm that it allows reuse in the way you plan to reuse it. For example, some libraries might allow non-commercial use only.</li>
+                      <li>Download the library and make it accessible to your project. Alternatively, you can configure your <tooltip content="e.g. _Gradle_ (for Java) and _Pipenv_ (for Python)">dependency management tool</tooltip> to do it for you.</li>
+                      <li>Call the library API from your code where you need to use the library functionality.</li>
+                    </ol>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <br>
+            <h3 id="frameworks"><span class="dimmed"><strong>Frameworks</strong></span><a class="fa fa-anchor" href="#frameworks"></a></h3>
+            <p><span id="W12-1e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1e</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Frameworks →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain frameworks</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>The overall structure and execution flow of a specific category of software systems can be very similar. The similarity is an opportunity to reuse at a high scale.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
+                      <p>IDEs for different programming languages are similar in how they support editing code, organizing project files, debugging, etc.</p>
+                    </tip-box>
+                    <p><strong>A <em>software framework</em> is a reusable implementation of a software (or part thereof) providing <em>generic</em> functionality that can be selectively customized to produce a <em>specific</em> application.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
+                      <p>Eclipse is an IDE framework that can be used to create IDEs for different programming languages.</p>
+                    </tip-box>
+                    <p><strong>Some frameworks provide a complete implementation of a <em>default</em> behavior which makes them immediately usable.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
+                      <p>Eclipse is a fully functional Java IDE out-of-the-box.</p>
+                    </tip-box>
+                    <p><strong>A framework facilitates the adaptation and customization of some desired functionality.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
+                      <p>Eclipse plugin system can be used to create an IDE for different programming languages while reusing most of the existing IDE features of Eclipse. E.g. <a href="https://marketplace.eclipse.org/content/pydev-python-ide-eclipse">https://marketplace.eclipse.org/content/pydev-python-ide-eclipse</a></p>
+                    </tip-box>
+                    <p>Some frameworks cover only a specific components or an aspect.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaFx a framework for creating Java GUIs. TkInter is a GUI framework for Python.</p>
+                    </tip-box>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples of frameworks</p>
+                      <ul>
+                        <li>Frameworks for Web-based applications: Drupal(PHP), Django(Python), Ruby on Rails (Ruby), Spring (Java)</li>
+                        <li>Frameworks for testing: JUnit (Java), unittest (Python), Jest (Java Script)</li>
+                      </ul>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-1f"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1f</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Frameworks →
+                          </span></strong></span></small> <strong><span>Frameworks vs Libraries</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can differentiate between frameworks and libraries</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Although both frameworks and libraries are reuse mechanisms, there are notable differences:</p>
+                    <ul>
+                      <li>
+                        <p><strong>Libraries are meant to be used ‘as is’ while frameworks are meant to be customized/extended.</strong>
+                          <span class="dimmed"> e.g., writing plugins for Eclipse so that it can be used as an IDE for different languages (C++, PHP, etc.), adding modules and themes to Drupal, and adding test cases to JUnit</span>.</p>
+                      </li>
+                      <li>
+                        <p><strong>Your code calls the library code while the framework code calls your code.</strong>
+                          <strong>Frameworks use a technique called <em>inversion of control</em>, aka the “Hollywood principle”</strong> (i.e. don’t call us, we’ll call you!). That is, you write code that will be called by the framework, <span class="dimmed"> e.g. writing test methods that will be called by the JUnit framework.</span> In the case of libraries, your code calls libraries.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about software frameworks">
+                            <question>
+                              <p>Choose correct statements about software frameworks.</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. They follow the hollywood principle, otherwise known as ‘inversion of control’</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. They come with full or partial implementation.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. They are more concrete than patterns or principles.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. They are often configurable.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. They are reuse mechanisms.</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. They are similar to reusable libraries but bigger.</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)(b)(c)(d)(e)<s>(f)</s></p>
+                                <p>Explanation: While both libraries and frameworks are reuse mechanisms, and both more concrete than principles and patterns, libraries differ from frameworks in some key ways. One of them is the ‘inversion of control’ used by frameworks but not libraries. Furthermore, frameworks do not have to be bigger than libraries all the time.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are frameworks?">
+                            <question>
+                              <p>Which one of these are frameworks ?</p>
+                              <ul radio-group="58823" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> a. JUnit</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> b. Eclipse</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> c. Drupal</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> d. Ruby on Rails</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)(b)(c)(d)</p>
+                                <p>Explanation: These are frameworks.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <br>
+            <h3 id="platforms"><span class="dimmed"><strong>Platforms</strong></span><a class="fa fa-anchor" href="#platforms"></a></h3>
+            <p><span id="W12-1g"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.1g</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Platforms →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain platforms</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>platform</em> provides a runtime environment for applications.</strong> A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Technically, an operating system can be called a platform. For example, Windows PC is a platform for desktop applications while iOS is a platform for mobile apps.</p>
+                    </tip-box>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <strong>Two well-known examples of platforms are JavaEE and .NET</strong>, both of which sit above Operating systems layer, and are used to develop <trigger for="modal:enterprise-application" trigger="click">enterprise applications</trigger>. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging etc. are done similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</p>
+                      <ul>
+                        <li>JavaEE (Java Enterprise Edition) is both a framework and a platform for writing enterprise applications. The runtime used by the JavaEE applications is the JVM (Java Virtual Machine) that can run on different Operating Systems.</li>
+                        <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
+                      </ul>
+                    </tip-box>
+                    <modal title="**Enterprise Applications**" id="modal:enterprise-application">
+                      <div>
+                        <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
+                      </div>
+                    </modal>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W12-2"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w12-2-cloud-computing"><span class="dimmed">[W12.2]</span> <strong>Cloud Computing</strong> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-2-cloud-computing"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W12-2a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2a</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Cloud Computing →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain cloud computing</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Cloud computing is the delivery of computing as a service over the network</strong>, rather than a product running on a local machine. This means the actual hardware and software is located at a remote location, typically, at a large server farm, while users access them over the network. Maintenance of the hardware and software is managed by the cloud provider while users typically pay for only the amount of services they use. This model is similar to the consumption of electricity; the power company manages the power plant, while the consumers pay them only for the electricity used. The cloud computing model optimizes hardware and software utilization and reduces the cost to consumers. Furthermore, users can scale up/down their utilization at will without having to upgrade their hardware and software. The traditional non-cloud model of computing is similar to everyone buying their own generators to create electricity for their own use.</p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-2b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.2b</span></span> <span class="dimmed"><strong><span>Implementation → Reuse → Cloud Computing →
+                          </span></strong></span></small> <strong><span>Iaas, PaaS, and SaaS</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can distinguish between IaaS, PaaS, and SaaS</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Cloud_computing.svg" height="500"><br></p>
+                    <p><sub>source:<a href="https://en.wikipedia.org/wiki/Cloud_computing">https://commons.wikimedia.org</a></sub></p>
+                    <p>Cloud computing can deliver computing services at three levels:</p>
+                    <ol>
+                      <li>
+                        <p><strong>Infrastructure as a service (IaaS) delivers computer infrastructure as a service.</strong> For example, a user can deploy virtual servers on the cloud instead of buying physical hardware and installing server software on them. Another example would be a customer using storage space on the cloud for off-site storage of data. <span class="dimmed"> Rackspace is an example of an IaaS cloud provider. Amazon Elastic Compute Cloud (Amazon EC2) is another one.</span></p>
+                      </li>
+                      <li>
+                        <p><strong>Platform as a service (PaaS) provides a platform on which developers can build applications.</strong> Developers do not have to worry about infrastructure issues such as deploying servers or load balancing as is required when using IaaS. Those aspects are automatically taken care of by the platform. The price to pay is reduced flexibility; applications written on PaaS are limited to facilities provided by the platform. <span class="dimmed"> A PaaS example is the Google App Engine where developers can build applications using Java, Python, PHP, or Go whereas Amazon EC2 allows users to deploy application written in any language on their virtual servers.</span></p>
+                      </li>
+                      <li>
+                        <p><strong>Software as a service (SaaS) allows applications to be accessed over the network</strong> instead of installing them on a local machine. <span class="dimmed"> For example, Google Docs is an SaaS word processing software, while Microsoft Word is a traditional word processing software.</span></p>
+                      </li>
+                    </ol>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Google Calendar in which category?">
+                            <question>
+                              <p>Google Calendar belongs to which category of cloud computing services?</p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. IaaS</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. PaaS</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. SaaS</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(c)</p>
+                                <p>Explanation: It is a <em>software</em> as a service. Instead of installing a calendar software on your desktop, we can use the Google Calendar software that lives ‘on the cloud’.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W12-3"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w12-3-other-uml-models"><span class="dimmed">[W12.3]</span> <strong>Other UML Models</strong> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w12-3-other-uml-models"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W12-3a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
+                          </span></strong></span></small> <strong><span>Deployment Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain deployment diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>deployment diagram</em> shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example deployment diagram:</p>
+                      <img src="/website/book/modeling/modelingStructures/deploymentDiagrams/images/diagram.png" height="500">
+                      <p></p>
+                      <p><sub>source:<a href="https://en.wikipedia.org/wiki/Deployment_diagram">https://commons.wikimedia.org</a></sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3b</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
+                          </span></strong></span></small> <strong><span>Component Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain component diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>component diagram</em> is used to show how a system is divided into components and how they are connected to each other through interfaces.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example component diagram:</p>
+                      <p><img src="/website/book/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500"><br></p>
+                      <p><sub>source:<a href="https://en.wikipedia.org/wiki/Component_diagram">https://commons.wikimedia.org</a></sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3c</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
+                          </span></strong></span></small> <strong><span>Package Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain package diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>package diagram</em> shows packages and their dependencies.</strong> A package is a grouping construct for grouping UML elements (classes, use cases, etc.).</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example package diagram:</p>
+                      <p><img src="/website/book/modeling/modelingStructures/packageDiagrams/images/diagram.png" height="450"><br>
+                        <sub>source:<a href="https://en.wikipedia.org/wiki/Package_diagram">https://commons.wikimedia.org</a></sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3d</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure →
+                          </span></strong></span></small> <strong><span>Composite Structure Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain composite structure diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>composite structure diagram</em> hierarchically decomposes a class into its internal structure.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example composite structure diagram:</p>
+                      <img src="/website/book/modeling/modelingStructures/compositeStructureDiagrams/images/diagram.png" height="150">
+                      <br>
+                      <p><sub>source:<a href="https://en.wikipedia.org/wiki/Composite_structure_diagram">https://commons.wikimedia.org</a></sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3e</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Timing Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain timing diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>timing diagram</em> focus on timing constraints.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example timing diagram:</p>
+                      <img src="/website/book/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280">
+                      <br>
+                      <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3f"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3f</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Interaction Overview Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain interaction overview diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>An <em>Interaction overview</em> diagrams is a combination of activity diagrams and sequence diagrams</strong>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
+                      <img src="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420">
+                      <p></p>
+                      <p><sub>source:<a href="https://en.wikipedia.org/wiki/Interaction_overview_diagram">https://commons.wikimedia.org</a></sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3g"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3g</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Communication Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain communication diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
+                      <img src="/website/book/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300">
+                      <br>
+                      <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W12-3h"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W12.3h</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>State Machine Diagrams</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain state machine diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider how a CD player responds when the “eject CD” button is pushed:</p>
+                      <ul>
+                        <li>If the CD tray is already open, it does nothing.</li>
+                        <li>If the CD tray is already in the process of opening (opened half-way), it continues to open the CD tray.</li>
+                        <li>If the CD tray is closed and the CD is being played, it stops playing and opens the CD tray.</li>
+                        <li>If the CD tray is closed and CD is not being played, it simply opens the CD tray.</li>
+                        <li>If the CD tray is already in the process of closing (closed half-way), it waits until the CD tray is fully closed and opens it immediately afterwards.</li>
+                      </ul>
+                      <p>What this means is that the CD player’s response to pushing the “eject CD” button depends on what it was doing at the time of the event. More generally, the CD player’s response to the event received depends on its internal state. Such a behavior is called a <em>state-dependent behavior</em>.</p>
+                    </tip-box>
+                    <p>Often, state-dependent behavior displayed by an object in a system is simple enough that it needs no extra attention; such a behavior can be as simple as a <em>conditional</em> behavior like <code>if x&gt;y, then x=x-y</code>.
+                      Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured into a separate model. Such state-dependent behavior can be modelled using UML <em>state machine diagrams</em> (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).</p>
+                    <p>An SMD views the life-cycle of an object as consisting of a finite number of states where each state displays a unique behavior pattern. An SMD captures information such as the states an object can be in, during its lifetime, and how the object responds to various events while in each state and how the object transits from one state to another. In contrast to sequence diagrams that capture object behavior one scenario at a time, SMDs capture the object’s behavior over its full life cycle.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
+                      <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
+                      <p></p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-12-nov-4">Week 12 [Nov 4]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w12-1-reuse-frameworks-libraries-platforms">[W12.1] Reuse: Frameworks, Libraries, Platforms &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#reuse">Reuse&#x200E;</a>
+                <a class="nav-link py-1" href="#libraries">Libraries&#x200E;</a>
+                <a class="nav-link py-1" href="#frameworks">Frameworks&#x200E;</a>
+                <a class="nav-link py-1" href="#platforms">Platforms&#x200E;</a>
+              </nav>
+              <a class="nav-link py-1" href="#w12-2-cloud-computing">[W12.2] Cloud Computing &#x200E;</a>
+              <a class="nav-link py-1" href="#w12-3-other-uml-models">[W12.3] Other UML Models &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Tue, 16 Jul 2019 11:12:31 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

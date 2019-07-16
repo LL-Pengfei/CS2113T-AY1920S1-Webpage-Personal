@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-122519234-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website - Week 8 - Topics</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="dark" class="temp-navbar">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span></span> Report Bugs</a></li>
+          <li><a href="https://nus-cs2113-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span></span> Slack</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span></span> Forum</a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span></span> Instructors</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span></span> Announcements</a></li>
+          <li><a href="https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span></span> File Submissions</a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
+          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
+          <li><a href="https://repl.it/classroom/invite/5Nfgumx" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> Repl.it classroom</a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><span style="float:left"><span><a href="/website/schedule/week7/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week9/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-8-oct-7">Week 8 <small><small><span class="dimmed">[Oct 7]</span></small></small><a class="fa fa-anchor" href="#week-8-oct-7"></a></h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/tutorial-cs2113.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+        </ul>
+        <p></p>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+          <ul>
+            <li>[<a href="#W8-1">W8.1</a>] <strong>UML: Association Classes</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li><span class="dimmed">[<a href="#W8-1a">W8.1a</a>] <span>Paradigms → OOP → Associations →
+                    </span></span> <span>Association Classes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W8-2">W8.2</a>] <strong>UML: Activity Diagrams</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-2a">W8.2a</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Activity Diagrams - Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-2b">W8.2b</a>] <span>Design → Modelling → Modelling Behaviors
+                      </span></span> <span>Activity Diagrams - Intermediate</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W8-3">W8.3</a>] <strong>Product design guidelines</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small></small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W8-4">W8.4</a>] <strong>Basic Design Approaches</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-4a">W8.4a</a>] <span>Design → Design Approaches →
+                      </span></span> <span>Top-Down and Bottom-Up Design</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-4b">W8.4b</a>] <span>Design Approaches → Agile Design →
+                      </span></span> <span>Agile Design</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+          <ul>
+            <li>[<a href="#W8-5">W8.5</a>] <strong>Project Mgt: Scheduling and Tracking</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5a">W8.5a</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Milestones</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5b">W8.5b</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Buffers</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5c">W8.5c</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Issue Trackers</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5d">W8.5d</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>Work Breakdown Structure</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5e">W8.5e</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>GANTT Charts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5f">W8.5f</a>] <span>Project Management → Project Planning →
+                      </span></span> <span>PERT Charts</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W8-5g">W8.5g</a>] <span>Project Management → Teamwork →
+                      </span></span> <span>Team Structures</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <p></p>
+        </panel>
+        <hr style="border: 1px dotted #cccccc;">
+        <p><span id="W8-1"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w8-1-uml-association-classes"><span class="dimmed">[W8.1]</span> <strong>UML: Association Classes</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w8-1-uml-association-classes"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W8-1a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.1a</span></span> <span class="dimmed"><strong><span>Paradigms → OOP → Associations →
+                          </span></strong></span></small> <strong><span>Association Classes</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the meaning of association classes</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>An <em>association class</em> represents additional information about an association.</strong> It is a normal class but plays a special role from a design point of view.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p>
+                    </tip-box>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Association Classes → What" alt="<md>:glyphicon-education:</md> UML/AssociationClasses" fragment="main"></panel>
+                    </p>
+                    <h5 id="implementing-association-classes">Implementing association classes<a class="fa fa-anchor" href="#implementing-association-classes"></a></h5>
+                    <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, the <code>Transaction</code> class is an association class that represent a transaction between a <code>Person</code> who is the seller and another <code>Person</code> who is the buyer.</p>
+                      <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span></span>{
+    
+    <span class="hljs-comment">//all fields are compulsory</span>
+    Person seller;
+    Person buyer;
+    Date date;
+    String receiptNumber;
+    
+    Transaction (Person seller, Person buyer, Date date, String receiptNumber){
+        <span class="hljs-comment">//set fields</span>
+    }
+}
+</code></pre>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are suitable as an Association Class?">
+                            <question>
+                              <p>Which one of these is the suitable as an Association Class?</p>
+                              <img src="/website/book/oop/associations/associationClasses/images/exerciseDiagram.png" width="500">
+                              <p></p>
+                              <ul class="task-list">
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c</li>
+                                <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)(b)<s>(c)</s>(d)</p>
+                                <p>Explanation: Mileage is a property of the car, and not specifically about the association between the Driver and the Car. If Mileage was defined as the total number of miles that car was driven by that driver, then it would be suitable as an association class.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W8-2"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w8-2-uml-activity-diagrams"><span class="dimmed">[W8.2]</span> <strong>UML: Activity Diagrams</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w8-2-uml-activity-diagrams"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W8-2a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2a</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Activity Diagrams - Basic</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use basic-level activity diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Software projects often involve <em>workflows</em>.</strong> Workflows define the <tooltip content="a connected sequence of steps"></tooltip>flow in which a process or a set of tasks is executed.
+                      Understanding such workflows is important for the success of the software project.</p>
+                    <tip-box>
+                      <p>Some examples in which a certain workflow is relevant to software project:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A software that automates the work of an insurance company needs to take into account the workflow of processing an insurance claim.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The algorithm of a price of code represents the workflow (i.e. the execution flow) of the code.</p>
+                    </tip-box>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/introduction/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Introduction → What" alt="<md>:glyphicon-education:</md> UML/AD/Intro" fragment="main"></panel>
+                    </p>
+                    <p></p>
+                    <p></p>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/basicNotations/linearPaths/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Basic Notation → Linear Paths" alt="<md>:glyphicon-education:</md> UML/AD/LinearPaths" fragment="main"></panel>
+                    </p>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/basicNotations/alternatePaths/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Basic Notation → Alternate Paths" alt="<md>:glyphicon-education:</md> UML/AD/AlternatePaths" fragment="main"></panel>
+                    </p>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/basicNotations/parallelPaths/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Basic Notation → Parellel Paths" alt="<md>:glyphicon-education:</md> UML/AD/ParallelPaths" fragment="main"></panel>
+                    </p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which sequences are not allowed?">
+                              <question>
+                                <p>Which of these sequence of actions is not allowed by the given activity diagram?</p>
+                                <ul class="task-list">
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> i. start a b c d end</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> ii. start a b c d e f g c d end</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> iii. start a b c d e g f c d end</li>
+                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> iv. start a b c d g c d end</li>
+                                </ul>
+                                <img src="/website/book/modeling/modelingBehaviors/activityDiagrams/images/sequence.png" height="190">
+                                <p></p>
+                                <div slot="answer">
+                                  <p>(iv)</p>
+                                  <p>Explanation: <code>-e-f-</code> and <code>-g-</code> are parallel paths. Both paths should complete before the execution reaches <code>c</code> again.</p>
+                                </div>
+                              </question>
+                            </panel>
+                          </div>
+                          <div>
+                            <panel header="<md>:glyphicon-question-sign:</md> Model workflow of Burger shop">
+                              <question>
+                                <p>Draw an activity diagram to represent the following workflow a burger shop uses when processing an order by a customer.</p>
+                                <ul>
+                                  <li>First, a cashier takes the order.</li>
+                                  <li>Then, three workers start preparing the order at the same time; one prepares the drinks, one prepares the burgers, and one prepares the desserts.</li>
+                                  <li>In the meantime, the customer pays for the order. If the customer has a voucher, she pays using the voucher; otherwise she pays using cash.</li>
+                                  <li>After paying, the customer collects the food after all three parts of the order are ready.</li>
+                                </ul>
+                                <panel type="seamless" header="Example Activity Diagram" minimized>
+                                  <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg"><br>
+                                    <sub>[<a href="https://en.wikipedia.org/wiki/Activity_diagram">source:wikipeida</a>]</sub></p>
+                                </panel>
+                              </question>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-2b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.2b</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Behaviors
+                          </span></strong></span></small> <strong><span>Activity Diagrams - Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use intermediate-level activity diagrams</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/basicNotations/rakes/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Intermediate Notation → Rakes" alt="<md>:glyphicon-education:</md> UML/AD/Rakes" fragment="main"></panel>
+                    </p>
+                    <p>
+                      <panel type="seamless" src="/website/book/uml/activityDiagrams/basicNotations/swimlanes/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Intermedidate Notation → Swim Lanes" alt="<md>:glyphicon-education:</md> UML/AD/SwimLanes" fragment="main"></panel>
+                    </p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W8-3"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w8-3-product-design-guidelines"><span class="dimmed">[W8.3]</span> <strong>Product design guidelines</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w8-3-product-design-guidelines"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1"></div>
+        </panel>
+        <p></p>
+        <p><span id="W8-4"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w8-4-basic-design-approaches"><span class="dimmed">[W8.4]</span> <strong>Basic Design Approaches</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w8-4-basic-design-approaches"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W8-4a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.4a</span></span> <span class="dimmed"><strong><span>Design → Design Approaches →
+                          </span></strong></span></small> <strong><span>Top-Down and Bottom-Up Design</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/designApproaches/multilevelDesign/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Design → Design Approaches → Multi-Level Design → What%%" popup-url="/website/book/designApproaches/multilevelDesign/what"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain top-down and bottom-up design</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Multi-level design can be done in a top-down manner, bottom-up manner, or as a mix.</strong></p>
+                    <ul>
+                      <li>Top-down: Design the high-level design first and flesh out the lower levels later. This is especially useful when designing big and novel systems where the high-level design needs to be stable before lower levels can be designed.</li>
+                      <li>Bottom-up: Design lower level components first and put them together to create the higher-level systems later. This is not usually scalable for bigger systems. One instance where this approach might work is when designing a variations of an existing system or re-purposing existing components to build a new system.</li>
+                      <li>Mix: Design the top levels using the top-down approach but switch to a bottom-up approach when designing the bottom levels.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which is better?">
+                            <question>
+                              <p>Top-down design is better than bottom-up design.</p>
+                              <ul radio-group="81698" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="81698" type="radio"> True</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="81698" type="radio"> False</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>False</p>
+                                <p>Explanation: Not necessarily. It depends on the situation. Bottom-up design may be preferable when there are lot of existing components we want to reuse.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-4b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.4b</span></span> <span class="dimmed"><strong><span>Design Approaches → Agile Design →
+                          </span></strong></span></small> <strong><span>Agile Design</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain agile design</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong><em>Agile design</em> can be contrasted with <em>full upfront design</em> in the following way</strong>:</p>
+                    <blockquote>
+                      <p><strong>Agile designs are emergent, they’re not defined up front.</strong> Your overall system design will emerge over time, evolving to fulfill new requirements and take advantage of new technologies as appropriate. Although you will often do <strong>some initial architectural modeling at the very beginning</strong> of a project, this will be just enough to get your team going. This approach does not produce a fully documented set of models in place before you may begin coding. <sub>-- adapted from <a href="http://agilemodeling.com/essays/agileDesign.htm">agilemodeling.com</a></sub></p>
+                    </blockquote>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about agile design">
+                            <question>
+                              <p>Agile design camp expects the design to change over the product’s lifetime.</p>
+                              <ul radio-group="07214" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="07214" type="radio"> True</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="07214" type="radio"> False</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>True</p>
+                                <p>Explanation: Yes, that is why they do not believe in spending too much time creating a detailed and full design at the very beginning. However, the architecture is expected to remain relatively stable even in the agile design approach.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+        <p><span id="W8-5"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w8-5-project-mgt-scheduling-and-tracking"><span class="dimmed">[W8.5]</span> <strong>Project Mgt: Scheduling and Tracking</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w8-5-project-mgt-scheduling-and-tracking"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W8-5a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5a</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Milestones</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain milestones</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>milestone</em> is the end of a stage which indicates a significant progress.</strong> We should take into account dependencies and priorities when deciding on the features to be delivered at a certain milestone.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Each intermediate product release is a milestone.</p>
+                    </tip-box>
+                    <p>In some projects, it is not practical to have a very detailed plan for the whole project due to the uncertainty and unavailability of required information. In such cases, we can use a high-level plan for the whole project and a detailed plan for the next few milestones.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Milestones for the Minesweeper project, iteration 1</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Day</th>
+                              <th>Milestones</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Day 1</td>
+                              <td>Architecture skeleton completed</td>
+                            </tr>
+                            <tr>
+                              <td>Day 3</td>
+                              <td>‘new game’ feature implemented</td>
+                            </tr>
+                            <tr>
+                              <td>Day 4</td>
+                              <td>‘new game’ feature tested</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5b</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Buffers</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain buffers</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>buffer</em> is a time set aside to absorb any unforeseen delays.</strong> It is very important to include buffers in a software project schedule because effort/time estimations for software development is notoriously hard. However, <strong>do not inflate task estimates to create hidden buffers</strong>; have explicit buffers instead. <span class="dimmed"> Reason: With explicit buffers it is easier to detect incorrect effort estimates which can serve as a feedback to improve future effort estimates.</span></p>
+                    <img src="/website/book/projectPlanning/buffers/images/schedule.png" height="120">
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5c</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Issue Trackers</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain issue trackers</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Keeping track of project tasks <span class="dimmed">(who is doing what, which tasks are ongoing, which tasks are done etc.)</span> is an essential part of project management. In small projects it may be possible to track tasks using simple tools as online spreadsheets or general-purpose/light-weight tasks tracking tools such as Trello. Bigger projects need more sophisticated task tracking tools.</p>
+                    <p><strong>Issue trackers (sometimes called bug trackers) are commonly used to track task assignment and progress.</strong> Most online project management software such as GitHub, SourceForge, and BitBucket come with an integrated issue tracker.</p>
+                    <div v-closeable alt="Jira screenshot">
+                      <tip-box>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A screenshot from the Jira Issue tracker software <span class="dimmed">(Jira is part of the BitBucket project management tool suite)</span>:</p>
+                        <img src="/website/book/projectPlanning/issueTrackers/images/xjira.png" height="350">
+                        <p></p>
+                      </tip-box>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5d</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>Work Breakdown Structure</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain work breakdown structures</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>Work Breakdown Structure (WBS)</em> depicts information about tasks and their details in terms of subtasks.</strong> When managing projects it is useful to divide the total work into smaller, well-defined units. Relatively complex tasks can be further split into subtasks. In complex projects a WBS can also include prerequisite tasks and effort estimates for each task.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The high level tasks for a single iteration of a small project could look like the following:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>Task ID</th>
+                              <th>Task</th>
+                              <th>Estimated Effort</th>
+                              <th>Prerequisite Task</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>A</td>
+                              <td>Analysis</td>
+                              <td>1 man day</td>
+                              <td>-</td>
+                            </tr>
+                            <tr>
+                              <td>B</td>
+                              <td>Design</td>
+                              <td>2 man day</td>
+                              <td>A</td>
+                            </tr>
+                            <tr>
+                              <td>C</td>
+                              <td>Implementation</td>
+                              <td>4.5 man day</td>
+                              <td>B</td>
+                            </tr>
+                            <tr>
+                              <td>D</td>
+                              <td>Testing</td>
+                              <td>1 man day</td>
+                              <td>C</td>
+                            </tr>
+                            <tr>
+                              <td>E</td>
+                              <td>Planning for next version</td>
+                              <td>1 man day</td>
+                              <td>D</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                    <p><strong>The effort is traditionally measured in <em>man hour/day/month</em></strong> i.e. work that can be done by one person in one hour/day/month. The <em>Task ID</em> is a label for easy reference to a task. Simple labeling is suitable for a small project, while a more informative labeling system can be adopted for bigger projects.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example WBS for a project for developing a game.</p>
+                      <table class="table">
+                        <tr>
+                          <th>Task ID</th>
+                          <th>Task</th>
+                          <th>Estimated Effort</th>
+                          <th>Prerequisite Task</th>
+                        </tr>
+                        <tr>
+                          <td>A</td>
+                          <td>High level design</td>
+                          <td>1 man day</td>
+                          <td>-</td>
+                        </tr>
+                        <tr>
+                          <td>B</td>
+                          <td>
+                            Detail design
+                            <ol>
+                              <li>User Interface</li>
+                              <li>Game Logic</li>
+                              <li>Persistency Support</li>
+                            </ol>
+                          </td>
+                          <td>
+                            2 man day
+                            <ul>
+                              <li>0.5 man day</li>
+                              <li>1 man day</li>
+                              <li>0.5 man day</li>
+                            </ul>
+                          </td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>C</td>
+                          <td>
+                            Implementation
+                            <ol>
+                              <li>User Interface</li>
+                              <li>Game Logic</li>
+                              <li>Persistency Support</li>
+                            </ol>
+                          </td>
+                          <td>
+                            4.5 man day
+                            <ul>
+                              <li>1.5 man day</li>
+                              <li>2 man day</li>
+                              <li>1 man day</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>B.1</li>
+                              <li>B.2</li>
+                              <li>B.3</li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>D</td>
+                          <td>System Testing</td>
+                          <td>1 man day</td>
+                          <td>C</td>
+                        </tr>
+                        <tr>
+                          <td>E</td>
+                          <td>Planning for next version</td>
+                          <td>1 man day</td>
+                          <td>D</td>
+                        </tr>
+                      </table>
+                    </tip-box>
+                    <p><strong>All tasks should be well-defined.</strong> In particular, it should be clear as to when the task will be considered <em>done</em>.</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of ill-defined tasks and their better-defined counterparts:</p>
+                      <div class="table-responsive">
+                        <table class="markbind-table table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>
+                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                              </th>
+                              <th><span class="text-success"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Better </span></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>more coding</td>
+                              <td>implement component X</td>
+                            </tr>
+                            <tr>
+                              <td>do research on UI testing</td>
+                              <td>find a suitable tool for testing the UI</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which one is not a well-defined task?">
+                            <question>
+                              <p>Which one these project tasks is not well-defined?</p>
+                              <ul radio-group="9211e" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> a. Implement the 'delete' feature.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> b. Fix bug #12315.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> c. Do some more testing.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> d. Choose a tool to draw UML diagrams.</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="9211e" type="radio"> e. Clarify submission requirements with the customer.</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(c)</p>
+                                <p>Explanation: ‘More testing’ is not well-defined. How much is ‘more’? ‘Test the delete functionality’ is a better-defined task.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5e</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>GANTT Charts</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain GANTT charts</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>A <em>Gantt chart</em> is a 2-D bar-chart, drawn as <em>time vs tasks</em></strong> (represented by horizontal bars).</p>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A sample Gantt chart:</p>
+                      <img src="/website/book/projectPlanning/ganttCharts/images/gantt.png" height="360">
+                      <p></p>
+                    </tip-box>
+                    <p>In a Gantt chart, a solid bar represents the main task, which is generally composed of a number of subtasks, shown as grey bars. The diamond shape indicates an important deadline/deliverable/milestone.</p>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5f"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5f</span></span> <span class="dimmed"><strong><span>Project Management → Project Planning →
+                          </span></strong></span></small> <strong><span>PERT Charts</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain PERT charts</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>PERT (Program Evaluation Review Technique) chart uses a graphical technique to show the order/sequence of tasks.</strong> It is based on a simple idea of drawing a directed graph in which:</p>
+                    <ul>
+                      <li>Node or vertex captures the effort estimation of a task, and</li>
+                      <li>Arrow depicts the precedence between tasks</li>
+                    </ul>
+                    <tip-box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an example PERT chart for a simple software project</p>
+                      <p><img src="/website/book/projectPlanning/pertCharts/images/pert.jpg" height="320"><br>
+                        <code>md</code> = man days</p>
+                    </tip-box>
+                    <p>A PERT chart can help determine the following important information:</p>
+                    <ul>
+                      <li>The order of tasks. <span class="dimmed"> In the example above, <code>Final Testing</code> cannot begin until all coding of individual subsystems have been completed.</span></li>
+                      <li>Which tasks can be done concurrently. <span class="dimmed"> In the example above, the various subsystem designs can start independently once the <code>High level design</code> is completed.</span></li>
+                      <li>The shortest possible completion time. <span class="dimmed"> In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
+                      <li>The Critical Path. <span class="dimmed"> In the example above, the shortest possible path is also the critical path</span>.</li>
+                    </ul>
+                    <tip-box type="definition">
+                      <p><strong>Critical path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p>
+                    </tip-box>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W8-5g"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W8.5g</span></span> <span class="dimmed"><strong><span>Project Management → Teamwork →
+                          </span></strong></span></small> <strong><span>Team Structures</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain common team structures</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Given below are three commonly used team structures in software development. Irrespective of the team structure, it is a good practice to assign roles and responsibilities to different team members so that someone is clearly in charge of each aspect of the project. In comparison, the ‘everybody is responsible for everything’ approach can result in more chaos and hence slower progress.</p>
+                    <img src="/website/book/teamwork/teamStructures/images/diagram.png" height="150">
+                    <p></p>
+                    <p><strong>Egoless team</strong></p>
+                    <p>In this structure, <strong>every team member is equal in terms of responsibility and accountability</strong>. When any decision is required, consensus must be reached. This team structure is also known as a <em>democratic</em> team structure. This team structure usually finds a good solution to a relatively hard problem as all team members contribute ideas.</p>
+                    <p>However, the democratic nature of the team structure bears a higher risk of falling apart due to the absence of an authority figure to manage the team and resolve conflicts.</p>
+                    <p><strong>Chief programmer team</strong></p>
+                    <p>Frederick Brooks proposed that software engineers learn from the medical surgical team in an operating room. In such a team, there is always a chief surgeon, assisted by experts in other areas. Similarly, in a chief programmer team structure, <strong>there is a single authoritative figure, the chief programmer</strong>. Major decisions, e.g. system architecture, are made solely by him/her and obeyed by all other team members. The chief programmer directs and coordinates the effort of other team members. When necessary, the chief will be assisted by domain specialists e.g. business specialists, database expert, network technology expert, etc. This allows individual group members to concentrate solely on the areas where they have sound knowledge and expertise.</p>
+                    <p>The success of such a team structure relies heavily on the chief programmer. Not only must he be a superb technical hand, he also needs good managerial skills. Under a suitably qualified leader, such a team structure is known to produce successful work. .</p>
+                    <p><strong>Strict hierarchy team</strong></p>
+                    <p>In the opposite extreme of an egoless team, a strict hierarchy team has <strong>a strictly defined organization among the team members</strong>, reminiscent of the military or bureaucratic government. Each team member only works on his assigned tasks and reports to a single “boss”.</p>
+                    <p>In a large, resource-intensive, complex project, this could be a good team structure to reduce communication overhead.</p>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                        <div>
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which team structure is the most suitable for a school project?">
+                            <question>
+                              <p>Which team structure is the most suitable for a school project?</p>
+                              <ul radio-group="8ee7d" class="radio-list">
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="8ee7d" type="radio"> a. Egoless</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="8ee7d" type="radio"> b. Chief programmer</label></li>
+                                <li class="radio-list-item"><label><input class="radio-list-input" name="8ee7d" type="radio"> c. Strict hierarchy</label></li>
+                              </ul>
+                              <div slot="answer">
+                                <p>(a)</p>
+                                <p>Explanation: Given that students are all peers and beginners, Egoless team structure seems most suitable for a school project. However, given school projects are low-stakes, short-lived, and small, even the other two team structures can be used for them.</p>
+                              </div>
+                            </question>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-8-oct-7">Week 8 [Oct 7]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w8-1-uml-association-classes">[W8.1] UML: Association Classes &#x200E;</a>
+              <a class="nav-link py-1" href="#w8-2-uml-activity-diagrams">[W8.2] UML: Activity Diagrams &#x200E;</a>
+              <a class="nav-link py-1" href="#w8-3-product-design-guidelines">[W8.3] Product design guidelines &#x200E;</a>
+              <a class="nav-link py-1" href="#w8-4-basic-design-approaches">[W8.4] Basic Design Approaches &#x200E;</a>
+              <a class="nav-link py-1" href="#w8-5-project-mgt-scheduling-and-tracking">[W8.5] Project Mgt: Scheduling and Tracking &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Tue, 16 Jul 2019 11:12:31 GMT</small></div>
+    </footer>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

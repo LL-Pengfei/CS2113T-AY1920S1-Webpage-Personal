@@ -1,0 +1,707 @@
+2019-07-16T05:53:01.903Z - info: Website generation started at 1:53:01 PM
+2019-07-16T05:53:03.058Z - info: Building assets...
+2019-07-16T05:53:03.998Z - info: Assets built
+2019-07-16T05:53:03.998Z - info: Generating pages...
+2019-07-16T05:54:15.676Z - info: Pages built
+2019-07-16T05:54:30.150Z - info: Website generation complete! Total build time: 88.254s
+2019-07-16T05:54:30.489Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T05:54:30.489Z - info: Press CTRL+C to stop ...
+2019-07-16T05:54:30.513Z - info: Site data built
+2019-07-16T05:58:25.909Z - info: [1:58:25 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\_markbind\variables.md
+2019-07-16T05:58:26.911Z - info: Rebuilding affected source files
+2019-07-16T05:58:26.964Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-07-16T05:58:27.050Z - info: Rebuilding 714 pages
+2019-07-16T05:59:52.928Z - info: Pages rebuilt
+2019-07-16T05:59:52.954Z - info: Site data built
+2019-07-16T06:01:06.333Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\unit-inParent-asOutcome.md
+2019-07-16T06:01:06.338Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\dukeNestedFragment.md
+2019-07-16T06:01:06.339Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\dukeExtensionTitle.md
+2019-07-16T06:01:06.340Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\unit-inElsewhere-asFlat.md
+2019-07-16T06:01:06.342Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\variables.md
+2019-07-16T06:01:06.344Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\about\acknowledgements.md
+2019-07-16T06:01:06.351Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\about\usage.md
+2019-07-16T06:01:06.354Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\clientServer\index.md
+2019-07-16T06:01:06.361Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\clientServer\path.md
+2019-07-16T06:01:06.362Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\clientServer\what\index.md
+2019-07-16T06:01:06.366Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\eventDriven\index.md
+2019-07-16T06:01:06.370Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\eventDriven\what\index.md
+2019-07-16T06:01:06.373Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\level_thumb.md
+2019-07-16T06:01:06.373Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\index.md
+2019-07-16T06:01:06.376Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\introduction\index.md
+2019-07-16T06:01:06.381Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\introduction\what\index.md
+2019-07-16T06:01:06.381Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\more\index.md
+2019-07-16T06:01:06.385Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\more\moreStyles\index.md
+2019-07-16T06:01:06.389Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\more\usingStyles\index.md
+2019-07-16T06:01:06.389Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\nTier\index.md
+2019-07-16T06:01:06.392Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\nTier\what\index.md
+2019-07-16T06:01:06.396Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\serviceOriented\index.md
+2019-07-16T06:01:06.396Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\serviceOriented\what\index.md
+2019-07-16T06:01:06.400Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\transactionProcessing\index.md
+2019-07-16T06:01:06.403Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architecturalStyles\transactionProcessing\what\index.md
+2019-07-16T06:01:06.406Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architectureDiagrams\drawing\index.md
+2019-07-16T06:01:06.410Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architectureDiagrams\index.md
+2019-07-16T06:01:06.410Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architectureDiagrams\reading\index.md
+2019-07-16T06:01:06.416Z - info: [2:01:06 PM] Reload for file deletion: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\boilerplates\chapter.md
+2019-07-16T06:01:06.417Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\architectureDiagrams\reading\text.md
+2019-07-16T06:01:06.421Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\index.md
+2019-07-16T06:01:06.421Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\introduction\index.md
+2019-07-16T06:01:06.426Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\introduction\what\index.md
+2019-07-16T06:01:06.427Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\architecture\print.md
+2019-07-16T06:01:06.434Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\basic\avoidEmptyCatchBlocks\index.md
+2019-07-16T06:01:06.438Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\basic\deleteDeadCode\index.md
+2019-07-16T06:01:06.440Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\basic\dontRecycleVarsOrParams\index.md
+2019-07-16T06:01:06.443Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\basic\index.md
+2019-07-16T06:01:06.443Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\basic\useDefaultBranch\index.md
+2019-07-16T06:01:06.444Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\index.md
+2019-07-16T06:01:06.449Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\intermediate\index.md
+2019-07-16T06:01:06.449Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\intermediate\minimiseCodeDuplication\index.md
+2019-07-16T06:01:06.455Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\intermediate\minimiseVariableScope\index.md
+2019-07-16T06:01:06.455Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\avoidShortcuts\introduction\index.md
+2019-07-16T06:01:06.460Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\basic\dontRepeatObvious\index.md
+2019-07-16T06:01:06.466Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\basic\index.md
+2019-07-16T06:01:06.467Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\basic\dontRepeatObvious\text.md
+2019-07-16T06:01:06.467Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\basic\writeToReader\index.md
+2019-07-16T06:01:06.471Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\index.md
+2019-07-16T06:01:06.473Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\intermediate\explainWhatWhyNotHow\index.md
+2019-07-16T06:01:06.473Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\intermediate\index.md
+2019-07-16T06:01:06.478Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\commentMinimally\introduction\index.md
+2019-07-16T06:01:06.479Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\followStandard\basic\index.md
+2019-07-16T06:01:06.486Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\followStandard\index.md
+2019-07-16T06:01:06.486Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\followStandard\basic\text.md
+2019-07-16T06:01:06.486Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\followStandard\intermediate\index.md
+2019-07-16T06:01:06.491Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\followStandard\introduction\index.md
+2019-07-16T06:01:06.498Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\introduction\basic\index.md
+2019-07-16T06:01:06.498Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\index.md
+2019-07-16T06:01:06.505Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\introduction\index.md
+2019-07-16T06:01:06.505Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\introduction\basic\text.md
+2019-07-16T06:01:06.505Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\advanced\index.md
+2019-07-16T06:01:06.509Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\advanced\makeHappyPathProminent\index.md
+2019-07-16T06:01:06.510Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidComplicatedExpressions\index.md
+2019-07-16T06:01:06.515Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidDeepNesting\images\arrowheadStyle.png
+2019-07-16T06:01:06.516Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidDeepNesting\index.md
+2019-07-16T06:01:06.523Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidLongMethods\index.md
+2019-07-16T06:01:06.523Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidDeepNesting\text.md
+2019-07-16T06:01:06.524Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\avoidMagicNumbers\index.md
+2019-07-16T06:01:06.533Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\makeCodeObvious\index.md
+2019-07-16T06:01:06.533Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\index.md
+2019-07-16T06:01:06.533Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\basic\index.md
+2019-07-16T06:01:06.537Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\layouts\default\footer.md
+2019-07-16T06:01:06.538Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\layouts\default\head.md
+2019-07-16T06:01:06.538Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\layouts\default\header.md
+2019-07-16T06:01:06.539Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\layouts\default\styles.css
+2019-07-16T06:01:06.539Z - info: [2:01:06 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\_markbind\layouts\default\scripts.js
+2019-07-16T06:01:06.541Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\avoidPrematureOptimizations\index.md
+2019-07-16T06:01:06.541Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\dontTripReader\index.md
+2019-07-16T06:01:06.541Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\index.md
+2019-07-16T06:01:06.549Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\practiceKISSing\index.md
+2019-07-16T06:01:06.550Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\slapHard\index.md
+2019-07-16T06:01:06.550Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\intermediate\structureCodeLogically\index.md
+2019-07-16T06:01:06.550Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\maximiseReadability\introduction\index.md
+2019-07-16T06:01:06.558Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\basic\index.md
+2019-07-16T06:01:06.558Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\basic\nounsAndVerbsAsNames\index.md
+2019-07-16T06:01:06.558Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\basic\useStandardWords\index.md
+2019-07-16T06:01:06.568Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\index.md
+2019-07-16T06:01:06.569Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\intermediate\avoidMisleadingNames\index.md
+2019-07-16T06:01:06.569Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\basic\nounsAndVerbsAsNames\text.md
+2019-07-16T06:01:06.569Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\intermediate\index.md
+2019-07-16T06:01:06.576Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\intermediate\notTooLongNorShort\index.md
+2019-07-16T06:01:06.576Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\intermediate\useNameExplain\index.md
+2019-07-16T06:01:06.576Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\nameWell\introduction\index.md
+2019-07-16T06:01:06.586Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\common\all.md
+2019-07-16T06:01:06.586Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\codeQuality\print.md
+2019-07-16T06:01:06.594Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\common\definitions.md
+2019-07-16T06:01:06.594Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\common\outcomes.md
+2019-07-16T06:01:06.603Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\about\index.md
+2019-07-16T06:01:06.603Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\common\print.md
+2019-07-16T06:01:06.603Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\common\references.md
+2019-07-16T06:01:06.603Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\classes\classLevelMembers\index.md
+2019-07-16T06:01:06.608Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\classes\definingClasses\index.md
+2019-07-16T06:01:06.608Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\classes\gettersAndSetters\index.md
+2019-07-16T06:01:06.609Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\classes\index.md
+2019-07-16T06:01:06.617Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\collections\arrayListClass\index.md
+2019-07-16T06:01:06.617Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\collections\hashMapClass\index.md
+2019-07-16T06:01:06.617Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\collections\index.md
+2019-07-16T06:01:06.625Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\collections\what\index.md
+2019-07-16T06:01:06.625Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\controlFlow\branching\index.md
+2019-07-16T06:01:06.625Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\controlFlow\index.md
+2019-07-16T06:01:06.634Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\controlFlow\loops\index.md
+2019-07-16T06:01:06.634Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\controlFlow\methods\index.md
+2019-07-16T06:01:06.634Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\arrays\index.md
+2019-07-16T06:01:06.643Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\index.md
+2019-07-16T06:01:06.643Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\operators\index.md
+2019-07-16T06:01:06.643Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\arrays\resources.md
+2019-07-16T06:01:06.644Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\primitiveTypes\index.md
+2019-07-16T06:01:06.652Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\dataTypes\variables\index.md
+2019-07-16T06:01:06.652Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\exceptions\how\index.md
+2019-07-16T06:01:06.652Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\exceptions\index.md
+2019-07-16T06:01:06.652Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\exceptions\what\index.md
+2019-07-16T06:01:06.659Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\generics\how\index.md
+2019-07-16T06:01:06.659Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\generics\index.md
+2019-07-16T06:01:06.660Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\generics\what\index.md
+2019-07-16T06:01:06.670Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\compiling\index.md
+2019-07-16T06:01:06.670Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\helloWorld\index.md
+2019-07-16T06:01:06.670Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\index.md
+2019-07-16T06:01:06.670Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\installation\index.md
+2019-07-16T06:01:06.681Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\running\index.md
+2019-07-16T06:01:06.691Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\abstractClassesAndMethods\index.md
+2019-07-16T06:01:06.691Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\gettingStarted\running\text.md
+2019-07-16T06:01:06.692Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\basic\index.md
+2019-07-16T06:01:06.692Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\index.md
+2019-07-16T06:01:06.692Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\index.md
+2019-07-16T06:01:06.692Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\interfaces\index.md
+2019-07-16T06:01:06.701Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\objectClass\index.md
+2019-07-16T06:01:06.702Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\inheritance\polymorphism\index.md
+2019-07-16T06:01:06.702Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\javaWorld\editions\index.md
+2019-07-16T06:01:06.702Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\javaWorld\how\index.md
+2019-07-16T06:01:06.702Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\javaWorld\index.md
+2019-07-16T06:01:06.713Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\javaWorld\what\index.md
+2019-07-16T06:01:06.713Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\accessModifiers\index.md
+2019-07-16T06:01:06.714Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\casting\index.md
+2019-07-16T06:01:06.714Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\constants\index.md
+2019-07-16T06:01:06.727Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\enums\index.md
+2019-07-16T06:01:06.727Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\fileAccess\index.md
+2019-07-16T06:01:06.727Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\index.md
+2019-07-16T06:01:06.738Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\packages\index.md
+2019-07-16T06:01:06.738Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\misc\enums\text.md
+2019-07-16T06:01:06.738Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\objects\garbageCollection\index.md
+2019-07-16T06:01:06.739Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\objects\index.md
+2019-07-16T06:01:06.739Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\objects\instanceMembers\index.md
+2019-07-16T06:01:06.739Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\objects\passingObjects\index.md
+2019-07-16T06:01:06.752Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\objects\usingObjects\index.md
+2019-07-16T06:01:06.752Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\api\index.md
+2019-07-16T06:01:06.752Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\arraysClass\index.md
+2019-07-16T06:01:06.752Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\print.md
+2019-07-16T06:01:06.752Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\index.md
+2019-07-16T06:01:06.762Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\scannerClass\index.md
+2019-07-16T06:01:06.762Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\stringClass\index.md
+2019-07-16T06:01:06.762Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\cppToJava\usefulClasses\wrapperClasses\index.md
+2019-07-16T06:01:06.763Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\design\index.md
+2019-07-16T06:01:06.763Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\design\introduction\index.md
+2019-07-16T06:01:06.775Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\design\introduction\what\index.md
+2019-07-16T06:01:06.775Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\agileDesign\index.md
+2019-07-16T06:01:06.775Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\design\print.md
+2019-07-16T06:01:06.775Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\agileDesign\what\index.md
+2019-07-16T06:01:06.785Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\index.md
+2019-07-16T06:01:06.786Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\multilevelDesign\index.md
+2019-07-16T06:01:06.786Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\multilevelDesign\what\index.md
+2019-07-16T06:01:06.786Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\topDownBottomUp\index.md
+2019-07-16T06:01:06.797Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\topDownBottomUp\what\index.md
+2019-07-16T06:01:06.797Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\abstraction\index.md
+2019-07-16T06:01:06.797Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designApproaches\multilevelDesign\what\text.md
+2019-07-16T06:01:06.797Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\abstraction\what\index.md
+2019-07-16T06:01:06.798Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\cohesion\how\index.md
+2019-07-16T06:01:06.807Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\cohesion\index.md
+2019-07-16T06:01:06.807Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\cohesion\what\index.md
+2019-07-16T06:01:06.808Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\coupling\how\index.md
+2019-07-16T06:01:06.808Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\coupling\index.md
+2019-07-16T06:01:06.808Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\coupling\types\index.md
+2019-07-16T06:01:06.823Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\coupling\what\index.md
+2019-07-16T06:01:06.823Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\index.md
+2019-07-16T06:01:06.823Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\abstractionOccurrence\index.md
+2019-07-16T06:01:06.835Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\abstractionOccurrence\what\index.md
+2019-07-16T06:01:06.835Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\command\index.md
+2019-07-16T06:01:06.835Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\command\what\index.md
+2019-07-16T06:01:06.835Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designFundamentals\print.md
+2019-07-16T06:01:06.836Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\facade\index.md
+2019-07-16T06:01:06.836Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\facade\what\index.md
+2019-07-16T06:01:06.836Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\index.md
+2019-07-16T06:01:06.850Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\introduction\format\index.md
+2019-07-16T06:01:06.850Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\introduction\index.md
+2019-07-16T06:01:06.850Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\introduction\what\index.md
+2019-07-16T06:01:06.851Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\modelViewController\index.md
+2019-07-16T06:01:06.851Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\modelViewController\what\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\combiningDesignPatterns\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\otherDesignPatterns\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\otherTypesOfPatterns\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\usingDesignPatterns\index.md
+2019-07-16T06:01:06.866Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\more\vsPrinciples\index.md
+2019-07-16T06:01:06.879Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\observer\index.md
+2019-07-16T06:01:06.880Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\observer\what\index.md
+2019-07-16T06:01:06.880Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\singleton\evaluation\index.md
+2019-07-16T06:01:06.880Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\singleton\implementation\index.md
+2019-07-16T06:01:06.880Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\print.md
+2019-07-16T06:01:06.880Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\singleton\index.md
+2019-07-16T06:01:06.891Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\designPatterns\singleton\what\index.md
+2019-07-16T06:01:06.891Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\diagrams\codeQuality\practices\avoidDeepNesting\arrowheadStyle.pptx
+2019-07-16T06:01:06.959Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\aimForComprehensibility\how\index.md
+2019-07-16T06:01:06.968Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\aimForComprehensibility\index.md
+2019-07-16T06:01:06.971Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\aimForComprehensibility\what\index.md
+2019-07-16T06:01:06.973Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\documentMinimally\how\index.md
+2019-07-16T06:01:06.977Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\documentMinimally\index.md
+2019-07-16T06:01:06.977Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\documentMinimally\what\index.md
+2019-07-16T06:01:06.982Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\goTopDown\how\index.md
+2019-07-16T06:01:06.982Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\goTopDown\index.md
+2019-07-16T06:01:06.986Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\goTopDown\what\index.md
+2019-07-16T06:01:06.986Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\goTopDown\why\index.md
+2019-07-16T06:01:06.991Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\guidelines\index.md
+2019-07-16T06:01:06.992Z - info: [2:01:06 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\index.md
+2019-07-16T06:01:07.000Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\introduction\index.md
+2019-07-16T06:01:07.000Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\introduction\what\index.md
+2019-07-16T06:01:07.005Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\asciiDoc\index.md
+2019-07-16T06:01:07.005Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\print.md
+2019-07-16T06:01:07.009Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\asciiDoc\what\index.md
+2019-07-16T06:01:07.010Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\index.md
+2019-07-16T06:01:07.010Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\javaDoc\how\index.md
+2019-07-16T06:01:07.018Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\javaDoc\index.md
+2019-07-16T06:01:07.020Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\javaDoc\what\index.md
+2019-07-16T06:01:07.020Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\javaDoc\path.md
+2019-07-16T06:01:07.027Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\markdown\how\index.md
+2019-07-16T06:01:07.027Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\javaDoc\what\text.md
+2019-07-16T06:01:07.027Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\markdown\index.md
+2019-07-16T06:01:07.035Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\documentation\tools\markdown\what\index.md
+2019-07-16T06:01:07.036Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\assertions\how\index.md
+2019-07-16T06:01:07.036Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\assertions\index.md
+2019-07-16T06:01:07.037Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\assertions\what\index.md
+2019-07-16T06:01:07.044Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\assertions\when\index.md
+2019-07-16T06:01:07.045Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\1to1Associations\index.md
+2019-07-16T06:01:07.051Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\compulsoryAssociations\index.md
+2019-07-16T06:01:07.052Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\index.md
+2019-07-16T06:01:07.052Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\referentialIntegrity\index.md
+2019-07-16T06:01:07.052Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\what\index.md
+2019-07-16T06:01:07.058Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\defensiveProgramming\when\index.md
+2019-07-16T06:01:07.058Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\designByContract\index.md
+2019-07-16T06:01:07.063Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\designByContract\what\index.md
+2019-07-16T06:01:07.065Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\exceptions\how\index.md
+2019-07-16T06:01:07.065Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\exceptions\index.md
+2019-07-16T06:01:07.065Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\exceptions\what\index.md
+2019-07-16T06:01:07.072Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\exceptions\when\index.md
+2019-07-16T06:01:07.078Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\introduction\index.md
+2019-07-16T06:01:07.081Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\introduction\what\index.md
+2019-07-16T06:01:07.081Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\index.md
+2019-07-16T06:01:07.081Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\logging\how\index.md
+2019-07-16T06:01:07.082Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\logging\index.md
+2019-07-16T06:01:07.089Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\logging\what\index.md
+2019-07-16T06:01:07.089Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\errorHandling\print.md
+2019-07-16T06:01:07.095Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\brainstorming\index.md
+2019-07-16T06:01:07.095Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\focusGroups\index.md
+2019-07-16T06:01:07.095Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\index.md
+2019-07-16T06:01:07.095Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\interviews\index.md
+2019-07-16T06:01:07.103Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\observation\index.md
+2019-07-16T06:01:07.103Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\print.md
+2019-07-16T06:01:07.103Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\productSurveys\index.md
+2019-07-16T06:01:07.108Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\prototyping\index.md
+2019-07-16T06:01:07.108Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gatheringRequirements\userSurveys\index.md
+2019-07-16T06:01:07.108Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\branch\index.md
+2019-07-16T06:01:07.116Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\checkout\index.md
+2019-07-16T06:01:07.116Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\branch\text.md
+2019-07-16T06:01:07.121Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\clone\index.md
+2019-07-16T06:01:07.122Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\checkout\text.md
+2019-07-16T06:01:07.126Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\commit\index.md
+2019-07-16T06:01:07.126Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\clone\text.md
+2019-07-16T06:01:07.126Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\createPRs\index.md
+2019-07-16T06:01:07.135Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\commit\text.md
+2019-07-16T06:01:07.135Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\forkingWorkflow\index.md
+2019-07-16T06:01:07.135Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\createPRs\text.md
+2019-07-16T06:01:07.140Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\ignore\index.md
+2019-07-16T06:01:07.140Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\init\index.md
+2019-07-16T06:01:07.140Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\index.md
+2019-07-16T06:01:07.148Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\ignore\text.md
+2019-07-16T06:01:07.149Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\init\text.md
+2019-07-16T06:01:07.149Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\managePRs\index.md
+2019-07-16T06:01:07.156Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\mergeConflicts\index.md
+2019-07-16T06:01:07.156Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\managePRs\text.md
+2019-07-16T06:01:07.156Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\print.md
+2019-07-16T06:01:07.161Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\pull\index.md
+2019-07-16T06:01:07.161Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\push\index.md
+2019-07-16T06:01:07.169Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\stash\index.md
+2019-07-16T06:01:07.169Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\pull\text.md
+2019-07-16T06:01:07.169Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\push\text.md
+2019-07-16T06:01:07.176Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\tag\index.md
+2019-07-16T06:01:07.176Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\stash\text.md
+2019-07-16T06:01:07.176Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\debugging\index.md
+2019-07-16T06:01:07.185Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\debugging\what\index.md
+2019-07-16T06:01:07.185Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\gitAndGithub\tag\text.md
+2019-07-16T06:01:07.185Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\index.md
+2019-07-16T06:01:07.185Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\introduction\index.md
+2019-07-16T06:01:07.185Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\introduction\what\index.md
+2019-07-16T06:01:07.195Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\index.md
+2019-07-16T06:01:07.195Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\ides\print.md
+2019-07-16T06:01:07.201Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\approaches\bigBangVsIncremental\index.md
+2019-07-16T06:01:07.201Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\approaches\index.md
+2019-07-16T06:01:07.201Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\approaches\lateVsEarly\index.md
+2019-07-16T06:01:07.201Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\approaches\topDownVsBottomUp\index.md
+2019-07-16T06:01:07.207Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\buildAutomation\continuousIntegrationDeployment\index.md
+2019-07-16T06:01:07.210Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\buildAutomation\index.md
+2019-07-16T06:01:07.210Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\buildAutomation\what\index.md
+2019-07-16T06:01:07.216Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\index.md
+2019-07-16T06:01:07.217Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\introduction\index.md
+2019-07-16T06:01:07.217Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\introduction\what\index.md
+2019-07-16T06:01:07.223Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\more\index.md
+2019-07-16T06:01:07.225Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\more\review\index.md
+2019-07-16T06:01:07.233Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\codeNavigation\index.md
+2019-07-16T06:01:07.233Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\integration\print.md
+2019-07-16T06:01:07.234Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\debuggingBasic\index.md
+2019-07-16T06:01:07.234Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\index.md
+2019-07-16T06:01:07.242Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\productivityShortcuts\index.md
+2019-07-16T06:01:07.242Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\projectSetup\index.md
+2019-07-16T06:01:07.242Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\print.md
+2019-07-16T06:01:07.252Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\refactoring\index.md
+2019-07-16T06:01:07.252Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\collections\index.md
+2019-07-16T06:01:07.252Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\intellij\projectSetup\text.md
+2019-07-16T06:01:07.252Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\enums\index.md
+2019-07-16T06:01:07.262Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\index.md
+2019-07-16T06:01:07.262Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\javaFXBasic\index.md
+2019-07-16T06:01:07.262Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\enums\text.md
+2019-07-16T06:01:07.262Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\streamsBasic\index.md
+2019-07-16T06:01:07.271Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\print.md
+2019-07-16T06:01:07.271Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\varargs\index.md
+2019-07-16T06:01:07.271Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\junit\basic\index.md
+2019-07-16T06:01:07.271Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\javaTools\streamsBasic\resources.md
+2019-07-16T06:01:07.271Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\junit\index.md
+2019-07-16T06:01:07.281Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\junit\intermediate\index.md
+2019-07-16T06:01:07.282Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\index.md
+2019-07-16T06:01:07.282Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\junit\print.md
+2019-07-16T06:01:07.282Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\how\index.md
+2019-07-16T06:01:07.292Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\index.md
+2019-07-16T06:01:07.292Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\umlModels\index.md
+2019-07-16T06:01:07.292Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\how\text.md
+2019-07-16T06:01:07.300Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\what\index.md
+2019-07-16T06:01:07.301Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingASolution\basic\index.md
+2019-07-16T06:01:07.301Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingASolution\index.md
+2019-07-16T06:01:07.308Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingASolution\intermediate\index.md
+2019-07-16T06:01:07.311Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingASolution\introduction\index.md
+2019-07-16T06:01:07.311Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\introduction\what\text.md
+2019-07-16T06:01:07.311Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\activityDiagrams\index.md
+2019-07-16T06:01:07.320Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\activityDiagramsIntermediate\index.md
+2019-07-16T06:01:07.320Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\communicationDiagrams\index.md
+2019-07-16T06:01:07.320Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\index.md
+2019-07-16T06:01:07.321Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\interactionOverviewDiagrams\index.md
+2019-07-16T06:01:07.329Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\sequenceDiagramsAdvanced\index.md
+2019-07-16T06:01:07.331Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\sequenceDiagramsBasic\index.md
+2019-07-16T06:01:07.332Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\sequenceDiagramsIntermediate\index.md
+2019-07-16T06:01:07.332Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\stateMachineDiagrams\index.md
+2019-07-16T06:01:07.339Z - info: Rebuilding affected source files
+2019-07-16T06:01:07.417Z - info: Rebuilding 609 pages
+2019-07-16T06:01:07.422Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\timingDiagrams\index.md
+2019-07-16T06:01:07.422Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\sequenceDiagramsBasic\index.md
+2019-07-16T06:01:07.423Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingBehaviors\useCaseDiagrams\index.md
+2019-07-16T06:01:07.423Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\addingMoreInfo\index.md
+2019-07-16T06:01:07.435Z - warn: Rebuilding all source files
+2019-07-16T06:01:07.440Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsAdvanced\index.md
+2019-07-16T06:01:07.447Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsBasic\index.md
+2019-07-16T06:01:07.447Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\addingMoreInfo\text.md
+2019-07-16T06:01:07.447Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsIntermediate\index.md
+2019-07-16T06:01:07.447Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\componentDiagrams\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\compositeStructureDiagrams\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\deploymentDiagrams\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\objectDiagrams\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\objectOrientedDomainModels\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\ooStructures\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\packageDiagrams\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\print.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\aggregation\index.md
+2019-07-16T06:01:07.448Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\associationClasses\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\dependencies\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\composition\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\multiplicity\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\navigability\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\classes\index.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\classes\what\text.md
+2019-07-16T06:01:07.449Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\inheritance\path.md
+2019-07-16T06:01:07.450Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\introduction\index.md
+2019-07-16T06:01:07.450Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsAdvanced\text.md
+2019-07-16T06:01:07.820Z - warn:  Error: EPERM: operation not permitted, stat 'C:\repos\nusCS2113-AY1920S1\cs2113-website/book/oop/index.md'
+    at Object.statSync (fs.js:851:3)
+    at getStat (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:145:15)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:83:17
+    at Array.map (<anonymous>)
+    at _walkSync (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:75:23)
+    at _walkSync (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:112:32)
+    at _walkSync (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:112:32)
+    at walkSync (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\walk-sync\index.js:44:10)
+    at addressableGlobs.reduce (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:604:22)
+    at Array.reduce (<anonymous>)
+    at Site.collectAddressablePages (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:603:38)
+    at Site.updateAddressablePages (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:582:8)
+    at Promise.resolve.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:765:24)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\more\path.md
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsBasic\index.md
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsBasic\text.md
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\objects\encapsulation\text.md
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\objects\path.md
+2019-07-16T06:01:07.860Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\classDiagramsIntermediate\text.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\componentDiagrams\index.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\compositeStructureDiagrams\index.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\deploymentDiagrams\index.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\index.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\path.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\objectDiagrams\index.md
+2019-07-16T06:01:07.861Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\objectDiagrams\text.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\objectOrientedDomainModels\index.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\ooStructures\index.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\modelingStructures\packageDiagrams\index.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\modeling\print.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\aggregation\index.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\associationClasses\index.md
+2019-07-16T06:01:07.862Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\composition\index.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\path.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\dependencies\index.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\index.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\path.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\multiplicity\index.md
+2019-07-16T06:01:07.863Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\associations\navigability\index.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\classes\index.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\classes\path.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\classes\what\text.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\inheritance\path.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\introduction\index.md
+2019-07-16T06:01:07.864Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\introduction\path.md
+2019-07-16T06:01:07.918Z - info: [2:01:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\book\oop\polymorphism\path.md
+2019-07-16T06:04:55.659Z - info: Website generation started at 2:04:54 PM
+2019-07-16T06:04:56.755Z - info: Building assets...
+2019-07-16T06:04:57.765Z - info: Assets built
+2019-07-16T06:04:57.766Z - info: Generating pages...
+2019-07-16T06:06:02.274Z - info: Pages built
+2019-07-16T06:06:17.464Z - info: Website generation complete! Total build time: 83.045s
+2019-07-16T06:06:17.789Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T06:06:17.789Z - info: Press CTRL+C to stop ...
+2019-07-16T06:06:17.818Z - info: Site data built
+2019-07-16T06:11:35.091Z - info: [2:11:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\projectList.md
+2019-07-16T06:11:36.093Z - info: Rebuilding affected source files
+2019-07-16T06:11:36.094Z - info: Rebuilding 1 pages
+2019-07-16T06:11:36.385Z - info: Pages rebuilt
+2019-07-16T06:11:36.393Z - info: Site data built
+2019-07-16T06:14:28.697Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w11-v13.md
+2019-07-16T06:14:28.702Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w05-v10.md
+2019-07-16T06:14:28.710Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w10-mid-v13.md
+2019-07-16T06:14:28.719Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w13-v14.md
+2019-07-16T06:14:28.734Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w04-mid-v10.md
+2019-07-16T06:14:28.742Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w12-mid-v14.md
+2019-07-16T06:14:28.747Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\projectList.md
+2019-07-16T06:14:28.755Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w09-v12.md
+2019-07-16T06:14:28.761Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w07-v11.md
+2019-07-16T06:14:28.767Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w08-mid-v12.md
+2019-07-16T06:14:28.771Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\coding-standards\java\rules.mbdf
+2019-07-16T06:14:28.777Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w03-inception.md
+2019-07-16T06:14:28.782Z - info: [2:14:28 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w06-mid-v11.md
+2019-07-16T06:14:29.700Z - info: Rebuilding affected source files
+2019-07-16T06:14:29.716Z - info: Rebuilding 29 pages
+2019-07-16T06:14:54.915Z - info: Pages rebuilt
+2019-07-16T06:14:54.935Z - info: Site data built
+2019-07-16T06:17:04.184Z - info: [2:17:04 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\summary.md
+2019-07-16T06:17:04.201Z - info: [2:17:04 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\macros.njk
+2019-07-16T06:17:05.188Z - info: Rebuilding affected source files
+2019-07-16T06:17:05.189Z - info: Rebuilding 1 pages
+2019-07-16T06:17:05.400Z - info: Assets built
+2019-07-16T06:17:05.697Z - info: Pages rebuilt
+2019-07-16T06:17:05.704Z - info: Site data built
+2019-07-16T06:20:50.558Z - info: [2:20:50 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\projectList.md
+2019-07-16T06:20:50.576Z - info: [2:20:50 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\header.md
+2019-07-16T06:20:50.580Z - info: [2:20:50 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-deliverables.md
+2019-07-16T06:20:51.560Z - info: Rebuilding affected source files
+2019-07-16T06:20:51.575Z - info: Rebuilding 93 pages
+2019-07-16T06:21:36.984Z - info: Pages rebuilt
+2019-07-16T06:21:36.998Z - info: Site data built
+2019-07-16T06:27:35.486Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\from_2103_base_index.md
+2019-07-16T06:27:35.496Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\week1\admin.md
+2019-07-16T06:27:35.499Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\week3\tutorial-cs2113.md
+2019-07-16T06:27:35.511Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\admin.njk
+2019-07-16T06:27:35.526Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\header.md
+2019-07-16T06:27:35.536Z - info: [2:27:35 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\index.md
+2019-07-16T06:27:36.488Z - info: Rebuilding affected source files
+2019-07-16T06:27:36.518Z - info: Rebuilding 93 pages
+2019-07-16T06:27:55.127Z - info: Assets built
+2019-07-16T06:28:24.196Z - info: Pages rebuilt
+2019-07-16T06:28:24.210Z - info: Site data built
+2019-07-16T06:33:13.817Z - info: [2:33:13 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\header.md
+2019-07-16T06:33:14.818Z - info: Rebuilding affected source files
+2019-07-16T06:33:14.829Z - info: Rebuilding 93 pages
+2019-07-16T06:33:58.253Z - info: Pages rebuilt
+2019-07-16T06:33:58.267Z - info: Site data built
+2019-07-16T06:37:34.850Z - info: [2:37:34 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\from_2103_base_index.md
+2019-07-16T06:37:34.858Z - info: [2:37:34 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\index.md
+2019-07-16T06:37:34.866Z - info: [2:37:34 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\admin.njk
+2019-07-16T06:37:34.870Z - info: [2:37:34 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\header.md
+2019-07-16T06:37:34.878Z - info: [2:37:34 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\_markbind\navigation\se-book-adapted-sitenav.md
+2019-07-16T06:37:35.852Z - info: Rebuilding affected source files
+2019-07-16T06:37:35.863Z - info: Rebuilding 93 pages
+2019-07-16T06:37:51.855Z - info: Assets built
+2019-07-16T06:38:22.084Z - info: Pages rebuilt
+2019-07-16T06:38:22.103Z - info: Site data built
+2019-07-16T06:39:11.634Z - info: Website generation started at 2:39:10 PM
+2019-07-16T06:39:12.751Z - info: Building assets...
+2019-07-16T06:39:13.779Z - info: Assets built
+2019-07-16T06:39:13.780Z - info: Generating pages...
+2019-07-16T06:40:16.274Z - info: Pages built
+2019-07-16T06:40:30.393Z - info: Website generation complete! Total build time: 80.008s
+2019-07-16T06:40:30.725Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T06:40:30.725Z - info: Press CTRL+C to stop ...
+2019-07-16T06:40:30.746Z - info: Site data built
+2019-07-16T06:41:58.601Z - info: [2:41:58 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\header.md
+2019-07-16T06:41:59.603Z - info: Rebuilding affected source files
+2019-07-16T06:41:59.615Z - info: Rebuilding 93 pages
+2019-07-16T06:42:45.352Z - info: Pages rebuilt
+2019-07-16T06:42:45.368Z - info: Site data built
+2019-07-16T06:44:46.679Z - info: [2:44:46 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\cs2113-website.iml
+2019-07-16T06:44:47.685Z - info: Assets built
+2019-07-16T06:44:57.425Z - info: [2:44:57 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\cs2113-website.iml
+2019-07-16T06:44:58.441Z - info: Assets built
+2019-07-16T06:45:14.580Z - info: [2:45:14 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-deliverables.md
+2019-07-16T06:45:15.587Z - info: Rebuilding affected source files
+2019-07-16T06:45:15.596Z - info: Rebuilding 22 pages
+2019-07-16T06:45:36.666Z - info: Pages rebuilt
+2019-07-16T06:45:36.686Z - info: Site data built
+2019-07-16T06:47:07.775Z - info: [2:47:07 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-assessment.md
+2019-07-16T06:47:08.777Z - info: Rebuilding affected source files
+2019-07-16T06:47:08.783Z - info: Rebuilding 13 pages
+2019-07-16T06:47:25.089Z - info: Pages rebuilt
+2019-07-16T06:47:25.101Z - info: Site data built
+2019-07-16T06:48:26.026Z - info: [2:48:26 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\se-book-adapted\chapters\chapter.njk
+2019-07-16T06:48:27.032Z - info: Assets built
+2019-07-16T06:54:08.603Z - info: Website generation started at 2:54:07 PM
+2019-07-16T06:54:09.677Z - info: Building assets...
+2019-07-16T06:54:10.699Z - info: Assets built
+2019-07-16T06:54:10.699Z - info: Generating pages...
+2019-07-16T06:55:14.403Z - info: Pages built
+2019-07-16T06:55:28.444Z - info: Website generation complete! Total build time: 81.016s
+2019-07-16T06:55:28.760Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T06:55:28.760Z - info: Press CTRL+C to stop ...
+2019-07-16T06:55:28.785Z - info: Site data built
+2019-07-16T08:20:48.538Z - info: Website generation started at 4:20:47 PM
+2019-07-16T08:20:49.589Z - info: Building assets...
+2019-07-16T08:20:50.657Z - info: Assets built
+2019-07-16T08:20:50.657Z - info: Generating pages...
+2019-07-16T08:21:55.406Z - info: Pages built
+2019-07-16T08:22:09.834Z - info: Website generation complete! Total build time: 82.501s
+2019-07-16T08:22:10.169Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T08:22:10.169Z - info: Press CTRL+C to stop ...
+2019-07-16T08:22:10.193Z - info: Site data built
+2019-07-16T08:37:25.875Z - info: Website generation started at 4:37:24 PM
+2019-07-16T08:37:26.949Z - info: Building assets...
+2019-07-16T08:37:27.972Z - info: Assets built
+2019-07-16T08:37:27.972Z - info: Generating pages...
+2019-07-16T08:38:30.906Z - info: Pages built
+2019-07-16T08:38:44.564Z - info: Website generation complete! Total build time: 79.884s
+2019-07-16T08:38:44.883Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T08:38:44.883Z - info: Press CTRL+C to stop ...
+2019-07-16T08:38:44.907Z - info: Site data built
+2019-07-16T08:55:17.094Z - info: [4:55:17 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\week1\index.md
+2019-07-16T08:55:18.109Z - info: Rebuilding affected source files
+2019-07-16T08:55:18.110Z - info: Rebuilding 1 pages
+2019-07-16T08:55:19.013Z - info: Pages rebuilt
+2019-07-16T08:55:19.026Z - info: Site data built
+2019-07-16T08:55:33.078Z - info: [4:55:33 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\week1\index.md
+2019-07-16T08:55:34.090Z - info: Rebuilding affected source files
+2019-07-16T08:55:34.091Z - info: Rebuilding 1 pages
+2019-07-16T08:55:34.864Z - info: Pages rebuilt
+2019-07-16T08:55:34.885Z - info: Site data built
+2019-07-16T09:00:39.395Z - info: [5:00:39 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\outcomes.njk
+2019-07-16T09:00:40.401Z - info: Assets built
+2019-07-16T09:11:16.595Z - info: [5:11:16 PM] Reload for file deletion: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\from_2103_base_index.md
+2019-07-16T09:11:17.607Z - warn: Rebuilding all source files
+2019-07-16T09:11:19.147Z - info: Assets removed
+2019-07-16T09:11:19.147Z - info: Generating pages...
+2019-07-16T09:12:33.920Z - info: [5:12:33 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\serve.sh
+2019-07-16T09:12:34.299Z - info: Pages built
+2019-07-16T09:12:34.924Z - info: Assets built
+2019-07-16T10:01:02.833Z - info: Website generation started at 6:01:01 PM
+2019-07-16T10:01:04.189Z - info: Building assets...
+2019-07-16T10:01:05.400Z - info: Assets built
+2019-07-16T10:01:05.401Z - info: Generating pages...
+2019-07-16T10:02:14.893Z - info: Pages built
+2019-07-16T10:02:29.720Z - info: Website generation complete! Total build time: 88.224s
+2019-07-16T10:02:30.042Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T10:02:30.042Z - info: Press CTRL+C to stop ...
+2019-07-16T10:02:30.074Z - info: Site data built
+2019-07-16T10:40:49.685Z - info: Website generation started at 6:40:48 PM
+2019-07-16T10:40:51.117Z - info: Building assets...
+2019-07-16T10:40:52.438Z - info: Assets built
+2019-07-16T10:40:52.439Z - info: Generating pages...
+2019-07-16T10:42:07.307Z - info: Pages built
+2019-07-16T10:42:23.825Z - info: Website generation complete! Total build time: 95.645s
+2019-07-16T10:42:24.231Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T10:42:24.232Z - info: Press CTRL+C to stop ...
+2019-07-16T10:42:24.264Z - info: Site data built
+2019-07-16T10:48:19.207Z - info: [6:48:19 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\index.md
+2019-07-16T10:48:20.208Z - info: Rebuilding affected source files
+2019-07-16T10:48:20.209Z - info: Rebuilding 2 pages
+2019-07-16T10:48:20.480Z - info: Pages rebuilt
+2019-07-16T10:48:20.489Z - info: Site data built
+2019-07-16T10:51:10.639Z - info: [6:51:10 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\index.md
+2019-07-16T10:51:11.642Z - info: Rebuilding affected source files
+2019-07-16T10:51:11.644Z - info: Rebuilding 2 pages
+2019-07-16T10:51:11.905Z - info: Pages rebuilt
+2019-07-16T10:51:11.914Z - info: Site data built
+2019-07-16T10:52:04.869Z - info: Website generation started at 6:52:03 PM
+2019-07-16T10:52:06.156Z - info: Building assets...
+2019-07-16T10:52:07.292Z - info: Assets built
+2019-07-16T10:52:07.292Z - info: Generating pages...
+2019-07-16T10:53:19.508Z - info: Pages built
+2019-07-16T10:53:35.255Z - info: Website generation complete! Total build time: 91.704s
+2019-07-16T10:53:35.602Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T10:53:35.602Z - info: Press CTRL+C to stop ...
+2019-07-16T10:53:35.628Z - info: Site data built
+2019-07-16T10:54:09.706Z - info: [6:54:09 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\index.md
+2019-07-16T10:54:10.707Z - info: Rebuilding affected source files
+2019-07-16T10:54:10.710Z - info: Rebuilding 2 pages
+2019-07-16T10:54:10.998Z - info: Pages rebuilt
+2019-07-16T10:54:11.007Z - info: Site data built
+2019-07-16T10:55:57.227Z - info: [6:55:57 PM] Reload for file add: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T10:55:58.229Z - warn: Rebuilding all source files
+2019-07-16T10:55:59.860Z - info: Assets removed
+2019-07-16T10:55:59.860Z - info: Generating pages...
+2019-07-16T10:56:56.387Z - info: [6:56:56 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T10:56:57.690Z - info: [6:56:57 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T10:56:57.910Z - info: Rebuilding affected source files
+2019-07-16T10:56:57.910Z - info: Rebuilding 1 pages
+2019-07-16T10:57:12.513Z - info: Pages rebuilt
+2019-07-16T10:57:13.852Z - info: Site data built
+2019-07-16T10:57:20.297Z - info: Pages built
+2019-07-16T10:57:55.992Z - info: [6:57:55 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T10:57:56.994Z - info: Rebuilding affected source files
+2019-07-16T10:57:56.995Z - info: Rebuilding 1 pages
+2019-07-16T10:57:57.299Z - info: Pages rebuilt
+2019-07-16T10:57:57.306Z - info: Site data built
+2019-07-16T10:58:54.073Z - info: [6:58:54 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T10:58:55.074Z - info: Rebuilding affected source files
+2019-07-16T10:58:55.075Z - info: Rebuilding 1 pages
+2019-07-16T10:58:55.330Z - info: Pages rebuilt
+2019-07-16T10:58:55.336Z - info: Site data built
+2019-07-16T10:59:37.866Z - info: [6:59:37 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\schedule\week2\project.md
+2019-07-16T10:59:38.867Z - info: Rebuilding affected source files
+2019-07-16T10:59:38.867Z - info: Rebuilding 1 pages
+2019-07-16T10:59:39.165Z - info: Pages rebuilt
+2019-07-16T10:59:39.171Z - info: Site data built
+2019-07-16T11:01:08.030Z - info: [7:01:08 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T11:01:09.031Z - info: Rebuilding affected source files
+2019-07-16T11:01:09.032Z - info: Rebuilding 2 pages
+2019-07-16T11:01:09.741Z - info: Pages rebuilt
+2019-07-16T11:01:09.749Z - info: Site data built
+2019-07-16T11:01:22.131Z - info: [7:01:22 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T11:01:23.133Z - info: Rebuilding affected source files
+2019-07-16T11:01:23.133Z - info: Rebuilding 2 pages
+2019-07-16T11:01:23.864Z - info: Pages rebuilt
+2019-07-16T11:01:23.875Z - info: Site data built
+2019-07-16T11:01:51.275Z - info: [7:01:51 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T11:01:52.276Z - info: Rebuilding affected source files
+2019-07-16T11:01:52.277Z - info: Rebuilding 2 pages
+2019-07-16T11:01:53.189Z - info: Pages rebuilt
+2019-07-16T11:01:53.203Z - info: Site data built
+2019-07-16T11:04:19.819Z - info: [7:04:19 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\common\admin.njk
+2019-07-16T11:04:19.824Z - info: [7:04:19 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T11:04:20.827Z - info: Assets built
+2019-07-16T11:04:20.829Z - info: Rebuilding affected source files
+2019-07-16T11:04:20.830Z - info: Rebuilding 2 pages
+2019-07-16T11:04:21.766Z - info: Pages rebuilt
+2019-07-16T11:04:21.775Z - info: Site data built
+2019-07-16T11:06:08.994Z - info: [7:06:08 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-w02.md
+2019-07-16T11:06:09.000Z - info: [7:06:09 PM] Reload for file change: C:\repos\nusCS2113-AY1920S1\cs2113-website\admin\project-timeline.md
+2019-07-16T11:06:09.995Z - info: Rebuilding affected source files
+2019-07-16T11:06:10.001Z - info: Rebuilding 36 pages
+2019-07-16T11:06:20.562Z - info: Website generation started at 7:06:19 PM
+2019-07-16T11:06:21.806Z - info: Building assets...
+2019-07-16T11:06:22.954Z - info: Assets built
+2019-07-16T11:06:22.955Z - info: Generating pages...
+2019-07-16T11:07:33.462Z - info: Pages built
+2019-07-16T11:07:48.755Z - info: Website generation complete! Total build time: 89.447s
+2019-07-16T11:07:49.100Z - info: Serving "C:\repos\nusCS2113-AY1920S1\cs2113-website\_site" at http://127.0.0.1:8080
+2019-07-16T11:07:49.100Z - info: Press CTRL+C to stop ...
+2019-07-16T11:07:49.125Z - info: Site data built
+2019-07-16T11:12:29.120Z - info: Website generation started at 7:12:27 PM
+2019-07-16T11:12:30.440Z - info: Building assets...

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+
+
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><strong>Questions to discuss during tutorial:</strong></p>
+        <p>Whole team: do this question together, using the whiteboard:</p>
+        <div class="indented">
+          <div>
+            <panel header="<md>:glyphicon-question-sign:</md> OO domain model for a course">
+              <question>
+                <p>Draw an OODM for the description below, about how <tooltip content="in some universities, these are called _modules_"><em>courses</em></tooltip> work in a certain university:</p>
+                <div class="indented">
+                  <p>A course has a name and a code. A course is read by 10 or more students, and taught by one instructor. A course can have a number tasks which can be assignments or tests. Some assignments are compulsory. When a student attempts a task, a grade and an optional feedback is given.</p>
+                </div>
+                <panel type="seamless" header="Example OODM" minimized>
+                  <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/diagram.png" width="700"></panel>
+              </question>
+            </panel>
+          </div>
+        </div>
+        <br>
+        <p>Divide these questions among team members and get ready to answer them.</p>
+        <p><strong>Q1</strong></p>
+        <ol>
+          <li>How does an <em>OO Domain Model</em> differ from a class diagram?</li>
+          <li>What's the relationship between an OODM and a class diagram for a software? <span class="dimmed">e.g., exactly the same?, one is a sub-set of the other?</span></li>
+          <li>Which diagram can we use to show <s>class</s>object structures in a problem domain?</li>
+        </ol>
+        <p><strong>Q2</strong></p>
+        <ol>
+          <li>Explain and justify: <em>testing should be efficient and effective</em></li>
+          <li>Explain how <em>exploratory</em> and <em>scripted</em> testing is used in AB4/project</li>
+          <li>Give an example of a <em>negative</em> test case in AB4/project</li>
+          <li>Explain <em>grey-box</em> test case design</li>
+        </ol>
+        <p><strong>Q3</strong></p>
+        <ol>
+          <li>Explain: <em>Equivalence Partition</em> improve E&amp;E of testing</li>
+          <li>What are the EPs for the parameter <code>day</code> of this method
+            <pre><code class="hljs java"><span class="hljs-comment">/**
+ * Returns true if the three values represent a valid day
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">isValidDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year, <span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> day)</span></span>{
+
+} 
+</code></pre>
+          </li>
+        </ol>
+        <p><strong>Q4</strong></p>
+        <ol>
+          <li>Explain: <em>Boundary Value Analysis</em> improves E&amp;E of testing</li>
+          <li>What are the boundary values for the parameter <code>day</code> in the question above?</li>
+          <li>How can EP and BVA heuristics be used in AB4/project? Hint: See [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4/blob/master/docs/LearningOutcomes.adoc#apply-test-case-design-heuristics-code-lo-testcasedesignheuristics-code">AB4 Learning Outcomes: LO-TestCaseDesignHeuristics</a>]</li>
+        </ol>
+        <p><strong>Q5</strong></p>
+        <ol>
+          <li>What’s a <em>design pattern</em>?</li>
+          <li>When do you use the <em>Singleton</em> pattern, <em>Facade</em> pattern, <em>Command</em> pattern?</li>
+          <li>Which of the three patterns are used in AB4? Hint: See [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4/blob/master/docs/LearningOutcomes.adoc#apply-design-patterns-code-lo-designpatterns-code">AB4 Learning Outcomes: LO-DesignPatterns</a>]</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

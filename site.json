@@ -20,7 +20,15 @@
       "searchable": "no"},
     {"glob": "schedule/summary.md",
       "searchable": "no"},
+    {"glob": "schedule/**/admin.md",
+      "searchable": "no"},
     {"glob": "schedule/**/index.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/project.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/topics.md",
+      "searchable": "no"},
+    {"glob": "schedule/**/tutorial*.md",
       "searchable": "no"},
     {"glob": "coding-standards/**/*.mbd"},
     {"glob": "book/about/acknowledgements.md"},
@@ -30,6 +38,7 @@
       "searchable": "no"
     },
     {"glob": "se-book-adapted/common/*.md"},
+    {"glob": "se-book-adapted/projectDuke/*.md"},
     {"glob": "book/combined/exercises.md"},
     {"src": "se-book-adapted/print.md",
       "searchable": "no"

@@ -3,13 +3,11 @@
 {% macro show_admin_pagetop_for_topic(topics, topic) %}
 <frontmatter>
 title: "Admin: {{ topic.title }}"
+header: header.md
 footer: footer.md
 siteNav: adminSiteNav.md
 head: adminHead.md
 </frontmatter>
-
-
-<include src="../common/header.md" />
 
 <div class="website-content">
 
@@ -28,12 +26,12 @@ head: adminHead.md
 
 
 {% macro show_previous(topic)-%}
-<span style="float:left"><md>{{ glyphicon_chevron_left }} [{{ topic.title }}]({{ topic.link }})</md></span>
+<span style="float:left"><md>:glyphicon-chevron-left: [{{ topic.title }}]({{ topic.link }})</md></span>
 {%- endmacro %}
 
 
 {% macro show_next(topic)-%}
-<span style="float:right"><md>[{{ topic.title }} {{ glyphicon_chevron_right }}]({{ topic.link }})</md></span>
+<span style="float:right"><md>[{{ topic.title }} :glyphicon-chevron-right:]({{ topic.link }})</md></span>
 {%- endmacro %}
 
 
@@ -91,6 +89,7 @@ head: adminHead.md
     {level: 2, id: "project-constraints", title: "Project: Constraints", link: "project-constraints.html", priority: 2},
     {level: 2, id: "project-teams", title: "Forming Teams", link: "project-teams.html", priority: 2},
     {level: 2, id: "project-timeline", title: "Project: Timeline", link: "project-timeline.html", priority: 2},
+    {level: 2, id: "project-w02", title: "Project: warmup [week 2]", link: "project-w02.html", priority: 2},
     {level: 2, id: "project-w03-inception", title: "Project: inception [week 3]", link: "project-w03-inception.html", priority: 2},
     {level: 2, id: "project-w04-mid-v10", title: "Project: mid-v1.0 [week 4]", link: "project-w04-mid-v10.html", priority: 3},
     {level: 2, id: "project-w05-v10", title: "Project: v1.0 [week 5]", link: "project-w05-v10.html", priority: 2},

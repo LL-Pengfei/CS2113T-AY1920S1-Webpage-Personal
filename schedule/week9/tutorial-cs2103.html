@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+
+
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><strong>Questions to discuss during tutorial:</strong></p>
+        <p>Whole team: do this question together, using the whiteboard:</p>
+        <div class="indented">
+          <div>
+            <panel header="<md>:glyphicon-question-sign:</md> Model workflow of Burger shop">
+              <question>
+                <p>Draw an activity diagram to represent the following workflow a burger shop uses when processing an order by a customer.</p>
+                <ul>
+                  <li>First, a cashier takes the order.</li>
+                  <li>Then, three workers start preparing the order at the same time; one prepares the drinks, one prepares the burgers, and one prepares the desserts.</li>
+                  <li>In the meantime, the customer pays for the order. If the customer has a voucher, she pays using the voucher; otherwise she pays using cash.</li>
+                  <li>After paying, the customer collects the food after all three parts of the order are ready.</li>
+                </ul>
+                <panel type="seamless" header="Example Activity Diagram" minimized>
+                  <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg"><br>
+                    <sub>[<a href="https://en.wikipedia.org/wiki/Activity_diagram">source:wikipeida</a>]</sub></p>
+                </panel>
+              </question>
+            </panel>
+          </div>
+        </div>
+        <br>
+        <p>Divide these five questions among team members. Be prepared to answer questions allocated to you.</p>
+        <p><strong>Q1</strong></p>
+        <ol>
+          <li>What’s the use of assertions?</li>
+          <li>Demonstrate an assertion failure using Intellij.</li>
+          <li>What’s the purpose of logging levels? What are the available logging levels in AB4?</li>
+        </ol>
+        <p><strong>Q2</strong></p>
+        <ol>
+          <li>What is <em>Liskov Substitution Principle</em>?<br>
+            Give an example from the project where LSP is followed and explain how to change the code to break LSP.</li>
+        </ol>
+        <p><strong>Q3</strong></p>
+        <ol>
+          <li>What is <em>defensive programming</em>?<br>
+            Give an example of defensive programming from your project.</li>
+        </ol>
+        <p><strong>Q4</strong></p>
+        <ol>
+          <li>What’s the difference between <em>validation</em> and <em>verification</em>?<br>
+            Acceptance tests are validation tests or verification tests?</li>
+          <li>Give an example of <em>static analysis</em> being used in Intellij</li>
+        </ol>
+        <p><strong>Q5</strong></p>
+        <ol>
+          <li>
+            <p>Explain how <em>Law of Demeter</em> affects coupling<br>
+              a. Add a line to this code that violates LoD</p>
+            <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(P p)</span></span>{
+    <span class="hljs-comment">//...</span>
+}
+</code></pre>
+          </li>
+          <li>
+            <p>Give an example in the project code that violates the <em>Law of Demeter</em>.</p>
+          </li>
+          <li>
+            <p>What’s the problem with the architecture diagram on the right?<br>
+              <img src="/website/book/architecture/architectureDiagrams/drawing/images/tip.png" height="190"><br></p>
+          </li>
+          <li>
+            <p>What is test coverage? How is it used in AB4?</p>
+          </li>
+          <li>
+            <p>How to measure coverage in Intellij?</p>
+          </li>
+          <li>
+            <p>How do you ensure some clean up code is run after each JUnit test case?</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

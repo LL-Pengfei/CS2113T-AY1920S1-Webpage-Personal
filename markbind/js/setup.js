@@ -21,10 +21,12 @@ function flattenModals() {
 
 function setupAnchors() {
   jQuery('h1, h2, h3, h4, h5, h6, .header-wrapper').each((index, heading) => {
-    jQuery(heading).on('mouseenter',
-                       () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'visible'));
-    jQuery(heading).on('mouseleave',
-                       () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'hidden'));
+    if (heading.id) {
+      jQuery(heading).on('mouseenter',
+                         () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'visible'));
+      jQuery(heading).on('mouseleave',
+                         () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'hidden'));
+    }
   });
   jQuery('.fa-anchor').each((index, anchor) => {
     jQuery(anchor).on('click', function () {
@@ -33,10 +35,41 @@ function setupAnchors() {
   });
 }
 
+function updateSearchData(vm) {
+  jQuery.getJSON(`${baseUrl}/siteData.json`)
+    .then((siteData) => {
+      // eslint-disable-next-line no-param-reassign
+      vm.searchData = siteData.pages;
+    });
+}
+
+const MarkBind = {
+  executeAfterSetupScripts: jQuery.Deferred(),
+};
+
+MarkBind.afterSetup = (func) => {
+  if (document.readyState !== 'loading') {
+    func();
+  } else {
+    MarkBind.executeAfterSetupScripts.then(func);
+  }
+};
+
+function removeTemporaryStyles() {
+  jQuery('.temp-navbar').removeClass('temp-navbar');
+  jQuery('.temp-dropdown').removeClass('temp-dropdown');
+  jQuery('.temp-dropdown-placeholder').remove();
+}
+
+function executeAfterCreatedRoutines() {
+  removeTemporaryStyles();
+}
+
 function executeAfterMountedRoutines() {
   flattenModals();
   scrollToUrlAnchorHeading();
   setupAnchors();
+  MarkBind.executeAfterSetupScripts.resolve();
 }
 
 function setupSiteNav() {
@@ -66,6 +99,9 @@ function setup() {
   // eslint-disable-next-line no-unused-vars
   const vm = new Vue({
     el: '#app',
+    created() {
+      executeAfterCreatedRoutines();
+    },
     mounted() {
       executeAfterMountedRoutines();
     },
@@ -73,7 +109,7 @@ function setup() {
   setupSiteNav();
 }
 
-function setupWithSearch(siteData) {
+function setupWithSearch() {
   const { searchbar } = VueStrap.components;
   // eslint-disable-next-line no-unused-vars
   const vm = new Vue({
@@ -83,7 +119,7 @@ function setupWithSearch(siteData) {
     },
     data() {
       return {
-        searchData: siteData.pages,
+        searchData: [],
       };
     },
     methods: {
@@ -93,13 +129,19 @@ function setupWithSearch(siteData) {
         window.location = `${page}${anchor}`;
       },
     },
+    created() {
+      executeAfterCreatedRoutines();
+    },
     mounted() {
       executeAfterMountedRoutines();
+      updateSearchData(this);
     },
   });
   setupSiteNav();
 }
 
-jQuery.getJSON(`${baseUrl}/siteData.json`)
-  .then(siteData => setupWithSearch(siteData))
-  .catch(() => setup());
+if (enableSearch) {
+  setupWithSearch();
+} else {
+  setup();
+}

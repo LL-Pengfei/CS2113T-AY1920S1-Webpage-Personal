@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2113/T Website</title>
+  <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="../../markbind/css/github.min.css">
+  <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
+
+
+
+  <link rel="icon" href="/website/favicon.ico">
+</head>
+
+<body>
+  <div id="app">
+    <div id="flex-body">
+      <div id="content-wrapper">
+        <p><strong>Questions to discuss during tutorial:</strong></p>
+        <ol>
+          <li>Which architecture styles are used by AB-4?</li>
+          <li>What is an API? How is it used in AB-4?</li>
+        </ol>
+        <div>
+          <panel header="<md>:glyphicon-question-sign:</md> Explain Sequence Diagram (ParserFactory)">
+            <question>
+              <p>Explain the interactions depicted in this sequence diagram.</p>
+              <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/parserFactory.png" height="300">
+              <p></p>
+              <div slot="hint">
+                <p>First, the <code>createParser()</code> method of an existing <code>ParserFactory</code> object is called. Then, ...</p>
+              </div>
+            </question>
+          </panel>
+        </div>
+        <div>
+          <panel header="<md>:glyphicon-question-sign:</md> Draw Sequence Diagram for printing a quote">
+            <question>
+              <p>Draw a sequence diagram to represent this code snippet.</p>
+              <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isFirstPage) {
+    <span class="hljs-keyword">new</span> Quote().print();
+}
+</code></pre>
+              <p>The <code>Quote</code> class:</p>
+              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span></span>{
+
+    String q;
+
+    Quote(){
+        q = generate();
+    }
+
+    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-comment">// ...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>{
+        System.out.println(q);
+    }
+
+}
+</code></pre>
+              <div slot="hint">
+                <ul>
+                  <li>Show <code>new Quote().print();</code> as two method calls.</li>
+                  <li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code>print()</code> method is called.</li>
+                </ul>
+              </div>
+            </question>
+          </panel>
+        </div>
+        <div>
+          <panel header="<md>:glyphicon-question-sign:</md> Review `CliApp` code for quality">
+            <panel header="%%<md>:glyphicon-education:</md>%% Prerequisites" minimized>
+              <p>See the chapter on <em>Code Quality</em>.
+              </p>
+            </panel>
+            <p></p>
+            <question has-input="true">
+              <p>Suggest ways to improve the quality of the code below.</p>
+              <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.FileNotFoundException;
+<span class="hljs-keyword">import</span> java.util.*;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CliApp</span> </span>{
+
+    <span class="hljs-comment">//...</span>
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_COMMAND_HELP_PARAMETERS = <span class="hljs-string">"Parameters: %1$s"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_COMMAND_HELP_EXAMPLE = <span class="hljs-string">"Example: %1$s"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_DISPLAY_PERSON_DATA = <span class="hljs-string">"%1$s  Phone Number: %2$s  Email: %3$s"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String GOODBYE_MESSAGE = <span class="hljs-string">"Exiting Address Book... Good bye!"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_INVALID_COMMAND_FORMAT = <span class="hljs-string">"Invalid command format: %1$s"</span>;
+    <span class="hljs-comment">//...</span>
+
+    <span class="hljs-comment">/**
+     * List of all persons in the address book.
+     */</span>
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> ArrayList&lt;String&gt; person = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+
+
+    <span class="hljs-comment">//...</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        String userCommand = <span class="hljs-string">"nothing"</span>; <span class="hljs-keyword">boolean</span> exit = <span class="hljs-keyword">false</span>;
+        <span class="hljs-keyword">if</span> (args.length &gt; <span class="hljs-number">0</span>) {
+            showWelcomeMessage();
+            processProgramArgs(args);
+            loadDataFromStorage();
+            <span class="hljs-keyword">while</span> (!exit) {
+                System.out.print(<span class="hljs-string">"Enter command: "</span>);
+                userCommand = SCANNER.nextLine();
+                userCommand = userCommand.trim();
+                showToUser(userCommand);
+                String feedback = executeCommand(userCommand);
+                showResultToUser(feedback);
+            }
+        } <span class="hljs-keyword">else</span> {
+            showToUser(<span class="hljs-string">"Incorrect usage!"</span>);
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showResultToUser</span><span class="hljs-params">(String feedback)</span> </span>{
+        <span class="hljs-keyword">switch</span> (feedback) {
+            <span class="hljs-keyword">case</span> <span class="hljs-string">"0"</span>:
+                feedback = <span class="hljs-string">"Good (0)"</span>;
+                <span class="hljs-keyword">break</span>;
+            <span class="hljs-keyword">case</span> <span class="hljs-string">"1"</span>:
+                feedback = <span class="hljs-string">"Better (1)"</span>;
+                <span class="hljs-keyword">break</span>;
+        }
+        <span class="hljs-keyword">try</span> {
+            writeToFile(feedback);
+        } <span class="hljs-keyword">catch</span> (FileNotFoundException e) {
+            <span class="hljs-comment">//e.printStackTrace();</span>
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">matcher</span><span class="hljs-params">(String s1, String s2)</span> </span>{
+        <span class="hljs-comment">// ...</span>
+    }
+
+    <span class="hljs-comment">/**
+     * Show the {<span class="hljs-doctag">@code</span> message} to the user
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showToUser</span><span class="hljs-params">(String message)</span> </span>{
+        System.out.println(LINE_PREFIX + message.trim()); <span class="hljs-comment">// add LINE_PREFIX in front</span>
+    }
+
+<span class="hljs-comment">// ...</span>
+
+}
+</code></pre>
+            </question>
+          </panel>
+        </div>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../markbind/js/vue.min.js"></script>
+<script src="../../markbind/js/vue-strap.min.js"></script>
+<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script src="../../markbind/js/polyfill.min.js"></script>
+<script src="../../markbind/js/bootstrap-vue.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  const enableSearch = true
+</script>
+<script src="../../markbind/js/setup.js"></script>
+<script src="../../markbind/layouts/default/scripts.js"></script>
+
+</html>

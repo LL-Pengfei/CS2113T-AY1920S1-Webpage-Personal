@@ -4,9 +4,9 @@
 
 <span id="module_name">Software Engineering and Object-oriented Programming</span>
 
-<span id="semester">AY1819S2</span>
+<span id="semester">AY1920S1</span>
 
-<span id="period">Jan '19</span>
+<span id="period">Aug '19</span>
 
 <span id="module_org">https://github.com/nus{{ module }}-{{ semester }}</span>
 

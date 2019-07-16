@@ -3,7 +3,7 @@
 ## Simple Java exercises
 
 We will use [repl.it](https://repl.it/) platform for some simple Java coding exercises.<br>
-The [link to our classroom {{ glyphicon_blackboard }}](https://repl.it/classroom/invite/5Nfgumx) will be available under *Links* in the navigation bar.<br>
+The [link to our classroom :glyphicon-blackboard:](https://repl.it/classroom/invite/5Nfgumx) will be available under *Links* in the navigation bar.<br>
 %%Note: you need to create an account on repl.it to be able to use the platform%%
 
 </box>

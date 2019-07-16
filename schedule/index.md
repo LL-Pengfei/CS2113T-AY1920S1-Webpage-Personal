@@ -1,5 +1,6 @@
 <frontmatter>
 title: "Full Schedule of Module Activities"
+header: header.md
 footer: footer.md
 head: scheduleHead.md
 </frontmatter>
@@ -526,8 +527,6 @@ head: scheduleHead.md
 {% set week_num_int = week_num_string | int %}
 {% set week = weeks[week_num_int - 1] %}
 
-<include src="../../common/header.md" />
-
 <div class="website-content" id="main">
 
 {{ show_nav_buttons(week.num) }}
@@ -574,8 +573,6 @@ head: scheduleHead.md
 
 
 <!-- ============================= page content ============================================ -->
-
-<include src="../common/header.md" />
 
 <div class="website-content" id="main">
 

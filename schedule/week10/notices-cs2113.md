@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(10, "notices") }}
+
 ## RepoSense
 
 - We use a new tool called `RepoSense` to identify your contributions to the project.

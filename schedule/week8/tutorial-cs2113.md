@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(8, "tutorial") }}
+
 # Suggested tutorial activities
 
 ### Project management - Issue tracker

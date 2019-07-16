@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(3, "notices") }}
+
 * We start formal tutorials this week. The [tutorial time table](https://nuscs2113-ay1819s2.github.io/website/admin/tutorials.html#tutorial-timetable) is on the module website.
 
 * ==**There is graded project task** this week!==

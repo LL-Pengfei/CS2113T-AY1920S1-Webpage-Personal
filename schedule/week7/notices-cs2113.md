@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(7, "notices") }}
+
 ## Coding exercise
 
 - Complete the coding exercise for 3kLoC enhancement  before the tutorial this week (refer to [Week 6]({{ module_website }}/schedule/week6/index.html) Project tab) for details.

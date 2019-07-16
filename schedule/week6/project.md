@@ -1,3 +1,5 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(6, "project") }}
 
 # Project Preparation: 3 KLoC
 

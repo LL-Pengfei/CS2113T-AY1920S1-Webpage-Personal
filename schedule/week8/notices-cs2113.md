@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(8, "notices") }}
+
 ## Lecture this week
 
 * **One part of this week's lecture is not covered in the textbook** and is relevant for your project. You are encouraged to attend this week's lecture even if you don't normally come to lectures.

@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(12, "notices") }}
+
 ## Demo during tutorial
 
 - The remaining members (who did not demo the previous week) do a timed demo in the tutorial this week

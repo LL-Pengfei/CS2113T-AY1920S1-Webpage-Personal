@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(11, "notices") }}
+
 ## Project
 
 - This week, you need to create a a release for your product, with a JAR.

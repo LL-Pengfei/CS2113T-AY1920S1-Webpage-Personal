@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(6, "notices") }}
+
 ## Graded coding exercise
 
 - This week you need to make an enhancement to Addressbook-Level3; this can earn you 3 participation points.

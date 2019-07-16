@@ -1,3 +1,6 @@
+{% from "schedule/index.md" import show_week_pagetop with context%}
+{{ show_week_pagetop(13, "notices") }}
+
 # Project submission
 
 - ==**Please note that the project submissions are due on Sunday, April 14, 2019 23:59 hrs**== (this is the updated info)

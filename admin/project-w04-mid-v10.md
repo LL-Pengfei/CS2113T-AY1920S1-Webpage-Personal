@@ -6,7 +6,7 @@
 </div>
 <div id="body">
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#mid-v10-overview" inline /></md></p>
+<p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v10-overview" inline /></md></p>
 
 :bulb: Given below are some guidance on the recommended progress at this point of the project %%(i.e., at week 4, which is the midway point of the milestone v1.0)%%
 
@@ -90,7 +90,7 @@ This is a good time to analyze requirements with a view to conceptualizing the n
   Based on your user story categorization in the step above, given module requirements/constraints for the project, and the current state of the product, select which user stories you are likely to include in v2.0.
 
   Document the following items using a convenient format (e.g., a GoogleDoc). %%Do not spend time on formatting the content nicely; reason: these will be ported to the actual Developer Guide in your project repo later.%%<br>
-  :bulb: Some examples of these can be found in the [AB4 Developer Guide](https://se-edu.github.io/addressbook-level4/DeveloperGuide.html#product-scope).
+  :bulb: Some examples of these can be found in the [AB4 Developer Guide]({{module_org}}/addressbook-level4/blob/master/docs/DeveloperGuide.adoc#product-scope).
 
   * **Target user profile**, **value proposition**, and <trigger trigger="click" for="modal:v10-userstories">**user stories**</trigger>: Update the target user profile and value proposition to match the project direction you have selected. Give a list of the user stories (and update/delete existing ones, if applicable), including priorities. This can include user stories considered but will not be included in the final product.
   * <trigger trigger="click" for="modal:v10-usecases">**Use cases**</trigger>: Give use cases (textual form) for a few representative user stories that need multiple steps to complete. %%e.g. Adding a tag to a person (assume the user needs to find the person first)%%   

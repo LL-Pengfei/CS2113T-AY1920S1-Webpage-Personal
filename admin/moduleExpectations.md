@@ -3,11 +3,9 @@
 
 ### Prior Knowledge: Java and OOP
 
-This module requires you to write Java code almost every week, starting from the very first week. If your Java skills are rusty, do brush up your Java programming skills.
+This module requires you to write Java code almost every week, starting from the very first week.  While we introduce some bit of Java programming in this module, it is by no means exhaustive. The module expects that you learn much of Java programming by yourself.
 
-In particular, you may want to **have a look at the new Java 8 features** such as _streams_, _lambdas_, _Optionals_, that may not have been covered in previous Java modules.
-
-CS2103 students: ==This module assumes a reasonable prior knowledge of Java and OOP== because most students taking this module have taken two Java modules before. If you are totally new to Java, you may be better off switching to CS2113 (Software Engineering & Object-Oriented Programming) instead.
+In particular, you may want to **have a look at the new Java 8 features** such as _streams_, _lambdas_, _Optionals_. These are used in the codebase given to you.
 
 ### Workload
 
@@ -32,7 +30,7 @@ Given 60% of this module is based on CA, it can appear to be _heavy_. However, *
 * **Three-stars topics** {{ three_stars }}: Can get you up to an **A**.
 * **Four-stars topics** {{ four_stars }}: Can be useful for getting an **A+**, tutors positions, and getting into downstream SE modules that have competitive entry requirements (e.g., CS3281&2, CS3217, CS3216). ==Four-star topics are not examinable==. Omitting them will not affect your CAP (as A+ has the same CAP as an A grade)
 
-* Topics marked with two {{ icon_prereq }} icons e.g., {{ prereq_one_star }},{{ prereq_two_stars }},{{ prereq_three_stars }},{{ prereq_four_stars }} are relevant topoics you are expected have learned in prerequisite modules. They are given for reference, but are examinable. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. four-star pre-requisite topics can be ignored without affecting CAP.
+* Topics marked with two {{ icon_prereq }} icons e.g., {{ prereq_one_star }},{{ prereq_two_stars }},{{ prereq_three_stars }},{{ prereq_four_stars }} are relevant topoics you are expected have learned in prerequisite modules. They are given for reference, but are examinable. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. Four-star pre-requisite topics can be ignored without affecting CAP.
 
 **Star ratings for other things** e.g., admin info sections:
 

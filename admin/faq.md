@@ -9,7 +9,11 @@ The <span class="font-weight-bold">{{ schedule_link }}</span> is ==_the_ one pag
 
 <div id="admin-faq-tVsNonT">
 
-Same lectures, same exam. Separate tutorials, separate project grading. Unless specified otherwise, whatever is stated for one module applies to the other.
+* Same lectures, same exam. 
+* Separate tutorials.
+* The **T** version reuses (to some extent) the documentation in CS2101.
+
+**Unless specified otherwise, whatever is stated for one module applies to the other.**
 
 </div>
 
@@ -34,7 +38,7 @@ In {{ module_pair }}, A+ is not given simply based on the final score. To get an
 * score enough to get an A
 * be considered technically competent by peers and tutor (based on peer evaluations and tutor observations)
 * be considered helpful by peers (based on peer evaluations and tutor observations)
-  * In particular, you are encouraged to be active on the slack channel and our [forum]({{module_org}}/forum/issues) and give your inputs to ongoing discussions so that other students can benefit from your relatively higher expertise that makes you deserve an A+.
+  * In particular, you are encouraged to be active on the [forum]({{module_org}}/forum/issues) and give your inputs to ongoing discussions so that other students can benefit from your relatively higher expertise that makes you deserve an A+.
   * Whenever you can, go out of your way to review PRs created by other team members.
 
 </div>
@@ -55,7 +59,7 @@ Related article: [This Is The Personality Trait That Most Often Predicts Success
 
 <img src="{{baseUrl}}/admin/images/Forces me to visit a separate website.png" width="655" height="271"/>
 
-We have a separate website because some of the module information does not fit into the structure imposed by IVLE.
+We have a separate website because some of the module information does not fit into the structure imposed by LumiNUS.
 
 On a related note, keep in mind that 'hunting and gathering' of relevant information is one of the skills you need to survive 'in the wild'. Do not always expect all relevant materials to appear 'magically' in some kind of 'work bin'.
 

@@ -6,11 +6,11 @@
 </div>
 <div id="body"> 
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#v11-overview" inline /></md></p>
+<p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v11-overview" inline /></md></p>
 
 {{ icon_important_big_red }} **Milestone progress is graded**. Be reminded that reaching individual and team milestones are considered for <trigger trigger="click" for="modal:v11-projectMgtGrading">grading the _project management_ component</trigger> of your project grade.
 
-{{ icon_important_big_red }} **Most aspects project progress are tracked using automated scripts.** ==lease follow our instructions closely or else the script will not be able to detect your progress==. We prefer not to spend admin resources processing requests for partial credit for work that did not follow the instructions precisely, unless the progress was not detected due to a bug in the script.
+{{ icon_important_big_red }} **Most aspects project progress are tracked using automated scripts.** ==Please follow our instructions closely or else the script will not be able to detect your progress==. We prefer not to spend admin resources processing requests for partial credit for work that did not follow the instructions precisely, unless the progress was not detected due to a bug in the script.
 
 {{ icon_important_big_red }} **Milestone requirements are cumulative**. The recommended progress for the mid-milestone is an implicit requirement for the actual milestone unless a milestone requirement overrides a mid-milestone requirement %%e.g., mid-milestone requires a document to be in a temp format while the actual milestone requires it to be in the proper format%%. Similarly, a requirement for milestone `n` is also an implicit requirement for milestone `n+1` unless `n+1` overrides the `n` requirement. This means ==if you miss some requirement at milestone `n`, you should try to achieve it before milestone `n+1`== or else it could be noted again as a 'missed requirement' at milestone `n+1`.
 
@@ -62,7 +62,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 
 ### v1.1 Product
 
-* Each member should try to add some enhancements that are in line with the vision for v2.0. After adding some _local-impact_ changes as recommended in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>, attempt to do some ==<tooltip content="should go beyond the component you are in charge of">_global-impact_</tooltip> enhancements==, touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has [some guidance on how to implement a new feature end-to-end](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code).
+* Each member should try to add some enhancements that are in line with the vision for v2.0. After adding some _local-impact_ changes as recommended in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>, attempt to do some ==<tooltip content="should go beyond the component you are in charge of">_global-impact_</tooltip> enhancements==, touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has [some guidance on how to implement a new feature end-to-end](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/DeveloperGuide.html#GetStartedProgramming-RemarkCommand).
 
 </div>
 

@@ -11,8 +11,8 @@
 ==**The main language** used in this module is Java==. You should use
 Java for all programming activities, the project, and exam answers.
 
-The module doesn’t “teach” Java. We assume you already know Java basics.
-We expect you to learn on your own any Java constructs not covered in your previous modules.
+The module doesn’t “teach” Java, but only introduces some topics essential to get you started. 
+We expect you to learn on your own any Java constructs that are not covered in the lectures, but used in the provided codebase.
 
 </td>
 </tr>

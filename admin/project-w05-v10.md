@@ -6,7 +6,7 @@
 </div>
 <div id="body">
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#v10-overview" inline /></md></p>
+<p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v10-overview" inline /></md></p>
 
 **v1.0 Summary of Milestone**
 
@@ -36,7 +36,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
   
 * **User Guide**:  
   Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.
-  * We recommend that you follow the existing [AB4 User Guide](https://nus-{{ module }}-{{ semester | lower }}.github.io/addressbook-level4/UserGuide.html) in terms of structure and format.
+  * We recommend that you follow the existing [AB4 User Guide](https://nus{{ module }}-{{ semester | lower }}.github.io/addressbook-level4/UserGuide.html) in terms of structure and format.
   * As this is a very rough draft and the final version will be in a different format altogether %%(i.e., in asciidoc format)%%, don't waste time in formatting, copy editing etc. It is fine as long as the tutor can get a rough idea of the features from this draft. You can also do just the 'Features' section and omit the other parts.
   * Do try to come up with concrete command syntax for feature that you would implement (at least for those that you will implement by v1.4).
   * Consider including some UI mock-ups too %%(they can be hand-drawn or created using a tool such as PowerPoint or [Balsamiq](https://balsamiq.com/))%%.
@@ -52,7 +52,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 
 **Suggested length**: Follow the existing user guide and developer guides in terms of the level of details.
 
-=={{ icon_important_big_red }} **Submission**==: Save your draft a single pdf file, name it `{Your Team ID}.pdf` %%e.g., `W09-3.pdf`%% and upload to IVLE.
+=={{ icon_important_big_red }} **Submission**==: Save your draft as a single pdf file, name it `{Your Team ID}.pdf` %%e.g., `M11-3.pdf`%% and upload to LumiNUS.
 
 ### v1.0 Project Management
 
@@ -70,7 +70,7 @@ Milestone | Minimum acceptable performance to consider as 'reached'
   ```
 
 
-=={{ icon_important_big_red }} **Submission**==: Include in the pdf file you upload to IVLE.
+=={{ icon_important_big_red }} **Submission**==: Include in the pdf file you upload to LumiNUS.
 
 </div>
 </div>

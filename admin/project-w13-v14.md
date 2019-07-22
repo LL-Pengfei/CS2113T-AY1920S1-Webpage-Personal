@@ -6,28 +6,28 @@
 </div>
 <div id="body">
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#v14-overview" inline /></md></p>
+<p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v14-overview" inline /></md></p>
 
 **Summary of submissions**:
 
 Team/Individual Item | Name format | Upload to
 -------------------- | ----------- | ---------
 {{ icon_team }} Source code |  tag as `v1.4` | GitHub
-{{ icon_team }} Jar file |  `[team][product name].jar`<br>%%e.g. [W09-1][ContactsPlus].jar%% | IVLE
-{{ icon_team }} User Guide | `[TEAM_ID][product Name]UserGuide.pdf`<br>  %%e.g.[W09-1][Contacts Plus]UserGuide.pdf%% | IVLE
-{{ icon_team }} Developer Guide | `[TEAM_ID][product Name]DeveloperGuide.pdf`<br> %%e.g. [W09-1][Contacts Plus]DeveloperGuide.pdf%% | IVLE
+{{ icon_team }} Jar file |  `[team][product name].jar`<br>%%e.g. [M11-1][ContactsPlus].jar%% | LumiNUS
+{{ icon_team }} User Guide | `[TEAM_ID][product Name]UserGuide.pdf`<br>  %%e.g.[M11-1][Contacts Plus]UserGuide.pdf%% | LumiNUS
+{{ icon_team }} Developer Guide | `[TEAM_ID][product Name]DeveloperGuide.pdf`<br> %%e.g. [M11-1][Contacts Plus]DeveloperGuide.pdf%% | LumiNUS
 {{ icon_team }} Product Website | `README` page, `Ui.png`, `AboutUs` page | github.io
-{{ icon_individual }} Project Portfolio Page | `[TEAM_ID][Your Name]Portfolio.pdf`<br> %%e.g.[W09-1][John Doe]Portfolio.pdf%%<br>html version of PPP page on the product website | IVLE<br><br>github.io
+{{ icon_individual }} Project Portfolio Page | `[TEAM_ID][Your Name]Portfolio.pdf`<br> %%e.g.[M11-1][John Doe]Portfolio.pdf%%<br>html version of PPP page on the product website | LumiNUS<br><br>github.io
 
-* **Deadline** for all v1.4 submissions is Week 13 Monday 23.59 unless stated otherwise.<br>
-* Submit to IVLE folder we have set up, not to your project space.<br>
+* **Deadline** for all v1.4 submissions is Week 13 Sunday 23.59 unless stated otherwise.<br>
+* Submit to LumiNUS folder we have set up, not to your project space.<br>
   {{ module | lower }}T students: documents should be submitted to both modules. It's not enough to submit to CS2101 side only.
 * {{ icon_important_big_red }} **Penalty for late submission:**<br>
   ==-1 mark for missing the deadline (up to 2 hour of delay).==<br>
   -2 for an _extended delay_ (up to 24 hours late).<br>
   Penalty for delays beyond 24 hours is determined on a case by case basis.
   * Even a one-second delay is considered late, irrespective of the reason.
-  * For submissions done via IVLE, the submission time is the timestamp shown by IVLE.
+  * For submissions done via LumiNUS, the submission time is the timestamp shown by LumiNUS.
   * When determining the late submission penalty, **we take the latest submission** even if the same exact file was submitted earlier. Do not submit the same file multiple times if you want to avoid unnecessary late submission penalties.
 * The whole team is penalized for problems in team submissions. Only the respective student is penalized for problems in individual submissions. 
 * {{ icon_important_big_red }} Please **follow submission instructions closely**. ==Any non-compliance will be penalized==. e.g. wrong file name, team member photos not suitable, etc.
@@ -62,7 +62,7 @@ Team/Individual Item | Name format | Upload to
 {{ embed_topic("project-deliverables.md#project-deliverables-ug", "Admin " + icon_embedding + " Project → Deliverables → User Guide", "v14-deliverableUg", "3") }}
 <p/>
 
-**Submission**: Convert the pdf (AB4 dev guide has some instructions on converting project docs to pdf) and upload to IVLE. See _summary of submissions_ above for the file name format.
+**Submission**: Convert the pdf (AB4 dev guide has some instructions on converting project docs to pdf) and upload to LumiNUS. See _summary of submissions_ above for the file name format.
 
 
 ### v1.4 Developer Guide

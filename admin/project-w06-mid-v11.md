@@ -6,7 +6,7 @@
 </div>
 <div id="body">
 
-<p class="lead" style="color: purple"><md>{{ far_calendar_check }} <include src="project-timeline.md#mid-v11-overview" inline /></md><p/>
+<p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v11-overview" inline /></md><p/>
 
 <div id="product">
 
@@ -72,7 +72,7 @@ When updating code in the repo, follow the workflow explained below:
 * **README.adoc** page: Update it to match your project.
 
   * Add a UI mockup of your intended final product.   
-    Note that the ==image of the UI should be `docs/images/Ui.png`== so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same `height x width` proportions as the original one. %%Reason: when we compile these images from all teams into one page ([example](https://nus-cs2103-ay1819s1.github.io/cs2103-website/admin/projectList.html)), yours should not look out of place.%%
+    Note that the ==image of the UI should be `docs/images/Ui.png`== so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same `height x width` proportions as the original one. %%Reason: when we compile these images from all teams into one page ([example](https://nuscs2113-ay1819s1.github.io/website/admin/projectList.html)), yours should not look out of place.%%
 
   * The original `README.adoc` file (which doubles as the landing page of your project website) is written to read like the introduction to an SE learning/teaching resource. You should ==restructure this page to look like the home page of a real product== (not a school project) targeting real users %%&nbsp;e.g. remove references to addressbook-level3, Learning Outcomes etc. mention target users, add a marketing blurb etc.%% On a related note, also remove `Learning Outcomes` link and related pages.
 
@@ -83,7 +83,7 @@ When updating code in the repo, follow the workflow explained below:
 
   * Acknowledge the original source of the code i.e. AddressBook-Level4 project created by SE-EDU initiative at `https://github.com/se-edu/`
 
-* **User Guide**: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' ([example](https://se-edu.github.io/addressbook-level4/UserGuide.html#encrypting-data-files-code-coming-in-v2-0-code)).
+* **User Guide**: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' ([example]({{module_org}}/addressbook-level4/blob/master/docs/UserGuide.adoc#encrypting-data-files-code-coming-in-v2-0-code)).
 
 * **Developer Guide**: Similar to the User Guide, start moving the content from your Developer Guide (draft created in previous weeks) into the Developer Guide page in your team repository.
 
@@ -93,7 +93,7 @@ When updating code in the repo, follow the workflow explained below:
 
   **Objective**: To familiarize yourself with at least one <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> of the product.
 
-  **Description**: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the [AddressBook-Level4 developer guide](https://nus-{{ module | lower }}-{{ semester }}.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component).
+  **Description**: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the [AddressBook-Level4 developer guide](https://nus{{ module | lower }}-{{ semester }}.github.io/addressbook-level4/DeveloperGuide.html#GetStartedProgramming-EachComponent).
 
   **Submission**: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.
 

@@ -40,3 +40,7 @@ Divide these five questions among team members. Be prepared to answer questions 
    <img src="{{baseUrl}}/book/architecture/architectureDiagrams/drawing/images/tip.png" height="190" /><br>
 
 
+1. What is test coverage? How is it used in AB4?
+1. How to measure coverage in Intellij?
+1. How do you ensure some clean up code is run after each JUnit test case?
+

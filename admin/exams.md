@@ -4,8 +4,8 @@
 There is no midterm.
 
 The final exam has two parts: 
-* Part 1: MCQ questions (1 hour, 20 marks) 
-* Part 2: Essay questions (1 hour, 20 marks)
+* Part 1: MCQ questions (30 minutes, 25 marks) 
+* Part 2: Essay questions (1 hour 30 min, 30 marks)
 
 Both papers will be given to you at the start but you need to **answer Part 1 first** (i.e. MCQ paper). It will be **collected 1 hour after the exam start time** (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.
 
@@ -27,7 +27,10 @@ Unless stated otherwise, the meaning of answer options are<br>
 **B**: Disagree. If the question has multiple statements, ++disagree with at least one of them++<br>
 **C**, **D**, **E**: Not used
 
-Number of questions: 100
+The exam paper has 50 questions. All questions carry equal marks.
+
+==The weightage of the Part 1 of the final exam is 25 marks out of the total score of 100.==
+
 
 <div class="full-mode">
 
@@ -45,20 +48,6 @@ Given the fast pace required by the paper, to be fair to all students, **you wil
 You will be given OCR forms %%(i.e., bubble sheets)%% to indicate your answers for Part 1. As each OCR form can accommodate only 50 answers, you will be given 2 OCR forms. **Indicate your student number in both OCR forms**.
 </div>
 
-To save space, we use the following notation in MCQ question.
- **[++x++ | y | ++z++] means ‘x and z, but not y’**
-
-<tip-box> 
-
-{{ icon_example }} SE is [boring | ++useful++ | ++fun++] means _SE is not boring_ AND _SE is useful_ AND _SE is fun_.
-
-{{ icon_example }} Consider the following statement:
-
-* IDEs can help with [++writing++ | debugging | ++testing++] code.
-
-The correct response for it is `Disagree` because IDEs can help with all three of the given options, not just writing and testing.
-
-</tip-box>
 
 Some questions will use ++underlines++ or ==highlighting== to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.
 
@@ -72,13 +61,6 @@ The word ++can++ is underlined because the decision you need to make is whether 
 
 </tip-box>
 
-Markers such as the one given below appears at left margin of the paper to **indicate where the question corresponds to a new column in the OCR form**. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.
-
-<img src="{{baseUrl}}/admin/images/columnMarker.png" /><br>
-
-Some questions have tags e.g., the question below has a tag  **`JAVA`**. These **tags provide additional context about the question**. In the example below, the tag indicates that the code given in the question is Java code.
-
-<img src="{{baseUrl}}/admin/images/contextTag.png" /><br>
 
 **The exam paper is open-book**: you may bring any printed or written materials to the exam in hard copy format.
 However, given the fast pace required by Part 1, you will not have time left to refer notes during that part of the exam. 
@@ -100,6 +82,12 @@ You will be given a practice exam paper to familiarize yourself with this slight
 Unlike in part 1, **you can ask invigilators for clarifications** if you found a question to be unclear in part 2.
 
 Yes, **you may use pencils** when answering part 2.
+
+==The weightage of the Part 2 of the final exam is 15 marks out of the total score of 100.==
+
+## Resources
+
+Past exam papers will be uploaded on IVLE.
 
 </div>
 

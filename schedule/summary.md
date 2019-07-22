@@ -1,8 +1,8 @@
-{% import "common/outcomes.njk" as outcomes with context %}
+{% import "common/topics.njk" as outcomes with context %}
 {% from "common/macros.njk" import  show_stars, show_priority_style with context %}
 {% import "se-book-adapted/config.njk" as config with context %}
 
-{% from "schedule/index.md" import all_outcomes %}
+{% from "schedule/index.md" import all_topics %}
 
 
 {% macro show_unit(unit) -%}
@@ -22,13 +22,13 @@
 {% if item.week %}
 <br><big><md>**Week {{ item.week }}**</md></big>
 {% elif item.name %}
-<br>{{ fas_circle }} **{{ item.name }}**
+<br>:fas-circle: **{{ item.name }}**
 {% elif item.heading %}
-<br>&nbsp;&nbsp;&nbsp;{{ far_circle }} {{ item.heading }} {{ show_stars(item.priority) if item.priority }} :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;:far-circle: {{ item.heading }} {{ show_stars(item.priority) if item.priority }} :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 {% elif item.location %}
 {{ show_unit(item) | trim }}
 {% endif %}
 {%- endmacro %}
 
 
-{% for item in all_outcomes %}&nbsp;{{ show_item(item) | trim }}{% endfor %}
+{% for item in all_topics %}&nbsp;{{ show_item(item) | trim }}{% endfor %}

@@ -63,7 +63,7 @@ For either direction, you need to define a target user profile and a value propo
 * You are expected to add at least one feature to the product.
 * ==One big feature can earn you more marks than multiple small features.== %%Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.%%
 * At lest one feature should be end-user visible and end-user testable. %%Reason: If your feature cannot be identified and tested by the testers, we will not be able to give marks for the quality assurance of that feature.%%
-* The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members.. %%You will lose marks if you go 'rogue' and add features that don't fit with the product.%%
+* The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members. %%You will lose marks if you go 'rogue' and add features that don't fit with the product.%%
 
 
 <panel type="seamless" header="%%{{ icon_example }} Examples of suitable enhancements%%" >
@@ -90,14 +90,14 @@ Here are some examples of different enhancements and the grade the student is li
 
 Here is a non-exhaustive list of minor enhancements:
 
-1. Support different themes for the Look & Feel %%&nbsp;dark, light, etc.%%
 1. Support more fields %%&nbsp;e.g. Birthday%%
 1. Load a different page instead of the default Google search page %%&nbsp;e.g. Google Maps page or Twitter page%%
-1. Sort items
 1. Multiple panels %%&nbsp;e.g. an additional panel to show recently accessed items%%
 1. Marking some items as favorites
 1. Ability to search by labels
 1. Ability to specify colors for labels
+1. %%&nbsp;Support different themes for the Look & Feel dark, light, etc.%%
+1. %%&nbsp;Sort items%%
 
 </panel><p/>
 
@@ -109,7 +109,7 @@ In particular, ==you are required to divide work based on features rather than c
 
 ##### [Individual] Expectations on Code
 
-* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of code** to earn full marks== provided the feature do well in all grading criteria.
+* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of code** to earn full marks== provided the feature does well in all grading criteria.
 
 ##### [Individual] Expectations on Documentation
 

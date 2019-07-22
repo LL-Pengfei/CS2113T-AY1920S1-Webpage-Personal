@@ -54,6 +54,8 @@ Do an enhancement to [[AddressBook - Level1]({{module_org}}/addressbook-level1)]
 Optional but encouraged:
 * Update the Developer Guide
 
+**Use topic id as ==W5== in your PR title. E.g., `[W5][M11-1]John Doe`**
+
 <include src="project.md#PR_to_AB2" />
 
 #### Team component:
@@ -70,7 +72,13 @@ The team component is ==to be done by all members==, including those who didn't 
 
 <div id="3kloc">
 
-==[Optional, but recommended]== If you are not comfortable jumping from AB-2 (~2KLoc) straight to AB-4 (~10KLoc), we recommend that you play around with [[AddressBook - Level3]({{module_org}}/addressbook-level3)] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.
+To get up to speed working with AB-4 (~10KLoc), we recommend that you play around with [[AddressBook - Level3]({{module_org}}/addressbook-level3)] for a bit before moving to AB-4. As before, fork, clone, set up project in your Computer, and try to do a small enhancement to AB-3.
+
+**Suggested exercise**
+
+* add a new command to AB-3 or enhance an existing feature in AB-3
+* update the User Guide to reflect your enhancement
+* add new Unit tests for your enhancement and update existing tests if necessary
 
 How AB-3 differs from AB-2:
 * A simple GUI has been added to replace the Text UI.
@@ -84,16 +92,16 @@ How AB-3 differs from AB-2:
 
 **Submission**: Create a PR against [Addressbook-Level2]({{module_org}}/addressbook-level2).  ==Try to make a _clean_ PR== (i.e. free of unrelated code modifications).
 
-<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
+<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" />
 
 </div>
 
 
 <div id="PR_to_AB3">
 
-**Submission**: Create a PR against [Addressbook-Level3]({{module_org}}/addressbook-level3).  ==Remember to use team ID== (e.g. _W09-2_) in your PR name. 
+**Submission**: Create a PR against [Addressbook-Level3]({{module_org}}/addressbook-level3).  ==Remember to use team ID== (e.g. _M11-2_) in your PR name. 
 
-<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" />
+<panel src="../../admin/appendixE-gitHub.md#tutorial-pr-instructions" header="%%Admin {{ icon_embedding }} Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" />
 
 </div>
 
@@ -145,10 +153,6 @@ Covered by the 'Product' component of v1.1:
 <div id="product_design">
 
 No textbook section. To be covered during the lecture.
-
-{{ evidence }}
-
-Apply the discussed guidelines when designing the product (covered by v1.1 deliverables).
 
 </div>
 

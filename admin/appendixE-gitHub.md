@@ -41,7 +41,7 @@ More info about setting Git username is [here](https://help.github.com/articles/
 </div>
 <div id="tutorial-pr-instructions">
 
-## Submitting Pull Requests as evidence of an LO
+## Submitting Pull Requests as evidence of learning a topic
 
 1. Fork the repo to your personal GitHub account, if you haven't done so already.
 
@@ -55,8 +55,8 @@ More info about setting Git username is [here](https://help.github.com/articles/
    e.g. `{{module_org}}/addressbook-level2`
    ==(do not create PRs against the upstream repo at `se-edu` org)== <br/> 
    <img src="{{baseUrl}}/admin/images/PrDetails.png" width="700" /><br/>
-   PR name should be: `[LO_ID][TEAM_ID]Your Name`  
-   e.g. If you are in tutorial W09 (i.e. Wednesday 9am) and team 1, `[W2.2b][W09-1]James Yong`.
+   PR name should be: `[Topic_ID][TEAM_ID]Your Name`  
+   e.g. If you are in tutorial M11 (i.e. Monday 11am) and team 1, `[W2.2b][M11-1]John Doe`.
    Your Team ID can be found in [this page]({{ team_IDs_page }}).
    Note that our tutorial IDs are different from those shown in CORS/IVLE. Our tutorial IDs are given in the panel below.
 
@@ -83,7 +83,7 @@ More info about setting Git username is [here](https://help.github.com/articles/
 
 After receiving your team ID, one team member should do the following steps:
 * Create a GitHub organization with the following details:
-  * ==Organization name : `{{ module }}-{{ semester }}-TEAM_ID`==. e.g.  `{{ module }}-{{ semester }}-W12-1`
+  * ==Organization name : `{{ module }}-{{ semester }}-TEAM_ID`==. e.g.  `{{ module }}-{{ semester }}-M11-1`
   * Plan:  Open Source ($0/month) 
 * Add members to the organization:
   * Create a team called `developers` to your organization.
@@ -97,13 +97,13 @@ After receiving your team ID, one team member should do the following steps:
 
 Only one team member:
 
-1. **Fork** [Address Book Level 4]({{module_org}}/addressbook-level4) to your team org.
+1. **Fork**  either [Address Book Level 3]({{module_org}}/addressbook-level3) or [Address Book Level 4]({{module_org}}/addressbook-level4) to your team org.
 1. ==**Rename** the forked repo as `main`==. This repo (let's call it the _team repo_) is to be used as the repo for your project.
 1. ==Ensure the issue tracker of your team repo is enabled.== %%Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.%%
 1. Ensure your team members have the desired level of access to your team repo.
-1. [**Enable Travis CI for the team repo**](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci).
-1. [**Set up _auto-publishing_ of docs**](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation). When set up correctly, your project website should be available via the URL  `https://nus-{{ module | lower }}-{{ semester | lower }}-{team-id}.github.io/main` e.g., `https://{{ module | lower }}-{{ semester | lower }}-w13-1.github.io/main/`. This also requires you to [enable the _GitHub Pages_ feature of your team repo and configure it to serve the website from the `gh-pages` branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).
-1. **create a _team PR_** for us to track your project progress: i.e., create a PR from your ==team repo `master` branch== to [[nus-{{ module | lower }}-{{ semester }}/addressbook-level4]({{module_org}}/addressbook-level4)] `master` branch. PR name: `[Team ID] Product Name` e.g., `[T09-2] Contact List Pro`. %%&nbsp;As you merge code to your team repo's `master` branch, this PR will auto-update to reflect how much your team's product has progressed.%% In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.
+1. [**Enable Travis CI for the team repo**](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci).
+1. [**Set up _auto-publishing_ of docs**](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation). When set up correctly, your project website should be available via the URL  `https://nus-{{ module | lower }}-{{ semester | lower }}-{team-id}.github.io/main` e.g., `https://{{ module | lower }}-{{ semester | lower }}-w13-1.github.io/main/`. This also requires you to [enable the _GitHub Pages_ feature of your team repo and configure it to serve the website from the `gh-pages` branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).
+1. **create a _team PR_** for us to track your project progress: i.e., create a PR from your ==team repo `master` branch== to [[nus{{ module | lower }}-{{ semester }}/addressbook-level4]({{module_org}}/addressbook-level4)] `master` branch. PR name: `[Team ID] Product Name` e.g., `[T09-2] Contact List Pro`. %%&nbsp;As you merge code to your team repo's `master` branch, this PR will auto-update to reflect how much your team's product has progressed.%% In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.
 
 All team members:
 
@@ -117,6 +117,8 @@ Note that some of our download scripts depend on the following folder paths. Ple
 * `/src/main`  
 * `/src/test`  
 * `/docs`
+
+1. ==Note: If you fork from [Address Book Level 3]({{module_org}}/addressbook-level3), ensure that the folder structure is similar to  the one in [Address Book Level 4]({{module_org}}/addressbook-level4)==
 
 </div>
 

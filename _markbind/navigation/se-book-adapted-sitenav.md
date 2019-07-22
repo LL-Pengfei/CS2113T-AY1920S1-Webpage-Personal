@@ -1,7 +1,7 @@
 <navigation>
 {% import "se-book-adapted/config.njk" as config with context %}
 
-* [Home {{ glyphicon_home }}, printable versions {{ icon_print }}]({{baseUrl}}/se-book-adapted/index.html)
+* [Home :glyphicon-home:, printable versions {{ icon_print }}]({{baseUrl}}/se-book-adapted/index.html)
 {% for section in config.topics %}
 * **{{ section.heading }}**
 {% for chapter in section.chapters %}
@@ -10,6 +10,7 @@
 {% endfor %}
 * Supplementary
   * [C++ to Java]({{ baseUrl }}/se-book-adapted/chapters/cppToJava.html)
+  * [Project Duke]({{ baseUrl }}/se-book-adapted/projectDuke/index.html)
   * [Combined Exercises]({{ baseUrl }}/se-book-adapted/common/exercises.html)
   * [List of Definitions]({{ baseUrl }}/se-book-adapted/common/definitions.html)
 

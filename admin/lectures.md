@@ -7,8 +7,8 @@
 
 Semester | Venue | Time 
 -------- | ----- | ----
-Semester 1 (Aug-Nov) | ICube Auditorium | **1600**-1800
-Semester 2 (Jan-April) | ICube Auditorium | **1600**-1800
+Semester 1 (Aug-Nov) | LT15 | Friday **1600**-1800
+Semester 2 (Jan-April) | LT15 | Wednesday **1200**-1400
 
 Lectures start on time sharp and end around 15 minutes before official end time.
 

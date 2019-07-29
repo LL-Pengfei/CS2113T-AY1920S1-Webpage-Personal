@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2113/T Website - Object Oriented Programming: Inheritance: Dynamic and Static Binding</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -43,7 +43,7 @@
                 <div id="main">
                   <div>
                     <tip-box type="definition">
-                        <div>
+                      <div>
                         <p><strong>Dynamic Binding</strong> (<tooltip content="There are subtle differences between late binding and dynamic binding, but they are beyond the scope of this document">aka late binding</tooltip>) : a mechanism where method calls in code are <tooltip content="deciding which method implementation to execure">resolved</tooltip> at <tooltip content="at the moment the method call is executed">runtime</tooltip>, rather than at compile time.</p>
                       </div>
                     </tip-box>
@@ -51,7 +51,7 @@
                         <trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.
                       </strong></p>
                     <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overriding">
-                        <div>
+                      <div>
                         <div>
                           <p>
                             <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
@@ -201,13 +201,13 @@
                       <p>However, at runtime s can receive an object of any subclass of <code>Staff</code>. That means the <code>adjustSalary(int)</code> operation of the actual subclass object will be called. If the subclass does not override that operation, the operation defined in the superclass (in this case, <code>Staff</code> class) will be called.</p>
                     </tip-box>
                     <tip-box type="definition">
-                        <div>
+                      <div>
                         <p><strong>Static binding</strong> (aka early binding): When a method call is resolved at compile time.</p>
                       </div>
                     </tip-box>
                     <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
                     <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading">
-                        <div>
+                      <div>
                         <div></div>
                         <p></p>
                         <p><span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →

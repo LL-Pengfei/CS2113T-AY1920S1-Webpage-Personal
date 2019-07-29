@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2113/T Website - Coding Best Practices: [Practice] Avoid Magic Numbers</title>
   <link rel="stylesheet" href="../../../../../markbind/css/bootstrap.min.css">
@@ -49,7 +49,7 @@
                         <div>
                           <table>
                             <tr>
-                                <td valign="top">
+                              <td valign="top">
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
@@ -57,10 +57,9 @@
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>;
 </code></pre>
-                                <p></p>
                               </td>
-                                <td>  <br><br></td>
-                                <td valign="top">
+                              <td>&nbsp;&nbsp;<br><br></td>
+                              <td valign="top">
                                 <p>
                                   <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                 </p>
@@ -71,7 +70,6 @@
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE-<span class="hljs-number">1</span>;
 </code></pre>
-                                <p></p>
                               </td>
                             </tr>
                           </table>
@@ -82,7 +80,7 @@
                           <p>Note: Python does not have a way to make a variable a constant. However, you can use a normal variable with an <code>ALL_CAPS</code> name to simulate a constant.</p>
                           <table>
                             <tr>
-                                <td valign="top">
+                              <td valign="top">
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
@@ -90,10 +88,9 @@
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>
 </code></pre>
-                                <p></p>
                               </td>
-                                <td>  <br><br></td>
-                                <td valign="top">
+                              <td>&nbsp;&nbsp;<br><br></td>
+                              <td valign="top">
                                 <p>
                                   <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                 </p>
@@ -104,7 +101,6 @@ MAX_SIZE = <span class="hljs-number">10</span>
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE<span class="hljs-number">-1</span>
 </code></pre>
-                                <p></p>
                               </td>
                             </tr>
                           </table>

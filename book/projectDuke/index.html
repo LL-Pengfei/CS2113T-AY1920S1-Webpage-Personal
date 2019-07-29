@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2113/T Website - Project Duke</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -40,9 +40,9 @@
                     <pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
                       <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
                     </pic>
-                    <p><strong>Project Duke is a small software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying many Java and SE techniques along the way.</p>
+                    <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p>
                   </div>
-                  <p><strong>The project aims to build a product named Duke, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
+                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
                   <p>Here is a sample interaction with Duke:</p>
                   <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -96,9 +96,9 @@ bye
     ____________________________________________________________
 
 </code></pre>
-                  <p>The project consists of the following:</p>
+                  <p>The project consists of the following <em>increments</em>:</p>
                   <ul>
-                    <li><strong>Base Features</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Duke 1</code> to <code>Duke 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+                    <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
                     <li><strong>Extensions:</strong>
                       <ul>
                         <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
@@ -116,7 +116,7 @@ bye
                   <p><span>
                       <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
+                  <h3 id="level-1-greet-echo-exit">Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit"></a></h3>
                   <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
                     <br>
                     Example:</p>
@@ -150,7 +150,7 @@ bye
                   <p><span>
                       <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-2-add-list">Duke 2. Add, List<a class="fa fa-anchor" href="#duke-2-add-list"></a></h3>
+                  <h3 id="level-2-add-list">Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list"></a></h3>
                   <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
                   <p>Example:</p>
                   <pre><code class="hljs">    ____________________________________________________________
@@ -189,7 +189,7 @@ bye
                   <p><span>
                       <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-3-mark-as-done">Duke 3. Mark as Done<a class="fa fa-anchor" href="#duke-3-mark-as-done"></a></h3>
+                  <h3 id="level-3-mark-as-done">Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done"></a></h3>
                   <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
                   <pre><code class="hljs">list
     ____________________________________________________________
@@ -245,7 +245,7 @@ t.markAsDone()
                   <p><span>
                       <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-4-todos-events-deadlines">Duke 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#duke-4-todos-events-deadlines"></a></h3>
+                  <h3 id="level-4-todos-events-deadlines">Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines"></a></h3>
                   <p>Add support for tracking three types of tasks:
                     <br>
                     <br></p>
@@ -336,7 +336,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                   <p><span>
                       <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-5-handle-errors">Duke 5. Handle Errors<a class="fa fa-anchor" href="#duke-5-handle-errors"></a></h3>
+                  <h3 id="level-5-handle-errors">Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors"></a></h3>
                   <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
                     <br>
                     <br></p>
@@ -366,7 +366,7 @@ blah
                   </div>
                   <ul>
                     <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
-                    <li><strong>Ideal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
+                    <li><strong>Stretch goal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
                   </ul>
                 </div>
                 <hr>
@@ -374,7 +374,7 @@ blah
                   <p><span>
                       <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-6-delete">Duke 6. Delete<a class="fa fa-anchor" href="#duke-6-delete"></a></h3>
+                  <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
                   <p>Add support for deleting tasks from the list.
                     <br>
                     <br></p>
@@ -415,8 +415,8 @@ delete 3
                   <p><span>
                       <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
-                  <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                  <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
+                  <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                   <p>The format of the file is up to you. Example:</p>
                   <pre><code class="hljs">T | 1 | read book
 D | 0 | return book | June 6th
@@ -429,7 +429,7 @@ T | 1 | join sports club
                   <p><span>
                       <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-8-dates-and-times">Duke 8. Dates and Times<a class="fa fa-anchor" href="#duke-8-dates-and-times"></a></h3>
+                  <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
                   <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
                 </div>
                 <hr>
@@ -437,7 +437,7 @@ T | 1 | join sports club
                   <p><span>
                       <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-9-find">Duke 9. Find<a class="fa fa-anchor" href="#duke-9-find"></a></h3>
+                  <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
                   <p>Give users a way to find a task by searching for a keyword.
                     <br>
                     <br></p>
@@ -455,7 +455,7 @@ T | 1 | join sports club
                   <p><span>
                       <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
                     </span></p>
-                  <h3 id="duke-10-gui">Duke 10. GUI<a class="fa fa-anchor" href="#duke-10-gui"></a></h3>
+                  <h3 id="level-10-gui">Level 10. GUI<a class="fa fa-anchor" href="#level-10-gui"></a></h3>
                   <p>Add a GUI to Duke.
                     <br>
                     <br></p>
@@ -575,24 +575,59 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                     <ul>
                       <li><strong>Minimal</strong>: Extract the following classes:
                         <ul>
-                          <li><code>Ui</code>: Deals with interactions with the user</li>
-                          <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
-                          <li><code>Parser</code>: Deals with making sense of the user command</li>
-                          <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                          <li><code>Ui</code>: deals with interactions with the user</li>
+                          <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+                          <li><code>Parser</code>: deals with making sense of the user command</li>
+                          <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
                         </ul>
                       </li>
+                    </ul>
+                    <div class="indented-level2">
+                      <p>For example, the code of the main class could look like this:</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+
+    <span class="hljs-keyword">private</span> Storage storage;
+    <span class="hljs-keyword">private</span> TaskList tasks;
+    <span class="hljs-keyword">private</span> Ui ui;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+        ui = <span class="hljs-keyword">new</span> Ui();
+        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+        <span class="hljs-keyword">try</span> {
+            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showLoadingError();
+            tasks = <span class="hljs-keyword">new</span> TaskList();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
+    }
+}
+</code></pre>
+                    </div>
+                    <ul>
                       <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
-                        <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
-    <span class="hljs-keyword">try</span> {
-        String fullCommand = ui.readCommand();
-        ui.showLine();
-        Command c = Parser.parse(fullCommand);
-        c.execute(tasks, ui, storage);
-        isExit = c.isExit();
-    } <span class="hljs-keyword">catch</span> (DukeException e) {
-        ui.showError(e.getMessage());
-    } <span class="hljs-keyword">finally</span> {
-        ui.showLine();
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+    ui.showWelcome();
+    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">while</span> (!isExit) {
+        <span class="hljs-keyword">try</span> {
+            String fullCommand = ui.readCommand();
+            ui.showLine();
+            Command c = Parser.parse(fullCommand);
+            c.execute(tasks, ui, storage);
+            isExit = c.isExit();
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showError(e.getMessage());
+        } <span class="hljs-keyword">finally</span> {
+            ui.showLine();
+        }
     }
 }
 </code></pre>

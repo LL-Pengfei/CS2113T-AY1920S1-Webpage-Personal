@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.2">
+  <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2113/T Website - Software Engineering for Self-Directed Learners [Printable Version for CS2113/T]</title>
   <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -49,7 +49,7 @@
               <div class="indented-less">
                 <div>
                   <tip-box type="definition">
-                      <div>
+                    <div>
                       <p><strong>Software Engineering</strong>: Software Engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software&quot; <sub>-- IEEE Standard Glossary of Software Engineering Terminology</sub></p>
                     </div>
                   </tip-box>
@@ -365,7 +365,7 @@
                 <div>
                   <p>The concept of <strong><em>Objects</em> in OOP is an <trigger trigger="click" for="modal:objectsAsAbstractions-abstraction">abstraction</trigger> mechanism because it allows us to abstract away the lower level details and work with bigger granularity entities</strong> i.e. ignore details of data formats and the method implementation details and work at the level of objects.</p>
                   <modal large title="Definition: Abstraction" id="modal:objectsAsAbstractions-abstraction">
-                      <div>
+                    <div>
                       <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                     </div>
                   </modal>
@@ -1071,7 +1071,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               <div class="indented-less">
                 <div>
                   <tip-box type="definition">
-                      <div>
+                    <div>
                       <p><strong>Dynamic Binding</strong> (<tooltip content="There are subtle differences between late binding and dynamic binding, but they are beyond the scope of this document">aka late binding</tooltip>) : a mechanism where method calls in code are <tooltip content="deciding which method implementation to execure">resolved</tooltip> at <tooltip content="at the moment the method call is executed">runtime</tooltip>, rather than at compile time.</p>
                     </div>
                   </tip-box>
@@ -1079,7 +1079,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.
                     </strong></p>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overriding">
-                      <div>
+                    <div>
                       <div>
                         <p>
                           <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
@@ -1229,13 +1229,13 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p>However, at runtime s can receive an object of any subclass of <code>Staff</code>. That means the <code>adjustSalary(int)</code> operation of the actual subclass object will be called. If the subclass does not override that operation, the operation defined in the superclass (in this case, <code>Staff</code> class) will be called.</p>
                   </tip-box>
                   <tip-box type="definition">
-                      <div>
+                    <div>
                       <p><strong>Static binding</strong> (aka early binding): When a method call is resolved at compile time.</p>
                     </div>
                   </tip-box>
                   <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Paradigms → OOP → Inheritance →
@@ -1588,7 +1588,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <div>
                   <p><strong>Interviewing stakeholders and <trigger for="pop:interviews-domainExpert">domain experts</trigger> can produce useful information that project requirements.</strong></p>
                   <popover id="pop:interviews-domainExpert" title placement="top">
-                      <div slot="content">
+                    <div slot="content">
                       <div>
                         <p><strong>Domain Expert</strong> : An expert of a discipline to which the product is connected <span class="dimmed"> e.g., for a software used for Accounting, a domain expert is someone who is an expert of Accounting</span>.</p>
                       </div>
@@ -1878,7 +1878,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <p><strong>User stories differ from <popover content="e.g. a description of the requirements written in prose">traditional requirements specifications</popover> mainly in the level of detail.</strong> User stories should only provide enough details to make a reasonably low risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. <span class="dimmed">[<trigger for="modal:xp-user-stories" trigger="click">more...</trigger>]</span></p>
                   <p><strong>User stories can capture <trigger trigger="click" for="modal:userStoriesUsage-nfr">non-functional requirements</trigger> too</strong> because even NFRs must benefit some stakeholder.</p>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:userStoriesUsage-nfr">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Requirements → Requirements →
@@ -1998,7 +1998,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <panel header="**Tool Examples**: How to use some example online tools to manage user stories" alt="tool examples">
                       <div>
                         <tabs>
-                            <tab header="GitHub Project Boards">
+                          <tab header="GitHub Project Boards">
                             <p>You can create issues for each of the user stories and use a GitHub <em>Project Board</em> to sort them into categories.</p>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Project Board:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGitHubProjectBoards.png" width="800"></p>
@@ -2010,19 +2010,16 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                             <p></p>
                             <p>A video on GitHub Project Boards:</p>
                             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/C6MGKHkNtxU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                            <p></p>
                           </tab>
-                            <tab header="Google Sheets">
+                          <tab header="Google Sheets">
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Google Sheet for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGoogleSheets.png" width="800"></p>
                             <p></p>
                             <p></p>
-                            <p></p>
-                          </tab> 
+                          </tab>
                           <tab header="Trello">
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example <a href="https://trello.com">Trello</a> Board for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInTrello.png" width="800"></p>
-                            <p></p>
                             <p></p>
                             <p></p>
                           </tab>
@@ -2499,7 +2496,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <div>
                   <p><strong>A <em>supplementary requirements</em> section can be used to capture <em>requirements that do not fit elsewhere</em></strong>. Typically, this is where most <trigger trigger="click" for="modal:supplementary-nfr">Non Functional Requirements</trigger> will be listed.</p>
                   <modal large title="%%Textbook »%%" id="modal:supplementary-nfr">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Requirements → Requirements →
@@ -2796,7 +2793,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   </modal>
                   <p><strong>A <em>model</em> provides a simpler view of a complex entity because a model captures only a selected aspect.</strong> This omission of some aspects implies models are <trigger trigger="click" for="modal:modellingIntro-abstraction">abstractions</trigger>.</p>
                   <modal large title="%%Textbook <md>:glyphicon-log-in:</md>%%" id="modal:modellingIntro-abstraction">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Abstraction →
@@ -2881,28 +2878,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       <tip-box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example architecture diagrams:</p>
                         <tabs>
-                            <tab header="TEAMMATES">
+                          <tab header="TEAMMATES">
                             <p><img src="https://github.com/TEAMMATES/teammates/raw/master/docs/images/highlevelArchitecture.png" width="700"><br></p>
-                            <p></p>
                           </tab>
-                            <tab header="se-edu/addressbook-level4">
+                          <tab header="se-edu/addressbook-level4">
                             <p><img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="700"><br></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 1">
+                          <tab header="Example 1">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Accelerator_Architecture.png" width="700"><br>
                               <sub><a href="https://commons.wikimedia.org/wiki/File:Accelerator_Architecture.png">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 2">
+                          <tab header="Example 2">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png" width="700"><br>
                               <sub><a href="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
-                            <tab header="Example 3">
+                          <tab header="Example 3">
                             <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg" width="700"><br>
                               <sub><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg">source: https://commons.wikimedia.org</a></sub></p>
-                            <p></p>
                           </tab>
                         </tabs>
                       </tip-box>
@@ -3275,28 +3267,23 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <tip-box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example architecture diagrams:</p>
                       <tabs>
-                          <tab header="TEAMMATES">
+                        <tab header="TEAMMATES">
                           <p><img src="https://github.com/TEAMMATES/teammates/raw/master/docs/images/highlevelArchitecture.png" width="700"><br></p>
-                          <p></p>
                         </tab>
-                          <tab header="se-edu/addressbook-level4">
+                        <tab header="se-edu/addressbook-level4">
                           <p><img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="700"><br></p>
-                          <p></p>
                         </tab>
-                          <tab header="Example 1">
+                        <tab header="Example 1">
                           <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Accelerator_Architecture.png" width="700"><br>
                             <sub><a href="https://commons.wikimedia.org/wiki/File:Accelerator_Architecture.png">source: https://commons.wikimedia.org</a></sub></p>
-                          <p></p>
                         </tab>
-                          <tab header="Example 2">
+                        <tab header="Example 2">
                           <p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png" width="700"><br>
                             <sub><a href="https://upload.wikimedia.org/wikipedia/commons/b/b8/Firefox_OS_Architecture_diagram.png">source: https://commons.wikimedia.org</a></sub></p>
-                          <p></p>
                         </tab>
-                          <tab header="Example 3">
+                        <tab header="Example 3">
                           <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg" width="700"><br>
                             <sub><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/SOA_Metamodel.svg">source: https://commons.wikimedia.org</a></sub></p>
-                          <p></p>
                         </tab>
                       </tabs>
                     </tip-box>
@@ -3549,7 +3536,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed"> because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
                   <tip-box>
                     <p>Example:</p>
-                    <img src="/website/book/designPatterns/singleton/what/images/singleton.png" height="130">
+                    <p>
+                      <pic src="/website/book/designPatterns/singleton/what/images/singleton.png"></pic>
+                    </p>
                     <p></p>
                   </tip-box>
                 </div>
@@ -3848,18 +3837,12 @@ studentList.addUi(statusUi);
                       <img src="https://se-edu.github.io/addressbook-level4/images/Architecture.png" width="600">
                       <p>Here are examples of lower level designs of some components of the same software:</p>
                       <tabs>
-                          <tab header="UI">
-                          <img src="https://se-edu.github.io/addressbook-level4/images/UiClassDiagram.png" width="600">
-                          <p></p>
-                        </tab>
-                          <tab header="Logic">
-                          <img src="https://se-edu.github.io/addressbook-level4/images/LogicClassDiagram.png" width="600">
-                          <p></p>
-                        </tab>
-                          <tab header="Storage">
-                          <img src="https://se-edu.github.io/addressbook-level4/images/StorageClassDiagram.png" width="600">
-                          <p></p>
-                        </tab>
+                        <tab header="UI">
+                          <img src="https://se-edu.github.io/addressbook-level4/images/UiClassDiagram.png" width="600"></tab>
+                        <tab header="Logic">
+                          <img src="https://se-edu.github.io/addressbook-level4/images/LogicClassDiagram.png" width="600"></tab>
+                        <tab header="Storage">
+                          <img src="https://se-edu.github.io/addressbook-level4/images/StorageClassDiagram.png" width="600"></tab>
                       </tabs>
                     </tip-box>
                   </div>
@@ -4047,7 +4030,7 @@ studentList.addUi(statusUi);
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4069,10 +4052,9 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4090,7 +4072,6 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4100,7 +4081,7 @@ studentList.addUi(statusUi);
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4117,10 +4098,9 @@ studentList.addUi(statusUi);
         subsidy = <span class="hljs-number">-1</span>
     <span class="hljs-keyword">return</span> subsidy
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4134,7 +4114,6 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">else</span>:
         <span class="hljs-keyword">return</span> FULLTIME_SUBSIDY
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4179,7 +4158,7 @@ studentList.addUi(statusUi);
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4201,10 +4180,9 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4222,7 +4200,6 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">return</span> subsidy;
 }
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4232,7 +4209,7 @@ studentList.addUi(statusUi);
                       <div>
                         <table>
                           <tr>
-                              <td>
+                            <td>
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4249,10 +4226,9 @@ studentList.addUi(statusUi);
         subsidy = <span class="hljs-number">-1</span>
     <span class="hljs-keyword">return</span> subsidy
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4266,7 +4242,6 @@ studentList.addUi(statusUi);
     <span class="hljs-keyword">else</span>:
         <span class="hljs-keyword">return</span> FULLTIME_SUBSIDY
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4349,7 +4324,7 @@ is_urgent = type_code == URGENT
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4357,10 +4332,9 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>;
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4371,7 +4345,6 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE-<span class="hljs-number">1</span>;
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4382,7 +4355,7 @@ is_urgent = type_code == URGENT
                         <p>Note: Python does not have a way to make a variable a constant. However, you can use a normal variable with an <code>ALL_CAPS</code> name to simulate a constant.</p>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <p>
                                 <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
@@ -4390,10 +4363,9 @@ is_urgent = type_code == URGENT
 ...
 <span class="hljs-keyword">return</span> <span class="hljs-number">9</span>
 </code></pre>
-                              <p></p>
                             </td>
-                              <td>  <br><br></td>
-                              <td valign="top">
+                            <td>&nbsp;&nbsp;<br><br></td>
+                            <td valign="top">
                               <p>
                                 <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
@@ -4404,7 +4376,6 @@ MAX_SIZE = <span class="hljs-number">10</span>
 ...
 <span class="hljs-keyword">return</span> MAX_SIZE<span class="hljs-number">-1</span>
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -4541,7 +4512,7 @@ displayResult();
 </code></pre>
                   </tip-box>
                   <modal title id="modal:slap-abstraction">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Abstraction →
@@ -5341,7 +5312,7 @@ compact(input);
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isSpecialDeal()) {
     total = price * <span class="hljs-number">0.95</span>;
     send();
@@ -5350,10 +5321,9 @@ compact(input);
     send();
 }
 </code></pre>
-                              <p></p>
                             </td>
-                              <td valign="center"> → </td>
-                              <td valign="top">
+                            <td valign="center">&nbsp;→&nbsp;</td>
+                            <td valign="top">
                               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isSpecialDeal()){
     total = price * <span class="hljs-number">0.95</span>;
 } <span class="hljs-keyword">else</span> {
@@ -5362,7 +5332,6 @@ compact(input);
 send();
 
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -5372,7 +5341,7 @@ send();
                       <div>
                         <table>
                           <tr>
-                              <td valign="top">
+                            <td valign="top">
                               <pre><code class="hljs python"><span class="hljs-keyword">if</span> is_special_deal:
     total = price * <span class="hljs-number">0.95</span>
     send()
@@ -5380,10 +5349,9 @@ send();
     total = price * <span class="hljs-number">0.98</span>
     send()
 </code></pre>
-                              <p></p>
                             </td>
-                              <td valign="center"> → </td>
-                              <td valign="top">
+                            <td valign="center">&nbsp;→&nbsp;</td>
+                            <td valign="top">
                               <pre><code class="hljs python"><span class="hljs-keyword">if</span> is_special_deal:
     total = price * <span class="hljs-number">0.95</span>
 <span class="hljs-keyword">else</span>:
@@ -5391,7 +5359,6 @@ send();
     
 send()
 </code></pre>
-                              <p></p>
                             </td>
                           </tr>
                         </table>
@@ -7120,14 +7087,11 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <div class="indented-less">
                 <div>
                   <tabs>
-                      <tab header="<md>:far-file-alt:</md>">
+                    <tab header="<md>:far-file-alt:</md>">
                       <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
-                      <p></p>
                     </tab>
-                      <tab header="<md>:glyphicon-facetime-video:</md>">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe>
-                      <p></p>
-                    </tab>
+                    <tab header="<md>:glyphicon-facetime-video:</md>">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe></tab>
                   </tabs>
                 </div>
               </div>
@@ -7355,7 +7319,7 @@ Invalid command format: add
                 <div>
                   <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the <tooltip content="Software Under Test">SUT</tooltip> from its <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
                   <modal large title id="modal:explainDi-stub">
-                      <div>
+                    <div>
                       <div>
                         <p>
                           <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what"></panel>
@@ -7575,17 +7539,14 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> %%Black-box and white-box testing%%">
                     <p><sub>Note: these videos are from the <a href="https://www.udacity.com/course/software-development-process--ud805">Udacity course <em>Software Development Process</em> by Georgia Tech</a></sub></p>
                     <tabs>
-                        <tab header="<md>:glyphicon-facetime-video:</md> Black-box vs White-box testing">
+                      <tab header="<md>:glyphicon-facetime-video:</md> Black-box vs White-box testing">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/jRwwb7iaRsU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <p></p>
                       </tab>
-                        <tab header="<md>:glyphicon-facetime-video:</md> Black-box testing example">
+                      <tab header="<md>:glyphicon-facetime-video:</md> Black-box testing example">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/6pbB37nFUZw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <p></p>
                       </tab>
-                        <tab header="<md>:glyphicon-facetime-video:</md> White-box testing example">
+                      <tab header="<md>:glyphicon-facetime-video:</md> White-box testing example">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/KIAkoae6_jE" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <p></p>
                       </tab>
                     </tabs>
                   </panel>
@@ -7643,7 +7604,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </ul>
                   </tip-box>
                   <popover id="pop:epBasic-isValidMonth" title="`isValidMonth`" placement="top">
-                      <div slot="content">
+                    <div slot="content">
                       <div>
                         <p><code>isValidMonth(m)</code> : returns <code>true</code> if <code>m</code> (and <code>int</code>) is in the range [1..12]</p>
                       </div>
@@ -8880,7 +8841,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p><strong>Use cases can be used for system testing and acceptance testing</strong>. For example, the main success scenario can be one test case while each variation (due to extensions) can form another test case. However, note that use cases do not specify the exact data entered into the system. Instead, it might say something like <code>user enters his personal data into the system</code>. Therefore, the tester has to choose data by considering equivalence partitions and boundary values. The combinations of these could result in one use case producing many test cases.</p>
                   <p>To increase <trigger trigger="click" for="modal:usebaseBased-EandE">E&amp;E of testing</trigger>, high-priority use cases are given more attention. For example, a <trigger trigger="click" for="modal:usecaseBased-scripted">scripted approach</trigger> can be used to test high priority test cases, while an exploratory approach is used to test other areas of concern that could emerge during testing.</p>
                   <modal large title="Quality Assurance → Test Case Design → Introduction → (extract) E&E of testing" id="modal:usebaseBased-EandE">
-                      <div>
+                    <div>
                       <p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed"> e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong> In particular:</p>
                       <ul>
                         <li>
@@ -8894,7 +8855,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </div>
                   </modal>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:usecaseBased-scripted">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Quality Assurance → Testing → Exploratory and Scripted Testing →
@@ -9019,7 +8980,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </tab>
                   </tabs>
                   <modal large title="Reference » Mercurial: The Definitive Guide" id="modal:rcsWhat-bryanMercurialGuide">
-                      <div>
+                    <div>
                       <p><a href="http://hgbook.red-bean.com/">Mercurial: The Definitive Guide</a> by Bryan O'Sullivan retrieved on 2012/07/11</p>
                     </div>
                   </modal>
@@ -9070,14 +9031,12 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p><strong>In a repo, we can specify which files to track and which files to <mark>ignore</mark>.</strong> Some files such as temporary log files created during the build/test process should not be revision-controlled.</p>
                   <h5 id="staging-and-committing">Staging and Committing<a class="fa fa-anchor" href="#staging-and-committing"></a></h5>
                   <tabs>
-                      <tab header="<md>:far-file-alt:</md>">
+                    <tab header="<md>:far-file-alt:</md>">
                       <p><strong><mark><em>Committing</em></mark> saves a snapshot of the current state of the tracked files in the revision control history. Such a snapshot is also called a <em>commit</em> (i.e. the noun).</strong></p>
                       <p><strong>When ready to commit, we first <mark><em>stage</em></mark> the specific changes we want to commit.</strong> This intermediate step allows us to commit only some changes while saving other changes for a later commit.</p>
-                      <p></p>
                     </tab>
-                      <tab header="<md>:glyphicon-facetime-video:</md>">
+                    <tab header="<md>:glyphicon-facetime-video:</md>">
                       <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/7exFDGHgQcw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                      <p></p>
                     </tab>
                   </tabs>
                   <h5 id="identifying-points-in-history">Identifying Points in History<a class="fa fa-anchor" href="#identifying-points-in-history"></a></h5>
@@ -9674,7 +9633,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   </tip-box>
                   <p>LSP sounds same as <trigger large trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
                   <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability">
-                      <div>
+                    <div>
                       <div>
                         <p>
                           <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
@@ -9786,7 +9745,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
                   </tip-box>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="modal:soc-nTier">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
@@ -9812,7 +9771,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   </modal>
                   <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-coupling">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Coupling →
@@ -9898,7 +9857,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     </div>
                   </modal>
                   <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-cohesion">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Design → Design Fundamentals → Cohesion →
@@ -10023,7 +9982,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <panel type="seamless" header="The equivalent code">
                       <table>
                         <tr>
-                            <td>
+                          <td>
                             <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
     
@@ -10039,10 +9998,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     }
 }
 </code></pre>
-                            <p></p>
                           </td>
-                            <td valign="bottom">  <br><br></td>
-                            <td valign="bottom">
+                          <td valign="bottom">&nbsp;&nbsp;<br><br></td>
+                          <td valign="bottom">
                             <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
     
@@ -10058,7 +10016,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     <span class="hljs-comment"># ...</span>
     
 </code></pre>
-                            <p></p>
                           </td>
                         </tr>
                       </table>
@@ -10205,7 +10162,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p>Note how the variable names match closely with the association roles.</p>
                     <table>
                       <tr>
-                          <td valign="top">
+                        <td valign="top">
                           <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
     Woman wife;
@@ -10215,10 +10172,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     Man husband;
 }
 </code></pre>
-                          <p></p>
                         </td>
-                          <td>  <br><br></td>
-                          <td valign="top">
+                        <td>&nbsp;&nbsp;<br><br></td>
+                        <td valign="top">
                           <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
@@ -10228,7 +10184,6 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
      self.husband = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Man object</span>
 </code></pre>
-                          <p></p>
                         </td>
                       </tr>
                     </table>
@@ -10239,22 +10194,20 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p></p>
                     <table>
                       <tr>
-                          <td valign="top">
+                        <td valign="top">
                           <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
     List&lt;Student&gt; charges;
 }
 </code></pre>
-                          <p></p>
                         </td>
-                          <td>  <br><br></td>
-                          <td valign="top">
+                        <td>&nbsp;&nbsp;<br><br></td>
+                        <td valign="top">
                           <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.charges = [] <span class="hljs-comment"># list of Student objects</span>
 </code></pre>
-                          <p></p>
                         </td>
                       </tr>
                     </table>
@@ -11297,7 +11250,7 @@ index 15b57f7..17f4528 100644
                   </tabs>
                   <p>Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
                   <modal large title="%%Extract%%" id="modal:checkout-stash">
-                      <div>
+                    <div>
                       <div></div>
                       <p></p>
                       <p><span class="dimmed"><strong><span>Tools → Git and GitHub →
@@ -11310,13 +11263,11 @@ index 15b57f7..17f4528 100644
                           <div>
                             <p><strong>You can use the git's <mark><em>stash</em></mark> feature to temporarily shelve (or stash) changes you've made to your working copy</strong> so that you can work on something else, and then come back and re-apply the stashed changes later on. <sub>-- adapted from <a href="https://www.atlassian.com/git/tutorials/git-stash">this</a></sub></p>
                             <tabs>
-                                <tab header="Source Tree">
+                              <tab header="Source Tree">
                                 <p>Follow <a href="https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html">this article from SourceTree creators</a>. <span class="dimmed">Note the GUI shown in the article is slightly outdated but you should be able to map it to the current GUI.</span></p>
-                                <p></p>
                               </tab>
-                                <tab header="CLI">
+                              <tab header="CLI">
                                 <p>Follow <a href="https://www.atlassian.com/git/tutorials/git-stash">this article from Atlassian</a>.</p>
-                                <p></p>
                               </tab>
                             </tabs>
                           </div>
@@ -11797,9 +11748,7 @@ This repo can be used to practice creating PRs.
                   <img src="/website/book/gitAndGithub/createPRs/images/setPrName.png" width="600">
                   <p></p>
                   <tip-box type="important">
-                    <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.
-                       
-                    </p>
+                    <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.</p>
                   </tip-box>
                   <p><strong>5. In your local repo, create a new branch <code>add-summary</code></strong> off the <code>master</code> branch.</p>
                   <tip-box type="warning">
@@ -11825,7 +11774,7 @@ This repo can be used to practice creating PRs.
                 <div>
                   <p><strong>1. Go to GitHub page of your fork and review the <code>add-intro</code> PR</strong> you created previously in [<trigger trigger="click" for="modal:managePrs-createPrs">Tools → Git &amp; GitHub → Create PRs</trigger>] to simulate the PR being reviewed by another developer, as explained below. <span class="dimmed">Note that some features available to PR reviewers will be unavailable to you because you are also the author of the PR.</span></p>
                   <modal large title="Tools → Git & GitHub → Create PRs" id="modal:managePrs-createPrs">
-                      <div>
+                    <div>
                       <div>
                         <p><strong>1. Fork the <a href="https://github.com/se-edu/samplerepo-pr-practice">samplerepo-pr-practice</a> onto your GitHub account. Clone it onto your computer.</strong></p>
                         <p><strong>2. Create a branch named <code>add-intro</code> in your clone. Add a couple of commits</strong> which adds/modifies an <em>Introduction</em> section to the <code>README.md</code>. Example:</p>
@@ -11867,9 +11816,7 @@ This repo can be used to practice creating PRs.
                         <img src="/website/book/gitAndGithub/createPRs/images/setPrName.png" width="600">
                         <p></p>
                         <tip-box type="important">
-                          <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.
-                             
-                          </p>
+                          <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.</p>
                         </tip-box>
                         <p><strong>5. In your local repo, create a new branch <code>add-summary</code></strong> off the <code>master</code> branch.</p>
                         <tip-box type="warning">
@@ -12109,7 +12056,7 @@ git pull origin master
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Tue, 16 Jul 2019 11:12:31 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
     </footer>
   </div>
 </body>

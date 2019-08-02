@@ -20,10 +20,6 @@
     <li><a href="{{baseUrl}}/admin/tutorials.html" target="_blank" class="dropdown-item"><md>:glyphicon-calendar:</md> Tutorial Schedule</a></li>
     <li><a href="{{java_coding_standard}}" target="_blank" class="dropdown-item"><md>:fas-code:</md> Java Coding Standard</a></li>
     <li><a href="{{module_org}}/samplerepo-things" target="_blank" class="dropdown-item">{{ icon_repo }} samplerepo-things</a></li>
-    <li><a href="{{module_org}}/addressbook-level1" target="_blank" class="dropdown-item">{{ icon_repo }} Addressbook-level1</a></li>
-    <li><a href="{{module_org}}/addressbook-level2" target="_blank" class="dropdown-item">{{ icon_repo }} Addressbook-level2</a></li>
-    <li><a href="{{module_org}}/addressbook-level3" target="_blank" class="dropdown-item">{{ icon_repo }} Addressbook-level3</a></li>
-    <li><a href="{{module_org}}/addressbook-level4" target="_blank" class="dropdown-item">{{ icon_repo }} Addressbook-level4</a></li>
     <li><a href="{{baseUrl}}/admin/projectList.html" class="dropdown-item"><md>:fas-th-list:</md> Projects List</a></li>
     <li><a href="{{baseUrl}}/admin/reposenseConfigTemplates.html" class="dropdown-item"><md>:fas-th-list:</md> config.json templates for Reposense</a></li>
     <li><a href="https://nus{{ module | lower }}-{{ semester | lower }}.github.io/dashboard-beta" target="_blank" class="dropdown-item"><md>:fas-chart-area:</md> Project Code Dashboard (BETA)</a></li>

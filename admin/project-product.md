@@ -1,7 +1,8 @@
 {% macro show_main_text() %} 
 <div id="main">
 
-In this semester, we are going to enhance [an AddressBook application](https://se-edu.github.io/addressbook-level4/).
+<!-- In this semester, we are going to enhance [an AddressBook application](https://se-edu.github.io/addressbook-level4/). -->
+In this semester, we will implement a simple chatbot, [_Duke_](https://github.com/nusCS2113-AY1920S1/duke), which manages tasks for a user.
 
 <img src="https://github.com/se-edu/addressbook-level4/raw/master/docs/images/Ui.png" width="600"/>
 <p/>

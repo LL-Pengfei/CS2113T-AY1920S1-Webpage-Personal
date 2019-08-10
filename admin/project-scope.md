@@ -3,7 +3,6 @@
 
 <span class="keyword d-none">project expectations</span>
 
-#### Project Direction
 ### Project phases
 
 The project will run in two phases.
@@ -28,30 +27,32 @@ However, you need to ensure that the overall product is cohesive in nature, whic
 The following sections may help you decide on the enhancements.
 
 
+### Project Direction
+
 <div id="project-direction">
 In general, each team is expected to take one of these two directions:
 
-* **[Direction 1]  _Optimize_** AddressBook for a more specific target user group:
+* **[Direction 1]  _Optimize_** the task manager for a more specific target user group: <br>
+   
+   After Phase 1 of the project, think about optimizing your project to suite a specific target user group when you implement <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements.
    
   <panel type="seamless" header="%%{{ icon_example }} Examples for the _optimize_ direction%%">
      
-  An AddressBook,
+  A task manager:
      * for users in a specific profession %%&nbsp;e.g. doctors, salesmen, teachers, etc.%%
-     * based on the nature/scale of contacts %%&nbsp;e.g. huge number of contacts (for HR admins, user group admins), mostly incomplete contacts, highly volatile contact details, contacts become inactive after a specific period (e.g. contract employees)%%
-     * based on what users do with the contacts %%&nbsp;e.g. organize group events, share info, do business, do analytics%%   
+     * based on the nature and scale of application %%&nbsp;e.g. huge number of tasks (user group admins), highly volatile task list, for users who organize group events etc.%%
      
   </panel><p/>
 
+
+* **[Direction 2] _Morph_** the task manager into a different product: <br>
    
-* **[Direction 2] _Morph_** AddressBook into a different product: Given that AddressBook is a generic app that manages a type of elements (i.e. contacts), you can use it as a starting point to create an app that manages something else.<br>
-  {{ icon_important_big_red }} This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
-   
+    Given that _Duke_ provides capabilities to manage certain types of elements (i.e., tasks), you can use it as a starting point to create an app that manages something else in Phase 2. Model the <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements to cater to the new app that you want to develop.
+
   <panel type="seamless" header="%%{{ icon_example }} Examples for the _morph_ direction%%">
      
-  An app to manage, 
+  An app to manage: 
   * Bookmarks of websites
-  * Tasks/Schedule
-  * Location info
   * Thing to memorize i.e. flash cards, trivia
   * Forum posts, news feeds, Social media feeds
   * Online projects or issue trackers that the user is interested in
@@ -59,6 +60,10 @@ In general, each team is expected to take one of these two directions:
   * Multiple types of related things %%&nbsp;e.g. Contacts and Tasks (if Tasks are allocated to Contacts)%%
      
   </panel><p/>
+
+    {{ icon_important_big_red }} This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
+ 
+ 
    
 For either direction, you need to define a target user profile and a value proposition:
 

@@ -4,6 +4,29 @@
 <span class="keyword d-none">project expectations</span>
 
 #### Project Direction
+### Project phases
+
+The project will run in two phases.
+* In Phase 1, you will be working individually to develop the foundation of your codebase
+  * This will give you an opportunity to familiarize with Java programming
+* In Phase 2, as a team, you will enhance the project, building on the codebase of Phase 1
+
+
+<include src="../book/projectDuke/text.md#increments_summary" />
+
+<br>
+
+#### Phase 1
+
+Phase 1 comprises Levels 1 to 10 with some <span class="badge badge-pill badge-primary">Category A</span> and <span class="badge badge-pill badge-info">Category B</span> extensions.
+
+
+#### Phase 2
+
+In Phase 2, each of you will develop one enhancement each from <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span>.<br>
+However, you need to ensure that the overall product is cohesive in nature, which means, as a team, you need to decide on a few things before embarking on developing the enhancements. <br>
+The following sections may help you decide on the enhancements.
+
 
 <div id="project-direction">
 In general, each team is expected to take one of these two directions:

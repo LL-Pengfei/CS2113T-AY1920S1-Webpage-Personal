@@ -150,9 +150,10 @@ In particular, ==you are required to divide work based on features rather than c
    
    </panel>
 
-##### [Individual] Expectations on Code
+##### [Individual] Expectations on Lines of Code
 
-* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of code** to earn full marks== provided the feature does well in all grading criteria.
+* Based on past experience, ==it is possible for a feature consisting of **~300-500 LoC of functional code** and **~200-400 LoC of test code** to earn full marks== provided the feature does well in all grading criteria.
+* **Note:** ==The lines of code count mentioned above is counted after Phase 1 of the project==
 
 ##### [Individual] Expectations on Documentation
 

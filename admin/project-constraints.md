@@ -12,8 +12,8 @@
 * **Constraint-Typing-Preferred**: The product should be targeting users who can type fast and prefer typing over other means of input.<br>
   %%Reason: to increase comparability of products, and to make feature evaluation easier for peer evaluators.%%
 
-* **Constraint-Single-User**: The product should be for a single user i.e. (not a multi-user product).<br>
-  %%Reason: multi-user systems are hard to test, which is unfair for peer testers who will be graded based on the number of bugs they find. Furthermore, the _Constraint-Typing-Preferred unlikely to fit a multi-user product%%
+* **Constraint-Single-User**: The product should be for a single user i.e. not a multi-user product.<br>
+  %%Reason: multi-user systems are hard to test, which is unfair for peer testers as the number of bugs they find forms a component of the grade they obtain. Furthermore, the _Constraint-Typing-Preferred_ is unlikely to fit a multi-user product%%
 
 * **Constraint-Incremental**: The product needs to be developed incrementally over the project duration. While it is fine to do less in some weeks and more in other weeks, a reasonably consistent delivery rate is expected. For example, it is not acceptable to do the entire project over the recess week and do almost nothing for the remainder of the semester. %%Reasons: 1. To simulate a real project where you have to work on a code base over a long period, possibly with breaks in the middle. 2. To learn how to deliver big features in small increments.%%
 

@@ -52,7 +52,8 @@
 
 
 * **Recommendation-Minimal-Network**: It is OK to use a reliable public API %%e.g., Google search%% but we recommend that you have a fallback mechanism (e.g., able to load data using a data file if the network is down). %%**Reason:** During the mass peer-testing session the network access can be intermittent due to high load. If your feature cannot be tested due to lack of Internet, that will have to be counted as a major bug, to be fair to those whose app is being tested and bugs found being penalized.%%<br>
-  ==If you use NUS data== (e.g., scrape data from an NUS website), please work with [NUS IT](https://nusit.nus.edu.sg/contact-us/) directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (has happened before). The teaching team will not be able to get approval for you as the use of NUS data is not a module requirement.
+
+* **Recommendation-NUS-data**: If you use NUS data (e.g., scrape data from an NUS website), please work with [NUS IT](https://nusit.nus.edu.sg/contact-us/) directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (has happened before). ==*The teaching team will not be able to get approval for you as the use of NUS data is not a module requirement*==.
 
 * **Recommendation-Testability**: Avoid implementing hard-to-test (both for manual testing as well as automated testing) features or features that make your product hard-to-test. %%Reason: _testability_ is a grading criterion. If you choose to implement such a feature, you will need to spend an extra effort to reach an acceptable level of testability.%%
   Here are some examples of features that are hard-to-test:

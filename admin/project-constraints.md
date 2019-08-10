@@ -72,7 +72,7 @@
 
 <box type="warning">
 
-If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the [forum]({{module_org}}/forum/issues) (preferred) or emailing the supervisor.
+If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the [forum]({{module_org}}/forum/issues) (preferred) or emailing the lecturer.
 </box>
 
 </div>

@@ -169,7 +169,7 @@ In particular, ==you are required to divide work based on features rather than c
 <div id="testing-expectations">
 
 * There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.
-* You ==must write _some_ tests== so that we can evaluate your ability to write tests.
+* You ==must write _some_ tests== so that we can evaluate your ability to write tests. (Please refer to _Expectations on Lines of Code_ for LoC requirement).
 * How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.
 
 </div>

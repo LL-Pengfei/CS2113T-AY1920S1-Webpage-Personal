@@ -44,7 +44,7 @@ bye
 <!-- img src="https://github.com/se-edu/addressbook-level4/raw/master/docs/images/Ui.png" width="600"/ -->
 <p/>
 
-This product is meant for users who can type fast, and prefer typing over mouse/voice commands. Therefore, ==Command Line Interface (CLI) is the primary mode of input.== 
+This product is meant for users who can type fast, and prefer typing over mouse/voice commands. Therefore, ==Command Line Interface (CLI) is the primary mode of interaction.== 
 
 {{ embed_topic("project-constraints.md#constraint-cli", "Admin " + icon_embedding + " Project Contstraints → More info about the 'CLI app' requirement", "projectProduct-constraintCli", "2") }}
 <p/>

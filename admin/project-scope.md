@@ -64,6 +64,7 @@ In general, each team is expected to take one of these two directions:
     {{ icon_important_big_red }} This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
  
  
+#### Target user profile and value proposition
    
 For either direction, you need to define a target user profile and a value proposition:
 
@@ -81,6 +82,9 @@ For either direction, you need to define a target user profile and a value propo
   * **Value proposition**: Define a clear _value proposition_ %%(what problem does the product solve? how does it make the the user's life easier?)%% that matches the target user profile.
 
 </div>
+
+<br>
+
    
 #### {{ icon_individual }} Individual Expectations
 

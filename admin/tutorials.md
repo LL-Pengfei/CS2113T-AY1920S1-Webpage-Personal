@@ -7,20 +7,25 @@
 
 <tip-box> 
 
-{{ icon_important_big_red }} ==Our tutorials start on week 2== (even before CORS tutorial bidding is over), not in week 3 as other modules do. 
-{{ module }} (not {{ module }}T) students attend any tutorial slot for **week 2 (only)** tutorial. 
-
-{{ icon_important_big_red }} Our tutorial IDs are different from CORS. Format: `M11` means `Monday` `1100` and so on.
+{{ icon_important_big_red }} **Our tutorial IDs are different from LumiNUS/Edurec.** <br> 
+ Format: `CS2113T-W12` means CS2113T tutorial in the time slot `Wednesday` `1200-1300` and so on.
 
 </tip-box>
 
-| Module   | Tutorial ID %%(ID in CORS)%%| Time | Venue             | Tutors (<a href="{{ baseUrl }}/admin/instructors.html">contact details</a>)
-|----------|-----------------|------------------|-------------------|----
-| CS2113T  | M11  %%(T3)%%   | **M**on **11**00 | COM1-0210 (SR10)  | Akshay, Devamanyu
-| CS2113T  | T08  %%(T1)%%   | **T**ue **08**00 | COM1-0210 (SR10)  | Stephanie, Tek In, Rrubaa
-| CS2113T  | T09  %%(T2)%%   | **T**ue **09**00 | COM1-0210 (SR10)  | Stephanie, Rrubaa, Sanjukta
-| ~~CS2113~~   | ~~T10  %%(1)%%~~    | ~~**T**ue **10**00~~ | ~~COM1-0210 (SR10)~~  | ~~TBD~~
-| CS2113   | T11  %%(2)%%    | **T**ue **11**00 | COM1-0210 (SR10)  | Stephanie, Rachel
+| Module       | Tutorial ID |%%ID in LumiNUS%%<br>%%(not to be used)%%| Time             | Venue       | Tutors (<a href="{{ baseUrl }}/admin/instructors.html">contact details</a>)
+|--------------|-------------|-----------------------------------------|------------------|-------------|-------------------
+| **CS2113T**  | W12         |      %%(C01)%%                          | **W**ed **12**00 | COM1-B103   | TBD
+| **CS2113T**  | W13         |      %%(C02)%%                          | **W**ed **13**00 | COM1-B103   | TBD 
+| **CS2113T**  | W17         |      %%(C09)%%                          | **W**ed **17**00 | COM1-B103   | TBD
+| **CS2113T**  | T09         |      %%(C05)%%                          | **T**hu **09**00 | COM1-B103   | TBD
+| **CS2113T**  | T12         |      %%(C04)%%                          | **T**hu **12**00 | COM1-B103   | TBD
+| _CS2113_     | T13         |      %%(1)%%                            | **T**hu **13**00 | COM1-B103   | TBD
+| _CS2113_     | T14         |      %%(3)%%                            | **T**hu **14**00 | COM1-B103   | TBD
+| _CS2113_     | T16         |      %%(2)%%                            | **T**hu **16**00 | COM1-B103   | TBD
+| **CS2113T**  | F09         |      %%(C06)%%                          | **F**ri **09**00 | COM1-B103   | TBD
+| **CS2113T**  | F10         |      %%(C03)%%                          | **F**ri **10**00 | COM1-B103   | TBD 
+| **CS2113T**  | F11         |      %%(C08)%%                          | **F**ri **11**00 | COM1-B103   | TBD  
+| **CS2113T**  | F14         |      %%(C07)%%                          | **F**ri **14**00 | COM1-B103   | TBD 
 
 </div>
 </panel>

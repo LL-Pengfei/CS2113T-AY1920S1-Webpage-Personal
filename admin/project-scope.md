@@ -92,13 +92,13 @@ For either direction, you need to define a target user profile and a value propo
 
 ##### [Individual] Expectations on Features
 
-* You are expected to add at least one feature to the product.
-* ==One big feature can earn you more marks than multiple small features.== %%Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.%%
+* You are expected to add at least one feature each from <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements to the product.
+<!-- * ==One big feature can earn you more marks than multiple small features.== %%Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.%% -->
 * At lest one feature should be end-user visible and end-user testable. %%Reason: If your feature cannot be identified and tested by the testers, we will not be able to give marks for the quality assurance of that feature.%%
 * The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members. %%You will lose marks if you go 'rogue' and add features that don't fit with the product.%%
 
 
-<panel type="seamless" header="%%{{ icon_example }} Examples of suitable enhancements%%" >
+<!-- panel type="seamless" header="%%{{ icon_example }} Examples of suitable enhancements%%" >
 
 1. Add a new feature
 1. Enhance an existing features in a major way %%e.g. make the command syntax more user friendly and closer to natural language%%
@@ -131,13 +131,24 @@ Here is a non-exhaustive list of minor enhancements:
 1. %%&nbsp;Support different themes for the Look & Feel dark, light, etc.%%
 1. %%&nbsp;Sort items%%
 
-</panel><p/>
+</panel><p/ -->
 
 We strongly recommend that you contribute to multiple (preferably, all) aspects of the project e.g. write backend code, frontend code, test code, user documentation, and developer documentation. If you limit yourself to certain aspects only, you will lose marks allocated for the aspects you did not do.
 
 In particular, ==you are required to divide work based on features rather than components==:
    * By the <tooltip content="i.e. by `v1.4`">end of this project</tooltip> each team member is expected to have implemented at least one feature end-to-end, doing required changes in _almost all_ components. %%&nbsp;Reason: to encourage you to learn all components of the software, instead of limiting yourself to just one/few components%%.
    * Nevertheless, you are ==still expected to divide the components of the product among team members== so that each team member is _in charge_ of one or more components. While others will be modifying those components as necessary for the features they are implementing, your role as the _in charge_ of a component is to guide others modifying that component %%(reason: you are supposed to be the most knowledgeable about that component)%% and protect that component from degrading %%&nbsp;e.g., you can review others' changes to your component and suggest possible changes%%.
+   
+   <panel type="seamless" header="%%{{ icon_example }} Enhancement vs Grade: Examples from past project%%">
+   
+   Here are some examples from the past project (Enhancing an AddressBook application) of different enhancements and the grade the student is likely to earn for the relevant parts of the project grade.
+   
+   While these examples do not necessarily translate directly to the current project, they should give you an idea of the depth of the feature and the effort required to implement it (including automated tests and documentation).
+   
+   * Example 1 (Expected grade: `A`) : [Add support for undo/redo](https://github.com/se-edu/addressbook-level4/pull/610/files)
+   * Example 2 (Expected grade: `B`) : [Add support for viewing history](https://github.com/se-edu/addressbook-level4/pull/440/files)
+   
+   </panel>
 
 ##### [Individual] Expectations on Code
 

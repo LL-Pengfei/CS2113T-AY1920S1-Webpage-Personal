@@ -72,7 +72,7 @@ The question you should always ask yourself is, 'how do I solve this problem if 
   
 </span>
 
-* **Talk to the lecturer** before or after the lecture. The lecturer will be at the lecture venue from 30 minutes before the start of the lecture.
+* **Talk to the lecturer** before the lecture. The lecturer will be at the lecture venue from 30 minutes before the start of the lecture.
 
 * **Request our help**: Failing all above, you can always request for help by emailing the lecturer.
 

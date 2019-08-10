@@ -4,8 +4,10 @@
 **Your project should comply with the following constraints.**
 %%**Reason**: to increase comparability among projects and to maximize applicability of module learning outcomes in the project.%%
 
+<!-- 
 * **Constraint-Brownfield**: The final product should be a result of evolving/enhancing/morphing the given code base. However, you are allowed to replace all existing code with new code, as long as it is done incrementally. %%e.g. one feature/component at a time%%<br/>
   %%**Reason:** To ensure your code has a decent quality level from the start.%%
+-->
 
 * **Constraint-Typing-Preferred**: The product should be targeting users who can type fast and prefer typing over other means of input.<br>
   %%Reason: to increase comparability of products, and to make feature evaluation easier for peer evaluators.%%

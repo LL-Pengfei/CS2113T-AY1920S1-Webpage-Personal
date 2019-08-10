@@ -63,11 +63,11 @@
 
 <span id="constraint-cli">
 
-* **Recommendation-CLI-First**: As per _Constraint-Typing-Preferred_, the input to the app needs to be primarily CLI. The GUI can be used to give visual feedback to the user rather than to collect input. While we don't prohibit non-CLI inputs, note that such inputs will reduce the suitability of the product to target users, which will be graded under the _product design_ criterion.<br>
+* **Recommendation-CLI-First**: As per _Constraint-Typing-Preferred_, the input to the app needs to be primarily commands based (i.e., the app should be a CLI app). A GUI can be implemented and used to give visual feedback to the user rather than to collect input. While we don't prohibit non-CLI inputs, note that such inputs will reduce the suitability of the product to target users, which will be graded under the _product design_ criterion.<br>
   Some suggestions:
   * Give keyboard alternatives to mouse/GUI inputs, if any.
   * Regular typing is usually faster than using key combinations. Design the app in a way that you can do stuff faster by typing compared to mouse actions or key combinations.
-  * <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster over <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, you can also provide a one-shot equivalent for regular/expert users. %%&nbsp;Reason: We want the user to be able to accomplish tasks faster using CLI than a GUI; having to enter commands part-by-part will slow down the user.%%
+  * <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster over <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, you also need to provide a one-shot equivalent for regular/expert users. %%&nbsp;Reason: We want the user to be able to accomplish tasks faster using CLI than a GUI; having to enter commands part-by-part will slow down the user.%%
 </span>
 
 <box type="warning">

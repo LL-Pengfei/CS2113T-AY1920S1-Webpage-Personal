@@ -177,29 +177,29 @@ In particular, ==you are required to divide work based on features rather than c
 
 ##### [Individual] Expectations on Teamwork
 
-_Team-tasks_ are the tasks that _someone_ in the team has to do. Marks allocated to team-tasks will be divided among team members based on how much each member contributed to those tasks.
+* _Team-tasks_ are the tasks that _someone_ in the team has to do. Marks allocated to team-tasks will be divided among team members based on how much each member contributed to those tasks.
 
-<span id="scope-example-team-tasks"></span>
+  <span id="scope-example-team-tasks"></span>
 
-<panel type="seamless" header="%%{{ icon_example }} Examples of team-tasks%%">
+    <panel type="seamless" header="%%{{ icon_example }} Examples of team-tasks%%">
 
-<span id="example-team-tasks">
+  <span id="example-team-tasks">
 
-Here is a non-exhaustive list of team-tasks:
+  Here is a non-exhaustive list of team-tasks:
 
-1. Necessary general code enhancements e.g.,
-   1. Work related to renaming the product
-   1. Work related to changing the product icon
-   1. Morphing the product into a different product
-1. Setting up the GitHub, Travis, AppVeyor, etc.
-1. Maintaining the issue tracker
-1. Release management
-1. Updating user/developer docs that are not specific to a feature %%e.g. documenting the target user profile%%
-1. Incorporating more useful tools/libraries/frameworks into the product or the project workflow %%(e.g. automate more aspects of the project workflow using a GitHub plugin)%%
+  1. Necessary general code enhancements e.g.,
+     1. Work related to renaming the product
+     1. Work related to changing the product icon
+     1. Morphing the product into a different product
+  1. Setting up the GitHub, Travis, AppVeyor, etc.
+  1. Maintaining the issue tracker
+  1. Release management
+  1. Updating user/developer docs that are not specific to a feature %%e.g. documenting the target user profile%%
+  1. Incorporating more useful tools/libraries/frameworks into the product or the project workflow %%(e.g. automate more aspects of the project workflow using a GitHub plugin)%%
 
-</span>
+  </span>
 
-</panel><p/>
+  </panel><p/>
    
 <span id="roles">
 

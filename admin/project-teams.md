@@ -7,12 +7,12 @@
 
 **When to form teams**
 
-* Team formation will happen in week 3 tutorial.
-* {{ module }}T: Your team will be the same on CS2101 side as well.
+* {{ module }}: Team formation will happen in week 3 tutorial.
+* {{ module }}T: Your team will be formed in the CS2101 class, the same team is applicable in both {{ module }}T and CS2101.
 
 **Team size**: The default ==team size is five==. 
 
-**Team ID**: This will be given to you after forming teams. It has the form `TUTORIAL_ID-TEAM_NUMBER` e.g, `M11-2` means you are in tutorial M11 (i.e., Mon 1100-1200), team 2.
+**Team ID**: This will be given to you after forming teams. It has the form `MODULE-TUTORIAL_ID-TEAM_NUMBER` e.g, `CS2113T-W12-2` means you are a CS2113T team: tutorial W12 (i.e., Wed 1200-1300), team 2.
 
 {{ embed_topic("tutorials.md#tutorialTimetable", "Admin " + icon_embedding + " Tutorials → Tutorial IDs", "projectTeams-tutorialIDs", "3") }}
 

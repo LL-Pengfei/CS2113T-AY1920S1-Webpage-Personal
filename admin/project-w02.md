@@ -19,10 +19,12 @@
 **Prerequisites**:
 
 * Install Git in your computer.
+  {{ embed_topic("tools.md#rcs", "Admin " + icon_embedding + " **Tools -> Git**", "W02-tools-rcs", "1") }}
 * Have a GitHub account.
+  {{ embed_topic("tools.md#github", "Admin " + icon_embedding + " **Tools -> GitHub**", "W02-tools-github", "1") }}
 * Recommended: Installed an IDE in your computer.
+  {{ embed_topic("tools.md#ide", "Admin " + icon_embedding + " **Tools -> IntelliJ**", "W02-tools-ide", "1") }}
 
-{{ embed_topic("tools.md#main", "Admin " + icon_embedding + " **Tools**", "W02-tools", "2") }}
 
 </box>
 

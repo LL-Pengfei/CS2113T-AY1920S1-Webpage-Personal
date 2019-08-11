@@ -4,7 +4,7 @@
 
 In previous semesters we asked students to annotate all their code using special `@@author` tags so that we can extract each student's code for grading. This semester, we are trying out a tool  called RepoSense that is expected to **reduce the need for such tagging**, and also make it **easier for you to see (and learn from) code written by others**.
 
-<pic src="https://github.com/reposense/RepoSense/raw/release/docs/images/report.png" alt="Logo">
+<pic src="https://github.com/reposense/RepoSense/raw/release/docs/images/report-features.png" alt="Logo">
   <sub>Figure: RepoSense Report Features</sub>
 </pic>
 

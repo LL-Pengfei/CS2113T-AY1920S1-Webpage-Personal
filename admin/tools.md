@@ -43,19 +43,14 @@ The recommended GUI client for Git is [SourceTree](https://www.sourcetreeapp.com
 
 **IDE**: You are recommended to use [Intellij IDEA](https://www.jetbrains.com/idea/) for module-related programming work. You may use the community edition (free) or the ultimate edition (free for students). While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk. 
 
-**Revision control**: You are ==_required to_ use Git==. Other revision control software are not allowed.  
-The recommended GUI client for Git is [SourceTree](https://www.sourcetreeapp.com/) (which comes bundled with Git), but you may use any other, or none.
 
 **Analyzing code authorship**: We use a custom-built tool called [RepoSense](https://github.com/reposense/RepoSense) for extracting code written by each person.
 
-<div class="indented-level2">
-<panel type="seamless" header="##### Using RepoSense">
-  <include src="reposenseCompatibility.md#main" />
-</panel>
-</div>
+<include src="reposenseCompatibility.md#main" />
 
 </div>
 {% endmacro %}
 
+{% from "common/macros.njk" import embed_topic with context %}
 {% from "common/admin.njk" import show_admin_page with context %}
 {{ show_admin_page("tools", show_main_text) }}

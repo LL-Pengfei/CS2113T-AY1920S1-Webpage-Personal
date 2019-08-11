@@ -97,28 +97,24 @@ After receiving your team ID, one team member should do the following steps:
 
 Only one team member:
 
-1. **Fork**  either [Address Book Level 3]({{module_org}}/addressbook-level3) or [Address Book Level 4]({{module_org}}/addressbook-level4) to your team org.
+1. **Fork**  [nus{{ module | lower }}-{{ semester }}/duke-team]({{module_org}}/duke-team) to your team org.
 1. ==**Rename** the forked repo as `main`==. This repo (let's call it the _team repo_) is to be used as the repo for your project.
 1. ==Ensure the issue tracker of your team repo is enabled.== %%Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.%%
 1. Ensure your team members have the desired level of access to your team repo.
-1. [**Enable Travis CI for the team repo**](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci).
-1. [**Set up _auto-publishing_ of docs**](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation). When set up correctly, your project website should be available via the URL  `https://nus-{{ module | lower }}-{{ semester | lower }}-{team-id}.github.io/main` e.g., `https://{{ module | lower }}-{{ semester | lower }}-w13-1.github.io/main/`. This also requires you to [enable the _GitHub Pages_ feature of your team repo and configure it to serve the website from the `gh-pages` branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).
-1. **create a _team PR_** for us to track your project progress: i.e., create a PR from your ==team repo `master` branch== to [[nus{{ module | lower }}-{{ semester }}/addressbook-level4]({{module_org}}/addressbook-level4)] `master` branch. PR name: `[Team ID] Product Name` e.g., `[T09-2] Contact List Pro`. %%&nbsp;As you merge code to your team repo's `master` branch, this PR will auto-update to reflect how much your team's product has progressed.%% In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.
+1. [**Enable Travis CI for the team repo**](https://github.com/nus{{ module }}-{{ semester }}/addressbook-level3/blob/master/docs/UsingTravis.adoc#setting-up-travis-ci).
+1. **create a _team PR_** for us to track your project progress: i.e., create a PR from your ==team repo `master` branch== to [[nus{{ module | lower }}-{{ semester }}/duke-team]({{module_org}}/duke-team)] `master` branch. PR name: `[Team ID] Product Name` e.g., `[CS2113T-T09-2] Contact List Pro`. %%&nbsp;As you merge code to your team repo's `master` branch, this PR will auto-update to reflect how much your team's product has progressed.%% In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.
 
 All team members:
 
 1. **Watch**the `main` repo (created above) i.e., go to the repo and click on the `watch` button to subscribe to activities of the repo
 1. **Fork** the `main` repo to your personal GitHub account.
 1. **Clone** the fork to your Computer.
-1. Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).
-1. **Set up the developer environment** in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. ==JDK 9 can be downloaded from the [Java Archive](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html).==
+1. _Recommended_: Set it up as an Intellij project.
 
 Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project. 
 * `/src/main`  
 * `/src/test`  
 * `/docs`
-
-1. ==Note: If you fork from [Address Book Level 3]({{module_org}}/addressbook-level3), ensure that the folder structure is similar to  the one in [Address Book Level 4]({{module_org}}/addressbook-level4)==
 
 </div>
 
@@ -140,10 +136,12 @@ Note that some of our download scripts depend on the following folder paths. Ple
 
 **Follow the <trigger trigger="click" for="modal:appErecommendedWorkflow-forkingworkflow">forking workflow</trigger> in your project up to v1.1.** In particular,
   * **Get team members to review PRs.** A workflow without PR reviews is a risky workflow.
-  * **Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.** After [setting up Travis](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci), the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks. <br>
+  * **Do not merge PRs failing <tooltip content="Continuous Integration e.g., Travis">CI</tooltip>.** After [setting up Travis](https://github.com/nus{{ module }}-{{ semester }}/addressbook-level3/blob/master/docs/UsingTravis.adoc#setting-up-travis-ci), the CI status of a PR is reported at the bottom of the PR page. The screenshot below shows the status of a PR that is passing all CI checks. <br>
     <img src="{{ baseUrl }}/admin/images/gitHubPrStatus.png" width="700"/><br>
     **If there is a failure**, you can click on the `Details` link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.
-  * After [setting up Netlify](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingNetlify.html), you can use _Netlify PR Preview_ to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the `Details` link in front of the Netlify status reported (refer screenshot above).
+
+<!--  * After [setting up Netlify](https://nus-{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/UsingNetlify.html), you can use _Netlify PR Preview_ to preview changes to documentation files, if the PR contains updates to documentation. To see the preview, click on the `Details` link in front of the Netlify status reported (refer screenshot above).
+-->
 
 <div id="workflow-after-v11">
 

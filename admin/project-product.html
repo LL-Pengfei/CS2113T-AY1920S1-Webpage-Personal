@@ -41,17 +41,6 @@
         <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
-          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
-          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
-          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
-          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
-          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
-          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -67,10 +56,6 @@
           <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
           <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
           <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
           <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
           <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
@@ -165,10 +150,45 @@
             </div>
           </p>
           <div id="main">
-            <p>In this semester, we are going to enhance <a href="https://se-edu.github.io/addressbook-level4/">an AddressBook application</a>.</p>
-            <img src="https://github.com/se-edu/addressbook-level4/raw/master/docs/images/Ui.png" width="600">
+
+            <p>In this semester, we will implement and enhance a simple personal assistant, <a href="https://github.com/nusCS2113-AY1920S1/duke"><em>Duke</em></a>.
+              In the initial phase, you will design and develop <em>Duke</em> to manage tasks for a user. A sample interaction with <em>Duke</em> is as shown below.</p>
+            <pre><code class="hljs">    ____________________________________________________________
+      ____        _        
+     |  _ \ _   _| | _____ 
+     | | | | | | | |/ / _ \
+     | |_| | |_| |   &lt;  __/
+     |____/ \__,_|_|\_\___|
+
+     Hello! I'm Duke
+     What can I do for you?
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✗] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+    ____________________________________________________________
+
+todo borrow book
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [T][✗] borrow book
+     Now you have 5 tasks in the list.
+    ____________________________________________________________
+
+bye
+    ____________________________________________________________
+     Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+
             <p></p>
-            <p>This product is meant for users who can type fast, and prefer typing over mouse/voice commands. Therefore, <mark>Command Line Interface (CLI) is the primary mode of input.</mark></p>
+            <p>This product is meant for users who can type fast, and prefer typing over mouse/voice commands. Therefore, <mark>Command Line Interface (CLI) is the primary mode of interaction.</mark></p>
             <div class="flat">
               <div>
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectProduct-constraintCli">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Contstraints → More info about the 'CLI app' requirement</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
@@ -177,13 +197,13 @@
             <modal large title="Admin <md>:glyphicon-log-in:</md> Project Contstraints → More info about the 'CLI app' requirement  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectProduct-constraintCli">
                 <div>
                 <ul>
-                  <li><strong>Recommendation-CLI-First</strong>: As per <em>Constraint-Typing-Preferred</em>, the input to the app needs to be primarily CLI. The GUI can be used to give visual feedback to the user rather than to collect input. While we don't prohibit non-CLI inputs, note that such inputs will reduce the suitability of the product to target users, which will be graded under the <em>product design</em> criterion.<br>
+                  <li><strong>Recommendation-CLI-First</strong>: As per <em>Constraint-Typing-Preferred</em>, the input to the app needs to be primarily commands based (i.e., the app should be a CLI app). A GUI can be implemented and used to give visual feedback to the user rather than to collect input. While we don't prohibit non-CLI inputs, note that such inputs will reduce the suitability of the product to target users, which will be graded under the <em>product design</em> criterion.<br>
                     Some suggestions:
                     <ul>
                       <li>Give keyboard alternatives to mouse/GUI inputs, if any.</li>
                       <li>Regular typing is usually faster than using key combinations. Design the app in a way that you can do stuff faster by typing compared to mouse actions or key combinations.</li>
                       <li>
-                        <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster over <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, you can also provide a one-shot equivalent for regular/expert users. <span class="dimmed"> Reason: We want the user to be able to accomplish tasks faster using CLI than a GUI; having to enter commands part-by-part will slow down the user.</span>
+                        <tooltip content="typing the full command and hitting ENTER will complete the task">One-shot commands</tooltip> are faster over <tooltip content="prompting the user to input one parameter at a time">multi-step commands</tooltip>. If you provide a multi-step command to help new users, you also need to provide a one-shot equivalent for regular/expert users. <span class="dimmed"> Reason: We want the user to be able to accomplish tasks faster using CLI than a GUI; having to enter commands part-by-part will slow down the user.</span>
                       </li>
                     </ul>
                   </li>
@@ -202,7 +222,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

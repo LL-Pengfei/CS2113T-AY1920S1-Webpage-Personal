@@ -16,7 +16,7 @@
     <h3 id="information-layers">Information Layers</h3>
     <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
     <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
-    <tip-box>
+    <box>
       <panel header="Some less important info in a minimized panel" minimized>
         <p>Less important info</p>
         <p></p>
@@ -32,9 +32,9 @@
         <p></p>
       </panel>
       <p></p>
-    </tip-box>
+    </box>
     <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
-    <tip-box>
+    <box>
       <tabs>
         <tab header="<md>:far-file-alt:</md>">
           <p>Some textual description of X</p>
@@ -43,7 +43,7 @@
           <p>Video describing X</p>
         </tab>
       </tabs>
-    </tip-box>
+    </box>
     <p><strong>Dotted underlines indicate <trigger for="pop:tooltip-example">tool tips</trigger></strong> (activated by hovering over it) and <strong>dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger></strong> (activated by clicking) containing additional information.</p>
     <popover id="pop:tooltip-example" title="Tooltip Example" placement="top">
       <div slot="content">
@@ -86,31 +86,31 @@
     </ul>
     <h4 id="boxed-text-styles">Boxed-Text Styles</h4>
     <div class="indented">
-      <tip-box type="info">
+      <box type="info">
         additional info
-      </tip-box>
-      <tip-box type="warning">
+      </box>
+      <box type="warning">
         warning
-      </tip-box>
-      <tip-box type="success">
+      </box>
+      <box type="success">
         positive message
-      </tip-box>
-      <tip-box type="important">
+      </box>
+      <box type="important">
         important message
-      </tip-box>
-      <tip-box type="wrong">
+      </box>
+      <box type="wrong">
         an error to avoid
-      </tip-box>
-      <tip-box type="tip">
+      </box>
+      <box type="tip">
         tip
-      </tip-box>
-      <tip-box type="definition">
+      </box>
+      <box type="definition">
         definition
-      </tip-box>
+      </box>
     </div>
     <h4 id="meaning-of-icons">Meaning of Icons</h4>
     <div class="indented">
-      <p><span class="badge badge-pill badge-secondary">tangential</span> : tangential info, can be ignored if not interested<br>
+      <p><span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span> : tangential info, can be ignored if not interested<br>
         <span><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
         <span><span aria-hidden="true" class="fas fa-trophy"></span></span> : learning outcomes<br>
         <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : prerequisite learning outcome<br>

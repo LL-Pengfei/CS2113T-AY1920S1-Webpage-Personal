@@ -8,33 +8,63 @@
   </p>
   <div id="main">
     <p><span class="keyword d-none">project expectations</span></p>
-    <h4 id="project-direction">Project Direction</h4>
+    <h3 id="project-phases">Project phases</h3>
+    <p>The project will run in two phases.</p>
+    <ul>
+      <li>In Phase 1, you will be working individually to develop the foundation of your codebase
+        <ul>
+          <li>This will give you an opportunity to familiarize with Java programming</li>
+        </ul>
+      </li>
+      <li>In Phase 2, as a team, you will enhance the project, building on the codebase of Phase 1</li>
+    </ul>
+    <div>
+      <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\projectDuke\text.md">
+        <p>The project consists of the following <em>increments</em>:</p>
+        <ul>
+          <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+          <li><strong>Extensions:</strong>
+            <ul>
+              <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
+              <li><big><span class="badge badge-pill badge-info">Category B</span></big> These are enhancements related to task tracking.</li>
+              <li><big><span class="badge badge-pill badge-success">Category C</span></big> These are enhancements, not specifically related to task tracking.</li>
+              <li><big><span class="badge badge-pill badge-danger">Category D</span></big> Each of these adds the ability to track another type of entities.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <h4 id="phase-1">Phase 1</h4>
+    <p>Phase 1 comprises Levels 1 to 10 with some <span class="badge badge-pill badge-primary">Category A</span> and <span class="badge badge-pill badge-info">Category B</span> extensions.</p>
+    <h4 id="phase-2">Phase 2</h4>
+    <p>In Phase 2, each of you will develop one enhancement each from <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span>.<br>
+      However, you need to ensure that the overall product is cohesive in nature, which means, as a team, you need to decide on a few things before embarking on developing the enhancements. <br>
+      The following sections may help you decide on the enhancements.</p>
+    <h3 id="project-direction">Project Direction</h3>
     <div id="project-direction">
       In general, each team is expected to take one of these two directions:
       <ul>
         <li>
-          <p><strong>[Direction 1] <em>Optimize</em></strong> AddressBook for a more specific target user group:</p>
+          <p><strong>[Direction 1] <em>Optimize</em></strong> the task manager for a more specific target user group: <br></p>
+          <p>After Phase 1 of the project, think about optimizing your project to suite a specific target user group when you implement <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements.</p>
           <panel type="seamless" header="%%<md>:fas-cube:</md> Examples for the _optimize_ direction%%">
-            <p>An AddressBook,</p>
+            <p>A task manager:</p>
             <ul>
               <li>for users in a specific profession <span class="dimmed"> e.g. doctors, salesmen, teachers, etc.</span></li>
-              <li>based on the nature/scale of contacts <span class="dimmed"> e.g. huge number of contacts (for HR admins, user group admins), mostly incomplete contacts, highly volatile contact details, contacts become inactive after a specific period (e.g. contract employees)</span></li>
-              <li>based on what users do with the contacts <span class="dimmed"> e.g. organize group events, share info, do business, do analytics</span></li>
+              <li>based on the nature and scale of application <span class="dimmed"> e.g. huge number of tasks (user group admins), highly volatile task list, for users who organize group events etc.</span></li>
             </ul>
             <p></p>
           </panel>
           <p></p>
         </li>
         <li>
-          <p><strong>[Direction 2] <em>Morph</em></strong> AddressBook into a different product: Given that AddressBook is a generic app that manages a type of elements (i.e. contacts), you can use it as a starting point to create an app that manages something else.<br>
-            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
-          </p>
+          <p><strong>[Direction 2] <em>Morph</em></strong> the task manager into a different product: <br></p>
+          <p>Given that <em>Duke</em> provides capabilities to manage certain types of elements (i.e., tasks), you can use it as a starting point to create an app that manages something else in Phase 2. Model the <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements to cater to the new app that you want to develop.</p>
           <panel type="seamless" header="%%<md>:fas-cube:</md> Examples for the _morph_ direction%%">
-            <p>An app to manage,</p>
+            <p>An app to manage:</p>
             <ul>
               <li>Bookmarks of websites</li>
-              <li>Tasks/Schedule</li>
-              <li>Location info</li>
               <li>Thing to memorize i.e. flash cards, trivia</li>
               <li>Forum posts, news feeds, Social media feeds</li>
               <li>Online projects or issue trackers that the user is interested in</li>
@@ -44,8 +74,12 @@
             <p></p>
           </panel>
           <p></p>
+          <p>
+            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
+          </p>
         </li>
       </ul>
+      <h4 id="target-user-profile-and-value-proposition">Target user profile and value proposition</h4>
       <p>For either direction, you need to define a target user profile and a value proposition:</p>
       <ul>
         <li>
@@ -66,125 +100,113 @@
         <li><strong>Value proposition</strong>: Define a clear <em>value proposition</em> <span class="dimmed">(what problem does the product solve? how does it make the the user's life easier?)</span> that matches the target user profile.</li>
       </ul>
     </div>
+    <br>
     <h4 id="individual-expectations"><span><span aria-hidden="true" class="fas fa-user"></span></span> Individual Expectations</h4>
     <span id="individual-expectations">
       <h5 id="individual-expectations-on-features">[Individual] Expectations on Features</h5>
       <ul>
-        <li>You are expected to add at least one feature to the product.</li>
-        <li><mark>One big feature can earn you more marks than multiple small features.</mark> <span class="dimmed">Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.</span></li>
+        <li>You are expected to add at least one feature each from <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements to the product.</li>
+      </ul>
+
+      <ul>
         <li>At lest one feature should be end-user visible and end-user testable. <span class="dimmed">Reason: If your feature cannot be identified and tested by the testers, we will not be able to give marks for the quality assurance of that feature.</span></li>
         <li>The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members. <span class="dimmed">You will lose marks if you go 'rogue' and add features that don't fit with the product.</span></li>
       </ul>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of suitable enhancements%%">
-        <ol>
-          <li>Add a new feature</li>
-          <li>Enhance an existing features in a major way <span class="dimmed">e.g. make the command syntax more user friendly and closer to natural language</span></li>
-          <li>A major redesign of the GUI <span class="dimmed">e.g. make it work like a chat application (note: chat is a form of CLI)</span></li>
-          <li>Integrate with online services <span class="dimmed">e.g. Google contacts, Facebook, GitHub, etc.</span></li>
-        </ol>
-      </panel>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Enhancement vs Grade: Examples%%">
-        <p>Here are some examples of different enhancements and the grade the student is likely to earn for the relevant parts of the project grade.</p>
-        <ul>
-          <li>Example 1 (Expected grade: <code>A</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">Add support for undo/redo</a></li>
-          <li>Example 2 (Expected grade: <code>B</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">Add support for viewing history</a></li>
-        </ul>
-        <p></p>
-      </panel>
-      <p></p>
-      <ul>
-        <li>Although we prefer one big feature over multiple small features, it is fine to do small features at first to build up confidence before you start a big feature.</li>
-      </ul>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of minor enhancements%%">
-        <p>Here is a non-exhaustive list of minor enhancements:</p>
-        <ol>
-          <li>Support more fields <span class="dimmed"> e.g. Birthday</span></li>
-          <li>Load a different page instead of the default Google search page <span class="dimmed"> e.g. Google Maps page or Twitter page</span></li>
-          <li>Multiple panels <span class="dimmed"> e.g. an additional panel to show recently accessed items</span></li>
-          <li>Marking some items as favorites</li>
-          <li>Ability to search by labels</li>
-          <li>Ability to specify colors for labels</li>
-          <li><span class="dimmed"> Support different themes for the Look &amp; Feel dark, light, etc.</span></li>
-          <li><span class="dimmed"> Sort items</span></li>
-        </ol>
-        <p></p>
-      </panel>
-      <p></p>
+
       <p>We strongly recommend that you contribute to multiple (preferably, all) aspects of the project e.g. write backend code, frontend code, test code, user documentation, and developer documentation. If you limit yourself to certain aspects only, you will lose marks allocated for the aspects you did not do.</p>
       <p>In particular, <mark>you are required to divide work based on features rather than components</mark>:</p>
       <ul>
         <li>By the <tooltip content="i.e. by `v1.4`">end of this project</tooltip> each team member is expected to have implemented at least one feature end-to-end, doing required changes in <em>almost all</em> components. <span class="dimmed"> Reason: to encourage you to learn all components of the software, instead of limiting yourself to just one/few components</span>.</li>
         <li>Nevertheless, you are <mark>still expected to divide the components of the product among team members</mark> so that each team member is <em>in charge</em> of one or more components. While others will be modifying those components as necessary for the features they are implementing, your role as the <em>in charge</em> of a component is to guide others modifying that component <span class="dimmed">(reason: you are supposed to be the most knowledgeable about that component)</span> and protect that component from degrading <span class="dimmed"> e.g., you can review others' changes to your component and suggest possible changes</span>.</li>
       </ul>
-      <h5 id="individual-expectations-on-code">[Individual] Expectations on Code</h5>
+      <panel type="seamless" header="%%<md>:fas-cube:</md> Enhancement vs Grade: Examples from past project%%">
+        <p>Here are some examples from the past project (Enhancing an AddressBook application) of different enhancements and the grade the student is likely to earn for the relevant parts of the project grade.</p>
+        <p>While these examples do not necessarily translate directly to the current project, they should give you an idea of the depth of the feature and the effort required to implement it (including automated tests and documentation).</p>
+        <ul>
+          <li>Example 1 (Expected grade: <code>A</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">Add support for undo/redo</a></li>
+          <li>Example 2 (Expected grade: <code>B</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">Add support for viewing history</a></li>
+        </ul>
+      </panel>
+      <h5 id="individual-expectations-on-lines-of-code">[Individual] Expectations on Lines of Code</h5>
       <ul>
-        <li>Based on past experience, <mark>it is possible for a feature consisting of <strong>~300-500 LoC of code</strong> to earn full marks</mark> provided the feature does well in all grading criteria.</li>
+        <li>Based on past experience, <mark>it is possible for a feature consisting of <strong>~300-500 LoC of functional code</strong> and <strong>~200-400 LoC of test code</strong> to earn full marks</mark> provided the feature does well in all grading criteria.</li>
+        <li><strong>Note:</strong> <mark>The lines of code count mentioned above is counted after Phase 1 of the project</mark></li>
       </ul>
       <h5 id="individual-expectations-on-documentation">[Individual] Expectations on Documentation</h5>
       <ul>
         <li>You are expected to write user documentation and developer documentation for your features.</li>
-        <li><strong>The objective is to showcase your ability to write the two types of documentation.</strong> If the documentation for your features is not enough to meet that objective, or does not reach the following minimal requirement, you can make up the shortfall by documenting 'proposed' features and alternative designs/implementations.
+        <li><strong>The objective is to showcase your ability to write the two types of documentation.</strong> If the documentation for your features is not enough to meet that objective, or does not reach the following <em>minimal requirement</em>, you can make up the shortfall by documenting 'proposed' features and alternative designs/implementations.
           <ul>
-            <li>Contribution to the user guide: 1 page</li>
-            <li>Contribution to the developer guide: 3 pages</li>
+            <li>Contribution to the <strong>user guide: 1 page</strong></li>
+            <li>Contribution to the <strong>developer guide: 3 pages</strong></li>
           </ul>
         </li>
         <li>You are expected to <mark>showcase your ability to use the various UML diagrams (at least 2 types)</mark>. As mentioned in the previous point, if the documentation of your features doesn't give you enough opportunities to do so <span class="dimmed">e.g., your features only required minor updates to existing diagrams</span>, you are expected to create those opportunities yourself by documenting proposed features or alternative designs. Evaluators will not be able to give you marks unless there is sufficient evidence of your documentation skills.</li>
-        <li>You are recommended to, but not required to, update all existing AB-4 documentation to match your product. However, all diagrams that are included in the part of documentation claimed as done by you should be updated to match the current product.</li>
       </ul>
+
       <h5 id="individual-expectations-on-testing">[Individual] Expectations on Testing</h5>
       <div id="testing-expectations">
         <ul>
           <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
-          <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+          <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests. (Please refer to <em>Expectations on Lines of Code</em> for LoC requirement).</li>
           <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
         </ul>
       </div>
       <h5 id="individual-expectations-on-teamwork">[Individual] Expectations on Teamwork</h5>
-      <p><em>Team-tasks</em> are the tasks that <em>someone</em> in the team has to do. Marks allocated to team-tasks will be divided among team members based on how much each member contributed to those tasks.</p>
-      <p><span id="scope-example-team-tasks"></span></p>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of team-tasks%%">
-        <span id="example-team-tasks">
-          <p>Here is a non-exhaustive list of team-tasks:</p>
-          <ol>
-            <li>Necessary general code enhancements e.g.,
+      <ul>
+        <li>
+          <p><em>Team-tasks</em> are the tasks that <em>someone</em> in the team has to do. Marks allocated to team-tasks will be divided among team members based on how much each member contributed to those tasks.</p>
+          <p><span id="scope-example-team-tasks"></span></p>
+          <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of team-tasks%%">
+            <span id="example-team-tasks">
+              <p>Here is a non-exhaustive list of team-tasks:</p>
               <ol>
-                <li>Work related to renaming the product</li>
-                <li>Work related to changing the product icon</li>
-                <li>Morphing the product into a different product</li>
+                <li>Necessary general code enhancements e.g.,
+                  <ol>
+                    <li>Work related to renaming the product</li>
+                    <li>Work related to changing the product icon</li>
+                    <li>Morphing the product into a different product</li>
+                  </ol>
+                </li>
+                <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+                <li>Maintaining the issue tracker</li>
+                <li>Release management</li>
+                <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+                <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
               </ol>
-            </li>
-            <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
-            <li>Maintaining the issue tracker</li>
-            <li>Release management</li>
-            <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
-            <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
-          </ol>
-        </span>
-        <p></p>
-      </panel>
-      <p></p>
+            </span>
+            <p></p>
+          </panel>
+          <p></p>
+        </li>
+      </ul>
+      <h5 id="individual-roles-and-responsibilities">[Individual] Roles and responsibilities</h5>
       <span id="roles">
-        <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
-        <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities">
-          <p>This is a non-exhaustive list; you may define additional roles.</p>
-          <ul>
-            <li><em>Team lead</em>: Responsible for overall project coordination.</li>
-            <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
-            <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
-            <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
-            <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
-            <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
-            <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
-            <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
-            <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
-          </ul>
-        </panel>
+        <ul>
+          <li>
+            <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
+            <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities">
+              <p>This is a non-exhaustive list; you may define additional roles.</p>
+              <ul>
+                <li><em>Team lead</em>: Responsible for overall project coordination.</li>
+                <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
+                <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
+                <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
+                <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
+                <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
+                <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
+                <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
+                <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
+              </ul>
+            </panel>
+          </li>
+        </ul>
         <p></p>
         <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.
         </p>
       </span>
     </span>
+    <br>
     <span id="team-expectations">
       <h4 id="team-expectations"><span><span aria-hidden="true" class="fas fa-users"></span></span> Team Expectations</h4>
       <ol>

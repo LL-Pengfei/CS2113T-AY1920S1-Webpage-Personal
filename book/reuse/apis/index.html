@@ -49,11 +49,11 @@
                       <p></p>
                       <div>
                         <p><strong>An <em>Application Programming Interface (API)</em> specifies the interface through which other programs can interact with a software component.</strong> It is a contract between the component and its clients.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class has an API (e.g., <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html">API of the Java <code>String</code> class</a>, <a href="https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str">API of the Python <code>str</code> class</a>) which is a collection of public methods that you can invoke to make use of the class.</p>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <a href="https://developer.github.com/v3/">GitHub API</a> is a collection of Web request formats GitHub server accepts and the corresponding responses. We can write a program that interacts with GitHub through that API.</p>
-                        </tip-box>
-                        <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed"> because the future behavior of the other components are now more predictable</span>.</p>
+                        </box>
+                        <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed">because the future behavior of the other components are now more predictable</span>.</p>
                       </div>
                       <div>
                         <div>
@@ -115,7 +115,7 @@
                         <p>One approach is to let the API emerge and evolve over time as we write code.</p>
                         <p>Another approach is to define the API up-front. Doing so allows us to develop the components in parallel.</p>
                         <p>We can use UML <em>sequence diagrams</em> to analyze the required interactions between components in order to discover the required API. Given below is an example.</p>
-                        <tip-box>
+                        <box>
                           <p>Example:</p>
                           <img src="/website/book/reuse/apis/designingAPIs/images/textLogic.png" height="500">
                           <p></p>
@@ -141,7 +141,7 @@
                             <li><strong>Preconditions</strong>: game state is READY or IN_PLAY. x and y are in 0..(H-1) and 0..(W-1), respectively.</li>
                             <li><strong>Postconditions</strong>: Cell at x,y changes state to ZERO, ONE, TWO, THREE, …, EIGHT, or INCORRECTLY_CLEARED. Game state changes to IN_PLAY, WON or LOST as appropriate.</li>
                           </ul>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>

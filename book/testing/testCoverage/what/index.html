@@ -45,12 +45,12 @@
                     <p><strong><em>Test coverage</em> is a metric used to measure the extent to which testing exercises the code</strong> i.e., how much of the code is 'covered' by the tests.</p>
                     <p>Here are some examples of different coverage criteria:</p>
                     <ul>
-                      <li><strong>Function/method coverage</strong> : based on functions executed <span class="dimmed"> e.g., testing executed 90 out of 100 functions</span>.</li>
-                      <li><strong>Statement coverage</strong> : based on the number of line of code executed <span class="dimmed"> e.g., testing executed 23k out of 25k LOC</span>.</li>
-                      <li><strong>Decision/branch coverage</strong> : based on the decision points exercised <span class="dimmed"> e.g., an <code>if</code> statement evaluated to both <code>true</code> and <code>false</code> with separate test cases during testing is considered 'covered'</span>.</li>
+                      <li><strong>Function/method coverage</strong> : based on functions executed <span class="dimmed">e.g., testing executed 90 out of 100 functions</span>.</li>
+                      <li><strong>Statement coverage</strong> : based on the number of line of code executed <span class="dimmed">e.g., testing executed 23k out of 25k LOC</span>.</li>
+                      <li><strong>Decision/branch coverage</strong> : based on the decision points exercised <span class="dimmed">e.g., an <code>if</code> statement evaluated to both <code>true</code> and <code>false</code> with separate test cases during testing is considered 'covered'</span>.</li>
                       <li><strong>Condition coverage</strong> : based on the boolean sub-expressions, each evaluated to both true and false with different test cases. Condition coverage is not the same as the decision coverage.</li>
                     </ul>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
                       <p>For 100% branch or decision coverage, two test cases are required:</p>
                       <ul>
@@ -63,7 +63,7 @@
                         <li><code>(x &lt; 44) == false</code> : [e.g. <code>x == 100</code>]</li>
                         <li><code>(x &gt; 2) == false</code> : [e.g. <code>x == 0</code>]</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <ul>
                       <li><strong>Path coverage</strong> measures coverage in terms of possible paths through a given part of the code executed. 100% path coverage means all possible paths have been executed. A commonly used notation for path analysis is called the <em>Control Flow Graph (CFG)</em>.</li>
                       <li><strong>Entry/exit coverage</strong> measures coverage in terms of possible <em>calls to</em> and <em>exits</em> from the operations in the SUT.</li>

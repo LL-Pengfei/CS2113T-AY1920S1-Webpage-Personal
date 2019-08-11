@@ -309,7 +309,7 @@
                                 <li>Similar to <code>javac</code>, your console should be able to find the java executable.</li>
                               </ul>
                               <p>When you run a Java program, you can encounter a <tooltip content="so-called because it does not appear until after the program has started running">run-time error</tooltip>. These errors are also called &quot;exceptions&quot; because they usually indicate that something exceptional (and bad) has happened. When a run-time error occurs, the interpreter displays an error message that explains what happened and where.</p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, modify the HelloWorld code to include the following line, compile it again, and run it.</p>
                                 <pre><code class="hljs java">System.out.println(<span class="hljs-number">5</span>/<span class="hljs-number">0</span>);
 </code></pre>
@@ -317,7 +317,7 @@
                                 <pre><code class="hljs sh">Exception <span class="hljs-keyword">in</span> thread <span class="hljs-string">"main"</span> java.lang.ArithmeticException: / by zero
     at Hello.main(Hello.java:5)
 </code></pre>
-                              </tip-box>
+                              </box>
                               <p><strong>Integrated Development Environments (IDEs)</strong> can automate the intermediate step of compiling. They usually have a <span style="color:green"><span aria-hidden="true" class="fas fa-play-circle"></span></span> <em>Run</em> button which compiles the code first and then runs it.</p>
                               <p>Example IDEs:</p>
                               <ul>
@@ -328,14 +328,14 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> Run HelloWorld">
                                         <question>
                                           <ul>
-                                            <li>Install Java in your Computer, if you haven't done so already.</li>
-                                            <li>Write, compile and run a small Java program <span class="dimmed">(e.g., a HelloWorld program)</span> in your Computer. You can use any code editor to write the program but use the command prompt to compile and run the program.</li>
+                                            <li>Install Java in your computer, if you haven't done so already.</li>
+                                            <li>Write, compile and run a small Java program <span class="dimmed">(e.g., a HelloWorld program)</span> in your computer. You can use any code editor to write the program but use the command prompt to compile and run the program.</li>
                                             <li>Modify the code and run the program again.</li>
                                           </ul>
                                         </question>
@@ -772,7 +772,7 @@ System.out.println(names[<span class="hljs-number">0</span>][<span class="hljs-n
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> Compare names">
@@ -796,7 +796,7 @@ They are the same: false
                                           <pre><code class="hljs">Words given: eve, eve
 They are the same: true
 </code></pre>
-                                          <p>💡 Use the following technique to compare two <code>Strings</code>(i.e., don't use <code>==</code>). <span class="dimmed">Reason: to be covered in a later topic</span>.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the following technique to compare two <code>Strings</code>(i.e., don't use <code>==</code>). <span class="dimmed">Reason: to be covered in a later topic</span>.</p>
                                           <pre><code class="hljs java">String x = <span class="hljs-string">"foo"</span>;
 <span class="hljs-keyword">boolean</span> isSame = x.equals(<span class="hljs-string">"bar"</span>) <span class="hljs-comment">// false</span>
 isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comment">// true</span>
@@ -938,7 +938,7 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> Greeter">
@@ -1002,7 +1002,7 @@ isSame = x.equals(<span class="hljs-string">"foo"</span>) <span class="hljs-comm
                                       <panel header="<md>:glyphicon-question-sign:</md> Grade Helper">
                                         <question>
                                           <p>Write a Java program that takes a letter grade e.g., <code>A+</code> as a command line argument and prints the CAP value for that grade.</p>
-                                          <p>💡 Use a <code>switch</code> statement in your code.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use a <code>switch</code> statement in your code.</p>
                                           <div id="capConversion">
                                             <div class="table-responsive">
                                               <table class="markbind-table table table-bordered table-striped">
@@ -1187,10 +1187,10 @@ Polly likes crackers
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> `getGradeCap` Method">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] `getGradeCap` Method</small></small><a class='fa fa-anchor' href='#key-exercise-getgradecap-method'></a>" expanded>
                                         <question>
                                           <p>Add the following method to the class given below.</p>
                                           <ul>
@@ -1399,10 +1399,10 @@ B : 3.5
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> `getMultipleGradeCaps` Method">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] `getMultipleGradeCaps` Method</small></small><a class='fa fa-anchor' href='#key-exercise-getmultiplegradecaps-method'></a>" expanded>
                                         <question>
                                           <p>Add the following method to the class given below.</p>
                                           <ul>
@@ -1569,7 +1569,7 @@ A-:4.5
 }
 </code></pre>
                                 </box>
-                                <p>💡 You might wonder why we can use the <code>System</code> class without importing it. <code>System</code> belongs to <strong>the <code>java.lang</code> package, which is imported automatically</strong>.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You might wonder why we can use the <code>System</code> class without importing it. <code>System</code> belongs to <strong>the <code>java.lang</code> package, which is imported automatically</strong>.</p>
                               </div>
                               <h5 id="new-operator"><code>new</code> operator<a class="fa fa-anchor" href="#new-operator"></a></h5>
                               <div class="indented">
@@ -1583,10 +1583,10 @@ A-:4.5
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> create `Rectangle` objects">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] create `Rectangle` objects</small></small><a class='fa fa-anchor' href='#key-exercise-create-rectangle-objects'></a>" expanded>
                                         <question>
                                           <p>Update the code below to create a new <code>Rectangle</code> object as described in the code comments, to produce the given output.</p>
                                           <ul>
@@ -1675,10 +1675,10 @@ System.out.println(spot.x + <span class="hljs-string">", "</span> + spot.y);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> use `Rectangle` objects">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] use `Rectangle` objects</small></small><a class='fa fa-anchor' href='#key-exercise-use-rectangle-objects'></a>" expanded>
                                         <question>
                                           <p>Update the code below as described in code comments, to produce the given output.</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.awt.Rectangle;
@@ -1837,10 +1837,10 @@ p3: 3, 2
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> pass objects to `move` method">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] pass objects to `move` method</small></small><a class='fa fa-anchor' href='#key-exercise-pass-objects-to-move-method'></a>" expanded>
                                         <question>
                                           <p>Add a method <code>move(Point p, Rectangle r)</code> to the code below, to produce the given output. The behavior of the method is as follows:</p>
                                           <ul>
@@ -1950,7 +1950,7 @@ spot = <span class="hljs-keyword">null</span>;
                             <div>
                               <p>As you know,</p>
                               <ul>
-                                <li>Defining a class creates a new object type with the same name.</li>
+                                <li>Defining a class creates a new object type.</li>
                                 <li>Every object belongs to some object type; that is, it is an instance of some class.</li>
                                 <li>A class definition is like a template for objects: it specifies what attributes the objects have and what methods can operate on them.</li>
                                 <li>The <code>new</code> operator instantiates objects, that is, it creates new instances of a class.</li>
@@ -1966,8 +1966,8 @@ spot = <span class="hljs-keyword">null</span>;
 </code></pre>
                               </box>
                               <p>You can give a class any name you like. <strong>The Java convention is to use <tooltip content="e.g., `MyHelloWord` rather than `myHelloWorld` or `myhelloword` or `my_hello_world`">PascalCase</tooltip> format for class names</strong>.</p>
-                              <p>The code should be in a file whose name matches the class <span class="dimmed">e.g., the <code>Time</code> class should be in a file named <code>Time.java</code></span>.</p>
-                              <p>When a class is <code>public</code> <span class="dimmed">(e.g., the <code>Time</code> class in the above example)</span> it can be used in other classes. But the <tooltip content="Attributes are also called **instance variables**, because each instance has its own variables.">instance variables</tooltip> that are <code>private</code> <span class="dimmed">(e.g., the hour, <code>minute</code> and <code>second</code> attributes of the <code>Time</code> class)</span> can only be accessed from inside the <code>Time</code> class.</p>
+                              <p>The code is usually placed in a file whose name matches the class <span class="dimmed">e.g., the <code>Time</code> class should be in a file named <code>Time.java</code></span>.</p>
+                              <p>When a class is <code>public</code> <span class="dimmed">(e.g., the <code>Time</code> class in the above example)</span> it can be used in other classes. But the <tooltip content="Attributes are also called **instance variables**, because each instance has its own variables.">instance variables</tooltip> that are <code>private</code> <span class="dimmed">(e.g., the <code>hour</code>, <code>minute</code> and <code>second</code> attributes of the <code>Time</code> class)</span> can only be accessed from inside the <code>Time</code> class.</p>
                               <h5 id="constructos">Constructos<a class="fa fa-anchor" href="#constructos"></a></h5>
                               <div class="indented">
                                 <p>The syntax for <tooltip content="special methods that construct the object and initialize the instance variables">constructors</tooltip> is similar to that of other methods, except:</p>
@@ -1976,7 +1976,7 @@ spot = <span class="hljs-keyword">null</span>;
                                   <li>The keyword <code>static</code> is omitted.</li>
                                   <li>Do not return anything. A constructor returns the created object by default.</li>
                                 </ul>
-                                <p>When you invoke <code>new</code>, Java creates the object and calls your constructor to initialize the instance variables. When the constructor is done, new returns a reference to the new object.</p>
+                                <p>When you invoke <code>new</code>, Java creates the object and calls your constructor to initialize the instance variables. When the constructor is done, it returns a reference to the new object.</p>
                                 <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example constructor for the <code>Time</code> class:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">()</span> </span>{
@@ -1987,9 +1987,9 @@ spot = <span class="hljs-keyword">null</span>;
 </code></pre>
                                   <p>This constructor does not take any arguments. Each line initializes an instance variable to zero (which in this example means midnight).
                                     Now you can create <code>Time</code> objects.</p>
-                                  <p><code>Time time = new Time();</code></p>
+                                  <p><code class="hljs inline java">Time time = <span class="hljs-keyword">new</span> Time();</code></p>
                                 </box>
-                                <p>Like other methods, constructors can be overloaded, which means you can provide multiple constructors with different parameters.</p>
+                                <p>Like other methods, constructors can be <tooltip content="i.e., you can provide multiple constructors with different parameters">overloaded</tooltip>.</p>
                                 <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can add another constructor to the <code>Time</code> class to allow creating <code>Time</code> objects that are initialized to a specific time:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">(<span class="hljs-keyword">int</span> h, <span class="hljs-keyword">int</span> m, <span class="hljs-keyword">int</span> s)</span> </span>{
@@ -1998,9 +1998,8 @@ spot = <span class="hljs-keyword">null</span>;
     second = s;
 }
 </code></pre>
-                                  <p>Here's how you can invoke the new constructor:</p>
-                                  <pre><code class="hljs java">Time justBeforeMidnight = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">11</span>, <span class="hljs-number">59</span>, <span class="hljs-number">59</span>);
-</code></pre>
+                                  <p>Here's how you can invoke the new constructor:
+                                    <code class="hljs inline java">Time justBeforeMidnight = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">11</span>, <span class="hljs-number">59</span>, <span class="hljs-number">59</span>);</code></p>
                                 </box>
                               </div>
                               <h5 id="this-keyword"><code>this</code> keyword<a class="fa fa-anchor" href="#this-keyword"></a></h5>
@@ -2045,10 +2044,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] define a `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-define-a-circle-class'></a>" expanded>
                                         <question>
                                           <p>Define a <code>Circle</code> class so that the code given below produces the given output. The nature of the class is a follows:</p>
                                           <ul>
@@ -2068,9 +2067,9 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                                               <ul>
                                                 <li><strong><code>getArea()</code></strong>: <code>int</code><br>
                                                   Returns the area of the circle as an <code>int</code> value (not <code>double</code>). Calculated as 2xPIx(radius)<sup>2</sup><br>
-                                                  💡 You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
-                                                  💡 You can use <code>Math.PI</code> to get the value of Pi<br>
-                                                  💡 You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
+                                                  <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
+                                                  <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.PI</code> to get the value of Pi<br>
+                                                  <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
                                               </ul>
                                             </li>
                                           </ul>
@@ -2168,10 +2167,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] add getters/setters to the `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-add-getters-setters-to-the-circle-class'></a>" expanded>
                                         <question>
                                           <p>Consider the <code>Circle</code> class below:</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -2335,20 +2334,20 @@ radius : 0.0
 </code></pre>
                                 </box>
                               </div>
-                              <tip-box>
-                                <p>💡 Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
+                              <box>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
                                 <ul>
                                   <li><code>out</code> is a class-level public attribute of the <code>System</code> class.</li>
                                   <li><code>println</code> is a instance level method of the <code>out</code> object.</li>
                                 </ul>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
-                                      <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
+                                      <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] add getMaxRadius to the `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-add-getmaxradius-to-the-circle-class'></a>" expanded>
                                         <question>
                                           <p>Consider the <code>Circle</code> class below:</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -2667,7 +2666,7 @@ System.out.println(s1.equalsIgnoreCase(s2)); <span class="hljs-comment">//true</
 Second &quot;line&quot;
 </code></pre>
                                 </box>
-                                <p>💡 As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
                                 <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>System.lineSeparator()</code> to print a line break.</p>
                                   <pre><code class="hljs java">System.out.println(<span class="hljs-string">"First line"</span> + System.lineSeparator() + <span class="hljs-string">"Second line"</span>);
@@ -2712,7 +2711,7 @@ Second line
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
@@ -2725,7 +2724,7 @@ Second line
                                             <li>The <code>name</code> part of the input can have trailing/leading spaces which should be omitted from the output.<br>
                                               e.g., <code>banana --$3/50</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>BANANA: 3.50</code></li>
                                           </ul>
-                                          <p>💡 Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
 
@@ -2814,7 +2813,7 @@ System.out.println(i);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method">
@@ -2842,7 +2841,7 @@ System.out.println(i);
 109
 </code></pre>
                                           <div slot="hint">
-                                            <p>💡 You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
+                                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
                                             <p>Partial solution:</p>
                                             <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTotalScore</span><span class="hljs-params">(String[] values)</span></span>{
     <span class="hljs-keyword">int</span> total = <span class="hljs-number">0</span>;
@@ -2895,7 +2894,7 @@ System.out.println(Arrays.toString(c));
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
@@ -2952,7 +2951,7 @@ System.out.println(Arrays.toString(c));
                                               </li>
                                               <li><strong><code>printItems(String[] items)</code></strong>
                                                 <ul>
-                                                  <li>💡 You can use the <code>Arrays.toString()</code> method for this.</li>
+                                                  <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>Arrays.toString()</code> method for this.</li>
                                                 </ul>
                                               </li>
                                             </ul>
@@ -3029,12 +3028,12 @@ System.out.print(<span class="hljs-string">"What is your name? "</span>);
 String name = in.nextLine();
 System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, age);
 </code></pre>
-                                <p>💡 Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
                               </box>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
@@ -3073,14 +3072,14 @@ Total in local currency: $17.00
     }
 }
 </code></pre>
-                                          <p>💡 You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
                                           <pre><code class="hljs java">String sentence = <span class="hljs-string">"hello my dear"</span>;
 String[] words = sentence.split(<span class="hljs-string">" "</span>); <span class="hljs-comment">// split using the space as the delimiter</span>
 System.out.println(Arrays.toString(words));
 </code></pre>
                                           <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
                                           <div slot="hint">
-                                            <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
+                                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
                                               e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
                                             <panel type="seamless" header="Partial solution">
                                               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
@@ -3160,7 +3159,7 @@ System.out.println(Arrays.toString(words));
                                 <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A class that is derived from another class is called a <em>subclass</em></strong> (also a <em>derived</em> class, <em>extended</em> class, or <em>child</em> class). The class from which the subclass is derived is called a <em>superclass</em> (also a <em>base</em> class or a <em>parent</em> class).</p>
                                 <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A subclass inherits all the members</strong> (fields, methods, and nested classes) from its superclass. Constructors are not members, so they are not inherited by subclasses, but the constructor of the superclass can be invoked from the subclass.</p>
                                 <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>Every class has one and only one direct superclass (<em>single inheritance</em>)</strong>, except the <code>Object</code> class, which has no superclass, . In the absence of any other explicit superclass, every class is implicitly a subclass of <code>Object</code>. Classes can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, <code>Object</code>. Such a class is said to be <em>descended</em> from all the classes in the <em>inheritance chain</em> stretching back to <code>Object</code>. Java does not support <em>multiple inheritance</em> among classes.</p>
-                                <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>The <code>java.lang.Object</code> class defines and implements behavior common to all classes</strong>—including the ones that you write. In the Java platform, many classes derive directly from <code>Object</code>, other classes derive from some of those classes, and so on, forming a hierarchy of classes.</p>
+                                <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>The <code>java.lang.Object</code> class defines and implements behavior common to all classes</strong>—including the ones that you write. In the Java platform, many classes derive directly from <code>Object</code>, other classes derive from some of those classes, and so on, forming a single hierarchy of classes.</p>
                                 <p><strong>The keyword <code>extends</code> indicates one class inheriting from another.</strong></p>
                                 <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the sample code for a possible implementation of a <code>Bicycle</code> class and a <code>MountainBike</code> class that is a subclass of the <code>Bicycle</code>:</p>
@@ -3235,13 +3234,13 @@ System.out.println(Arrays.toString(words));
                                   <pre><code class="hljs">Printed in Superclass.
 Printed in Subclass
 </code></pre>
-                                  <p>Within <code>Subclass</code>, the simple name <code>printMethod()</code> refers to the one declared in <code>Subclass</code>, which overrides the one in <code>Superclass</code>. So, to refer to <code>printMethod()</code> inherited from <code>Superclass</code>, <code>Subclass</code> must use a qualified name, using <code>super</code> as shown. Compiling and executing <code>Subclass</code> prints the following:</p>
+                                  <p>Within <code>Subclass</code>, the simple name <code>printMethod()</code> refers to the one declared in <code>Subclass</code>, which overrides the one in <code>Superclass</code>. So, to refer to <code>printMethod()</code> inherited from <code>Superclass</code>, <code>Subclass</code> must use a qualified name, using <code>super</code> as shown.</p>
                                 </box>
                                 <h5 id="subclass-constructors">Subclass Constructors<a class="fa fa-anchor" href="#subclass-constructors"></a></h5>
                                 <p><strong>A subclass constructor can invoke the superclass constructor.</strong> Invocation of a superclass constructor must be the first line in the subclass constructor.
-                                  The syntax for calling a superclass constructor is <code>super()</code> <span class="dimmed">(which invokes the no-argument constructor of the superclass)</span> or <code>super(parameter list)</code> <span class="dimmed">(to invoke the superclass constructor with a matching parameter list)</span>.</p>
+                                  The syntax for calling a superclass constructor is <code>super()</code> <span class="dimmed">(which invokes the no-argument constructor of the superclass)</span> or <code>super(parameters)</code> <span class="dimmed">(to invoke the superclass constructor with a matching parameter list)</span>.</p>
                                 <box>
-                                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following example illustrates how to use the <code>super</code> keyword to invoke a superclass's constructor. Recall from the <code>Bicycle</code> example that <code>MountainBike</code> is a subclass of <code>Bicycle</code>. Here is the <code>MountainBike</code> (subclass) constructor that calls the superclass constructor and then adds initialization code of its own:</p>
+                                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following example illustrates how to use the <code>super</code> keyword to invoke a superclass's constructor. Recall from the <code>Bicycle</code> example that <code>MountainBike</code> is a subclass of <code>Bicycle</code>. Here is the <code>MountainBike</code> (subclass) constructor that calls the superclass constructor and then adds some initialization code of its own (i.e., <code class="hljs inline java">seatHeight = startHeight;</code>):</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MountainBike</span><span class="hljs-params">(<span class="hljs-keyword">int</span> startHeight, <span class="hljs-keyword">int</span> startSpeed, <span class="hljs-keyword">int</span> startGear)</span> </span>{
     <span class="hljs-keyword">super</span>(startSpeed, startGear);
     seatHeight = startHeight;
@@ -3250,7 +3249,7 @@ Printed in Subclass
                                 </box>
                                 <p>Note: If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the superclass does not have a no-argument constructor, you will get a compile-time error. <code>Object</code> does have such a constructor, so if <code>Object</code> is the only superclass, there is no problem.</p>
                                 <h5 id="access-modifiers-simplified">Access Modifiers (simplified)<a class="fa fa-anchor" href="#access-modifiers-simplified"></a></h5>
-                                <p><strong>Access level modifiers determine whether other classes can use a particular field or invoke a particular method.</strong> Given below is a simplified version of Java access modifiers, <mark>assuming you have not yet started placing your classes in different packages</mark> i.e., all classes are places in the root level. A full explanation of access modifiers is given in a later topic.</p>
+                                <p><strong>Access level modifiers determine whether other classes can use a particular field or invoke a particular method.</strong> Given below is a simplified version of Java access modifiers, <mark>assuming you have not yet started placing your classes in different packages</mark> i.e., all classes are placed in the root level. A full explanation of access modifiers is given in a later topic.</p>
                                 <p>There are two levels of access control:</p>
                                 <ol>
                                   <li>
@@ -3274,7 +3273,7 @@ Printed in Subclass
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class">
@@ -3424,7 +3423,7 @@ Postponed to Nov 18th
 </code></pre>
                                   <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>05:20:13</code></p>
                                 </box>
-                                <p>💡 <code>@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p>
                               </div>
                               <h5 id="the-equals-method">The <code>equals</code> method<a class="fa fa-anchor" href="#the-equals-method"></a></h5>
                               <div class="indented">
@@ -3481,7 +3480,7 @@ true
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method">
@@ -3568,7 +3567,7 @@ description: Read textbook
 is done? Yes
 do by: Postponed to Nov 18th
 </code></pre>
-                                          <p>💡 You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
                                           <div slot="hint">
                                             <p><code>toString()</code> method of <code>Task</code> class and <code>Todo</code> class are given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
@@ -3689,7 +3688,7 @@ Spot: Woof
 </code></pre>
                                 </panel>
                               </box>
-                              <p>A better way is to <strong>take advantage of polymorphism to write code that targets a superclass but works with any subclass objects.</strong></p>
+                              <p>A better way is to <strong>take advantage of polymorphism to write code that targets a superclass so that it works with any subclass objects.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>PetShelter2</code> use one data structure to keep both types of animals and one loop to make them speak. The code targets the <code>Animal</code> superclass (assuming <code>Cat</code> and <code>Dog</code> inherits from the <code>Animal</code> class) instead of repeating the code for each animal type.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PetShelter2</span> </span>{
@@ -3747,7 +3746,7 @@ Spot: Woof
 </code></pre>
                                 </panel>
                                 <p><span class="dimmed">Explanation: Because Java supports polymorphism, you can store both <code>Cat</code> and <code>Dog</code> objects in an array of <code>Animal</code> objects. Similarly, you can call the <code>speak</code> method on any <code>Animal</code> object (as done in the loop) and yet get different behavior from <code>Cat</code> objects and <code>Dog</code> objects.</span></p>
-                                <p>💡 Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
                                 </p>
                               </box>
                               <p><strong>Polymorphic code is better</strong> in several ways:</p>
@@ -3759,7 +3758,7 @@ Spot: Woof
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> print shape area">
@@ -3816,7 +3815,7 @@ Spot: Woof
     }
 }
 </code></pre>
-                                          <p>💡 You may use an array of size 100 to store the shapes.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You may use an array of size 100 to store the shapes.</p>
                                           <panel type="seamless" header="Partial solution">
                                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Shape[] shapes = <span class="hljs-keyword">new</span> Shape[<span class="hljs-number">100</span>];
@@ -3885,6 +3884,7 @@ Spot: Woof
                                 <p><code>Account a;</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK to use as a type <br>
                                   <code>a = new Account();</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error!</p>
                               </box>
+                              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> In Java, even <strong>a class that does not have any abstract methods <em>can</em> be declared as an abstract class.</strong></p>
                               <p><strong>When an abstract class is subclassed, the subclass should provides implementations for all of the abstract methods in its superclass or else the subclass must also be declared abstract.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Feline</code> class below inherits from the abstract class <code>Animal</code> but it does not provide an implementation for the abstract method <code>speak</code>. As a result, the <code>Feline</code> class needs to be abstract too.</p>
@@ -3895,7 +3895,7 @@ Spot: Woof
 
 }
 </code></pre>
-                                <p>The <code>DomesticCat</code> class inherits the abstract <code>Feline</code> class and provides the implementation for the abstract method <code>speak</code>. As a result, it need not be declared abstract.</p>
+                                <p>The <code>DomesticCat</code> class inherits the abstract <code>Feline</code> class and provides the implementation for the abstract method <code>speak</code>. As a result, it need not be (but <em>can</em> be) declared as abstract.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DomesticCat</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Feline</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">DomesticCat</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -3907,8 +3907,10 @@ Spot: Woof
     }
 }
 </code></pre>
-                                <p><code>Animal a = new Feline(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error! <code>Feline</code> is abstract.</p>
-                                <p><code>Animal a = new DomesticCat(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</p>
+                                <ul>
+                                  <li><code class="hljs inline java">Animal a = <span class="hljs-keyword">new</span> Feline(<span class="hljs-string">"Mittens"</span>);</code><br><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error! <code>Feline</code> is abstract.</li>
+                                  <li><code class="hljs inline java">Animal a = <span class="hljs-keyword">new</span> DomesticCat(<span class="hljs-string">"Mittens"</span>);</code><br><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</li>
+                                </ul>
                               </box>
                             </div>
                             <div>
@@ -3922,7 +3924,7 @@ Spot: Woof
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
@@ -4058,10 +4060,10 @@ Rectangle of area 16
     <span class="hljs-comment">// more method signatures</span>
 }
 </code></pre>
-                                <p>Note that the method signatures have no braces and are terminated with a semicolon.
+                                <p>Note that the method signatures have no braces (<code>{ }</code>) and are terminated with a semicolon.
                                 </p>
                               </box>
-                              <p><strong>Interfaces cannot be instantiated—they can only be implemented by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for each of the methods declared in the interface.</p>
+                              <p><strong>Interfaces cannot be instantiated—they can only be <em>implemented</em> by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for each of the methods declared in the interface.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is how a class <code>CarModelX</code> can implement the <code>DrivableVehicle</code> interface.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CarModelX</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DrivableVehicle</span> </span>{
@@ -4075,7 +4077,7 @@ Rectangle of area 16
 }
 </code></pre>
                               </box>
-                              <p><strong>An interface can be used as a type</strong> e.g., <code>DrivableVechile dv = new CarModelX();</code>.</p>
+                              <p><strong>An interface can be used as a type</strong> e.g., <code class="hljs inline java">DrivableVechile dv = <span class="hljs-keyword">new</span> CarModelX();</code>.</p>
                               <p><strong>Interfaces can inherit from other interfaces</strong> using the <code>extends</code> keyword, similar to a class inheriting another.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an interface named <code>SelfDrivableVehicle</code> that inherits the <code>DrivableVehicle</code> interface.</p>
@@ -4149,7 +4151,7 @@ Rectangle of area 16
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items">
@@ -4462,7 +4464,7 @@ Person of name James Cook
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
@@ -4494,11 +4496,11 @@ Person of name James Cook
                                           <ol>
                                             <li>
                                               <p>Update the code of <code>printArea</code> to print an error message if <code>WIDTH</code> and/or <code>HEIGHT</code> are not numbers <span class="dimmed">e.g., <code>&quot;Ax4&quot;</code></span><br>
-                                                💡 <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
+                                                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
                                             </li>
                                             <li>
                                               <p>Update the code of <code>printArea</code> to print an error message if the descriptor is missing <code>WIDTH</code> and/or <code>HEIGHT</code> <span class="dimmed">e.g., <code>&quot;x4&quot;</code></span><br>
-                                                💡 <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
+                                                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
                                             </li>
                                             <li>
                                               <p>Update the code of <code>calculateArea</code> to throw the checked exception <code>IllegalShapeException</code> if there are more than 2 dimensions <span class="dimmed">e.g., <code>&quot;5x4x3&quot;</code></span> and update the <code>printArea</code> to print an error message for those cases. Here is the code for the <code>IllegalShapeException.java</code></p>
@@ -4916,13 +4918,13 @@ After clearing: []
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
                                         <question>
                                           <p>Add the missing methods to the class given below so that it produces the output given.</p>
-                                          <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>ArrayList</code> to store the numbers.</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add your methods here</span>
@@ -5056,13 +5058,13 @@ Number of keys after clearing: 0
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
                                         <question>
                                           <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
-                                          <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
+                                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>HashMap</code> to store the number of entries for each day.</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> HashMap&lt;String, Integer&gt; roster = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
 
@@ -5149,7 +5151,7 @@ Wednesday =&gt; 2
                             <p></p>
                             <p></p>
                             <div>
-                              <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code>.</p>
+                              <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code> by convention.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Day {
@@ -5175,7 +5177,7 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                                   <div>
                                     <div>
                                       <panel header="<md>:glyphicon-question-sign:</md> show priority color">
@@ -5240,9 +5242,9 @@ Green indicates low priority
                             <p></p>
                             <div>
                               <p><strong>You can organize your <em>types</em> (i.e., classes, interfaces, enumerations, etc.) into <em>packages</em></strong> for easier management (among <a href="https://www.tutorialspoint.com/Advantages-of-using-packages-in-Java">other benefits</a>).</p>
-                              <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file.</p>
+                              <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file. Furthermore, <strong>the package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
                               <box>
-                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>:</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>&lt;source folder&gt;/seedu/tojava/util/Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>. When it is compiled, the <code>Formatter.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/util</code>:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.tojava.util;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Formatter</span> </span>{
@@ -5254,7 +5256,7 @@ Green indicates low priority
 }
 </code></pre>
                               </box>
-                              <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separate. Companies use their reversed Internet domain name to begin their package names. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>.</p>
+                              <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separator. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>. Companies use their reversed Internet domain name to begin their package names.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, <code>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code>foobar.com</code></p>
                               </box>
@@ -5326,15 +5328,7 @@ Green indicates low priority
 }
 </code></pre>
                                 </panel>
-                                <p>Note how the class can use <code>PREFIX</code> and <code>format</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
-                              </box>
-                              <p><strong>The package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
-                              <box>
-                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
-                                <ul>
-                                  <li>the file should be in the location <code>&lt;source folder&gt;/seedu/tojava/</code></li>
-                                  <li>when it is compiled, the <code>Main.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/</code></li>
-                                </ul>
+                                <p>Note how the class can use <code>PREFIX</code> and <code>format()</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
                               </box>
                               <p><strong>When using the commandline to compile/run Java, you should take the package into account.</strong></p>
                               <box>
@@ -5634,7 +5628,7 @@ file exists?: true
 is Directory?: false
 </code></pre>
                               </box>
-                              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows Computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
+                              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
                               <p><strong>You can read from a file using a <code>Scanner</code> object that uses a <code>File</code> object as the <em>source</em> of data.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code uses a <code>Scanner</code> object to read (and print) contents of a text file line-by-line:</p>
@@ -5709,7 +5703,7 @@ second line
 }
 </code></pre>
                               </box>
-                              <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
+                              <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
@@ -5749,7 +5743,7 @@ second line
                               <p>An executable JAR file can be launched using the <code>java -jar</code> command.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
-                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can download the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
                               </box>
                               <p>The IDE can help you to package your application as a JAR file.</p>
                             </div>

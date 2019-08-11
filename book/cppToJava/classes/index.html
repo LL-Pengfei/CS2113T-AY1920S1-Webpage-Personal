@@ -50,7 +50,7 @@
                       <div>
                         <p>As you know,</p>
                         <ul>
-                          <li>Defining a class creates a new object type with the same name.</li>
+                          <li>Defining a class creates a new object type.</li>
                           <li>Every object belongs to some object type; that is, it is an instance of some class.</li>
                           <li>A class definition is like a template for objects: it specifies what attributes the objects have and what methods can operate on them.</li>
                           <li>The <code>new</code> operator instantiates objects, that is, it creates new instances of a class.</li>
@@ -66,8 +66,8 @@
 </code></pre>
                         </box>
                         <p>You can give a class any name you like. <strong>The Java convention is to use <tooltip content="e.g., `MyHelloWord` rather than `myHelloWorld` or `myhelloword` or `my_hello_world`">PascalCase</tooltip> format for class names</strong>.</p>
-                        <p>The code should be in a file whose name matches the class <span class="dimmed">e.g., the <code>Time</code> class should be in a file named <code>Time.java</code></span>.</p>
-                        <p>When a class is <code>public</code> <span class="dimmed">(e.g., the <code>Time</code> class in the above example)</span> it can be used in other classes. But the <tooltip content="Attributes are also called **instance variables**, because each instance has its own variables.">instance variables</tooltip> that are <code>private</code> <span class="dimmed">(e.g., the hour, <code>minute</code> and <code>second</code> attributes of the <code>Time</code> class)</span> can only be accessed from inside the <code>Time</code> class.</p>
+                        <p>The code is usually placed in a file whose name matches the class <span class="dimmed">e.g., the <code>Time</code> class should be in a file named <code>Time.java</code></span>.</p>
+                        <p>When a class is <code>public</code> <span class="dimmed">(e.g., the <code>Time</code> class in the above example)</span> it can be used in other classes. But the <tooltip content="Attributes are also called **instance variables**, because each instance has its own variables.">instance variables</tooltip> that are <code>private</code> <span class="dimmed">(e.g., the <code>hour</code>, <code>minute</code> and <code>second</code> attributes of the <code>Time</code> class)</span> can only be accessed from inside the <code>Time</code> class.</p>
                         <h5 id="constructos">Constructos<a class="fa fa-anchor" href="#constructos"></a></h5>
                         <div class="indented">
                           <p>The syntax for <tooltip content="special methods that construct the object and initialize the instance variables">constructors</tooltip> is similar to that of other methods, except:</p>
@@ -76,7 +76,7 @@
                             <li>The keyword <code>static</code> is omitted.</li>
                             <li>Do not return anything. A constructor returns the created object by default.</li>
                           </ul>
-                          <p>When you invoke <code>new</code>, Java creates the object and calls your constructor to initialize the instance variables. When the constructor is done, new returns a reference to the new object.</p>
+                          <p>When you invoke <code>new</code>, Java creates the object and calls your constructor to initialize the instance variables. When the constructor is done, it returns a reference to the new object.</p>
                           <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example constructor for the <code>Time</code> class:</p>
                             <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">()</span> </span>{
@@ -87,9 +87,9 @@
 </code></pre>
                             <p>This constructor does not take any arguments. Each line initializes an instance variable to zero (which in this example means midnight).
                               Now you can create <code>Time</code> objects.</p>
-                            <p><code>Time time = new Time();</code></p>
+                            <p><code class="hljs inline java">Time time = <span class="hljs-keyword">new</span> Time();</code></p>
                           </box>
-                          <p>Like other methods, constructors can be overloaded, which means you can provide multiple constructors with different parameters.</p>
+                          <p>Like other methods, constructors can be <tooltip content="i.e., you can provide multiple constructors with different parameters">overloaded</tooltip>.</p>
                           <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can add another constructor to the <code>Time</code> class to allow creating <code>Time</code> objects that are initialized to a specific time:</p>
                             <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Time</span><span class="hljs-params">(<span class="hljs-keyword">int</span> h, <span class="hljs-keyword">int</span> m, <span class="hljs-keyword">int</span> s)</span> </span>{
@@ -98,9 +98,8 @@
     second = s;
 }
 </code></pre>
-                            <p>Here's how you can invoke the new constructor:</p>
-                            <pre><code class="hljs java">Time justBeforeMidnight = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">11</span>, <span class="hljs-number">59</span>, <span class="hljs-number">59</span>);
-</code></pre>
+                            <p>Here's how you can invoke the new constructor:
+                              <code class="hljs inline java">Time justBeforeMidnight = <span class="hljs-keyword">new</span> Time(<span class="hljs-number">11</span>, <span class="hljs-number">59</span>, <span class="hljs-number">59</span>);</code></p>
                           </box>
                         </div>
                         <h5 id="this-keyword"><code>this</code> keyword<a class="fa fa-anchor" href="#this-keyword"></a></h5>
@@ -145,10 +144,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class">
+                                <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] define a `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-define-a-circle-class'></a>" expanded>
                                   <question>
                                     <p>Define a <code>Circle</code> class so that the code given below produces the given output. The nature of the class is a follows:</p>
                                     <ul>
@@ -168,9 +167,9 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                                         <ul>
                                           <li><strong><code>getArea()</code></strong>: <code>int</code><br>
                                             Returns the area of the circle as an <code>int</code> value (not <code>double</code>). Calculated as 2xPIx(radius)<sup>2</sup><br>
-                                            💡 You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
-                                            💡 You can use <code>Math.PI</code> to get the value of Pi<br>
-                                            💡 You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
+                                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
+                                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.PI</code> to get the value of Pi<br>
+                                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
                                         </ul>
                                       </li>
                                     </ul>
@@ -268,10 +267,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class">
+                                <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] add getters/setters to the `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-add-getters-setters-to-the-circle-class'></a>" expanded>
                                   <question>
                                     <p>Consider the <code>Circle</code> class below:</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -435,20 +434,20 @@ radius : 0.0
 </code></pre>
                           </box>
                         </div>
-                        <tip-box>
-                          <p>💡 Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
+                        <box>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
                           <ul>
                             <li><code>out</code> is a class-level public attribute of the <code>System</code> class.</li>
                             <li><code>println</code> is a instance level method of the <code>out</code> object.</li>
                           </ul>
-                        </tip-box>
+                        </box>
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
+                                <panel type="dark" header="###  <small><small><md>:glyphicon-exclamation-sign:</md> [Key Exercise] add getMaxRadius to the `Circle` class</small></small><a class='fa fa-anchor' href='#key-exercise-add-getmaxradius-to-the-circle-class'></a>" expanded>
                                   <question>
                                     <p>Consider the <code>Circle</code> class below:</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{

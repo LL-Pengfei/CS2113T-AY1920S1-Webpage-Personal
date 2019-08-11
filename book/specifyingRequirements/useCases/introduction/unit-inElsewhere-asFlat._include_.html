@@ -11,7 +11,7 @@
   <div id="main">
     <div>
       <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\introduction\text.md">
-        <tip-box type="definition">
+        <box type="definition">
           <div>
             <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\common\definitions.md">
               <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><span data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\common\references.md"><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></span></popover>]</p>
@@ -26,10 +26,12 @@
               </popover>
             </div>
           </div>
-        </tip-box>
-        <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
-        <tip-box>
-          <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
+        </box>
+        <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong>
+          <box></box>
+        </p>
+        <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
+          <div class="text-monospace">
             <ul>
               <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
                   ATM </popover>
@@ -47,8 +49,10 @@
                 </ol>
               </li>
             </ul>
-          </panel>
-          <panel header="%%<md>:fas-cube:</md> Example 2: 'upload file' use case of an LMS%%" type="seamless">
+          </div>
+        </panel>
+        <panel header="%%<md>:fas-cube:</md> Example 2: 'upload file' use case of an LMS%%" type="seamless">
+          <div class="text-monospace">
             <ul>
               <li>System: A Learning Management System (LMS)</li>
               <li>Actor: Student</li>
@@ -61,8 +65,9 @@
                 </ol>
               </li>
             </ul>
-          </panel>
-        </tip-box>
+          </div>
+        </panel>
+
         <p></p>
         <p><strong>
             <trigger for="modal:uml" trigger="click">UML</trigger> includes a diagram type called use case diagrams that can illustrate use cases of a system visually

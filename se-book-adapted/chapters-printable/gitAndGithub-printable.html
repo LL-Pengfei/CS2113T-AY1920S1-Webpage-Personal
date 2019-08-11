@@ -102,11 +102,11 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                 <div>
                   <p>Create an empty repo.</p>
                   <p>Create a file named <code>fruits.txt</code> in the working directory and add some dummy text to it.</p>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Working directory</strong>: The directory the repo is based in is called the <em>working directory</em>.</p>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>Observe how the file is detected by Git.</p>
                   <tabs>
                     <tab header="SourceTree">
@@ -136,16 +136,16 @@ nothing added to commit but untracked files present (use <span class="hljs-strin
                     </tab>
                   </tabs>
                   <p>Although git has detected the file in the working directory, it will not do anything with the file unless you tell it to. Suppose we want to commit the current state of the file. First, we should stage the file.</p>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Commit</strong>: Saving the current state of the working folder into the Git revision history.</p>
                     </div>
-                  </tip-box>
-                  <tip-box type="definition">
+                  </box>
+                  <box type="definition">
                     <div>
                       <p><strong>Stage</strong>: Instructing Git to prepare a file for committing.</p>
                     </div>
-                  </tip-box>
+                  </box>
                   <tabs>
                     <tab header="SourceTree">
                       <div>
@@ -220,7 +220,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                     </small></small></span><a class="fa fa-anchor" href="#ignore"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>Add a file names <code>temp.txt</code> to the <code>things</code> repo you created. Suppose we don’t want this file to be revision controlled by Git. Let’s instruct Git to ignore <code>temp.txt</code></p>
+                  <p>Add a file named <code>temp.txt</code> to the <code>things</code> repo you created. Suppose we don’t want this file to be revision controlled by Git. Let’s instruct Git to ignore <code>temp.txt</code></p>
                   <tabs>
                     <tab header="SourceTree">
                       <div>
@@ -261,6 +261,10 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                         <p>The added tag will appear in the revision graph view.</p>
                         <img src="/website/book/gitAndGithub/tag/images/sourcetree_1.png" height="70">
                         <p></p>
+                        <box type="warning">
+                          <p>Tags are not included in a normal push. Remember to tick <code>Push all tags</code> when pushing to the remote repo if you want them to be pushed to the repo.<br>
+                            <img src="/website/book/gitAndGithub/tag/images/pushTags.png" width="500"></p>
+                        </box>
                       </div>
                     </tab>
                     <tab header="CLI">
@@ -272,6 +276,15 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                         <pre><code class="hljs">git tag
 </code></pre>
                         <p>To learn how to add a tag to a past commit, go to the <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">‘Git Basics – Tagging’ page of the git-scm book</a> and refer the ‘Tagging Later’ section.</p>
+                        <box type="warning">
+                          <p>Remember to push tags to the repo. A normal push does not include tags.</p>
+                          <pre><code class="hljs"># push a specific tag
+git push origin v1.0b
+
+# push all tags
+git push origin --tags
+</code></pre>
+                        </box>
                       </div>
                     </tab>
                   </tabs>
@@ -419,12 +432,12 @@ index 15b57f7..17f4528 100644
               <div class="indented-less">
                 <div>
                   <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                  <tip-box type="error">
+                  <box type="error">
                     <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                       e.g.</p>
                     <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                       Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                  </tip-box>
+                  </box>
                   <tabs>
                     <tab header="SourceTree">
                       <div>
@@ -463,12 +476,12 @@ index 15b57f7..17f4528 100644
                         <p></p>
                         <div>
                           <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                          <tip-box type="error">
+                          <box type="error">
                             <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                               e.g.</p>
                             <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                               Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                          </tip-box>
+                          </box>
                           <tabs>
                             <tab header="SourceTree">
                               <div>
@@ -839,22 +852,22 @@ This repo can be used to practice creating PRs.
                   </ul>
                   <img src="/website/book/gitAndGithub/createPRs/images/selectBase.png" width="800">
                   <p></p>
-                  <tip-box type="info">
+                  <box type="info">
                     <p>The <em>base fork</em> is where changes should be applied. The <em>head fork</em> contains the changes you would like to be applied.</p>
-                  </tip-box>
+                  </box>
                   <p>4c. (1) Set the base branch to <code>master</code> and head branch to <code>add-intro</code>, (2) confirm the <em>diff</em> contains the changes you propose to merge in this PR <span class="dimmed">(i.e. confirm that you did not accidentally include extra commits in the branch)</span>, and (3) click the <code>Create pull request</code> button.</p>
                   <img src="/website/book/gitAndGithub/createPRs/images/checkDiff.png" width="800">
                   <p></p>
                   <p>4d. (1) Set PR name, (2) set PR description, and (3) Click the <code>Create pull request</code> button.</p>
                   <img src="/website/book/gitAndGithub/createPRs/images/setPrName.png" width="600">
                   <p></p>
-                  <tip-box type="important">
+                  <box type="important">
                     <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>5. In your local repo, create a new branch <code>add-summary</code></strong> off the <code>master</code> branch.</p>
-                  <tip-box type="warning">
+                  <box type="warning">
                     <p>When creating the new branch, it is very important that you switch back to the <code>master</code> branch first. If not, the new branch will be created off the current branch <code>add-intro</code>. And that is how you end up having commits of the first PR in the second PR as well.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>6. Add a commit in the <code>add-summary</code> branch</strong> that adds a <em>Summary</em> section to the <code>README.md</code>, in exactly the same place you added the <em>Introduction</em> section earlier.</p>
                   <img src="/website/book/gitAndGithub/createPRs/images/addSummaryBranch.png" width="400">
                   <p></p>
@@ -907,22 +920,22 @@ This repo can be used to practice creating PRs.
                         </ul>
                         <img src="/website/book/gitAndGithub/createPRs/images/selectBase.png" width="800">
                         <p></p>
-                        <tip-box type="info">
+                        <box type="info">
                           <p>The <em>base fork</em> is where changes should be applied. The <em>head fork</em> contains the changes you would like to be applied.</p>
-                        </tip-box>
+                        </box>
                         <p>4c. (1) Set the base branch to <code>master</code> and head branch to <code>add-intro</code>, (2) confirm the <em>diff</em> contains the changes you propose to merge in this PR <span class="dimmed">(i.e. confirm that you did not accidentally include extra commits in the branch)</span>, and (3) click the <code>Create pull request</code> button.</p>
                         <img src="/website/book/gitAndGithub/createPRs/images/checkDiff.png" width="800">
                         <p></p>
                         <p>4d. (1) Set PR name, (2) set PR description, and (3) Click the <code>Create pull request</code> button.</p>
                         <img src="/website/book/gitAndGithub/createPRs/images/setPrName.png" width="600">
                         <p></p>
-                        <tip-box type="important">
+                        <box type="important">
                           <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.</p>
-                        </tip-box>
+                        </box>
                         <p><strong>5. In your local repo, create a new branch <code>add-summary</code></strong> off the <code>master</code> branch.</p>
-                        <tip-box type="warning">
+                        <box type="warning">
                           <p>When creating the new branch, it is very important that you switch back to the <code>master</code> branch first. If not, the new branch will be created off the current branch <code>add-intro</code>. And that is how you end up having commits of the first PR in the second PR as well.</p>
-                        </tip-box>
+                        </box>
                         <p><strong>6. Add a commit in the <code>add-summary</code> branch</strong> that adds a <em>Summary</em> section to the <code>README.md</code>, in exactly the same place you added the <em>Introduction</em> section earlier.</p>
                         <img src="/website/book/gitAndGithub/createPRs/images/addSummaryBranch.png" width="400">
                         <p></p>
@@ -987,7 +1000,7 @@ git pull origin master
                       <p><strong>Each team member: create PRs via own fork</strong></p>
                       <ul>
                         <li><strong>Fork that repo</strong> from your team org to your own GitHub account.</li>
-                        <li><strong>Create a PR</strong> to add a file <code>yourName.md</code> <span class="dimmed"> (e.g. <code>jonhDoe.md</code>) </span> containing a brief resume of yourself <span class="dimmed"> (branch → commit → push → create PR)</span></li>
+                        <li><strong>Create a PR</strong> to add a file <code>yourName.md</code> <span class="dimmed">(e.g. <code>jonhDoe.md</code>) </span> containing a brief resume of yourself <span class="dimmed">(branch → commit → push → create PR)</span></li>
                       </ul>
                     </li>
                     <li>
@@ -1024,7 +1037,7 @@ git pull origin master
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -50,11 +50,11 @@
                       <div>
                         <p><strong>Software projects often involve <em>workflows</em>.</strong> Workflows define the <tooltip content="a connected sequence of steps"></tooltip>flow in which a process or a set of tasks is executed.
                           Understanding such workflows is important for the success of the software project.</p>
-                        <tip-box>
+                        <box>
                           <p>Some examples in which a certain workflow is relevant to software project:</p>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A software that automates the work of an insurance company needs to take into account the workflow of processing an insurance claim.</p>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The algorithm of a price of code represents the workflow (i.e. the execution flow) of the code.</p>
-                        </tip-box>
+                        </box>
                         <p>
                           <panel type="seamless" src="/website/book/uml/activityDiagrams/introduction/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Activity Diagrams → Introduction → What" alt="<md>:glyphicon-education:</md> UML/AD/Intro" fragment="main"></panel>
                         </p>
@@ -72,7 +72,7 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which sequences are not allowed?">
@@ -170,7 +170,7 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md> Explain Sequence Diagram about Machine">
@@ -259,7 +259,7 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s going on here?">
@@ -370,10 +370,10 @@
                       <p></p>
                       <div>
                         <p><strong>Use case diagrams model the mapping between features of a system and its user roles.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A simple use case diagram:</p>
                           <img src="/website/book/specifyingRequirements/useCases/introduction/images/ticketMachine.png" height="250">
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -393,12 +393,12 @@
                       <p></p>
                       <div>
                         <p><strong>A <em>timing diagram</em> focus on timing constraints.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example timing diagram:</p>
                           <img src="/website/book/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280">
                           <br>
                           <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -418,12 +418,12 @@
                       <p></p>
                       <div>
                         <p><strong>An <em>Interaction overview</em> diagrams is a combination of activity diagrams and sequence diagrams</strong>.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                           <img src="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420">
                           <p></p>
                           <p><sub>source:<a href="https://en.wikipedia.org/wiki/Interaction_overview_diagram">https://commons.wikimedia.org</a></sub></p>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -443,12 +443,12 @@
                       <p></p>
                       <div>
                         <p><strong>A <em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                           <img src="/website/book/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300">
                           <br>
                           <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -468,7 +468,7 @@
                       <p></p>
                       <div>
                         <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider how a CD player responds when the “eject CD” button is pushed:</p>
                           <ul>
                             <li>If the CD tray is already open, it does nothing.</li>
@@ -478,15 +478,15 @@
                             <li>If the CD tray is already in the process of closing (closed half-way), it waits until the CD tray is fully closed and opens it immediately afterwards.</li>
                           </ul>
                           <p>What this means is that the CD player’s response to pushing the “eject CD” button depends on what it was doing at the time of the event. More generally, the CD player’s response to the event received depends on its internal state. Such a behavior is called a <em>state-dependent behavior</em>.</p>
-                        </tip-box>
+                        </box>
                         <p>Often, state-dependent behavior displayed by an object in a system is simple enough that it needs no extra attention; such a behavior can be as simple as a <em>conditional</em> behavior like <code>if x&gt;y, then x=x-y</code>.
                           Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured into a separate model. Such state-dependent behavior can be modelled using UML <em>state machine diagrams</em> (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).</p>
                         <p>An SMD views the life-cycle of an object as consisting of a finite number of states where each state displays a unique behavior pattern. An SMD captures information such as the states an object can be in, during its lifetime, and how the object responds to various events while in each state and how the object transits from one state to another. In contrast to sequence diagrams that capture object behavior one scenario at a time, SMDs capture the object’s behavior over its full life cycle.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
                           <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
                           <p></p>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>

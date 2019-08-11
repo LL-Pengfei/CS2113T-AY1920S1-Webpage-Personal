@@ -44,7 +44,7 @@
                   <div>
                     <p><strong>Context</strong></p>
                     <p>An object (possibly, more than one) is interested to get notified when a change happens to another object. That is, some objects want to ‘observe’ another object.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
                       <img src="/website/book/designPatterns/observer/what/images/sequenceDiagram.png" height="330">
                       <p></p>
@@ -57,14 +57,14 @@
                       <img src="/website/book/designPatterns/observer/what/images/studentListUI.png" height="180">
                       <p></p>
                       <p>However, the <code>StudentList</code> object has no knowledge about <code>StudentListUi</code> and <code>StudentStatsUi</code> (note the direction of the navigability) and has no way to inform those objects. This is an example of the type of problem addressed by the Observer pattern.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Problem</strong></p>
                     <p>The ‘observed’ object does not want to be coupled to objects that are ‘observing’ it.</p>
                     <p><strong>Solution</strong></p>
                     <p>Force the communication through an interface known to both parties.</p>
                     <img src="/website/book/designPatterns/observer/what/images/studentListObserver.png" height="160">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the Observer pattern applied to the student management system.</p>
                       <p><strong>During the initialization of the system,</strong></p>
                       <ol>
@@ -113,7 +113,7 @@ studentList.addUi(statusUi);
                           <p>Note that <code>StudentList</code> is unaware of the exact nature of the two UIs but still manages to communicate with them via an intermediary.</p>
                         </li>
                       </ol>
-                    </tip-box>
+                    </box>
                     <p>Here is the generic description of the observer pattern:</p>
                     <img src="/website/book/designPatterns/observer/what/images/observableInterfaceDiagram.png" height="100">
                     <p></p>

@@ -40,17 +40,6 @@
         <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
-          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
-          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
-          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
-          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
-          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
-          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -66,10 +55,6 @@
           <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
           <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
           <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
           <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
           <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
@@ -229,13 +214,13 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain design patterns</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Design Pattern</strong> : An <em>elegant reusable solution</em> to a <em>commonly recurring problem</em> within a <em>given context</em> in software design.</p>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>In software development, there are certain problems that recur in a certain context.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of recurring design problems:</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
@@ -257,7 +242,7 @@
                         </tbody>
                       </table>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>After repeated attempts at solving such problems, better solutions are discovered and refined over time. These solutions are known as design patterns, <strong>a term popularized by the seminal book</strong> <a href="https://en.wikipedia.org/wiki/Design_Patterns"><strong><em>Design Patterns: Elements of Reusable Object-Oriented Software</em> by the so-called &quot;Gang of Four&quot; (GoF)</strong></a> written by Eric Gamma, Richard Helm, Ralph Johnson,and John Vlissides.</p>
                 </div>
                 <div>
@@ -347,14 +332,14 @@
                   <p><strong>Problem</strong></p>
                   <p>A normal class can be instantiated multiple times by invoking the constructor.</p>
                   <p><strong>Solution</strong></p>
-                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed"> because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
-                  <tip-box>
+                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed">because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
+                  <box>
                     <p>Example:</p>
                     <p>
                       <pic src="/website/book/designPatterns/singleton/what/images/singleton.png"></pic>
                     </p>
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div>
                   <div>
@@ -465,39 +450,39 @@
                 <div>
                   <p><strong>Context</strong></p>
                   <p>There is a group of similar entities that appears to be ‘occurrences’ (or ‘copies’) of the same thing, sharing lots of common information, but also differing in significant ways.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In a library, there can be multiple copies of same book title. Each copy shares common information such as book title, author, ISBN etc. However, there are also significant differences like purchase date and barcode number (assumed to be unique for each copy of the book).</p>
                     <p>Other examples:</p>
                     <ul>
                       <li>Episodes of the same TV series</li>
                       <li>Stock items of the same product model (e.g. TV sets of the same model).</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>Problem</strong></p>
                   <p>Representing the objects mentioned previously as a single class would be problematic because it results in duplication of data which can lead to inconsistencies in data (if some of the duplicates are not updated consistently).</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Take for example the problem of representing books in a library. Assume that there could be multiple copies of the same title, bearing the same ISBN number, but different serial numbers.</p>
                     <img src="/website/book/designPatterns/abstractionOccurrence/what/images/book.png" height="200">
                     <p></p>
                     <p>The above solution requires common information to be duplicated by all instances. This will not only waste storage space, but also creates a consistency problem. Suppose that after creating several copies of the same title, the librarian realized that the author name was wrongly spelt. To correct this mistake, the system needs to go through every copy of the same title to make the correction. Also, if a new copy of the title is added later on, the librarian (or the system) has to make sure that all information entered is the same as the existing copies to avoid inconsistency.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Anti-pattern</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Refer to the same Library example given above.</p>
                     <img src="/website/book/designPatterns/abstractionOccurrence/what/images/bookFriends.png" height="240">
                     <p></p>
                     <p>The design above segregates the common and unique information into a class hierarchy. Each book title is represented by a separate class with common data (i.e. Name, Author, ISBN) hard-coded in the class itself. This solution is problematic because each book title is represented as a class, resulting in thousands of classes (one for each title). Every time the library buys new books, the source code of the system will have to be updated with new classes.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Solution</strong></p>
                   <p>Let a copy of an entity (e.g. a copy of a book)be represented by two objects instead of one, separating the common and unique information into two classes to avoid duplication.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is how the pattern is applied to the Library example:</p>
                     <img src="/website/book/designPatterns/abstractionOccurrence/what/images/bookTitleBookCopy.png" height="260">
                     <p></p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's a more generic example:</p>
                     <img src="/website/book/designPatterns/abstractionOccurrence/what/images/beforeAfter.png" height="370">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>The general solution:</p>
                   <img src="/website/book/designPatterns/abstractionOccurrence/what/images/abstractionOccurrence.png" height="40">
                   <p></p>
@@ -574,20 +559,20 @@
                 <div>
                   <p><strong>Context</strong></p>
                   <p>Components need to access functionality deep inside other components.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>UI</code> component of a <code>Library</code> system might want to access functionality of the <code>Book</code> class contained inside the <code>Logic</code> component.</p>
                     <img src="/website/book/designPatterns/facade/what/images/textBook.png" height="120">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p><strong>Problem</strong></p>
-                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed"> e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
+                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed">e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>Include a <tooltip content="a French word that means 'front of a building'">Façade</tooltip> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following class diagram applies the Façade pattern to the <code>Library System</code> example. The <code>LibraryLogic</code> class is the Facade class.</p>
                     <img src="/website/book/designPatterns/facade/what/images/textLibraryBook.png" height="120">
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div>
                   <div>
@@ -633,15 +618,15 @@
                   <p><strong>Context</strong></p>
                   <p>A system is required to execute a number of commands, each doing a different task. For example, a system might have to support <code>Sort</code>, <code>List</code>, <code>Reset</code> commands.</p>
                   <p><strong>Problem</strong></p>
-                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed"> e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
+                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed">e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>The essential element of this pattern is to have a general <code>&lt;&lt;Command&gt;&gt;</code> object that can be passed around, stored, executed, etc without knowing the type of command (i.e. via polymorphism).</p>
                   <p>Let us examine an example application of the pattern first:</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example solution below, the <code>CommandCreator</code> creates <code>List</code>, <code>Sort</code>, and <code>Reset Command</code> objects and adds them to the <code>CommandQueue</code> object. The <code>CommandQueue</code> object treats them all as <code>Command</code> objects and performs the execute/undo operation on each of them without knowledge of the specific <code>Command</code> type. When executed, each <code>Command</code> object will access the <code>DataStore</code> object to carry out its task. The <code>Command</code> class can also be an abstract class or an interface.</p>
                     <img src="/website/book/designPatterns/command/what/images/commandCreator.png" height="150">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>The general form of the solution is as follows.</p>
                   <img src="/website/book/designPatterns/command/what/images/clientInvoker.png" height="200">
                   <p></p>
@@ -680,12 +665,12 @@
                   <p>The relationship between the components can be observed in the diagram below. Typically, the UI is the combination of view and controller.</p>
                   <img src="/website/book/designPatterns/modelViewController/what/images/classDiagram.png" width="400">
                   <p></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is a concrete example of MVC applied to a student management system. In this scenario, the user is retrieving data of one student.</p>
                     <img src="/website/book/designPatterns/modelViewController/what/images/sequenceDiagram.png" width="500">
                     <p></p>
                     <p>In the diagram above, when the user clicks on a button using the UI, the ‘click’ event is caught and handled by the <code>UiController</code>. The <code>ref</code> frame indicates that the interactions within that frame have been extracted out to another separate sequence diagram.</p>
-                  </tip-box>
+                  </box>
                   <p>Note that in a simple UI where there’s only one view, Controller and View can be combined as one class.</p>
                   <p>There are many variations of the MVC model used in different domains. For example, the one used in a desktop GUI could be different from the one used in a Web application.</p>
                 </div>
@@ -710,7 +695,7 @@
                 <div>
                   <p><strong>Context</strong></p>
                   <p>An object (possibly, more than one) is interested to get notified when a change happens to another object. That is, some objects want to ‘observe’ another object.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
                     <img src="/website/book/designPatterns/observer/what/images/sequenceDiagram.png" height="330">
                     <p></p>
@@ -723,14 +708,14 @@
                     <img src="/website/book/designPatterns/observer/what/images/studentListUI.png" height="180">
                     <p></p>
                     <p>However, the <code>StudentList</code> object has no knowledge about <code>StudentListUi</code> and <code>StudentStatsUi</code> (note the direction of the navigability) and has no way to inform those objects. This is an example of the type of problem addressed by the Observer pattern.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Problem</strong></p>
                   <p>The ‘observed’ object does not want to be coupled to objects that are ‘observing’ it.</p>
                   <p><strong>Solution</strong></p>
                   <p>Force the communication through an interface known to both parties.</p>
                   <img src="/website/book/designPatterns/observer/what/images/studentListObserver.png" height="160">
                   <p></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the Observer pattern applied to the student management system.</p>
                     <p><strong>During the initialization of the system,</strong></p>
                     <ol>
@@ -779,7 +764,7 @@ studentList.addUi(statusUi);
                         <p>Note that <code>StudentList</code> is unaware of the exact nature of the two UIs but still manages to communicate with them via an intermediary.</p>
                       </li>
                     </ol>
-                  </tip-box>
+                  </box>
                   <p>Here is the generic description of the observer pattern:</p>
                   <img src="/website/book/designPatterns/observer/what/images/observableInterfaceDiagram.png" height="100">
                   <p></p>
@@ -847,7 +832,7 @@ studentList.addUi(statusUi);
                 <p></p>
                 <div>
                   <p><strong>Design patterns are usually embedded in a larger design and sometimes applied in combination with other design patterns.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let us look at a case study that shows how design patterns are used in the design of a class structure for a Stock Inventory System (SIS) for a shop. The shop sells appliances, and accessories for the appliances. SIS simply stores information about each item in the store.</p>
                     <p><strong>Use Cases</strong>:</p>
                     <ul>
@@ -884,7 +869,7 @@ studentList.addUi(statusUi);
                     <img src="/website/book/designPatterns/more/combiningDesignPatterns/images/withObserver.png" height="270">
                     <p></p>
                     <p>In addition, the Singleton pattern can be applied to the façade class.</p>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -930,11 +915,11 @@ studentList.addUi(statusUi);
                 <p></p>
                 <div>
                   <p><strong>Design pattern provides a high-level vocabulary to talk about design.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Someone can say 'apply Observer pattern here' instead of having to describe the mechanics of the solution in detail.</p>
-                  </tip-box>
-                  <p><strong>Knowing more patterns is a way to become more ‘experienced’.</strong> Aim to learn at least the context and the problem of patterns <span class="dimmed"> so that when you encounter those problems you know where to look for a solution</span>.</p>
-                  <p><strong>Some patterns are domain-specific</strong> <span class="dimmed"> e.g. patterns for distributed applications</span>, <strong>some are created in-house</strong> <span class="dimmed"> e.g. patterns in the company/project</span> and <strong>some can be self-created</strong> <span class="dimmed"> e.g. from past experience</span>.</p>
+                  </box>
+                  <p><strong>Knowing more patterns is a way to become more ‘experienced’.</strong> Aim to learn at least the context and the problem of patterns <span class="dimmed">so that when you encounter those problems you know where to look for a solution</span>.</p>
+                  <p><strong>Some patterns are domain-specific</strong> <span class="dimmed">e.g. patterns for distributed applications</span>, <strong>some are created in-house</strong> <span class="dimmed">e.g. patterns in the company/project</span> and <strong>some can be self-created</strong> <span class="dimmed">e.g. from past experience</span>.</p>
                   <p><strong>Be careful not to overuse patterns.</strong> Do not throw patterns at a problem at every opportunity. Patterns come with overhead such as adding more classes or increasing the levels of abstraction. Use them only when they are needed. Before applying a pattern, make sure that:</p>
                   <ul>
                     <li>there is substantial improvement in the design, not just superficial.</li>
@@ -1040,7 +1025,7 @@ studentList.addUi(statusUi);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

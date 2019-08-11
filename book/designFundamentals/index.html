@@ -55,25 +55,25 @@
                             <p></p>
                             <p></p>
                             <div>
-                              <tip-box type="definition">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                                 </div>
-                              </tip-box>
+                              </box>
                               <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                              <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                              <tip-box>
+                              <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                              </tip-box>
-                              <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                              <tip-box>
+                              </box>
+                              <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                              </tip-box>
+                              </box>
                               <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -118,11 +118,11 @@
                                 <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
                                 <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
                               </ul>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
                                 <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                                 <p></p>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>
@@ -131,10 +131,10 @@
                                     <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
                                       <question has-input="true">
                                         <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
-                                        <tip-box>
+                                        <box>
                                           <img src="/website/book/designFundamentals/coupling/what/images/alternativeDesigns.png" height="180">
                                           <p></p>
-                                        </tip-box>
+                                        </box>
                                         <div slot="answer">
                                           <p>Overall coupling levels in <em>x</em> and <em>y</em> seem to be similar (neither has more dependencies than the other). (Note that the number of dependency links is not a definitive measure of the level of coupling. Some links may be stronger than the others.). However, in <em>x</em>, <code>A</code> is highly-coupled to the rest of the system while <code>B</code>, <code>C</code>, <code>D</code>, and <code>E</code> are standalone (do not depend on anything else). In <em>y</em>, no component is as highly-coupled as <code>A</code> of <em>x</em>. However, only <code>D</code> and <code>E</code> are standalone.</p>
                                         </div>
@@ -146,7 +146,7 @@
                                       <question has-input="true">
                                         <p>Explain the link (if any) between regressions and coupling.</p>
                                         <div slot="answer">
-                                          <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed"> e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
+                                          <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed">e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
                                         </div>
                                       </question>
                                     </panel>
@@ -199,8 +199,8 @@
                             <p></p>
                             <div>
                               <p><strong>X is <em>coupled</em> to Y if a change to Y can <mark>potentially</mark> require a change in X</strong>.</p>
-                              <tip-box>
-                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
+                              <box>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed">e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
                                 <panel type="seamless" header="%%code for the above example%%">
                                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
@@ -219,8 +219,8 @@
 }
 </code></pre>
                                 </panel>
-                              </tip-box>
-                              <tip-box>
+                              </box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of coupling: <code>A</code> is coupled to <code>B</code> if,</p>
                                 <ul>
                                   <li><code>A</code> has access to the internal structure of <code>B</code> (this results in a very high level of coupling)</li>
@@ -230,7 +230,7 @@
                                   <li><code>A</code> inherits from <code>B</code></li>
                                   <li><code>A</code> and <code>B</code> are required to follow the same data format or communication protocol</li>
                                 </ul>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>
@@ -275,13 +275,13 @@
                             <div>
                               <p>Some examples of different coupling types:</p>
                               <ul>
-                                <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed"> e.g., accessing local data of another module</span></li>
+                                <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed">e.g., accessing local data of another module</span></li>
                                 <li><strong>Common/Global coupling</strong>: two modules share the same global data</li>
-                                <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed"> e.g., passing a flag</span></li>
-                                <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed"> e.g. via passing parameters</span></li>
-                                <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed"> e.g., data formats, communication protocols, device interfaces</span>.</li>
+                                <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed">e.g., passing a flag</span></li>
+                                <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed">e.g. via passing parameters</span></li>
+                                <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed">e.g., data formats, communication protocols, device interfaces</span>.</li>
                                 <li><strong>Subclass coupling</strong>: a class inherits from another class. Note that a child class is coupled to the parent class but not the other way around.</li>
-                                <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed"> e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
+                                <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed">e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
                               </ul>
                             </div>
                             <div></div>
@@ -316,7 +316,7 @@
                               <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
                               <ul>
                                 <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
-                                <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                                <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed">(reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed">(reason: because the code realated to that change is not localized to a single module)</span>.</li>
                                 <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
                               </ul>
                             </div>
@@ -343,9 +343,9 @@
                                 <li>Code that is invoked close together in time is kept together, e.g. all code related to initializing the system is kept together.</li>
                                 <li>Code that manipulates the same data structure is kept together, e.g. the <code>GameArchive</code> component handles everything related to the storage and retrieval of game sessions.</li>
                               </ul>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
-                              </tip-box>
+                              </box>
                             </div>
                             <div>
                               <div>

@@ -115,26 +115,26 @@ Invalid command format: add
 </code></pre>
                             <ul>
                               <li>
-                                <p>💡 The way to run a CLI program differs based on the language.<br>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The way to run a CLI program differs based on the language.<br>
                                   e.g., In Python, assuming the code is in <code>AddressBook.py</code> file, use the command<br>
                                   <code>python AddressBook.py &lt; input.txt &gt; output.txt</code></p>
                               </li>
                               <li>
-                                <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                               </li>
                             </ul>
                             <panel header minimized>
-                              <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
+                              <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                               <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                               <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
                               <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                                 <ul>
                                   <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
                                 </ul>
-                              </tip-box>
+                              </box>
                               <p></p>
                             </panel>
                             <p></p>
@@ -174,7 +174,7 @@ Invalid command format: add
                       <p></p>
                       <div>
                         <p><strong>A test driver is the code that ‘drives’ the <tooltip content="Software Under Test">SUT</tooltip> for the purpose of testing</strong> i.e. invoking the SUT with test inputs and verifying the behavior is as expected.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>PayrollTest</code> ‘drives’ the <code>PayRoll</code> class by sending it test inputs and verifies if the output is as expected.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PayrollTestDriver</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
@@ -201,7 +201,7 @@ Invalid command format: add
     }
 }
 </code></pre>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -221,7 +221,7 @@ Invalid command format: add
                       <p></p>
                       <div>
                         <p><strong>JUnit is a tool for automated testing of Java programs.</strong> Similar tools are available for other languages and for automating different types of testing.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This an automated test for a <code>Payroll</code> class, written using JUnit libraries.</p>
                           <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testTotalSalary</span><span class="hljs-params">()</span></span>{
@@ -238,7 +238,7 @@ Invalid command format: add
     <span class="hljs-comment">//more tests...</span>
 }
 </code></pre>
-                        </tip-box>
+                        </box>
                         <p>Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.</p>
                         <img src="/website/book/testing/testAutomation/tools/images/junit.png" height="190">
                         <p></p>
@@ -268,9 +268,9 @@ Invalid command format: add
                         </ul>
                         <img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
                         <p></p>
-                        <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
+                        <p><strong>Moving as much logic as possible out of the GUI can make the GUI testing easier.</strong> That way, you can bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested, the number of such test cases can be reduced as most of the system has been tested using automated API testing.</p>
                         <p><strong>There are testing tools that can automate GUI testing.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some tools used for automated GUI testing:</p>
                           <ul>
                             <li>
@@ -287,7 +287,7 @@ Invalid command format: add
                               </panel>
                             </li>
                           </ul>
-                        </tip-box>
+                        </box>
                       </div>
                       <div>
                         <div>

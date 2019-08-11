@@ -43,7 +43,7 @@
                 <div id="main">
                   <div>
                     <p>Given below are some basic strategies for generating a set of test cases by combining multiple test input combination strategies.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
                       <p>SUT: <code>foo(p1 char, p2 int, p3 boolean)</code></p>
                       <p>Values to test:</p>
@@ -71,9 +71,9 @@
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>all combinations</em> strategy generates test cases for each unique combination of test inputs.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> the strategy generates 3x3x2=18 test cases</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -119,9 +119,9 @@
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>at least once</em> strategy includes each test input at least once.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 3 test cases.</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -156,9 +156,9 @@
                         </table>
                       </div>
                       <p>VV/IV = Any Valid Value / Any Invalid Value</p>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>all pairs</em> strategy creates test cases so that for any given pair of inputs, all combinations between them are tested.</strong> It is based on the observations that a bug is rarely the result of more than two interacting factors. The resulting number of test cases is lower than the <em>all combinations</em> strategy, but higher than the <em>at least once</em> approach.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 9 test cases:</p>
                       <panel type="seamless" header="see steps">
                         <p>Let's first consider inputs p1 and p2:</p>
@@ -276,9 +276,9 @@
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>A variation of this strategy is to test all pairs of inputs but only for inputs that could influence each other.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -330,7 +330,7 @@
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>random</em> strategy generates test cases using one of the other strategies and then pick a subset randomly</strong> (presumably because the original set of test cases is too big).</p>
                     <p><strong>There are other strategies that can be used too.</strong></p>
                   </div>

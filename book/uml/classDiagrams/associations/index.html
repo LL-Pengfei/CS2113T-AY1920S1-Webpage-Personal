@@ -51,10 +51,10 @@
                         <p>We use a solid line to show an association between two classes.</p>
                         <img src="/website/book/uml/classDiagrams/associations/what/images/notation.png" width="300">
                         <p></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example shows an association between the <code>Admin</code> class and the <code>Student</code> class:<br>
                             <img src="/website/book/uml/classDiagrams/associations/what/images/example.png" width="300"></p>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -74,7 +74,7 @@
                       <p></p>
                       <div>
                         <p><strong>We use arrow heads to indication the navigability of an association.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Logic</code> is aware of <code>Minefield</code>, but <code>Minefield</code> is not aware of <code>Logic</code></p>
                           <img src="/website/book/uml/classDiagrams/associations/navigability/images/logicMinefield.png" height="40">
                           <div>
@@ -106,12 +106,12 @@
                           <p></p>
                           <img src="/website/book/uml/classDiagrams/associations/navigability/images/manDog.png" height="40">
                           <p></p>
-                        </tip-box>
+                        </box>
                         <p><strong>Navigability can be shown in class diagrams as well as object diagrams</strong>.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> According to this object diagram the given <code>Logic</code> object is associated with and aware of two <code>MineField</code> objects.</p>
                           <img src="/website/book/uml/classDiagrams/associations/navigability/images/logicMinefieldObjects.png" height="80">
-                        </tip-box>
+                        </box>
                       </div>
                       <div>
                         <div>
@@ -154,7 +154,7 @@
                       <div>
                         <p><strong><em>Association Role</em> labels are used to indicate the role played by the classes in the association.</strong></p>
                         <img src="/website/book/uml/classDiagrams/associations/roles/images/notation.png" height="60">
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This association represents a marriage between a <code>Man</code> object and a <code>Woman</code> object. The respective roles played by objects of these two classes are <code>husband</code> and <code>wife</code>.</p>
                           <img src="/website/book/uml/classDiagrams/associations/roles/images/husbandWife.png" width="300">
                           <p></p>
@@ -186,8 +186,8 @@
                               </td>
                             </tr>
                           </table>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The role of <code>Student</code> objects in this association is <code>charges</code> <span class="dimmed">(i.e. Admin is in charge of students)</span></p>
                           <img src="/website/book/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70">
                           <p></p>
@@ -210,7 +210,7 @@
                               </td>
                             </tr>
                           </table>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -231,7 +231,7 @@
                       <div>
                         <p><strong><em>Association labels</em> describe the meaning of the association.</strong> The arrow head indicates the direction in which the label is to be read.</p>
                         <img src="/website/book/uml/classDiagrams/associations/labels/images/notation.png" width="400">
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, the same association is described using two different labels.</p>
                           <img src="/website/book/uml/classDiagrams/associations/labels/images/adminStudent.png" width="600">
                           <p></p>
@@ -239,7 +239,7 @@
                             <li>Diagram on the left: <code>Admin</code> class is associated with <code>Student</code> class because an <code>Admin</code> object <em>uses</em> a <code>Student</code> object.</li>
                             <li>Diagram on the right: <code>Admin</code> class is associated with <code>Student</code> class because a <code>Student</code> object is <em>used by</em> an <code>Admin</code> object.</li>
                           </ul>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -267,11 +267,11 @@
                           <li><code>*</code> : can be linked to 0 or more objects.</li>
                           <li><code>n..m</code> : the number of linked objects must be <code>n</code> to <code>m</code> inclusive</li>
                         </ul>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the diagram below, an <code>Admin</code> object administers (in charge of) any number of students but a <code>Student</code> object must always be under the charge of exactly one <code>Admin</code> object</p>
                           <img src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminStudent.png" width="300">
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the diagram below,</p>
                           <ul>
                             <li>Each student must be supervised by exactly one professor. i.e. There cannot be a student who doesn't have a supervisor or has multiple supervisors.</li>
@@ -280,7 +280,7 @@
                             <li>A professor/student can be handled by any number of admins, including none.</li>
                           </ul>
                           <img src="/website/book/uml/classDiagrams/associations/multiplicity/images/adminProfessorStudent.png" height="70">
-                        </tip-box>
+                        </box>
                       </div>
                       <div>
                         <div>

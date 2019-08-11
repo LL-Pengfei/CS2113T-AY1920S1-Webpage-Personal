@@ -52,7 +52,7 @@
                           <p>Programs should be written and polished until they acquire publication quality. <sub>--<a href="https://en.wikipedia.org/wiki/Niklaus_Wirth">Niklaus Wirth</a></sub></p>
                         </blockquote>
                         <p><strong>Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is understandability.</strong> This is because in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if we do not intend to pass the code to someone else, code quality is still important because we all become 'strangers' to our own code someday.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The two code samples given below achieve the same functionality, but one is easier to read.</p>
                           <div class="alt-java">
                             <div>
@@ -147,7 +147,7 @@
                               </table>
                             </div>
                           </div>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>
@@ -316,7 +316,7 @@
                               <p>Avoid complicated expressions, especially those having many negations and nested parentheses. If you must evaluate complicated expressions, have it done in steps (i.e. calculate some intermediate values first and use them to calculate the final value).</p>
                               <div class="alt-java">
                                 <div>
-                                  <tip-box>
+                                  <box>
                                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                     <p>
                                       <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -335,12 +335,12 @@
 
 <span class="hljs-keyword">return</span> isValidCode &amp;&amp; isUrgent;
 </code></pre>
-                                  </tip-box>
+                                  </box>
                                 </div>
                               </div>
                               <div class="alt-python">
                                 <div>
-                                  <tip-box>
+                                  <box>
                                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                     <p>
                                       <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -358,7 +358,7 @@ is_urgent = type_code == URGENT
 
 <span class="hljs-keyword">return</span> is_valid_code <span class="hljs-keyword">and</span> is_urgent
 </code></pre>
-                                  </tip-box>
+                                  </box>
                                 </div>
                               </div>
                               <blockquote>
@@ -382,8 +382,8 @@ is_urgent = type_code == URGENT
                             <p></p>
                             <p></p>
                             <div>
-                              <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
-                              <tip-box>
+                              <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                 <div class="alt-java">
                                   <div>
@@ -446,15 +446,16 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                     </table>
                                   </div>
                                 </div>
-                              </tip-box>
+                              </box>
                               <p>Similarly, we can have ‘magic’ values of other data types.</p>
-                              <tip-box>
+                              <box>
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
                                 <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
-                              </tip-box>
+                              </box>
+                              <p>In general, try to avoid any magic literals.</p>
                             </div>
                             <div></div>
                           </div>
@@ -616,10 +617,10 @@ MAX_SIZE = <span class="hljs-number">10</span>
                             <div>
                               <p>Avoid varying the level of <trigger trigger="click" for="modal:slap-abstraction">abstraction</trigger> within a code fragment.
                                 Note: The <em>Productive Programmer</em> (by Neal Ford) calls this the <em>SLAP principle</em> i.e. Single Level of Abstraction Per method.</p>
-                              <tip-box>
+                              <box>
                                 <p>Example:</p>
                                 <p>
-                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> (<code>readData();</code> and <code>salary = basic*rise+1000;</code> are at different levels of abstraction)
                                 </p>
                                 <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -627,13 +628,13 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                                 <p>
-                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> (all statements are at the same level of abstraction)
                                 </p>
                                 <pre><code class="hljs java">readData();
 processData();
 displayResult();
 </code></pre>
-                              </tip-box>
+                              </box>
                               <modal title id="modal:slap-abstraction">
                                 <div>
                                   <div></div>
@@ -646,25 +647,25 @@ displayResult();
                                     </div>
                                     <div id="main">
                                       <div>
-                                        <tip-box type="definition">
+                                        <box type="definition">
                                           <div>
                                             <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                                           </div>
-                                        </tip-box>
+                                        </box>
                                         <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
-                                        <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
-                                        <tip-box>
+                                        <p><strong><mark><em>Data abstraction</em></mark>: abstracting away the lower level data items and thinking in terms of bigger entities</strong></p>
+                                        <box>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
-                                        </tip-box>
-                                        <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
-                                        <tip-box>
+                                        </box>
+                                        <p><strong><mark><em>Control abstraction</em></mark>: abstracting away details of the actual control flow to focus on tasks at a higher level</strong></p>
+                                        <box>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
-                                        </tip-box>
+                                        </box>
                                         <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
-                                        <tip-box>
+                                        <box>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
-                                        </tip-box>
+                                        </box>
                                         <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                                         <box>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
@@ -710,7 +711,7 @@ displayResult();
                             <p></p>
                             <div>
                               <p>The happy path (i.e. the execution path taken when everything goes well) should be clear and prominent in your code. Restructure the code to make the happy path unindented as much as possible. It is the ‘unusual’ cases that should be indented. Someone reading the code should not get distracted by alternative paths taken when error conditions happen. One technique that could help in this regard is the use of <a href="http://wiki.c2.com/?GuardClause">guard clauses</a>.</p>
-                              <tip-box>
+                              <box>
                                 <p>Example:</p>
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
@@ -756,7 +757,7 @@ exit();
                                   <li>deals with unusual conditions as soon as they are detected so that the reader doesn't have to remember them for long.</li>
                                   <li>keeps the main path un-indented.</li>
                                 </ul>
-                              </tip-box>
+                              </box>
                             </div>
                             <div></div>
                           </div>

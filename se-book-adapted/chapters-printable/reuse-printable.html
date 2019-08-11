@@ -84,11 +84,11 @@
               <div class="indented-less">
                 <div>
                   <p><strong>An <em>Application Programming Interface (API)</em> specifies the interface through which other programs can interact with a software component.</strong> It is a contract between the component and its clients.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class has an API (e.g., <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html">API of the Java <code>String</code> class</a>, <a href="https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str">API of the Python <code>str</code> class</a>) which is a collection of public methods that you can invoke to make use of the class.</p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <a href="https://developer.github.com/v3/">GitHub API</a> is a collection of Web request formats GitHub server accepts and the corresponding responses. We can write a program that interacts with GitHub through that API.</p>
-                  </tip-box>
-                  <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed"> because the future behavior of the other components are now more predictable</span>.</p>
+                  </box>
+                  <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed">because the future behavior of the other components are now more predictable</span>.</p>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
               <div class="indented-less">
                 <div>
                   <p>A library is a collection of modular code that is general and can be used by other programs.</p>
-                  <tip-box>
+                  <box>
                     <div class="alt-java">
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java classes you get with the JDK (such as <code>String</code>, <code>ArrayList</code>, <code>HashMap</code>, etc.) are library classes that are provided in the default Java distribution.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://github.com/joestelmach/natty">Natty</a> is a Java library that can be used for parsing strings that represent dates e.g. <code>The 31st of April in the year 2008</code></p>
@@ -115,7 +115,7 @@
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> built-in modules you get with Python (such as <code>csv</code>, <code>random</code>, <code>sys</code>, etc.) are libraries that are provided in the default Python distribution. Classes such as <code>list</code>, <code>str</code>, <code>dict</code> are built-in library classes that you get with Python.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://pypi.python.org/pypi/colorama">Colorama</a> is a Python library that can be used for colorizing text in a CLI.</p>
                     </div>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -149,36 +149,36 @@
               <div class="indented-less">
                 <div>
                   <p><strong>The overall structure and execution flow of a specific category of software systems can be very similar. The similarity is an opportunity to reuse at a high scale.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                     <p>IDEs for different programming languages are similar in how they support editing code, organizing project files, debugging, etc.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>A <em>software framework</em> is a reusable implementation of a software (or part thereof) providing <em>generic</em> functionality that can be selectively customized to produce a <em>specific</em> application.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                     <p>Eclipse is an IDE framework that can be used to create IDEs for different programming languages.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Some frameworks provide a complete implementation of a <em>default</em> behavior which makes them immediately usable.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                     <p>Eclipse is a fully functional Java IDE out-of-the-box.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>A framework facilitates the adaptation and customization of some desired functionality.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                     <p>Eclipse plugin system can be used to create an IDE for different programming languages while reusing most of the existing IDE features of Eclipse. E.g. <a href="https://marketplace.eclipse.org/content/pydev-python-ide-eclipse">https://marketplace.eclipse.org/content/pydev-python-ide-eclipse</a></p>
-                  </tip-box>
+                  </box>
                   <p>Some frameworks cover only a specific components or an aspect.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaFx a framework for creating Java GUIs. TkInter is a GUI framework for Python.</p>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples of frameworks</p>
                     <ul>
                       <li>Frameworks for Web-based applications: Drupal(PHP), Django(Python), Ruby on Rails (Ruby), Spring (Java)</li>
                       <li>Frameworks for testing: JUnit (Java), unittest (Python), Jest (Java Script)</li>
                     </ul>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -192,11 +192,11 @@
                   <ul>
                     <li>
                       <p><strong>Libraries are meant to be used ‘as is’ while frameworks are meant to be customized/extended.</strong>
-                        <span class="dimmed"> e.g., writing plugins for Eclipse so that it can be used as an IDE for different languages (C++, PHP, etc.), adding modules and themes to Drupal, and adding test cases to JUnit</span>.</p>
+                        <span class="dimmed">e.g., writing plugins for Eclipse so that it can be used as an IDE for different languages (C++, PHP, etc.), adding modules and themes to Drupal, and adding test cases to JUnit</span>.</p>
                     </li>
                     <li>
                       <p><strong>Your code calls the library code while the framework code calls your code.</strong>
-                        <strong>Frameworks use a technique called <em>inversion of control</em>, aka the “Hollywood principle”</strong> (i.e. don’t call us, we’ll call you!). That is, you write code that will be called by the framework, <span class="dimmed"> e.g. writing test methods that will be called by the JUnit framework.</span> In the case of libraries, your code calls libraries.</p>
+                        <strong>Frameworks use a technique called <em>inversion of control</em>, aka the “Hollywood principle”</strong> (i.e. don’t call us, we’ll call you!). That is, you write code that will be called by the framework, <span class="dimmed">e.g. writing test methods that will be called by the JUnit framework.</span> In the case of libraries, your code calls libraries.</p>
                     </li>
                   </ul>
                 </div>
@@ -216,16 +216,16 @@
               <div class="indented-less">
                 <div>
                   <p><strong>A <em>platform</em> provides a runtime environment for applications.</strong> A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Technically, an operating system can be called a platform. For example, Windows PC is a platform for desktop applications while iOS is a platform for mobile apps.</p>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <strong>Two well-known examples of platforms are JavaEE and .NET</strong>, both of which sit above Operating systems layer, and are used to develop <trigger for="modal:enterprise-application" trigger="click">enterprise applications</trigger>. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging etc. are done similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</p>
                     <ul>
                       <li>JavaEE (Java Enterprise Edition) is both a framework and a platform for writing enterprise applications. The runtime used by the JavaEE applications is the JVM (Java Virtual Machine) that can run on different Operating Systems.</li>
                       <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <modal title="**Enterprise Applications**" id="modal:enterprise-application">
                     <div>
                       <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
@@ -240,7 +240,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

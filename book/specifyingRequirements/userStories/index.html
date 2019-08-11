@@ -48,25 +48,27 @@
                       <p></p>
                       <p></p>
                       <div>
-                        <tip-box type="definition">
+                        <box type="definition">
                           <div>
                             <p><strong>User story</strong>: User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. <sub>[<a href="https://www.mountaingoatsoftware.com/agile/user-stories">Mike Cohn</a>]</sub></p>
                           </div>
-                        </tip-box>
+                        </box>
                         <p><strong>A common format</strong> for writing user stories is:</p>
-                        <tip-box type="definition">
+                        <box type="definition">
                           <div>
                             <p><strong>User story format</strong>: <code>As a {user type/role} I can {function} so that {benefit}</code></p>
                           </div>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples (from a <em>Learning Management System</em>):</p>
-                          <ol>
-                            <li><span class="dimmed">As a</span> student, <span class="dimmed">I can</span> download files uploaded by lecturers, <span class="dimmed">so that</span> I can get my own copy of the files</li>
-                            <li><span class="dimmed">As a</span> lecturer, <span class="dimmed">I can</span> create discussion forums, <span class="dimmed">so that</span> students can discuss things online</li>
-                            <li><span class="dimmed">As a</span> tutor, <span class="dimmed">I can</span> print attendance sheets, <span class="dimmed">so that</span> I can take attendance during the class</li>
-                          </ol>
-                        </tip-box>
+                          <div class="text-monospace">
+                            <ol>
+                              <li><span class="dimmed">As a</span> student, <span class="dimmed">I can</span> download files uploaded by lecturers, <span class="dimmed">so that</span> I can get my own copy of the files</li>
+                              <li><span class="dimmed">As a</span> lecturer, <span class="dimmed">I can</span> create discussion forums, <span class="dimmed">so that</span> students can discuss things online</li>
+                              <li><span class="dimmed">As a</span> tutor, <span class="dimmed">I can</span> print attendance sheets, <span class="dimmed">so that</span> I can take attendance during the class</li>
+                            </ol>
+                          </div>
+                        </box>
                         <p></p>
                         <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software (e.g., <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>, Trello, Google Docs, ...) to manage user stories digitally.</p>
                         <panel header="%%User stories in use%%" class="non-printable" expanded>
@@ -159,41 +161,45 @@
                       <p></p>
                       <div>
                         <p><strong>The <code>{benefit}</code> can be omitted</strong> if it is obvious.</p>
-                        <tip-box>
-                          <p>As a user, I can login to the system <s>so that I can access my data</s></p>
-                        </tip-box>
-                        <p>💡 It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.</p>
+                        <box>
+                          <div class="text-monospace">
+                            <p>As a user, I can login to the system <s>so that I can access my data</s></p>
+                          </div>
+                        </box>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.</p>
                         <p>You can add more characteristics to the <code>{user role}</code> to provide more context to the user story.</p>
-                        <tip-box>
-                          <ul>
-                            <li>As a <mark>forgetful</mark> user, I can view a password hint, so that I can recall my password.</li>
-                            <li>As an <mark>expert</mark> user, I can tweak the underlying formatting tags of the document, so that I can format the document exactly as I need.</li>
-                          </ul>
-                        </tip-box>
+                        <box>
+                          <div class="text-monospace">
+                            <ul>
+                              <li>As a <mark>forgetful</mark> user, I can view a password hint, so that I can recall my password.</li>
+                              <li>As an <mark>expert</mark> user, I can tweak the underlying formatting tags of the document, so that I can format the document exactly as I need.</li>
+                            </ul>
+                          </div>
+                        </box>
                         <p><strong>You can write user stories at various levels</strong>. High-level user stories, called <mark><em>epics</em></mark> (or <em>themes</em>) cover bigger functionality. You can then break down these epics to multiple user stories of normal size.</p>
-                        <tip-box>
-                          <p>[Epic] As a lecturer, I can monitor student participation levels</p>
-                          <ul>
-                            <li>As a lecturer, I can view the forum post count of each student
-                              so that I can identify the activity level of students in the forum</li>
-                            <li>As a lecturer, I can view webcast view records of each student
-                              so that I can identify the students who did not view webcasts</li>
-                            <li>As a lecturer, I can view file download statistics of each student
-                              so that I can identify the students who do not download lecture materials</li>
-                          </ul>
-                        </tip-box>
+                        <box>
+                          <div class="text-monospace">
+                            <p>[Epic] As a lecturer, I can monitor student participation levels</p>
+                            <ul>
+                              <li>As a lecturer, I can view the forum post count of each student<br>
+                                so that I can identify the activity level of students in the forum</li>
+                              <li>As a lecturer, I can view webcast view records of each student<br>
+                                so that I can identify the students who did not view webcasts</li>
+                              <li>As a lecturer, I can view file download statistics of each student<br>
+                                so that I can identify the students who do not download lecture materials</li>
+                            </ul>
+                          </div>
+                        </box>
                         <p><strong>You can add <em>conditions of satisfaction</em> to a user story</strong> to specify things that need to be true for the user story implementation to be accepted as ‘done’.</p>
-                        <tip-box>
-                          <ul>
-                            <li><em>As a</em> lecturer, <em>I can</em> view the forum post count of each student <em>so that</em> I can identify the activity level of students in the forum.</li>
-                          </ul>
-                          <p>Conditions:</p>
-                          <ul class="task-list">
-                            <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Separate post count for each forum should be shown</li>
-                            <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Total post count of a student should be shown</li>
-                            <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> The list should be sortable by student name and post count</li>
-                          </ul>
-                        </tip-box>
+                        <box>
+                          <div class="text-monospace">
+                            <p><em>As a</em> lecturer, <em>I can</em> view the forum post count of each student <em>so that</em> I can identify the activity level of students in the forum.</p>
+                            <p>Conditions:</p>
+                            <p><span aria-hidden="true" class="far fa-check-square"></span> Separate post count for each forum should be shown<br>
+                              <span aria-hidden="true" class="far fa-square"></span> Total post count of a student should be shown<br>
+                              <span aria-hidden="true" class="far fa-check-square"></span> The list should be sortable by student name and post count</p>
+                          </div>
+                        </box>
                         <p><strong>Other useful info that can be added to a user story</strong> includes (but not limited to)</p>
                         <ul>
                           <li>Priority: how important the user story is</li>
@@ -202,29 +208,31 @@
                         </ul>
                         <span class="non-printable">
                           <panel minimized>
-                            <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary">tangential</span></span>
+                            <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                             <p>User stories for a travel website (credit: Mike Cohen)</p>
-                            <tip-box>
-                              <ul>
-                                <li>As a registered user, I am required to log in so that I can access the system</li>
-                                <li>As a forgetful user, I can request a password reminder so that I can log in if I forget mine</li>
-                                <li>[Epic] As a user, I can cancel a reservation
-                                  <ul>
-                                    <li>As a premium site member, I can cancel a reservation up to the last minute</li>
-                                    <li>As a non-premium member, I can cancel up to 24 hours in advance</li>
-                                    <li>As a member, I am emailed a conﬁrmation of any cancelled reservation</li>
-                                  </ul>
-                                </li>
-                                <li>[Epic] As a frequent ﬂyer, I want to book a trip
-                                  <ul>
-                                    <li>As a frequent ﬂyer, I want to book a trip using miles</li>
-                                    <li>As a frequent ﬂyer, I want to rebook a trip I take often</li>
-                                    <li>As a frequent ﬂyer, I want to request an upgrade</li>
-                                    <li>As a frequent ﬂyer, I want to see if my upgrade cleared</li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </tip-box>
+                            <box>
+                              <div class="text-monospace">
+                                <ul>
+                                  <li>As a registered user, I am required to log in so that I can access the system</li>
+                                  <li>As a forgetful user, I can request a password reminder so that I can log in if I forget mine</li>
+                                  <li>[Epic] As a user, I can cancel a reservation
+                                    <ul>
+                                      <li>As a premium site member, I can cancel a reservation up to the last minute</li>
+                                      <li>As a non-premium member, I can cancel up to 24 hours in advance</li>
+                                      <li>As a member, I am emailed a conﬁrmation of any cancelled reservation</li>
+                                    </ul>
+                                  </li>
+                                  <li>[Epic] As a frequent ﬂyer, I want to book a trip
+                                    <ul>
+                                      <li>As a frequent ﬂyer, I want to book a trip using miles</li>
+                                      <li>As a frequent ﬂyer, I want to rebook a trip I take often</li>
+                                      <li>As a frequent ﬂyer, I want to request an upgrade</li>
+                                      <li>As a frequent ﬂyer, I want to see if my upgrade cleared</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                            </box>
                           </panel>
                         </span>
                       </div>
@@ -290,12 +298,12 @@
                               </div>
                               <div id="main">
                                 <div>
-                                  <p>There are two kinds of requirements:</p>
+                                  <p>Requirements can be divided into two in the following way:</p>
                                   <ol>
                                     <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                                     <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
                                   </ol>
-                                  <tip-box>
+                                  <box>
                                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
                                     <ul>
                                       <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
@@ -315,11 +323,11 @@
                                         </li>
                                       </ul>
                                     </panel>
-                                  </tip-box>
+                                  </box>
                                   <p>We may have to spend an extra effort in digging NFRs out as early as possible because,</p>
                                   <ol>
-                                    <li><strong>NFRs are easier to miss</strong> <span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span></li>
-                                    <li>sometimes <strong>NFRs are critical to the success of the software.</strong> <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></li>
+                                    <li><strong>NFRs are easier to miss</strong> <span class="dimmed">e.g., stakeholders tend to think of functional requirements first</span></li>
+                                    <li>sometimes <strong>NFRs are critical to the success of the software.</strong> <span class="dimmed">E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></li>
                                   </ol>
                                 </div>
                                 <div>
@@ -352,7 +360,7 @@
                             </div>
                           </div>
                         </modal>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of a NFR captured as a user story:</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
@@ -372,16 +380,16 @@
                               </tbody>
                             </table>
                           </div>
-                        </tip-box>
+                        </box>
                         <div id="usageTips">
                           <p>Given their lightweight nature, <strong>user stories are quite handy for recording requirements during early stages of requirements gathering</strong>.</p>
-                          <tip-box>
-                            <p>💡 Here are some tips for using user stories for early stages of requirement gathering:</p>
+                          <box>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Here are some tips for using user stories for early stages of requirement gathering:</p>
                             <ul>
                               <li><strong>Define the <em>target user</em>:</strong><br>
-                                Decide your target user's profile (e.g. a student, office worker, programmer, sales person) and work patterns (e.g. Does he work in groups or alone? Does he share his computer with others?). A clear understanding of the target user will help when deciding the importance of a user story. You can even give this user a name. <span class="dimmed"> e.g. Target user Jean is a university student studying in a non-IT field. She interacts with a lot of people due to her involvement in university clubs/societies. ...</span></li>
+                                Decide your target user's profile (e.g. a student, office worker, programmer, sales person) and work patterns (e.g. Does he work in groups or alone? Does he share his computer with others?). A clear understanding of the target user will help when deciding the importance of a user story. You can even give this user a name. <span class="dimmed">e.g. Target user Jean is a university student studying in a non-IT field. She interacts with a lot of people due to her involvement in university clubs/societies. ...</span></li>
                               <li><strong>Define the <em>problem scope</em>:</strong>
-                                Decide that exact problem you are going to solve for the target user. <span class="dimmed"> e.g. Help Jean keep track of all her school contacts</span></li>
+                                Decide that exact problem you are going to solve for the target user. <span class="dimmed">e.g. Help Jean keep track of all her school contacts</span></li>
                               <li><strong>Don't be too hasty to discard 'unusual' user stories:</strong><br>
                                 Those might make your product unique and stand out from the rest, at least for the target users.</li>
                               <li><strong>Don't go into too much details:</strong><br>
@@ -392,7 +400,7 @@
                               <li><strong>Don't discuss implementation details or whether you are actually going to implement it:</strong><br>
                                 When gathering requirements, your decision is whether the user's need is important enough for you to want to fulfil it. Implementation details can be discussed later. If a user story turns out to be too difficult to implement later, you can always omit it from the implementation plan.</li>
                             </ul>
-                          </tip-box>
+                          </box>
                         </div>
                         <p>While use cases can be recorded on <tooltip content="e.g. index cards or sticky notes">physical paper</tooltip> in the initial stages, an online tool is more suitable for longer-term management of user stories, especially if the team is not <tooltip content="physically in the same location">co-located</tooltip>.</p>
                         <span class="non-printable">

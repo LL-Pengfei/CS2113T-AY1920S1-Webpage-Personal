@@ -1,0 +1,269 @@
+<div class="website-content">
+  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/peerEvaluations.html">Peer Evaluations</a></span></span><span style="float:right"><span><a href="/website/admin/gradeBreakdown.html">Grade Breakdown <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+  <br>
+  <p>
+    <div>
+      <h1 id="tools">Tools <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></h1>
+    </div>
+  </p>
+  <div id="main">
+    <p><img src="/website/admin/images/toolsList.png" style="width: 700px"><br></p>
+    <p><strong>Learning Management System</strong>: This module website is the main source of information for the module. In addition, we use LumiNUS for lecture webcasts and for admin matters <span class="dimmed">(e.g., announcements, file submissions, grade book, ...)</span>.</p>
+    <div id="github">
+      <p><strong>Collaboration platform</strong>: You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.). See <a href="/website/admin/index.html#admin-appendixE-github">Appendix E</a> for more info on how to setup and use GitHub for your project.</p>
+      <box>
+        <p><strong>Create a GitHub account</strong> (if you don't have one yet), as explained in the panel below.</p>
+        <div class="flat">
+          <div>
+            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+          </div>
+        </div>
+        <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+            <div>
+            <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\admin\appendixE-gitHub.md">
+              <p>Create a personal GitHub account if you don't have one yet.</p>
+              <ol>
+                <li>
+                  <p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts.</p>
+                </li>
+                <li>
+                  <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
+                  <ul>
+                    <li>Specify your full name.</li>
+                    <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
+                  </ul>
+                  <panel type="seamless" header="%%Why am I being pushed to complete my GitHub profile?%%">
+                    <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
+                  </panel>
+                </li>
+                <li>
+                  <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
+                </li>
+              </ol>
+              <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria">
+                  <div>
+                  <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\admin\project-deliverables.md">
+                    <ul>
+                      <li>
+                        <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                          <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
+                      </li>
+                      <li>
+                        <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </modal>
+            </div>
+          </div>
+        </modal>
+        <p>
+          <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="githubAccount"></panel>
+        </p>
+      </box>
+      <p>See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a> for more information.</p>
+    </div>
+    <div id="rcs">
+      <p><strong>Revision control</strong>: You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed.<br>
+        The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a> (which comes bundled with Git), but you may use any other, or none.</p>
+      <box>
+        <p><strong>Install Git and a Git GUI client</strong> on your computer.<br>
+          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</p>
+        <div id="git-username">
+          <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. <mark>You can to GitHub username or as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+          <p>After installing Git in a computer, you can set the Git username as follows:</p>
+          <ol>
+            <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
+            <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code> (omit the <code>--global</code> flag to limit the setting to the current repo repo)<br>
+              e.g., <code>git config --global user.name JohnDoe</code> or from within the repo <code>git config user.name JohnDoe</code></li>
+          </ol>
+          <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
+        </div>
+      </box>
+    </div>
+    <div id="communication">
+      <p><strong>Communication</strong>: Keeping a record of communications among your team can help you, and us, in many ways. We encourage you to do at least some of the project communication in written medium (e.g., GitHub Issue Tracker) to practice how to communicate technical things in written form.</p>
+      <ul>
+        <li>We encourage you to <mark>post your questions/suggestions in this <a href="https://github.com/nusCS2113-AY1920S1/forum/issues">github/nusCS2113-AY1920S1/forum</a></mark>.</li>
+        <li>You can use our slack channel <a href="https://nus-cs2113-ay1920s1.slack.com">https://nus-cs2113-ay1920s1.slack.com</a> for team communications. You need to <mark>join the slack channel</mark> (you'll need to use an email address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code> or <code>@u.nus.edu</code>) to start using this channel).
+          <ul>
+            <li>Note that slack is useful for quick chats while issue tracker is useful for longer-running conversations.</li>
+            <li>All official communications from the teaching team will happen via the <a href="https://github.com/nusCS2113-AY1920S1/forum/issues">github/nusCS2113-AY1920S1/forum</a>; the same will be linked to in LumiNUS announcements.</li>
+          </ul>
+        </li>
+        <li>You are encouraged to use channels with a wider audience (i.e., the GitHub issue tracker) for module-related communication as much as possible, rather than private channels such as private slack/FB messages or direct emails. <span class="dimmed">Rationale: more classmates can benefit from the discussions</span>.</li>
+      </ul>
+    </div>
+    <div id="ide">
+      <p><strong>IDE</strong>: You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. You may use the community edition (free) or the ultimate edition (free for students). While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
+      <ul>
+        <li>If you have an older version of the IDE, we recommend updating to the latest version (i.e., 2019 edition).</li>
+      </ul>
+    </div>
+    <div id="reposense">
+      <p><strong>Analyzing code authorship</strong>: We use a custom-built tool called <a href="https://github.com/reposense/RepoSense">RepoSense</a> for extracting code written by each person.</p>
+      <div>
+        <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\admin\reposenseCompatibility.md">
+          <p>In previous semesters we asked students to annotate all their code using special <code>@@author</code> tags so that we can extract each student's code for grading. This semester, we are trying out a tool called RepoSense that is expected to <strong>reduce the need for such tagging</strong>, and also make it <strong>easier for you to see (and learn from) code written by others</strong>.</p>
+          <pic src="https://github.com/reposense/RepoSense/raw/release/docs/images/report-features.png" alt="Logo">
+            <sub>Figure: RepoSense Report Features</sub></pic>
+          <p><strong>1. View the current status of code authorship data:</strong></p>
+          <ul>
+            <li><strong>The report generated by the tool is available at <a href="https://nuscs2113-ay1920s1.github.io/cs2113-dashboard">Project Code Dashboard</a>.</strong> The feature that is most relevant to you is the <em>Code Panel</em> (shown on the right side of the screenshot above). It shows the code attributed to a given author. You are welcome to play around with the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#interpreting-the-report">other features</a> (they are still under development and will not be used for grading this semester).</li>
+            <li>Click on your name to load the code attributed to you (based on Git blame/log data) onto the code panel on the right.</li>
+            <li>If the code shown roughly matches the code you wrote, all is fine and there is nothing for you to do.</li>
+          </ul>
+          <p><strong>2. If the code does not match:</strong></p>
+          <ul>
+            <li>
+              <p>Here are the possible reasons for the code shown not to match the code you wrote:</p>
+              <ul>
+                <li>the git username in some of your commits does not match your GitHub username (perhaps you missed our instructions to set your Git username to match GitHub username earlier in the project, or GitHub did not honor your Git username for some reason)</li>
+                <li>the actual authorship does not match the authorship determined by git blame/log e.g., another student touched your code after you wrote it, and Git log attributed the code to that student instead</li>
+              </ul>
+            </li>
+            <li>
+              <p>In those cases,</p>
+              <ul>
+                <li>Install RepoSense (see the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#getting-started">Getting Started</a> section of the RepoSense User Guide)</li>
+                <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a> to provide additional data to the authorship analysis to make it more accurate.</li>
+                <li>If you add a <code>config.json</code> file to your repo (as specified by one of the two methods),
+                  <ul>
+                    <li><strong>Please use the <a href="/website/admin/reposenseConfigTemplates.html">template json file given in the module website</a></strong> so that your display name matches the name we expect it to be.</li>
+                    <li>If your commits have multiple author names, specify all of them e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;theGary&quot;]</code></li>
+                    <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
+                  </ul>
+                </li>
+                <li>If you add <code>@@author</code> annotations, please follow the guidelines below:</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="indented-level3">
+            <panel header="Adding `@@author` tags to indicate authorship">
+              <div>
+                <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\admin\reposenseAuthorAnnotation.md">
+                  <h4 id="adding-author-tags-indicate-authorship">Adding <code>@@author</code> tags indicate authorship</h4>
+                  <ul>
+                    <li>
+                      <p>Mark your code with a <code>//@@author {yourGithubUsername}</code>. Note the double <code>@</code>.<br>
+                        The <code>//@@author</code> tag should indicates the beginning of the code you wrote. The code up to the next <code>//@@author</code> tag or the end of the file (whichever comes first) will be considered as was written by that author.
+                        Here is a sample code file:</p>
+                      <pre><code class="hljs">//@@author johndoe
+method 1 ...
+method 2 ...
+//@@author sarahkhoo
+method 3 ...
+//@@author johndoe
+method 4 ...
+</code></pre>
+                    </li>
+                    <li>
+                      <p><strong>If you don't know who wrote the code segment below yours</strong>, you may put an empty <code>//@@author</code> (i.e. no GitHub username) to indicate the end of the code segment you wrote. The author of code below yours can add the GitHub username to the empty tag later.
+                        Here is a sample code with an empty <code>author</code> tag:</p>
+                      <pre><code class="hljs">method 0 ...
+//@@author johndoe
+method 1 ...
+method 2 ...
+//@@author
+method 3 ...
+method 4 ...
+</code></pre>
+                    </li>
+                    <li>
+                      <p><strong>The author tag syntax varies based on file type</strong> e.g. for java, css, fxml. Use the corresponding comment syntax for non-Java files.<br>
+                        Here is an example code from an xml/fxml file.</p>
+                      <pre><code class="hljs">&lt;!-- @@author sereneWong --&gt;
+&lt;textbox&gt;
+  &lt;label&gt;...&lt;/label&gt;
+  &lt;input&gt;...&lt;/input&gt;
+&lt;/textbox&gt;
+...
+</code></pre>
+                    </li>
+                    <li>
+                      <p><strong>Do not put the <code>//@@author</code> inside java header comments</strong>.<br>
+                        👎<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">/**
+  * Returns true if ...
+  * @@author johndoe
+  */
+</code></pre>
+                      <p>👍<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <pre><code class="hljs">//@@author johndoe
+/**
+  * Returns true if ...
+  */
+</code></pre>
+                    </li>
+                  </ul>
+                  <h4 id="what-to-and-what-not-to-annotate">What to and what not to annotate</h4>
+                  <ul>
+                    <li>
+                      <p><strong>Annotate both functional and test code</strong> There is no need to annotate documentation files.</p>
+                    </li>
+                    <li>
+                      <p><strong>Annotate only significant size code blocks that can be reviewed on its own</strong> <span class="dimmed"> e.g., a class, a sequence of methods, a method.</span> <br> <strong>Claiming credit for code blocks smaller than a method is discouraged</strong> but allowed. If you do, do it sparingly and only claim meaningful blocks of code such as a block of statements, a loop, or an if-else statement.</p>
+                      <ul>
+                        <li>If an enhancement required you to do tiny changes in many places, there is no need to annotate all those tiny changes; you can describe those changes in the Project Portfolio page instead.</li>
+                        <li>If a code block was touched by more than one person, either let the person who wrote most of it (e.g. more than 80%) take credit for the entire block, or leave it as 'unclaimed' (i.e., no author tags).</li>
+                        <li>Related to the above point, <mark>if you claim a code block as your own, more than 80% of the code in that block should have been written by yourself</mark>. For example, no more than 20% of it can be code you reused from somewhere.</li>
+                        <li>💡 GitHub has a <a href="https://help.github.com/articles/tracing-changes-in-a-file/"><em>blame</em> feature and a <em>history</em></a> feature that can help you determine who wrote a piece of code.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><strong>Do not try to boost the quantity of your contribution using unethical means</strong> such as duplicating the same code in multiple places. In particular, do not copy-paste test cases to create redundant tests. Even repetitive code blocks within test methods should be extracted out as utility methods to reduce code duplication.
+                        Individual members are responsible for making sure code attributed to them are correct.
+                        If you notice a team member claiming credit for code that he/she did not write or use other questionable tactics, you can email us (after the final submission) to let us know.</p>
+                    </li>
+                    <li>
+                      <p><strong>If you wrote a significant amount of code that was not used in the final product</strong>,</p>
+                      <ul>
+                        <li>Create a folder called <code>{project root}/unused</code></li>
+                        <li>Move unused files (or copies of files containing unused code) to that folder</li>
+                        <li>use <code>//@@author {yourGithubUsername}-unused</code> to mark unused code in those files (note the suffix <code>unused</code>)
+                          e.g.</li>
+                      </ul>
+                      <pre><code class="hljs">//@@author johndoe-unused
+method 1 ...
+method 2 ...
+</code></pre>
+                      <p>Please put a comment in the code to explain why it was not used.</p>
+                    </li>
+                    <li>
+                      <p><strong>If you reused code from elsewhere,</strong> mark such code as <code>//@@author {yourGithubUsername}-reused</code> (note the suffix <code>reused</code>)
+                        e.g.</p>
+                      <pre><code class="hljs">//@@author johndoe-reused
+method 1 ...
+method 2 ...
+</code></pre>
+                    </li>
+                    <li>
+                      <p><strong>You can use empty <code>@@author</code> tags to mark code as not yours when RepoSense attribute the to you incorrectly.</strong></p>
+                      <ul>
+                        <li>
+                          <p><strong>Code generated by the IDE/framework,</strong> should not be annotated as your own.</p>
+                        </li>
+                        <li>
+                          <p><strong>Code you modified in minor ways</strong> e.g. adding a parameter. These should not be claimed as yours but you can mention these additional contributions in the Project Portfolio page if you want to claim credit for them.</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </panel>
+          </div>
+          <ul>
+            <li>After you are satisfied with the new results (i.e., results produced by running RepoSense locally), push the <code>config.json</code> file you added and/or the annotated code to your repo. We'll use that information the next time we run RepoSense (we run it at least once a week).</li>
+            <li>If you choose to annotate code, please annotate code chunks not smaller than a method. We do not grade code snippets smaller than a method.</li>
+            <li>If you encounter any problem when doing the above or if you have questions, please post in the <a href="https://github.com/nusCS2113-AY1920S1/forum/issues">forum</a>.</li>
+          </ul>
+          <p><mark><strong>We recommend you ensure your code is RepoSense-compatible by v1.3</strong></mark></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/peerEvaluations.html">Peer Evaluations</a></span></span><span style="float:right"><span><a href="/website/admin/gradeBreakdown.html">Grade Breakdown <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
+</div>

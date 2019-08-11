@@ -41,17 +41,6 @@
         <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
-          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
-          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
-          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
-          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
-          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
-          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -67,10 +56,6 @@
           <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
           <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
           <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
           <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
           <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
@@ -98,23 +83,163 @@
         <div>
           <div id="title"></div>
           <div id="body">
-            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>TBD</span></span></p>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-1-greet-echo-exit">Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit"></a></h3>
-                      <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
-                        <br>
-                        Example:</p>
-                      <pre><code class="hljs">    ____________________________________________________________
+            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up prerequisites. Get started on Duke</span></span></p>
+            <h3 id="set-up-prerequisites">Set up prerequisites<a class="fa fa-anchor" href="#set-up-prerequisites"></a></h3>
+            <p><strong>Ensure you have met the following prerequisites:</strong></p>
+            <box>
+              <p><strong>Prerequisites</strong>:</p>
+              <ul>
+                <li>Install Git in your computer.</li>
+              </ul>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:W02-tools-rcs">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools -&gt; Git</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools -> Git**  <md>:glyphicon-star:</md>" id="modal:W02-tools-rcs">
+                  <div>
+                  <p><strong>Revision control</strong>: You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed.<br>
+                    The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a> (which comes bundled with Git), but you may use any other, or none.</p>
+                  <box>
+                    <p><strong>Install Git and a Git GUI client</strong> on your computer.<br>
+                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</p>
+                    <div id="git-username">
+                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. <mark>You can to GitHub username or as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                      <p>After installing Git in a computer, you can set the Git username as follows:</p>
+                      <ol>
+                        <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
+                        <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code> (omit the <code>--global</code> flag to limit the setting to the current repo repo)<br>
+                          e.g., <code>git config --global user.name JohnDoe</code> or from within the repo <code>git config user.name JohnDoe</code></li>
+                      </ol>
+                      <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
+                    </div>
+                  </box>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/admin/tools._include_.html#rcs" header="Admin <md>:glyphicon-log-in:</md> **Tools -> Git**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="rcs"></panel>
+              </p>
+              <ul>
+                <li>Have a GitHub account.</li>
+              </ul>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:W02-tools-github">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools -&gt; GitHub</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools -> GitHub**  <md>:glyphicon-star:</md>" id="modal:W02-tools-github">
+                  <div>
+                  <p><strong>Collaboration platform</strong>: You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.). See <a href="/website/admin/index.html#admin-appendixE-github">Appendix E</a> for more info on how to setup and use GitHub for your project.</p>
+                  <box>
+                    <p><strong>Create a GitHub account</strong> (if you don't have one yet), as explained in the panel below.</p>
+                    <div class="flat">
+                      <div>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      </div>
+                    </div>
+                    <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+                        <div>
+                        <p>Create a personal GitHub account if you don't have one yet.</p>
+                        <ol>
+                          <li>
+                            <p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts.</p>
+                          </li>
+                          <li>
+                            <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
+                            <ul>
+                              <li>Specify your full name.</li>
+                              <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
+                            </ul>
+                            <panel type="seamless" header="%%Why am I being pushed to complete my GitHub profile?%%">
+                              <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
+                            </panel>
+                          </li>
+                          <li>
+                            <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
+                          </li>
+                        </ol>
+                        <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria">
+                            <div>
+                            <ul>
+                              <li>
+                                <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                                  <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
+                              </li>
+                              <li>
+                                <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
+                              </li>
+                            </ul>
+                          </div>
+                        </modal>
+                      </div>
+                    </modal>
+                    <p>
+                      <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="githubAccount"></panel>
+                    </p>
+                  </box>
+                  <p>See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a> for more information.</p>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/admin/tools._include_.html#github" header="Admin <md>:glyphicon-log-in:</md> **Tools -> GitHub**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="github"></panel>
+              </p>
+              <ul>
+                <li>Recommended: Installed an IDE in your computer.</li>
+              </ul>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:W02-tools-ide">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools -&gt; IntelliJ</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools -> IntelliJ**  <md>:glyphicon-star:</md>" id="modal:W02-tools-ide">
+                  <div>
+                  <p><strong>IDE</strong>: You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. You may use the community edition (free) or the ultimate edition (free for students). While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
+                  <ul>
+                    <li>If you have an older version of the IDE, we recommend updating to the latest version (i.e., 2019 edition).</li>
+                  </ul>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/admin/tools._include_.html#ide" header="Admin <md>:glyphicon-log-in:</md> **Tools -> IntelliJ**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="ide"></panel>
+              </p>
+            </box>
+            <h3 id="set-up-the-project-in-your-computer">Set up the project in your computer<a class="fa fa-anchor" href="#set-up-the-project-in-your-computer"></a></h3>
+            <box>
+              <ol>
+                <li>Fork <a href="https://github.com/nusCS2113-AY1920S1/duke">https://github.com/nusCS2113-AY1920S1/duke</a>.</li>
+                <li><mark>Ensure the issue tracker of your fork is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your fork.</span></li>
+                <li>Clone the fork onto your computer.</li>
+                <li>Set up the project in your IDE as explained in the README file.</li>
+              </ol>
+            </box>
+            <h3 id="implement-increments-while-committing-code-frequently">Implement increments while committing code frequently<a class="fa fa-anchor" href="#implement-increments-while-committing-code-frequently"></a></h3>
+            <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> in the given order.</p>
+            <ul>
+              <li>Commit code at important points. <mark>Minimally, commit after completing each increment</mark>.</li>
+              <li>After completing each increment,
+                <ul>
+                  <li><strong><code>git tag</code></strong> the commit with the exact increment ID e.g., <code>Level-2</code>, <code>A-TextUiTesting</code></li>
+                  <li><strong><code>git push</code></strong> the code <em>and the tags</em> to your fork</li>
+                </ul>
+              </li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-1-greet-echo-exit">Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit"></a></h3>
+                        <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
+                          <br>
+                          Example:</p>
+                        <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
     ____________________________________________________________
@@ -135,29 +260,29 @@ bye
     ____________________________________________________________
 
 </code></pre>
-                      <ul>
-                        <li>The indentation and horizontal lines are optional.</li>
-                      </ul>
-                    </div>
-                  </panel>
+                        <ul>
+                          <li>The indentation and horizontal lines are optional.</li>
+                        </ul>
+                      </div>
+                    </panel>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-2-add-list">Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list"></a></h3>
-                      <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
-                      <p>Example:</p>
-                      <pre><code class="hljs">    ____________________________________________________________
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-2-add-list">Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list"></a></h3>
+                        <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
+                        <p>Example:</p>
+                        <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
     ____________________________________________________________
@@ -183,29 +308,29 @@ bye
     ____________________________________________________________
 
 </code></pre>
-                      <ul>
-                        <li>There is no need to save the data to the hard disk.</li>
-                        <li>Assume there will be no more than 100 tasks. If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
-                      </ul>
-                    </div>
-                  </panel>
+                        <ul>
+                          <li>There is no need to save the data to the hard disk.</li>
+                          <li>Assume there will be no more than 100 tasks. If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
+                        </ul>
+                      </div>
+                    </panel>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-3-mark-as-done">Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done"></a></h3>
-                      <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
-                      <pre><code class="hljs">list
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-3-mark-as-done">Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done"></a></h3>
+                        <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
+                        <pre><code class="hljs">list
     ____________________________________________________________
      Here are the tasks in your list:
      1.[✓] read book
@@ -219,18 +344,18 @@ done 2
        [✓] return book
     ____________________________________________________________
 </code></pre>
-                      <div>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                        <panel header="**Extension: `A-Classes`**">
-                          <div>
+                        <div>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                          <panel header="**Extension: `A-Classes`**">
                             <div>
-                              <div></div>
-                              <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
-                              <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
-                            </div>
-                            <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
-                            <panel type="seamless" header="Partial solution" minimized>
-                              <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
+                              <div>
+                                <div></div>
+                                <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
+                                <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
+                              </div>
+                              <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                              <panel type="seamless" header="Partial solution" minimized>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
 
@@ -246,729 +371,19 @@ done 2
     <span class="hljs-comment">//...</span>
 }
 </code></pre>
-                              <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
+                                <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
 t.markAsDone()
 </code></pre>
-                            </panel>
-                          </div>
-                        </panel>
-                      </div>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-4-todos-events-deadlines">Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines"></a></h3>
-                      <p>Add support for tracking three types of tasks:
-                        <br>
-                        <br></p>
-                      <ol>
-                        <li><strong>ToDos</strong>: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
-                        <li><strong>Deadlines</strong>: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
-                        <li><strong>Events</strong>: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
-                      </ol>
-                      <p>Example:</p>
-                      <pre><code class="hljs">todo borrow book
-    ____________________________________________________________
-     Got it. I've added this task: 
-       [T][✗] borrow book
-     Now you have 5 tasks in the list.
-    ____________________________________________________________
-
-list
-    ____________________________________________________________
-     Here are the tasks in your list:
-     1.[T][✓] read book
-     2.[D][✗] return book (by: June 6th)
-     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-     4.[T][✓] join sports club
-     5.[T][✗] borrow book
-    ____________________________________________________________
-
-deadline return book /by Sunday
-    ____________________________________________________________
-     Got it. I've added this task: 
-       [D][✗] return book (by: Sunday)
-     Now you have 6 tasks in the list.
-    ____________________________________________________________
-
-event project meeting /at Mon 2-4pm
-    ____________________________________________________________
-     Got it. I've added this task: 
-       [E][✗] project meeting (at: Mon 2-4pm)
-     Now you have 7 tasks in the list.
-    ____________________________________________________________
-</code></pre>
-                      <p>At this point, dates/times can be treated as strings; there is no need to convert them to actual dates/times.</p>
-                      <p>Example:</p>
-                      <pre><code class="hljs">
-deadline do homework /by no idea :-p
-    ____________________________________________________________
-     Got it. I've added this task: 
-       [D][✗] do homework (by: no idea :-p)
-     Now you have 6 tasks in the list.
-    ____________________________________________________________
-</code></pre>
-                      <div>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                        <panel header="**Extension: `A-Inheritance`**">
-                          <div>
-                            <div>
-                              <div></div>
-                              <h3 id="a-inheritance"><span class="badge badge-pill badge-primary">A-Inheritance</span><a class="fa fa-anchor" href="#a-inheritance"></a></h3>
-                              <p>     <big>↳</big> <strong>Use Inheritance to support multiple task types</strong></p>
+                              </panel>
                             </div>
-                            <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
-                            <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
-                            <panel type="seamless" header="Partial solution" minimized>
-                              <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
-
-    <span class="hljs-keyword">protected</span> String by;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Deadline</span><span class="hljs-params">(String description, String by)</span> </span>{
-        <span class="hljs-keyword">super</span>(description);
-        <span class="hljs-keyword">this</span>.by = by;
-    }
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> <span class="hljs-string">"[D]"</span> + <span class="hljs-keyword">super</span>.toString() + <span class="hljs-string">" (by: "</span> + by + <span class="hljs-string">")"</span>;
-    }
-}
-</code></pre>
-                              <pre><code class="hljs java">Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
-task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">"return book"</span>, <span class="hljs-string">"Monday"</span>);
-</code></pre>
-                            </panel>
-                          </div>
-                        </panel>
+                          </panel>
+                        </div>
                       </div>
-                    </div>
-                  </panel>
+                    </panel>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-textuitesting"><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting"></a></h3>
-                        <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
-                      </div>
-                      <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-5-handle-errors">Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors"></a></h3>
-                      <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
-                        <br>
-                        <br></p>
-                      <p>Example:</p>
-                      <pre><code class="hljs">todo
-    ____________________________________________________________
-     ☹ OOPS!!! The description of a todo cannot be empty.
-    ____________________________________________________________
-
-blah
-    ____________________________________________________________
-     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(
-    ____________________________________________________________
-</code></pre>
-                      <div>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                        <panel header="**Extension: `A-Exceptions`**">
-                          <div>
-                            <div>
-                              <div></div>
-                              <h3 id="a-exceptions"><span class="badge badge-pill badge-primary">A-Exceptions</span><a class="fa fa-anchor" href="#a-exceptions"></a></h3>
-                              <p>     <big>↳</big> <strong>Use Exceptions to handle errors</strong></p>
-                            </div>
-                            <p>Use exceptions to handle errors. For example, define a class <code>DukeException</code> to represent exceptions specific to Duke.</p>
-                          </div>
-                        </panel>
-                      </div>
-                      <ul>
-                        <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
-                        <li><strong>Stretch goal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
-                      </ul>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
-                      <p>Add support for deleting tasks from the list.
-                        <br>
-                        <br></p>
-                      <p>Example:</p>
-                      <pre><code class="hljs">list
-    ____________________________________________________________
-     Here are the tasks in your list:
-     1.[T][✓] read book
-     2.[D][✓] return book (by: June 6th)
-     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-     4.[T][✓] join sports club
-     5.[T][✗] borrow book
-    ____________________________________________________________
-
-delete 3
-    ____________________________________________________________
-     Noted. I've removed this task: 
-       [T][✓] join sports club
-     Now you have 4 tasks in the list.
-    ____________________________________________________________
-</code></pre>
-                      <div>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                        <panel header="**Extension: `A-Collections`**">
-                          <div>
-                            <div>
-                              <div></div>
-                              <h3 id="a-collections"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections"></a></h3>
-                              <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
-                            </div>
-                            <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
-                          </div>
-                        </panel>
-                      </div>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Enums</code>: Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-enums"><span class="badge badge-pill badge-primary">A-Enums</span><a class="fa fa-anchor" href="#a-enums"></a></h3>
-                        <p>     <big>↳</big> <strong>Use Enumerations</strong></p>
-                      </div>
-                      <p>Use Java <code>enum</code>s, if applicable.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
-                      <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
-                      <p>The format of the file is up to you. Example:</p>
-                      <pre><code class="hljs">T | 1 | read book
-D | 0 | return book | June 6th
-E | 0 | project meeting | Aug 6th 2-4pm
-T | 1 | join sports club
-</code></pre>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
-                      <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-moreoop"><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop"></a></h3>
-                        <p>     <big>↳</big> <strong>Make the code more OOP</strong></p>
-                      </div>
-                      <p>Refactor the code to extract out closely related code as classes.</p>
-                      <ul>
-                        <li><strong>Minimal</strong>: Extract the following classes:
-                          <ul>
-                            <li><code>Ui</code>: deals with interactions with the user</li>
-                            <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
-                            <li><code>Parser</code>: deals with making sense of the user command</li>
-                            <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <div class="indented-level2">
-                        <p>For example, the code of the main class could look like this:</p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
-
-    <span class="hljs-keyword">private</span> Storage storage;
-    <span class="hljs-keyword">private</span> TaskList tasks;
-    <span class="hljs-keyword">private</span> Ui ui;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
-        ui = <span class="hljs-keyword">new</span> Ui();
-        storage = <span class="hljs-keyword">new</span> Storage(filePath);
-        <span class="hljs-keyword">try</span> {
-            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
-        } <span class="hljs-keyword">catch</span> (DukeException e) {
-            ui.showLoadingError();
-            tasks = <span class="hljs-keyword">new</span> TaskList();
-        }
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-comment">//...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
-    }
-}
-</code></pre>
-                      </div>
-                      <ul>
-                        <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
-                          <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
-    ui.showWelcome();
-    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
-    <span class="hljs-keyword">while</span> (!isExit) {
-        <span class="hljs-keyword">try</span> {
-            String fullCommand = ui.readCommand();
-            ui.showLine();
-            Command c = Parser.parse(fullCommand);
-            c.execute(tasks, ui, storage);
-            isExit = c.isExit();
-        } <span class="hljs-keyword">catch</span> (DukeException e) {
-            ui.showError(e.getMessage());
-        } <span class="hljs-keyword">finally</span> {
-            ui.showLine();
-        }
-    }
-}
-</code></pre>
-                        </li>
-                      </ul>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Packages</code>: Java Packages</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-packages"><span class="badge badge-pill badge-primary">A-Packages</span><a class="fa fa-anchor" href="#a-packages"></a></h3>
-                        <p>     <big>↳</big> <strong>Divide classes into packages</strong></p>
-                      </div>
-                      <p>Organize the classes into suitable java packages. e.g., <code>duke.task</code>, <code>duke.command</code></p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-junit"><span class="badge badge-pill badge-primary">A-JUnit</span><a class="fa fa-anchor" href="#a-junit"></a></h3>
-                        <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
-                      </div>
-                      <p>Add JUnit tests to test the behavior of the code.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-jar"><span class="badge badge-pill badge-primary">A-Jar</span><a class="fa fa-anchor" href="#a-jar"></a></h3>
-                        <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
-                      </div>
-                      <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-JavaDoc</code>: JavaDoc</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-javadoc"><span class="badge badge-pill badge-primary">A-JavaDoc</span><a class="fa fa-anchor" href="#a-javadoc"></a></h3>
-                        <p>     <big>↳</big> <strong>Add JavaDoc comments</strong></p>
-                      </div>
-                      <p>Add JavaDoc comments to the code.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-CodingStandard</code>: Coding Standard</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-codingstandard"><span class="badge badge-pill badge-primary">A-CodingStandard</span><a class="fa fa-anchor" href="#a-codingstandard"></a></h3>
-                        <p>     <big>↳</big> <strong>Tweak the code to comply with a coding standard</strong></p>
-                      </div>
-                      <p>Tweak the code to comply with a chosen coding standard.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
-                      <p>Give users a way to find a task by searching for a keyword.
-                        <br>
-                        <br></p>
-                      <p>Example:</p>
-                      <pre><code class="hljs">find book
-    ____________________________________________________________
-     Here are the matching tasks in your list:
-     1.[T][✓] read book
-     2.[D][✓] return book (by: June 6th)
-    ____________________________________________________________
-</code></pre>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Gradle</code>: Gradle</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
-                        <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
-                      </div>
-                      <p>Use Gradle to automate some of the build tasks of the project.</p>
-                      <ul>
-                        <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
-                        <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
-                        <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
-                      </ul>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-CheckStyle</code>: CheckStyle</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-checkstyle"><span class="badge badge-pill badge-primary">A-CheckStyle</span><a class="fa fa-anchor" href="#a-checkstyle"></a></h3>
-                        <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
-                      </div>
-                      <p>Use checkStyle to detect coding style violations.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>Level-10</code>: GUI</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <p><span>
-                          <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
-                        </span></p>
-                      <h3 id="level-10-gui">Level 10. GUI<a class="fa fa-anchor" href="#level-10-gui"></a></h3>
-                      <p>Add a GUI to Duke.
-                        <br>
-                        <br></p>
-                      <div>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                        <panel header="**Extension: `A-JavaFx`**">
-                          <div>
-                            <div>
-                              <div></div>
-                              <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
-                              <p>     <big>↳</big> <strong>use JavaFX</strong></p>
-                            </div>
-                            <p>Use JavaFX to create a GUI.</p>
-                          </div>
-                        </panel>
-                      </div>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Varargs</code>: Varargs</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-varargs"><span class="badge badge-pill badge-primary">A-Varargs</span><a class="fa fa-anchor" href="#a-varargs"></a></h3>
-                        <p>     <big>↳</big> <strong>Use var-args</strong></p>
-                      </div>
-                      <p>Use Java varargs feature, if applicable.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Assertions</code></strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-assertions"><span class="badge badge-pill badge-primary">A-Assertions</span><a class="fa fa-anchor" href="#a-assertions"></a></h3>
-                        <p>     <big>↳</big> <strong>Use Assertions</strong></p>
-                      </div>
-                      <p>Use <code>assert</code> feature (not JUnit assertions) to document important assumptions that should hold at various points in the code.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-CodeQuality</code></strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-codequality"><span class="badge badge-pill badge-primary">A-CodeQuality</span><a class="fa fa-anchor" href="#a-codequality"></a></h3>
-                        <p>     <big>↳</big> <strong>Improve code quality</strong></p>
-                      </div>
-                      <p>Critically examines the code and refactor to improve the code quality where necessary.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Lambdas</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-lambdas"><span class="badge badge-pill badge-primary">A-Lambdas</span><a class="fa fa-anchor" href="#a-lambdas"></a></h3>
-                        <p>     <big>↳</big> <strong>Use Lambdas</strong></p>
-                      </div>
-                      <p>Use the Lambdas feature of Java in your code, if applicable.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Streams</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-streams"><span class="badge badge-pill badge-primary">A-Streams</span><a class="fa fa-anchor" href="#a-streams"></a></h3>
-                        <p>     <big>↳</big> <strong>Use Streams</strong></p>
-                      </div>
-                      <p>Use the Streams feature of Java in your code, if applicable.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Travis</code>: Travis</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-travis"><span class="badge badge-pill badge-primary">A-Travis</span><a class="fa fa-anchor" href="#a-travis"></a></h3>
-                        <p>     <big>↳</big> <strong>Use Travis for CI</strong></p>
-                      </div>
-                      <p>Use Travis (and GitHub) to perform Continuous Integration (CI).</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
-                        <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
-                      </div>
-                      <p>Add a User Guide to the project.</p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="indented">
-                <div class="indented border">
-                  <panel type="seamless">
-                    <div></div>
-                    <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                    <div></div>
-                    <div>
-                      <div>
-                        <div></div>
-                        <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
-                        <p>     <big>↳</big> <strong>Release the product</strong></p>
-                      </div>
-                      <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
-                    </div>
-                  </panel>
-                </div>
-              </div>
-            </div>
+            </box>
           </div>
         </div>
       </div>
@@ -977,6 +392,11 @@ T | 1 | join sports club
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-2-aug-19">Week 2 [Aug 19]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#set-up-prerequisites">Set up prerequisites&#x200E;</a>
+              <a class="nav-link py-1" href="#set-up-the-project-in-your-computer">Set up the project in your computer&#x200E;</a>
+              <a class="nav-link py-1" href="#implement-increments-while-committing-code-frequently">Implement increments while committing code frequently&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -984,7 +404,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

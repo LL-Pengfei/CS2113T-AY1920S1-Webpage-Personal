@@ -50,15 +50,15 @@
                       <div>
                         <p><strong>In terms of timing and frequency, there are two general approaches to integration: <em>late and one-time</em>, <em>early and frequent</em>.</strong></p>
                         <p><strong><em>Late and one-time</em>: wait till all components are completed and integrate all finished components near the end of the project.</strong></p>
-                        <tip-box type="wrong">
-                          <p>This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays <span class="dimmed"> i.e. Late integration → incompatibilities found → major rework required → cannot meet the delivery date</span>.</p>
-                        </tip-box>
+                        <box type="wrong">
+                          <p>This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays <span class="dimmed">i.e. Late integration → incompatibilities found → major rework required → cannot meet the delivery date</span>.</p>
+                        </box>
                         <p><strong><em>Early and frequent</em>: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <em>
-                              <tooltip content="it compiles and runs but does not produce any useful output">walking skeleton</tooltip>
+                              <tooltip content="it has all the main components in their minimal form, compiles, and runs but does not produce any useful output">walking skeleton</tooltip>
                             </em> can be written first. This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply integrate the new code to the main system.</p>
-                        </tip-box>
+                        </box>
                         <div v-closeable alt="slideshow: comparison" class="non-printable">
                           <p>Here is an animation that compares the two approaches:</p>
                           <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212312&authkey=AHtrsZMwQmNcyAE&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
@@ -82,9 +82,9 @@
                       <p></p>
                       <div>
                         <p><strong><em>Big-bang integration</em>: integrate all components at the same time.</strong></p>
-                        <tip-box type="wrong">
+                        <box type="wrong">
                           <p>Big-bang is not recommended because it will uncover too many problems at the same time which could make debugging and bug-fixing more complex than when problems are uncovered incrementally.</p>
-                        </tip-box>
+                        </box>
                         <p><strong><em>Incremental integration</em>: integrate few components at a time.</strong> This approach is better than the big-bang integration because it surfaces integration problems in a more manageable way.</p>
                         <div v-closeable alt="slideshow: comparison" class="non-printable">
                           <p>Here is an animation that compares the two approaches:</p>
@@ -146,7 +146,7 @@
                             </div>
                           </div>
                         </popover>
-                        <p><strong><em>Bottom-up</em> integration: the reverse of top-down integration.</strong> Note that when integrating lower level components, <tooltip content="additional code written to provide inputs to a component via an API">drivers</tooltip> may be needed to test the integrated components <span class="dimmed"> because the UI may not be integrated yet</span>, just like top-down integration needs stubs.</p>
+                        <p><strong><em>Bottom-up</em> integration: the reverse of top-down integration.</strong> Note that when integrating lower level components, <tooltip content="additional code written to provide inputs to a component via an API">drivers</tooltip> may be needed to test the integrated components <span class="dimmed">because the UI may not be integrated yet</span>, just like top-down integration needs stubs.</p>
                         <p><strong><em>Sandwich</em> integration: a mix of the top-down and the bottom-up approaches.</strong> The idea is to do both top-down and bottom-up so as to 'meet' in the middle.</p>
                         <div v-closeable alt="slideshow: comparison">
                           <p>Here is an animation that compares the three approaches:</p>

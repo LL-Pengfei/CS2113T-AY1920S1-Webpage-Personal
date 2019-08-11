@@ -43,7 +43,7 @@
                 <div id="main">
                   <div>
                     <p><strong>Except for trivial <tooltip content="Software Under Test">SUTs</tooltip>, <tooltip content="testing all possible cases">exhaustive testing</tooltip> is not practical</strong> because such testing often requires a massive/infinite number of test cases.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the test cases for adding a string object to a <tooltip content="Java: `ArrayList`,<br>Python: `list`">collection</tooltip>:</p>
                       <ul>
                         <li>Add an item to an empty collection.</li>
@@ -56,13 +56,13 @@
                         <li>...</li>
                       </ul>
                       <p>Exhaustive testing of this operation can take many more test cases.</p>
-                    </tip-box>
+                    </box>
                     <blockquote>
                       <p>Program testing can be used to show the presence of bugs, but never to show their absence!<br>
                         <sub>--Edsger Dijkstra</sub></p>
                     </blockquote>
                     <div id="e-and-e">
-                      <p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed"> e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong> In particular:</p>
+                      <p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed">e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong> In particular:</p>
                       <ul>
                         <li>
                           <p><strong>Testing should be <em>effective</em></strong> i.e., it finds a high percentage of existing bugs <span class="dimmed">e.g., a set of test cases that finds 60 defects is more effective than a set that finds only 30 defects in the same system</span>.</p>

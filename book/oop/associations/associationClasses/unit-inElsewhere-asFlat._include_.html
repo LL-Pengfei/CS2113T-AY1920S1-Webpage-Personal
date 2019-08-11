@@ -12,15 +12,15 @@
     <div>
       <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\oop\associations\associationClasses\text.md">
         <p><strong>An <em>association class</em> represents additional information about an association.</strong> It is a normal class but plays a special role from a design point of view.</p>
-        <tip-box>
+        <box>
           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p>
-        </tip-box>
+        </box>
         <p>
           <panel type="seamless" src="/website/book/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Association Classes → What" alt="<md>:glyphicon-education:</md> UML/AssociationClasses" fragment="main"></panel>
         </p>
         <h5 id="implementing-association-classes">Implementing association classes</h5>
         <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
-        <tip-box>
+        <box>
           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, the <code>Transaction</code> class is an association class that represent a transaction between a <code>Person</code> who is the seller and another <code>Person</code> who is the buyer.</p>
           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span></span>{
     
@@ -35,7 +35,7 @@
     }
 }
 </code></pre>
-        </tip-box>
+        </box>
       </div>
     </div>
     <div>

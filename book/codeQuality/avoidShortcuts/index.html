@@ -77,7 +77,7 @@
                             <div>
                               <p>Always include a default branch in <code>case</code> statements.</p>
                               <p>Furthermore, use it for the intended default action and not just to execute the last option. If there is no default action, you can use the 'default' branch to detect errors (i.e. if execution reached the <code>default</code> branch, throw an exception). This also applies to the final <code>else</code> of an <code>if-else</code> construct. That is, the final <code>else</code> should mean 'everything else', and not the final option. Do not use <code>else</code> when an <code>if</code> condition can be explicitly specified, unless there is absolutely no other possibility.</p>
-                              <tip-box>
+                              <box>
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
@@ -91,7 +91,7 @@
 <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (blue) print <span class="hljs-string">"blue"</span>;
 <span class="hljs-keyword">else</span> error(<span class="hljs-string">"incorrect input"</span>);
 </code></pre>
-                              </tip-box>
+                              </box>
                             </div>
                             <div></div>
                           </div>
@@ -114,7 +114,7 @@
                                 <li>Use one variable for one purpose. Do not reuse a variable for a different purpose other than its intended one, just because the data type is the same.</li>
                                 <li>Do not reuse formal parameters as local variables inside the method.</li>
                               </ul>
-                              <tip-box>
+                              <box>
                                 <p>
                                   <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
@@ -133,7 +133,7 @@
     <span class="hljs-keyword">return</span> area;
 }
 </code></pre>
-                              </tip-box>
+                              </box>
                             </div>
                             <div></div>
                           </div>
@@ -192,7 +192,7 @@
                         <panel type="seamless" expanded>
                           <span slot="header" class="card-title">
                             <div>
-                              <h4 id="minimise-scope-of-variables"><span>Minimise Scope of Variables</span><a class="fa fa-anchor" href="#minimise-scope-of-variables"></a></h4>
+                              <h4 id="minimize-scope-of-variables"><span>Minimize Scope of Variables</span><a class="fa fa-anchor" href="#minimize-scope-of-variables"></a></h4>
                             </div>
                           </span>
                           <div class="indented">
@@ -219,11 +219,11 @@
                         <panel type="seamless" expanded>
                           <span slot="header" class="card-title">
                             <div>
-                              <h4 id="minimise-code-duplication"><span>Minimise Code Duplication</span><a class="fa fa-anchor" href="#minimise-code-duplication"></a></h4>
+                              <h4 id="minimize-code-duplication"><span>Minimize Code Duplication</span><a class="fa fa-anchor" href="#minimize-code-duplication"></a></h4>
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimise code duplication </span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimize code duplication </span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -236,24 +236,23 @@
                                 <div>
                                   <div></div>
                                   <p></p>
-                                  <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                                        </span></strong></span></p>
+                                  <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                                   <div id="title-and-body">
                                     <div>
                                       <h4 id="dry-principle"><span>DRY Principle</span><a class="fa fa-anchor" href="#dry-principle"></a></h4>
                                     </div>
                                     <div id="main">
                                       <div>
-                                        <tip-box type="definition">
+                                        <box type="definition">
                                           <div>
                                             <p><strong>DRY (Don't Repeat Yourself) Principle</strong>: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system <sub><em>The Pragmatic Programmer</em>, by Andy Hunt and Dave Thomas</sub></p>
                                           </div>
-                                        </tip-box>
+                                        </box>
                                         <p>This principle guards against duplication of information.</p>
-                                        <tip-box>
+                                        <box>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The functionality implemented twice is a violation of the DRY principle even if the two implementations are different.</p>
                                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The value a system-wide timeout being defined in multiple places is a violation of DRY.</p>
-                                        </tip-box>
+                                        </box>
                                       </div>
                                       <div></div>
                                     </div>

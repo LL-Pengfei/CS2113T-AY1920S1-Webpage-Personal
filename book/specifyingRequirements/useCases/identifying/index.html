@@ -44,62 +44,74 @@
                   <div>
                     <p>A use case is an interaction between a system and its <em>actors</em>.</p>
                     <p><strong>Actors in Use Cases</strong></p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example actors for a Learning Management System</p>
-                      <ul>
-                        <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
-                      </ul>
-                    </tip-box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>A use case can involve multiple actors.</strong></p>
-                    <tip-box>
-                      <ul>
-                        <li>Software System: LearnSys</li>
-                        <li>Use case: UC01 conduct survey</li>
-                        <li>Actors: <mark>Staff, Student</mark></li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>Software System: LearnSys</li>
+                          <li>Use case: UC01 conduct survey</li>
+                          <li>Actors: <mark>Staff, Student</mark></li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>An actor can be involved in many use cases.</strong></p>
-                    <tip-box>
-                      <ul>
-                        <li>Software System: LearnSys</li>
-                        <li>Actor: Staff</li>
-                        <li>Use cases: <mark>UC01 conduct survey, UC02 Set Up Course Schedule, UC03 Email Class, ...</mark></li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>Software System: LearnSys</li>
+                          <li>Actor: Staff</li>
+                          <li>Use cases: <mark>UC01 conduct survey, UC02 Set Up Course Schedule, UC03 Email Class, ...</mark></li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>A single person/system can play many roles.</strong></p>
-                    <tip-box>
-                      <ul>
-                        <li>Software System: LearnSys</li>
-                        <li>Person: <mark>a student</mark></li>
-                        <li>Actors (or Roles): Student, Guest, Tutor</li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>Software System: LearnSys</li>
+                          <li>Person: <mark>a student</mark></li>
+                          <li>Actors (or Roles): Student, Guest, Tutor</li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>Many persons/systems can play a single role.</strong></p>
-                    <tip-box>
-                      <ul>
-                        <li>Software System: LearnSys</li>
-                        <li>Actor(or role) : Student</li>
-                        <li>Persons that can play this role : <mark>undergraduate student, graduate student, a staff member doing a part-time course, exchange student</mark></li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>Software System: LearnSys</li>
+                          <li>Actor(or role) : Student</li>
+                          <li>Persons that can play this role : <mark>undergraduate student, graduate student, a staff member doing a part-time course, exchange student</mark></li>
+                        </ul>
+                      </div>
+                    </box>
 
                     <p><strong>Use cases can be specified at <em>various levels of detail</em>.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
-                      <ul>
-                        <li>System: LearnSys</li>
-                        <li>Use cases:<br>
-                          a. Conduct a survey<br>
-                          b. Take the survey<br>
-                          c. Answer survey question</li>
-                      </ul>
-                    </tip-box>
-                    <p>💡 While modeling user-system interactions,</p>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>System: LearnSys</li>
+                          <li>Use cases:<br>
+                            a. Conduct a survey<br>
+                            b. Take the survey<br>
+                            c. Answer survey question</li>
+                        </ul>
+                      </div>
+                    </box>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> While modeling user-system interactions,</p>
                     <ul>
                       <li>Start with high level use cases and progressively work toward lower level use cases.</li>
                       <li>Be mindful at which level of details you are working on and not to mix use cases of different levels.</li>

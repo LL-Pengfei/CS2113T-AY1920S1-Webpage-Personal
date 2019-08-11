@@ -43,12 +43,12 @@
                 <div id="main">
                   <div>
                     <p><strong><em>Aggregation</em> represents a <em>container-contained</em> relationship.</strong> It is a weaker relationship than composition.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>SportsClub</code> can act as a <em>container</em> for <code>Person</code> objects who are members of the club. <code>Person</code> objects can survive without a <code>SportsClub</code> object.</p>
-                    </tip-box>
+                    </box>
                     <h5 id="implementing-aggregation">Implementing aggregation<a class="fa fa-anchor" href="#implementing-aggregation"></a></h5>
                     <p>Implementation is similar to that of composition except the <em>containee</em> object can exist even after the <em>container</em> object is deleted.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, there is an aggregation association between the <code>Team</code> class and the <code>Person</code> in that a <code>Team</code> contains <code>Person</code> a object who is the leader of the team.</p>
                       <div class="alt-java">
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Team</span> </span>{
@@ -70,7 +70,7 @@
     self.__leader = person
 </code></pre>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>

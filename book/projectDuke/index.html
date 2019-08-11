@@ -42,7 +42,7 @@
                     </pic>
                     <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p>
                   </div>
-                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
+                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> <strong>You may give it any other name or personality you wish.</strong></p>
                   <p>Here is a sample interaction with Duke:</p>
                   <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -96,18 +96,20 @@ bye
     ____________________________________________________________
 
 </code></pre>
-                  <p>The project consists of the following <em>increments</em>:</p>
-                  <ul>
-                    <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
-                    <li><strong>Extensions:</strong>
-                      <ul>
-                        <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
-                        <li><big><span class="badge badge-pill badge-info">Category B</span></big> These are enhancements related to task tracking.</li>
-                        <li><big><span class="badge badge-pill badge-success">Category C</span></big> These are enhancements, not specifically related to task tracking.</li>
-                        <li><big><span class="badge badge-pill badge-danger">Category D</span></big> Each of these adds the ability to track another type of entities.</li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <div id="increments_summary">
+                    <p>The project consists of the following <em>increments</em>:</p>
+                    <ul>
+                      <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+                      <li><strong>Extensions:</strong>
+                        <ul>
+                          <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
+                          <li><big><span class="badge badge-pill badge-info">Category B</span></big> These are enhancements related to task tracking.</li>
+                          <li><big><span class="badge badge-pill badge-success">Category C</span></big> These are enhancements, not specifically related to task tracking.</li>
+                          <li><big><span class="badge badge-pill badge-danger">Category D</span></big> Each of these adds the ability to track another type of entities.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <h2 id="levels">
                   <div class="text-white bg-dark p-1">Levels</div><a class="fa fa-anchor" href="#levels"></a>
@@ -468,7 +470,7 @@ T | 1 | join sports club
                           <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
                           <p>     <big>↳</big> <strong>use JavaFX</strong></p>
                         </div>
-                        <p>Use JavaFX to create a GUI.</p>
+                        <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
                       </div>
                     </panel>
                   </div>
@@ -642,6 +644,81 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
                     </div>
                     <p>Add JUnit tests to test the behavior of the code.</p>
+                    <p>Notes:</p>
+                    <ul>
+                      <li>Add test code in a folder named <code>[project root]\src\test\java\</code> folder (reason: to follow the convention followed by the project structure so far).</li>
+                      <li>Name the test class to match the class being tested (<code>Todo.java</code> can be tested by <code>TodoTest.java</code>), and put it in a package to match. For example,
+                        <ul>
+                          <li>Class being tested <code>seedu.duke.Todo</code>: <code>src\main\java\seedu\duke\Todo.java</code></li>
+                          <li>Test class <code>seedu.duke.TodoTest</code>: <code>src\test\java\seedu\duke\TodoTest.java</code></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <p><strong>Adding JUnit support to your project:</strong> As JUnit is a third-party library, you need to add support to it specifically in your project.</p>
+                    <tabs>
+                      <tab header="In Intellij, without Gradle">
+                        <ol>
+                          <li>Add a folder named <code>[project root]\src\test\java\</code> (you may have to do this outside of Intellij)</li>
+                          <li>Go to Intellij and add a new module to the project as follows.
+                            <ol>
+                              <li><code>File</code> → <code>New</code> → <code>Module From Existing Sources ...</code></li>
+                              <li>Choose the <code>[project root]\src\test\</code> (not the <code>java</code>) folder.</li>
+                              <li>In the next screen, select <code>Create module from existing sources</code></li>
+                              <li>Keep clicking <code>Next</code> until the process is complete</li>
+                            </ol>
+                          </li>
+                          <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
+                          <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. Example:
+                            <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+}
+</code></pre>
+                          </li>
+                          <li>Note how the <code>@Test</code> turn to red because Intellij (not having JUnit support yet) does not understand it. But it will pop up a hint, asking if you want to add support for JUnit. Select <code>Add JUnit 5.* to classpath</code>.</li>
+                          <li>In the dialog that pops up, you can optionally tick the <code>Sources</code>, <code>JavaDocs</code> and <code>Annotations</code> boxes. After that, click <code>OK</code> to add the JUnit 5 to the project dependencies.</li>
+                          <li>To check if JUnit integration is working as expected,
+                            <ol>
+                              <li>Add a dummy test method to the class e.g.,
+                                <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.jupiter.api.Test;
+
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.assertEquals;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">dummyTest</span><span class="hljs-params">()</span></span>{
+        assertEquals(<span class="hljs-number">2</span>, <span class="hljs-number">2</span>);
+    }
+}
+</code></pre>
+                              </li>
+                              <li>Run the test (right-click on the class and choose <code>Run DukeTest</code>.
+                              </li>
+                            </ol>
+                          </li>
+                        </ol>
+                      </tab>
+                      <tab header="With Gradle">
+
+
+
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use JUnit via Gradle.</p>
+                        <panel header="**Extension `A-Gradle`**">
+                          <div>
+                            <div>
+                              <div></div>
+                              <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
+                              <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                            </div>
+                            <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                            <ul>
+                              <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                              <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                              <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                            </ul>
+                          </div>
+                        </panel>
+                      </tab>
+                    </tabs>
                   </div>
                   <hr>
                   <div id="A-Packages">
@@ -678,6 +755,22 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
                     </div>
                     <p>Use checkStyle to detect coding style violations.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle.</p>
+                    <panel header="**Extension `A-Gradle`**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-gradle-2"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-2"></a></h3>
+                          <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                        </div>
+                        <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                        <ul>
+                          <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                          <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                          <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                        </ul>
+                      </div>
+                    </panel>
                   </div>
                   <hr>
                   <div id="A-CodeQuality">
@@ -705,15 +798,31 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
                     </div>
                     <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
+                    <panel header="**Extension `A-Gradle`**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-gradle-3"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-3"></a></h3>
+                          <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                        </div>
+                        <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                        <ul>
+                          <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                          <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                          <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                        </ul>
+                      </div>
+                    </panel>
                   </div>
                   <hr>
                   <div id="A-Gradle">
                     <div>
                       <div></div>
-                      <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
+                      <h3 id="a-gradle-4"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-4"></a></h3>
                       <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
                     </div>
-                    <p>Use Gradle to automate some of the build tasks of the project.</p>
+                    <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
                     <ul>
                       <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
                       <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
@@ -781,7 +890,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <h3 id="a-javafx-2"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx-2"></a></h3>
                       <p>     <big>↳</big> <strong>use JavaFX</strong></p>
                     </div>
-                    <p>Use JavaFX to create a GUI.</p>
+                    <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
                   </div>
                   <hr>
                   <div id="A-UserGuide">
@@ -790,7 +899,12 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
                       <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
                     </div>
-                    <p>Add a User Guide to the project.</p>
+                    <p>Add a User Guide to the project. Here is one simple way to do it.</p>
+                    <ul>
+                      <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
+                      <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
+                      <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
+                    </ul>
                   </div>
                   <hr>
                   <div id="A-DevGuide">

@@ -41,17 +41,6 @@
         <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
-          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
-          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
-          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
-          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
-          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
-          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
-          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
-          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
-          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -67,10 +56,6 @@
           <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span></span> Tutorial Schedule</a></li>
           <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span></span> Java Coding Standard</a></li>
           <li><a href="https://github.com/nusCS2113-AY1920S1/samplerepo-things" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level1" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</a></li>
-          <li><a href="https://github.com/nusCS2113-AY1920S1/addressbook-level4" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</a></li>
           <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> Projects List</a></li>
           <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
           <li><a href="https://nuscs2113-ay1920s1.github.io/dashboard-beta" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span></span> Project Code Dashboard (BETA)</a></li>
@@ -189,28 +174,25 @@
                   <p>In general, each team is expected to take one of these two directions:</p>
                   <ul>
                     <li>
-                      <p><strong>[Direction 1] <em>Optimize</em></strong> AddressBook for a more specific target user group:</p>
+                      <p><strong>[Direction 1] <em>Optimize</em></strong> the task manager for a more specific target user group: <br></p>
+                      <p>After Phase 1 of the project, think about optimizing your project to suite a specific target user group when you implement <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements.</p>
                       <panel type="seamless" header="%%<md>:fas-cube:</md> Examples for the _optimize_ direction%%">
-                        <p>An AddressBook,</p>
+                        <p>A task manager:</p>
                         <ul>
                           <li>for users in a specific profession <span class="dimmed"> e.g. doctors, salesmen, teachers, etc.</span></li>
-                          <li>based on the nature/scale of contacts <span class="dimmed"> e.g. huge number of contacts (for HR admins, user group admins), mostly incomplete contacts, highly volatile contact details, contacts become inactive after a specific period (e.g. contract employees)</span></li>
-                          <li>based on what users do with the contacts <span class="dimmed"> e.g. organize group events, share info, do business, do analytics</span></li>
+                          <li>based on the nature and scale of application <span class="dimmed"> e.g. huge number of tasks (user group admins), highly volatile task list, for users who organize group events etc.</span></li>
                         </ul>
                         <p></p>
                       </panel>
                       <p></p>
                     </li>
                     <li>
-                      <p><strong>[Direction 2] <em>Morph</em></strong> AddressBook into a different product: Given that AddressBook is a generic app that manages a type of elements (i.e. contacts), you can use it as a starting point to create an app that manages something else.<br>
-                        <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
-                      </p>
+                      <p><strong>[Direction 2] <em>Morph</em></strong> the task manager into a different product: <br></p>
+                      <p>Given that <em>Duke</em> provides capabilities to manage certain types of elements (i.e., tasks), you can use it as a starting point to create an app that manages something else in Phase 2. Model the <span class="badge badge-pill badge-success">Category C</span> and <span class="badge badge-pill badge-danger">Category D</span> enhancements to cater to the new app that you want to develop.</p>
                       <panel type="seamless" header="%%<md>:fas-cube:</md> Examples for the _morph_ direction%%">
-                        <p>An app to manage,</p>
+                        <p>An app to manage:</p>
                         <ul>
                           <li>Bookmarks of websites</li>
-                          <li>Tasks/Schedule</li>
-                          <li>Location info</li>
                           <li>Thing to memorize i.e. flash cards, trivia</li>
                           <li>Forum posts, news feeds, Social media feeds</li>
                           <li>Online projects or issue trackers that the user is interested in</li>
@@ -220,8 +202,12 @@
                         <p></p>
                       </panel>
                       <p></p>
+                      <p>
+                        <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> This is a high-risk high-reward option because morphing requires extra work but a morphed product may earn more marks than an optimized product of similar complexity.
+                      </p>
                     </li>
                   </ul>
+                  <h4 id="target-user-profile-and-value-proposition">Target user profile and value proposition<a class="fa fa-anchor" href="#target-user-profile-and-value-proposition"></a></h4>
                   <p>For either direction, you need to define a target user profile and a value proposition:</p>
                   <ul>
                     <li>
@@ -243,6 +229,832 @@
                   </ul>
                 </div>
               </modal>
+              <p><br><br></p>
+              <box>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-4-todos-events-deadlines">Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines"></a></h3>
+                          <p>Add support for tracking three types of tasks:
+                            <br>
+                            <br></p>
+                          <ol>
+                            <li><strong>ToDos</strong>: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
+                            <li><strong>Deadlines</strong>: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
+                            <li><strong>Events</strong>: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
+                          </ol>
+                          <p>Example:</p>
+                          <pre><code class="hljs">todo borrow book
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [T][✗] borrow book
+     Now you have 5 tasks in the list.
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✗] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+     5.[T][✗] borrow book
+    ____________________________________________________________
+
+deadline return book /by Sunday
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [D][✗] return book (by: Sunday)
+     Now you have 6 tasks in the list.
+    ____________________________________________________________
+
+event project meeting /at Mon 2-4pm
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [E][✗] project meeting (at: Mon 2-4pm)
+     Now you have 7 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                          <p>At this point, dates/times can be treated as strings; there is no need to convert them to actual dates/times.</p>
+                          <p>Example:</p>
+                          <pre><code class="hljs">
+deadline do homework /by no idea :-p
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [D][✗] do homework (by: no idea :-p)
+     Now you have 6 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                          <div>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                            <panel header="**Extension: `A-Inheritance`**">
+                              <div>
+                                <div>
+                                  <div></div>
+                                  <h3 id="a-inheritance"><span class="badge badge-pill badge-primary">A-Inheritance</span><a class="fa fa-anchor" href="#a-inheritance"></a></h3>
+                                  <p>     <big>↳</big> <strong>Use Inheritance to support multiple task types</strong></p>
+                                </div>
+                                <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
+                                <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
+                                <panel type="seamless" header="Partial solution" minimized>
+                                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
+
+    <span class="hljs-keyword">protected</span> String by;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Deadline</span><span class="hljs-params">(String description, String by)</span> </span>{
+        <span class="hljs-keyword">super</span>(description);
+        <span class="hljs-keyword">this</span>.by = by;
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">"[D]"</span> + <span class="hljs-keyword">super</span>.toString() + <span class="hljs-string">" (by: "</span> + by + <span class="hljs-string">")"</span>;
+    }
+}
+</code></pre>
+                                  <pre><code class="hljs java">Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
+task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">"return book"</span>, <span class="hljs-string">"Monday"</span>);
+</code></pre>
+                                </panel>
+                              </div>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-textuitesting"><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting"></a></h3>
+                            <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
+                          </div>
+                          <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-5-handle-errors">Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors"></a></h3>
+                          <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
+                            <br>
+                            <br></p>
+                          <p>Example:</p>
+                          <pre><code class="hljs">todo
+    ____________________________________________________________
+     ☹ OOPS!!! The description of a todo cannot be empty.
+    ____________________________________________________________
+
+blah
+    ____________________________________________________________
+     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(
+    ____________________________________________________________
+</code></pre>
+                          <div>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                            <panel header="**Extension: `A-Exceptions`**">
+                              <div>
+                                <div>
+                                  <div></div>
+                                  <h3 id="a-exceptions"><span class="badge badge-pill badge-primary">A-Exceptions</span><a class="fa fa-anchor" href="#a-exceptions"></a></h3>
+                                  <p>     <big>↳</big> <strong>Use Exceptions to handle errors</strong></p>
+                                </div>
+                                <p>Use exceptions to handle errors. For example, define a class <code>DukeException</code> to represent exceptions specific to Duke.</p>
+                              </div>
+                            </panel>
+                          </div>
+                          <ul>
+                            <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
+                            <li><strong>Stretch goal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
+                          </ul>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
+                          <p>Add support for deleting tasks from the list.
+                            <br>
+                            <br></p>
+                          <p>Example:</p>
+                          <pre><code class="hljs">list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+     5.[T][✗] borrow book
+    ____________________________________________________________
+
+delete 3
+    ____________________________________________________________
+     Noted. I've removed this task: 
+       [T][✓] join sports club
+     Now you have 4 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                          <div>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                            <panel header="**Extension: `A-Collections`**">
+                              <div>
+                                <div>
+                                  <div></div>
+                                  <h3 id="a-collections"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections"></a></h3>
+                                  <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
+                                </div>
+                                <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
+                              </div>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Enums</code>: Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-enums"><span class="badge badge-pill badge-primary">A-Enums</span><a class="fa fa-anchor" href="#a-enums"></a></h3>
+                            <p>     <big>↳</big> <strong>Use Enumerations</strong></p>
+                          </div>
+                          <p>Use Java <code>enum</code>s, if applicable.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
+                          <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                          <p>The format of the file is up to you. Example:</p>
+                          <pre><code class="hljs">T | 1 | read book
+D | 0 | return book | June 6th
+E | 0 | project meeting | Aug 6th 2-4pm
+T | 1 | join sports club
+</code></pre>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
+                          <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-moreoop"><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop"></a></h3>
+                            <p>     <big>↳</big> <strong>Make the code more OOP</strong></p>
+                          </div>
+                          <p>Refactor the code to extract out closely related code as classes.</p>
+                          <ul>
+                            <li><strong>Minimal</strong>: Extract the following classes:
+                              <ul>
+                                <li><code>Ui</code>: deals with interactions with the user</li>
+                                <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+                                <li><code>Parser</code>: deals with making sense of the user command</li>
+                                <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <div class="indented-level2">
+                            <p>For example, the code of the main class could look like this:</p>
+                            <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+
+    <span class="hljs-keyword">private</span> Storage storage;
+    <span class="hljs-keyword">private</span> TaskList tasks;
+    <span class="hljs-keyword">private</span> Ui ui;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+        ui = <span class="hljs-keyword">new</span> Ui();
+        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+        <span class="hljs-keyword">try</span> {
+            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showLoadingError();
+            tasks = <span class="hljs-keyword">new</span> TaskList();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
+    }
+}
+</code></pre>
+                          </div>
+                          <ul>
+                            <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                              <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+    ui.showWelcome();
+    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">while</span> (!isExit) {
+        <span class="hljs-keyword">try</span> {
+            String fullCommand = ui.readCommand();
+            ui.showLine();
+            Command c = Parser.parse(fullCommand);
+            c.execute(tasks, ui, storage);
+            isExit = c.isExit();
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showError(e.getMessage());
+        } <span class="hljs-keyword">finally</span> {
+            ui.showLine();
+        }
+    }
+}
+</code></pre>
+                            </li>
+                          </ul>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Packages</code>: Java Packages</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-packages"><span class="badge badge-pill badge-primary">A-Packages</span><a class="fa fa-anchor" href="#a-packages"></a></h3>
+                            <p>     <big>↳</big> <strong>Divide classes into packages</strong></p>
+                          </div>
+                          <p>Organize the classes into suitable java packages. e.g., <code>duke.task</code>, <code>duke.command</code></p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-junit"><span class="badge badge-pill badge-primary">A-JUnit</span><a class="fa fa-anchor" href="#a-junit"></a></h3>
+                            <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
+                          </div>
+                          <p>Add JUnit tests to test the behavior of the code.</p>
+                          <p>Notes:</p>
+                          <ul>
+                            <li>Add test code in a folder named <code>[project root]\src\test\java\</code> folder (reason: to follow the convention followed by the project structure so far).</li>
+                            <li>Name the test class to match the class being tested (<code>Todo.java</code> can be tested by <code>TodoTest.java</code>), and put it in a package to match. For example,
+                              <ul>
+                                <li>Class being tested <code>seedu.duke.Todo</code>: <code>src\main\java\seedu\duke\Todo.java</code></li>
+                                <li>Test class <code>seedu.duke.TodoTest</code>: <code>src\test\java\seedu\duke\TodoTest.java</code></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <p><strong>Adding JUnit support to your project:</strong> As JUnit is a third-party library, you need to add support to it specifically in your project.</p>
+                          <tabs>
+                            <tab header="In Intellij, without Gradle">
+                              <ol>
+                                <li>Add a folder named <code>[project root]\src\test\java\</code> (you may have to do this outside of Intellij)</li>
+                                <li>Go to Intellij and add a new module to the project as follows.
+                                  <ol>
+                                    <li><code>File</code> → <code>New</code> → <code>Module From Existing Sources ...</code></li>
+                                    <li>Choose the <code>[project root]\src\test\</code> (not the <code>java</code>) folder.</li>
+                                    <li>In the next screen, select <code>Create module from existing sources</code></li>
+                                    <li>Keep clicking <code>Next</code> until the process is complete</li>
+                                  </ol>
+                                </li>
+                                <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
+                                <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. Example:
+                                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+}
+</code></pre>
+                                </li>
+                                <li>Note how the <code>@Test</code> turn to red because Intellij (not having JUnit support yet) does not understand it. But it will pop up a hint, asking if you want to add support for JUnit. Select <code>Add JUnit 5.* to classpath</code>.</li>
+                                <li>In the dialog that pops up, you can optionally tick the <code>Sources</code>, <code>JavaDocs</code> and <code>Annotations</code> boxes. After that, click <code>OK</code> to add the JUnit 5 to the project dependencies.</li>
+                                <li>To check if JUnit integration is working as expected,
+                                  <ol>
+                                    <li>Add a dummy test method to the class e.g.,
+                                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.jupiter.api.Test;
+
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.assertEquals;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">dummyTest</span><span class="hljs-params">()</span></span>{
+        assertEquals(<span class="hljs-number">2</span>, <span class="hljs-number">2</span>);
+    }
+}
+</code></pre>
+                                    </li>
+                                    <li>Run the test (right-click on the class and choose <code>Run DukeTest</code>.
+                                    </li>
+                                  </ol>
+                                </li>
+                              </ol>
+                            </tab>
+                            <tab header="With Gradle">
+
+
+
+                              <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use JUnit via Gradle.</p>
+                              <panel header="**Extension `A-Gradle`**">
+                                <div>
+                                  <div>
+                                    <div></div>
+                                    <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
+                                    <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                                  </div>
+                                  <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                                  <ul>
+                                    <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                                    <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                                    <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                                  </ul>
+                                </div>
+                              </panel>
+                            </tab>
+                          </tabs>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-jar"><span class="badge badge-pill badge-primary">A-Jar</span><a class="fa fa-anchor" href="#a-jar"></a></h3>
+                            <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
+                          </div>
+                          <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
+                          <panel header="**Extension `A-Gradle`**">
+                            <div>
+                              <div>
+                                <div></div>
+                                <h3 id="a-gradle-2"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-2"></a></h3>
+                                <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                              </div>
+                              <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                              <ul>
+                                <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                                <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                                <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                              </ul>
+                            </div>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-JavaDoc</code>: JavaDoc</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-javadoc"><span class="badge badge-pill badge-primary">A-JavaDoc</span><a class="fa fa-anchor" href="#a-javadoc"></a></h3>
+                            <p>     <big>↳</big> <strong>Add JavaDoc comments</strong></p>
+                          </div>
+                          <p>Add JavaDoc comments to the code.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-CodingStandard</code>: Coding Standard</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-codingstandard"><span class="badge badge-pill badge-primary">A-CodingStandard</span><a class="fa fa-anchor" href="#a-codingstandard"></a></h3>
+                            <p>     <big>↳</big> <strong>Tweak the code to comply with a coding standard</strong></p>
+                          </div>
+                          <p>Tweak the code to comply with a chosen coding standard.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
+                          <p>Give users a way to find a task by searching for a keyword.
+                            <br>
+                            <br></p>
+                          <p>Example:</p>
+                          <pre><code class="hljs">find book
+    ____________________________________________________________
+     Here are the matching tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+    ____________________________________________________________
+</code></pre>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Gradle</code>: Gradle</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-gradle-3"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-3"></a></h3>
+                            <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                          </div>
+                          <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                          <ul>
+                            <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                            <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                            <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                          </ul>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-CheckStyle</code>: CheckStyle</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-checkstyle"><span class="badge badge-pill badge-primary">A-CheckStyle</span><a class="fa fa-anchor" href="#a-checkstyle"></a></h3>
+                            <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
+                          </div>
+                          <p>Use checkStyle to detect coding style violations.</p>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle.</p>
+                          <panel header="**Extension `A-Gradle`**">
+                            <div>
+                              <div>
+                                <div></div>
+                                <h3 id="a-gradle-4"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle-4"></a></h3>
+                                <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
+                              </div>
+                              <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
+                              <ul>
+                                <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                                <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                                <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                              </ul>
+                            </div>
+                          </panel>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>Level-10</code>: GUI</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <p><span>
+                              <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
+                            </span></p>
+                          <h3 id="level-10-gui">Level 10. GUI<a class="fa fa-anchor" href="#level-10-gui"></a></h3>
+                          <p>Add a GUI to Duke.
+                            <br>
+                            <br></p>
+                          <div>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                            <panel header="**Extension: `A-JavaFx`**">
+                              <div>
+                                <div>
+                                  <div></div>
+                                  <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
+                                  <p>     <big>↳</big> <strong>use JavaFX</strong></p>
+                                </div>
+                                <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
+                              </div>
+                            </panel>
+                          </div>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Varargs</code>: Varargs</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-varargs"><span class="badge badge-pill badge-primary">A-Varargs</span><a class="fa fa-anchor" href="#a-varargs"></a></h3>
+                            <p>     <big>↳</big> <strong>Use var-args</strong></p>
+                          </div>
+                          <p>Use Java varargs feature, if applicable.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Assertions</code></strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-assertions"><span class="badge badge-pill badge-primary">A-Assertions</span><a class="fa fa-anchor" href="#a-assertions"></a></h3>
+                            <p>     <big>↳</big> <strong>Use Assertions</strong></p>
+                          </div>
+                          <p>Use <code>assert</code> feature (not JUnit assertions) to document important assumptions that should hold at various points in the code.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-CodeQuality</code></strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-codequality"><span class="badge badge-pill badge-primary">A-CodeQuality</span><a class="fa fa-anchor" href="#a-codequality"></a></h3>
+                            <p>     <big>↳</big> <strong>Improve code quality</strong></p>
+                          </div>
+                          <p>Critically examines the code and refactor to improve the code quality where necessary.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Lambdas</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-lambdas"><span class="badge badge-pill badge-primary">A-Lambdas</span><a class="fa fa-anchor" href="#a-lambdas"></a></h3>
+                            <p>     <big>↳</big> <strong>Use Lambdas</strong></p>
+                          </div>
+                          <p>Use the Lambdas feature of Java in your code, if applicable.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Streams</code></strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-streams"><span class="badge badge-pill badge-primary">A-Streams</span><a class="fa fa-anchor" href="#a-streams"></a></h3>
+                            <p>     <big>↳</big> <strong>Use Streams</strong></p>
+                          </div>
+                          <p>Use the Streams feature of Java in your code, if applicable.</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Travis</code>: Travis</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-travis"><span class="badge badge-pill badge-primary">A-Travis</span><a class="fa fa-anchor" href="#a-travis"></a></h3>
+                            <p>     <big>↳</big> <strong>Use Travis for CI</strong></p>
+                          </div>
+                          <p>Use Travis (and GitHub) to perform Continuous Integration (CI).</p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
+                            <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                          </div>
+                          <p>Add a User Guide to the project. Here is one simple way to do it.</p>
+                          <ul>
+                            <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
+                            <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
+                            <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
+                          </ul>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="indented">
+                    <div class="indented border">
+                      <panel type="seamless">
+                        <div></div>
+                        <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div></div>
+                        <div>
+                          <div>
+                            <div></div>
+                            <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
+                            <p>     <big>↳</big> <strong>Release the product</strong></p>
+                          </div>
+                          <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
+                        </div>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </box>
             </div>
           </div>
           <br>
@@ -252,7 +1064,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

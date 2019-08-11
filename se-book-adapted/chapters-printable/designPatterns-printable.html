@@ -48,13 +48,13 @@
                     </small></small></span><a class="fa fa-anchor" href="#what"></a></h4>
               <div class="indented-less">
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Design Pattern</strong> : An <em>elegant reusable solution</em> to a <em>commonly recurring problem</em> within a <em>given context</em> in software design.</p>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>In software development, there are certain problems that recur in a certain context.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of recurring design problems:</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
@@ -76,7 +76,7 @@
                         </tbody>
                       </table>
                     </div>
-                  </tip-box>
+                  </box>
                   <p>After repeated attempts at solving such problems, better solutions are discovered and refined over time. These solutions are known as design patterns, <strong>a term popularized by the seminal book</strong> <a href="https://en.wikipedia.org/wiki/Design_Patterns"><strong><em>Design Patterns: Elements of Reusable Object-Oriented Software</em> by the so-called &quot;Gang of Four&quot; (GoF)</strong></a> written by Eric Gamma, Richard Helm, Ralph Johnson,and John Vlissides.</p>
                 </div>
               </div>
@@ -117,14 +117,14 @@
                   <p><strong>Problem</strong></p>
                   <p>A normal class can be instantiated multiple times by invoking the constructor.</p>
                   <p><strong>Solution</strong></p>
-                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed"> because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
-                  <tip-box>
+                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed">because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
+                  <box>
                     <p>Example:</p>
                     <p>
                       <pic src="/website/book/designPatterns/singleton/what/images/singleton.png"></pic>
                     </p>
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -202,20 +202,20 @@
                 <div>
                   <p><strong>Context</strong></p>
                   <p>Components need to access functionality deep inside other components.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>UI</code> component of a <code>Library</code> system might want to access functionality of the <code>Book</code> class contained inside the <code>Logic</code> component.</p>
                     <img src="/website/book/designPatterns/facade/what/images/textBook.png" height="120">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p><strong>Problem</strong></p>
-                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed"> e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
+                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed">e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>Include a <tooltip content="a French word that means 'front of a building'">Façade</tooltip> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following class diagram applies the Façade pattern to the <code>Library System</code> example. The <code>LibraryLogic</code> class is the Facade class.</p>
                     <img src="/website/book/designPatterns/facade/what/images/textLibraryBook.png" height="120">
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
             </div>
@@ -235,15 +235,15 @@
                   <p><strong>Context</strong></p>
                   <p>A system is required to execute a number of commands, each doing a different task. For example, a system might have to support <code>Sort</code>, <code>List</code>, <code>Reset</code> commands.</p>
                   <p><strong>Problem</strong></p>
-                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed"> e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
+                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed">e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>The essential element of this pattern is to have a general <code>&lt;&lt;Command&gt;&gt;</code> object that can be passed around, stored, executed, etc without knowing the type of command (i.e. via polymorphism).</p>
                   <p>Let us examine an example application of the pattern first:</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example solution below, the <code>CommandCreator</code> creates <code>List</code>, <code>Sort</code>, and <code>Reset Command</code> objects and adds them to the <code>CommandQueue</code> object. The <code>CommandQueue</code> object treats them all as <code>Command</code> objects and performs the execute/undo operation on each of them without knowledge of the specific <code>Command</code> type. When executed, each <code>Command</code> object will access the <code>DataStore</code> object to carry out its task. The <code>Command</code> class can also be an abstract class or an interface.</p>
                     <img src="/website/book/designPatterns/command/what/images/commandCreator.png" height="150">
                     <p></p>
-                  </tip-box>
+                  </box>
                   <p>The general form of the solution is as follows.</p>
                   <img src="/website/book/designPatterns/command/what/images/clientInvoker.png" height="200">
                   <p></p>
@@ -278,12 +278,12 @@
                   <p>The relationship between the components can be observed in the diagram below. Typically, the UI is the combination of view and controller.</p>
                   <img src="/website/book/designPatterns/modelViewController/what/images/classDiagram.png" width="400">
                   <p></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is a concrete example of MVC applied to a student management system. In this scenario, the user is retrieving data of one student.</p>
                     <img src="/website/book/designPatterns/modelViewController/what/images/sequenceDiagram.png" width="500">
                     <p></p>
                     <p>In the diagram above, when the user clicks on a button using the UI, the ‘click’ event is caught and handled by the <code>UiController</code>. The <code>ref</code> frame indicates that the interactions within that frame have been extracted out to another separate sequence diagram.</p>
-                  </tip-box>
+                  </box>
                   <p>Note that in a simple UI where there’s only one view, Controller and View can be combined as one class.</p>
                   <p>There are many variations of the MVC model used in different domains. For example, the one used in a desktop GUI could be different from the one used in a Web application.</p>
                 </div>
@@ -304,7 +304,7 @@
                 <div>
                   <p><strong>Context</strong></p>
                   <p>An object (possibly, more than one) is interested to get notified when a change happens to another object. That is, some objects want to ‘observe’ another object.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
                     <img src="/website/book/designPatterns/observer/what/images/sequenceDiagram.png" height="330">
                     <p></p>
@@ -317,14 +317,14 @@
                     <img src="/website/book/designPatterns/observer/what/images/studentListUI.png" height="180">
                     <p></p>
                     <p>However, the <code>StudentList</code> object has no knowledge about <code>StudentListUi</code> and <code>StudentStatsUi</code> (note the direction of the navigability) and has no way to inform those objects. This is an example of the type of problem addressed by the Observer pattern.</p>
-                  </tip-box>
+                  </box>
                   <p><strong>Problem</strong></p>
                   <p>The ‘observed’ object does not want to be coupled to objects that are ‘observing’ it.</p>
                   <p><strong>Solution</strong></p>
                   <p>Force the communication through an interface known to both parties.</p>
                   <img src="/website/book/designPatterns/observer/what/images/studentListObserver.png" height="160">
                   <p></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the Observer pattern applied to the student management system.</p>
                     <p><strong>During the initialization of the system,</strong></p>
                     <ol>
@@ -373,7 +373,7 @@ studentList.addUi(statusUi);
                         <p>Note that <code>StudentList</code> is unaware of the exact nature of the two UIs but still manages to communicate with them via an intermediary.</p>
                       </li>
                     </ol>
-                  </tip-box>
+                  </box>
                   <p>Here is the generic description of the observer pattern:</p>
                   <img src="/website/book/designPatterns/observer/what/images/observableInterfaceDiagram.png" height="100">
                   <p></p>
@@ -394,7 +394,7 @@ studentList.addUi(statusUi);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 29 Jul 2019 14:30:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -16,13 +16,13 @@
           <li><strong>Refactoring is not rewriting</strong>: Discarding poorly-written code entirely and re-writing it from scratch is not refactoring because refactoring needs to be done in small steps.</li>
           <li><strong>Refactoring is not bug fixing</strong>: By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior (e.g. adding a feature) of the component in concern.</li>
         </ul>
-        <tip-box>
-          <p>💡 Improving code structure can have many secondary benefits: e.g.</p>
+        <box>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Improving code structure can have many secondary benefits: e.g.</p>
           <ul>
             <li>hidden bugs become easier to spot</li>
             <li>improve performance (sometimes, simpler code runs faster than complex code because simpler code is easier for the compiler to optimize).</li>
           </ul>
-        </tip-box>
+        </box>
         <p>Given below are two common refactorings (<trigger trigger="click" for="modal:refactoring-catalog-what">more</trigger>).</p>
         <modal title="**Refactoring Catalogs**" id="modal:refactoring-catalog-what">
           <div>
@@ -34,7 +34,7 @@
             </div>
           </div>
         </modal>
-        <tip-box>
+        <box>
           <p>Refactoring Name: <strong>Consolidate Duplicate Conditional Fragments</strong></p>
           <p>Situation: The same fragment of code is in all branches of a conditional expression.</p>
           <p>Method: Move it outside of the expression.</p>
@@ -99,8 +99,8 @@ send()
               </div>
             </div>
           </div>
-        </tip-box>
-        <tip-box>
+        </box>
+        <box>
           <p>Refactoring Name: <strong>Extract Method</strong></p>
           <p>Situation: You have a code fragment that can be grouped together.</p>
           <p>Method: Turn the fragment into a method whose name explains the purpose of the method.</p>
@@ -152,8 +152,8 @@ send()
               </div>
             </div>
           </div>
-        </tip-box>
-        <p>💡 Some IDEs have built in support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.</p>
+        </box>
+        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Some IDEs have built in support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.</p>
         <p>
           <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Refactoring, even if done with the aid of an IDE, may still result in regressions. Therefore, each small refactoring should be followed by regression testing.
         </p>

@@ -92,15 +92,14 @@
       "headings": {
         "e-using-github": "E: Using GitHub ",
         "creating-a-github-account": "Creating a GitHub account",
-        "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
-        "submitting-pull-requests-as-evidence-of-learning-a-topic": "Submitting Pull Requests as evidence of learning a topic",
         "organization-setup": "Organization setup",
         "repo-setup": "Repo setup",
         "workflow": "Workflow",
         "issue-tracker-setup": "Issue tracker setup",
         "project-schedule-tracking": "Project Schedule Tracking",
         "using-issues": "Using Issues:",
-        "using-milestones": "Using Milestones:"
+        "using-milestones": "Using Milestones:",
+        "setting-git-username-to-match-github-username-2": "Setting Git Username to Match GitHub Username"
       },
       "title": "Admin: E: Using GitHub",
       "header": "header.md",
@@ -331,13 +330,18 @@
     {
       "headings": {
         "project-scope": "Project: Scope  | project expectations",
+        "project-phases": "Project phases",
+        "phase-1": "Phase 1",
+        "phase-2": "Phase 2",
         "project-direction": "Project Direction",
+        "target-user-profile-and-value-proposition": "Target user profile and value proposition",
         "individual-expectations": " Individual Expectations",
         "individual-expectations-on-features": "[Individual] Expectations on Features",
-        "individual-expectations-on-code": "[Individual] Expectations on Code",
+        "individual-expectations-on-lines-of-code": "[Individual] Expectations on Lines of Code",
         "individual-expectations-on-documentation": "[Individual] Expectations on Documentation",
         "individual-expectations-on-testing": "[Individual] Expectations on Testing",
         "individual-expectations-on-teamwork": "[Individual] Expectations on Teamwork",
+        "individual-roles-and-responsibilities": "[Individual] Roles and responsibilities",
         "team-expectations": " Team Expectations"
       },
       "title": "Admin: Project: Scope",
@@ -386,7 +390,10 @@
     },
     {
       "headings": {
-        "project-warmup-week-2": "Project: warmup [week 2] "
+        "project-warmup-week-2": "Project: warmup [week 2] ",
+        "set-up-prerequisites": "Set up prerequisites",
+        "set-up-the-project-in-your-computer": "Set up the project in your computer",
+        "implement-increments-while-committing-code-frequently": "Implement increments while committing code frequently"
       },
       "title": "Admin: Project: warmup [week 2]",
       "header": "header.md",
@@ -844,7 +851,6 @@
     },
     {
       "headings": {
-        "using-reposense": "Using RepoSense",
         "tools": "Tools "
       },
       "title": "Admin: Tools",
@@ -1088,11 +1094,13 @@
         "loops": "Loops",
         "if-else-statements": "if-else statements",
         "switch-statements": "switch statements",
+        "key-exercise-getgradecap-method": " [Key Exercise] getGradeCap Method",
         "defining-methods": "Defining methods",
         "parameters": "Parameters",
         "return-statements": "return statements",
         "overloading": "Overloading",
         "recursion": "Recursion",
+        "key-exercise-getmultiplegradecaps-method": " [Key Exercise] getMultipleGradeCaps Method",
         "while-loops": "while loops",
         "for-loops": "for loops",
         "do-while-loops": "do-while loops",
@@ -1103,16 +1111,22 @@
         "instance-members": "Instance Members",
         "passing-objects": "Passing Objects",
         "garbage-collection": "Garbage Collection",
+        "key-exercise-create-rectangle-objects": " [Key Exercise] create Rectangle objects",
         "importing": "importing",
         "new-operator": "new operator",
+        "key-exercise-use-rectangle-objects": " [Key Exercise] use Rectangle objects",
+        "key-exercise-pass-objects-to-move-method": " [Key Exercise] pass objects to move method",
         "null-and-nullpointerexception": "null and NullPointerException",
         "java-objects": "Java Objects",
         "defining-classes": "Defining Classes",
         "getters-and-setters": "Getters and Setters",
         "class-level-members": "Class-Level Members",
+        "key-exercise-define-a-circle-class": " [Key Exercise] define a Circle class",
         "constructos": "Constructos",
         "this-keyword": "this keyword",
         "instance-methods": "Instance methods",
+        "key-exercise-add-getters-setters-to-the-circle-class": " [Key Exercise] add getters/setters to the Circle class",
+        "key-exercise-add-getmaxradius-to-the-circle-class": " [Key Exercise] add getMaxRadius to the Circle class",
         "java-classes": "Java Classes",
         "java-api": "Java API",
         "the-string-class": "The String Class",
@@ -1955,7 +1969,7 @@
         "a-codequality": "A-CodeQuality",
         "a-assertions": "A-Assertions",
         "a-jar": "A-Jar",
-        "a-gradle": "A-Gradle",
+        "a-gradle-4": "A-Gradle",
         "a-travis": "A-Travis",
         "a-enums": "A-Enums",
         "a-varargs": "A-Varargs",

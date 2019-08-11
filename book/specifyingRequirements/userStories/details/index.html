@@ -43,41 +43,45 @@
                 <div id="main">
                   <div>
                     <p><strong>The <code>{benefit}</code> can be omitted</strong> if it is obvious.</p>
-                    <tip-box>
-                      <p>As a user, I can login to the system <s>so that I can access my data</s></p>
-                    </tip-box>
-                    <p>💡 It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.</p>
+                    <box>
+                      <div class="text-monospace">
+                        <p>As a user, I can login to the system <s>so that I can access my data</s></p>
+                      </div>
+                    </box>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.</p>
                     <p>You can add more characteristics to the <code>{user role}</code> to provide more context to the user story.</p>
-                    <tip-box>
-                      <ul>
-                        <li>As a <mark>forgetful</mark> user, I can view a password hint, so that I can recall my password.</li>
-                        <li>As an <mark>expert</mark> user, I can tweak the underlying formatting tags of the document, so that I can format the document exactly as I need.</li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <ul>
+                          <li>As a <mark>forgetful</mark> user, I can view a password hint, so that I can recall my password.</li>
+                          <li>As an <mark>expert</mark> user, I can tweak the underlying formatting tags of the document, so that I can format the document exactly as I need.</li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>You can write user stories at various levels</strong>. High-level user stories, called <mark><em>epics</em></mark> (or <em>themes</em>) cover bigger functionality. You can then break down these epics to multiple user stories of normal size.</p>
-                    <tip-box>
-                      <p>[Epic] As a lecturer, I can monitor student participation levels</p>
-                      <ul>
-                        <li>As a lecturer, I can view the forum post count of each student
-                          so that I can identify the activity level of students in the forum</li>
-                        <li>As a lecturer, I can view webcast view records of each student
-                          so that I can identify the students who did not view webcasts</li>
-                        <li>As a lecturer, I can view file download statistics of each student
-                          so that I can identify the students who do not download lecture materials</li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <p>[Epic] As a lecturer, I can monitor student participation levels</p>
+                        <ul>
+                          <li>As a lecturer, I can view the forum post count of each student<br>
+                            so that I can identify the activity level of students in the forum</li>
+                          <li>As a lecturer, I can view webcast view records of each student<br>
+                            so that I can identify the students who did not view webcasts</li>
+                          <li>As a lecturer, I can view file download statistics of each student<br>
+                            so that I can identify the students who do not download lecture materials</li>
+                        </ul>
+                      </div>
+                    </box>
                     <p><strong>You can add <em>conditions of satisfaction</em> to a user story</strong> to specify things that need to be true for the user story implementation to be accepted as ‘done’.</p>
-                    <tip-box>
-                      <ul>
-                        <li><em>As a</em> lecturer, <em>I can</em> view the forum post count of each student <em>so that</em> I can identify the activity level of students in the forum.</li>
-                      </ul>
-                      <p>Conditions:</p>
-                      <ul class="task-list">
-                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Separate post count for each forum should be shown</li>
-                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Total post count of a student should be shown</li>
-                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> The list should be sortable by student name and post count</li>
-                      </ul>
-                    </tip-box>
+                    <box>
+                      <div class="text-monospace">
+                        <p><em>As a</em> lecturer, <em>I can</em> view the forum post count of each student <em>so that</em> I can identify the activity level of students in the forum.</p>
+                        <p>Conditions:</p>
+                        <p><span aria-hidden="true" class="far fa-check-square"></span> Separate post count for each forum should be shown<br>
+                          <span aria-hidden="true" class="far fa-square"></span> Total post count of a student should be shown<br>
+                          <span aria-hidden="true" class="far fa-check-square"></span> The list should be sortable by student name and post count</p>
+                      </div>
+                    </box>
                     <p><strong>Other useful info that can be added to a user story</strong> includes (but not limited to)</p>
                     <ul>
                       <li>Priority: how important the user story is</li>
@@ -86,29 +90,31 @@
                     </ul>
                     <span class="non-printable">
                       <panel minimized>
-                        <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary">tangential</span></span>
+                        <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                         <p>User stories for a travel website (credit: Mike Cohen)</p>
-                        <tip-box>
-                          <ul>
-                            <li>As a registered user, I am required to log in so that I can access the system</li>
-                            <li>As a forgetful user, I can request a password reminder so that I can log in if I forget mine</li>
-                            <li>[Epic] As a user, I can cancel a reservation
-                              <ul>
-                                <li>As a premium site member, I can cancel a reservation up to the last minute</li>
-                                <li>As a non-premium member, I can cancel up to 24 hours in advance</li>
-                                <li>As a member, I am emailed a conﬁrmation of any cancelled reservation</li>
-                              </ul>
-                            </li>
-                            <li>[Epic] As a frequent ﬂyer, I want to book a trip
-                              <ul>
-                                <li>As a frequent ﬂyer, I want to book a trip using miles</li>
-                                <li>As a frequent ﬂyer, I want to rebook a trip I take often</li>
-                                <li>As a frequent ﬂyer, I want to request an upgrade</li>
-                                <li>As a frequent ﬂyer, I want to see if my upgrade cleared</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </tip-box>
+                        <box>
+                          <div class="text-monospace">
+                            <ul>
+                              <li>As a registered user, I am required to log in so that I can access the system</li>
+                              <li>As a forgetful user, I can request a password reminder so that I can log in if I forget mine</li>
+                              <li>[Epic] As a user, I can cancel a reservation
+                                <ul>
+                                  <li>As a premium site member, I can cancel a reservation up to the last minute</li>
+                                  <li>As a non-premium member, I can cancel up to 24 hours in advance</li>
+                                  <li>As a member, I am emailed a conﬁrmation of any cancelled reservation</li>
+                                </ul>
+                              </li>
+                              <li>[Epic] As a frequent ﬂyer, I want to book a trip
+                                <ul>
+                                  <li>As a frequent ﬂyer, I want to book a trip using miles</li>
+                                  <li>As a frequent ﬂyer, I want to rebook a trip I take often</li>
+                                  <li>As a frequent ﬂyer, I want to request an upgrade</li>
+                                  <li>As a frequent ﬂyer, I want to see if my upgrade cleared</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </box>
                       </panel>
                     </span>
                   </div>

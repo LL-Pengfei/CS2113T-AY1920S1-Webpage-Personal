@@ -34,26 +34,29 @@
             <div>
               <div></div>
               <p></p>
-              <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                    </span></strong></span></p>
+              <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
               <div id="title-and-body">
                 <div>
                   <h4 id="dependency-inversion-principle"><span>Dependency Inversion Principle</span><a class="fa fa-anchor" href="#dependency-inversion-principle"></a></h4>
                 </div>
                 <div id="main">
                   <div>
-                    <p>The <em>Dependency Inversion Principle</em> states that,</p>
-                    <ol>
-                      <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
-                      <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
-                    </ol>
-                    <tip-box>
+                    <box type="definition">
+                      <div>
+                        <p><strong>Dependency Inversion Principle</strong>:</p>
+                        <ol>
+                          <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
+                          <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
+                        </ol>
+                      </div>
+                    </box>
+                    <box>
                       <p>Example:</p>
                       <img src="/website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
                       <p></p>
                       <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface (note that inheritance is a dependency).</p>
                       <p>Design (b) is more flexible (and less coupled) because now the <code>Payroll</code> class need not change when the <code>Employee</code> class changes.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>

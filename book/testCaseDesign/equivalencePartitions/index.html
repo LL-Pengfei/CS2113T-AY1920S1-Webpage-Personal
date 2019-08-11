@@ -49,19 +49,19 @@
                       <p></p>
                       <div>
                         <p>Consider the testing of the following operation.</p>
-                        <tip-box>
+                        <box>
                           <div id="isValidMonth">
                             <p><code>isValidMonth(m)</code> : returns <code>true</code> if <code>m</code> (and <code>int</code>) is in the range [1..12]</p>
                           </div>
-                        </tip-box>
+                        </box>
                         <p>It is inefficient and impractical to test this method for all integer values <code>[-MIN_INT to MAX_INT]</code>. Fortunately, there is no need to test all possible input values. For example, if the input value <code>233</code> failed to produce the correct result, the input <code>234</code> is likely to fail too; there is no need to test both.</p>
                         <p>In general, <strong>most SUTs do not treat each input in a unique way. Instead, they process all possible inputs in a small number of distinct ways.</strong> That means a range of inputs is treated the same way inside the SUT.
                           <strong><em>Equivalence partitioning (EP)</em> is a test case design technique that uses the above observation to improve the E&amp;E of testing.</strong></p>
-                        <tip-box type="definition">
+                        <box type="definition">
                           <div>
                             <p><strong>Equivalence partition (aka equivalence class)</strong>: A group of test inputs that are likely to be processed by the SUT in the same way.</p>
                           </div>
-                        </tip-box>
+                        </box>
                         <p><strong>By dividing possible inputs into equivalence partitions we can,</strong></p>
                         <ul>
                           <li><strong>avoid testing too many inputs from one partition.</strong> Testing too many inputs from the same partition is unlikely to find new bugs. This increases the efficiency of testing by reducing redundant test cases.</li>
@@ -86,14 +86,14 @@
                       <p></p>
                       <div>
                         <p><strong>Equivalence partitions (EPs) are usually derived from the specifications of the SUT.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> These could be EPs for the <trigger for="pop:epBasic-isValidMonth">isValidMonth</trigger> example:</p>
                           <ul>
                             <li>[MIN_INT ... 0] : <strong>below</strong> the range that produces <code>true</code> (produces <code>false</code>)</li>
                             <li>[1 … 12] : the range that produces <code>true</code></li>
                             <li>[13 … MAX_INT] : <strong>above</strong> the range that produces <code>true</code> (produces <code>false</code>)</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <popover id="pop:epBasic-isValidMonth" title="`isValidMonth`" placement="top">
                           <div slot="content">
                             <div>
@@ -102,7 +102,7 @@
                           </div>
                         </popover>
                         <p>When the SUT has multiple inputs, you should identify EPs for each input.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>duplicate(String s, int n): String</code> which returns a <code>String</code> that contains <code>s</code> repeated <code>n</code> times.</p>
                           <p>Example EPs for <code>s</code>:</p>
                           <ul>
@@ -116,29 +116,29 @@
                             <li>negative values</li>
                             <li>...</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p>An EP may not have adjacent values.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>isPrime(int i): boolean</code> that returns true if <code>i</code> is a prime number.</p>
                           <p>EPs for <code>i</code>:</p>
                           <ul>
                             <li>prime numbers</li>
                             <li>non-prime numbers</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p>Some inputs have only a small number of possible values and a potentially unique behavior for each value. In those cases we have to consider each value as a partition by itself.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>showStatusMessage(GameStatus s): String</code> that returns a unique <code>String</code> for each of the possible value of s (<code>GameStatus</code> is an <code>enum</code>). In this case, each possible value for <code>s</code> will have to be considered as a partition.</p>
-                        </tip-box>
+                        </box>
                         <p>Note that the EP technique is merely a heuristic and not an exact science, especially when applied manually (as opposed to using an automated program analysis tool to derive EPs). The partitions derived depend on how one ‘speculates’ the SUT to behave internally. Applying EP under a glass-box or gray-box approach can yield more precise partitions.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method EPs given above for the <code>isValidMonth</code>. A different tester might use these EPs instead:</p>
                           <ul>
                             <li>[1 … 12] : the range that produces <code>true</code></li>
                             <li>[all other integers] : the range that produces <code>false</code></li>
                           </ul>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more examples:</p>
                           <table class="table">
                             <tr>
@@ -165,7 +165,7 @@
                               </td>
                             </tr>
                           </table>
-                        </tip-box>
+                        </box>
                       </div>
                       <div>
                         <div>
@@ -174,10 +174,10 @@
                               <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EPs for `isValidName` method">
                                 <question>
                                   <p>Consider this SUT:</p>
-                                  <tip-box>
+                                  <box>
                                     <p><code>isValidName (String s): boolean</code></p>
                                     <p>Description: returns true if <code>s</code> is not <code>null</code> and not longer than 50 characters.</p>
-                                  </tip-box>
+                                  </box>
                                   <p>A. Which one of these is least likely to be an equivalence partition for the parameter s of the isValidName method given below?</p>
                                   <ul radio-group="4c6ed" class="radio-list">
                                     <li class="radio-list-item"><label><input class="radio-list-input" name="4c6ed" type="radio"> a. null.</label></li>
@@ -226,7 +226,7 @@
                           <li>input parameters of the method call</li>
                           <li>other data/objects accessed by the method such as global variables. This category may not be applicable if using the black box approach (because the test case designer using the black box approach will not know how the method is implemented)</li>
                         </ul>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this method in the <code>DataStack</code> class:
                             <code>push(Object o): boolean</code></p>
                           <ul>
@@ -245,8 +245,8 @@
                             <li><code>o</code>: [null] [not null]</li>
                             <li><code>FREEZE</code>: [true][false]</li>
                           </ul>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a simple Minesweeper app. What are the EPs for the <code>newGame()</code> method of the <code>Logic</code> component?</p>
                           <p>As <code>newGame()</code> does not have any parameters, the only obvious participant is the <code>Logic</code> object itself.</p>
                           <p>Note that if the glass-box or the grey-box approach is used, other associated objects that are involved in the method might also be included as participants. For example, <code>Minefield</code> object can be considered as another participant of the <code>newGame()</code> method. Here, the black-box approach is assumed.</p>
@@ -257,8 +257,8 @@
                             <li><code>IN_PLAY</code> : the current minefield is already in use</li>
                             <li><code>WON</code>, <code>LOST</code> : let us assume the <code>newGame</code> behaves the same way for these two values</li>
                           </ul>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the <code>Logic</code> component of the Minesweeper application. What are the EPs for the <code>markCellAt(int x, int y)</code> method?. The partitions in <strong>bold</strong> represent valid inputs.</p>
                           <ul>
                             <li><code>Logic</code>: PRE_GAME, <strong>READY</strong>, <strong>IN_PLAY</strong>, WON, LOST</li>
@@ -266,7 +266,7 @@
                             <li><code>y</code>: [MIN_INT..-1] <strong>[0..(H-1)]</strong> [H..MAX_INT]</li>
                             <li><code>Cell</code> at <code>(x,y)</code>: <strong>HIDDEN</strong>, MARKED, CLEARED</li>
                           </ul>
-                        </tip-box>
+                        </box>
                       </div>
                       <div></div>
                     </div>

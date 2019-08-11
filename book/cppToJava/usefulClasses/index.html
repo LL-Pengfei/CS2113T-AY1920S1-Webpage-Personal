@@ -251,7 +251,7 @@ System.out.println(s1.equalsIgnoreCase(s2)); <span class="hljs-comment">//true</
 Second &quot;line&quot;
 </code></pre>
                           </box>
-                          <p>💡 As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
                           <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>System.lineSeparator()</code> to print a line break.</p>
                             <pre><code class="hljs java">System.out.println(<span class="hljs-string">"First line"</span> + System.lineSeparator() + <span class="hljs-string">"Second line"</span>);
@@ -296,7 +296,7 @@ Second line
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
@@ -309,7 +309,7 @@ Second line
                                       <li>The <code>name</code> part of the input can have trailing/leading spaces which should be omitted from the output.<br>
                                         e.g., <code>banana --$3/50</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>BANANA: 3.50</code></li>
                                     </ul>
-                                    <p>💡 Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
+                                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
 
@@ -398,7 +398,7 @@ System.out.println(i);
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method">
@@ -426,7 +426,7 @@ System.out.println(i);
 109
 </code></pre>
                                     <div slot="hint">
-                                      <p>💡 You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
+                                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTotalScore</span><span class="hljs-params">(String[] values)</span></span>{
     <span class="hljs-keyword">int</span> total = <span class="hljs-number">0</span>;
@@ -479,7 +479,7 @@ System.out.println(Arrays.toString(c));
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
@@ -536,7 +536,7 @@ System.out.println(Arrays.toString(c));
                                         </li>
                                         <li><strong><code>printItems(String[] items)</code></strong>
                                           <ul>
-                                            <li>💡 You can use the <code>Arrays.toString()</code> method for this.</li>
+                                            <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>Arrays.toString()</code> method for this.</li>
                                           </ul>
                                         </li>
                                       </ul>
@@ -613,12 +613,12 @@ System.out.print(<span class="hljs-string">"What is your name? "</span>);
 String name = in.nextLine();
 System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, age);
 </code></pre>
-                          <p>💡 Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note the <a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html">use of <code>printf</code> method for formatting the output</a>.</p>
                         </box>
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                             <div>
                               <div>
                                 <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
@@ -657,14 +657,14 @@ Total in local currency: $17.00
     }
 }
 </code></pre>
-                                    <p>💡 You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
+                                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use the <code>split</code> method of the <code>String</code> class to convert a sentence into an array of words. e.g.,<br></p>
                                     <pre><code class="hljs java">String sentence = <span class="hljs-string">"hello my dear"</span>;
 String[] words = sentence.split(<span class="hljs-string">" "</span>); <span class="hljs-comment">// split using the space as the delimiter</span>
 System.out.println(Arrays.toString(words));
 </code></pre>
                                     <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
                                     <div slot="hint">
-                                      <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
+                                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
                                         e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
                                       <panel type="seamless" header="Partial solution">
                                         <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;

@@ -47,7 +47,7 @@
                 <div id="main">
                   <div>
                     <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -72,12 +72,12 @@
                             <tr>
                               <td><code>read():String</code></td>
                               <td><code>read(int):String</code></td>
-                              <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
+                              <td>No. <span class="dimmed">Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <modal title="**Overloading**" id="modal:overriding-overloading">
+                      <modal large title="**Overloading**" id="modal:overriding-overloading">
                         <div>
                           <div></div>
                           <p></p>
@@ -90,10 +90,11 @@
                             <div id="main">
                               <div>
                                 <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                                <tip-box type="primary">
+                                <box type="definition">
                                   <div>
                                     <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                    <panel type="seamless" header="%%Examples%%">
+                                    <box>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                       <div class="table-responsive">
                                         <table class="markbind-table table table-bordered table-striped">
                                           <thead>
@@ -122,23 +123,23 @@
                                           </tbody>
                                         </table>
                                       </div>
-                                    </panel>
+                                    </box>
                                   </div>
-                                </tip-box>
-                                <tip-box>
+                                </box>
+                                <box>
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                   <ul>
                                     <li><code>calculate(String): void</code></li>
                                     <li><code>calculate(int): void</code></li>
                                   </ul>
-                                </tip-box>
+                                </box>
                               </div>
                               <div></div>
                             </div>
                           </div>
                         </div>
                       </modal>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>

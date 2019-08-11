@@ -1,17 +1,20 @@
 {% macro show_main_text() %} 
 <div id="main">
 
-<big><p class="lead text-secondary">A balanced, iterative, and brown-field introduction to Software Engineering...</p></big>
+<big><p class="lead text-secondary">A balanced and iterative introduction to Software Engineering...</p></big>
 
 <img src="{{baseUrl}}/images/growingPlant.png" width="700">
 
-<p class="lead"><md>{{ module_pair }} is an introductory Software Engineering module. It covers roughly **a 50-50 balance of basic SE theory and practice** that a student needs to know before going for SE internships in the industry or taking <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially">**iterative approach**</tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. The module is notable as one of the rare SE modules that takes a <tooltip content="getting students to learn SE by workin on existing software, as opposed to the green-field approach of getting students to build something from scratch">**brown-field approach** to teaching SE</tooltip>.</md></p>
+<p class="lead"><md>{{ module_pair }} is an introductory Software Engineering module. The module covers the essentials of Object-oriented programming in addition to SE. It covers roughly **a 50-50 balance of basic SE theory and practice** that a student needs to know before going for SE internships in the industry or taking <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially">**iterative approach**</tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. </md></p>
 
 On the theory side, this module is supported by a customized online textbook [_Software Engineering for Self-Directed Learners_]({{ baseUrl }}/se-book-adapted/index.html), integrated into this module website.
 
-[<img src="{{baseUrl}}/admin/images/timeline.png" width="100%">](images/timeline.png)
+<!-- [<img src="{{baseUrl}}/admin/images/timeline.png" width="100%">](images/timeline.png) -->
 
-The practice side of this module is mainly covered by a team project. Students are expected to take over an existing project [AddressBook-Level3 (AB3)](https://se-edu.github.io/addressbook-level3/) or [AddressBook-Level4 (AB4)](https://se-edu.github.io/addressbook-level4/) -- a relatively small yet non-trivial (10 KLoC) generic product -- and enhance it into a better product or evolve it into a different product. To help students tackle the learning curve of working with 10 KLoC of code, the module takes them through a series of projects of increasing size, from AddressBook-Level1(1 KLoC) to AddressBook-Level3(4 KLoC).
+The practice side of this module is mainly covered by a team project that runs in two phases. The first phase provides opportunities to familiarize with Java programming and OOP. In the second phase, students are expected to enhance the codebase of the first phase to either build a command line based personal assistant or evolve it into a different project.
+
+<!--
+take over an existing project [AddressBook-Level3 (AB3)](https://se-edu.github.io/addressbook-level3/) or [AddressBook-Level4 (AB4)](https://se-edu.github.io/addressbook-level4/) -- a relatively small yet non-trivial (10 KLoC) generic product -- and enhance it into a better product or evolve it into a different product. To help students tackle the learning curve of working with 10 KLoC of code, the module takes them through a series of projects of increasing size, from AddressBook-Level1(1 KLoC) to AddressBook-Level3(4 KLoC). -->
 
 Given below is a summary of what the module covers and does not cover.
 

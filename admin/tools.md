@@ -27,6 +27,23 @@ See [Appendix E - Using GitHub](appendixE-gitHub.html) for more information.
 **Revision control**: You are ==_required to_ use Git==. Other revision control software are not allowed.  
 The recommended GUI client for Git is [SourceTree](https://www.sourcetreeapp.com/) (which comes bundled with Git), but you may use any other, or none.
 
+<box>
+
+**Install Git and a Git GUI client** on your computer.<br>
+  {{ icon_tip }} SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.
+
+<div id="git-username">
+
+**Set Git `user.name`**: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to ==set your Git `user.name` in all computers you use== to a sensible string that uniquely identify you. ==You can to GitHub username or as your Git username==. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.
+
+After installing Git in a computer, you can set the Git username as follows:
+1. Open a command window that can run Git commands (e.g., Git bash window)
+2. Run the command `git config --global user.name YOUR_GITHUB_USERNAME` (omit the `--global` flag to limit the setting to the current repo repo)<br>
+   e.g., `git config --global user.name JohnDoe` or from within the repo `git config user.name JohnDoe`
+
+More info about setting Git username is [here](https://help.github.com/articles/setting-your-username-in-git/).
+
+</box>
 
 </div>
 

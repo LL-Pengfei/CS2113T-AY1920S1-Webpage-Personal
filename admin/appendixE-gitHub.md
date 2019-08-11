@@ -24,56 +24,6 @@ Create a personal GitHub account if you don't have one yet.
 
 </div>
 
-<div id="git-username">
-
-## Setting Git Username to Match GitHub Username
-
-We use various tools to analyze your code. ==For us to be able to identify your commits, you should use the GitHub username as your Git username as well. If there is a mismatch, or if you use multiple user names for Git,== our tools might miss some of your work and as a result you might not get credit for some of your work.
-
-In each Computer you use for coding, after installing Git, you should set the Git username as follows.
-
-1. Open a command window that can run Git commands (e.g., Git bash window)
-2. Run the command `git config --global user.name YOUR_GITHUB_USERNAME`<br>
-   e.g., `git config --global user.name JohnDoe`
-   
-More info about setting Git username is [here](https://help.github.com/articles/setting-your-username-in-git/).
-
-</div>
-<div id="tutorial-pr-instructions">
-
-## Submitting Pull Requests as evidence of learning a topic
-
-1. Fork the repo to your personal GitHub account, if you haven't done so already.
-
-2. Create a branch named after the topic ID e.g. `W2.2b`
-    ==Remember to switch to master branch before creating the new branch.==
-    
-3. Commit your changes to that branch. Push to your fork.
-
-4. Create a Pull Request against the `master` branch of the repo
-   `{{module_org}}/{repo_name}`  
-   e.g. `{{module_org}}/addressbook-level2`
-   ==(do not create PRs against the upstream repo at `se-edu` org)== <br/> 
-   <img src="{{baseUrl}}/admin/images/PrDetails.png" width="700" /><br/>
-   PR name should be: `[Topic_ID][TEAM_ID]Your Name`  
-   e.g. If you are in tutorial M11 (i.e. Monday 11am) and team 1, `[W2.2b][M11-1]John Doe`.
-   Your Team ID can be found in [this page]({{ team_IDs_page }}).
-   Note that our tutorial IDs are different from those shown in CORS/IVLE. Our tutorial IDs are given in the panel below.
-
-<div class="indented-level2">
-{{ embed_topic("../admin/tutorials.md#tutorialTimetable", "Admin " + icon_embedding + " Tutorials → Tutorial Timetable", "apdxE-tutrialIds", "4") }}
-</div>
-
-5. Check the 'Files Changed' tab on GitHub to confirm the PR contains intended changes only.<br/> 
-    ![](images/FilesChangedTab.png)
-    
-6. If the content of the PR is not as you expected, you can fix those problems in your local repo, commit, and push those new commits to the fork. The PR content will update automatically to match new commits. Alternatively, you can close that PR and create a new one with the correct content.
-    
-7. ==If your PR adapted/referred code from elsewhere== (e.g. a stackoverflow post or a classmate's PR -- which is allowed, even encouraged), acknowledge the source in your PR description text. e.g. `Some code adapted from #2431 (I followed the same technique for parsing user command)`
-
-8. If the PR is not ready for review yet, add a comment `Work in progress`. When the PR is ready for review later, add a comment `Ready for review`  If there is no comment, we assume the PR is ready for review.
-
-</div>
 
 <div id="organization-setup">
 
@@ -294,6 +244,70 @@ We recommend you do proper milestone management starting from v1.2. ==Given belo
 </div>
 
 </div>
+
+<div id="git-username">
+
+## Setting Git Username to Match GitHub Username
+
+We use various tools to analyze your code. ==For us to be able to identify your commits, you should use the GitHub username as your Git username as well. If there is a mismatch, or if you use multiple user names for Git,== our tools might miss some of your work and as a result you might not get credit for some of your work.
+
+In each Computer you use for coding, after installing Git, you should set the Git username as follows.
+
+1. Open a command window that can run Git commands (e.g., Git bash window)
+2. Run the command `git config --global user.name YOUR_GITHUB_USERNAME`<br>
+   e.g., `git config --global user.name JohnDoe`
+   
+More info about setting Git username is [here](https://help.github.com/articles/setting-your-username-in-git/).
+
+</div>
+
+<div id="tutorial-pr-instructions">
+
+1. Create a branch named after the level.
+1. Commit your changes to that branch. Push to your fork.
+4. Create a Pull Request against the `master` branch of the repo
+   `{{module_org}}/{repo_name}` e.g. `{{module_org}}/duke`
+   
+</div>
+
+<!--
+<div id="tutorial-pr-instructions">
+
+## Submitting Pull Requests as evidence of learning a topic
+
+1. Fork the repo to your personal GitHub account, if you haven't done so already.
+
+2. Create a branch named after the topic ID e.g. `W2.2b`
+    ==Remember to switch to master branch before creating the new branch.==
+    
+3. Commit your changes to that branch. Push to your fork.
+
+4. Create a Pull Request against the `master` branch of the repo
+   `{{module_org}}/{repo_name}`  
+   e.g. `{{module_org}}/addressbook-level2`
+   ==(do not create PRs against the upstream repo at `se-edu` org)== <br/> 
+   <img src="{{baseUrl}}/admin/images/PrDetails.png" width="700" /><br/>
+   PR name should be: `[Topic_ID][TEAM_ID]Your Name`  
+   e.g. If you are in tutorial M11 (i.e. Monday 11am) and team 1, `[W2.2b][M11-1]John Doe`.
+   Your Team ID can be found in [this page]({{ team_IDs_page }}).
+   Note that our tutorial IDs are different from those shown in CORS/IVLE. Our tutorial IDs are given in the panel below.
+
+<div class="indented-level2">
+{{ embed_topic("../admin/tutorials.md#tutorialTimetable", "Admin " + icon_embedding + " Tutorials → Tutorial Timetable", "apdxE-tutrialIds", "4") }}
+</div>
+
+5. Check the 'Files Changed' tab on GitHub to confirm the PR contains intended changes only.<br/> 
+    ![](images/FilesChangedTab.png)
+    
+6. If the content of the PR is not as you expected, you can fix those problems in your local repo, commit, and push those new commits to the fork. The PR content will update automatically to match new commits. Alternatively, you can close that PR and create a new one with the correct content.
+    
+7. ==If your PR adapted/referred code from elsewhere== (e.g. a stackoverflow post or a classmate's PR -- which is allowed, even encouraged), acknowledge the source in your PR description text. e.g. `Some code adapted from #2431 (I followed the same technique for parsing user command)`
+
+8. If the PR is not ready for review yet, add a comment `Work in progress`. When the PR is ready for review later, add a comment `Ready for review`  If there is no comment, we assume the PR is ready for review.
+
+</div>
+
+-->
 
 </div>{% endmacro %}
 

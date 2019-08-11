@@ -10,13 +10,14 @@
 **Collaboration platform**: You are ==_required to_ use GitHub== as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.). See [Appendix E]({{baseUrl}}/admin/index.html#admin-appendixE-github) for more info on how to setup and use GitHub for your project.
 
 <box>
-Create a GitHub account (if you don't have one yet), as explained in the panel below.
+
+**Create a GitHub account** (if you don't have one yet), as explained in the panel below.
 
 {{ embed_topic("appendixE-gitHub.md#githubAccount", "Admin " + icon_embedding + " **Appendix E - GitHub: Creating an Account**", "-", "2") }}
 
 </box>
 
-**More info**: See [Appendix E - Using GitHub](appendixE-gitHub.html).
+See [Appendix E - Using GitHub](appendixE-gitHub.html) for more information.
 
 </div>
 

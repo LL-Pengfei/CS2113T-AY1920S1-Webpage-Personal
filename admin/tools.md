@@ -28,15 +28,18 @@ The recommended GUI client for Git is [SourceTree](https://www.sourcetreeapp.com
 
 
 </div>
+
 <div id="communication">
 
 **Communication**: Keeping a record of communications among your team can help you, and us, in many ways. We encourage you to do at least some of the project communication in written medium (e.g., GitHub Issue Tracker) to practice how to communicate technical things in written form.
- * Instead of the LumiNUS forum, we encourage you to ==post your questions/suggestions in this [github/nus{{ module }}-{{ semester }}/forum]({{module_org}}/forum/issues)==.
+ * We encourage you to ==post your questions/suggestions in this [github/nus{{ module }}-{{ semester }}/forum]({{module_org}}/forum/issues)==.
  * You can use our slack channel [{{slack_team}}]({{slack_team}}) for team communications. You need to ==join the slack channel== (you'll need to use an email address ending in `@nus.edu.sg`, `@comp.nus.edu.sg` or `@u.nus.edu`) to start using this channel).
- * Note that slack is useful for quick chats while issue tracker is useful for longer-running conversations.
+   * Note that slack is useful for quick chats while issue tracker is useful for longer-running conversations.
+   * All official communications from the teaching team will happen via the [github/nus{{ module }}-{{ semester }}/forum]({{module_org}}/forum/issues); the same will be linked to in LumiNUS announcements.
  * You are encouraged to use channels with a wider audience (i.e., the GitHub issue tracker) for module-related communication as much as possible, rather than private channels such as private slack/FB messages or direct emails. %%Rationale: more classmates can benefit from the discussions%%.
 
 </div>
+
 
 **IDE**: You are recommended to use [Intellij IDEA](https://www.jetbrains.com/idea/) for module-related programming work. You may use the community edition (free) or the ultimate edition (free for students). While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk. 
 

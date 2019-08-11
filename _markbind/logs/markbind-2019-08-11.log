@@ -1731,3 +1731,31 @@ Missing reference in D:\Teaching\CS2113\AY1920Sem1\website\schedule\week1\admin.
 2019-08-11T08:45:25.061Z - info: Deployed!
 2019-08-11T09:37:01.064Z - info: Website generation started at 5:37:00 PM
 2019-08-11T09:37:01.854Z - info: Building assets...
+2019-08-11T09:37:02.966Z - info: Assets built
+2019-08-11T09:37:02.970Z - info: Generating pages...
+2019-08-11T09:38:22.631Z - info: Pages built
+2019-08-11T09:38:41.765Z - info: Website generation complete! Total build time: 101.671s
+2019-08-11T09:38:41.766Z - info: Build success!
+2019-08-11T09:38:41.779Z - info: Site data built
+2019-08-11T09:39:04.836Z - info: Deployed!
+2019-08-11T09:39:42.629Z - info: Website generation started at 5:39:41 PM
+2019-08-11T09:39:43.392Z - info: Building assets...
+2019-08-11T09:39:44.406Z - info: Assets built
+2019-08-11T09:39:44.407Z - info: Generating pages...
+2019-08-11T09:41:28.470Z - info: Pages built
+2019-08-11T09:41:46.415Z - info: Website generation complete! Total build time: 124.48s
+2019-08-11T09:41:46.451Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-11T09:41:46.451Z - info: Press CTRL+C to stop ...
+2019-08-11T09:41:46.469Z - info: Site data built
+2019-08-11T09:44:14.387Z - info: [5:44:14 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\week1\admin.md
+2019-08-11T09:44:15.389Z - info: Rebuilding affected source files
+2019-08-11T09:44:15.391Z - info: Rebuilding 1 pages
+2019-08-11T09:44:16.734Z - info: Pages rebuilt
+2019-08-11T09:44:16.741Z - info: Site data built
+2019-08-11T09:44:32.531Z - info: [5:44:32 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\week1\admin.md
+2019-08-11T09:44:33.534Z - info: Rebuilding affected source files
+2019-08-11T09:44:33.539Z - info: Rebuilding 1 pages
+2019-08-11T09:44:34.699Z - info: Pages rebuilt
+2019-08-11T09:44:34.709Z - info: Site data built
+2019-08-11T09:44:43.820Z - info: Website generation started at 5:44:43 PM
+2019-08-11T09:44:44.586Z - info: Building assets...

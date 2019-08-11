@@ -1,7 +1,7 @@
 {
   "baseUrl": "/website",
   "titlePrefix": "CS2113/T Website",
-  "theme": "bootswatch-lumen",
+  "theme": "bootswatch-cosmo",
   "ignore": [
     "_site/*",
     ".idea/*",

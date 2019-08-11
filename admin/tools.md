@@ -5,8 +5,29 @@
 
 **Learning Management System**: This module website is the main source of information for the module. In addition, we use LumiNUS for lecture webcasts and for admin matters %%(e.g., announcements, file submissions, grade book, ...)%%.
 
+<div id="github">
+
 **Collaboration platform**: You are ==_required to_ use GitHub== as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.). See [Appendix E]({{baseUrl}}/admin/index.html#admin-appendixE-github) for more info on how to setup and use GitHub for your project.
 
+<box>
+Create a GitHub account (if you don't have one yet), as explained in the panel below.
+
+{{ embed_topic("appendixE-gitHub.md#githubAccount", "Admin " + icon_embedding + " **Appendix E - GitHub: Creating an Account**", "-", "2") }}
+
+</box>
+
+**More info**: See [Appendix E - Using GitHub](appendixE-gitHub.html).
+
+</div>
+
+
+<div id="rcs">
+
+**Revision control**: You are ==_required to_ use Git==. Other revision control software are not allowed.  
+The recommended GUI client for Git is [SourceTree](https://www.sourcetreeapp.com/) (which comes bundled with Git), but you may use any other, or none.
+
+
+</div>
 <div id="communication">
 
 **Communication**: Keeping a record of communications among your team can help you, and us, in many ways. We encourage you to do at least some of the project communication in written medium (e.g., GitHub Issue Tracker) to practice how to communicate technical things in written form.

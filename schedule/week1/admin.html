@@ -81,688 +81,693 @@
         </ul>
         <p></p>
         <div id="additional">
-          <p><span class="dimmed">Admin info relevant to the week's will appear in this tab.</span></p>
-          <panel type="danger" header="**Admin <md>:glyphicon-log-in:</md> Using this website [essential info]** :glyphicon-star:" expandable>
-            <div>
-              <p>
-                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> The <span><a href="/website/index.html">Schedule page</a></span> is your main source of information for CS2113/T. You will need to refer to it weekly.
-              </p>
-              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> More details for the upcoming weeks will be added as the weeks progress. In general, <mark>information given for more than 1 week into the future should be treated as <em>tentative</em></mark>.</p>
-              <div>
-                <h3 id="browser-compatibility">Browser Compatibility<a class="fa fa-anchor" href="#browser-compatibility"></a></h3>
-                <p>Most of this will work on most mainstream Browsers, but <mark>embedded slides are best viewed using Chrome</mark>.</p>
-              </div>
-              <div>
-                <h3 id="information-layers">Information Layers<a class="fa fa-anchor" href="#information-layers"></a></h3>
-                <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
-                <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
-                <box>
-                  <panel header="Some less important info in a minimized panel" minimized>
-                    <p>Less important info</p>
-                    <p></p>
-                  </panel>
-                  <p></p>
-                  <panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
-                    <p>Less important info</p>
-                    <p></p>
-                  </panel>
-                  <p></p>
-                  <panel header="%%Some less important info in a panel%%">
-                    <p>Less important info</p>
-                    <p></p>
-                  </panel>
-                  <p></p>
-                </box>
-                <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
-                <box>
-                  <tabs>
-                    <tab header="<md>:far-file-alt:</md>">
-                      <p>Some textual description of X</p>
-                    </tab>
-                    <tab header="<md>:glyphicon-facetime-video:</md>">
-                      <p>Video describing X</p>
-                    </tab>
-                  </tabs>
-                </box>
-                <p><strong>Dotted underlines indicate <trigger for="pop:tooltip-example">tool tips</trigger></strong> (activated by hovering over it) and <strong>dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger></strong> (activated by clicking) containing additional information.</p>
-                <popover id="pop:tooltip-example" title="Tooltip Example" placement="top">
-                  <div slot="content">
-                    Additional information
-                  </div>
-                </popover>
-                <modal title="Modal Example" id="modal:modal-example">
-                  Additional information
-                </modal>
-              </div>
-              <p>This website <mark>uses a star rating system</mark> to indicate the priority level of contents.</p>
-              <div class="flat">
+          <box type="info">
+            <p>Admin info relevant to the week's will appear in this tab.</p>
+            <box>
+              <panel type="danger" header="**Admin <md>:glyphicon-log-in:</md> Using this website [essential info]** :glyphicon-star:" expandable>
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:usingThisWebsite-starRatingSystem">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Module Expectations → Star Rating System</trigger> ]</span></p>
-                </div>
-              </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " id="modal:usingThisWebsite-starRatingSystem">
-                  <div>
-                  <h4 id="star-rating-system">Star rating system<a class="fa fa-anchor" href="#star-rating-system"></a></h4>
-                  <div class="indented">
-                    <p class="lead"> Start with things that are rated one-star and progress to things with more stars. Things rated four stars are optional.
-                    </p>
-                    <p><strong>Star ratings for Learning Outcomes</strong> (and textbook sections):</p>
-                    <ul>
-                      <li>
-                        <p><strong>One-star topics</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: The topics you need to learn just to keep up with the module. We recommend you to <mark>learn these topics if you want to pass the module</mark> (i.e. up to a <strong>C</strong> grade).</p>
-                      </li>
-                      <li>
-                        <p><strong>Two-stars topics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>: Can get you up to a <strong>B+</strong>.</p>
-                      </li>
-                      <li>
-                        <p><strong>Three-stars topics</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Can get you up to an <strong>A</strong>.</p>
-                      </li>
-                      <li>
-                        <p><strong>Four-stars topics</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Can be useful for getting an <strong>A+</strong>, tutors positions, and getting into downstream SE modules that have competitive entry requirements (e.g., CS3281&amp;2, CS3217, CS3216). <mark>Four-star topics are not examinable</mark>. Omitting them will not affect your CAP (as A+ has the same CAP as an A grade)</p>
-                      </li>
-                      <li>
-                        <p>Topics marked with two <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> icons e.g., <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span> are relevant topoics you are expected have learned in prerequisite modules. They are given for reference, but are examinable. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. Four-star pre-requisite topics can be ignored without affecting CAP.</p>
-                      </li>
-                    </ul>
-                    <p><strong>Star ratings for other things</strong> e.g., admin info sections:</p>
-                    <ul>
-                      <li>The module uses a similar star rating system to indicate the importance of other info in this website. i.e., information rated as one-star are the most essential. <mark>Info rated four stars are non-essential and can be ignored</mark> without affecting your ability to follow the module.</li>
-                    </ul>
+                  <p>
+                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> The <span><a href="/website/index.html">Schedule page</a></span> is your main source of information for CS2113/T. You will need to refer to it weekly.
+                  </p>
+                  <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> More details for the upcoming weeks will be added as the weeks progress. In general, <mark>information given for more than 1 week into the future should be treated as <em>tentative</em></mark>.</p>
+                  <div>
+                    <h3 id="browser-compatibility">Browser Compatibility<a class="fa fa-anchor" href="#browser-compatibility"></a></h3>
+                    <p>Most of this will work on most mainstream Browsers, but <mark>embedded slides are best viewed using Chrome</mark>.</p>
                   </div>
-                </div>
-              </modal>
-              <p>
-                <panel src="/website/admin/moduleExpectations._include_.html#starRatingSystem" header="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " class="embedding" minimized fragment="starRatingSystem"></panel>
-              </p>
-            </div>
-          </panel>
-          <panel type="info" header="**Admin <md>:glyphicon-log-in:</md> Using this website [more info]** :glyphicon-star::glyphicon-star::glyphicon-star:" expandable>
-            <div>
-              <div name="Conventions Used">
-                <h3 id="conventions-used">Conventions Used<a class="fa fa-anchor" href="#conventions-used"></a></h3>
-                <h4 id="shorthand-headings">Shorthand Headings<a class="fa fa-anchor" href="#shorthand-headings"></a></h4>
-                <p>Meaning of some shortened headings:</p>
-                <ul>
-                  <li>
-                    <p><big><strong>What</strong></big> : the <strong>meaning</strong> of the concept in concern</p>
-                    <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html"></panel>
-                    </p>
-                  </li>
-                  <li>
-                    <p><big><strong>Why</strong></big> : the <strong>motivation</strong> behind the concept in concern</p>
-                    <p>
-                      <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html"></panel>
-                    </p>
-                  </li>
-                  <li>
-                    <p><big><strong>How</strong></big> : the <strong>usage</strong> of the concept in concern</p>
-                    <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html"></panel>
-                    </p>
-                  </li>
-                  <li>
-                    <p><big><strong>When</strong></big> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
-                    <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html"></panel>
-                    </p>
-                  </li>
-                </ul>
-                <h4 id="boxed-text-styles">Boxed-Text Styles<a class="fa fa-anchor" href="#boxed-text-styles"></a></h4>
-                <div class="indented">
-                  <box type="info">
-                    additional info
-                  </box>
-                  <box type="warning">
-                    warning
-                  </box>
-                  <box type="success">
-                    positive message
-                  </box>
-                  <box type="important">
-                    important message
-                  </box>
-                  <box type="wrong">
-                    an error to avoid
-                  </box>
-                  <box type="tip">
-                    tip
-                  </box>
-                  <box type="definition">
-                    definition
-                  </box>
-                </div>
-                <h4 id="meaning-of-icons">Meaning of Icons<a class="fa fa-anchor" href="#meaning-of-icons"></a></h4>
-                <div class="indented">
-                  <p><span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span> : tangential info, can be ignored if not interested<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
-                    <span><span aria-hidden="true" class="fas fa-trophy"></span></span> : learning outcomes<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : prerequisite learning outcome<br>
-                    <span><span aria-hidden="true" class="fas fa-cube"></span></span> : examples<br>
-                    <span><span aria-hidden="true" class="fas fa-paperclip"></span></span> : resources<br>
-                    <span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> : exercises<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> : printable version<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span> : preview/more info<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> : video<br>
-                    <smal><span class="badge badge-secondary">&gt;_</span></smal> : a command to be run in a terminal<br>
-                    <span><span aria-hidden="true" class="far fa-file-alt"></span></span> : textual description<br>
-                    <span><span aria-hidden="true" class="far fa-images"></span></span> : slides<br>
-                    <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> : output produced by running code<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> question without answer<br>
-                    <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> question with answer<br>
+                  <div>
+                    <h3 id="information-layers">Information Layers<a class="fa fa-anchor" href="#information-layers"></a></h3>
+                    <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
+                    <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
+                    <box>
+                      <panel header="Some less important info in a minimized panel" minimized>
+                        <p>Less important info</p>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
+                        <p>Less important info</p>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <panel header="%%Some less important info in a panel%%">
+                        <p>Less important info</p>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                    </box>
+                    <p><strong>Tabs indicate alternative formats of the same content</strong> (e.g. video vs text). You can choose the one you like and ignore the other tabs.</p>
+                    <box>
+                      <tabs>
+                        <tab header="<md>:far-file-alt:</md>">
+                          <p>Some textual description of X</p>
+                        </tab>
+                        <tab header="<md>:glyphicon-facetime-video:</md>">
+                          <p>Video describing X</p>
+                        </tab>
+                      </tabs>
+                    </box>
+                    <p><strong>Dotted underlines indicate <trigger for="pop:tooltip-example">tool tips</trigger></strong> (activated by hovering over it) and <strong>dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger></strong> (activated by clicking) containing additional information.</p>
+                    <popover id="pop:tooltip-example" title="Tooltip Example" placement="top">
+                      <div slot="content">
+                        Additional information
+                      </div>
+                    </popover>
+                    <modal title="Modal Example" id="modal:modal-example">
+                      Additional information
+                    </modal>
+                  </div>
+                  <p>This website <mark>uses a star rating system</mark> to indicate the priority level of contents.</p>
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:usingThisWebsite-starRatingSystem">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Module Expectations → Star Rating System</trigger> ]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " id="modal:usingThisWebsite-starRatingSystem">
+                      <div>
+                      <h4 id="star-rating-system">Star rating system<a class="fa fa-anchor" href="#star-rating-system"></a></h4>
+                      <div class="indented">
+                        <p class="lead"> Start with things that are rated one-star and progress to things with more stars. Things rated four stars are optional.
+                        </p>
+                        <p><strong>Star ratings for Learning Outcomes</strong> (and textbook sections):</p>
+                        <ul>
+                          <li>
+                            <p><strong>One-star topics</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: The topics you need to learn just to keep up with the module. We recommend you to <mark>learn these topics if you want to pass the module</mark> (i.e. up to a <strong>C</strong> grade).</p>
+                          </li>
+                          <li>
+                            <p><strong>Two-stars topics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>: Can get you up to a <strong>B+</strong>.</p>
+                          </li>
+                          <li>
+                            <p><strong>Three-stars topics</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Can get you up to an <strong>A</strong>.</p>
+                          </li>
+                          <li>
+                            <p><strong>Four-stars topics</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>: Can be useful for getting an <strong>A+</strong>, tutors positions, and getting into downstream SE modules that have competitive entry requirements (e.g., CS3281&amp;2, CS3217, CS3216). <mark>Four-star topics are not examinable</mark>. Omitting them will not affect your CAP (as A+ has the same CAP as an A grade)</p>
+                          </li>
+                          <li>
+                            <p>Topics marked with two <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> icons e.g., <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>,<span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span> are relevant topoics you are expected have learned in prerequisite modules. They are given for reference, but are examinable. The number of stars indicate the progression of topics, similar to the star rating system above i.e., one-star prerequisite topics are the most basic and the most important. Four-star pre-requisite topics can be ignored without affecting CAP.</p>
+                          </li>
+                        </ul>
+                        <p><strong>Star ratings for other things</strong> e.g., admin info sections:</p>
+                        <ul>
+                          <li>The module uses a similar star rating system to indicate the importance of other info in this website. i.e., information rated as one-star are the most essential. <mark>Info rated four stars are non-essential and can be ignored</mark> without affecting your ability to follow the module.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/moduleExpectations._include_.html#starRatingSystem" header="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " class="embedding" minimized fragment="starRatingSystem"></panel>
                   </p>
                 </div>
-              </div>
-              <div class="indented">
-                <p><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> : tasks to do<br>
-                  <span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> : lecture<br>
-                  <span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> : tutorial<br>
-                  <span><span aria-hidden="true" class="fas fa-briefcase"></span></span> : evidence you can use to prove you have achieved a learning outcome<br>
-                  ⏰ : deadline<br></p>
-              </div>
-              <h3 id="searching-for-keywords">Searching for keywords<a class="fa fa-anchor" href="#searching-for-keywords"></a></h3>
-              <p>Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting <a href="https://github.com/nusCS2113-AY1920S1/forum/issues">in the forum</a> so that we can add the missing keyword to our search index.</p>
-              <div>
-                <h3 id="saving-as-pdf-files">Saving as PDF Files<a class="fa fa-anchor" href="#saving-as-pdf-files"></a></h3>
-                <ol>
-                  <li>
-                    <p>Use Chrome to load the page you want to save as pdf.</p>
-                  </li>
-                  <li>
-                    <p>Click on the <code>Print</code> option in Chrome’s menu.</p>
-                  </li>
-                  <li>
-                    <p>Set the destination to <code>Save as PDF</code>, then click <code>Save</code> to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below.<br>
-                      <img src="/website/book/about/images/chromeSaveAsPdf.png"></p>
-                  </li>
-                </ol>
-              </div>
-              <h3 id="printing-textbook-content">Printing Textbook Content<a class="fa fa-anchor" href="#printing-textbook-content"></a></h3>
-              <p>Printer-friendly version <span class="dimmed">(indicated by <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> icon)</span> have been provided for each chapter and the whole book. You can use them for saving as pdf files or printing.</p>
-              <h3 id="making-this-website-better">Making this Website Better<a class="fa fa-anchor" href="#making-this-website-better"></a></h3>
-              <p>This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nusCS2113-AY1920S1/website/issues">at the website issue tracker</a>.</p>
-            </div>
-          </panel>
-          <panel type="warning" header="**Admin <md>:glyphicon-log-in:</md> Weekly schedule** :glyphicon-star::glyphicon-star:" expandable>
-            <div>
-              <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Friday (previous week)]</strong><br></p>
-              <p>Attend the lecture for,</p>
-              <ul>
-                <li>a recap of the preceding week's topics</li>
-                <li>an introduction to the current week's topics</li>
-              </ul>
-              <div class="flat">
+              </panel>
+              <panel type="info" header="**Admin <md>:glyphicon-log-in:</md> Using this website [more info]** :glyphicon-star::glyphicon-star::glyphicon-star:" expandable>
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:weeklySchedule-lectures">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Lectures</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                </div>
-              </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Lectures  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:weeklySchedule-lectures">
-                  <div>
-                  <img src="/website/admin/images/Lecture photo.png" width="100%">
-                  <p><strong>Timing/venue</strong>:</p>
-                  <div class="table-responsive">
-                    <table class="markbind-table table table-bordered table-striped">
-                      <thead>
-                        <tr>
-                          <th>Semester</th>
-                          <th>Venue</th>
-                          <th>Time</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Semester 1 (Aug-Nov)</td>
-                          <td>LT19</td>
-                          <td>Friday <strong>1600</strong>-1800</td>
-                        </tr>
-                        <tr>
-                          <td>Semester 2 (Jan-April)</td>
-                          <td>LT15</td>
-                          <td>Wednesday <strong>1200</strong>-1400</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p>Lectures start on time sharp and end around 15 minutes before official end time.</p>
-                  <panel header="**Clarification: CS2113T Lecture Timinig** :exclamation: %%(not applicable to CS2113)%%">
-                    <p>CS2113T lectures are same as that for CS2113. Please ignore the CS2101 session scheduled at the same slot. That is a dummy slot used to work around a limitation of the Edurec modreg system.</p>
-                    <p></p>
-                  </panel>
-                  <p></p>
-                  <p><strong>Attendance</strong>: Attendance for the <mark>first lecture is compulsory</mark>.</p>
-                  <p><strong>Webcast</strong>: All lectures will be webcast. However, some things are not captured well in the webcast recording. You are advised to treat the webcast as a 'backup' for you to catch up anything missed during the lecture. <mark>Webcast lectures will be available on LumiNUS</mark></p>
-                  <p><strong>Handouts</strong>: There are no handouts. All learning materials are organized around topics, are given in Web format, and can be found in the <a href="/website/se-book-adapted/index.html">Textbook</a> section and are also embedded in from the <span><a href="/website/index.html">Schedule page</a></span>.</p>
-                  <p><strong>Slides</strong>: Our lecture slides are not suited for printing or using as a reference during the lecture/exams. They are only an aid for lecture delivery. Slides will be uploaded to LumiNUS <em>after</em> the lecture.</p>
-                </div>
-              </modal>
-              <p>
-                <panel src="/website/admin/lectures._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Lectures  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
-              </p>
-              <p></p>
-              <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Saturday (previous week) onwards]</strong><br></p>
-              <ul>
-                <li>Use the relevant learning resources to learn the topics.</li>
-                <li>Self-test your knowledge using exercises given in the learning resources.</li>
-                <li>If you don't have time to learn all topics assigned to the week, use the star rating system to decide which ones to do first.</li>
-              </ul>
-              <p></p>
-              <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Wednesday - Friday]</strong><br></p>
-              <p>Attend the tutorial to,</p>
-              <ul>
-                <li>demonstrate evidence of your learning of the weekly topics to the tutor</li>
-                <li>learn from peer demos of showing evidence of their own learning</li>
-              </ul>
-              <div class="flat">
-                <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:weeklySchedule-tutorials">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tutorials</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                </div>
-              </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Tutorials  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:weeklySchedule-tutorials">
-                  <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h3 id="tutorial-timetable">Tutorial Timetable<a class="fa fa-anchor" href="#tutorial-timetable"></a></h3>
-                      </div>
-                    </span>
-                    <div id="tutorialTimetable">
-                      <tip-box>
+                  <div name="Conventions Used">
+                    <h3 id="conventions-used">Conventions Used<a class="fa fa-anchor" href="#conventions-used"></a></h3>
+                    <h4 id="shorthand-headings">Shorthand Headings<a class="fa fa-anchor" href="#shorthand-headings"></a></h4>
+                    <p>Meaning of some shortened headings:</p>
+                    <ul>
+                      <li>
+                        <p><big><strong>What</strong></big> : the <strong>meaning</strong> of the concept in concern</p>
                         <p>
-                          <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Our tutorial IDs are different from LumiNUS/Edurec.</strong> <br>
-                          Format: <code>CS2113T-W12</code> means CS2113T tutorial in the time slot <code>Wednesday</code> <code>1200-1300</code> and so on.
+                          <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html"></panel>
                         </p>
-                      </tip-box>
+                      </li>
+                      <li>
+                        <p><big><strong>Why</strong></big> : the <strong>motivation</strong> behind the concept in concern</p>
+                        <p>
+                          <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html"></panel>
+                        </p>
+                      </li>
+                      <li>
+                        <p><big><strong>How</strong></big> : the <strong>usage</strong> of the concept in concern</p>
+                        <p>
+                          <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html"></panel>
+                        </p>
+                      </li>
+                      <li>
+                        <p><big><strong>When</strong></big> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
+                        <p>
+                          <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html"></panel>
+                        </p>
+                      </li>
+                    </ul>
+                    <h4 id="boxed-text-styles">Boxed-Text Styles<a class="fa fa-anchor" href="#boxed-text-styles"></a></h4>
+                    <div class="indented">
+                      <box type="info">
+                        additional info
+                      </box>
+                      <box type="warning">
+                        warning
+                      </box>
+                      <box type="success">
+                        positive message
+                      </box>
+                      <box type="important">
+                        important message
+                      </box>
+                      <box type="wrong">
+                        an error to avoid
+                      </box>
+                      <box type="tip">
+                        tip
+                      </box>
+                      <box type="definition">
+                        definition
+                      </box>
+                    </div>
+                    <h4 id="meaning-of-icons">Meaning of Icons<a class="fa fa-anchor" href="#meaning-of-icons"></a></h4>
+                    <div class="indented">
+                      <p><span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span> : tangential info, can be ignored if not interested<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></span> : direct link to the LO. <kbd>Ctrl</kbd>+<code>Click</code> to open the LO in new window/tab.<br>
+                        <span><span aria-hidden="true" class="fas fa-trophy"></span></span> : learning outcomes<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : prerequisite learning outcome<br>
+                        <span><span aria-hidden="true" class="fas fa-cube"></span></span> : examples<br>
+                        <span><span aria-hidden="true" class="fas fa-paperclip"></span></span> : resources<br>
+                        <span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> : exercises<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> : printable version<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span> : preview/more info<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> : video<br>
+                        <smal><span class="badge badge-secondary">&gt;_</span></smal> : a command to be run in a terminal<br>
+                        <span><span aria-hidden="true" class="far fa-file-alt"></span></span> : textual description<br>
+                        <span><span aria-hidden="true" class="far fa-images"></span></span> : slides<br>
+                        <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> : output produced by running code<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> question without answer<br>
+                        <span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> question with answer<br>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="indented">
+                    <p><span><span aria-hidden="true" class="glyphicon glyphicon-check"></span></span> : tasks to do<br>
+                      <span><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></span> : lecture<br>
+                      <span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> : tutorial<br>
+                      <span><span aria-hidden="true" class="fas fa-briefcase"></span></span> : evidence you can use to prove you have achieved a learning outcome<br>
+                      ⏰ : deadline<br></p>
+                  </div>
+                  <h3 id="searching-for-keywords">Searching for keywords<a class="fa fa-anchor" href="#searching-for-keywords"></a></h3>
+                  <p>Use the search box in the top navigation bar to search for keywords in the website pages. If you cannot find the content related to a keyword, let us know by posting <a href="https://github.com/nusCS2113-AY1920S1/forum/issues">in the forum</a> so that we can add the missing keyword to our search index.</p>
+                  <div>
+                    <h3 id="saving-as-pdf-files">Saving as PDF Files<a class="fa fa-anchor" href="#saving-as-pdf-files"></a></h3>
+                    <ol>
+                      <li>
+                        <p>Use Chrome to load the page you want to save as pdf.</p>
+                      </li>
+                      <li>
+                        <p>Click on the <code>Print</code> option in Chrome’s menu.</p>
+                      </li>
+                      <li>
+                        <p>Set the destination to <code>Save as PDF</code>, then click <code>Save</code> to save a copy of the file in PDF format. For best results, use the settings indicated in the screenshot below.<br>
+                          <img src="/website/book/about/images/chromeSaveAsPdf.png"></p>
+                      </li>
+                    </ol>
+                  </div>
+                  <h3 id="printing-textbook-content">Printing Textbook Content<a class="fa fa-anchor" href="#printing-textbook-content"></a></h3>
+                  <p>Printer-friendly version <span class="dimmed">(indicated by <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> icon)</span> have been provided for each chapter and the whole book. You can use them for saving as pdf files or printing.</p>
+                  <h3 id="making-this-website-better">Making this Website Better<a class="fa fa-anchor" href="#making-this-website-better"></a></h3>
+                  <p>This website was generated using the <a href="https://markbind.github.io/">MarkBind</a> software developed at NUS. <strong>We welcome bug reports, suggestions, and contributions</strong>, to be submitted <a href="https://github.com/nusCS2113-AY1920S1/website/issues">at the website issue tracker</a>.</p>
+                </div>
+              </panel>
+              <panel type="warning" header="**Admin <md>:glyphicon-log-in:</md> Weekly schedule** :glyphicon-star::glyphicon-star:" expandable>
+                <div>
+                  <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Friday (previous week)]</strong><br></p>
+                  <p>Attend the lecture for,</p>
+                  <ul>
+                    <li>a recap of the preceding week's topics</li>
+                    <li>an introduction to the current week's topics</li>
+                  </ul>
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:weeklySchedule-lectures">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Lectures</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Lectures  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:weeklySchedule-lectures">
+                      <div>
+                      <img src="/website/admin/images/Lecture photo.png" width="100%">
+                      <p><strong>Timing/venue</strong>:</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
                           <thead>
                             <tr>
-                              <th>Module</th>
-                              <th>Tutorial ID</th>
-                              <th><span class="dimmed">ID in LumiNUS</span><br><span class="dimmed">(not to be used)</span></th>
-                              <th>Time</th>
+                              <th>Semester</th>
                               <th>Venue</th>
-                              <th>Tutors (<a href="/website/admin/instructors.html">contact details</a>)</th>
+                              <th>Time</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>W12</td>
-                              <td><span class="dimmed">(C01)</span></td>
-                              <td><strong>W</strong>ed <strong>12</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
+                              <td>Semester 1 (Aug-Nov)</td>
+                              <td>LT19</td>
+                              <td>Friday <strong>1600</strong>-1800</td>
                             </tr>
                             <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>W13</td>
-                              <td><span class="dimmed">(C02)</span></td>
-                              <td><strong>W</strong>ed <strong>13</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>W17</td>
-                              <td><span class="dimmed">(C09)</span></td>
-                              <td><strong>W</strong>ed <strong>17</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>T09</td>
-                              <td><span class="dimmed">(C05)</span></td>
-                              <td><strong>T</strong>hu <strong>09</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>T12</td>
-                              <td><span class="dimmed">(C04)</span></td>
-                              <td><strong>T</strong>hu <strong>12</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><em>CS2113</em></td>
-                              <td>T13</td>
-                              <td><span class="dimmed">(1)</span></td>
-                              <td><strong>T</strong>hu <strong>13</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><em>CS2113</em></td>
-                              <td>T14</td>
-                              <td><span class="dimmed">(3)</span></td>
-                              <td><strong>T</strong>hu <strong>14</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><em>CS2113</em></td>
-                              <td>T16</td>
-                              <td><span class="dimmed">(2)</span></td>
-                              <td><strong>T</strong>hu <strong>16</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>F09</td>
-                              <td><span class="dimmed">(C06)</span></td>
-                              <td><strong>F</strong>ri <strong>09</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>F10</td>
-                              <td><span class="dimmed">(C03)</span></td>
-                              <td><strong>F</strong>ri <strong>10</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>F11</td>
-                              <td><span class="dimmed">(C08)</span></td>
-                              <td><strong>F</strong>ri <strong>11</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
-                            </tr>
-                            <tr>
-                              <td><strong>CS2113T</strong></td>
-                              <td>F14</td>
-                              <td><span class="dimmed">(C07)</span></td>
-                              <td><strong>F</strong>ri <strong>14</strong>00</td>
-                              <td>COM1-B103</td>
-                              <td>TBD</td>
+                              <td>Semester 2 (Jan-April)</td>
+                              <td>LT15</td>
+                              <td>Wednesday <strong>1200</strong>-1400</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <p>Lectures start on time sharp and end around 15 minutes before official end time.</p>
+                      <panel header="**Clarification: CS2113T Lecture Timinig** :exclamation: %%(not applicable to CS2113)%%">
+                        <p>CS2113T lectures are same as that for CS2113. Please ignore the CS2101 session scheduled at the same slot. That is a dummy slot used to work around a limitation of the Edurec modreg system.</p>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <p><strong>Attendance</strong>: Attendance for the <mark>first lecture is compulsory</mark>.</p>
+                      <p><strong>Webcast</strong>: All lectures will be webcast. However, some things are not captured well in the webcast recording. You are advised to treat the webcast as a 'backup' for you to catch up anything missed during the lecture. <mark>Webcast lectures will be available on LumiNUS</mark></p>
+                      <p><strong>Handouts</strong>: There are no handouts. All learning materials are organized around topics, are given in Web format, and can be found in the <a href="/website/se-book-adapted/index.html">Textbook</a> section and are also embedded in from the <span><a href="/website/index.html">Schedule page</a></span>.</p>
+                      <p><strong>Slides</strong>: Our lecture slides are not suited for printing or using as a reference during the lecture/exams. They are only an aid for lecture delivery. Slides will be uploaded to LumiNUS <em>after</em> the lecture.</p>
                     </div>
-                  </panel>
-                  <panel type="seamless" header="### Tutorial Structure<a class='fa fa-anchor' href='#tutorial-structure'></a>" expanded>
-                    <div id="tutorialStructure">
-                      <p><strong>What happens during the tutorial</strong>:</p>
-                      <ul>
-                        <li>A tutorial group is handled by two tutors. Each tutor will work with two teams.</li>
-                        <li>The tutor will direct students to share/discuss evidence of learning the weekly topics.</li>
-                        <li>If some students have met with difficulties while learning a topic, the tutor can direct those students to get help from those who have learned the topic. <strong>The number of topics that can be covered in the tutorial session depends on how well-prepared you are.</strong></li>
-                        <li>The tutor will observe, and give feedback on how well you are learning required topics.</li>
-                        <li>Please <mark>bring your laptop to tutorials.</mark> You often need it to show evidence of learning the topics. At other times, we ask you to work on project related things with your team members, which too may require the laptop.</li>
-                      </ul>
-                      <div class="indented-level2">
-                        <div class="flat">
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/lectures._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Lectures  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+                  </p>
+                  <p></p>
+                  <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Saturday (previous week) onwards]</strong><br></p>
+                  <ul>
+                    <li>Use the relevant learning resources to learn the topics.</li>
+                    <li>Self-test your knowledge using exercises given in the learning resources.</li>
+                    <li>If you don't have time to learn all topics assigned to the week, use the star rating system to decide which ones to do first.</li>
+                  </ul>
+                  <p></p>
+                  <p><span><span aria-hidden="true" class="fas fa-calendar-alt"></span></span> <strong>[Wednesday - Friday]</strong><br></p>
+                  <p>Attend the tutorial to,</p>
+                  <ul>
+                    <li>demonstrate evidence of your learning of the weekly topics to the tutor</li>
+                    <li>learn from peer demos of showing evidence of their own learning</li>
+                  </ul>
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:weeklySchedule-tutorials">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tutorials</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Tutorials  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:weeklySchedule-tutorials">
+                      <div>
+                      <panel type="seamless" expanded>
+                        <span slot="header" class="card-title">
                           <div>
-                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-faqLaptop">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C(FAQ): What if I don't carry around a laptop?</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                            <h3 id="tutorial-timetable">Tutorial Timetable<a class="fa fa-anchor" href="#tutorial-timetable"></a></h3>
+                          </div>
+                        </span>
+                        <div id="tutorialTimetable">
+                          <tip-box>
+                            <p>
+                              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Our tutorial IDs are different from LumiNUS/Edurec.</strong> <br>
+                              Format: <code>CS2113T-W12</code> means CS2113T tutorial in the time slot <code>Wednesday</code> <code>1200-1300</code> and so on.
+                            </p>
+                          </tip-box>
+                          <div class="table-responsive">
+                            <table class="markbind-table table table-bordered table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Module</th>
+                                  <th>Tutorial ID</th>
+                                  <th><span class="dimmed">ID in LumiNUS</span><br><span class="dimmed">(not to be used)</span></th>
+                                  <th>Time</th>
+                                  <th>Venue</th>
+                                  <th>Tutors (<a href="/website/admin/instructors.html">contact details</a>)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>W12</td>
+                                  <td><span class="dimmed">(C01)</span></td>
+                                  <td><strong>W</strong>ed <strong>12</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>W13</td>
+                                  <td><span class="dimmed">(C02)</span></td>
+                                  <td><strong>W</strong>ed <strong>13</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>W17</td>
+                                  <td><span class="dimmed">(C09)</span></td>
+                                  <td><strong>W</strong>ed <strong>17</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>T09</td>
+                                  <td><span class="dimmed">(C05)</span></td>
+                                  <td><strong>T</strong>hu <strong>09</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>T12</td>
+                                  <td><span class="dimmed">(C04)</span></td>
+                                  <td><strong>T</strong>hu <strong>12</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><em>CS2113</em></td>
+                                  <td>T13</td>
+                                  <td><span class="dimmed">(1)</span></td>
+                                  <td><strong>T</strong>hu <strong>13</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><em>CS2113</em></td>
+                                  <td>T14</td>
+                                  <td><span class="dimmed">(3)</span></td>
+                                  <td><strong>T</strong>hu <strong>14</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><em>CS2113</em></td>
+                                  <td>T16</td>
+                                  <td><span class="dimmed">(2)</span></td>
+                                  <td><strong>T</strong>hu <strong>16</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>F09</td>
+                                  <td><span class="dimmed">(C06)</span></td>
+                                  <td><strong>F</strong>ri <strong>09</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>F10</td>
+                                  <td><span class="dimmed">(C03)</span></td>
+                                  <td><strong>F</strong>ri <strong>10</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>F11</td>
+                                  <td><span class="dimmed">(C08)</span></td>
+                                  <td><strong>F</strong>ri <strong>11</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>CS2113T</strong></td>
+                                  <td>F14</td>
+                                  <td><span class="dimmed">(C07)</span></td>
+                                  <td><strong>F</strong>ri <strong>14</strong>00</td>
+                                  <td>COM1-B103</td>
+                                  <td>TBD</td>
+                                </tr>
+                              </tbody>
+                            </table>
                           </div>
                         </div>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix C(FAQ): What if I don't carry around a laptop?  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-faqLaptop">
-                            <div>
-                            <h3 id="what-if-i-don-t-carry-around-a-laptop">What if I don’t carry around a laptop? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#what-if-i-don-t-carry-around-a-laptop"></a></h3>
-                            <div class="indented">
+                      </panel>
+                      <panel type="seamless" header="### Tutorial Structure<a class='fa fa-anchor' href='#tutorial-structure'></a>" expanded>
+                        <div id="tutorialStructure">
+                          <p><strong>What happens during the tutorial</strong>:</p>
+                          <ul>
+                            <li>A tutorial group is handled by two tutors. Each tutor will work with two teams.</li>
+                            <li>The tutor will direct students to share/discuss evidence of learning the weekly topics.</li>
+                            <li>If some students have met with difficulties while learning a topic, the tutor can direct those students to get help from those who have learned the topic. <strong>The number of topics that can be covered in the tutorial session depends on how well-prepared you are.</strong></li>
+                            <li>The tutor will observe, and give feedback on how well you are learning required topics.</li>
+                            <li>Please <mark>bring your laptop to tutorials.</mark> You often need it to show evidence of learning the topics. At other times, we ask you to work on project related things with your team members, which too may require the laptop.</li>
+                          </ul>
+                          <div class="indented-level2">
+                            <div class="flat">
                               <div>
-                                <p>If you do not have a laptop or prefer not to bring the laptop, it is up to you to show your work to the tutor in some way (e.g. by connecting to your home PC remotely), <em>without</em> requiring extra time/effort from the tutor or team members.</p>
-                                <p><span class="dimmed">Reason: As you enjoy the benefits of not bring the laptop; you (not others) should bear the cost too.</span></p>
+                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-faqLaptop">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C(FAQ): What if I don't carry around a laptop?</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                               </div>
                             </div>
+                            <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix C(FAQ): What if I don't carry around a laptop?  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-faqLaptop">
+                                <div>
+                                <h3 id="what-if-i-don-t-carry-around-a-laptop">What if I don’t carry around a laptop? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#what-if-i-don-t-carry-around-a-laptop"></a></h3>
+                                <div class="indented">
+                                  <div>
+                                    <p>If you do not have a laptop or prefer not to bring the laptop, it is up to you to show your work to the tutor in some way (e.g. by connecting to your home PC remotely), <em>without</em> requiring extra time/effort from the tutor or team members.</p>
+                                    <p><span class="dimmed">Reason: As you enjoy the benefits of not bring the laptop; you (not others) should bear the cost too.</span></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </modal>
+                            <p>
+                              <panel src="/website/admin/appendixC-faq._include_.html#admin-faq-noLaptop" header="Admin <md>:glyphicon-log-in:</md> Appendix C(FAQ): What if I don't carry around a laptop?  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="admin-faq-noLaptop"></panel>
+                            </p>
                           </div>
-                        </modal>
-                        <p>
-                          <panel src="/website/admin/appendixC-faq._include_.html#admin-faq-noLaptop" header="Admin <md>:glyphicon-log-in:</md> Appendix C(FAQ): What if I don't carry around a laptop?  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="admin-faq-noLaptop"></panel>
-                        </p>
-                      </div>
-                      <br>
-                      <p><strong>The role of our tutors</strong> is different from tutors in other modules.</p>
-                      <ul>
-                        <li><strong>No direct tech help</strong>: Tutors are prohibited from giving direct technical help. <span class="dimmed">Rationale: We want you to learn the vital survival skill of troubleshooting technical problems.</span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <div class="flat">
-                          <div>
-                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-apdxD">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix D: How to get Help in CS2113/T</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                          </div>
-                        </div>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix D: How to get Help in CS2113/T  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-apdxD">
-                            <div>
-                            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> This guide is mostly about getting tech help, but it also applies to getting clarifications on module topics too. e.g. what is the difference between <em>refactoring</em> and <em>rewriting</em>?</span></p>
-                            <p><img src="/website/admin/images/how to get help.png" width="200px"><br></p>
-                            <p><strong>We want to move you away from 'hand holding' and make you learn how to solve problems on your own.</strong> This is a vital survival skill in the industry and it needs practice.</p>
-                            <p>Whether it is a technical problem <span class="dimmed">(e.g. error when using the IDE)</span> or a doubt about a concept <span class="dimmed">(e.g. what is the difference between scripted testing and exploratory testing?) </span> <strong>the teaching team is happy to work <em>with</em> you when you look for a solution/answer, but we do not do it <em>for</em> you.</strong> We discourage unconditional direct help from tutors because we want you to learn to help yourself. Yes, we believe in ‘tough love’😝.</p>
-                            <p>The question you should always ask yourself is, 'how do I solve this problem if the lecturer/tutors are not around to help me?'</p>
-                            <p><img src="/website/admin/images/the good reasons to get home early.png" width="300"><br></p>
-                            <p><big><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> <strong>What not to do:</strong></big></p>
-                            <ul>
-                              <li>When faced with a technical problem or a doubt about a concept, don't fire off an email lecturer/tutor immediately, unless it is something only the lecturer/tutor is supposed to know.</li>
-                            </ul>
-                            <p><big><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> <strong>What to do:</strong></big></p>
-                            <ul>
-                              <li>
-                                <p><strong>Check what is given</strong>: Check if the problem/concept has been discussed in the lectures, textbook, or the list of resources given to you. Yes, it is easier for you to write an email to the tutor/lecturer instead, but that shouldn't be your default behavior. We know that sometimes it is difficult to find stuff in the resources we have provided. But you should try first.</p>
-                              </li>
-                              <li>
-                                <p><strong>Search</strong>: It is very likely the answer already exists somewhere in the cyberspace. Almost every programming-related question has been answered in places like <a href="http://stackoverflow.com/">stackoverflow</a>. Don't give an opportunity for someone to ask you to <a href="http://www.jibble.org/stfw/">STFW</a>.<br>
-                                  Pay attention to the error message you encounter. Sometimes it also contains hints as to how to fix the problem. Even if not, a web search on the error message is a good starting point.  <br>
-                                  <img src="/website/admin/images/how to google it.png" width="460" height="268"></p>
-                              </li>
-                              <li>
-                                <p><strong>Ask peers</strong>:</p>
-                                <p>Ask your team members.</p>
-                                <p>Ask classmates using the module forum. Even if you figured out one way to solve a problem, discussing it on a public forum might lead you to better ways of solving it, and will help other classmates who are facing similar problems too. </p>
-                                <panel header="Rubber Duck Debugging">
-                                  <p><img src="/website/admin/images/Rubber_duck_assisting_with_debugging.jpg" width="220"><br></p>
-                                  <p><em>Rubber duck debugging</em> is an informal term used in software engineering to refer to a method of debugging code. The name is a reference to a story in the book <em>The Pragmatic Programmer</em> in which a programmer would carry around a rubber duck and debug his code by forcing himself to explain it, line-by-line, to the duck.</p>
-                                  <p>[for more, see <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">wikipedia entry</a>]</p>
-                                  <p></p>
-                                </panel>
-                                <p></p>
-                              </li>
-                              <li>
-                                <p><strong>Ask the world</strong> using programming forums such as stackoverflow.</p>
-                                <p>Here are some tips for posting help request:</p>
+                          <br>
+                          <p><strong>The role of our tutors</strong> is different from tutors in other modules.</p>
+                          <ul>
+                            <li><strong>No direct tech help</strong>: Tutors are prohibited from giving direct technical help. <span class="dimmed">Rationale: We want you to learn the vital survival skill of troubleshooting technical problems.</span></li>
+                          </ul>
+                          <div class="indented-level2">
+                            <div class="flat">
+                              <div>
+                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-apdxD">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix D: How to get Help in CS2113/T</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                              </div>
+                            </div>
+                            <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix D: How to get Help in CS2113/T  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-apdxD">
+                                <div>
+                                <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> This guide is mostly about getting tech help, but it also applies to getting clarifications on module topics too. e.g. what is the difference between <em>refactoring</em> and <em>rewriting</em>?</span></p>
+                                <p><img src="/website/admin/images/how to get help.png" width="200px"><br></p>
+                                <p><strong>We want to move you away from 'hand holding' and make you learn how to solve problems on your own.</strong> This is a vital survival skill in the industry and it needs practice.</p>
+                                <p>Whether it is a technical problem <span class="dimmed">(e.g. error when using the IDE)</span> or a doubt about a concept <span class="dimmed">(e.g. what is the difference between scripted testing and exploratory testing?) </span> <strong>the teaching team is happy to work <em>with</em> you when you look for a solution/answer, but we do not do it <em>for</em> you.</strong> We discourage unconditional direct help from tutors because we want you to learn to help yourself. Yes, we believe in ‘tough love’😝.</p>
+                                <p>The question you should always ask yourself is, 'how do I solve this problem if the lecturer/tutors are not around to help me?'</p>
+                                <p><img src="/website/admin/images/the good reasons to get home early.png" width="300"><br></p>
+                                <p><big><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> <strong>What not to do:</strong></big></p>
+                                <ul>
+                                  <li>When faced with a technical problem or a doubt about a concept, don't fire off an email lecturer/tutor immediately, unless it is something only the lecturer/tutor is supposed to know.</li>
+                                </ul>
+                                <p><big><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> <strong>What to do:</strong></big></p>
                                 <ul>
                                   <li>
-                                    <p>PLEASE search for existing answers before you post your question in those public forums; You don't want to appear as a 'clueless' or 'too lazy to do your research' person in a public forum.</p>
+                                    <p><strong>Check what is given</strong>: Check if the problem/concept has been discussed in the lectures, textbook, or the list of resources given to you. Yes, it is easier for you to write an email to the tutor/lecturer instead, but that shouldn't be your default behavior. We know that sometimes it is difficult to find stuff in the resources we have provided. But you should try first.</p>
                                   </li>
                                   <li>
-                                    <p>Learn to isolate the problem. &quot;My code doesn't work&quot; isn't going to help even if you post the whole code online. Others don't have time to go through all of your code. Isolate the part that doesn't work and strip it down to the bare minimum that is enough reproduce the error. Sometimes, this process actually helps you to figure out the problem yourself. If not, at least it increases the chance of someone else being able to help you.</p>
-                                    <tip-box>
-                                      <p>💡 How to isolate problematic code? Delete code (one bit at a time) that is confirmed as not related to the problem. Do that until you can still reproduce the problem with the least amount of code remaining.</p>
-                                    </tip-box>
+                                    <p><strong>Search</strong>: It is very likely the answer already exists somewhere in the cyberspace. Almost every programming-related question has been answered in places like <a href="http://stackoverflow.com/">stackoverflow</a>. Don't give an opportunity for someone to ask you to <a href="http://www.jibble.org/stfw/">STFW</a>.<br>
+                                      Pay attention to the error message you encounter. Sometimes it also contains hints as to how to fix the problem. Even if not, a web search on the error message is a good starting point.  <br>
+                                      <img src="/website/admin/images/how to google it.png" width="460" height="268"></p>
                                   </li>
                                   <li>
-                                    <p>Generalize the problem. &quot;How to write tasks to a text file using Java&quot; is too specific to what you are working on. You are more likely to find help if you post a thread called (or search for) &quot;How to write to a file using Java&quot;.</p>
+                                    <p><strong>Ask peers</strong>:</p>
+                                    <p>Ask your team members.</p>
+                                    <p>Ask classmates using the module forum. Even if you figured out one way to solve a problem, discussing it on a public forum might lead you to better ways of solving it, and will help other classmates who are facing similar problems too. </p>
+                                    <panel header="Rubber Duck Debugging">
+                                      <p><img src="/website/admin/images/Rubber_duck_assisting_with_debugging.jpg" width="220"><br></p>
+                                      <p><em>Rubber duck debugging</em> is an informal term used in software engineering to refer to a method of debugging code. The name is a reference to a story in the book <em>The Pragmatic Programmer</em> in which a programmer would carry around a rubber duck and debug his code by forcing himself to explain it, line-by-line, to the duck.</p>
+                                      <p>[for more, see <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">wikipedia entry</a>]</p>
+                                      <p></p>
+                                    </panel>
+                                    <p></p>
                                   </li>
                                   <li>
-                                    <p>Explain well. Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer in the first try is higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.</p>
-                                    <tip-box>
-                                      <p>💡 Know what these stand for: <strong>RTFM</strong>, <strong>STFW</strong>, <strong>GIYF</strong></p>
-                                    </tip-box>
+                                    <p><strong>Ask the world</strong> using programming forums such as stackoverflow.</p>
+                                    <p>Here are some tips for posting help request:</p>
+                                    <ul>
+                                      <li>
+                                        <p>PLEASE search for existing answers before you post your question in those public forums; You don't want to appear as a 'clueless' or 'too lazy to do your research' person in a public forum.</p>
+                                      </li>
+                                      <li>
+                                        <p>Learn to isolate the problem. &quot;My code doesn't work&quot; isn't going to help even if you post the whole code online. Others don't have time to go through all of your code. Isolate the part that doesn't work and strip it down to the bare minimum that is enough reproduce the error. Sometimes, this process actually helps you to figure out the problem yourself. If not, at least it increases the chance of someone else being able to help you.</p>
+                                        <tip-box>
+                                          <p>💡 How to isolate problematic code? Delete code (one bit at a time) that is confirmed as not related to the problem. Do that until you can still reproduce the problem with the least amount of code remaining.</p>
+                                        </tip-box>
+                                      </li>
+                                      <li>
+                                        <p>Generalize the problem. &quot;How to write tasks to a text file using Java&quot; is too specific to what you are working on. You are more likely to find help if you post a thread called (or search for) &quot;How to write to a file using Java&quot;.</p>
+                                      </li>
+                                      <li>
+                                        <p>Explain well. Conversations via online forums take time. If you post everything that is relevant to your problem, your chances of getting an answer in the first try is higher. If others have to ask you more questions before they can help you, it will take longer. But this doesn't mean you dump too much information into the thread either.</p>
+                                        <tip-box>
+                                          <p>💡 Know what these stand for: <strong>RTFM</strong>, <strong>STFW</strong>, <strong>GIYF</strong></p>
+                                        </tip-box>
+                                      </li>
+                                    </ul>
                                   </li>
                                 </ul>
-                              </li>
-                            </ul>
-                            <span id="questions-for-tutros">
-                              <ul>
-                                <li><strong>Raise your question during a tutorial</strong>. Some questions can be discussed with the tutor and tutorial-mates.
-                                  What kind of questions are suitable to discuss with the tutor? Consider these two questions you might want to ask a tutor:
+                                <span id="questions-for-tutros">
                                   <ul>
-                                    <li>
-                                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> <em>This is how I understood/applied coupling. Is that correct?</em> - Such questions are welcome. <span class="dimmed"><strong>Reason</strong>:This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.</span>
-                                    </li>
-                                    <li>
-                                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <em>What is coupling?</em> - Such questions are discouraged. <span class="dimmed"><strong>Reason</strong>: This question implies you haven’t done what you could to learn the topic in concern.</span>
+                                    <li><strong>Raise your question during a tutorial</strong>. Some questions can be discussed with the tutor and tutorial-mates.
+                                      What kind of questions are suitable to discuss with the tutor? Consider these two questions you might want to ask a tutor:
+                                      <ul>
+                                        <li>
+                                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> <em>This is how I understood/applied coupling. Is that correct?</em> - Such questions are welcome. <span class="dimmed"><strong>Reason</strong>:This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.</span>
+                                        </li>
+                                        <li>
+                                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <em>What is coupling?</em> - Such questions are discouraged. <span class="dimmed"><strong>Reason</strong>: This question implies you haven’t done what you could to learn the topic in concern.</span>
+                                        </li>
+                                      </ul>
                                     </li>
                                   </ul>
-                                </li>
-                              </ul>
-                            </span>
-                            <ul>
-                              <li>
-                                <p><strong>Talk to the lecturer</strong> before the lecture. The lecturer will be at the lecture venue from 30 minutes before the start of the lecture.</p>
-                              </li>
-                              <li>
-                                <p><strong>Request our help</strong>: Failing all above, you can always request for help by emailing the lecturer.</p>
-                              </li>
-                            </ul>
-                            <p>Resources</p>
-                            <ul>
-                              <li>[lifehacker article]  <a href="http://lifehacker.com/google-tips-and-tricks-every-student-should-know-1508121671">Google Tips and Tricks Every Student Should Know</a></li>
-                              <li>[Article] <a href="http://catb.org/esr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a> by Eric Steven Raymond</li>
-                            </ul>
-                          </div>
-                        </modal>
-                        <p>
-                          <panel src="/website/admin/appendixD-help._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Appendix D: How to get Help in CS2113/T  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
-                        </p>
-                      </div>
-                      <br>
-                      <ul>
-                        <li><strong>No ‘teaching’</strong>: Tutors are prohibited from “teaching” concepts that are covered in lectures or other learning resources given to you. Self-learning is a vital part of the module. But of course tutors can help you clarify doubts under the right circumstances.</li>
-                      </ul>
-                      <div class="indented-level2">
-                        <div class="flat">
-                          <div>
-                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-apdxDtutorQuestions">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix D (extract): Questions suitable for tutor</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                          </div>
-                        </div>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix D (extract): Questions suitable for tutor  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-apdxDtutorQuestions">
-                            <div>
-                            <ul>
-                              <li><strong>Raise your question during a tutorial</strong>. Some questions can be discussed with the tutor and tutorial-mates.
-                                What kind of questions are suitable to discuss with the tutor? Consider these two questions you might want to ask a tutor:
+                                </span>
                                 <ul>
                                   <li>
-                                    <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> <em>This is how I understood/applied coupling. Is that correct?</em> - Such questions are welcome. <span class="dimmed"><strong>Reason</strong>:This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.</span>
+                                    <p><strong>Talk to the lecturer</strong> before the lecture. The lecturer will be at the lecture venue from 30 minutes before the start of the lecture.</p>
                                   </li>
                                   <li>
-                                    <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <em>What is coupling?</em> - Such questions are discouraged. <span class="dimmed"><strong>Reason</strong>: This question implies you haven’t done what you could to learn the topic in concern.</span>
+                                    <p><strong>Request our help</strong>: Failing all above, you can always request for help by emailing the lecturer.</p>
                                   </li>
                                 </ul>
-                              </li>
-                            </ul>
+                                <p>Resources</p>
+                                <ul>
+                                  <li>[lifehacker article]  <a href="http://lifehacker.com/google-tips-and-tricks-every-student-should-know-1508121671">Google Tips and Tricks Every Student Should Know</a></li>
+                                  <li>[Article] <a href="http://catb.org/esr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a> by Eric Steven Raymond</li>
+                                </ul>
+                              </div>
+                            </modal>
+                            <p>
+                              <panel src="/website/admin/appendixD-help._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Appendix D: How to get Help in CS2113/T  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+                            </p>
                           </div>
-                        </modal>
-                        <p>
-                          <panel src="/website/admin/appendixD-help._include_.html#questions-for-tutros" header="Admin <md>:glyphicon-log-in:</md> Appendix D (extract): Questions suitable for tutor  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="questions-for-tutros"></panel>
-                        </p>
-                      </div>
-                      <br>
-                      <ul>
-                        <li><strong>No leading from the front</strong>: Tutors are not expected to lead your project effort. They will not tell you how to do project tasks or when to do project tasks. You have to figure those out yourselves. But tutors will give you feedback on how you are doing (or have done) project tasks so that you can improve further.</li>
-                      </ul>
-                      <p><strong>Timing/venue:</strong></p>
-                      <ul>
-                        <li>Please refer to the <span><a href="/website/index.html">Schedule page</a></span> for further details on each tutorial.</li>
-                        <li>You are expected to arrive on time. <mark>Punctuality is considered for participation marks.</mark></li>
-                        <li>You may leave the class 15 minutes before the hour if you have another class right after. There is no need to wait till the tutor dismisses you. However, inform the tutor (as a courtesy) before leaving if you leave before the class is dismissed.</li>
-                        <li>Please make sure you <mark>vacate the table 5 minutes before the hour</mark> so that the next group can start on time.</li>
-                        <li>In the past many students have suggested to increase the tutorial duration because 1 hour is barely enough to get through all weekly topics. Increasing the tutorial time is not possible due to lack of venues and tutors. Instead, let's try to make the best of the one hour available by coming well prepared and starting on time.</li>
-                      </ul>
-                      <p><strong>Grading:</strong></p>
-                      <p>Tutorials are not graded. However, your conduct will be reviewed by team members and the tutor which will determine your participation marks.</p>
+                          <br>
+                          <ul>
+                            <li><strong>No ‘teaching’</strong>: Tutors are prohibited from “teaching” concepts that are covered in lectures or other learning resources given to you. Self-learning is a vital part of the module. But of course tutors can help you clarify doubts under the right circumstances.</li>
+                          </ul>
+                          <div class="indented-level2">
+                            <div class="flat">
+                              <div>
+                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:tutorials-apdxDtutorQuestions">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix D (extract): Questions suitable for tutor</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                              </div>
+                            </div>
+                            <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix D (extract): Questions suitable for tutor  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:tutorials-apdxDtutorQuestions">
+                                <div>
+                                <ul>
+                                  <li><strong>Raise your question during a tutorial</strong>. Some questions can be discussed with the tutor and tutorial-mates.
+                                    What kind of questions are suitable to discuss with the tutor? Consider these two questions you might want to ask a tutor:
+                                    <ul>
+                                      <li>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> <em>This is how I understood/applied coupling. Is that correct?</em> - Such questions are welcome. <span class="dimmed"><strong>Reason</strong>:This question shows you have put in some effort to learn the topic and seeking further clarification from the tutor.</span>
+                                      </li>
+                                      <li>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <em>What is coupling?</em> - Such questions are discouraged. <span class="dimmed"><strong>Reason</strong>: This question implies you haven’t done what you could to learn the topic in concern.</span>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                            </modal>
+                            <p>
+                              <panel src="/website/admin/appendixD-help._include_.html#questions-for-tutros" header="Admin <md>:glyphicon-log-in:</md> Appendix D (extract): Questions suitable for tutor  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="questions-for-tutros"></panel>
+                            </p>
+                          </div>
+                          <br>
+                          <ul>
+                            <li><strong>No leading from the front</strong>: Tutors are not expected to lead your project effort. They will not tell you how to do project tasks or when to do project tasks. You have to figure those out yourselves. But tutors will give you feedback on how you are doing (or have done) project tasks so that you can improve further.</li>
+                          </ul>
+                          <p><strong>Timing/venue:</strong></p>
+                          <ul>
+                            <li>Please refer to the <span><a href="/website/index.html">Schedule page</a></span> for further details on each tutorial.</li>
+                            <li>You are expected to arrive on time. <mark>Punctuality is considered for participation marks.</mark></li>
+                            <li>You may leave the class 15 minutes before the hour if you have another class right after. There is no need to wait till the tutor dismisses you. However, inform the tutor (as a courtesy) before leaving if you leave before the class is dismissed.</li>
+                            <li>Please make sure you <mark>vacate the table 5 minutes before the hour</mark> so that the next group can start on time.</li>
+                            <li>In the past many students have suggested to increase the tutorial duration because 1 hour is barely enough to get through all weekly topics. Increasing the tutorial time is not possible due to lack of venues and tutors. Instead, let's try to make the best of the one hour available by coming well prepared and starting on time.</li>
+                          </ul>
+                          <p><strong>Grading:</strong></p>
+                          <p>Tutorials are not graded. However, your conduct will be reviewed by team members and the tutor which will determine your participation marks.</p>
+                        </div>
+                      </panel>
                     </div>
-                  </panel>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/tutorials._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Tutorials  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+                  </p>
                 </div>
-              </modal>
-              <p>
-                <panel src="/website/admin/tutorials._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Tutorials  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
-              </p>
-            </div>
-          </panel>
-          <panel type="success" header="**Admin <md>:glyphicon-log-in:</md> Module overview** :glyphicon-star::glyphicon-star::glyphicon-star::glyphicon-star:" expandable>
-            <div>
-              <p><big>
-                  <p class="lead text-secondary">A balanced and iterative introduction to Software Engineering...</p>
-                </big></p>
-              <img src="/website/images/growingPlant.png" width="700">
-              <p class="lead"><span>CS2113/T is an introductory Software Engineering module. The module covers the essentials of Object-oriented programming in addition to SE. It covers roughly <strong>a 50-50 balance of basic SE theory and practice</strong> that a student needs to know before going for SE internships in the industry or taking <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially"><strong>iterative approach</strong></tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. </span></p>
-              <p>On the theory side, this module is supported by a customized online textbook <a href="/website/se-book-adapted/index.html"><em>Software Engineering for Self-Directed Learners</em></a>, integrated into this module website.</p>
+              </panel>
+              <panel type="success" header="**Admin <md>:glyphicon-log-in:</md> Module overview** :glyphicon-star::glyphicon-star::glyphicon-star::glyphicon-star:" expandable>
+                <div>
+                  <p><big>
+                      <p class="lead text-secondary">A balanced and iterative introduction to Software Engineering...</p>
+                    </big></p>
+                  <img src="/website/images/growingPlant.png" width="700">
+                  <p class="lead"><span>CS2113/T is an introductory Software Engineering module. The module covers the essentials of Object-oriented programming in addition to SE. It covers roughly <strong>a 50-50 balance of basic SE theory and practice</strong> that a student needs to know before going for SE internships in the industry or taking <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through each topic sequentially"><strong>iterative approach</strong></tooltip> of going increasingly deeper into SE by exposing students to a series of increasingly bigger software projects. </span></p>
+                  <p>On the theory side, this module is supported by a customized online textbook <a href="/website/se-book-adapted/index.html"><em>Software Engineering for Self-Directed Learners</em></a>, integrated into this module website.</p>
 
-              <p>The practice side of this module is mainly covered by a team project that runs in two phases. The first phase provides opportunities to familiarize with Java programming and OOP. In the second phase, students are expected to enhance the codebase of the first phase to either build a command line based personal assistant or evolve it into a different project.</p>
+                  <p>The practice side of this module is mainly covered by a team project that runs in two phases. The first phase provides opportunities to familiarize with Java programming and OOP. In the second phase, students are expected to enhance the codebase of the first phase to either build a command line based personal assistant or evolve it into a different project.</p>
 
-              <p>Given below is a summary of what the module covers and does not cover.</p>
-              <div class="table-responsive">
-                <table class="markbind-table table table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      <th>Topic</th>
-                      <th><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> Covered</th>
-                      <th><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Not covered</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Java</td>
-                      <td>Used heavily, but not taught extensively</td>
-                      <td>syntax <span class="dimmed">(reason: expected to self-learn)</span></td>
-                    </tr>
-                    <tr>
-                      <td>OOP</td>
-                      <td>Used in a non-trivial project, <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
-                      </td>
-                      <td>advanced OOP</td>
-                    </tr>
-                    <tr>
-                      <td>SE tools/practices</td>
-                      <td>
-                        <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip>
-                      </td>
-                      <td>those specific to start-ups</td>
-                    </tr>
-                    <tr>
-                      <td>Modeling</td>
-                      <td>
-                        <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design">this sample Developer Guide</a>)
-                      </td>
-                      <td>intensive <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Requirements</td>
-                      <td>
-                        <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements
-                      </td>
-                      <td>rapid prototyping, heavy UI design, designing a product from scratch</td>
-                    </tr>
-                    <tr>
-                      <td>Documentation</td>
-                      <td>Documentation targeting end users (<a href="https://se-edu.github.io/addressbook-level3/UserGuide.html">example</a>) as well as those targeting developers (<a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html">example</a>)</td>
-                      <td>Marketing materials</td>
-                    </tr>
-                    <tr>
-                      <td>Project Management</td>
-                      <td>Iterative delivery of a product, Working collaboratively with team members, on-site as well as remotely</td>
-                      <td>Setting up project infrastructure from scratch</td>
-                    </tr>
-                    <tr>
-                      <td>Testing</td>
-                      <td>
-                        <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and <tooltip content="e.g., acceptance testing">user testing</tooltip>
-                      </td>
-                      <td>
-                        <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Applications domains</td>
-                      <td>Cross-platform desktop applications</td>
-                      <td>Web programming, Mobile programming, Database programming</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div><br>
-              <p>
-                <panel src="/website/admin/appendixC-faq._include_.html#admin-faq-tVsNonT" header="Admin <md>:glyphicon-log-in:</md> **FAQ: What are the differences between CS2113 and CS2113T?**" class="embedding" minimized fragment="admin-faq-tVsNonT"></panel>
-              </p>
-            </div>
-          </panel>
-          <p></p>
+                  <p>Given below is a summary of what the module covers and does not cover.</p>
+                  <div class="table-responsive">
+                    <table class="markbind-table table table-bordered table-striped">
+                      <thead>
+                        <tr>
+                          <th>Topic</th>
+                          <th><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> Covered</th>
+                          <th><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Not covered</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Java</td>
+                          <td>Used heavily, but not taught extensively</td>
+                          <td>syntax <span class="dimmed">(reason: expected to self-learn)</span></td>
+                        </tr>
+                        <tr>
+                          <td>OOP</td>
+                          <td>Used in a non-trivial project, <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
+                          </td>
+                          <td>advanced OOP</td>
+                        </tr>
+                        <tr>
+                          <td>SE tools/practices</td>
+                          <td>
+                            <tooltip content="e.g., revision control, continuous integration, practices, test automation, code reviews, pull requests">those typically used in a mature, high-rigor SE project</tooltip>
+                          </td>
+                          <td>those specific to start-ups</td>
+                        </tr>
+                        <tr>
+                          <td>Modeling</td>
+                          <td>
+                            <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design">this sample Developer Guide</a>)
+                          </td>
+                          <td>intensive <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Requirements</td>
+                          <td>
+                            <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements
+                          </td>
+                          <td>rapid prototyping, heavy UI design, designing a product from scratch</td>
+                        </tr>
+                        <tr>
+                          <td>Documentation</td>
+                          <td>Documentation targeting end users (<a href="https://se-edu.github.io/addressbook-level3/UserGuide.html">example</a>) as well as those targeting developers (<a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html">example</a>)</td>
+                          <td>Marketing materials</td>
+                        </tr>
+                        <tr>
+                          <td>Project Management</td>
+                          <td>Iterative delivery of a product, Working collaboratively with team members, on-site as well as remotely</td>
+                          <td>Setting up project infrastructure from scratch</td>
+                        </tr>
+                        <tr>
+                          <td>Testing</td>
+                          <td>
+                            <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and <tooltip content="e.g., acceptance testing">user testing</tooltip>
+                          </td>
+                          <td>
+                            <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Applications domains</td>
+                          <td>Cross-platform desktop applications</td>
+                          <td>Web programming, Mobile programming, Database programming</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><br>
+                  <p>
+                    <panel src="/website/admin/appendixC-faq._include_.html#admin-faq-tVsNonT" header="Admin <md>:glyphicon-log-in:</md> **FAQ: What are the differences between CS2113 and CS2113T?**" class="embedding" minimized fragment="admin-faq-tVsNonT"></panel>
+                  </p>
+                </div>
+              </panel>
+              <p></p>
+              <p></p>
+            </box>
+          </box>
         </div>
         <panel type="default" no-close expandable="true">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Where is everything? <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
@@ -1479,7 +1484,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 08:42:52 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 11 Aug 2019 09:37:02 GMT</small></div>
     </footer>
   </div>
 </body>

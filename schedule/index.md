@@ -7,7 +7,10 @@ head: scheduleHead.md
 
 {% set weeks = [
     {num: "1", day:"Aug 12"},
-    {num: "2", day:"Aug 19"},
+    {num: "2", day:"Aug 19"}
+] %}
+
+<!--
     {num: "3", day:"Aug 26"},
     {num: "4", day:"Sep 2"},
     {num: "5", day: "Sep 9" },
@@ -19,7 +22,7 @@ head: scheduleHead.md
     {num: "11", day: "Oct 28" },
     {num: "12", day: "Nov 4" },
     {num: "13", day: "Nov 11" }
-] %}
+-->
 
 <!--
     {num: "1", day:"Jan 14"},

@@ -58,13 +58,20 @@ More info about setting Git username is [here](https://help.github.com/articles/
 
 </div>
 
+<div id="ide">
 
 **IDE**: You are recommended to use [Intellij IDEA](https://www.jetbrains.com/idea/) for module-related programming work. You may use the community edition (free) or the ultimate edition (free for students). While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk. 
+  * If you have an older version of the IDE, we recommend updating to the latest version (i.e., 2019 edition).
 
+</div>
+
+<div id="reposense">
 
 **Analyzing code authorship**: We use a custom-built tool called [RepoSense](https://github.com/reposense/RepoSense) for extracting code written by each person.
 
 <include src="reposenseCompatibility.md#main" />
+
+</div>
 
 </div>
 {% endmacro %}

@@ -9,7 +9,7 @@ Given below is the high-level timeline of the project.
 
 Week  | Stage     | Activities
 ------|-----------|-----------
-**2** |warup    | <span id="warmup-overview">TBD</span>
+**2** |warmup    | <span id="warmup-overview">Set up prerequisites. Get started on Duke</span>
 **3** |inception| <span id="inception-overview">Decide on a overall project direction %%(user profile, problem addressed, societal impact, optimize or morph?).%%</span>
 **4** |mid-v1.0 | <span id="mid-v10-overview">Decide on requirements %%(user stories, use cases, non-functional requirements).%%</span>
 **5** |v1.0     | <span id="v10-overview">Conceptualize product and document it as a user guide(draft), draft a rough project plan.</span>

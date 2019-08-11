@@ -83,7 +83,7 @@ More info about setting Git username is [here](https://help.github.com/articles/
 
 After receiving your team ID, one team member should do the following steps:
 * Create a GitHub organization with the following details:
-  * ==Organization name : `{{ module }}-{{ semester }}-TEAM_ID`==. e.g.  `{{ module }}-{{ semester }}-M11-1`
+  * ==Organization name : `SEMESTER-TEAM_ID`==. e.g.  `{{ semester }}-{{ module }}T-W12-2` or `{{ semester }}-{{ module }}-T13-1`
   * Plan:  Open Source ($0/month) 
 * Add members to the organization:
   * Create a team called `developers` to your organization.

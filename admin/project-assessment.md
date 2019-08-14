@@ -4,6 +4,21 @@
 Note that project grading is ==not competitive (not bell curved)==. {{ module }}T projects will be assessed separately from {{ module }} projects. Given below is the marking scheme.
 
 **Total**: 50 marks ({{ icon_individual }} 40 individual marks + {{ icon_team }} 10 team marks)
+### Phase 1
+
+**Total**: 10 marks ({{ icon_individual }} 5 individual marks + {{ icon_team }} 5 team marks)
+
+<panel header="**Phase 1**" expanded>
+
+  To score **five** individual marks, demonstrate achieving 80% of the mandatory tasks, with *some* contribution each week.
+  * The key thing to note is that you need to have some contribution each week, you are free to decide how big your contribution will be.
+  
+  To score **five** team marks, as a team, demonstrate achieving all mandatory extensions to your tutor.
+  * Do note that, this _does not_ mean each of you do all the mandatory extensions, you need to divide the work among the team members.
+  
+</panel>
+
+<br>
 
 <panel header="1. **Product design** %%[{{ icon_team }} 5 marks]%%" expanded>
 

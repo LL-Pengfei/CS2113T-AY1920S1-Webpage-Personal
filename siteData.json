@@ -429,9 +429,7 @@
     },
     {
       "headings": {
-        "project-v1-0-week-5": "Project: v1.0 [week 5] ",
-        "v1-0-documentation": "v1.0 Documentation",
-        "v1-0-project-management": "v1.0 Project Management"
+        "project-v1-0-week-5": "Project: v1.0 [week 5] "
       },
       "title": "Admin: Project: v1.0 [week 5]",
       "header": "header.md",
@@ -455,10 +453,7 @@
     },
     {
       "headings": {
-        "project-v1-1-week-7": "Project: v1.1 [week 7] ",
-        "v1-1-project-management": "v1.1 Project Management",
-        "v1-1-documentation": "v1.1 Documentation",
-        "v1-1-product": "v1.1 Product"
+        "project-v1-1-week-7": "Project: v1.1 [week 7] "
       },
       "title": "Admin: Project: v1.1 [week 7]",
       "header": "header.md",
@@ -482,11 +477,7 @@
     },
     {
       "headings": {
-        "project-v1-2-week-9": "Project: v1.2 [week 9] ",
-        "v1-2-project-management": "v1.2 Project Management",
-        "v1-2-product": "v1.2 Product",
-        "v1-2-documentation": "v1.2 Documentation",
-        "v1-2-demo": "v1.2 Demo"
+        "project-v1-2-week-9": "Project: v1.2 [week 9] "
       },
       "title": "Admin: Project: v1.2 [week 9]",
       "header": "header.md",
@@ -498,7 +489,6 @@
     },
     {
       "headings": {
-        "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
         "project-mid-v1-3-week-10": "Project: mid-v1.3 [week 10] "
       },
       "title": "Admin: Project: mid-v1.3 [week 10]",
@@ -511,12 +501,7 @@
     },
     {
       "headings": {
-        "project-v1-3-week-11": "Project: v1.3 [week 11] ",
-        "v1-3-project-management": "v1.3 Project Management",
-        "v1-3-product": "v1.3 Product",
-        "v1-3-documentation": "v1.3 Documentation",
-        "v1-3-demo": "v1.3 Demo",
-        "v1-3-testing-aka-practical-exam-dry-run": "v1.3 Testing (aka Practical Exam Dry Run)"
+        "project-v1-3-week-11": "Project: v1.3 [week 11] "
       },
       "title": "Admin: Project: v1.3 [week 11]",
       "header": "header.md",
@@ -540,15 +525,7 @@
     },
     {
       "headings": {
-        "project-v1-4-week-13": "Project: v1.4 [week 13] ",
-        "v1-4-product": "v1.4 Product",
-        "v1-4-source-code": "v1.4 Source Code",
-        "v1-4-user-guide": "v1.4 User Guide",
-        "v1-4-developer-guide": "v1.4 Developer Guide",
-        "v1-4-project-portfolio-page-ppp": "v1.4 Project Portfolio Page (PPP)",
-        "v1-4-product-website": "v1.4 Product Website",
-        "v1-4-demo": "v1.4 Demo",
-        "v1-4-practical-exam": "v1.4 Practical Exam"
+        "project-v1-4-week-13": "Project: v1.4 [week 13] "
       },
       "title": "Admin: Project: v1.4 [week 13]",
       "header": "header.md",
@@ -771,23 +748,6 @@
     },
     {
       "headings": {
-        "m11": "M11",
-        "t08": "T08",
-        "t09": "T09",
-        "t11": "T11",
-        "m11-1": "M11-1    ",
-        "m11-2": "M11-2    ",
-        "m11-3": "M11-3    ",
-        "t08-1": "T08-1    ",
-        "t08-2": "T08-2    ",
-        "t08-3": "T08-3    ",
-        "t08-4": "T08-4    ",
-        "t09-1": "T09-1    ",
-        "t09-2": "T09-2    ",
-        "t09-3": "T09-3    ",
-        "t11-1": "T11-1    ",
-        "t11-2": "T11-2    ",
-        "t11-3": "T11-3    ",
         "cs2113-t-project-list": "CS2113/T Project List"
       },
       "title": "Project List",
@@ -815,21 +775,7 @@
       "layout": "default"
     },
     {
-      "headings": {
-        "m11-1": "M11-1",
-        "m11-2": "M11-2",
-        "m11-3": "M11-3",
-        "t08-1": "T08-1",
-        "t08-2": "T08-2",
-        "t08-3": "T08-3",
-        "t08-4": "T08-4",
-        "t09-1": "T09-1",
-        "t09-2": "T09-2",
-        "t09-3": "T09-3",
-        "t11-1": "T11-1",
-        "t11-2": "T11-2",
-        "t11-3": "T11-3"
-      },
+      "headings": {},
       "title": "config.json File Templates for RepoSense",
       "header": "header.md",
       "footer": "footer.md",
@@ -1122,7 +1068,7 @@
         "getters-and-setters": "Getters and Setters",
         "class-level-members": "Class-Level Members",
         "key-exercise-define-a-circle-class": " [Key Exercise] define a Circle class",
-        "constructos": "Constructos",
+        "constructors": "Constructors",
         "this-keyword": "this keyword",
         "instance-methods": "Instance methods",
         "key-exercise-add-getters-setters-to-the-circle-class": " [Key Exercise] add getters/setters to the Circle class",

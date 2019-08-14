@@ -1,37 +1,37 @@
 <div>
-  <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\dependencyInjection\what\text.md"></div>
+  <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\dependencyInjection\what\text.md"></div>
 </div>
 <p></p>
-<p><span class="dimmed"><strong><span><span data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\dependencyInjection\path.md">Quality Assurance → Testing → Dependency Injection →
+<p><span class="dimmed"><strong><span><span data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\dependencyInjection\path.md">Quality Assurance → Testing → Dependency Injection →
         </span></span></strong></span></p>
 <div id="title-and-body">
   <div>
-    <h4 id="what"><span><span data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\dependencyInjection\what\text.md">What</span></span></h4>
+    <h4 id="what"><span><span data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\dependencyInjection\what\text.md">What</span></span></h4>
   </div>
   <div id="main">
     <div>
-      <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\dependencyInjection\what\text.md">
+      <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\dependencyInjection\what\text.md">
         <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the <tooltip content="Software Under Test">SUT</tooltip> from its <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
         <modal large title id="modal:explainDi-stub">
           <div>
-            <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\unit-inElsewhere-asFlat.md">
+            <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\unit-inElsewhere-asFlat.md">
               <div>
-                <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
+                <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
                   <p>
                     <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what"></panel>
                   </p>
                 </div>
               </div>
               <p></p>
-              <p><span class="dimmed"><strong><span><span data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\path.md">Quality Assurance → Testing → Unit Testing →
+              <p><span class="dimmed"><strong><span><span data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\path.md">Quality Assurance → Testing → Unit Testing →
                       </span></span></strong></span></p>
               <div id="title-and-body">
                 <div>
-                  <h4 id="stubs"><span><span data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">Stubs</span></span></h4>
+                  <h4 id="stubs"><span><span data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">Stubs</span></span></h4>
                 </div>
                 <div id="main">
                   <div>
-                    <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
+                    <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
                       <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
                       <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
@@ -39,7 +39,7 @@
                       <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
                       <box type="definition">
                         <div>
-                          <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\common\definitions.md">
+                          <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\common\definitions.md">
                             <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                           </div>
                         </div>
@@ -57,12 +57,12 @@
         <span class="hljs-keyword">return</span> <span class="hljs-string">"Name: "</span> + s.getName(index);
     }
 }
-
-<span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Storage</span> </span>{
+</code></pre>
+                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Storage</span> </span>{
     <span class="hljs-function">String <span class="hljs-title">getName</span><span class="hljs-params">(<span class="hljs-keyword">int</span> index)</span></span>;
 }
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DatabaseStorage</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
+</code></pre>
+                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DatabaseStorage</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
     <span class="hljs-meta">@Override</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">(<span class="hljs-keyword">int</span> index)</span> </span>{
@@ -112,9 +112,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                     </div>
                   </div>
                   <div>
-                    <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
+                    <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\text.md">
                       <div>
-                        <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\resources.md">
+                        <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\resources.md">
                           <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <ul>
                               <li><a href="https://martinfowler.com/articles/mocksArentStubs.html"><strong>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li>
@@ -123,10 +123,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         </div>
                       </div>
                       <div>
-                        <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\exercises.md">
+                        <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\exercises.md">
                           <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\q-tick-trueFalse.md">
+                              <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\testingTypes\unitTesting\stubs\q-tick-trueFalse.md">
                                 <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs">
                                   <question>
                                     <p>Stubs help us to test a component in isolation from its dependencies.</p>
@@ -158,7 +158,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
       </div>
     </div>
     <div>
-      <div data-included-from="D:\Teaching\CS2113\AY1920Sem1\website\book\testing\dependencyInjection\what\text.md"></div>
+      <div data-included-from="E:\Teaching\CS2113\CS2113-AY1920Sem1\website\book\testing\dependencyInjection\what\text.md"></div>
     </div>
   </div>
 </div>

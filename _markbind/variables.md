@@ -16,9 +16,9 @@
 
 <span id="team_IDs_page">https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true</span>
 
-<span id="ivle_files">https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476</span>
+<span id="ivle_files">https://luminus.nus.edu.sg/modules/a88dbb20-f714-45fc-a24e-c2f3b2fb707c/files/8f31ed78-d82b-4283-969f-0c541cc53a86</span>
 
-<span id="ivle_announcements">https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active</span>
+<span id="ivle_announcements">https://luminus.nus.edu.sg/modules/a88dbb20-f714-45fc-a24e-c2f3b2fb707c/announcements/active</span>
 
 <span id="bugs_link">{{ module_org | safe }}/forum/issues</span>
 

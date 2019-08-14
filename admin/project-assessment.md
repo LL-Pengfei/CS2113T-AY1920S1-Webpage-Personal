@@ -1,9 +1,22 @@
 {% macro show_main_text() %}
 <div id="main">
 
+<!--
 Note that project grading is ==not competitive (not bell curved)==. {{ module }}T projects will be assessed separately from {{ module }} projects. Given below is the marking scheme.
+-->
 
-**Total**: 50 marks ({{ icon_individual }} 40 individual marks + {{ icon_team }} 10 team marks)
+<box type="important">
+
+Marks for the project component are divided according to the two phases.
+
+**Total**: _50 marks_
+ 
+Split as follows: 10 marks for phase 1 + 40 marks for phase 2
+
+</box>
+
+<br>
+
 ### Phase 1
 
 **Total**: 10 marks ({{ icon_individual }} 5 individual marks + {{ icon_team }} 5 team marks)

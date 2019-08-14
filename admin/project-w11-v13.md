@@ -8,6 +8,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v13-overview" inline /></md></p>
 
+<!--
+
 **v1.3 Summary of Milestone**
 
 Milestone | Minimum acceptable performance to consider as 'reached'
@@ -67,6 +69,9 @@ Ensure your code is RepoSense-compatible, <trigger trigger="click" for="modal:v1
 =={{ icon_important_big_red }} See info in the panel below:==
 <br>
 {{ embed_topic("project-deliverables.md#project-deliverables-practicalexam-dry-run", "Admin " + icon_embedding + " Project Deliverables → **Practical Exam - Dry Run**", "v13-peDryRun", "1") }}
+
+
+-->
 
 </div>
 </div>

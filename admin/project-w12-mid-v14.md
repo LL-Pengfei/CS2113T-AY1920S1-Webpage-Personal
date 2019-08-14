@@ -3,6 +3,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v14-overview" inline /></md></p>
 
+<!--
+
 **<big>Project Management:</big>**
 
 * **Freeze features** around this time. Ensure the current product have all the features you intend to release at v1.4. Adding major changes after this point is risky. The remaining time is better spent fixing problems discovered late or on fine-tuning the product.
@@ -47,6 +49,8 @@
 <modal large title="Admin {{ icon_embedding }} Project → v1.4 Demo (extract)" id="modal:mid-v14-demo-instructions">
   <include src="project-deliverables.md#project-deliverables-demo"/>
 </modal> 
+
+-->
 
 </div>
 {% endmacro %}

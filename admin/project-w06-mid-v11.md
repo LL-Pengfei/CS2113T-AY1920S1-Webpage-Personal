@@ -8,6 +8,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v11-overview" inline /></md><p/>
 
+<!--
+
 <div id="product">
 
 **<big>Project Management:</big>**
@@ -99,6 +101,8 @@ When updating code in the repo, follow the workflow explained below:
 
 
 </div>
+
+-->
 
 </div>
 </div>

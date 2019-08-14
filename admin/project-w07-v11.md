@@ -6,6 +6,8 @@
 </div>
 <div id="body"> 
 
+<!--
+
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v11-overview" inline /></md></p>
 
 {{ icon_important_big_red }} **Milestone progress is graded**. Be reminded that reaching individual and team milestones are considered for <trigger trigger="click" for="modal:v11-projectMgtGrading">grading the _project management_ component</trigger> of your project grade.
@@ -65,6 +67,8 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 * Each member should try to add some enhancements that are in line with the vision for v2.0. After adding some _local-impact_ changes as recommended in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>, attempt to do some ==<tooltip content="should go beyond the component you are in charge of">_global-impact_</tooltip> enhancements==, touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has [some guidance on how to implement a new feature end-to-end](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/DeveloperGuide.html#GetStartedProgramming-RemarkCommand).
 
 </div>
+
+-->
 
 </div>
 </div>

@@ -8,6 +8,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v12-overview" inline /></md><p/>
 
+<!--
+
 **<big>Project Management:</big>**
 
 <box>
@@ -58,8 +60,9 @@
 
 </div>
 
-</div>
+-->
 
+</div>
 </div>
 {% endmacro %}
 

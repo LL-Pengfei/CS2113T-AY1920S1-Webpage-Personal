@@ -8,6 +8,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v12-overview" inline /></md></p>
 
+<!--
+
 **v1.2 Summary of Milestone**
 
 Milestone | Minimum acceptable performance to consider as 'reached'
@@ -53,6 +55,8 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 ### v1.2 Demo
 
 Do an informal demo of the new feature during the tutorial. ==To save time, we recommend that one member demos all new features, using the commit tagged as `v1.2` in the `master` branch== %%&nbsp;i.e. only features included in the current release should be demoed%%.
+
+-->
 
 </div>
 </div>

@@ -8,6 +8,8 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v14-overview" inline /></md></p>
 
+<!--
+
 **Summary of submissions**:
 
 Team/Individual Item | Name format | Upload to
@@ -107,6 +109,8 @@ Team/Individual Item | Name format | Upload to
 <p/>
 
 **Time/venue:** week 13 lecture slot
+
+-->
 
 </div>
 </div>

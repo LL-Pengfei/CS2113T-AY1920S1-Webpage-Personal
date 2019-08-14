@@ -8,6 +8,7 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v13-overview" inline /></md></p>
 
+<!--
 
 **<big>Project Management:</big>**
 
@@ -30,6 +31,8 @@
 
 * **User Guide**: Update where the document does not match the current product.
 * **Developer Guide**: Similar to the User Guide.
+
+-->
 
 </div>
 </div>

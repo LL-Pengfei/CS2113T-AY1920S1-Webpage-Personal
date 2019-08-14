@@ -8,6 +8,7 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#inception-overview" inline /></md></p>
 
+<!--
 It is not too early to set an overall direction for your project.
 
 * **Set up a weekly project meeting time/venue with your team members**
@@ -25,6 +26,7 @@ It is not too early to set an overall direction for your project.
 <modal large title="Admin {{ icon_embedding }} Project Scope (Extract)" id="modal:v10-scope">
   <include src="project-scope.md#project-direction"/>
 </modal>
+-->
 
 <br><br>
 

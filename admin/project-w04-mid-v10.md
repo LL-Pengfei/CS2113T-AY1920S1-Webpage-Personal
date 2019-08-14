@@ -8,6 +8,7 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#mid-v10-overview" inline /></md></p>
 
+<!--
 :bulb: Given below are some guidance on the recommended progress at this point of the project %%(i.e., at week 4, which is the midway point of the milestone v1.0)%%
 
 This is a good time to analyze requirements with a view to conceptualizing the next version of the product (i.e. v2.0).
@@ -114,6 +115,9 @@ This is a good time to analyze requirements with a view to conceptualizing the n
 <modal title="Textbook {{ icon_embedding }}" id="modal:v10-prodsurveys">
   <include src="../book/gatheringRequirements/productSurveys/unit-inElsewhere-asFlat.md" boilerplate/>
 </modal>
+
+
+-->
 
 </div>
 </div>

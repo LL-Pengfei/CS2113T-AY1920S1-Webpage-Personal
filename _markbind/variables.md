@@ -12,13 +12,13 @@
 
 <span id="module_website">https://nus{{ module | lower }}-{{ semester }}.github.io/website</span>
 
-<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vS5f_f59o-YeY_QpMoAs92bxPDPOQS_QL3GcMIkh85bSoILhh7iSwRUZdJrMhbfo_uekc8OntAd-ubC/pub?embedded=true</span>
+<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vR8qLKSurfGHNgf3TDLVToNeOrBLizgeMdaDXz4BoVPRptqaeL_kfp7YqIuogrK1qchhSj7LkVEJVQu/pub?embedded=true</span>
 
 <span id="team_IDs_page">https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true</span>
 
-<span id="ivle_files">https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/files/52f81632-158c-418a-9d13-a9a48121a476</span>
+<span id="ivle_files">https://luminus.nus.edu.sg/modules/a88dbb20-f714-45fc-a24e-c2f3b2fb707c/files/8f31ed78-d82b-4283-969f-0c541cc53a86</span>
 
-<span id="ivle_announcements">https://luminus.nus.edu.sg/modules/20b51d5e-cb28-497e-b539-0addd19aa7e6/announcements/active</span>
+<span id="ivle_announcements">https://luminus.nus.edu.sg/modules/a88dbb20-f714-45fc-a24e-c2f3b2fb707c/announcements/active</span>
 
 <span id="bugs_link">{{ module_org | safe }}/forum/issues</span>
 

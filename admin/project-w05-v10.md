@@ -6,6 +6,8 @@
 </div>
 <div id="body">
 
+<!--
+
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#v10-overview" inline /></md></p>
 
 **v1.0 Summary of Milestone**
@@ -71,6 +73,8 @@ Milestone | Minimum acceptable performance to consider as 'reached'
 
 
 =={{ icon_important_big_red }} **Submission**==: Include in the pdf file you upload to LumiNUS.
+
+-->
 
 </div>
 </div>

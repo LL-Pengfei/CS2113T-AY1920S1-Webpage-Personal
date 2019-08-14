@@ -7,6 +7,12 @@ head: scheduleHead.md
 
 # CS2113/T Project List
 
+<box type=info>
+Will be populated after v1.2
+</box>
+
+<!--
+
 <panel header="### M11" expanded no-close >
 
 #### M11-1 <small>[:fab-github:](https://github.com/CS2113-AY1819S2-M11-1/main) [:fas-home:](https://CS2113-AY1819S2-M11-1.github.io/main/) [:far-comment:](https://github.com/CS2113-AY1819S2-M11-1/main/issues/new)</small> [<img src="https://travis-ci.org/CS2113-AY1819S2-M11-1/main.svg?branch=master" alt="Build Status">](https://travis-ci.org/CS2113-AY1819S2-M11-1/main)
@@ -117,3 +123,4 @@ DOM...HAO | HAN...WOO | NG ...ONG | PAN...HAO |
 
 
 </panel>
+-->

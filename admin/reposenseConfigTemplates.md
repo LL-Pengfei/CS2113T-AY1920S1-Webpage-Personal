@@ -9,6 +9,12 @@ head: scheduleHead.md
 
 <hr>
 
+<box type=info>
+  Will be populated after v1.1
+</box>
+
+<!--
+
 #### M11-1
 ```json
 {
@@ -409,3 +415,4 @@ head: scheduleHead.md
 ```
 <hr>
 
+-->

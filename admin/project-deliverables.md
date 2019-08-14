@@ -46,7 +46,7 @@ Here is a list of main deliverables of the project; their details are given in t
 * The Developer Guide (DG) of the product should match the proposed v2.0 of the product and should be in sync with the current version of the product.
 * {{ icon_important_big_red }} **The appendix named _Instructions for Manual Testing_** of the Developer Guide should include testing instructions to **cover the features of each team member**. There is no need to add testing instructions for existing features if you did not touch them.<br>
   :bulb: What to include in the appendix _Instructions for Manual Testing_? This appendix is meant to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app. There is no need to give a long list of test cases including all possible variations. It is upto the tester to come up with those variations. However, if the instructions are inaccurate or deliberately misses/mis-states information to make testing harder %%&nbsp;i.e. annoys the tester%%, the tester can report it as a bug %%&nbsp;(because flaws in developer docs are considered as bugs)%%.
-* Ensure the exported DG parts included in PPPs match the product precisely, as PPPs will be used by peer evaluators (and ==any inaccuracy in the content will be considered bugs==).
+* Ensure the DG parts included in PPPs match the product precisely, as PPPs will be used by peer evaluators (and ==any inaccuracy in the content will be considered bugs==).
     
 </span>
 
@@ -145,12 +145,21 @@ At the end of the project each student is required to submit a _Project Portfoli
   * If you plan to use the PPP in your Resume, you can also include your SE work outside of the module (will not be graded)
 
 * **Format**:
-  * File name: `docs/team/githbub_username_in_lower_case.adoc` e.g., `docs/team/johndoe.adoc`
-  * {{ icon_example }} Follow the [example in the AddressBook-Level4](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/team/johndoe.html)
+  * File name: `docs/team/githbub_username_in_lower_case.pdf` e.g., `docs/team/johndoe.pdf`
+  
+  * **Use one-half spacing between the lines** for legibility
+  
+  * {{ icon_example }} Follow the [example in the AddressBook-Level3](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level3/team/johndoe.html)
 
-  * :bulb: You can use the [Asciidoc's `include` feature](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files) to include sections from the developer guide or the user guide in your PPP. Follow the example in the [sample](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/team/johndoe.html).
-
+  * :bulb: You are free to choose any (collaborative) software to write the documents. However, try to follow the format of the sample user guide, developer guide and PPP given.
+  
+  * Do note that **extra effort** is needed in duplicating and maintaining consistency across UG/DG and PPP. This is a cost of not using automated  document generation.
+  
   * =={{ icon_important_big_red }} It is assumed that all contents in the PPP were written primarily by you.== If any section is written by someone else %%&nbsp;e.g. someone else wrote described the feature in the User Guide but you implemented the feature%%, clearly state that the section was written by someone else %%&nbsp;(e.g. `Start of Extract [from: User Guide] written by Jane Doe`)%%. %%&nbsp;Reason: Your writing skills will be evaluated based on the PPP%%
+
+<!--
+  * :bulb: You can use the [Asciidoc's `include` feature](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files) to include sections from the developer guide or the user guide in your PPP. Follow the example in the [sample](https://nus{{ module | lower }}-{{ semester | lower }}.github.io/addressbook-level4/team/johndoe.html).
+-->
 
 * **Page limit**:
   Content | Limit
@@ -160,10 +169,12 @@ At the end of the project each student is required to submit a _Project Portfoli
   Contributions to the Developer Guide | 3-6 (soft limit)
   Total | 5-10 ==(strict)==
 
-  * The ==page limits given above are _after_ converting to PDF format==. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.
+  <!-- * The ==page limits given above are _after_ converting to PDF format==. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content. -->
   * %%Reason for page limit: These submissions are peer-graded (in the PE) which needs to be done in a limited time span.%%<br>
-   If you have more content than the limit given above, you can give a representative samples of UG and DG that showcase your documentation skills. Those samples should be understandable on their own. For the parts left-out, you can give an abbreviated version and refer the reader to the full UG/DG for more details.<br>
-   %%It's similar to giving extra details as appendices; the reader will look at the UG/DG if the PPP is not enough to make a judgment. For example, when judging documentation quality, if the part in the PPP is not well-written, there is no point reading the rest in the main UG/DG. That's why you need to put the most representative part of your writings in the PPP and still give an abbreviated version of the rest in the PPP itself. Even when judging the quantity of work, the reader should be able to get a good sense of the quantity by combining what is quoted in the PPP and your abbreviated description of the missing part. There is no guarantee that the evaluator will read the full document.%%
+   
+  * If you have more content than the limit given above, you can give a representative samples of UG and DG that showcase your documentation skills. Those samples should be understandable on their own. For the parts left-out, you can give an abbreviated version and refer the reader to the full UG/DG for more details.<br>
+  
+  * %%It's similar to giving extra details as appendices; the reader will look at the UG/DG if the PPP is not enough to make a judgment. For example, when judging documentation quality, if the part in the PPP is not well-written, there is no point reading the rest in the main UG/DG. That's why you need to put the most representative part of your writings in the PPP and still give an abbreviated version of the rest in the PPP itself. Even when judging the quantity of work, the reader should be able to get a good sense of the quantity by combining what is quoted in the PPP and your abbreviated description of the missing part. There is no guarantee that the evaluator will read the full document.%%
 
 
 </span>

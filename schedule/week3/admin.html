@@ -35,7 +35,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
-      <navbar placement="top" type="dark" class="temp-navbar">
+      <navbar placement="top" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
@@ -84,14 +84,34 @@
         <panel type="default" no-close expandable="true">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project: Assessment <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
-            <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2113T projects will be assessed separately from CS2113 projects. Given below is the marking scheme.</p>
-            <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+
+            <box type="important">
+              <p>Marks for the project component are divided according to the two phases.</p>
+              <p><strong>Total</strong>: <em>50 marks</em></p>
+              <p>Split as follows: 10 marks for phase 1 + 40 marks for phase 2</p>
+            </box>
+            <br>
+            <h3 id="phase-1">Phase 1<a class="fa fa-anchor" href="#phase-1"></a></h3>
+            <p><strong>Total</strong>: 10 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 5 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 5 team marks)</p>
+            <panel header="**Phase 1**" expanded>
+              <p>To score <strong>five</strong> individual marks, demonstrate achieving 80% of the mandatory tasks, with <em>some</em> contribution each week.</p>
+              <ul>
+                <li>The key thing to note is that you need to have some contribution each week, you are free to decide how big your contribution will be.</li>
+              </ul>
+              <p>To score <strong>five</strong> team marks, as a team, demonstrate achieving all mandatory extensions to your tutor.</p>
+              <ul>
+                <li>Do note that, this <em>does not</em> mean each of you do all the mandatory extensions, you need to divide the work among the team members.</li>
+              </ul>
+            </panel>
+            <br>
+            <h3 id="phase-2">Phase 2<a class="fa fa-anchor" href="#phase-2"></a></h3>
+            <p><strong>Total</strong>: 40 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 30 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
             <panel header="1. **Product design** %%[<md>:fas-users:</md> 5 marks]%%" expanded>
               <p>Evaluates: How well do your features fit together to form a cohesive product (not how many features or how big the features are)?</p>
               <p>Based on: user guide and the product demo. The <strong>quality of the demo will be factored in</strong> as well.</p>
               <p>💡 Feature that fit well with the other features will earn more marks.</p>
             </panel>
-            <panel header="2. **Implementation** %%[<md>:fas-user:</md> 15 marks]%%" expanded>
+            <panel header="2. **Implementation** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
               <p>Evaluates:</p>
               <p><strong>A. Code quality/quantity:</strong></p>
               <p>How good your implementation is, in terms of the quality and the quantity of the code you have written yourself.</p>
@@ -1954,7 +1974,7 @@ compact(input);
               <p></p>
               <p><strong>B. Quality of your feature(s)</strong></p>
             </panel>
-            <panel header="3. **QA** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
+            <panel header="3. **QA** %%[<md>:fas-user:</md> 7 marks]%%" expanded>
               <p>Evaluates: How good is your Quality Assurance?</p>
               <p>Based on:</p>
               <ol>
@@ -1974,7 +1994,7 @@ compact(input);
                 </ul>
               </div>
             </modal>
-            <panel header="4. **Documentation** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
+            <panel header="4. **Documentation** %%[<md>:fas-user:</md> 8 marks]%%" expanded>
               <p>Evaluates: How good are the sections you wrote for the user guide and the developer guide?</p>
               <p>Based on: the relevant sections of your project portfolio. Criteria considered:</p>
               <ul>
@@ -2277,14 +2297,34 @@ compact(input);
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectAssessment">
                 <div>
-                <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2113T projects will be assessed separately from CS2113 projects. Given below is the marking scheme.</p>
-                <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+
+                <box type="important">
+                  <p>Marks for the project component are divided according to the two phases.</p>
+                  <p><strong>Total</strong>: <em>50 marks</em></p>
+                  <p>Split as follows: 10 marks for phase 1 + 40 marks for phase 2</p>
+                </box>
+                <br>
+                <h3 id="phase-1-2">Phase 1<a class="fa fa-anchor" href="#phase-1-2"></a></h3>
+                <p><strong>Total</strong>: 10 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 5 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 5 team marks)</p>
+                <panel header="**Phase 1**" expanded>
+                  <p>To score <strong>five</strong> individual marks, demonstrate achieving 80% of the mandatory tasks, with <em>some</em> contribution each week.</p>
+                  <ul>
+                    <li>The key thing to note is that you need to have some contribution each week, you are free to decide how big your contribution will be.</li>
+                  </ul>
+                  <p>To score <strong>five</strong> team marks, as a team, demonstrate achieving all mandatory extensions to your tutor.</p>
+                  <ul>
+                    <li>Do note that, this <em>does not</em> mean each of you do all the mandatory extensions, you need to divide the work among the team members.</li>
+                  </ul>
+                </panel>
+                <br>
+                <h3 id="phase-2-2">Phase 2<a class="fa fa-anchor" href="#phase-2-2"></a></h3>
+                <p><strong>Total</strong>: 40 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 30 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
                 <panel header="1. **Product design** %%[<md>:fas-users:</md> 5 marks]%%" expanded>
                   <p>Evaluates: How well do your features fit together to form a cohesive product (not how many features or how big the features are)?</p>
                   <p>Based on: user guide and the product demo. The <strong>quality of the demo will be factored in</strong> as well.</p>
                   <p>💡 Feature that fit well with the other features will earn more marks.</p>
                 </panel>
-                <panel header="2. **Implementation** %%[<md>:fas-user:</md> 15 marks]%%" expanded>
+                <panel header="2. **Implementation** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
                   <p>Evaluates:</p>
                   <p><strong>A. Code quality/quantity:</strong></p>
                   <p>How good your implementation is, in terms of the quality and the quantity of the code you have written yourself.</p>
@@ -4147,7 +4187,7 @@ compact(input);
                   <p></p>
                   <p><strong>B. Quality of your feature(s)</strong></p>
                 </panel>
-                <panel header="3. **QA** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
+                <panel header="3. **QA** %%[<md>:fas-user:</md> 7 marks]%%" expanded>
                   <p>Evaluates: How good is your Quality Assurance?</p>
                   <p>Based on:</p>
                   <ol>
@@ -4167,7 +4207,7 @@ compact(input);
                     </ul>
                   </div>
                 </modal>
-                <panel header="4. **Documentation** %%[<md>:fas-user:</md> 10 marks]%%" expanded>
+                <panel header="4. **Documentation** %%[<md>:fas-user:</md> 8 marks]%%" expanded>
                   <p>Evaluates: How good are the sections you wrote for the user guide and the developer guide?</p>
                   <p>Based on: the relevant sections of your project portfolio. Criteria considered:</p>
                   <ul>
@@ -4346,7 +4386,7 @@ compact(input);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 14 Aug 2019 10:25:09 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 14 Aug 2019 15:31:20 GMT</small></div>
     </footer>
   </div>
 </body>

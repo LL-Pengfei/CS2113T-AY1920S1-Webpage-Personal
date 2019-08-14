@@ -256,7 +256,9 @@
     },
     {
       "headings": {
-        "project-assessment": "Project: Assessment "
+        "project-assessment": "Project: Assessment ",
+        "phase-1": "Phase 1",
+        "phase-2": "Phase 2"
       },
       "title": "Admin: Project: Assessment",
       "header": "header.md",
@@ -1028,16 +1030,19 @@
         "helloworld": "HelloWorld",
         "compiling-programs": "Compiling Programs",
         "running-programs": "Running Programs",
+        "key-exercise-run-helloworld": " [Key Exercise] Run HelloWorld",
         "getting-started": "Getting Started",
         "primitive-data-types": "Primitive Data Types",
         "variables": "Variables",
         "operators": "Operators",
         "arrays": "Arrays",
+        "key-exercise-compare-names": " [Key Exercise] Compare names",
         "passing-arguments-to-a-program": "Passing arguments to a program",
         "data-types": "Data Types",
         "branching": "Branching",
         "methods": "Methods",
         "loops": "Loops",
+        "key-exercise-grade-helper": " [Key Exercise] Grade Helper",
         "if-else-statements": "if-else statements",
         "switch-statements": "switch statements",
         "key-exercise-getgradecap-method": " [Key Exercise] getGradeCap Method",

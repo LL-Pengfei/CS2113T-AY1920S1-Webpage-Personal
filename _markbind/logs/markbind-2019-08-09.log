@@ -1,0 +1,94 @@
+2019-08-09T14:52:57.481Z - info: [10:52:57 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-product.md
+2019-08-09T14:52:58.495Z - info: Rebuilding affected source files
+2019-08-09T14:52:58.519Z - info: Rebuilding 2 pages
+2019-08-09T14:53:00.124Z - info: Pages rebuilt
+2019-08-09T14:53:00.141Z - info: Site data built
+2019-08-09T14:55:26.201Z - info: [10:55:26 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-product.md
+2019-08-09T14:55:27.207Z - info: Rebuilding affected source files
+2019-08-09T14:55:27.211Z - info: Rebuilding 2 pages
+2019-08-09T14:55:28.130Z - info: Pages rebuilt
+2019-08-09T14:55:28.143Z - info: Site data built
+2019-08-09T15:21:47.160Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\introduction\path.md
+2019-08-09T15:21:47.181Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\more\path.md
+2019-08-09T15:21:47.181Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\nTier\path.md
+2019-08-09T15:21:47.182Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\path.md
+2019-08-09T15:21:47.232Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\serviceOriented\path.md
+2019-08-09T15:21:47.233Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\transactionProcessing\path.md
+2019-08-09T15:21:47.233Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architectureDiagrams\reading\text.md
+2019-08-09T15:21:47.234Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\common\definitions.md
+2019-08-09T15:21:47.234Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\designApproaches\multilevelDesign\what\text.md
+2019-08-09T15:21:47.235Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\designFundamentals\abstraction\what\text.md
+2019-08-09T15:21:47.236Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\diagrams\gitAndGithub\tag\sourcetree_1.pptx
+2019-08-09T15:21:47.236Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\introduction\what\text.md
+2019-08-09T15:21:47.237Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\tools\asciiDoc\path.md
+2019-08-09T15:21:47.238Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\tools\markdown\path.md
+2019-08-09T15:21:47.238Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\gitAndGithub\tag\cli.md
+2019-08-09T15:21:47.254Z - info: [11:21:47 PM] Reload for file deletion: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\eventDriven\path.md
+2019-08-09T15:21:47.337Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\ides\debugging\what\text.md
+2019-08-09T15:21:47.338Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\transactionProcessing\path.md
+2019-08-09T15:21:47.338Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\integration\approaches\lateVsEarly\text.md
+2019-08-09T15:21:47.339Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\intellij\codeNavigation\text.md
+2019-08-09T15:21:47.340Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\oop\associations\composition\text.md
+2019-08-09T15:21:47.341Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architectureDiagrams\reading\text.md
+2019-08-09T15:21:47.342Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\oop\associations\multiplicity\text.md
+2019-08-09T15:21:47.343Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\dependencyInversionPrinciple\text.md
+2019-08-09T15:21:47.343Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\openClosedPrinciple\text.md
+2019-08-09T15:21:47.344Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\common\definitions.md
+2019-08-09T15:21:47.345Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\separationOfConcernsPrinciple\text.md
+2019-08-09T15:21:47.345Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\designApproaches\multilevelDesign\what\text.md
+2019-08-09T15:21:47.346Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\singleResponsibilityPrinciple\text.md
+2019-08-09T15:21:47.346Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\designFundamentals\abstraction\what\text.md
+2019-08-09T15:21:47.347Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\projectPlanning\workBreakdownStructure\text.md
+2019-08-09T15:21:47.348Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\diagrams\gitAndGithub\tag\sourcetree_1.pptx
+2019-08-09T15:21:47.348Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-09T15:21:47.349Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\extensions.md
+2019-08-09T15:21:47.349Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\introduction\what\text.md
+2019-08-09T15:21:47.350Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\tools\asciiDoc\path.md
+2019-08-09T15:21:47.350Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\documentation\tools\markdown\path.md
+2019-08-09T15:21:47.351Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\identifying\text.md
+2019-08-09T15:21:47.352Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\gitAndGithub\tag\cli.md
+2019-08-09T15:21:47.352Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\gitAndGithub\tag\sourcetree.md
+2019-08-09T15:21:47.353Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\introduction\text.md
+2019-08-09T15:21:47.353Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\userStories\details\text.md
+2019-08-09T15:21:47.354Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\userStories\introduction\text.md
+2019-08-09T15:21:47.356Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testCaseDesign\boundaryValueAnalysis\how\text.md
+2019-08-09T15:21:47.548Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testAutomation\testingGuis\text.md
+2019-08-09T15:21:47.549Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\acceptanceTesting\what\text.md
+2019-08-09T15:21:47.550Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\integrationTesting\how\text.md
+2019-08-09T15:21:47.551Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\systemTesting\what\text.md
+2019-08-09T15:21:47.554Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\ides\debugging\what\text.md
+2019-08-09T15:21:47.573Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\uml\sequenceDiagrams\parallelPaths\text.md
+2019-08-09T15:21:47.575Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\integration\approaches\lateVsEarly\text.md
+2019-08-09T15:21:47.576Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\intellij\codeNavigation\text.md
+2019-08-09T15:21:47.576Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\oop\associations\composition\text.md
+2019-08-09T15:21:47.577Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\oop\associations\multiplicity\text.md
+2019-08-09T15:21:47.578Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\dependencyInversionPrinciple\text.md
+2019-08-09T15:21:47.578Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\path.md
+2019-08-09T15:21:47.579Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\openClosedPrinciple\text.md
+2019-08-09T15:21:47.579Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\separationOfConcernsPrinciple\text.md
+2019-08-09T15:21:47.580Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\principles\singleResponsibilityPrinciple\text.md
+2019-08-09T15:21:47.580Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\projectPlanning\workBreakdownStructure\text.md
+2019-08-09T15:21:47.580Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-09T15:21:47.581Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\extensions.md
+2019-08-09T15:21:47.582Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\guarantees.md
+2019-08-09T15:21:47.582Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\inclusions.md
+2019-08-09T15:21:47.583Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
+2019-08-09T15:21:47.583Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\preconditions.md
+2019-08-09T15:21:47.584Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\details\useCaseSteps.md
+2019-08-09T15:21:47.584Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\identifying\text.md
+2019-08-09T15:21:47.585Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\useCases\introduction\text.md
+2019-08-09T15:21:47.585Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\userStories\details\text.md
+2019-08-09T15:21:47.585Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\specifyingRequirements\userStories\introduction\text.md
+2019-08-09T15:21:47.586Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testCaseDesign\boundaryValueAnalysis\how\text.md
+2019-08-09T15:21:47.634Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testAutomation\testingGuis\text.md
+2019-08-09T15:21:47.634Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\acceptanceTesting\what\text.md
+2019-08-09T15:21:47.635Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\integrationTesting\how\text.md
+2019-08-09T15:21:47.635Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\testing\testingTypes\systemTesting\what\text.md
+2019-08-09T15:21:47.636Z - info: [11:21:47 PM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\book\uml\sequenceDiagrams\parallelPaths\text.md
+2019-08-09T15:21:47.721Z - info: [11:21:47 PM] Reload for file add: D:\Teaching\CS2113\AY1920Sem1\website\book\architecture\architecturalStyles\eventDriven\path.md
+2019-08-09T15:21:47.789Z - info: [11:21:47 PM] Reload for file add: D:\Teaching\CS2113\AY1920Sem1\website\book\gitAndGithub\tag\images\pushTags.png
+2019-08-09T15:21:48.164Z - info: Rebuilding affected source files
+2019-08-09T15:21:48.226Z - info: Rebuilding 237 pages
+2019-08-09T15:22:08.941Z - warn: Rebuilding all source files
+2019-08-09T15:22:40.670Z - info: Assets removed
+2019-08-09T15:22:40.671Z - info: Generating pages...

@@ -79,3 +79,33 @@
 2019-08-14T07:19:08.267Z - info: Site data built
 2019-08-14T07:27:12.537Z - info: Website generation started at 3:27:11 PM
 2019-08-14T07:27:13.410Z - info: Building assets...
+2019-08-14T07:27:14.237Z - info: Assets built
+2019-08-14T07:27:14.238Z - info: Generating pages...
+2019-08-14T07:28:13.559Z - info: Pages built
+2019-08-14T07:28:25.711Z - info: Website generation complete! Total build time: 74.133s
+2019-08-14T07:28:25.712Z - info: Build success!
+2019-08-14T07:28:25.732Z - info: Site data built
+2019-08-14T07:29:22.990Z - info: Deployed!
+2019-08-14T07:54:52.657Z - info: Website generation started at 3:54:51 PM
+2019-08-14T07:54:53.593Z - info: Building assets...
+2019-08-14T07:54:54.467Z - info: Assets built
+2019-08-14T07:54:54.467Z - info: Generating pages...
+2019-08-14T07:55:55.972Z - info: Pages built
+2019-08-14T07:56:10.324Z - info: Website generation complete! Total build time: 78.731s
+2019-08-14T07:56:10.601Z - info: Serving "E:\Teaching\CS2113\CS2113-AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-14T07:56:10.601Z - info: Press CTRL+C to stop ...
+2019-08-14T07:56:10.621Z - info: Site data built
+2019-08-14T08:19:48.763Z - info: [4:19:48 PM] Reload for file change: E:\Teaching\CS2113\CS2113-AY1920Sem1\website\_markbind\variables.md
+2019-08-14T08:19:49.766Z - info: Rebuilding affected source files
+2019-08-14T08:19:49.822Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-08-14T08:19:49.902Z - info: Rebuilding 781 pages
+2019-08-14T08:20:17.057Z - info: [4:20:17 PM] Reload for file change: E:\Teaching\CS2113\CS2113-AY1920Sem1\website\_markbind\variables.md
+2019-08-14T08:21:08.310Z - info: Pages rebuilt
+2019-08-14T08:21:08.350Z - info: Site data built
+2019-08-14T08:21:08.646Z - info: Rebuilding affected source files
+2019-08-14T08:21:08.698Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-08-14T08:21:08.798Z - info: Rebuilding 781 pages
+2019-08-14T08:22:27.483Z - info: Pages rebuilt
+2019-08-14T08:22:27.499Z - info: Site data built
+2019-08-14T10:25:07.889Z - info: Website generation started at 6:25:06 PM
+2019-08-14T10:25:08.809Z - info: Building assets...

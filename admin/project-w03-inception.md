@@ -26,7 +26,6 @@ It is not too early to set an overall direction for your project.
 <modal large title="Admin {{ icon_embedding }} Project Scope (Extract)" id="modal:v10-scope">
   <include src="project-scope.md#project-direction"/>
 </modal>
--->
 
 <br><br>
 
@@ -59,6 +58,8 @@ It is not too early to set an overall direction for your project.
 <include src="dukeFragment.md" boilerplate var-header="**`A-Release`: Release**" var-fragment="extensions.mbdf#A-Release" />
 
 </box>
+
+-->
 
 </div>
 </div>

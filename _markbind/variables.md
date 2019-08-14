@@ -12,7 +12,7 @@
 
 <span id="module_website">https://nus{{ module | lower }}-{{ semester }}.github.io/website</span>
 
-<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vS5f_f59o-YeY_QpMoAs92bxPDPOQS_QL3GcMIkh85bSoILhh7iSwRUZdJrMhbfo_uekc8OntAd-ubC/pub?embedded=true</span>
+<span id="instructors_page">https://docs.google.com/document/d/e/2PACX-1vR8qLKSurfGHNgf3TDLVToNeOrBLizgeMdaDXz4BoVPRptqaeL_kfp7YqIuogrK1qchhSj7LkVEJVQu/pub?embedded=true</span>
 
 <span id="team_IDs_page">https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true</span>
 

@@ -33,6 +33,10 @@ Split as follows: 10 marks for phase 1 + 40 marks for phase 2
 
 <br>
 
+### Phase 2
+
+**Total**: 40 marks ({{ icon_individual }} 30 individual marks + {{ icon_team }} 10 team marks)
+
 <panel header="1. **Product design** %%[{{ icon_team }} 5 marks]%%" expanded>
 
 Evaluates: How well do your features fit together to form a cohesive product (not how many features or how big the features are)?
@@ -43,7 +47,7 @@ Based on: user guide and the product demo. The **quality of the demo will be fac
 
 </panel>
 
-<panel header="2. **Implementation** %%[{{ icon_individual }} 15 marks]%%" expanded>
+<panel header="2. **Implementation** %%[{{ icon_individual }} 10 marks]%%" expanded>
 
 Evaluates: 
 
@@ -85,7 +89,7 @@ Based on: an inspection of the parts of the code you claim as written by you.
 
 </panel>
 
-<panel header="3. **QA** %%[{{ icon_individual }} 10 marks]%%" expanded>
+<panel header="3. **QA** %%[{{ icon_individual }} 7 marks]%%" expanded>
 
 Evaluates: How good is your Quality Assurance? 
 
@@ -102,7 +106,7 @@ Based on:
   <include src="project-scope.md#testing-expectations"/>
 </modal>
 
-<panel header="4. **Documentation** %%[{{ icon_individual }} 10 marks]%%" expanded>
+<panel header="4. **Documentation** %%[{{ icon_individual }} 8 marks]%%" expanded>
 
 Evaluates: How good are the sections you wrote for the user guide and the developer guide?
 

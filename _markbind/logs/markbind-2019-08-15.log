@@ -54,3 +54,23 @@
 2019-08-14T23:09:52.464Z - info: Site data built
 2019-08-14T23:11:08.114Z - info: Website generation started at 7:11:06 AM
 2019-08-14T23:11:09.409Z - info: Building assets...
+2019-08-14T23:11:10.732Z - info: Assets built
+2019-08-14T23:11:10.733Z - info: Generating pages...
+2019-08-14T23:12:59.975Z - info: Pages built
+2019-08-14T23:13:27.303Z - info: Website generation complete! Total build time: 140.688s
+2019-08-14T23:13:27.305Z - info: Build success!
+2019-08-14T23:13:27.313Z - info: Site data built
+2019-08-14T23:14:03.601Z - info: Deployed!
+2019-08-15T14:48:05.970Z - info: Website generation started at 10:48:04 PM
+2019-08-15T14:48:08.346Z - info: Building assets...
+2019-08-15T14:48:10.339Z - info: Assets built
+2019-08-15T14:48:10.341Z - info: Generating pages...
+2019-08-15T14:51:00.253Z - info: Pages built
+2019-08-15T14:51:29.491Z - info: Website generation complete! Total build time: 205.453s
+2019-08-15T14:51:29.648Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-15T14:51:29.653Z - info: Press CTRL+C to stop ...
+2019-08-15T14:51:29.726Z - info: Site data built
+2019-08-15T14:55:23.847Z - info: [10:55:23 PM] Reload for file deletion: D:\Teaching\CS2113\AY1920Sem1\website\diagrams\admin\~$gradeBreakdown.pptx
+2019-08-15T14:55:24.861Z - info: Assets removed
+2019-08-15T15:18:21.182Z - info: Website generation started at 11:18:19 PM
+2019-08-15T15:18:23.192Z - info: Building assets...

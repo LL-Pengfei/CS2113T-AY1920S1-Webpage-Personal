@@ -1,9 +1,7 @@
 {% from "schedule/index.md" import show_week_pagetop with context%}
 {{ show_week_pagetop(3, "notices") }}
 
-* We start formal tutorials this week. The [tutorial time table](https://nuscs2113-ay1819s2.github.io/website/admin/tutorials.html#tutorial-timetable) is on the module website.
-
-* ==**There is graded project task** this week!==
+* We start formal tutorials this week. The [tutorial time table](../../admin/tutorials.html#tutorial-timetable) is on the module website.
 
 * Note that the official {{ icon_deadline }} **deadline to achieve weekly project tasks is the midnight before your tutorial**. Our scripts that detect your work run at midnight and only the work that's done by midnight will be eligible for marks (for cases where the task is graded).
 

@@ -1,6 +1,7 @@
 {% from "schedule/index.md" import show_week_pagetop with context%}
 {{ show_week_pagetop(4, "notices") }}
 
+<!--
 <tip-box type="important">
 
 There are no tutorials or lecture this week due to CNY. <br>
@@ -8,6 +9,7 @@ There are no tutorials or lecture this week due to CNY. <br>
 However, do continue to make progress on the project front!
 
 </tip-box>
+-->
 
 * We will be adding you all to nus{{ module }}-{{ semester }} github org. **Please accept the invitation sent by GitHub**.
   * You need to be a member of the org for some of the future module activities. 

@@ -8,6 +8,34 @@
 
 <p class="lead" style="color: purple"><md>:far-calendar-check: <include src="project-timeline.md#inception-overview" inline /></md></p>
 
+
+### Implement the following increments while committing code incrementally
+
+
+- If you haven't already implemented classes, do this first:
+
+<box>
+<include src="dukeFragment.md" boilerplate var-header="**`A-Classes`: Classes**" var-fragment="extensions.mbdf#A-Classes" />
+</box>
+
+- Add different types of tasks: `Level-4`
+  - Remember `Level-4` includes `A-Inheritance`
+  
+<box>
+<include src="dukeFragment.md" boilerplate var-header="**`Level-4`: ToDo, Event, Deadline**" var-fragment="text.md#level4" />
+<include src="dukeFragment.md" boilerplate var-header="**`A-Inheritance`: Inheritance**" var-fragment="extensions.mbdf#A-Inheritance" />
+</box>
+
+- Add the capability to identify dates and times to duke
+<box>
+<include src="dukeFragment.md" boilerplate var-header="**`Level-8`: Dates and Times**" var-fragment="text.md#level8" />
+</box>
+
+<box>
+<include src="dukeFragment.md" boilerplate var-header="**`Level-5`: Handle Errors**" var-fragment="text.md#level5" />
+<include src="dukeFragment.md" boilerplate var-header="**`Level-7`: Save**" var-fragment="text.md#level7" />
+
+</box>
 <!--
 It is not too early to set an overall direction for your project.
 
@@ -31,13 +59,12 @@ It is not too early to set an overall direction for your project.
 
 <box>
 
-<include src="dukeFragment.md" boilerplate var-header="**`Level-4`: ToDo, Event, Deadline**" var-fragment="text.md#level4" />
+
 <include src="dukeFragment.md" boilerplate var-header="**`A-TextUiTesting`: Text UI Testing**" var-tag="optional" var-fragment="extensions.mbdf#A-TextUiTesting" />
-<include src="dukeFragment.md" boilerplate var-header="**`Level-5`: Handle Errors**" var-fragment="text.md#level5" />
+
 <include src="dukeFragment.md" boilerplate var-header="**`Level-6`: Delete**" var-fragment="text.md#level6" />
 <include src="dukeFragment.md" boilerplate var-header="**`A-Enums`: Enums**" var-tag="if-applicable" var-fragment="extensions.mbdf#A-Enums" />
-<include src="dukeFragment.md" boilerplate var-header="**`Level-7`: Save**" var-fragment="text.md#level7" />
-<include src="dukeFragment.md" boilerplate var-header="**`Level-8`: Dates and Times**" var-fragment="text.md#level8" />
+
 <include src="dukeFragment.md" boilerplate var-header="**`A-MoreOOP`: More OOP**" var-fragment="extensions.mbdf#A-MoreOOP" />
 <include src="dukeFragment.md" boilerplate var-header="**`A-Packages`: Java Packages**" var-tag="optional" var-fragment="extensions.mbdf#A-Packages" />
 <include src="dukeFragment.md" boilerplate var-header="**`A-JUnit`: JUnit Testing**" var-fragment="extensions.mbdf#A-JUnit" />

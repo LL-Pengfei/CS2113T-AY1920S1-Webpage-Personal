@@ -7,4 +7,5 @@
 
 **Team formation**<br>
 
-* **We will form project teams at the _start_ of the tutorial this week**; please arrive on time. If you are not there at the team forming time we'll have to put you into a team randomly.
+* **{{module}}: We will form project teams at the _start_ of the tutorial this week**; please arrive on time. If you are not there at the team forming time we'll have to put you into a team randomly.
+* {{module}}T: You will remain in the same team as your CS2101 teams.

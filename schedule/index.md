@@ -91,6 +91,7 @@ head: scheduleHead.md
       {subheading: "Class diagrams"},
         {location: ["uml", "classDiagrams", "introduction", "what"], omit_evidence: true},
         {location: ["uml", "classDiagrams", "classes", "what"], omit_evidence: true},
+        {location: ["uml", "classDiagrams", "associations", "what"], omit_evidence: true},
         {location: ["uml", "classDiagrams", "associations", "navigability"], omit_evidence: true},
         {location: ["uml", "classDiagrams", "associations", "labels"], omit_evidence: true},
       {subheading: "Object diagrams"},

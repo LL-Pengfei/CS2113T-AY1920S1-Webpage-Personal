@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2113/T Website - Week - Project</title>
+  <title>CS2113/T Website - Week 5 - Project</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -39,8 +39,12 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -70,8 +74,8 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/weekNaN/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/weekNaN/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week">Week <small><small><span class="dimmed">[]</span></small></small><a class="fa fa-anchor" href="#week"></a></h1>
+        <p><span style="float:left"><span><a href="/website/schedule/week4/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week6/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-5-sep-9">Week 5 <small><small><span class="dimmed">[Sep 9]</span></small></small><a class="fa fa-anchor" href="#week-5-sep-9"></a></h1>
         <ul class="nav nav-tabs">
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
@@ -80,57 +84,12 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <h1 id="project-preparation-2-kloc">Project Preparation: 2 KLoC<a class="fa fa-anchor" href="#project-preparation-2-kloc"></a></h1>
-        <div>
-          <tip-box type="important">
-              This task requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
-          </tip-box>
-          <p><mark>This task can earn you 3 participation marks</mark>, 2 mark for the individual component and 1 bonus mark for the team component. You can omit either one of them.</p>
-          <p>💡 When working with existing code, a safe approach is to <strong>change the code in very small steps, each resulting in a verifiable change</strong> without breaking the app. For example, when adding a new <code>sort</code> command, the first few steps can be,</p>
-          <ol>
-            <li>Teach the app to accept a <code>sort</code> command but ignore it.</li>
-            <li>Next, teach the app to direct the <code>sort</code> command to an existing command e.g. <code>sort</code> command simply invokes the <code>list</code> command internally.</li>
-            <li>Add a <code>SortCommand</code> class but make it simply a copy of the the existing <code>ListCommand</code>. Direct the <code>sort</code> command to the new <code>SortCommand</code>.</li>
-            <li>...</li>
-          </ol>
-          <p>💡 Note that you can reuse the code you write here in your final project, if applicable.</p>
-          <h4 id="individual-component">Individual component:<a class="fa fa-anchor" href="#individual-component"></a></h4>
-          <p><strong>Requirements</strong>: Do an enhancement to [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">AddressBook - Level2</a>] <span class="dimmed">e.g. add a new command</span>. It can be the same enhancement you did to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but try to limit to one enhancement (rather than mix many enhancements). In addition,</p>
-          <ul>
-            <li>update the User Guide</li>
-            <li>update existing tests and add new tests if necessary, for both JUnit tests and I/O tests</li>
-            <li>follow the coding standard</li>
-            <li>follow the OOP style</li>
-          </ul>
-          <p>Optional but encouraged:</p>
-          <ul>
-            <li>Update the Developer Guide</li>
-          </ul>
-          <p><strong>Use topic id as <mark>W5</mark> in your PR title. E.g., <code>[W5][M11-1]John Doe</code></strong></p>
-          <div>
-            <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">Addressbook-Level2</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
-            <p>
-              <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
-            </p>
-          </div>
-          <h4 id="team-component">Team component:<a class="fa fa-anchor" href="#team-component"></a></h4>
-          <p>The team component is <mark>to be done by all members</mark>, including those who didn't do the individual component.</p>
-          <ul>
-            <li>
-              <p>Review PRs created by team members in the <em>Individual Component</em> above <span class="dimmed">i.e. add review comments in the PR created against module repo</span>. You can either give suggestions to improve, or ask questions to understand, the code written by the team member.</p>
-            </li>
-            <li>
-              <p><strong>Requirements</strong>: Try to ensure that each PR reviewed by <em>at least</em> one team member and each team member's PR is reviewed by at least one other team member.</p>
-            </li>
-            <li>
-              <p><strong>Submission</strong>: Just update PR created in the individual component by adding comments/commits to it.</p>
-            </li>
-          </ul>
-        </div>
+
         <h1 id="project-milestone-v1-0">Project Milestone: v1.0<a class="fa fa-anchor" href="#project-milestone-v1-0"></a></h1>
         <div>
           <div id="title"></div>
           <div id="body">
+            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Decide on requirements <span class="dimmed">(user stories, use cases, non-functional requirements).</span></span></span></p>
           </div>
         </div>
       </div>
@@ -138,12 +97,7 @@
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week">Week []&#x200E;</a>
-            <a class="nav-link py-1" href="#project-preparation-2-kloc">Project Preparation: 2 KLoC&#x200E;</a>
-            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-              <a class="nav-link py-1" href="#individual-component">Individual component:&#x200E;</a>
-              <a class="nav-link py-1" href="#team-component">Team component:&#x200E;</a>
-            </nav>
+            <a class="nav-link py-1" href="#week-5-sep-9">Week 5 [Sep 9]&#x200E;</a>
             <a class="nav-link py-1" href="#project-milestone-v1-0">Project Milestone: v1.0&#x200E;</a>
 
           </nav>
@@ -152,7 +106,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 15 Aug 2019 15:18:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 22 Aug 2019 13:19:20 GMT</small></div>
     </footer>
   </div>
 </body>

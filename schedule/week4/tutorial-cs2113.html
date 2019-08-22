@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2113/T Website - Week - Tutorial</title>
+  <title>CS2113/T Website - Week 4 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -39,8 +39,12 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -70,8 +74,8 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/weekNaN/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/weekNaN/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week">Week <small><small><span class="dimmed">[]</span></small></small><a class="fa fa-anchor" href="#week"></a></h1>
+        <p><span style="float:left"><span><a href="/website/schedule/week3/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week5/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-4-sep-2">Week 4 <small><small><span class="dimmed">[Sep 2]</span></small></small><a class="fa fa-anchor" href="#week-4-sep-2"></a></h1>
         <ul class="nav nav-tabs">
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
@@ -80,112 +84,21 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <tip-box type="important">
-          <p>At this point we would like to ensure that <strong>you are able to create branch-based PRs without accidentally mixing commits</strong> between PRs (a common mistake)
-            Therefore, we <strong>strongly encourage you to learn the topic: <code>W4.5 -&gt; Pull requests</code> before attempting other exercises</strong>.</p>
-        </tip-box>
-        <tip-box type="important">
-          <p>There are no tutorials this week due to CNY. <br>
-            However, you are advised to set a time and meet with your team to complete the tasks for <strong>mid-v1.0</strong> and start working towards completing the first draft of the user guide.</p>
-        </tip-box>
-        <h1 id="suggested-exercises">Suggested exercises<a class="fa fa-anchor" href="#suggested-exercises"></a></h1>
+        <p><strong>Suggested tutorial activities</strong></p>
+        <h3 id="practice-github-pr-workflow">Practice GitHub PR workflow<a class="fa fa-anchor" href="#practice-github-pr-workflow"></a></h3>
         <ul>
-          <li>The following exercises allow you to get used to larger codebase of Addressbook-Level2 and Addressbook-Level3 while at the same time introducing you to various OOP fundamentals.
-            <ul>
-              <li>You may feel intimidated by the number of exercises. However, please note that <mark>it is <strong>not</strong> mandatory to do all of these exercises</mark>.</li>
-              <li>If you are comfortable with the topic you can skip the exercise.</li>
-              <li>You won't be graded for these exercises, but your tutors will provide feedback on your submissions.</li>
-            </ul>
-          </li>
-          <li>Please submit clean pull-requests to the respective upstream repositories (<mark>take care to submit PRs to nusCS2113-AY1819S2/addressbook-levelX and not the se-edu upstream repo</mark>) before the tutorial.</li>
-          <li>During the tutorial, show to your tutor the evidence of learning the topic(s) and participate in relevant discussions.</li>
+          <li>Follow instructions from your tutor to complete this exercise.</li>
         </ul>
-        <br>
-        <br>
-        <h2 id="oop-basics">OOP Basics<a class="fa fa-anchor" href="#oop-basics"></a></h2>
-        <tip-box>
-          <p>For the following exercises:</p>
-          <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2">Addressbook-Level2</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
-          <p><mark>Remember to use team ID</mark> (e.g. <em>M11-2</em>) in your PR title.</p>
-          <p>
-            <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
-          </p>
-        </tip-box>
-        <br>
-        <h4 id="w2-6c-implement-a-class">[W2.6c] Implement a class<a class="fa fa-anchor" href="#w2-6c-implement-a-class"></a></h4>
-        <p><span class="dimmed"><mark>Note</mark>: In the above heading <code>[W2.6c]</code> is the id of the exercise to be used in the PR title (applicable to all exercises)</span></p>
-        <p>Relevant exercise in Addressbook-Level2: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2/blob/master/docs/LearningOutcomes.adoc#implement-a-class-code-lo-implementclass-code">Implement a class</a>]</p>
-        <h4 id="w2-6e-encapsulation">[W2.6e] Encapsulation<a class="fa fa-anchor" href="#w2-6e-encapsulation"></a></h4>
-        <p>Relevant exercise in Addressbook-Level2: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2/blob/master/docs/LearningOutcomes.adoc#apply-encapsulation-code-lo-encapsulation-code">Encapsulation</a>]</p>
-        <h4 id="w2-6h-class-level-members">[W2.6h] Class level members<a class="fa fa-anchor" href="#w2-6h-class-level-members"></a></h4>
-        <p>Relevant exercise in Addressbook-Level2: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2/blob/master/docs/LearningOutcomes.adoc#use-class-level-members-code-lo-classlevel-code">Class-level members</a>]</p>
-        <h4 id="w3-1d-inheritance">[W3.1d] Inheritance<a class="fa fa-anchor" href="#w3-1d-inheritance"></a></h4>
-        <p>Relevant exercise in Addressbook-Level2: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level2/blob/master/docs/LearningOutcomes.adoc#use-inheritance-to-achieve-code-reuse-code-lo-inheritance-code">Inheritance - for code reuse</a>]</p>
-        <br>
-        <br>
-        <h2 id="oop-intermediate">OOP Intermediate<a class="fa fa-anchor" href="#oop-intermediate"></a></h2>
-        <tip-box>
-          <p>For the following exercises:</p>
-          <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3">Addressbook-Level3</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
-          <p><mark>Remember to use team ID</mark> (e.g. <em>M11-2</em>) in your PR title.</p>
-          <p>
-            <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
-          </p>
-        </tip-box>
-        <br>
-        <h4 id="w4-1c-polymorphism">[W4.1c] Polymorphism<a class="fa fa-anchor" href="#w4-1c-polymorphism"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#use-polymorphism-code-lo-polymorphism-code">Using Polymorphism</a>]</p>
-        <h4 id="w4-1d-abstract-class-method">[W4.1d] Abstract class/method<a class="fa fa-anchor" href="#w4-1d-abstract-class-method"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#use-abstract-classes-methods-code-lo-abstract-code">Abstract classes/methods</a>]</p>
-        <h4 id="w41-g-interfaces">[W41.g] Interfaces<a class="fa fa-anchor" href="#w41-g-interfaces"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#use-interfaces-code-lo-interfaces-code">Interfaces</a>]</p>
-        <br>
-        <br>
-        <h2 id="requirements-analysis">Requirements analysis<a class="fa fa-anchor" href="#requirements-analysis"></a></h2>
-        <tip-box>
-          <p>For the following exercises:</p>
-          <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3">Addressbook-Level3</a>. <mark>Try to make a <em>clean</em> PR</mark> (i.e. free of unrelated code modifications).</p>
-          <p><mark>Remember to use team ID</mark> (e.g. <em>M11-2</em>) in your PR title.</p>
-          <p>
-            <panel src="/website/admin/appendixE-gitHub._include_.html#tutorial-pr-instructions" header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: Using GitHub → Submitting Pull Requests as evidence of learning a topic%%" fragment="tutorial-pr-instructions"></panel>
-          </p>
-        </tip-box>
-        <p><mark>Note: If you have completed recording user stores, use cases and non-functional requirements for your project, it is not necessary to do the exercises below.</mark></p>
-        <p>Show to your tutor relevant items from your project to get feedback.</p>
-        <br>
-        <h4 id="w4-2b-non-functional-requirements">[W4.2b] Non-functional requirements<a class="fa fa-anchor" href="#w4-2b-non-functional-requirements"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#use-non-functional-requirements-code-lo-nfr-code">User cases</a>]</p>
-        <h4 id="w4-4a-user-stories">[W4.4a] User stories<a class="fa fa-anchor" href="#w4-4a-user-stories"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#utilize-user-stories-code-lo-userstories-code">User stories</a>]</p>
-        <h4 id="w4-4d-use-cases">[W4.4d] Use cases<a class="fa fa-anchor" href="#w4-4d-use-cases"></a></h4>
-        <p>Relevant exercise in Addressbook-Level3: [<a href="https://github.com/nusCS2113-AY1920S1/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#utilize-use-cases-code-lo-usecases-code">User cases</a>]</p>
+        <p><br><br></p>
+        <p>Additional topics TBD</p>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week">Week []&#x200E;</a>
-            <a class="nav-link py-1" href="#suggested-exercises">Suggested exercises&#x200E;</a>
+            <a class="nav-link py-1" href="#week-4-sep-2">Week 4 [Sep 2]&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-              <a class="nav-link py-1" href="#oop-basics">OOP Basics&#x200E;</a>
-              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-                <a class="nav-link py-1" href="#w2-6c-implement-a-class">[W2.6c] Implement a class&#x200E;</a>
-                <a class="nav-link py-1" href="#w2-6e-encapsulation">[W2.6e] Encapsulation&#x200E;</a>
-                <a class="nav-link py-1" href="#w2-6h-class-level-members">[W2.6h] Class level members&#x200E;</a>
-                <a class="nav-link py-1" href="#w3-1d-inheritance">[W3.1d] Inheritance&#x200E;</a>
-              </nav>
-              <a class="nav-link py-1" href="#oop-intermediate">OOP Intermediate&#x200E;</a>
-              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-                <a class="nav-link py-1" href="#w4-1c-polymorphism">[W4.1c] Polymorphism&#x200E;</a>
-                <a class="nav-link py-1" href="#w4-1d-abstract-class-method">[W4.1d] Abstract class/method&#x200E;</a>
-                <a class="nav-link py-1" href="#w41-g-interfaces">[W41.g] Interfaces&#x200E;</a>
-              </nav>
-              <a class="nav-link py-1" href="#requirements-analysis">Requirements analysis&#x200E;</a>
-              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-                <a class="nav-link py-1" href="#w4-2b-non-functional-requirements">[W4.2b] Non-functional requirements&#x200E;</a>
-                <a class="nav-link py-1" href="#w4-4a-user-stories">[W4.4a] User stories&#x200E;</a>
-                <a class="nav-link py-1" href="#w4-4d-use-cases">[W4.4d] Use cases&#x200E;</a>
-              </nav>
+              <a class="nav-link py-1" href="#practice-github-pr-workflow">Practice GitHub PR workflow&#x200E;</a>
             </nav>
 
           </nav>
@@ -194,7 +107,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 15 Aug 2019 15:18:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 22 Aug 2019 13:19:20 GMT</small></div>
     </footer>
   </div>
 </body>

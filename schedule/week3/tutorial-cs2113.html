@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2113/T Website - Week - Tutorial</title>
+  <title>CS2113/T Website - Week 3 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -39,8 +39,12 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -70,8 +74,8 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/weekNaN/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/weekNaN/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week">Week <small><small><span class="dimmed">[]</span></small></small><a class="fa fa-anchor" href="#week"></a></h1>
+        <p><span style="float:left"><span><a href="/website/schedule/week2/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week4/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-3-aug-26">Week 3 <small><small><span class="dimmed">[Aug 26]</span></small></small><a class="fa fa-anchor" href="#week-3-aug-26"></a></h1>
         <ul class="nav nav-tabs">
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
@@ -82,9 +86,11 @@
         <p></p>
         <box>
           <h2 id="simple-java-exercises">Simple Java exercises<a class="fa fa-anchor" href="#simple-java-exercises"></a></h2>
-          <p>We will use <a href="https://repl.it/">repl.it</a> platform for some simple Java coding exercises.<br>
+          <p>If you need additional Java practise, you can work through the simple Java coding exercises on <a href="https://repl.it/">repl.it</a>.<br>
             The <a href="https://repl.it/classroom/invite/5Nfgumx">link to our classroom <span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span></a> will be available under <em>Links</em> in the navigation bar.<br>
             <span class="dimmed">Note: you need to create an account on <a href="http://repl.it">repl.it</a> to be able to use the platform</span></p>
+          <p><mark>These exercises are optional and not graded. If you choose to do it, please set your own pace.</mark>
+            <span class="dimmed">You may ask your tutors for help if necessary, outside of the tutorials</span></p>
         </box>
         <h2 id="team-forming">Team forming<a class="fa fa-anchor" href="#team-forming"></a></h2>
         <p><strong>CS2113 students only</strong>: Form teams at the beginning of the tutorial. Be sure to conform to team forming constrains.</p>
@@ -93,31 +99,21 @@
         </p>
         <p><strong>All students</strong>:</p>
         <ul>
-          <li>Confirm your team ID with the tutor. It should be of the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g. <code>M11-1</code> (<code>M</code>on <code>11</code>00 slot, team <code>1</code>)</li>
+          <li>Confirm your team ID with the tutor. It should be of the form <code>MODULE-TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2113T-W12-2</code> (<code>CS2113T</code> team from the <code>W</code>ed <code>12</code>00 slot, team <code>2</code>)</li>
         </ul>
         <h2 id="tutorial-activity">Tutorial activity<a class="fa fa-anchor" href="#tutorial-activity"></a></h2>
+
         <ul>
-          <li>
-            <p>In Addressbook Level 1, apply the following refactorings, where applicable. Use the IDE to aid refactoring.</p>
-            <ol>
-              <li><a href="https://refactoring.com/catalog/consolidateConditionalExpression.html">Consolidate Conditional Expression</a></li>
-              <li><a href="https://refactoring.com/catalog/decomposeConditional.html">Decompose Conditional</a></li>
-              <li><a href="https://refactoring.com/catalog/inlineMethod.html">Inline Method</a></li>
-              <li><a href="https://refactoring.com/catalog/removeDoubleNegative.html">Remove Double Negative</a></li>
-              <li><a href="https://refactoring.com/catalog/replaceMagicNumberWithSymbolicConstant.html">Replace Magic Number with Symbolic Constant</a></li>
-              <li><a href="https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html">Replace Nested Conditional with Guard Clauses</a></li>
-              <li><a href="https://refactoring.com/catalog/replaceParameterWithExplicitMethods.html">Replace Parameter with Explicit Methods</a></li>
-              <li><a href="https://refactoring.com/catalog/reverseConditional.html">Reverse Conditional</a></li>
-              <li><a href="https://refactoring.com/catalog/splitLoop.html">Split Loop</a></li>
-              <li><a href="https://refactoring.com/catalog/splitTemporaryVariable.html">Split Temporary Variable</a></li>
-            </ol>
-            <br>
-          </li>
-          <li>
-            <p>Show the evidence of understanding the usefulness of varargs. (<a href="https://github.com/nusCS2113-AY1819S2/addressbook-level1/blob/master/docs/LearningOutcomes.adoc#use-varargs-code-lo-varargs-code">Relevant excercise in AB-L1</a>)</p>
-          </li>
-          <li>
-            <p>Draw the class diagram for the exercise: <a href="https://nuscs2113-AY1920S1.github.io/website/se-book-adapted/chapters/cppToJava.html#defining-classes">Circle class</a></p>
+          <li>Draw the class diagram for the exercise: <a href="https://nuscs2113-AY1920S1.github.io/website/se-book-adapted/chapters/cppToJava.html#key-exercise-define-a-circle-class">Circle class</a></li>
+          <li>Draw the runtime state of the system when you instantiate the<code>Circle</code> class in the following snippet
+            <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Circle c1 = <span class="hljs-keyword">new</span> Circle();
+        Circle c2 = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">10</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5.5</span>);
+        Circle c3 = <span class="hljs-keyword">new</span> Circle(<span class="hljs-number">3</span>, <span class="hljs-number">3</span>, <span class="hljs-number">0.8</span>);
+    }
+}
+</code></pre>
           </li>
         </ul>
       </div>
@@ -125,7 +121,7 @@
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week">Week []&#x200E;</a>
+            <a class="nav-link py-1" href="#week-3-aug-26">Week 3 [Aug 26]&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#simple-java-exercises">Simple Java exercises&#x200E;</a>
               <a class="nav-link py-1" href="#team-forming">Team forming&#x200E;</a>
@@ -138,7 +134,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 15 Aug 2019 15:18:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 22 Aug 2019 13:19:20 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -3,7 +3,7 @@
   "pages": [
     {
       "headings": {
-        "week-1-aug-12": "Week 1 [Aug 12]"
+        "week-3-aug-26": "Week 3 [Aug 26]"
       },
       "title": "Home",
       "header": "header.md",
@@ -407,7 +407,9 @@
     },
     {
       "headings": {
-        "project-inception-week-3": "Project: inception [week 3] "
+        "project-inception-week-3": "Project: inception [week 3] ",
+        "project-matters": "Project matters",
+        "implement-the-following-increments-while-committing-code-incrementally": "Implement the following increments while committing code incrementally"
       },
       "title": "Admin: Project: inception [week 3]",
       "header": "header.md",
@@ -419,7 +421,8 @@
     },
     {
       "headings": {
-        "project-mid-v1-0-week-4": "Project: mid-v1.0 [week 4] "
+        "project-mid-v1-0-week-4": "Project: mid-v1.0 [week 4] ",
+        "implement-the-following-increments-while-committing-code-incrementally": "Implement the following increments while committing code incrementally"
       },
       "title": "Admin: Project: mid-v1.0 [week 4]",
       "header": "header.md",
@@ -1084,6 +1087,7 @@
         "wrapper-classes-for-primitive-types": "Wrapper Classes for Primitive Types",
         "the-arrays-class": "The Arrays Class",
         "the-scanner-class": "The Scanner Class",
+        "key-exercise-printprice-method": " [Key Exercise] printPrice method",
         "find-characters-of-a-string": "Find characters of a string",
         "change-a-string-to-upper-lower-case": "Change a string to upper/lower case",
         "replacing-parts-of-a-string": "Replacing parts of a string",
@@ -1092,6 +1096,9 @@
         "comparing-strings": "Comparing Strings",
         "printing-special-characters-line-breaks-tabs": "Printing special characters (line breaks, tabs, ...)",
         "string-formatting": "String formatting",
+        "key-exercise-printtotalscore-method": " [Key Exercise] printTotalScore method",
+        "key-exercise-filteremails-method": " [Key Exercise] filterEmails method",
+        "key-exercise-find-total-expenditure": " [Key Exercise] find total expenditure",
         "some-useful-classes": "Some Useful Classes",
         "inheritance-basic": "Inheritance (Basic)",
         "the-object-class": "The Object Class",

@@ -1,0 +1,144 @@
+2019-08-21T22:35:45.037Z - info: Website generation started at 6:35:44 AM
+2019-08-21T22:35:46.364Z - info: Building assets...
+2019-08-21T22:35:47.981Z - info: Assets built
+2019-08-21T22:35:47.983Z - info: Generating pages...
+2019-08-21T22:35:48.596Z - error:  Template render error: (D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md) [Line 12, Column 1]
+  unexpected token: ]
+Error while preprocessing 'D:\Teaching\CS2113\AY1920Sem1\website\index.md'
+    at Object._prettifyError (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:542:21)
+    at Environment.renderString (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:380:17)
+    at Object.renderString (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\index.js:99:14)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:297:28)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+2019-08-21T22:39:59.808Z - info: Website generation started at 6:39:59 AM
+2019-08-21T22:40:01.193Z - info: Building assets...
+2019-08-21T22:40:02.678Z - info: Assets built
+2019-08-21T22:40:02.679Z - info: Generating pages...
+2019-08-21T22:40:03.292Z - error:  Template render error: (D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md) [Line 12, Column 1]
+  unexpected token: ]
+Error while preprocessing 'D:\Teaching\CS2113\AY1920Sem1\website\index.md'
+    at Object._prettifyError (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:542:21)
+    at Environment.renderString (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:380:17)
+    at Object.renderString (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\index.js:99:14)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:297:28)
+    at element.children.element.children.map.e (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+2019-08-21T22:41:28.087Z - info: Website generation started at 6:41:27 AM
+2019-08-21T22:41:29.432Z - info: Building assets...
+2019-08-21T22:41:30.967Z - info: Assets built
+2019-08-21T22:41:30.968Z - info: Generating pages...
+2019-08-21T22:43:14.073Z - info: Pages built
+2019-08-21T22:43:43.390Z - info: Website generation complete! Total build time: 135.954s
+2019-08-21T22:43:43.474Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-21T22:43:43.475Z - info: Press CTRL+C to stop ...
+2019-08-21T22:43:43.504Z - info: Site data built
+2019-08-21T22:45:12.324Z - info: [6:45:12 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\week3\notices-cs2113.md
+2019-08-21T22:45:13.329Z - info: Rebuilding affected source files
+2019-08-21T22:45:13.336Z - info: Rebuilding 3 pages
+2019-08-21T22:45:13.848Z - info: Pages rebuilt
+2019-08-21T22:45:13.864Z - info: Site data built
+2019-08-21T22:46:29.204Z - info: [6:46:29 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\week3\notices-cs2113.md
+2019-08-21T22:46:30.209Z - info: Rebuilding affected source files
+2019-08-21T22:46:30.236Z - info: Rebuilding 3 pages
+2019-08-21T22:46:31.020Z - info: Pages rebuilt
+2019-08-21T22:46:31.039Z - info: Site data built
+2019-08-21T22:49:25.763Z - info: [6:49:25 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md
+2019-08-21T22:49:26.768Z - info: Rebuilding affected source files
+2019-08-21T22:49:26.774Z - info: Rebuilding 2 pages
+2019-08-21T22:49:27.158Z - info: Pages rebuilt
+2019-08-21T22:49:27.170Z - info: Site data built
+2019-08-21T22:49:42.788Z - info: Website generation started at 6:49:41 AM
+2019-08-21T22:49:44.435Z - info: Building assets...
+2019-08-21T22:49:46.219Z - info: Assets built
+2019-08-21T22:49:46.220Z - info: Generating pages...
+2019-08-21T22:52:13.681Z - info: Pages built
+2019-08-21T22:52:51.902Z - info: Website generation complete! Total build time: 190.695s
+2019-08-21T22:52:51.973Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-21T22:52:51.973Z - info: Press CTRL+C to stop ...
+2019-08-21T22:52:52.001Z - info: Site data built
+2019-08-21T22:57:14.318Z - info: [6:57:14 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md
+2019-08-21T22:57:15.321Z - info: Rebuilding affected source files
+2019-08-21T22:57:15.328Z - info: Rebuilding 2 pages
+2019-08-21T22:57:16.047Z - info: Pages rebuilt
+2019-08-21T22:57:16.071Z - info: Site data built
+2019-08-21T23:01:39.920Z - info: [7:01:39 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md
+2019-08-21T23:01:40.925Z - info: Rebuilding affected source files
+2019-08-21T23:01:40.933Z - info: Rebuilding 2 pages
+2019-08-21T23:01:41.442Z - info: Pages rebuilt
+2019-08-21T23:01:41.451Z - info: Site data built
+2019-08-21T23:01:54.977Z - info: Website generation started at 7:01:53 AM
+2019-08-21T23:01:56.227Z - info: Building assets...
+2019-08-21T23:01:57.775Z - info: Assets built
+2019-08-21T23:01:57.776Z - info: Generating pages...
+2019-08-21T23:03:40.732Z - info: Pages built
+2019-08-21T23:04:09.903Z - info: Website generation complete! Total build time: 136.433s
+2019-08-21T23:04:09.957Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-21T23:04:09.968Z - info: Press CTRL+C to stop ...
+2019-08-21T23:04:10.003Z - info: Site data built
+2019-08-21T23:11:15.220Z - info: [7:11:15 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md
+2019-08-21T23:11:16.228Z - info: Rebuilding affected source files
+2019-08-21T23:11:16.235Z - info: Rebuilding 2 pages
+2019-08-21T23:11:16.688Z - info: Pages rebuilt
+2019-08-21T23:11:16.696Z - info: Site data built
+2019-08-21T23:12:06.292Z - info: [7:12:06 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\schedule\index.md
+2019-08-21T23:12:07.299Z - info: Rebuilding affected source files
+2019-08-21T23:12:07.302Z - info: Rebuilding 2 pages
+2019-08-21T23:12:07.905Z - info: Pages rebuilt
+2019-08-21T23:12:07.925Z - info: Site data built
+2019-08-21T23:16:01.149Z - info: [7:16:01 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-w03-inception.md
+2019-08-21T23:16:02.155Z - info: Rebuilding affected source files
+2019-08-21T23:16:02.162Z - info: Rebuilding 3 pages
+2019-08-21T23:16:04.953Z - info: Pages rebuilt
+2019-08-21T23:16:04.967Z - info: Site data built
+2019-08-21T23:17:57.775Z - info: [7:17:57 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-w03-inception.md
+2019-08-21T23:17:58.782Z - info: Rebuilding affected source files
+2019-08-21T23:17:58.791Z - info: Rebuilding 3 pages
+2019-08-21T23:18:01.466Z - info: Pages rebuilt
+2019-08-21T23:18:01.482Z - info: Site data built
+2019-08-21T23:18:23.333Z - info: [7:18:23 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-w03-inception.md
+2019-08-21T23:18:24.338Z - info: Rebuilding affected source files
+2019-08-21T23:18:24.341Z - info: Rebuilding 3 pages
+2019-08-21T23:18:27.427Z - info: Pages rebuilt
+2019-08-21T23:18:27.451Z - info: Site data built
+2019-08-21T23:18:38.326Z - info: [7:18:38 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-w03-inception.md
+2019-08-21T23:18:39.332Z - info: Rebuilding affected source files
+2019-08-21T23:18:39.338Z - info: Rebuilding 3 pages
+2019-08-21T23:18:41.938Z - info: Pages rebuilt
+2019-08-21T23:18:41.962Z - info: Site data built
+2019-08-21T23:20:41.336Z - info: [7:20:41 AM] Reload for file change: D:\Teaching\CS2113\AY1920Sem1\website\admin\project-w03-inception.md
+2019-08-21T23:20:42.339Z - info: Rebuilding affected source files
+2019-08-21T23:20:42.342Z - info: Rebuilding 3 pages
+2019-08-21T23:20:45.160Z - info: Pages rebuilt
+2019-08-21T23:20:45.177Z - info: Site data built
+2019-08-22T12:44:33.955Z - info: Website generation started at 8:44:32 PM
+2019-08-22T12:44:35.735Z - info: Building assets...
+2019-08-22T12:44:38.674Z - info: Assets built
+2019-08-22T12:44:38.675Z - info: Generating pages...
+2019-08-22T12:47:09.764Z - info: Pages built
+2019-08-22T12:47:48.925Z - info: Website generation complete! Total build time: 196.816s
+2019-08-22T12:47:48.993Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-22T12:47:48.994Z - info: Press CTRL+C to stop ...
+2019-08-22T12:47:49.020Z - info: Site data built
+2019-08-22T13:19:17.605Z - info: Website generation started at 9:19:15 PM
+2019-08-22T13:19:19.212Z - info: Building assets...

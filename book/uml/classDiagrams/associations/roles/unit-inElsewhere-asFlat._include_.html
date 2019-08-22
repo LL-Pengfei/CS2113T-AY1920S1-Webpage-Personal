@@ -18,11 +18,8 @@
           <img src="/website/book/uml/classDiagrams/associations/roles/images/husbandWife.png" width="300">
           <p></p>
           <p>Note how the variable names match closely with the association roles.</p>
-          <table>
-            <tr>
-              <td valign="top">
-                <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
+          <div class="alt-java">
+            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
     Woman wife;
 }
 
@@ -30,11 +27,9 @@
     Man husband;
 }
 </code></pre>
-              </td>
-              <td>&nbsp;&nbsp;<br><br></td>
-              <td valign="top">
-                <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
+          </div>
+          <div class="alt-python">
+            <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.wife = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Woman object</span>
 
@@ -42,33 +37,24 @@
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
      self.husband = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Man object</span>
 </code></pre>
-              </td>
-            </tr>
-          </table>
+          </div>
         </box>
         <box>
           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The role of <code>Student</code> objects in this association is <code>charges</code> <span class="dimmed">(i.e. Admin is in charge of students)</span></p>
           <img src="/website/book/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70">
           <p></p>
-          <table>
-            <tr>
-              <td valign="top">
-                <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
+          <div class="alt-java">
+            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
     List&lt;Student&gt; charges;
 }
 </code></pre>
-              </td>
-              <td>&nbsp;&nbsp;<br><br></td>
-              <td valign="top">
-                <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
+          </div>
+          <div class="alt-python">
+            <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.charges = [] <span class="hljs-comment"># list of Student objects</span>
 </code></pre>
-              </td>
-            </tr>
-          </table>
+          </div>
         </box>
       </div>
     </div>

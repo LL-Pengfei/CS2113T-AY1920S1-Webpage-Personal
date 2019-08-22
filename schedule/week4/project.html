@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2113/T Website - Week - Project</title>
+  <title>CS2113/T Website - Week 4 - Project</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -39,8 +39,12 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -70,8 +74,8 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/weekNaN/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/weekNaN/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week">Week <small><small><span class="dimmed">[]</span></small></small><a class="fa fa-anchor" href="#week"></a></h1>
+        <p><span style="float:left"><span><a href="/website/schedule/week3/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week5/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
+        <h1 id="week-4-sep-2">Week 4 <small><small><span class="dimmed">[Sep 2]</span></small></small><a class="fa fa-anchor" href="#week-4-sep-2"></a></h1>
         <ul class="nav nav-tabs">
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Topics</a></li>
@@ -84,7 +88,312 @@
         <div>
           <div id="title"></div>
           <div id="body">
-            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Decide on requirements <span class="dimmed">(user stories, use cases, non-functional requirements).</span></span></span></p>
+            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Move towards completing Phase 1 of the project. Achieve some team tasks </span></span></p>
+            <h3 id="implement-the-following-increments-while-committing-code-incrementally">Implement the following increments while committing code incrementally<a class="fa fa-anchor" href="#implement-the-following-increments-while-committing-code-incrementally"></a></h3>
+            <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> as per the instructions below.</p>
+            <ul>
+              <li>
+                <p>Implement <code>Level-6</code> in a branch named <code>branch-Level-6</code>.</p>
+              </li>
+              <li>
+                <p>Without merging that branch, go back to the master branch and implement <code>Level-9</code> in a separate branch named <code>branch-Level-9</code>.</p>
+              </li>
+              <li>
+                <p>Now, go back to the master branch and merge the two branches one after the other.</p>
+              </li>
+              <li>
+                <p>Tag the commit (in the master branch, after merging) that achieves the respective deliverable.</p>
+              </li>
+              <li>
+                <p>As before, push to your fork.</p>
+              </li>
+            </ul>
+            <br>
+            <ul>
+              <li>Provide the capability to delete items from Duke's task list
+                <ul>
+                  <li>Remember <code>Level-6</code> includes <code>A-Collections</code></li>
+                </ul>
+              </li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
+                        <p>Add support for deleting tasks from the list.
+                          <br>
+                          <br></p>
+                        <p>Example:</p>
+                        <pre><code class="hljs">list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+     5.[T][✗] borrow book
+    ____________________________________________________________
+
+delete 3
+    ____________________________________________________________
+     Noted. I've removed this task: 
+       [E][✗] project meeting (at: Aug 6th 2-4pm)
+     Now you have 4 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                        <div>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                          <panel header="**Extension: `A-Collections`**">
+                            <div>
+                              <div>
+                                <div></div>
+                                <h3 id="a-collections"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections"></a></h3>
+                                <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
+                              </div>
+                              <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
+                            </div>
+                          </panel>
+                        </div>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-Collections</code>: Use Java Collection classes</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-collections-2"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections-2"></a></h3>
+                          <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
+                        </div>
+                        <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </box>
+            <ul>
+              <li>Do some automated testing of the Duke UI</li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-textuitesting"><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting"></a></h3>
+                          <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
+                        </div>
+                        <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> A tutorial is provided in the duke repository.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </box>
+            <ul>
+              <li>Provide the capability to search for tasks that were recorded</li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
+                        <p>Give users a way to find a task by searching for a keyword.
+                          <br>
+                          <br></p>
+                        <p>Example:</p>
+                        <pre><code class="hljs">find book
+    ____________________________________________________________
+     Here are the matching tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+    ____________________________________________________________
+</code></pre>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </box>
+            <ul>
+              <li>Make your code more object-oriented</li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div></div>
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-moreoop"><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop"></a></h3>
+                          <p>     <big>↳</big> <strong>Make the code more OOP</strong></p>
+                        </div>
+                        <p>Refactor the code to extract out closely related code as classes.</p>
+                        <ul>
+                          <li><strong>Minimal</strong>: Extract the following classes:
+                            <ul>
+                              <li><code>Ui</code>: deals with interactions with the user</li>
+                              <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+                              <li><code>Parser</code>: deals with making sense of the user command</li>
+                              <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <div class="indented-level2">
+                          <p>For example, the code of the main class could look like this:</p>
+                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+
+    <span class="hljs-keyword">private</span> Storage storage;
+    <span class="hljs-keyword">private</span> TaskList tasks;
+    <span class="hljs-keyword">private</span> Ui ui;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+        ui = <span class="hljs-keyword">new</span> Ui();
+        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+        <span class="hljs-keyword">try</span> {
+            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showLoadingError();
+            tasks = <span class="hljs-keyword">new</span> TaskList();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
+    }
+}
+</code></pre>
+                        </div>
+                        <ul>
+                          <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                            <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+    ui.showWelcome();
+    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">while</span> (!isExit) {
+        <span class="hljs-keyword">try</span> {
+            String fullCommand = ui.readCommand();
+            ui.showLine();
+            Command c = Parser.parse(fullCommand);
+            c.execute(tasks, ui, storage);
+            isExit = c.isExit();
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showError(e.getMessage());
+        } <span class="hljs-keyword">finally</span> {
+            ui.showLine();
+        }
+    }
+}
+</code></pre>
+                          </li>
+                        </ul>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </box>
+            <ul>
+              <li>[Optional] Some members in the team: develop a GUI for Duke.
+                <ul>
+                  <li>You will learn how to use JavaFX in <code>A-JavaFx</code></li>
+                  <li>If you plan to implement a GUI in your project Phase 2, it is recommended that at least one person in the team attempt this exercise successfully.</li>
+                </ul>
+              </li>
+            </ul>
+            <box>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-10</code>: GUI</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                      <div></div>
+                      <div>
+                        <p><span>
+                            <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
+                          </span></p>
+                        <h3 id="level-10-gui">Level 10. GUI<a class="fa fa-anchor" href="#level-10-gui"></a></h3>
+                        <p>Add a GUI to Duke.
+                          <br>
+                          <br></p>
+                        <div>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+                          <panel header="**Extension: `A-JavaFx`**">
+                            <div>
+                              <div>
+                                <div></div>
+                                <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
+                                <p>     <big>↳</big> <strong>use JavaFX</strong></p>
+                              </div>
+                              <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
+                            </div>
+                          </panel>
+                        </div>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="indented">
+                  <div class="indented border">
+                    <panel type="seamless">
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-JavaFx</code>: JavaFx</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                      <div></div>
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-javafx-2"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx-2"></a></h3>
+                          <p>     <big>↳</big> <strong>use JavaFX</strong></p>
+                        </div>
+                        <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </box>
+
           </div>
         </div>
       </div>
@@ -92,8 +401,11 @@
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week">Week []&#x200E;</a>
+            <a class="nav-link py-1" href="#week-4-sep-2">Week 4 [Sep 2]&#x200E;</a>
             <a class="nav-link py-1" href="#project-milestone-mid-v1-0">Project Milestone: mid-v1.0&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#implement-the-following-increments-while-committing-code-incrementally">Implement the following increments while committing code incrementally&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -101,7 +413,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 15 Aug 2019 15:18:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 22 Aug 2019 13:19:20 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -38,8 +38,12 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2113/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown">
-          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Sep 2] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Sep 9] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Sep 16] </span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -253,45 +257,36 @@
                       <img src="/website/book/uml/classDiagrams/classes/what/images/operations.png" height="150">
                       <p></p>
                       <panel type="seamless" header="The equivalent code">
-                        <table>
-                          <tr>
-                            <td>
-                              <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
-    
+                        <div class="alt-java">
+                          <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
+
     Integer number;
     Chair[] chairs = <span class="hljs-keyword">null</span>;
     
     <span class="hljs-function">Integer <span class="hljs-title">getNumber</span><span class="hljs-params">()</span></span>{
         <span class="hljs-comment">//...</span>
     }
-    
+
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setNumber</span><span class="hljs-params">(Integer n)</span></span>{
         <span class="hljs-comment">//...</span>
     }
 }
 </code></pre>
-                            </td>
-                            <td valign="bottom">&nbsp;&nbsp;<br><br></td>
-                            <td valign="bottom">
-                              <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                              <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
-    
+                        </div>
+                        <div class="alt-python">
+                          <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.number = <span class="hljs-number">0</span>
     self.chairs = []
-    
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_number</span><span class="hljs-params">(self)</span>:</span>
     <span class="hljs-comment"># ...</span>
-  
-    
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">set_number</span><span class="hljs-params">(self, n)</span>:</span>
     <span class="hljs-comment"># ...</span>
-    
 </code></pre>
-                            </td>
-                          </tr>
-                        </table>
+                        </div>
                       </panel>
                     </box>
                     <p><strong>The 'Operations' compartment and/or the 'Attributes' compartment may be omitted</strong> if such details are not important for the task at hand. 'Attributes' always appear above the 'Operations' compartment. All operations should be in one compartment rather than each operation in a separate compartment. Same goes for attributes.</p>
@@ -537,11 +532,8 @@
                       <img src="/website/book/uml/classDiagrams/associations/roles/images/husbandWife.png" width="300">
                       <p></p>
                       <p>Note how the variable names match closely with the association roles.</p>
-                      <table>
-                        <tr>
-                          <td valign="top">
-                            <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
+                      <div class="alt-java">
+                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span></span>{
     Woman wife;
 }
 
@@ -549,11 +541,9 @@
     Man husband;
 }
 </code></pre>
-                          </td>
-                          <td>&nbsp;&nbsp;<br><br></td>
-                          <td valign="top">
-                            <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                            <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
+                      </div>
+                      <div class="alt-python">
+                        <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.wife = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Woman object</span>
 
@@ -561,33 +551,24 @@
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
      self.husband = <span class="hljs-literal">None</span> <span class="hljs-comment"># a Man object</span>
 </code></pre>
-                          </td>
-                        </tr>
-                      </table>
+                      </div>
                     </box>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The role of <code>Student</code> objects in this association is <code>charges</code> <span class="dimmed">(i.e. Admin is in charge of students)</span></p>
                       <img src="/website/book/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70">
                       <p></p>
-                      <table>
-                        <tr>
-                          <td valign="top">
-                            <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
+                      <div class="alt-java">
+                        <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span></span>{
     List&lt;Student&gt; charges;
 }
 </code></pre>
-                          </td>
-                          <td>&nbsp;&nbsp;<br><br></td>
-                          <td valign="top">
-                            <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                            <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
+                      </div>
+                      <div class="alt-python">
+                        <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span>:</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.charges = [] <span class="hljs-comment"># list of Student objects</span>
 </code></pre>
-                          </td>
-                        </tr>
-                      </table>
+                      </div>
                     </box>
                   </div>
                   <div></div>
@@ -1986,7 +1967,7 @@ my_car = Car(<span class="hljs-number">13.5</span>, <span class="hljs-number">20
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 15 Aug 2019 15:18:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 22 Aug 2019 13:19:20 GMT</small></div>
     </footer>
   </div>
 </body>

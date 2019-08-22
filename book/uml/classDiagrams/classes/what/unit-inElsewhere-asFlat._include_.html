@@ -19,45 +19,36 @@
           <img src="/website/book/uml/classDiagrams/classes/what/images/operations.png" height="150">
           <p></p>
           <panel type="seamless" header="The equivalent code">
-            <table>
-              <tr>
-                <td>
-                  <p>Java <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
-    
+            <div class="alt-java">
+              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span></span>{
+
     Integer number;
     Chair[] chairs = <span class="hljs-keyword">null</span>;
     
     <span class="hljs-function">Integer <span class="hljs-title">getNumber</span><span class="hljs-params">()</span></span>{
         <span class="hljs-comment">//...</span>
     }
-    
+
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setNumber</span><span class="hljs-params">(Integer n)</span></span>{
         <span class="hljs-comment">//...</span>
     }
 }
 </code></pre>
-                </td>
-                <td valign="bottom">&nbsp;&nbsp;<br><br></td>
-                <td valign="bottom">
-                  <p>Python <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                  <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
-    
+            </div>
+            <div class="alt-python">
+              <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Table</span>:</span>
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.number = <span class="hljs-number">0</span>
     self.chairs = []
-    
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_number</span><span class="hljs-params">(self)</span>:</span>
     <span class="hljs-comment"># ...</span>
-  
-    
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">set_number</span><span class="hljs-params">(self, n)</span>:</span>
     <span class="hljs-comment"># ...</span>
-    
 </code></pre>
-                </td>
-              </tr>
-            </table>
+            </div>
           </panel>
         </box>
         <p><strong>The 'Operations' compartment and/or the 'Attributes' compartment may be omitted</strong> if such details are not important for the task at hand. 'Attributes' always appear above the 'Operations' compartment. All operations should be in one compartment rather than each operation in a separate compartment. Same goes for attributes.</p>

@@ -41,5 +41,16 @@ The [link to our classroom :glyphicon-blackboard:](https://repl.it/classroom/inv
   <br>
 
 * Show the evidence of understanding the usefulness of varargs. ([Relevant excercise in AB-L1](https://github.com/nusCS2113-AY1819S2/addressbook-level1/blob/master/docs/LearningOutcomes.adoc#use-varargs-code-lo-varargs-code))
+-->
 
-* Draw the class diagram for the exercise: [Circle class]({{ module_website }}/se-book-adapted/chapters/cppToJava.html#defining-classes) 
+* Draw the class diagram for the exercise: [Circle class]({{ module_website }}/se-book-adapted/chapters/cppToJava.html#key-exercise-define-a-circle-class )
+* Draw the runtime state of the system when you instantiate the`Circle` class in the following snippet
+  ```java
+  public class Main {
+      public static void main(String[] args) {
+          Circle c1 = new Circle();
+          Circle c2 = new Circle(10, 2, 5.5);
+          Circle c3 = new Circle(3, 3, 0.8);
+      }
+  }
+  ```

@@ -5,9 +5,12 @@
 
 ## Simple Java exercises
 
-We will use [repl.it](https://repl.it/) platform for some simple Java coding exercises.<br>
+If you need additional Java practise, you can work through the simple Java coding exercises on [repl.it](https://repl.it/).<br>
 The [link to our classroom :glyphicon-blackboard:](https://repl.it/classroom/invite/5Nfgumx) will be available under *Links* in the navigation bar.<br>
 %%Note: you need to create an account on repl.it to be able to use the platform%%
+
+==These exercises are optional and not graded. If you choose to do it, please set your own pace.==
+%%You may ask your tutors for help if necessary, outside of the tutorials%%
 
 </box>
 

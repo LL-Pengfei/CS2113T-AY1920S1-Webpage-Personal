@@ -7,18 +7,18 @@
 To expedite your project implementation, you will be given some sample code (AddressBook-Level1 to AddressBook-Level4, shown as `AB1` to `AB4` in the diagram above).  You can use `AB1` to `AB3` to ramp up your tech skills in preparation for the project. `AB4` is the version you will use as the starting point for your final project. Some of the work you do in `AB1` to `AB3` can be ported over to `AB4` and can be used to claim credit in the final project.
 -->
 
-Given below is the high-level timeline of the project.
+Given below is the ==tentative high-level timeline== of the project. <br> %%This is subject to change. Please follow the weekly project tabs for updated instructions.%%
 
 Week  | Stage     | Activities
 ------|-----------|-----------
 **2** |warmup    | <span id="warmup-overview">Set up prerequisites. Get started on Duke</span>
-**3** |inception| <span id="inception-overview">Decide on a overall project direction %%(user profile, problem addressed, societal impact, optimize or morph?).%%</span>
-**4** |mid-v1.0 | <span id="mid-v10-overview">Decide on requirements %%(user stories, use cases, non-functional requirements).%%</span>
-**5** |v1.0     | <span id="v10-overview">Conceptualize product and document it as a user guide(draft), draft a rough project plan.</span>
-**6** |mid-v1.1 | <span id="mid-v11-overview">Set up project repo, start moving UG and DG to the repo, attempt to do local-impact changes to the code base.</span>
-**7** |v1.1     | <span id="v11-overview">Update UG and DG in the repo, attempt to do global-impact changes to the code base.</span>
-**8** |mid-v1.2 | <span id="mid-v12-overview">Adjust project schedule/rigor as needed, start proper milestone management.</span>
-**9** |v1.2     | <span id="v12-overview">Move code towards v2.0 in small steps, start documenting design/implementation details in DG.</span>
+**3** |inception| <span id="inception-overview">Continue Phase 1. Decide on a overall project direction %%(user profile, problem addressed, societal impact, optimize or morph?).%%</span>
+**4** |mid-v1.0 | <span id="mid-v10-overview">Move towards completing Phase 1 of the project. Achieve some team tasks </span>
+**5** |v1.0     | <span id="v10-overview">Decide on requirements %%(user stories, use cases, non-functional requirements).%%</span>
+**6** |mid-v1.1 | <span id="mid-v11-overview">Conceptualize product and document it as a user guide(draft), draft a rough project plan.</span>
+**7** |v1.1     | <span id="v11-overview">Set up Phase 2 project repo and start moving documents and code to it. Do local-impact changes to the code base. Submit UG for review.</span>
+**8** |mid-v1.2 | <span id="mid-v12-overview">Attempt to do global-impact changes to the code base. Adjust project schedule/rigor as needed, start proper milestone management.</span>
+**9** |v1.2     | <span id="v12-overview">Update UG if necessary. Move code towards v2.0 in small steps, start documenting design/implementation details in DG.</span>
 **10**|mid-v1.3 | <span id="mid-v13-overview">Complete a draft of the DG and seek feedback from your tutor. Continue to enhance features. Make code RepoSense-compatible. Try doing a proper release.</span>
 **11**|v1.3     | <span id="v13-overview">Release as a jar file, release updated user guide, peer-test released products, verify code authorship. Seek code quality comments from your tutor</span>
 **12**|mid-v1.4 | <span id="mid-v14-overview">Tweak as per peer-testing results, draft Project Portfolio Page, practice product demo.</span>

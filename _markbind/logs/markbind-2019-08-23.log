@@ -1,0 +1,29 @@
+2019-08-22T21:35:20.711Z - info: Website generation started at 5:35:17 AM
+2019-08-22T21:35:24.075Z - info: Building assets...
+2019-08-22T21:35:26.368Z - info: Assets built
+2019-08-22T21:35:26.382Z - info: Generating pages...
+2019-08-22T21:38:48.501Z - info: Pages built
+2019-08-22T21:39:33.088Z - info: Website generation complete! Total build time: 255.415s
+2019-08-22T21:39:33.154Z - info: Serving "D:\Teaching\CS2113\AY1920Sem1\website\_site" at http://127.0.0.1:8080
+2019-08-22T21:39:33.155Z - info: Press CTRL+C to stop ...
+2019-08-22T21:39:33.209Z - info: Site data built
+2019-08-22T21:45:33.792Z - error: uncaughtException: EBUSY: resource busy or locked, unlink 'D:\Teaching\CS2113\AY1920Sem1\website\_site\book\architecture\architecturalStyles\nTier\what\index.html' date=Fri Aug 23 2019 05:45:33 GMT+0800 (Singapore Standard Time), pid=21752, uid=null, gid=null, cwd=D:\Teaching\CS2113\AY1920Sem1\website, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\index.js, build], rss=63332352, heapTotal=60604416, heapUsed=33932184, external=1142143, loadavg=[0, 0, 0], uptime=383042
+Error: EBUSY: resource busy or locked, unlink 'D:\Teaching\CS2113\AY1920Sem1\website\_site\book\architecture\architecturalStyles\nTier\what\index.html'
+    at Object.unlinkSync (fs.js:956:3)
+    at rimrafSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:306:17)
+    at C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:342:5
+    at Array.forEach (<anonymous>)
+    at rmkidsSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:341:26)
+    at rmdirSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:334:7)
+    at rimrafSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:304:9)
+    at C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:342:5
+    at Array.forEach (<anonymous>)
+    at rmkidsSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:341:26)
+    at rmdirSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:334:7)
+    at rimrafSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:304:9)
+    at C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:342:5
+    at Array.forEach (<anonymous>)
+    at rmkidsSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:341:26)
+    at rmdirSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:334:7)
+2019-08-22T21:46:55.129Z - info: Website generation started at 5:46:53 AM
+2019-08-22T21:46:56.895Z - info: Building assets...

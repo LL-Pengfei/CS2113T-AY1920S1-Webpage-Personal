@@ -21,10 +21,11 @@ The [link to our classroom :glyphicon-blackboard:](https://repl.it/classroom/inv
 <panel src="../../admin/project-teams.md#main" header="Admin {{ icon_embedding }} Team Forming :star:" minimized />
 
 **All students**: 
-* Confirm your team ID with the tutor. It should be of the form `TUTORIAL_ID-TEAM_NUMBER` e.g. `M11-1` (`M`on `11`00 slot, team `1`)
+* Confirm your team ID with the tutor. It should be of the form `MODULE-TUTORIAL_ID-TEAM_NUMBER` e.g, `CS2113T-W12-2` (`CS2113T` team from the `W`ed `12`00 slot, team `2`)
 
 ## Tutorial activity
 
+<!--
 * In Addressbook Level 1, apply the following refactorings, where applicable. Use the IDE to aid refactoring.
   1. [Consolidate Conditional Expression](https://refactoring.com/catalog/consolidateConditionalExpression.html)
   2. [Decompose Conditional](https://refactoring.com/catalog/decomposeConditional.html)

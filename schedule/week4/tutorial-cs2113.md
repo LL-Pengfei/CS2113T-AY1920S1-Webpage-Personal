@@ -1,6 +1,18 @@
 {% from "schedule/index.md" import show_week_pagetop with context%}
 {{ show_week_pagetop(4, "tutorial") }}
 
+**Suggested tutorial activities**
+
+### Practice GitHub PR workflow
+
+- Follow instructions from your tutor to complete this exercise.
+
+<br><br>
+
+Additional topics TBD
+
+<!--
+
 <tip-box type="important"> 
 
 At this point we would like to ensure that **you are able to create branch-based PRs without accidentally mixing commits** between PRs (a common mistake)
@@ -142,4 +154,4 @@ Relevant exercise in Addressbook-Level3: [[User stories]({{module_org}}/addressb
 
 Relevant exercise in Addressbook-Level3: [[User cases]({{module_org}}/addressbook-level3/blob/master/docs/LearningOutcomes.adoc#utilize-use-cases-code-lo-usecases-code)]
 
-
+-->

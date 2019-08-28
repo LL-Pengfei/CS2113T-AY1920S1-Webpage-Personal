@@ -18,6 +18,7 @@
     <li><a href="{{ivle_announcements}}" target="_blank" class="dropdown-item"><md>:glyphicon-bullhorn:</md> Announcements</a></li>
     <li><a href="{{ivle_files}}" target="_blank" class="dropdown-item"><md>:fas-file-upload:</md> File Submissions</a></li>
     <li><a href="{{baseUrl}}/admin/tutorials.html" target="_blank" class="dropdown-item"><md>:glyphicon-calendar:</md> Tutorial Schedule</a></li>
+    <li><a href="https://github.com/nusCS2113-AY1920S1/duke" target="_blank" class="dropdown-item"><md>:glyphicon-git:</md> Duke </a></li>
     <li><a href="{{java_coding_standard}}" target="_blank" class="dropdown-item"><md>:fas-code:</md> Java Coding Standard</a></li>
     <li><a href="{{module_org}}/samplerepo-things" target="_blank" class="dropdown-item">{{ icon_repo }} samplerepo-things</a></li>
     <li><a href="{{baseUrl}}/admin/projectList.html" class="dropdown-item"><md>:fas-th-list:</md> Projects List</a></li>

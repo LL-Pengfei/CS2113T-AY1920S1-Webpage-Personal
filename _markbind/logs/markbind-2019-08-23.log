@@ -27,3 +27,10 @@ Error: EBUSY: resource busy or locked, unlink 'D:\Teaching\CS2113\AY1920Sem1\web
     at rmdirSync (C:\Users\anarayan\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\rimraf\rimraf.js:334:7)
 2019-08-22T21:46:55.129Z - info: Website generation started at 5:46:53 AM
 2019-08-22T21:46:56.895Z - info: Building assets...
+2019-08-22T21:46:58.396Z - info: Assets built
+2019-08-22T21:46:58.397Z - info: Generating pages...
+2019-08-22T21:50:09.222Z - info: Pages built
+2019-08-22T21:50:55.662Z - info: Website generation complete! Total build time: 242.339s
+2019-08-22T21:50:55.664Z - info: Build success!
+2019-08-22T21:50:55.699Z - info: Site data built
+2019-08-22T21:51:44.818Z - info: Deployed!
